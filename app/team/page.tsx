@@ -7,7 +7,7 @@ const teamMembers = [
     education: "Johns Hopkins University & University of Cambridge",
     degree: "BA Mathematics, Economics (2024), BS/MS Applied Math & Statistics (2024)",
     experience: "Minor League Baseball Scheduling, Modeling & Analysis for DoD",
-    image: "/team/sam-oberly.png",
+    image: "./team/sam-oberly.png",
   },
   {
     name: "Abdelrahman Hamimi",
@@ -15,7 +15,7 @@ const teamMembers = [
     education: "Johns Hopkins University",
     degree: "BS/MS Computer Science (2024), BA Economics (2024)",
     experience: "Data Analyst at GEICO, Software Engineering & Sports Analytics Research",
-    image: "/team/abdelrahman-hamimi.jpeg",
+    image: "./team/abdelrahman-hamimi.jpeg",
   },
   {
     name: "Ashley Gigon",
@@ -23,7 +23,7 @@ const teamMembers = [
     education: "Columbia University & Providence College",
     degree: "BS Physics (2022), BS/MS Mechanical Engineering (2023)",
     experience: "DoD Weapons Analyst, Nordson Builds Corporation Design Engineer, Goldman Sachs Engineering",
-    image: "/team/ashley-gigon.png",
+    image: "./team/ashley-gigon.png",
   },
   {
     name: "Zachary Dermody",
@@ -31,7 +31,7 @@ const teamMembers = [
     education: "Johns Hopkins University",
     degree: "BA Economics (2024), Minor in Computer Science (2024)",
     experience: "Operations Analyst at Amazon, NLP Research to Combat Vaccine Misinformation",
-    image: "/team/zachary-dermody-new.jpeg",
+    image: "./team/zachary-dermody-new.jpeg",
   },
 ]
 

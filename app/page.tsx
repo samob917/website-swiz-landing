@@ -38,7 +38,7 @@ export default function HomePage() {
             <div className="grid md:grid-cols-3 gap-12 items-center">
               <div className="flex items-center justify-center">
                 <Image
-                  src="/johns-hopkins-logo.png"
+                  src="./johns-hopkins-logo.png"
                   alt="Johns Hopkins"
                   width={120}
                   height={80}
@@ -47,7 +47,7 @@ export default function HomePage() {
               </div>
               <div className="flex items-center justify-center">
                 <Image
-                  src="/mass-general-brigham-logo.png"
+                  src="./mass-general-brigham-logo.png"
                   alt="Mass General Brigham"
                   width={160}
                   height={80}
@@ -56,7 +56,7 @@ export default function HomePage() {
               </div>
               <div className="flex items-center justify-center">
                 <Image
-                  src="/hca-healthcare-logo.png"
+                  src="./hca-healthcare-logo.png"
                   alt="HCA Healthcare"
                   width={140}
                   height={80}
