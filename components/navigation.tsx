@@ -14,7 +14,7 @@ export function Navigation() {
       <div className="flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-3">
-          <Image src="/logo.png" alt="Scheduling Wizard" width={24} height={30} className="w-6 h-7" />
+          <Image src="./logo.png" alt="Scheduling Wizard" width={24} height={30} className="w-6 h-7" />
           <span className="text-lg font-medium text-white">SCHEDULING WIZARD</span>
         </Link>
 
