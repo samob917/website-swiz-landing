@@ -5,28 +5,26 @@ import { Button } from "@/components/ui/button"
 export default function HomePage() {
   return (
     <>
-      {/* Hero Section */}
-      <section className="hero-background medical-pattern max-h-screen flex items-center justify-center">
-        <div className="max-w-7xl mx-auto px-8 text-center">
-          <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl hero-text text-white mb-8">
-            <span className="hero-text-bold">Improve your program's</span>
-            <br />
-            <span className="hero-text-bold text-yellow-400">schedule creation</span>
-          </h1>
+{/* Hero Section */}
+<section className="hero-background medical-pattern h-screen flex items-center justify-center overflow-hidden">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+    <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl hero-text text-white mb-4 leading-tight">
+      <span className="hero-text-bold">Improve your program's</span>
+      <br />
+      <span className="hero-text-bold text-yellow-400">schedule creation</span>
+    </h1>
 
-          <p className="text-xl md:text-3xl text-white/90 max-w-6xl mx-auto mb-12 leading-relaxed">
-            We save residency and fellowship program directors and chief residents hundreds of hours through our
-            cutting-edge approach to Block, Call, and Clinic schedule creation.
-          </p>
+    <p className="text-lg sm:text-xl md:text-2xl text-white/90 max-w-4xl mx-auto mb-8 leading-relaxed">
+      We save residency and fellowship program directors and chief residents hundreds of hours through our cutting-edge approach to Block, Call, and Clinic schedule creation.
+    </p>
 
-          <Link href="/contact">
-            <Button className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold text-2xl px-24 py-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-              Take back your time!
-            </Button>
-          </Link>
-        </div>
-      </section>
-
+    <Link href="/contact">
+      <Button className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold text-lg sm:text-xl md:text-2xl px-10 py-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+        Take back your time!
+      </Button>
+    </Link>
+  </div>
+</section>
       {/* Content Section */}
       <section className="bg-white py-20">
         <div className="max-w-6xl mx-auto px-8">
