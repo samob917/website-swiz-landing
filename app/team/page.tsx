@@ -18,14 +18,6 @@ const teamMembers = [
     image: "./team/abdelrahman-hamimi.jpeg",
   },
   {
-    name: "Ashley Gigon",
-    title: "Cofounder & COO",
-    education: "Columbia University & Providence College",
-    degree: "BS Physics (2022), BS/MS Mechanical Engineering (2023)",
-    experience: "DoD Weapons Analyst, Nordson Builds Corporation Design Engineer, Goldman Sachs Engineering",
-    image: "./team/ashley-gigon.png",
-  },
-  {
     name: "Zachary Dermody",
     title: "Cofounder & CFO",
     education: "Johns Hopkins University",
