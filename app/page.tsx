@@ -1,30 +1,59 @@
+"use client"
+
 import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 
 export default function HomePage() {
+  const scrollToContent = () => {
+    window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })
+  }
+
   return (
     <>
-{/* Hero Section */}
-<section className="hero-background medical-pattern h-screen flex items-center justify-center overflow-hidden">
-  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-    <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl hero-text text-white mb-4 leading-tight">
-      <span className="hero-text-bold">Improve your program's</span>
-      <br />
-      <span className="hero-text-bold text-yellow-400">schedule creation</span>
-    </h1>
+      {/* Hero Section */}
+      <section className="hero-background medical-pattern min-h-screen flex items-center justify-center relative">
+        <div className="max-w-7xl mx-auto px-8 text-center">
+          <h1 className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl hero-text text-white mb-8">
+            <span className="hero-text-bold">Improve your program's</span>
+            <br />
+            <span className="hero-text-bold text-yellow-400">schedule creation</span>
+          </h1>
 
-    <p className="text-lg sm:text-xl md:text-2xl text-white/90 max-w-4xl mx-auto mb-8 leading-relaxed">
-      We save residency and fellowship program directors and chief residents hundreds of hours through our cutting-edge approach to Block, Call, and Clinic schedule creation.
-    </p>
+          <p className="text-xl md:text-3xl text-white/90 max-w-6xl mx-auto mb-12 leading-relaxed">
+            We save residency program directors, chief residents, and attending physicians 
+            hundreds of hours through our cutting-edge approach to Block, Call, Clinic, and Attending schedule creation.
+          </p>
 
-    <Link href="/contact">
-      <Button className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold text-lg sm:text-xl md:text-2xl px-10 py-6 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
-        Take back your time!
-      </Button>
-    </Link>
-  </div>
-</section>
+          <Link href="/contact">
+            <Button className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold text-2xl px-24 py-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
+              Take back your time!
+            </Button>
+          </Link>
+        </div>
+
+        {/* Scroll Indicator - Permanent small arrow */}
+        <div 
+          onClick={scrollToContent}
+          className="absolute bottom-8 left-1/2 transform -translate-x-1/2 cursor-pointer group"
+        >
+          <div className="flex flex-col items-center">
+            <span className="text-white/70 text-xs font-medium uppercase tracking-wider mb-1 group-hover:text-white transition-colors">
+              Scroll Down
+            </span>
+            {/* Small arrow indicator */}
+            <svg 
+              className="w-4 h-4 text-white/70 group-hover:text-white transition-colors animate-bounce" 
+              fill="none" 
+              stroke="currentColor" 
+              viewBox="0 0 24 24"
+            >
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+            </svg>
+          </div>
+        </div>
+      </section>
+
       {/* Content Section */}
       <section className="bg-white py-20">
         <div className="max-w-6xl mx-auto px-8">
@@ -36,7 +65,7 @@ export default function HomePage() {
             <div className="grid md:grid-cols-3 gap-12 items-center">
               <div className="flex items-center justify-center">
                 <Image
-                  src="./johns-hopkins-logo.png"
+                  src="/johns-hopkins-logo.png"
                   alt="Johns Hopkins"
                   width={120}
                   height={80}
@@ -45,7 +74,7 @@ export default function HomePage() {
               </div>
               <div className="flex items-center justify-center">
                 <Image
-                  src="./mass-general-brigham-logo.png"
+                  src="/mass-general-brigham-logo.png"
                   alt="Mass General Brigham"
                   width={160}
                   height={80}
@@ -54,7 +83,7 @@ export default function HomePage() {
               </div>
               <div className="flex items-center justify-center">
                 <Image
-                  src="./hca-healthcare-logo.png"
+                  src="/hca-healthcare-logo.png"
                   alt="HCA Healthcare"
                   width={140}
                   height={80}
@@ -65,7 +94,7 @@ export default function HomePage() {
           </div>
 
           {/* Features Grid */}
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="bg-gray-50 rounded-2xl p-8 text-center">
               <h3 className="text-2xl font-semibold text-gray-900 mb-4">Block Schedules</h3>
               <p className="text-gray-600 leading-relaxed">
@@ -85,6 +114,34 @@ export default function HomePage() {
               <p className="text-gray-600 leading-relaxed">
                 Fair and efficient call distribution with ACGME duty hour compliance and coverage optimization.
               </p>
+            </div>
+
+            <div className="bg-gray-50 rounded-2xl p-8 text-center">
+              <h3 className="text-2xl font-semibold text-gray-900 mb-4">Attending Schedules</h3>
+              <p className="text-gray-600 leading-relaxed">
+                Meeting contractual obligations, ensuring fair coverage distribution, and easily handling time-off requests.
+              </p>
+            </div>
+          </div>
+
+          {/* Testimonial Section */}
+          <div className="mt-20 bg-blue-50 rounded-3xl p-10">
+            <div className="max-w-4xl mx-auto text-center">
+              <blockquote className="text-lg text-gray-700 leading-relaxed mb-6">
+                <p className="mb-4">
+                  "We used Scheduling Wizard to create our fellowship block schedule for our training program. We provided the team with the vacation requests of our clinical fellows and scheduling requirements for various rotations, and Scheduling Wizard quickly followed up with a couple of clarifying questions. Within such a short time, our yearly block fellowship schedule was complete!"
+                </p>
+                <p>
+                  "As a chief fellow, scheduling can be one of the most stressful and time-consuming parts of the role, but Scheduling Wizard made the entire process seamless. I would highly recommend their services to any program looking for a reliable and efficient way to build equitable schedules!"
+                </p>
+              </blockquote>
+              
+              <div className="flex items-center justify-center">
+                <div>
+                  <p className="font-semibold text-gray-900">Miriam Quinlan</p>
+                  <p className="text-sm text-gray-600">Clinical Fellow, Johns Hopkins Neurocritical Care Fellowship</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

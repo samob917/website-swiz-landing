@@ -1,3 +1,4 @@
+
 "use client"
 
 import { useState } from "react"
@@ -14,7 +15,7 @@ export function Navigation() {
       <div className="flex justify-between items-center">
         {/* Logo */}
         <Link href="/" className="flex items-center space-x-3">
-          <Image src="./logo.png" alt="Scheduling Wizard" width={24} height={30} className="w-6 h-7" />
+          <Image src="/logo.png" alt="Scheduling Wizard" width={24} height={30} className="w-6 h-7" />
           <span className="text-lg font-medium text-white">SCHEDULING WIZARD</span>
         </Link>
 
@@ -22,6 +23,9 @@ export function Navigation() {
         <div className="hidden md:flex items-center space-x-8">
           <Link href="/" className="nav-link font-medium">
             Solutions
+          </Link>
+          <Link href="/demo" className="nav-link font-medium">
+            Demo
           </Link>
           <Link href="/team" className="nav-link font-medium">
             Team
@@ -53,6 +57,13 @@ export function Navigation() {
               onClick={() => setIsOpen(false)}
             >
               Solutions
+            </Link>
+            <Link
+              href="/demo"
+              className="block text-white hover:text-yellow-400 font-medium"
+              onClick={() => setIsOpen(false)}
+            >
+              Demo
             </Link>
             <Link
               href="/team"
