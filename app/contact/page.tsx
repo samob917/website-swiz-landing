@@ -82,11 +82,12 @@ export default function ContactPage() {
       </section>
 
       {/* Contact Form */}
-      <section className="bg-white py-20">
+      <section className="bg-white py-20" id="ContactForm">
         <div className="max-w-4xl mx-auto px-8">
           <div className="grid lg:grid-cols-2 gap-16">
             {/* Form */}
             <div>
+            
               <h2 className="text-3xl font-semibold text-gray-900 mb-8">Send us a message</h2>
 
               {submitStatus && (
@@ -105,14 +106,14 @@ export default function ContactPage() {
                 <div className="grid md:grid-cols-2 gap-4">
                   <div>
                     <label htmlFor="name" className="block text-sm font-medium text-gray-700 mb-2">
-                      Full Name *
+                      Name *
                     </label>
                     <Input
                       id="name"
                       name="name"
                       type="text"
                       required
-                      placeholder="Your full name"
+                      placeholder="Your name"
                       disabled={isSubmitting}
                     />
                   </div>
@@ -146,13 +147,12 @@ export default function ContactPage() {
 
                 <div>
                   <label htmlFor="subject" className="block text-sm font-medium text-gray-700 mb-2">
-                    Subject *
+                    Subject
                   </label>
                   <Input
                     id="subject"
                     name="subject"
                     type="text"
-                    required
                     placeholder="What can we help you with?"
                     disabled={isSubmitting}
                   />
@@ -167,7 +167,7 @@ export default function ContactPage() {
                     name="message"
                     required
                     rows={6}
-                    placeholder="Tell us about your program's scheduling challenges..."
+                    placeholder="Tell us about your program's scheduling challenges; let's set up a meeting!"
                     disabled={isSubmitting}
                   />
                 </div>
