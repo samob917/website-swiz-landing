@@ -70,7 +70,7 @@ export default function DemoPage() {
             <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
               Join leading medical institutions who are already saving hundreds of hours with Scheduling Wizard.
             </p>
-            <a target="_blank" href="https://calendly.com/zacdermody-schedulingwiz/30-minute-meeting-clone">
+            <a target="_blank" href="https://calendly.com/zacdermody-schedulingwiz/new-meeting?back=1&month=2025-10">
               <button className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold text-lg px-8 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 transform hover:scale-105">
                 Schedule a Personalized Consultation
               </button>
