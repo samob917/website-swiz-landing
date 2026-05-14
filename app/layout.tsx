@@ -25,9 +25,9 @@ export default function RootLayout({
       <head>
         <link rel="icon" href="./logo.png" sizes="any" />
         </head>
-      <body className={inter.className}>
+      <body className={`${inter.className} min-h-screen flex flex-col`}>
         <Navigation />
-        <main>
+        <main className="flex-1">
           <GoogleAnalytics />
           {children}
         </main>

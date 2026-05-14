@@ -1,0 +1,156 @@
+{
+  "keyword": "internal medicine residency scheduling",
+  "slug": "internal-medicine-residency-scheduling",
+  "anchor": "Internal Medicine Residency Scheduling",
+  "title": "Internal Medicine Residency Scheduling | Save Time | Scheduling Wizard",
+  "description": "Internal medicine residency scheduling is a complex burden. Our managed service takes your constraints and delivers a complete, ACGME-compliant schedule in Excel.",
+  "h1": "Internal Medicine Residency Scheduling, Solved",
+  "paragraph": "Stop wrestling with complex software. Submit your IM program's rules, preferences, and ACGME constraints. Scheduling Wizard delivers your complete schedule.",
+  "category": "specialty",
+  "data": {
+    "cta": {
+      "title": "Get Your IM Schedule Done Right",
+      "buttonText": "Book a Free Scheduling Consult",
+      "description": "Join the departments across 13 hospitals that already trust Scheduling Wizard with their residency scheduling."
+    },
+    "faq": [
+      {
+        "answer": "Yes. ACGME compliance is mathematically enforced at schedule generation time, not manually checked after the fact. Scheduling Wizard's optimization engine has internal medicine and subspecialty-specific ACGME rules built in — including the 80-hour weekly limit, 10-hour minimum rest periods, and other duty hour requirements. Your schedule is compliant before it is ever delivered.",
+        "question": "Is Scheduling Wizard compliant with internal medicine ACGME duty hour rules?"
+      },
+      {
+        "answer": "Scheduling Wizard's clinic coordination feature is designed specifically for X+Y scheduling structures common in internal medicine programs. The engine balances continuity clinic half-day assignments against block rotation and call obligations simultaneously, ensuring clinics are always staffed without creating conflicts elsewhere in the schedule.",
+        "question": "How does Scheduling Wizard handle internal medicine X+Y scheduling models?"
+      },
+      {
+        "answer": "Scheduling Wizard delivers complete block rotation schedules, call schedules, clinic schedules, and attending schedules for internal medicine programs. All four schedule types are optimized simultaneously, so a change in one automatically resolves dependencies in the others. Schedules are delivered as Excel files.",
+        "question": "What types of schedules does Scheduling Wizard produce for IM programs?"
+      },
+      {
+        "answer": "Your program's constraints, rules, and configurations persist with Scheduling Wizard year over year. When a new chief resident takes over, they inherit a fully working, optimized system rather than starting from a blank spreadsheet. This institutional continuity is one of the core reasons programs choose Scheduling Wizard over self-service software.",
+        "question": "What happens to our scheduling setup when our chief resident changes?"
+      },
+      {
+        "answer": "Yes. Many Scheduling Wizard clients use Amion or QGenda alongside the service. Scheduling Wizard handles schedule creation and optimization, delivering finished schedules as Excel files. Programs then upload those files to their existing Amion or QGenda accounts for day-to-day viewing and access. There is no conflict between the two.",
+        "question": "Can Scheduling Wizard integrate with Amion or QGenda for schedule viewing?"
+      },
+      {
+        "answer": "The process has three steps. First, you submit your program's constraints — rotation requirements, ACGME rules, resident preferences, call fairness targets, and clinic assignments. Second, Scheduling Wizard's optimization engine builds your complete, compliant schedule. Third, you receive a finished Excel file ready to review, approve, and publish. No software to learn, no manual optimization required.",
+        "question": "How does the internal medicine residency scheduling process work with Scheduling Wizard?"
+      }
+    ],
+    "hero": {
+      "title": "Internal Medicine Residency Scheduling Done For You",
+      "description": "Submit your IM program's constraints and receive complete, ACGME-compliant block, call, and clinic schedules as ready-to-use Excel files. No software to learn."
+    },
+    "features": {
+      "items": [
+        {
+          "id": "acgme-compliance",
+          "title": "IM Duty Hour Rules Enforced Automatically",
+          "eyebrow": "ACGME Compliance",
+          "highlights": [
+            "Subspecialty rules built in",
+            "Violations prevented at generation",
+            "Compliant across all PGY levels"
+          ],
+          "description": "Internal medicine ACGME rules — including 80-hour weekly limits, 10-hour rest minimums, and subspecialty-specific requirements — are mathematically enforced at schedule generation time. Violations are prevented, not discovered after the fact."
+        },
+        {
+          "id": "clinic-scheduling",
+          "title": "X+Y Clinic Scheduling Without Conflicts",
+          "eyebrow": "Clinic Coordination",
+          "highlights": [
+            "Continuity clinic half-days protected",
+            "Call conflicts eliminated automatically",
+            "X+Y model fully supported"
+          ],
+          "description": "Scheduling Wizard manages the intricate interplay between continuity clinic half-days and rotation or call obligations specific to internal medicine X+Y scheduling models, ensuring every clinic session is covered without creating downstream conflicts."
+        },
+        {
+          "id": "block-scheduling",
+          "title": "Year-Long IM Rotation Schedules",
+          "eyebrow": "Block Scheduling",
+          "highlights": [
+            "PGY requirements respected",
+            "Elective preferences integrated",
+            "Multi-site coverage balanced"
+          ],
+          "description": "Generates complete year-long block rotation schedules for your internal medicine program, respecting PGY-level requirements, required rotation minimums, elective preferences, and multi-site coverage demands across your hospital system."
+        },
+        {
+          "id": "institutional-continuity",
+          "title": "Scheduling Knowledge That Persists Year Over Year",
+          "eyebrow": "Program Continuity",
+          "highlights": [
+            "No annual retraining required",
+            "Rules preserved across chief rotations",
+            "New chiefs onboard instantly"
+          ],
+          "description": "Your internal medicine program's rules, constraints, and configurations stay with Scheduling Wizard. Incoming chiefs inherit a fully optimized, working system instead of starting from scratch with a blank spreadsheet each academic year."
+        },
+        {
+          "id": "managed-service",
+          "title": "Done For You Scheduling Delivery",
+          "eyebrow": "Managed Service",
+          "highlights": [
+            "No software to learn or operate",
+            "Delivered as ready-to-use Excel files",
+            "Works with Amion and QGenda"
+          ],
+          "description": "Scheduling Wizard is not software your chief residents have to learn. Submit your constraints and receive finished IM schedules as Excel files — ready to review, approve, and upload to your existing viewing tools."
+        }
+      ],
+      "title": "Built for Internal Medicine Scheduling",
+      "description": "Every feature is designed around the complexity of IM programs — from X+Y clinic coordination to ACGME duty hour enforcement across PGY levels."
+    },
+    "problems": {
+      "items": [
+        {
+          "title": "X+Y Coordination Breaks Down",
+          "description": "Balancing continuity clinic half-days against block rotations and call obligations in X+Y models creates cascading conflicts that no spreadsheet can reliably prevent."
+        },
+        {
+          "title": "ACGME Rules Keep Changing",
+          "description": "Internal medicine duty hour regulations and subspecialty-specific rules require constant vigilance. One missed constraint can jeopardize your program's accreditation standing."
+        },
+        {
+          "title": "Chiefs Start From Scratch Annually",
+          "description": "Every year a new chief inherits a blank spreadsheet and tribal knowledge. Weeks of ramp-up time is lost before a single schedule is built."
+        }
+      ],
+      "title": "IM Scheduling Is Uniquely Complex",
+      "description": "Internal medicine programs face scheduling demands that overwhelm manual processes and outpace generic software."
+    },
+    "solution": {
+      "title": "Scheduling Wizard Handles Your IM Program",
+      "description": "Submit your internal medicine program's rotation requirements, ACGME rules, clinic assignments, and resident preferences. Scheduling Wizard's optimization engine produces finished, compliant block, call, and clinic schedules delivered as Excel files — ready to upload to Amion or QGenda. No software to learn. No institutional knowledge lost when chiefs rotate."
+    },
+    "metaTitle": "Internal Medicine Residency Scheduling | Save Time | Scheduling Wizard",
+    "metaDescription": "Internal medicine residency scheduling is a complex burden. Our managed service takes your constraints and delivers a complete, ACGME-compliant schedule in Excel."
+  },
+  "searchIntent": {
+    "keyword": "internal medicine residency scheduling",
+    "searchIntents": [
+      "As a chief resident in internal medicine, I'm struggling to create a compliant and fair rotation schedule that balances everyone’s preferences and ACGME rules. I need a solution that saves me time without learning complex software.",
+      "As a program coordinator for an internal medicine residency, I want to ensure our schedules are ACGME-compliant and account for unplanned absences, but I can't manage all the moving pieces effectively on my own.",
+      "I’m a residency program director looking for a reliable way to automate the scheduling for my internal medicine residents while maintaining institutional continuity and fairness in call coverage. I need a service that specializes in GME scheduling constraints.",
+      "As a chief fellow, I'm overwhelmed with creating a call schedule that meets all duty hour requirements while accommodating my colleagues' requests. I need an easy solution that won’t add more work to my plate."
+    ]
+  },
+  "seoMetadata": {
+    "h1": "Internal Medicine Residency Scheduling, Solved",
+    "metaTitle": "Internal Medicine Residency Scheduling | Save Time | Scheduling Wizard",
+    "h1Paragraph": "Stop wrestling with complex software. Submit your IM program's rules, preferences, and ACGME constraints. Scheduling Wizard delivers your complete schedule.",
+    "metaDescription": "Internal medicine residency scheduling is a complex burden. Our managed service takes your constraints and delivers a complete, ACGME-compliant schedule in Excel."
+  },
+  "finalMetadata": {
+    "slug": "internal-medicine-residency-scheduling",
+    "anchor": "Internal Medicine Residency Scheduling",
+    "category": "specialty",
+    "generatedAt": "2026-05-11T09:44:00.232Z"
+  },
+  "id": "cmp100s4k000qyv0i9xm4e15u",
+  "createdAt": "2026-05-11T09:27:51.140Z",
+  "updatedAt": "2026-05-11T09:44:00.234Z"
+}

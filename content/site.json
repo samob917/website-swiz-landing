@@ -1,0 +1,91 @@
+{
+  "name": "Scheduling Wizard",
+  "domain": "https://schedulingwiz.com",
+  "globalSeo": {
+    "titleTemplate": "%s | Scheduling Wizard",
+    "defaultDescription": "Custom scheduling automation for medical residencies and fellowships. Save hundreds of hours with automated Block, Clinic, and Call schedules.",
+    "ogImage": "/logo.png",
+    "jsonLd": []
+  },
+  "navbar": {
+    "logo": {
+      "type": "image",
+      "src": "/logo.png",
+      "alt": "Scheduling Wizard"
+    },
+    "items": [
+      { "label": "Solutions", "href": "/" },
+      { "label": "Use Cases", "href": "/uses" },
+      { "label": "Blog", "href": "/blog" },
+      { "label": "Demo", "href": "/demo" },
+      { "label": "Customers", "href": "/customers" },
+      { "label": "Contact", "href": "/contact" }
+    ],
+    "cta": {
+      "label": "Book a Meeting",
+      "href": "/contact"
+    }
+  },
+  "footer": {
+    "columns": [
+      {
+        "heading": "Product",
+        "links": [
+          { "label": "Use Cases", "href": "/uses" },
+          { "label": "Demo", "href": "/demo" }
+        ]
+      },
+      {
+        "heading": "Company",
+        "links": [
+          { "label": "Customers", "href": "/customers" },
+          { "label": "Team", "href": "/team" },
+          { "label": "Blog", "href": "/blog" },
+          { "label": "Contact", "href": "/contact" }
+        ]
+      }
+    ],
+    "legal": {
+      "copyright": "© 2026 Scheduling Wizard. All rights reserved.",
+      "links": []
+    }
+  },
+  "blog": {
+    "seo": {
+      "title": "Scheduling Wizard Blog",
+      "titleTemplate": "%s | Scheduling Wizard Blog",
+      "description": "Insights on medical scheduling, residency operations, fellowship programs, and the work behind every block, clinic, and call schedule."
+    },
+    "heading": "Blog",
+    "subtitle": "Insights on medical scheduling, residency operations, fellowship programs, and the work behind every block, clinic, and call schedule.",
+    "highlightedTags": [
+      {
+        "label": "Featured",
+        "value": "featured",
+        "description": "Featured writing from the Scheduling Wizard team."
+      }
+    ],
+    "sitemap": {
+      "priority": 0.9,
+      "changeFrequency": "daily"
+    }
+  },
+  "usesIndex": {
+    "seo": {
+      "title": "Use Cases — Scheduling Wizard",
+      "description": "See how program directors, chiefs, and administrators use Scheduling Wizard across departments, specialties, and program structures."
+    },
+    "heading": "Use Cases",
+    "description": "From neurology block schedules to surgery call rotations — see how Scheduling Wizard handles the most complex requirements across every department.",
+    "categoryLabels": {
+      "role": "role",
+      "setting": "setting",
+      "specialty": "specialty",
+      "competitor": "competitor"
+    },
+    "sitemap": {
+      "priority": 0.9,
+      "changeFrequency": "weekly"
+    }
+  }
+}

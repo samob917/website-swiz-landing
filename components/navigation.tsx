@@ -24,11 +24,14 @@ export function Navigation() {
           <Link href="/" className="nav-link font-medium">
             Solutions
           </Link>
+          <Link href="/uses" className="nav-link font-medium">
+            Use Cases
+          </Link>
+          <Link href="/blog" className="nav-link font-medium">
+            Blog
+          </Link>
           <Link href="/demo" className="nav-link font-medium">
             Demo
-          </Link>
-          <Link href="/team" className="nav-link font-medium">
-            Team
           </Link>
           <Link href="/customers" className="nav-link font-medium">
             Customers
@@ -52,6 +55,8 @@ export function Navigation() {
           <div className="space-y-4">
             {[
               { href: "/", label: "Solutions" },
+              { href: "/uses", label: "Use Cases" },
+              { href: "/blog", label: "Blog" },
               { href: "/demo", label: "Demo" },
               { href: "/team", label: "Team" },
               { href: "/customers", label: "Customers" },

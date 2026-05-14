@@ -1,0 +1,156 @@
+{
+  "keyword": "qgenda alternative",
+  "slug": "qgenda-alternative",
+  "anchor": "QGenda Alternative",
+  "title": "QGenda Alternative | Managed ACGME Scheduling | Scheduling Wizard",
+  "description": "QGenda alternative for GME programs seeking a managed service. We deliver complete, ACGME-compliant block, call, and clinic schedules as Excel files, freeing your chief residents from complex software.",
+  "h1": "QGenda Alternative for Managed Schedule Creation",
+  "paragraph": "Stop wrestling with software. As a managed QGenda alternative, Scheduling Wizard takes your constraints and delivers a complete, ACGME-compliant schedule.",
+  "category": "competitor",
+  "data": {
+    "cta": {
+      "title": "Ready to Stop Building Schedules Yourself?",
+      "buttonText": "Book a Free Scheduling Consult",
+      "description": "Join 18 departments across 13 hospitals that trust Scheduling Wizard for optimized, compliant schedule creation."
+    },
+    "faq": [
+      {
+        "answer": "Scheduling Wizard replaces QGenda for schedule creation and optimization, not for schedule viewing. Many Scheduling Wizard clients continue using QGenda as their day-to-day viewing and display platform — they simply upload the finished Excel schedule that Scheduling Wizard delivers. The key distinction is that Scheduling Wizard handles the complex work of building and optimizing the schedule, while QGenda serves as the viewer.",
+        "question": "Is Scheduling Wizard a replacement for QGenda?"
+      },
+      {
+        "answer": "ACGME duty hour rules are enforced mathematically at the time the schedule is generated, not checked manually after the fact. The engine includes the 80-hour weekly limit, 10-hour rest requirements, 24-hour hard caps, and subspecialty-specific rules. Compliance is not a post-generation audit — violations are structurally prevented before the schedule is ever produced.",
+        "question": "How does Scheduling Wizard handle ACGME duty hour compliance?"
+      },
+      {
+        "answer": "Scheduling Wizard produces Block rotation schedules, Call schedules, Clinic schedules, and Attending schedules. All four schedule types are optimized simultaneously so that changes in one do not create conflicts in another. Finished schedules are delivered as ready-to-use Excel files that programs can upload to viewing platforms like QGenda.",
+        "question": "What types of schedules does Scheduling Wizard produce?"
+      },
+      {
+        "answer": "No. Scheduling Wizard is a managed service, not self-service software. Chief residents submit their program's constraints and requirements, and the Scheduling Wizard team delivers finished schedules. There is no platform, interface, or software for chiefs to operate or learn.",
+        "question": "Do chief residents need to learn new software to use Scheduling Wizard?"
+      },
+      {
+        "answer": "Subspecialty-specific ACGME rules are built directly into the optimization engine. During sales calls, ACGME compliance is consistently the first question program directors and chiefs ask — and specifically whether the engine knows the rules for their subspecialty. Scheduling Wizard's engine is built to handle those subspecialty distinctions rather than applying generic duty hour rules across all programs.",
+        "question": "How does Scheduling Wizard handle subspecialty-specific ACGME rules?"
+      },
+      {
+        "answer": "Scheduling Wizard handles mid-year revisions including sick leave, parental leave, resident swaps, and new constraints. When changes occur, affected portions of the schedule are re-optimized without disrupting the full schedule. Programs submit the updated constraints and receive a revised schedule rather than rebuilding it manually.",
+        "question": "What happens when scheduling constraints change mid-year?"
+      }
+    ],
+    "hero": {
+      "title": "QGenda Alternative for Managed Schedule Creation",
+      "description": "Stop building schedules in QGenda. Scheduling Wizard delivers complete, ACGME-compliant block, call, and clinic schedules as ready-to-use Excel files."
+    },
+    "features": {
+      "items": [
+        {
+          "id": "managed-service",
+          "title": "Schedule Creation Done For You",
+          "eyebrow": "Managed Service",
+          "highlights": [
+            "No software to learn",
+            "Finished schedules delivered to you",
+            "Works alongside your existing QGenda"
+          ],
+          "description": "Unlike QGenda, Scheduling Wizard is a done-for-you managed service. Submit your constraints and receive a finished, publishable schedule as an Excel file. No software to configure, no training required, no annual ramp-up when chiefs rotate."
+        },
+        {
+          "id": "acgme-compliance",
+          "title": "Compliance Built In at Generation",
+          "eyebrow": "ACGME Compliance",
+          "highlights": [
+            "Violations prevented at generation",
+            "Subspecialty rules built in",
+            "80-hour and rest rules enforced"
+          ],
+          "description": "ACGME duty hour rules are mathematically enforced at the moment the schedule is generated, not manually checked afterward. Subspecialty-specific rules are built into the engine so compliance is never left to interpretation."
+        },
+        {
+          "id": "institutional-continuity",
+          "title": "Scheduling Knowledge That Persists",
+          "eyebrow": "Program Continuity",
+          "highlights": [
+            "Rules preserved year over year",
+            "No annual software retraining",
+            "New chiefs start with a working system"
+          ],
+          "description": "Your program's scheduling rules, constraints, and configurations live with Scheduling Wizard permanently. When your chief residents rotate, incoming chiefs inherit a working, optimized system instead of a blank spreadsheet."
+        },
+        {
+          "id": "block-scheduling",
+          "title": "Optimized Rotation Schedules Generated",
+          "eyebrow": "Block Scheduling",
+          "highlights": [
+            "PGY-level requirements respected",
+            "Elective preferences factored in",
+            "Coverage minimums enforced"
+          ],
+          "description": "Scheduling Wizard generates year-long block rotation schedules that respect PGY-level requirements, elective preferences, coverage minimums, and ACGME rotation mandates — fully optimized, not manually assembled."
+        },
+        {
+          "id": "cross-schedule-resolution",
+          "title": "Block, Call and Clinic Synchronized",
+          "eyebrow": "Schedule Coordination",
+          "highlights": [
+            "All schedule types optimized together",
+            "Changes propagate automatically",
+            "No manual cross-schedule patching"
+          ],
+          "description": "Block, call, clinic, and attending schedules are optimized simultaneously. A change in one automatically propagates across the others, eliminating the cascade of manual fixes that plague programs using self-service tools."
+        }
+      ],
+      "title": "What Scheduling Wizard Does That QGenda Cannot",
+      "description": "Scheduling Wizard handles schedule creation and optimization end-to-end so your team focuses on running the program, not operating software."
+    },
+    "problems": {
+      "items": [
+        {
+          "title": "Software Still Requires Manual Work",
+          "description": "QGenda gives you scheduling tools, but your chief residents still spend hundreds of hours configuring rules, building schedules, and fixing conflicts manually."
+        },
+        {
+          "title": "Knowledge Lost Every Year",
+          "description": "When chiefs rotate annually, hard-won scheduling knowledge walks out the door. New chiefs start from scratch inside complex software with no institutional memory."
+        },
+        {
+          "title": "Compliance Falls on Your Team",
+          "description": "Verifying ACGME duty hour compliance in self-service software is a manual, error-prone process — leaving your program exposed to violations and accreditation risk."
+        }
+      ],
+      "title": "Why Programs Look Beyond QGenda",
+      "description": "QGenda puts the scheduling burden on your team. These are the pain points programs tell us most."
+    },
+    "solution": {
+      "title": "A Done-For-You Alternative to QGenda",
+      "description": "Scheduling Wizard is a managed service, not another software tool. Submit your program's constraints and receive finished, ACGME-compliant Block, Call, Clinic, and Attending schedules as ready-to-use Excel files. Your chiefs never learn new software, and your institutional scheduling knowledge persists year after year."
+    },
+    "metaTitle": "QGenda Alternative | Managed ACGME Scheduling | Scheduling Wizard",
+    "metaDescription": "QGenda alternative for GME programs seeking a managed service. We deliver complete, ACGME-compliant block, call, and clinic schedules as Excel files, freeing your chief residents from complex software."
+  },
+  "searchIntent": {
+    "keyword": "qgenda alternative",
+    "searchIntents": [
+      "A residency program coordinator frustrated with QGenda's limitations is looking for a managed scheduling solution that can automate the creation of ACGME-compliant schedules without burdening chief residents with software complexities.",
+      "A chief resident tired of the time-consuming manual adjustments in QGenda wants an alternative that guarantees optimized rotation schedules while still ensuring adherence to subspecialty-specific ACGME rules.",
+      "A fellowship program director seeking a more efficient way to handle scheduling is searching for alternatives to QGenda that offer comprehensive scheduling services, including call and attending schedules, all while maintaining compliance with ACGME duty hour regulations.",
+      "An administrator in a medical residency program wants to find a scheduling tool that integrates easily with existing platforms like Amion but provides a fully managed service to reduce the operational burden on staff and ensure continuity during chief rotations."
+    ]
+  },
+  "seoMetadata": {
+    "h1": "QGenda Alternative for Managed Schedule Creation",
+    "metaTitle": "QGenda Alternative | Managed ACGME Scheduling | Scheduling Wizard",
+    "h1Paragraph": "Stop wrestling with software. As a managed QGenda alternative, Scheduling Wizard takes your constraints and delivers a complete, ACGME-compliant schedule.",
+    "metaDescription": "QGenda alternative for GME programs seeking a managed service. We deliver complete, ACGME-compliant block, call, and clinic schedules as Excel files, freeing your chief residents from complex software."
+  },
+  "finalMetadata": {
+    "slug": "alternative",
+    "anchor": "QGenda Alternative",
+    "category": "competitor",
+    "generatedAt": "2026-05-11T09:44:03.809Z"
+  },
+  "id": "cmp100rdu000qyv0ijgk5yx3o",
+  "createdAt": "2026-05-11T09:27:50.179Z",
+  "updatedAt": "2026-05-11T10:47:15.792Z"
+}

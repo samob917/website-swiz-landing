@@ -1,0 +1,156 @@
+{
+  "keyword": "ACGME compliance checker",
+  "slug": "acgme-compliance-checker",
+  "anchor": "ACGME Compliance Checker",
+  "title": "ACGME Compliance Checker | Guarantee Compliance | Scheduling Wizard",
+  "description": "This ACGME compliance checker service helps GME offices maintain program accreditation. We deliver mathematically guaranteed compliant schedules built for your unique subspecialty rules.",
+  "h1": "ACGME Compliance Checker for Multi-Department GME",
+  "paragraph": "Generic software fails to audit subspecialty rules. Our managed ACGME compliance checker service delivers guaranteed compliant schedules for all departments.",
+  "category": "specialty",
+  "data": {
+    "cta": {
+      "title": "Get Schedules That Are Compliant From Day One",
+      "buttonText": "Book a Free Scheduling Consult",
+      "description": "Join 18 departments across 13 hospitals who rely on Scheduling Wizard for guaranteed ACGME-compliant schedules."
+    },
+    "faq": [
+      {
+        "answer": "An ACGME compliance checker is a tool or service that verifies whether a residency or fellowship schedule meets ACGME duty hour regulations before it is published. Scheduling Wizard goes further than traditional checkers by enforcing compliance mathematically at generation time. Rather than auditing a finished schedule and flagging violations, the optimization engine builds the schedule around ACGME rules from the start, including the 80-hour weekly limit, 10-hour rest minimums, and subspecialty-specific requirements, so no violations exist when the schedule is delivered.",
+        "question": "What is an ACGME compliance checker and how does it work?"
+      },
+      {
+        "answer": "Scheduling Wizard's optimization engine has subspecialty-specific ACGME rule knowledge built in. This matters because ACGME requirements differ across program types, and a generic compliance checker that applies universal rules will miss subspecialty mandates that reviewers actually evaluate during accreditation visits. When you engage Scheduling Wizard, your program's specific duty hour constraints are modeled into the engine before any schedule is generated.",
+        "question": "How does Scheduling Wizard handle subspecialty-specific ACGME rules?"
+      },
+      {
+        "answer": "The engine enforces core ACGME standards including the 80-hour weekly duty hour limit, minimum 10-hour rest between shifts, the 24-hour hard cap on continuous duty, and the upcoming 2026 changes requiring home call to count toward the 80-hour weekly limit. Subspecialty-specific rules are also incorporated based on your program type, ensuring compliance extends beyond the universal standards.",
+        "question": "What ACGME duty hour rules does the scheduling engine enforce?"
+      },
+      {
+        "answer": "No. Scheduling Wizard operates as a managed service, not a self-service software platform. There is no client-facing tool to learn or operate. You submit your program's constraints, and Scheduling Wizard delivers finished, ACGME-compliant schedules as ready-to-use Excel spreadsheets that your team can upload directly to your existing viewing tools such as Amion or QGenda.",
+        "question": "Do I need to learn scheduling software to use this service?"
+      },
+      {
+        "answer": "Scheduling Wizard handles scheduling across multiple departments simultaneously, applying the correct ACGME compliance rules for each program individually. GME offices can rely on a consistent compliance process across their entire hospital system rather than managing separate manual auditing workflows for each department. Currently, Scheduling Wizard serves 18 departments across 13 hospitals.",
+        "question": "How does Scheduling Wizard support GME offices managing multiple programs?"
+      },
+      {
+        "answer": "With manual scheduling, ACGME rule knowledge and scheduling logic often leave with outgoing chiefs. Scheduling Wizard retains your program's constraint configurations and ACGME rule modeling year over year, so incoming chief residents inherit a fully configured, compliant scheduling system rather than starting the compliance process from scratch each academic year.",
+        "question": "What happens to ACGME compliance knowledge when chief residents change?"
+      }
+    ],
+    "hero": {
+      "title": "ACGME Compliance Checker for Multi-Department GME",
+      "description": "Scheduling Wizard delivers mathematically guaranteed ACGME-compliant schedules as a managed service. No software to learn, no manual audits required."
+    },
+    "features": {
+      "items": [
+        {
+          "id": "acgme-compliance",
+          "title": "Subspecialty ACGME Rules Built In",
+          "eyebrow": "ACGME Compliance",
+          "highlights": [
+            "80-hour weekly limits enforced",
+            "Subspecialty rules pre-loaded",
+            "Violations prevented not detected"
+          ],
+          "description": "ACGME duty hour limits are mathematically enforced at generation time across all schedule types. The engine carries subspecialty-specific rule knowledge, so your program's unique compliance requirements are never approximated or assumed."
+        },
+        {
+          "id": "managed-service",
+          "title": "Done-For-You Compliance Assurance",
+          "eyebrow": "Managed Service",
+          "highlights": [
+            "No software to learn",
+            "Compliance delivered as Excel files",
+            "Expert schedulers handle constraints"
+          ],
+          "description": "Submit your constraints and receive finished, ACGME-compliant schedules as Excel files. No compliance software to operate or audit manually. Expert schedulers handle constraint modeling so your team stays focused on patient care."
+        },
+        {
+          "id": "multi-department",
+          "title": "Compliance Across All Departments",
+          "eyebrow": "GME Oversight",
+          "highlights": [
+            "Multiple departments supported",
+            "Per-program rule enforcement",
+            "Consistent compliance system-wide"
+          ],
+          "description": "For GME offices managing multiple programs, Scheduling Wizard enforces the correct ACGME compliance standards for each department simultaneously, including different subspecialty rules that apply across your hospital system."
+        },
+        {
+          "id": "institutional-continuity",
+          "title": "Compliance Knowledge That Persists",
+          "eyebrow": "Program Continuity",
+          "highlights": [
+            "Rules retained year over year",
+            "New chiefs start informed",
+            "No compliance knowledge lost"
+          ],
+          "description": "ACGME rule configurations and scheduling constraints are retained year over year within Scheduling Wizard. New chief residents inherit a compliant, working system rather than rebuilding compliance logic from scratch each cycle."
+        },
+        {
+          "id": "block-scheduling",
+          "title": "Compliant Block Schedules Generated",
+          "eyebrow": "Rotation Scheduling",
+          "highlights": [
+            "PGY-level rules respected",
+            "Rotation mandates enforced",
+            "Coverage minimums maintained"
+          ],
+          "description": "Block rotation schedules are generated with ACGME rotation mandates, PGY-level requirements, and your program's coverage minimums factored in simultaneously, ensuring every rotation assignment is compliant before the schedule is published."
+        }
+      ],
+      "title": "How Scheduling Wizard Guarantees ACGME Compliance",
+      "description": "Every schedule is built around your program's specific ACGME rules from the ground up, not checked for violations after the fact."
+    },
+    "problems": {
+      "items": [
+        {
+          "title": "Generic Software Misses Subspecialty Rules",
+          "description": "Most scheduling tools apply one-size-fits-all ACGME rules, missing the subspecialty-specific duty hour requirements that reviewers actually audit."
+        },
+        {
+          "title": "Violations Found After Publishing",
+          "description": "Manual compliance checks happen after schedules are built, meaning violations surface too late and require cascading schedule revisions to fix."
+        },
+        {
+          "title": "Chief Turnover Resets Compliance Knowledge",
+          "description": "When chiefs rotate annually, hard-won ACGME rule knowledge walks out the door, and the next chief starts the compliance process from scratch."
+        }
+      ],
+      "title": "Manual Compliance Checking Always Falls Short",
+      "description": "Generic tools and manual audits leave residency programs exposed to accreditation risk every scheduling cycle."
+    },
+    "solution": {
+      "title": "Compliance Built In From the Start",
+      "description": "Scheduling Wizard's proprietary optimization engine enforces ACGME duty hour rules at schedule generation time, not after. Submit your program constraints and receive finished, subspecialty-compliant schedules as ready-to-use Excel files. No manual auditing, no software to learn, no knowledge lost between chief rotations."
+    },
+    "metaTitle": "ACGME Compliance Checker | Guarantee Compliance | Scheduling Wizard",
+    "metaDescription": "This ACGME compliance checker service helps GME offices maintain program accreditation. We deliver mathematically guaranteed compliant schedules built for your unique subspecialty rules."
+  },
+  "searchIntent": {
+    "keyword": "ACGME compliance checker",
+    "searchIntents": [
+      "A residency program director looking for a reliable way to ensure that their current scheduling practices meet ACGME compliance standards, as failing to do so could jeopardize accreditation and funding.",
+      "A chief resident who needs a tool to verify that their manually created schedules adhere to ACGME duty hour regulations, fearing potential issues during program audits.",
+      "A program coordinator seeking a comprehensive solution to confirm that all rotations and call schedules are compliant with ACGME requirements, worried about the legal and operational risks of non-compliance.",
+      "A GME office administrator looking for a method to regularly audit the scheduling process across multiple departments to maintain ACGME compliance, understanding that generic software won’t cater to specific subspecialty rules."
+    ]
+  },
+  "seoMetadata": {
+    "h1": "ACGME Compliance Checker for Multi-Department GME",
+    "metaTitle": "ACGME Compliance Checker | Guarantee Compliance | Scheduling Wizard",
+    "h1Paragraph": "Generic software fails to audit subspecialty rules. Our managed ACGME compliance checker service delivers guaranteed compliant schedules for all departments.",
+    "metaDescription": "This ACGME compliance checker service helps GME offices maintain program accreditation. We deliver mathematically guaranteed compliant schedules built for your unique subspecialty rules."
+  },
+  "finalMetadata": {
+    "slug": "acgme-compliance-checker",
+    "anchor": "ACGME Compliance Checker",
+    "category": "specialty",
+    "generatedAt": "2026-05-11T09:43:29.774Z"
+  },
+  "id": "cmp100qvu000qyv0iuu39aaij",
+  "createdAt": "2026-05-11T09:27:49.530Z",
+  "updatedAt": "2026-05-11T09:43:29.780Z"
+}

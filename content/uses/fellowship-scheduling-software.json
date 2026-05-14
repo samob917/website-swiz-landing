@@ -1,0 +1,156 @@
+{
+  "keyword": "fellowship scheduling software",
+  "slug": "fellowship-scheduling-software",
+  "anchor": "Fellowship Scheduling Software",
+  "title": "Fellowship Scheduling Software | ACGME-Compliant | Scheduling Wizard",
+  "description": "Fellowship scheduling software shouldn't add to your workload. Scheduling Wizard is a managed service that takes your constraints and delivers complete, ACGME-compliant schedules.",
+  "h1": "The Fellowship Scheduling Software You Don't Have to Run",
+  "paragraph": "Stop struggling with complex fellowship scheduling software. As a managed service, Scheduling Wizard takes your constraints and delivers a guaranteed ACGME-compliant schedule as an Excel file.",
+  "category": "setting",
+  "data": {
+    "cta": {
+      "title": "Get Your Fellowship Schedule Done Right",
+      "buttonText": "Book a Free Scheduling Consult",
+      "description": "Join 18 departments across 13 hospitals that trust Scheduling Wizard to deliver compliant, optimized schedules."
+    },
+    "faq": [
+      {
+        "answer": "Fellowship scheduling software refers to tools or services used to build ACGME-compliant rotation, call, and clinic schedules for fellowship training programs. Most solutions are self-service platforms that require chief fellows to learn and operate the software themselves. Scheduling Wizard differs by operating as a managed service — programs submit their constraints and receive finished, optimized schedules as Excel files, with no software to learn or operate.",
+        "question": "What is fellowship scheduling software and how does Scheduling Wizard differ?"
+      },
+      {
+        "answer": "Yes. Scheduling Wizard's proprietary optimization engine enforces ACGME duty hour requirements mathematically at schedule generation time, meaning violations are prevented before the schedule is ever published. The engine includes subspecialty-specific ACGME rules, which is the most common question fellowship program buyers ask during evaluations. Compliance is built in, not manually verified after the fact.",
+        "question": "Is Scheduling Wizard compliant with ACGME fellowship duty hour requirements?"
+      },
+      {
+        "answer": "Subspecialty-specific ACGME rules are built directly into Scheduling Wizard's constraint-solving engine. Rather than applying a one-size-fits-all compliance check, the engine knows the particular duty hour and rotation requirements that apply to your fellowship's subspecialty and enforces them during schedule generation. This is one of the most critical capabilities for fellowship programs, where rules can differ significantly from categorical residency requirements.",
+        "question": "How does Scheduling Wizard handle subspecialty-specific ACGME fellowship rules?"
+      },
+      {
+        "answer": "Scheduling Wizard generates Block rotation schedules, Call schedules with fairness optimization, Clinic schedules, and Attending schedules. All four schedule types are optimized simultaneously using a proprietary mathematical engine, so that changes in one schedule type are automatically resolved across the others. Finished schedules are delivered as Excel files that programs can upload to their existing viewing tools such as Amion or QGenda.",
+        "question": "What types of fellowship schedules does Scheduling Wizard generate?"
+      },
+      {
+        "answer": "With traditional fellowship scheduling software or manual Excel processes, institutional scheduling knowledge is lost when a chief fellow rotates out. Scheduling Wizard retains your program's constraints, rules, and scheduling configurations from year to year. New chief fellows inherit a fully working, optimized system instead of starting from scratch, which eliminates one of the most disruptive annual transitions in fellowship program administration.",
+        "question": "What happens to our fellowship scheduling setup when a new chief fellow takes over?"
+      },
+      {
+        "answer": "Yes, and many Scheduling Wizard clients use exactly this setup. Scheduling Wizard handles schedule creation and optimization, producing finished Excel files. Programs then upload those files to Amion or QGenda for day-to-day schedule viewing and access. Scheduling Wizard is designed to complement existing viewing tools rather than replace them, so there is no disruption to how your fellows and attendings check their schedules.",
+        "question": "Can Scheduling Wizard work alongside Amion or QGenda for our fellowship program?"
+      }
+    ],
+    "hero": {
+      "title": "Fellowship Scheduling Software You Don't Have to Run",
+      "description": "Scheduling Wizard is a managed service that takes your fellowship constraints and delivers finished, ACGME-compliant schedules as Excel files. No software to learn."
+    },
+    "features": {
+      "items": [
+        {
+          "id": "acgme-compliance",
+          "title": "Subspecialty Compliance Mathematically Guaranteed",
+          "eyebrow": "ACGME Compliance",
+          "highlights": [
+            "Subspecialty rules built in",
+            "Violations prevented at generation",
+            "Covers 2026 rule changes"
+          ],
+          "description": "Fellowship programs face subspecialty-specific ACGME duty hour rules that differ from categorical residency programs. Scheduling Wizard's engine enforces these rules at generation time — violations are prevented, not discovered after publishing."
+        },
+        {
+          "id": "managed-service",
+          "title": "Fellowship Schedules Delivered as Excel Files",
+          "eyebrow": "Managed Service",
+          "highlights": [
+            "No software to learn",
+            "Finished Excel files delivered",
+            "Upload to Amion or QGenda"
+          ],
+          "description": "Unlike self-service fellowship scheduling software, Scheduling Wizard operates as a done-for-you managed service. Submit your constraints and receive finished, ready-to-publish schedules — no platform to log into, no software to operate."
+        },
+        {
+          "id": "institutional-continuity",
+          "title": "Knowledge That Outlasts Every Chief Fellow",
+          "eyebrow": "Program Continuity",
+          "highlights": [
+            "Rules persist year over year",
+            "No annual retraining required",
+            "New chiefs start informed"
+          ],
+          "description": "Fellowship programs lose critical scheduling knowledge every time a chief fellow rotates out. Scheduling Wizard retains your program's rules and constraints year over year so new chiefs inherit a working system instead of a blank spreadsheet."
+        },
+        {
+          "id": "block-scheduling",
+          "title": "Year-Long Fellowship Rotation Schedules",
+          "eyebrow": "Block Scheduling",
+          "highlights": [
+            "Full year generated at once",
+            "Elective preferences incorporated",
+            "ACGME rotation mandates met"
+          ],
+          "description": "Generates complete year-long block rotation schedules for fellowship programs, respecting PGY-level requirements, elective preferences, site-specific coverage minimums, and all ACGME rotation mandates for your subspecialty."
+        },
+        {
+          "id": "cross-schedule-resolution",
+          "title": "Block, Call and Clinic Optimized Together",
+          "eyebrow": "Schedule Coordination",
+          "highlights": [
+            "All schedule types linked",
+            "Changes propagate automatically",
+            "No manual cascade fixing"
+          ],
+          "description": "For fellowship programs running simultaneous block, call, and clinic schedules, changes in one automatically propagate across the others. No more manual patching when a single swap creates a cascade of downstream conflicts."
+        }
+      ],
+      "title": "Built for Fellowship Program Scheduling",
+      "description": "Every feature is designed to eliminate the operator burden on chief fellows and program coordinators while guaranteeing subspecialty ACGME compliance."
+    },
+    "problems": {
+      "items": [
+        {
+          "title": "ACGME Rules Differ by Subspecialty",
+          "description": "Fellowship programs operate under subspecialty-specific ACGME duty hour rules. A single overlooked requirement can put accreditation at risk."
+        },
+        {
+          "title": "Chiefs Start Over Every Year",
+          "description": "When a new chief fellow takes over, institutional scheduling knowledge walks out the door and the process starts from scratch."
+        },
+        {
+          "title": "Schedules Break At Every Change",
+          "description": "One swap in a block, call, or clinic schedule cascades into conflicts across the entire program that take hours to manually resolve."
+        }
+      ],
+      "title": "Fellowship Scheduling Is Uniquely Complex",
+      "description": "Fellowship programs carry heavy scheduling burdens that generic tools and manual processes simply cannot handle."
+    },
+    "solution": {
+      "title": "Done-For-You Fellowship Schedule Delivery",
+      "description": "Submit your program's constraints — rotation requirements, subspecialty ACGME rules, resident preferences, and coverage targets — and Scheduling Wizard returns finished, compliant Block, Call, Clinic, and Attending schedules as ready-to-use Excel files. No software to learn. No annual retraining when fellows rotate out."
+    },
+    "metaTitle": "Fellowship Scheduling Software | ACGME-Compliant | Scheduling Wizard",
+    "metaDescription": "Fellowship scheduling software shouldn't add to your workload. Scheduling Wizard is a managed service that takes your constraints and delivers complete, ACGME-compliant schedules."
+  },
+  "searchIntent": {
+    "keyword": "fellowship scheduling software",
+    "searchIntents": [
+      "As a chief resident, I'm overwhelmed trying to create a compliant schedule for my fellowship program and need a reliable managed service that ensures ACGME compliance without me having to learn complicated software.",
+      "I'm a program coordinator looking for a way to automate our fellowship scheduling process, but I need something that understands the specific rules of our subspecialty and can deliver a ready-to-use schedule quickly.",
+      "As a residency program director, I'm concerned about the burden of scheduling on our chief residents and want a solution that not only builds optimized schedules but also maintains institutional knowledge across rotations.",
+      "I manage a GME office and need an efficient way to handle scheduling for multiple departments while ensuring that we’re meeting all ACGME duty hour requirements and covering all shifts fairly."
+    ]
+  },
+  "seoMetadata": {
+    "h1": "The Fellowship Scheduling Software You Don't Have to Run",
+    "metaTitle": "Fellowship Scheduling Software | ACGME-Compliant | Scheduling Wizard",
+    "h1Paragraph": "Stop struggling with complex fellowship scheduling software. As a managed service, Scheduling Wizard takes your constraints and delivers a guaranteed ACGME-compliant schedule as an Excel file.",
+    "metaDescription": "Fellowship scheduling software shouldn't add to your workload. Scheduling Wizard is a managed service that takes your constraints and delivers complete, ACGME-compliant schedules."
+  },
+  "finalMetadata": {
+    "slug": "fellowship-scheduling",
+    "anchor": "Fellowship Scheduling Software",
+    "category": "setting",
+    "generatedAt": "2026-05-11T09:45:16.877Z"
+  },
+  "id": "cmp100lji000qyv0ijyrouh51",
+  "createdAt": "2026-05-11T09:27:42.606Z",
+  "updatedAt": "2026-05-11T10:47:15.708Z"
+}

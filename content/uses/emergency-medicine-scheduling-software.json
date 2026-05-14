@@ -1,0 +1,156 @@
+{
+  "keyword": "emergency medicine scheduling software",
+  "slug": "emergency-medicine-scheduling-software",
+  "anchor": "Emergency Medicine Scheduling Software",
+  "title": "EM Scheduling Software | ACGME-Compliant | Scheduling Wizard",
+  "description": "Emergency medicine scheduling software can be a burden on chief residents. Scheduling Wizard is a managed service delivering optimized, ACGME-compliant schedules.",
+  "h1": "Done-For-You Emergency Medicine Scheduling Software",
+  "paragraph": "Stop spending hours in complex software. As a chief resident, just submit your EM program's constraints, and Scheduling Wizard delivers your finished ACGME schedule.",
+  "category": "specialty",
+  "data": {
+    "cta": {
+      "title": "Get Your EM Schedules Done Right",
+      "buttonText": "Book a Free Scheduling Consult",
+      "description": "Join 18 departments across 13 hospitals who already outsource their scheduling to Scheduling Wizard."
+    },
+    "faq": [
+      {
+        "answer": "Yes. ACGME compliance for emergency medicine is mathematically enforced at the time the schedule is generated, not manually checked after the fact. Scheduling Wizard's optimization engine has subspecialty-specific EM rules built in, including duty hour limits and rest requirements. This is the most common question buyers ask on sales calls, and it is a core capability of the service, not an add-on.",
+        "question": "Is Scheduling Wizard compliant with ACGME rules for emergency medicine?"
+      },
+      {
+        "answer": "Most emergency medicine scheduling software is self-service, meaning a chief resident must learn the platform, enter all the rules, and troubleshoot conflicts themselves. Scheduling Wizard is a managed service. Programs submit their constraints and receive finished, ACGME-compliant schedules as ready-to-use Excel files. There is no software to learn and no platform to operate.",
+        "question": "How is Scheduling Wizard different from other emergency medicine scheduling software?"
+      },
+      {
+        "answer": "Scheduling Wizard generates block and rotation schedules, call schedules, clinic schedules, and attending schedules for emergency medicine programs. All schedule types are optimized simultaneously so that a change in one does not create conflicts in another. Finished schedules are delivered as Excel spreadsheets.",
+        "question": "What types of EM schedules does Scheduling Wizard generate?"
+      },
+      {
+        "answer": "Yes. Many Scheduling Wizard clients use Amion or QGenda for day-to-day schedule viewing. Scheduling Wizard handles the schedule creation and optimization, and the finished Excel file can be uploaded directly into Amion or QGenda. The two tools serve different functions and work well alongside each other.",
+        "question": "Can Scheduling Wizard integrate with Amion or QGenda?"
+      },
+      {
+        "answer": "When an unexpected absence occurs, Scheduling Wizard rapidly re-optimizes the affected portion of the schedule to restore coverage. This avoids the manual process of reshuffling assignments and checking every downstream impact by hand. ACGME compliance is maintained throughout the re-optimization.",
+        "question": "What happens when an EM resident has an unplanned absence?"
+      },
+      {
+        "answer": "Chief resident transitions are one of the most common sources of scheduling disruption in EM programs. With Scheduling Wizard, your program's constraint configurations and scheduling rules persist with the service year over year. Incoming chief residents inherit a fully working, optimized scheduling system instead of starting from scratch with a blank spreadsheet.",
+        "question": "How does Scheduling Wizard handle the annual chief resident transition?"
+      }
+    ],
+    "hero": {
+      "title": "Emergency Medicine Scheduling Software Done For You",
+      "description": "Scheduling Wizard delivers ACGME-compliant EM call, block, and attending schedules as ready-to-use Excel files. No software to learn, no compliance risk."
+    },
+    "features": {
+      "items": [
+        {
+          "id": "acgme-compliance",
+          "title": "EM Duty Hour Compliance Guaranteed",
+          "eyebrow": "ACGME Compliance",
+          "highlights": [
+            "EM-specific rules enforced",
+            "80-hour weekly limit guaranteed",
+            "Violations prevented at generation"
+          ],
+          "description": "Scheduling Wizard's optimization engine enforces ACGME duty hour regulations at generation time for emergency medicine programs. Subspecialty-specific EM rules are built in, so violations are prevented before the schedule is ever published."
+        },
+        {
+          "id": "call-scheduling",
+          "title": "Fair EM Call Distribution Optimized",
+          "eyebrow": "Call Scheduling",
+          "highlights": [
+            "Weekend shifts balanced automatically",
+            "Holiday burden distributed fairly",
+            "Post-call rest rules enforced"
+          ],
+          "description": "Algorithmically distributes on-call shifts, weekends, and holidays equitably across all EM residents while respecting individual constraints and ACGME duty hour limits. No more manual balancing or fairness disputes."
+        },
+        {
+          "id": "managed-service",
+          "title": "Done For You No Software Required",
+          "eyebrow": "Managed Service",
+          "highlights": [
+            "No software to learn",
+            "Schedules delivered as Excel files",
+            "Upload to Amion or QGenda"
+          ],
+          "description": "Unlike self-service emergency medicine scheduling software, Scheduling Wizard operates as a fully managed service. Submit your constraints and receive finished schedules as Excel files, ready to upload to Amion or QGenda for day-to-day viewing."
+        },
+        {
+          "id": "institutional-continuity",
+          "title": "Scheduling Knowledge That Persists",
+          "eyebrow": "Program Continuity",
+          "highlights": [
+            "Rules persist across chief rotations",
+            "No annual knowledge loss",
+            "New chiefs onboard instantly"
+          ],
+          "description": "Your EM program's constraint configurations and scheduling rules stay with Scheduling Wizard year over year. Incoming chiefs inherit a working, optimized system instead of rebuilding the entire schedule from a blank spreadsheet."
+        },
+        {
+          "id": "absence-response",
+          "title": "Rapid Re-Optimization for Unexpected Gaps",
+          "eyebrow": "Unplanned Absences",
+          "highlights": [
+            "Coverage restored without manual work",
+            "Downstream conflicts auto-resolved",
+            "ACGME compliance maintained throughout"
+          ],
+          "description": "When an EM resident is unexpectedly unavailable, Scheduling Wizard rapidly re-optimizes the affected portion of the schedule to restore coverage without manually reshuffling every downstream assignment."
+        }
+      ],
+      "title": "Built for Emergency Medicine Scheduling",
+      "description": "Every capability is designed around the real constraints EM programs face, from shift fairness to subspecialty ACGME compliance."
+    },
+    "problems": {
+      "items": [
+        {
+          "title": "Shift Complexity Overwhelms Manual Tools",
+          "description": "EM programs juggle dense shift rotations, irregular call patterns, and duty hour limits that generic scheduling tools were never built to handle."
+        },
+        {
+          "title": "ACGME Compliance Is Never Certain",
+          "description": "Manually checking every EM resident's hours against subspecialty-specific ACGME rules leaves programs exposed to violations and accreditation risk."
+        },
+        {
+          "title": "Chiefs Restart From Scratch Every Year",
+          "description": "When a new chief takes over, institutional scheduling knowledge walks out the door, forcing another year of painful trial and error."
+        }
+      ],
+      "title": "EM Scheduling Is Breaking Chiefs",
+      "description": "Emergency medicine scheduling is uniquely demanding, and the burden falls entirely on chief residents."
+    },
+    "solution": {
+      "title": "Scheduling Wizard Delivers Your EM Schedules",
+      "description": "Submit your emergency medicine program's constraints and receive finished, ACGME-compliant block, call, and attending schedules as ready-to-use Excel files. No software to learn. No annual retraining. Subspecialty-specific compliance rules are mathematically enforced at generation time, not manually checked after the fact."
+    },
+    "metaTitle": "EM Scheduling Software | ACGME-Compliant | Scheduling Wizard",
+    "metaDescription": "Emergency medicine scheduling software can be a burden on chief residents. Scheduling Wizard is a managed service delivering optimized, ACGME-compliant schedules."
+  },
+  "searchIntent": {
+    "keyword": "emergency medicine scheduling software",
+    "searchIntents": [
+      "As a chief resident in emergency medicine, I need a scheduling solution that understands our unique ACGME compliance requirements and can generate optimized rotations without me having to learn any complex software.",
+      "I'm a residency program director looking for a managed service that can handle the complexities of our emergency medicine scheduling while ensuring there are no gaps or overstaffing, unlike generic scheduling tools.",
+      "As a program coordinator in an emergency department, I want a scheduling system that can quickly adapt to sudden changes in resident availability and still maintain compliance with ACGME duty hour regulations.",
+      "I'm interested in a scheduling software that can integrate with our existing tools like Amion or QGenda and eliminate the administrative burden on our chief residents by providing ACGME-compliant schedules ready for use."
+    ]
+  },
+  "seoMetadata": {
+    "h1": "Done-For-You Emergency Medicine Scheduling Software",
+    "metaTitle": "EM Scheduling Software | ACGME-Compliant | Scheduling Wizard",
+    "h1Paragraph": "Stop spending hours in complex software. As a chief resident, just submit your EM program's constraints, and Scheduling Wizard delivers your finished ACGME schedule.",
+    "metaDescription": "Emergency medicine scheduling software can be a burden on chief residents. Scheduling Wizard is a managed service delivering optimized, ACGME-compliant schedules."
+  },
+  "finalMetadata": {
+    "slug": "emergency-medicine-scheduling-software",
+    "anchor": "Emergency Medicine Scheduling Software",
+    "category": "specialty",
+    "generatedAt": "2026-05-11T09:42:22.889Z"
+  },
+  "id": "cmp100rxv000oyv0iyphrho9m",
+  "createdAt": "2026-05-11T09:27:50.899Z",
+  "updatedAt": "2026-05-11T09:42:22.890Z"
+}

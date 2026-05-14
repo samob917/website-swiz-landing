@@ -1,0 +1,156 @@
+{
+  "keyword": "amion alternative",
+  "slug": "amion-alternative",
+  "anchor": "Amion Alternative",
+  "title": "Amion Alternative | Optimized GME Schedules | Scheduling Wizard",
+  "description": "Amion alternative for GME programs? Scheduling Wizard is a managed service delivering optimized, ACGME-compliant schedules. Get consistent, error-free results that handle your specialty's unique rules.",
+  "h1": "Amion Alternative for ACGME-Compliant Schedules",
+  "paragraph": "End inconsistent schedules and complex ACGME rule management. Scheduling Wizard is the managed Amion alternative that builds your perfect schedule for you.",
+  "category": "competitor",
+  "data": {
+    "cta": {
+      "title": "Ready to Solve Schedule Creation for Good?",
+      "buttonText": "Book a Free Scheduling Consult",
+      "description": "Join 18 departments across 13 hospitals who have outsourced schedule creation to Scheduling Wizard."
+    },
+    "faq": [
+      {
+        "answer": "Amion is a schedule viewing and display platform, while Scheduling Wizard is a managed service that creates and optimizes the schedule itself. Many Scheduling Wizard clients continue using Amion to display their finished schedules day-to-day. The difference is in schedule creation: Scheduling Wizard's optimization engine builds your compliant Block, Call, Clinic, and Attending schedules from your constraints, then delivers them as Excel files you can upload directly to Amion.",
+        "question": "What makes Scheduling Wizard different from Amion?"
+      },
+      {
+        "answer": "No. Scheduling Wizard and Amion serve different functions and work together. Scheduling Wizard handles schedule creation and optimization. Your finished schedules are delivered as Excel spreadsheets that you can upload to Amion for day-to-day staff viewing, exactly as you do today. You keep your existing Amion workflow for display while Scheduling Wizard handles the complex build.",
+        "question": "Do I have to stop using Amion if I work with Scheduling Wizard?"
+      },
+      {
+        "answer": "ACGME duty hour rules are mathematically enforced at the moment the schedule is generated, not audited manually afterward. The engine applies the 80-hour weekly limit, minimum 10-hour rest intervals, the 24-hour hard cap, and subspecialty-specific rules built into its constraint model. Violations are prevented before the schedule is ever produced rather than flagged as errors to fix later.",
+        "question": "How does Scheduling Wizard ensure ACGME compliance during schedule creation?"
+      },
+      {
+        "answer": "Scheduling Wizard operates as a fully managed service, meaning your program does not need to operate any scheduling software. You submit your constraints, rotation requirements, resident preferences, and ACGME rules. Scheduling Wizard's engine and expert team handle the optimization and deliver finished, ready-to-publish schedules as Excel files. Chief residents are not required to learn or use any new platform.",
+        "question": "Who actually builds the schedule with Scheduling Wizard?"
+      },
+      {
+        "answer": "Scheduling Wizard generates Block (rotation), Call, Clinic, and Attending schedules. These are optimized simultaneously so that changes in one schedule automatically reflect across the others, eliminating the cross-schedule conflicts that arise when each schedule is built in isolation. Finished schedules are delivered as Excel spreadsheets compatible with Amion, QGenda, and other viewing tools.",
+        "question": "What types of schedules does Scheduling Wizard generate?"
+      },
+      {
+        "answer": "Your program's scheduling knowledge stays with Scheduling Wizard year over year. Constraints, rotation rules, coverage requirements, and compliance configurations all persist in the system. When a new chief rotates in, they inherit an already-working, optimized setup instead of starting from scratch. This institutional continuity is a core reason programs choose Scheduling Wizard over rebuilding manually each year.",
+        "question": "What happens to our scheduling setup when a new chief resident takes over?"
+      }
+    ],
+    "hero": {
+      "title": "The Amion Alternative Built for Schedule Creation",
+      "description": "Scheduling Wizard is the managed Amion alternative that builds your ACGME-compliant schedules for you. Submit constraints, receive finished Excel files."
+    },
+    "features": {
+      "items": [
+        {
+          "id": "managed-service",
+          "title": "Done For You Schedule Delivery",
+          "eyebrow": "Managed Service",
+          "highlights": [
+            "No software to learn",
+            "Finished schedules delivered to you",
+            "Works alongside your Amion workflow"
+          ],
+          "description": "Unlike Amion's self-service model, Scheduling Wizard is a fully managed service. Submit your constraints and receive finished, ready-to-publish schedules as Excel files with no software to operate or learn."
+        },
+        {
+          "id": "acgme-compliance",
+          "title": "Compliance Built In at Generation Time",
+          "eyebrow": "ACGME Compliance",
+          "highlights": [
+            "80-hour limits enforced automatically",
+            "Subspecialty-specific rules included",
+            "Violations prevented before publishing"
+          ],
+          "description": "ACGME duty hour rules including the 80-hour weekly limit, 10-hour rest requirements, and 24-hour hard caps are mathematically enforced when the schedule is generated, not manually audited after the fact. Subspecialty-specific rules are built in."
+        },
+        {
+          "id": "institutional-continuity",
+          "title": "Scheduling Knowledge That Persists Year Over Year",
+          "eyebrow": "Program Continuity",
+          "highlights": [
+            "Knowledge survives chief rotations",
+            "No annual restart from scratch",
+            "Constraints carry over year to year"
+          ],
+          "description": "When a new chief takes over, your program's full constraint set, rotation rules, and scheduling logic stay with Scheduling Wizard. New chiefs inherit a working system instead of rebuilding from a blank spreadsheet."
+        },
+        {
+          "id": "block-scheduling",
+          "title": "Optimized Rotation Schedules Built For You",
+          "eyebrow": "Block Scheduling",
+          "highlights": [
+            "PGY-level requirements honored",
+            "Elective preferences factored in",
+            "Coverage minimums maintained"
+          ],
+          "description": "Scheduling Wizard generates year-long block rotation schedules that respect PGY-level requirements, elective preferences, coverage minimums, and ACGME rotation mandates — the part of scheduling Amion was never designed to do."
+        },
+        {
+          "id": "call-scheduling",
+          "title": "Fair Call Schedules Algorithmically Optimized",
+          "eyebrow": "Call Scheduling",
+          "highlights": [
+            "Weekend call balanced automatically",
+            "Holiday shifts distributed fairly",
+            "Post-call rest rules enforced"
+          ],
+          "description": "Call burden, weekend shifts, and holidays are distributed equitably across all residents through algorithmic optimization. Duty hour limits are enforced throughout, eliminating fairness disputes and manual balancing."
+        }
+      ],
+      "title": "What Scheduling Wizard Handles That Amion Does Not",
+      "description": "Amion is built for schedule display. Scheduling Wizard is built for schedule creation, optimization, and ACGME compliance enforcement."
+    },
+    "problems": {
+      "items": [
+        {
+          "title": "Schedule Building Falls on Chiefs",
+          "description": "Amion is a viewing tool, not a builder. Someone still has to create every rotation, call, and clinic schedule from scratch each year."
+        },
+        {
+          "title": "ACGME Rules Are Manually Checked",
+          "description": "Compliance with duty hour limits, rest requirements, and subspecialty-specific rules is never automatically enforced during schedule creation."
+        },
+        {
+          "title": "Knowledge Lost Every Chief Rotation",
+          "description": "When a new chief takes over, all institutional scheduling logic lives in one person's head and disappears when they leave."
+        }
+      ],
+      "title": "Why Programs Look Beyond Amion",
+      "description": "Amion displays schedules well, but building optimized, compliant schedules is a different challenge entirely."
+    },
+    "solution": {
+      "title": "Schedule Creation Handled by Experts",
+      "description": "Scheduling Wizard acts as your dedicated scheduling team. Submit your program's constraints and receive finished, ACGME-compliant Block, Call, Clinic, and Attending schedules as ready-to-use Excel files. Upload them to Amion or QGenda for day-to-day viewing, exactly as you do today. No software to learn, no annual retraining."
+    },
+    "metaTitle": "Amion Alternative | Optimized GME Schedules | Scheduling Wizard",
+    "metaDescription": "Amion alternative for GME programs? Scheduling Wizard is a managed service delivering optimized, ACGME-compliant schedules. Get consistent, error-free results that handle your specialty's unique rules."
+  },
+  "searchIntent": {
+    "keyword": "amion alternative",
+    "searchIntents": [
+      "A chief resident frustrated with Amion's limitations on schedule customization, seeking a more flexible and optimized scheduling solution that meets ACGME compliance requirements without the steep learning curve.",
+      "A program coordinator looking for a managed scheduling service to eliminate the administrative burden of using Amion, hoping to find an alternative that can generate compliant schedules quickly and efficiently without manual input.",
+      "A residency program director searching for a better alternative to Amion due to inconsistent schedule outputs and a desire for deeper integration of specialty-specific ACGME rules in the scheduling process.",
+      "A private practice administrator wanting to switch from Amion to a service that not only handles scheduling but also provides ongoing support and expertise to adapt to their team's unique needs."
+    ]
+  },
+  "seoMetadata": {
+    "h1": "Amion Alternative for ACGME-Compliant Schedules",
+    "metaTitle": "Amion Alternative | Optimized GME Schedules | Scheduling Wizard",
+    "h1Paragraph": "End inconsistent schedules and complex ACGME rule management. Scheduling Wizard is the managed Amion alternative that builds your perfect schedule for you.",
+    "metaDescription": "Amion alternative for GME programs? Scheduling Wizard is a managed service delivering optimized, ACGME-compliant schedules. Get consistent, error-free results that handle your specialty's unique rules."
+  },
+  "finalMetadata": {
+    "slug": "amion-alternative",
+    "anchor": "Amion Alternative",
+    "category": "competitor",
+    "generatedAt": "2026-05-11T09:42:23.211Z"
+  },
+  "id": "cmp100u7b000oyv0ixvwqd5dx",
+  "createdAt": "2026-05-11T09:27:53.831Z",
+  "updatedAt": "2026-05-11T09:42:23.213Z"
+}
