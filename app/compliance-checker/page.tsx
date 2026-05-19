@@ -7,37 +7,11 @@ import emailjs from "@emailjs/browser"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select"
-
-const ROLES = [
-  "Program Director / Associate PD",
-  "Chief Resident / Chief Fellow",
-  "Program Coordinator / GME Admin",
-  "Department Chair",
-  "Hospital Operations Leader",
-  "Other",
-]
-
-const PROGRAM_SIZES = [
-  "1–15 residents",
-  "16–30 residents",
-  "31–60 residents",
-  "61–100 residents",
-  "100+ residents",
-]
 
 export default function ComplianceCheckerPage() {
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [isSuccess, setIsSuccess] = useState(false)
   const [errorMsg, setErrorMsg] = useState<string | null>(null)
-  const [role, setRole] = useState("")
-  const [programSize, setProgramSize] = useState("")
   const formRef = useRef<HTMLFormElement>(null)
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -58,8 +32,6 @@ export default function ComplianceCheckerPage() {
       if (result.status === 200) {
         setIsSuccess(true)
         formRef.current.reset()
-        setRole("")
-        setProgramSize("")
       } else {
         setErrorMsg("Failed to send. Please try again.")
       }
@@ -78,8 +50,8 @@ export default function ComplianceCheckerPage() {
           {/* Left: messaging */}
           <div className="text-white">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl hero-text mb-6">
-              <span className="hero-text-bold hero-glow">Compliance </span>
-              <span className="hero-text-bold text-yellow-400">Checker.</span>
+              <span className="hero-text-bold hero-glow">ACGME Duty Hour </span>
+              <span className="hero-text-bold text-yellow-400">Compliance Checker</span>
             </h1>
 
             <p className="text-base sm:text-lg text-white/80 max-w-xl leading-relaxed mb-12">
@@ -164,138 +136,91 @@ export default function ComplianceCheckerPage() {
                     name="to_email"
                     value="founders@schedulingwiz.com"
                   />
-                  <input
-                    type="hidden"
-                    name="subject"
-                    value="Compliance Checker request"
-                  />
 
-                  <div>
-                    <label
-                      htmlFor="cc-name"
-                      className="block text-xs font-medium text-white/70 mb-2"
-                    >
-                      Name <span className="text-yellow-400">*</span>
-                    </label>
-                    <Input
-                      id="cc-name"
-                      name="name"
-                      type="text"
-                      required
-                      placeholder="Your name"
-                      disabled={isSubmitting}
-                      className="bg-white/5 border-white/10 text-white placeholder:text-white/30 focus:border-yellow-400/50 focus:ring-0 rounded-lg h-11"
-                    />
-                  </div>
-
-                  <div>
-                    <label
-                      htmlFor="cc-email"
-                      className="block text-xs font-medium text-white/70 mb-2"
-                    >
-                      Work email <span className="text-yellow-400">*</span>
-                    </label>
-                    <Input
-                      id="cc-email"
-                      name="email"
-                      type="email"
-                      required
-                      placeholder="you@hospital.edu"
-                      disabled={isSubmitting}
-                      className="bg-white/5 border-white/10 text-white placeholder:text-white/30 focus:border-yellow-400/50 focus:ring-0 rounded-lg h-11"
-                    />
+                  <div className="grid sm:grid-cols-2 gap-4">
+                    <div>
+                      <label
+                        htmlFor="cc-name"
+                        className="block text-xs font-medium text-white/70 uppercase tracking-wider mb-2"
+                      >
+                        Name <span className="text-yellow-400">*</span>
+                      </label>
+                      <Input
+                        id="cc-name"
+                        name="name"
+                        type="text"
+                        required
+                        placeholder="Your name"
+                        disabled={isSubmitting}
+                        className="bg-white/5 border-white/10 text-white placeholder:text-white/30 focus:border-yellow-400/50 focus:ring-0 rounded-lg h-11"
+                      />
+                    </div>
+                    <div>
+                      <label
+                        htmlFor="cc-email"
+                        className="block text-xs font-medium text-white/70 uppercase tracking-wider mb-2"
+                      >
+                        Email Address <span className="text-yellow-400">*</span>
+                      </label>
+                      <Input
+                        id="cc-email"
+                        name="email"
+                        type="email"
+                        required
+                        placeholder="your.email@example.com"
+                        disabled={isSubmitting}
+                        className="bg-white/5 border-white/10 text-white placeholder:text-white/30 focus:border-yellow-400/50 focus:ring-0 rounded-lg h-11"
+                      />
+                    </div>
                   </div>
 
                   <div>
                     <label
                       htmlFor="cc-company"
-                      className="block text-xs font-medium text-white/70 mb-2"
+                      className="block text-xs font-medium text-white/70 uppercase tracking-wider mb-2"
                     >
-                      Institution / Program <span className="text-yellow-400">*</span>
+                      Medical Institution
                     </label>
                     <Input
                       id="cc-company"
                       name="company"
                       type="text"
-                      required
-                      placeholder="e.g. Johns Hopkins Neurocritical Care"
+                      placeholder="Your hospital or medical center"
                       disabled={isSubmitting}
                       className="bg-white/5 border-white/10 text-white placeholder:text-white/30 focus:border-yellow-400/50 focus:ring-0 rounded-lg h-11"
                     />
                   </div>
 
-                  <div className="grid sm:grid-cols-2 gap-4">
-                    <div>
-                      <label
-                        htmlFor="cc-role"
-                        className="block text-xs font-medium text-white/70 mb-2"
-                      >
-                        Your role <span className="text-yellow-400">*</span>
-                      </label>
-                      <Select
-                        name="role"
-                        value={role}
-                        onValueChange={setRole}
-                        required
-                      >
-                        <SelectTrigger
-                          id="cc-role"
-                          className="bg-white/5 border-white/10 text-white data-[placeholder]:text-white/30 focus:border-yellow-400/50 rounded-lg h-11"
-                        >
-                          <SelectValue placeholder="Select" />
-                        </SelectTrigger>
-                        <SelectContent>
-                          {ROLES.map((r) => (
-                            <SelectItem key={r} value={r}>
-                              {r}
-                            </SelectItem>
-                          ))}
-                        </SelectContent>
-                      </Select>
-                    </div>
-
-                    <div>
-                      <label
-                        htmlFor="cc-size"
-                        className="block text-xs font-medium text-white/70 mb-2"
-                      >
-                        Program size{" "}
-                        <span className="text-white/40">(optional)</span>
-                      </label>
-                      <Select
-                        name="programSize"
-                        value={programSize}
-                        onValueChange={setProgramSize}
-                      >
-                        <SelectTrigger
-                          id="cc-size"
-                          className="bg-white/5 border-white/10 text-white data-[placeholder]:text-white/30 focus:border-yellow-400/50 rounded-lg h-11"
-                        >
-                          <SelectValue placeholder="Select" />
-                        </SelectTrigger>
-                        <SelectContent>
-                          {PROGRAM_SIZES.map((s) => (
-                            <SelectItem key={s} value={s}>
-                              {s}
-                            </SelectItem>
-                          ))}
-                        </SelectContent>
-                      </Select>
-                    </div>
+                  <div>
+                    <label
+                      htmlFor="cc-subject"
+                      className="block text-xs font-medium text-white/70 uppercase tracking-wider mb-2"
+                    >
+                      Subject
+                    </label>
+                    <Input
+                      id="cc-subject"
+                      name="subject"
+                      type="text"
+                      placeholder="What can we help you with?"
+                      disabled={isSubmitting}
+                      className="bg-white/5 border-white/10 text-white placeholder:text-white/30 focus:border-yellow-400/50 focus:ring-0 rounded-lg h-11"
+                    />
                   </div>
 
                   <div>
                     <label
                       htmlFor="cc-message"
-                      className="block text-xs font-medium text-white/70 mb-2"
+                      className="block text-xs font-medium text-white/70 uppercase tracking-wider mb-2"
                     >
-                      What&apos;s your biggest scheduling or compliance challenge?
+                      Message <span className="text-yellow-400">*</span>
                     </label>
                     <Textarea
                       id="cc-message"
                       name="message"
-                      rows={4}
-                      placeholder="e.g. We keep hitting 80-hour violations on night float. Or: chiefs spend a month every year rebuilding the block by hand."
+                      required
+                      rows={6}
+                      placeholder="Tell us about your scheduling challenges; let's set up a meeting!"
                       disabled={isSubmitting}
                       className="bg-white/5 border-white/10 text-white placeholder:text-white/30 focus:border-yellow-400/50 focus:ring-0 rounded-lg resize-none"
                     />
@@ -314,7 +239,7 @@ export default function ComplianceCheckerPage() {
                       "Sending…"
                     ) : (
                       <>
-                        Book a call
+                        Send Message
                         <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
                       </>
                     )}
