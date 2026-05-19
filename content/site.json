@@ -78,14 +78,32 @@
     "heading": "Use Cases",
     "description": "From neurology block schedules to surgery call rotations — see how Scheduling Wizard handles the most complex requirements across every department.",
     "categoryLabels": {
-      "role": "role",
-      "setting": "setting",
-      "specialty": "specialty",
-      "competitor": "competitor"
+      "role": "Role",
+      "setting": "Setting",
+      "specialty": "Specialty",
+      "competitor": "Competitor"
     },
     "sitemap": {
       "priority": 0.9,
       "changeFrequency": "weekly"
     }
+  },
+  "featureImageMap": {
+    "block-scheduling": "/micro-ui/block-scheduling.svg",
+    "call-scheduling": "/micro-ui/call-scheduling.svg",
+    "clinic-scheduling": "/micro-ui/clinic-scheduling.svg",
+    "attending-scheduling": "/micro-ui/attending-scheduling.svg",
+    "acgme-compliance": "/micro-ui/acgme-compliance.svg",
+    "fairness-optimization": "/micro-ui/fairness-optimization.svg",
+    "managed-service": "/micro-ui/managed-service.svg",
+    "constraint-modeling": "/micro-ui/constraint-modeling.svg",
+    "conflict-detection": "/micro-ui/conflict-detection.svg",
+    "multi-department": "/micro-ui/multi-department.svg",
+    "schedule-revision": "/micro-ui/schedule-revision.svg",
+    "institutional-continuity": "/micro-ui/institutional-continuity.svg",
+    "cross-schedule-resolution": "/micro-ui/cross-schedule-resolution.svg",
+    "resident-preferences": "/micro-ui/resident-preferences.svg",
+    "coverage-optimization": "/micro-ui/coverage-optimization.svg",
+    "absence-response": "/micro-ui/absence-response.svg"
   }
 }

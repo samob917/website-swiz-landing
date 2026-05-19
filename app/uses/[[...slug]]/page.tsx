@@ -109,7 +109,7 @@ export default async function UsesPage({
             {orderedCategories.map((cat) => (
               <section key={cat} className="mb-14">
                 <h2 className="mb-6 text-2xl font-semibold tracking-tight text-gray-900">
-                  {categoryLabels[cat] ?? cat}
+                  {categoryLabels[cat] ?? cat.charAt(0).toUpperCase() + cat.slice(1)}
                 </h2>
                 <div className="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
                   {grouped.get(cat)!.map((use) => (

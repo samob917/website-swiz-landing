@@ -51,7 +51,7 @@ export function FeatureShowcase1({
                   <img
                     src={image.src}
                     alt={image.alt}
-                    className="w-full rounded-2xl shadow-lg"
+                    className="w-full"
                   />
                 </div>
               )}

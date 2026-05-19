@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="380" viewBox="0 0 500 380" fill="none">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap');
+      .sans { font-family: 'Inter', system-ui, sans-serif; }
+
+      /* Big number lift + fade */
+      @keyframes lift-in {
+        0%, 4% { opacity: 0; transform: translateY(8px); }
+        14%, 82% { opacity: 1; transform: translateY(0); }
+        92%, 100% { opacity: 0; transform: translateY(8px); }
+      }
+      .big-num { animation: lift-in 10s cubic-bezier(0.22, 1, 0.36, 1) infinite; opacity: 0; transform-origin: center; }
+
+      /* Score label fade in slightly earlier */
+      @keyframes fade-label {
+        0%, 2% { opacity: 0; }
+        10%, 82% { opacity: 1; }
+        92%, 100% { opacity: 0; }
+      }
+      .label-in { animation: fade-label 10s ease infinite; opacity: 0; }
+
+      /* Progress bar background fade */
+      @keyframes fade-bg {
+        0%, 6% { opacity: 0; }
+        14%, 82% { opacity: 1; }
+        92%, 100% { opacity: 0; }
+      }
+      .bar-bg { animation: fade-bg 10s ease infinite; opacity: 0; }
+
+      /* Stat row staggered reveal — translateY + opacity */
+      @keyframes row-in {
+        0%, 8% { opacity: 0; transform: translateY(6px); }
+        18%, 82% { opacity: 1; transform: translateY(0); }
+        92%, 100% { opacity: 0; transform: translateY(6px); }
+      }
+      .row { animation: row-in 10s cubic-bezier(0.22, 1, 0.36, 1) infinite; opacity: 0; }
+      .row-1 { animation-delay: 0.4s; }
+      .row-2 { animation-delay: 0.8s; }
+      .row-3 { animation-delay: 1.2s; }
+
+      /* Inline bar fills via scaleX (staggered) */
+      @keyframes mini-bar {
+        0%, 12% { transform: scaleX(0); }
+        26%, 82% { transform: scaleX(1); }
+        92%, 100% { transform: scaleX(0); }
+      }
+      .mini-fill { animation: mini-bar 10s cubic-bezier(0.22, 1, 0.36, 1) infinite; transform-origin: left; transform: scaleX(0); }
+      .mini-1 { animation-delay: 0.4s; }
+      .mini-2 { animation-delay: 0.8s; }
+      .mini-3 { animation-delay: 1.2s; }
+
+      /* Header + tagline fade */
+      @keyframes head-in {
+        0%, 1% { opacity: 0; }
+        8%, 85% { opacity: 1; }
+        94%, 100% { opacity: 0; }
+      }
+      .head { animation: head-in 10s ease infinite; opacity: 0; }
+
+      /* LIVE dot pulse */
+      @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.25; } }
+      .pulse-dot { animation: pulse 1.6s ease infinite; }
+    </style>
+
+    <filter id="cardShadow" x="-10%" y="-10%" width="120%" height="130%">
+      <feDropShadow dx="0" dy="1" stdDeviation="2" flood-opacity="0.03"/>
+      <feDropShadow dx="0" dy="4" stdDeviation="8" flood-opacity="0.04"/>
+    </filter>
+  </defs>
+
+  <!-- Card -->
+  <g transform="translate(30, 30)">
+    <rect width="440" height="320" rx="22" fill="white" filter="url(#cardShadow)"/>
+
+    <!-- Top row: FAIRNESS SCORE label + LIVE badge -->
+    <g class="head">
+      <text x="32" y="44" class="sans" font-size="11" font-weight="600" fill="#6b7280" letter-spacing="1.2">FAIRNESS SCORE</text>
+      <text x="32" y="62" class="sans" font-size="10" font-weight="500" fill="#9ca3af" letter-spacing="0.6">EQUITABLE DISTRIBUTION</text>
+    </g>
+
+    <!-- LIVE badge -->
+    <g transform="translate(354, 28)" class="head">
+      <rect width="56" height="24" rx="12" fill="#FEF3C7"/>
+      <circle cx="14" cy="12" r="3.2" fill="#fbbf24" class="pulse-dot"/>
+      <text x="34" y="16" text-anchor="middle" class="sans" font-size="10" font-weight="700" fill="#b45309" letter-spacing="0.5">LIVE</text>
+    </g>
+
+    <!-- Big animated number 98% -->
+    <g class="big-num">
+      <text x="32" y="128" class="sans" font-size="56" font-weight="800" fill="#fbbf24">98%</text>
+      <text x="148" y="128" class="sans" font-size="13" font-weight="500" fill="#9ca3af">across team</text>
+    </g>
+
+    <!-- Progress bar -->
+    <rect class="bar-bg" x="32" y="150" width="376" height="6" rx="3" fill="#f3f4f6"/>
+    <rect x="32" y="150" width="0" height="6" rx="3" fill="#fbbf24" opacity="0">
+      <animate attributeName="width" values="0;0;368;368;0;0" keyTimes="0;0.08;0.28;0.82;0.92;1" dur="10s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0;0;1;1;0;0" keyTimes="0;0.06;0.14;0.82;0.92;1" dur="10s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- Divider -->
+    <line x1="32" y1="180" x2="408" y2="180" stroke="#f3f4f6" class="head"/>
+
+    <!-- Section header -->
+    <text x="32" y="202" class="sans head" font-size="11" font-weight="600" fill="#6b7280" letter-spacing="0.6">BURDEN PER RESIDENT</text>
+
+    <!-- Stat row 1: Call -->
+    <g class="row row-1" transform="translate(32, 218)">
+      <text x="0" y="14" class="sans" font-size="12" font-weight="600" fill="#1a1a1a">Call</text>
+      <!-- Inline bar bg -->
+      <rect x="92" y="6" width="180" height="6" rx="3" fill="#f3f4f6"/>
+      <!-- Inline bar fill -->
+      <g transform="translate(92, 6)">
+        <rect class="mini-fill mini-1" x="0" y="0" width="172" height="6" rx="3" fill="#fbbf24"/>
+      </g>
+      <text x="376" y="14" text-anchor="end" class="sans" font-size="12" font-weight="700" fill="#16a34a">6.2 / resident</text>
+    </g>
+
+    <!-- Stat row 2: Weekend -->
+    <g class="row row-2" transform="translate(32, 244)">
+      <text x="0" y="14" class="sans" font-size="12" font-weight="600" fill="#1a1a1a">Weekend</text>
+      <rect x="92" y="6" width="180" height="6" rx="3" fill="#f3f4f6"/>
+      <g transform="translate(92, 6)">
+        <rect class="mini-fill mini-2" x="0" y="0" width="158" height="6" rx="3" fill="#fbbf24"/>
+      </g>
+      <text x="376" y="14" text-anchor="end" class="sans" font-size="12" font-weight="700" fill="#16a34a">1.4 / resident</text>
+    </g>
+
+    <!-- Stat row 3: Holiday -->
+    <g class="row row-3" transform="translate(32, 270)">
+      <text x="0" y="14" class="sans" font-size="12" font-weight="600" fill="#1a1a1a">Holiday</text>
+      <rect x="92" y="6" width="180" height="6" rx="3" fill="#f3f4f6"/>
+      <g transform="translate(92, 6)">
+        <rect class="mini-fill mini-3" x="0" y="0" width="140" height="6" rx="3" fill="#fbbf24"/>
+      </g>
+      <text x="376" y="14" text-anchor="end" class="sans" font-size="12" font-weight="700" fill="#16a34a">0.5 / resident</text>
+    </g>
+
+    <!-- Footer -->
+    <text x="32" y="304" class="sans head" font-size="11" font-weight="500" fill="#9ca3af">Call burden balanced &#183; Holiday fairness &#183; Weekend parity</text>
+  </g>
+</svg>
