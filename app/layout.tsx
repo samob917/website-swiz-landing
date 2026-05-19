@@ -5,7 +5,6 @@ import "./globals.css"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import GoogleAnalytics from '@/components/GoogleAnalytics'
-import { PostHogProvider } from "@/components/PostHogProvider"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -27,14 +26,12 @@ export default function RootLayout({
         <link rel="icon" href="./logo.png" sizes="any" />
         </head>
       <body className={`${inter.className} min-h-screen flex flex-col`}>
-        <PostHogProvider>
-          <Navigation />
-          <main className="flex-1">
-            <GoogleAnalytics />
-            {children}
-          </main>
-          <Footer />
-        </PostHogProvider>
+        <Navigation />
+        <main className="flex-1">
+          <GoogleAnalytics />
+          {children}
+        </main>
+        <Footer />
       </body>
     </html>
   )
