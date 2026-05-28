@@ -39,6 +39,12 @@ export function Navigation() {
           <Link href="/contact" className="nav-link font-medium">
             Contact us
           </Link>
+          <Link
+            href="/compliance-checker"
+            className="inline-flex items-center rounded-full bg-yellow-400 px-4 py-1.5 text-sm font-semibold text-black transition-colors hover:bg-yellow-300"
+          >
+            Compliance check
+          </Link>
         </div>
 
         {/* Mobile menu button */}
@@ -71,6 +77,13 @@ export function Navigation() {
                 {link.label}
               </Link>
             ))}
+            <Link
+              href="/compliance-checker"
+              onClick={() => setIsOpen(false)}
+              className="inline-flex items-center rounded-full bg-yellow-400 px-4 py-2 text-sm font-semibold text-black transition-colors hover:bg-yellow-300"
+            >
+              Compliance check
+            </Link>
           </div>
         </div>
       )}
