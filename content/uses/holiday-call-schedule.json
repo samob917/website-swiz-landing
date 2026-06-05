@@ -1,0 +1,156 @@
+{
+  "keyword": "holiday call schedule residency",
+  "slug": "holiday-call-schedule",
+  "anchor": "Holiday Call Schedule Residency",
+  "title": "Holiday Call Schedule | Fair & Compliant | Scheduling Wizard",
+  "description": "Holiday call schedule residency planning is complex. Our managed service takes your constraints and delivers a fair, balanced, and ACGME-compliant schedule.",
+  "h1": "Finally, A Fair Residency Holiday Call Schedule",
+  "paragraph": "Stop spending hours on the holiday call schedule. Submit your constraints to Scheduling Wizard; we deliver a fair, ACGME-compliant schedule for your residency.",
+  "category": "specialty",
+  "data": {
+    "cta": {
+      "title": "Get Your Holiday Call Schedule Right",
+      "buttonText": "Book a Free Scheduling Consult",
+      "description": "Join 18 departments across 13 hospitals who outsource their scheduling to Scheduling Wizard."
+    },
+    "faq": [
+      {
+        "answer": "Scheduling Wizard uses a proprietary mathematical optimization engine to distribute holiday call assignments equitably across all residents. Programs submit their constraints — coverage requirements, resident preferences, ACGME duty hour rules, and fairness targets — and the engine generates a finished schedule that balances high-demand dates like Thanksgiving, Christmas, and New Year's across the resident cohort. Every assignment is algorithmically justified, giving chief residents a defensible answer to any fairness question.",
+        "question": "How does Scheduling Wizard create a fair holiday call schedule for residency programs?"
+      },
+      {
+        "answer": "Yes. ACGME duty hour compliance is mathematically enforced at schedule generation time, not manually checked after the fact. Scheduling Wizard's engine includes subspecialty-specific ACGME rule knowledge, so the rules relevant to your program are built into the optimization. This includes the 80-hour weekly limit, 10-hour minimum rest periods, and the 24-hour hard cap, as well as any upcoming regulatory changes.",
+        "question": "Is the holiday call schedule ACGME compliant for my residency subspecialty?"
+      },
+      {
+        "answer": "Turnaround depends on your program's complexity and the constraints submitted. Programs submit their scheduling constraints to Scheduling Wizard, and the managed service handles the optimization and delivers a finished Excel file. Because the engine handles the heavy computation, turnaround is significantly faster than building a holiday call schedule manually.",
+        "question": "How long does it take to receive a finished holiday call schedule?"
+      },
+      {
+        "answer": "Scheduling Wizard delivers finished schedules as Excel spreadsheets. These files are ready to use immediately and can be uploaded directly to schedule-viewing tools your program already uses, such as Amion or QGenda, for day-to-day access by residents and attendings.",
+        "question": "What format is the holiday call schedule delivered in?"
+      },
+      {
+        "answer": "No. Scheduling Wizard is a managed service, not self-service software. Chief residents submit their program constraints and receive a finished holiday call schedule back as an Excel file. There is no platform or dashboard to learn. This also means institutional scheduling knowledge persists with Scheduling Wizard year over year, so new chief residents don't start from scratch when they rotate into the role.",
+        "question": "Do chief residents need to learn new software to use Scheduling Wizard?"
+      },
+      {
+        "answer": "Yes. Resident preferences — including vacation requests, personal constraints, and holiday availability — are treated as first-class inputs to the optimization engine. They are factored into the schedule at generation time rather than being patched in manually after the core holiday call schedule is built, reducing conflicts and improving resident satisfaction.",
+        "question": "Can Scheduling Wizard handle resident holiday preferences and vacation requests?"
+      }
+    ],
+    "hero": {
+      "title": "Holiday Call Schedule Residency Planning Done For You",
+      "description": "Submit your constraints and receive a fair, ACGME-compliant holiday call schedule for your residency program. No software to learn."
+    },
+    "features": {
+      "items": [
+        {
+          "id": "call-scheduling",
+          "title": "Fair Holiday Call Distribution",
+          "eyebrow": "Call Scheduling",
+          "highlights": [
+            "Holiday shifts distributed equitably",
+            "Post-call rest rules enforced",
+            "Weekend burden balanced automatically"
+          ],
+          "description": "Algorithmically distributes holiday call burden across all residents, balancing Thanksgiving, Christmas, New Year, and other high-demand dates equitably while enforcing ACGME duty hour limits and post-call rest requirements."
+        },
+        {
+          "id": "acgme-compliance",
+          "title": "Compliance Built Into Every Schedule",
+          "eyebrow": "ACGME Compliance",
+          "highlights": [
+            "80-hour limits enforced automatically",
+            "Violations prevented at generation",
+            "Subspecialty rules built in"
+          ],
+          "description": "ACGME duty hour regulations are mathematically enforced at generation time during holiday periods, including the 80-hour weekly limit, 10-hour rest requirements, and 24-hour hard caps. Subspecialty-specific rules are built into the engine."
+        },
+        {
+          "id": "fairness-optimization",
+          "title": "Defensible Holiday Fairness Guaranteed",
+          "eyebrow": "Fairness",
+          "highlights": [
+            "Holiday burden tracked across residents",
+            "No subjective manual assignments",
+            "Eliminates fairness grievances"
+          ],
+          "description": "Every holiday assignment is optimized algorithmically, giving chief residents a clear, data-backed rationale for each assignment. Eliminates the fairness disputes that arise when residents question manual holiday call decisions."
+        },
+        {
+          "id": "resident-preferences",
+          "title": "Resident Holiday Requests Integrated",
+          "eyebrow": "Preferences",
+          "highlights": [
+            "Vacation requests factored in",
+            "Personal constraints respected",
+            "Preferences integrated at generation"
+          ],
+          "description": "Vacation requests, personal constraints, and holiday preferences are factored into the optimization as first-class inputs, not patched in manually after the core schedule is built."
+        },
+        {
+          "id": "managed-service",
+          "title": "Done For You Every Year",
+          "eyebrow": "Managed Service",
+          "highlights": [
+            "No software to learn",
+            "Excel file delivered ready-to-use",
+            "Works with Amion and QGenda"
+          ],
+          "description": "Scheduling Wizard operates as a done-for-you managed service. Submit your constraints and receive a finished holiday call schedule as an Excel file ready to upload to Amion, QGenda, or any viewing tool your program already uses."
+        }
+      ],
+      "title": "Built for Holiday Call Scheduling Complexity",
+      "description": "Every feature is designed to eliminate the manual burden of holiday call planning for residency and fellowship programs."
+    },
+    "problems": {
+      "items": [
+        {
+          "title": "Hours Lost Every November",
+          "description": "Chief residents spend weeks manually balancing holiday call across residents, juggling fairness, duty hours, and coverage requirements with no automated help."
+        },
+        {
+          "title": "Fairness Disputes Damage Morale",
+          "description": "When residents question why they drew Thanksgiving or Christmas call, manual schedules offer no defensible, data-backed answer to resolve disputes."
+        },
+        {
+          "title": "Compliance Risks Go Undetected",
+          "description": "Holiday periods compress duty hours into dense blocks. Manual checks miss violations until after the schedule is published and residents are already working."
+        }
+      ],
+      "title": "Holiday Scheduling Breaks Every Year",
+      "description": "Holiday call planning exposes every flaw in manual residency scheduling processes."
+    },
+    "solution": {
+      "title": "A Fair Holiday Call Schedule Delivered to You",
+      "description": "Submit your program constraints — holiday coverage requirements, resident preferences, ACGME duty hour rules, and fairness targets — and Scheduling Wizard's optimization engine delivers a finished, compliant holiday call schedule as a ready-to-use Excel file. No software to learn, no annual retraining when chiefs rotate."
+    },
+    "metaTitle": "Holiday Call Schedule | Fair & Compliant | Scheduling Wizard",
+    "metaDescription": "Holiday call schedule residency planning is complex. Our managed service takes your constraints and delivers a fair, balanced, and ACGME-compliant schedule."
+  },
+  "searchIntent": {
+    "keyword": "holiday call schedule residency",
+    "searchIntents": [
+      "A chief resident looking for a way to efficiently create a holiday call schedule that balances the workload among residents while complying with ACGME guidelines, as it's critical for fairness and duty hour regulations.",
+      "A program director who needs assistance in generating a holiday call schedule that accommodates resident preferences and ensures coverage during holidays, knowing that manual scheduling won’t account for all necessary constraints.",
+      "A residency program coordinator seeking a streamlined solution to handle complex scheduling needs for holiday shifts, as past experiences with generic scheduling tools resulted in conflicts and understaffing during critical times.",
+      "A fellowship program director wanting to avoid scheduling chaos during the holiday season, worried that traditional methods will lead to burnout and dissatisfaction among residents and staff."
+    ]
+  },
+  "seoMetadata": {
+    "h1": "Finally, A Fair Residency Holiday Call Schedule",
+    "metaTitle": "Holiday Call Schedule | Fair & Compliant | Scheduling Wizard",
+    "h1Paragraph": "Stop spending hours on the holiday call schedule. Submit your constraints to Scheduling Wizard; we deliver a fair, ACGME-compliant schedule for your residency.",
+    "metaDescription": "Holiday call schedule residency planning is complex. Our managed service takes your constraints and delivers a fair, balanced, and ACGME-compliant schedule."
+  },
+  "finalMetadata": {
+    "slug": "holiday-call-schedule",
+    "anchor": "Holiday Call Schedule Residency",
+    "category": "specialty",
+    "generatedAt": "2026-06-04T09:57:29.679Z"
+  },
+  "id": "cmpzbiwgo000pl304p2zp6w2n",
+  "createdAt": "2026-06-04T09:54:02.328Z",
+  "updatedAt": "2026-06-04T09:57:29.680Z"
+}

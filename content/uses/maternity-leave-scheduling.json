@@ -1,0 +1,156 @@
+{
+  "keyword": "maternity leave residency scheduling",
+  "slug": "maternity-leave-scheduling",
+  "anchor": "Maternity Leave Residency Scheduling",
+  "title": "Maternity Leave Residency Scheduling | Optimized Shifts | SW",
+  "description": "Maternity leave residency scheduling is complex. Our managed service creates optimized, ACGME-compliant schedules for you, ensuring fair coverage without manual work.",
+  "h1": "Maternity Leave Residency Scheduling Without the Headache",
+  "paragraph": "Stop manually rebuilding schedules for maternity leave. Submit your constraints and Scheduling Wizard delivers a fully optimized, ACGME-compliant schedule.",
+  "category": "role",
+  "data": {
+    "cta": {
+      "title": "Stop Rebuilding Schedules Around Leave",
+      "buttonText": "Book a Free Scheduling Consult",
+      "description": "Join 18 departments across 13 hospitals who trust Scheduling Wizard to deliver compliant, optimized schedules."
+    },
+    "faq": [
+      {
+        "answer": "Scheduling Wizard re-optimizes your affected schedules when a resident goes on maternity leave. You submit the updated constraints — including the leave details, duration, and any coverage preferences — and the engine redistributes rotations, call assignments, and clinic coverage across your remaining residents. The output is a revised, ACGME-compliant Excel schedule ready to publish, without your team manually rebuilding anything from scratch.",
+        "question": "How does Scheduling Wizard handle maternity leave in a residency program?"
+      },
+      {
+        "answer": "Yes. The optimization engine enforces ACGME duty hour rules mathematically at the point of schedule generation, not as a manual check afterward. Even when coverage is thinner due to leave, the engine will not produce a schedule that violates 80-hour weekly limits, required rest intervals, or subspecialty-specific rules. If a compliant schedule is not achievable under the submitted constraints, that conflict is surfaced before delivery.",
+        "question": "Will ACGME compliance be maintained when a resident is on maternity leave?"
+      },
+      {
+        "answer": "Scheduling Wizard uses algorithmic fairness optimization to redistribute call, weekend, and holiday burden across the remaining residents when someone is on maternity leave. Rather than manually assigning extra shifts to whoever is available, the engine balances the additional load equitably across the cohort, minimizing any single resident's disproportionate burden.",
+        "question": "How do you ensure fair call distribution when one resident is on leave?"
+      },
+      {
+        "answer": "Maternity leave typically creates downstream changes across block rotations, call schedules, clinic assignments, and sometimes attending schedules. Scheduling Wizard optimizes all of these simultaneously. Because the engine resolves cross-schedule dependencies together, a change in call coverage propagates correctly into rotation and clinic schedules rather than creating new conflicts downstream.",
+        "question": "What schedule types are affected by maternity leave and does SW handle all of them?"
+      },
+      {
+        "answer": "Programs submit their scheduling constraints — rotation requirements, ACGME rules, resident preferences, coverage minimums, and the specifics of the maternity leave (dates, affected resident, any accommodation requirements). Scheduling Wizard handles the optimization from there and delivers finished Excel files your team can upload directly to Amion, QGenda, or your existing viewing tool.",
+        "question": "What does the program need to submit to get a revised schedule?"
+      },
+      {
+        "answer": "Manual scheduling in Excel requires someone — typically a chief resident — to hand-check every affected rotation, call slot, and clinic assignment for conflicts and compliance after each change. Scheduling Wizard replaces that process entirely. The optimization engine handles all constraint checking and redistribution automatically, and institutional scheduling knowledge persists with Scheduling Wizard year over year, so a new chief does not have to relearn how your program's rules work.",
+        "question": "How is Scheduling Wizard different from managing maternity leave manually in Excel?"
+      }
+    ],
+    "hero": {
+      "title": "Maternity Leave Residency Scheduling Without the Headache",
+      "description": "Submit your constraints and receive a fully optimized, ACGME-compliant schedule that absorbs maternity leave without gaps in coverage or manual rebuilding."
+    },
+    "features": {
+      "items": [
+        {
+          "id": "schedule-revision",
+          "title": "Mid-Year Revision Without the Chaos",
+          "eyebrow": "Leave Management",
+          "highlights": [
+            "Leave absorbed without manual rebuilds",
+            "Unaffected schedule portions preserved",
+            "Revisions processed without full restart"
+          ],
+          "description": "When a resident goes on maternity leave, the engine re-optimizes affected rotations, call assignments, and clinic coverage without disrupting the portions of the schedule that are already working."
+        },
+        {
+          "id": "acgme-compliance",
+          "title": "Compliance Guaranteed Through Leave Periods",
+          "eyebrow": "ACGME Compliance",
+          "highlights": [
+            "80-hour limits enforced automatically",
+            "Subspecialty-specific rules built in",
+            "Violations prevented at generation time"
+          ],
+          "description": "Duty hour rules do not pause when coverage is thin. The engine enforces 80-hour weekly limits, rest intervals, and subspecialty-specific ACGME requirements mathematically at generation time, even after leave-driven redistribution."
+        },
+        {
+          "id": "coverage-optimization",
+          "title": "No Gaps Left by Departing Residents",
+          "eyebrow": "Coverage",
+          "highlights": [
+            "All required slots filled",
+            "Workload redistributed equitably",
+            "No uncovered shifts on delivery"
+          ],
+          "description": "Every required shift and rotation slot is covered before the schedule is delivered. The optimization engine redistributes workload across remaining residents without leaving uncovered assignments or overstaffing any single resident."
+        },
+        {
+          "id": "fairness-optimization",
+          "title": "Fair Burden Distribution During Leave",
+          "eyebrow": "Fairness",
+          "highlights": [
+            "Call burden balanced across residents",
+            "Holidays redistributed fairly",
+            "Fairness disputes eliminated"
+          ],
+          "description": "When a resident is on maternity leave, the remaining call, weekend, and holiday burden is redistributed algorithmically so no single resident absorbs a disproportionate share."
+        },
+        {
+          "id": "managed-service",
+          "title": "No Software for Your Team to Learn",
+          "eyebrow": "Managed Service",
+          "highlights": [
+            "Submit constraints, receive schedules",
+            "Delivered as ready-to-use Excel files",
+            "No scheduling software to operate"
+          ],
+          "description": "Scheduling Wizard is a done-for-you service. Submit your constraints and leave details, and expert schedulers backed by a proprietary optimization engine deliver finished, ready-to-use Excel files directly to you."
+        }
+      ],
+      "title": "Built for Real Scheduling Complexity",
+      "description": "Scheduling Wizard handles the cascading adjustments that maternity leave creates across every schedule type in your program."
+    },
+    "problems": {
+      "items": [
+        {
+          "title": "Entire Schedule Needs Rebuilding",
+          "description": "Accommodating maternity leave means manually reshuffling rotations, call assignments, and clinic coverage across every remaining resident."
+        },
+        {
+          "title": "Coverage Gaps Appear Overnight",
+          "description": "Pulling one resident for leave creates uncovered shifts, overloaded teammates, and compliance risks that compound across the schedule."
+        },
+        {
+          "title": "ACGME Compliance Becomes Uncertain",
+          "description": "Manually patching a schedule for parental leave makes it easy to accidentally violate duty hour limits, rest requirements, or subspecialty-specific ACGME rules."
+        }
+      ],
+      "title": "Maternity Leave Breaks Manual Scheduling",
+      "description": "One resident's leave can unravel months of careful scheduling work across your entire program."
+    },
+    "solution": {
+      "title": "A Done-For-You Schedule That Absorbs Leave",
+      "description": "Submit your program's constraints — including the maternity leave details — and Scheduling Wizard's optimization engine rebuilds your ACGME-compliant block, call, and clinic schedules automatically. You receive finished Excel files, ready to publish. No software to learn, no manual reshuffling."
+    },
+    "metaTitle": "Maternity Leave Residency Scheduling | Optimized Shifts | SW",
+    "metaDescription": "Maternity leave residency scheduling is complex. Our managed service creates optimized, ACGME-compliant schedules for you, ensuring fair coverage without manual work."
+  },
+  "searchIntent": {
+    "keyword": "maternity leave residency scheduling",
+    "searchIntents": [
+      "A chief resident trying to figure out how to accommodate a resident's maternity leave without disrupting the entire department's schedule, looking for a solution that understands ACGME compliance and can optimize shifts accordingly.",
+      "A program coordinator seeking a scheduling service that can adapt current residency schedules to allow for maternity leave while ensuring no gaps in coverage and maintaining compliance with institutional policies.",
+      "A residency program director needing a reliable way to incorporate maternity leave into their scheduling process, wanting to avoid the complexity of self-service software while ensuring fairness among residents and adherence to institutional constraints.",
+      "A residency program administrator looking for expert support to manage maternity leave scheduling effectively, as they are overwhelmed by manual adjustments and need a solution that guarantees a seamless integration with existing scheduling tools."
+    ]
+  },
+  "seoMetadata": {
+    "h1": "Maternity Leave Residency Scheduling Without the Headache",
+    "metaTitle": "Maternity Leave Residency Scheduling | Optimized Shifts | SW",
+    "h1Paragraph": "Stop manually rebuilding schedules for maternity leave. Submit your constraints and Scheduling Wizard delivers a fully optimized, ACGME-compliant schedule.",
+    "metaDescription": "Maternity leave residency scheduling is complex. Our managed service creates optimized, ACGME-compliant schedules for you, ensuring fair coverage without manual work."
+  },
+  "finalMetadata": {
+    "slug": "maternity-leave-scheduling",
+    "anchor": "Maternity Leave Residency Scheduling",
+    "category": "role",
+    "generatedAt": "2026-06-04T09:56:57.065Z"
+  },
+  "id": "cmpzbiw8b000jl304w9n286bf",
+  "createdAt": "2026-06-04T09:54:02.028Z",
+  "updatedAt": "2026-06-04T09:56:57.067Z"
+}

@@ -1,0 +1,156 @@
+{
+  "keyword": "GME scheduling software",
+  "slug": "gme-scheduling-software",
+  "anchor": "GME Scheduling Software",
+  "title": "GME Scheduling Software | Eliminate Admin Burden | Scheduling Wizard",
+  "description": "GME scheduling software shouldn't be your burden. Scheduling Wizard is a managed service that takes your constraints and delivers complete, ACGME-compliant schedules.",
+  "h1": "GME Scheduling Software, Managed for You",
+  "paragraph": "Ditch the complex software. Scheduling Wizard is a managed service. Send your constraints, and we deliver a complete, ACGME-compliant schedule. Reclaim your time.",
+  "category": "setting",
+  "data": {
+    "cta": {
+      "title": "Stop Losing Time to GME Scheduling",
+      "buttonText": "Book a Free Scheduling Consult",
+      "description": "Join 18 departments across 13 hospitals who already outsource scheduling to Scheduling Wizard."
+    },
+    "faq": [
+      {
+        "answer": "Most GME scheduling software is a self-service tool that requires chief residents to learn and operate a complex platform. Scheduling Wizard is different — it is a fully managed service. Programs submit their constraints and receive finished, ACGME-compliant schedules as Excel files, with no software to learn or operate. The optimization is handled entirely by Scheduling Wizard's proprietary engine and expert schedulers.",
+        "question": "What is GME scheduling software and how does Scheduling Wizard differ?"
+      },
+      {
+        "answer": "Scheduling Wizard mathematically enforces ACGME duty hour regulations at schedule generation time. This means the 80-hour weekly limit, minimum rest requirements, and the 24-hour shift cap are built into the engine as hard constraints, not checked manually after the fact. Subspecialty-specific ACGME rules are also built in, so programs do not need to cross-reference requirements themselves.",
+        "question": "How does Scheduling Wizard ensure ACGME duty hour compliance?"
+      },
+      {
+        "answer": "Scheduling Wizard generates Block rotation schedules, Call schedules, Clinic schedules, and Attending schedules. All four schedule types are optimized simultaneously using a proprietary constraint-solving engine, so changes in one schedule type automatically propagate across the others and do not create downstream conflicts.",
+        "question": "What types of schedules does Scheduling Wizard generate for GME programs?"
+      },
+      {
+        "answer": "Yes. Scheduling Wizard handles schedule creation and optimization, while many clients continue using Amion or QGenda for day-to-day schedule viewing and display. Finished schedules are delivered as Excel files that can be uploaded directly into whichever viewing tool your program already uses. There is no need to switch away from your existing platform.",
+        "question": "Can Scheduling Wizard work alongside Amion or QGenda?"
+      },
+      {
+        "answer": "Resident preferences including vacation requests, elective preferences, conference dates, moonlighting restrictions, and personal constraints are submitted as inputs and factored into the optimization as first-class requirements. They are not manually patched in after the schedule is built, which means the final schedule reflects real program needs from the start.",
+        "question": "How does Scheduling Wizard handle resident preferences and constraints?"
+      },
+      {
+        "answer": "With Scheduling Wizard, institutional scheduling knowledge does not leave when a chief resident rotates out. Your program's rules, constraints, and configurations are retained within the service year over year. Incoming chiefs inherit an optimized, working system rather than having to rebuild scheduling knowledge from scratch each academic year.",
+        "question": "What happens to scheduling knowledge when a new chief resident takes over?"
+      }
+    ],
+    "hero": {
+      "title": "GME Scheduling Software Managed for You",
+      "description": "Scheduling Wizard delivers complete, ACGME-compliant GME schedules as ready-to-use Excel files. Submit your constraints and get finished schedules back."
+    },
+    "features": {
+      "items": [
+        {
+          "id": "managed-service",
+          "title": "Done For You Schedule Delivery",
+          "eyebrow": "Managed Service",
+          "highlights": [
+            "No software to learn",
+            "Finished Excel files delivered",
+            "Expert schedulers handle optimization"
+          ],
+          "description": "Scheduling Wizard operates as a fully managed service for GME programs. Submit your constraints and receive finished Excel schedules ready to publish or upload to your existing viewing tools like Amion or QGenda."
+        },
+        {
+          "id": "acgme-compliance",
+          "title": "Compliance Built Into Every Schedule",
+          "eyebrow": "ACGME Compliance",
+          "highlights": [
+            "Subspecialty rules built in",
+            "Violations prevented at generation",
+            "80-hour limits enforced automatically"
+          ],
+          "description": "ACGME duty hour rules are mathematically enforced at generation time across all schedule types. Subspecialty-specific rules are built into the engine so violations are prevented before the schedule is ever published."
+        },
+        {
+          "id": "institutional-continuity",
+          "title": "Scheduling Knowledge That Persists",
+          "eyebrow": "Program Continuity",
+          "highlights": [
+            "Rules retained year over year",
+            "No annual retraining required",
+            "New chiefs inherit working system"
+          ],
+          "description": "Your program's constraints, rules, and configurations are retained by Scheduling Wizard year over year. Incoming chief residents inherit a fully optimized, working system instead of starting from a blank spreadsheet."
+        },
+        {
+          "id": "block-scheduling",
+          "title": "Year Long Rotation Schedules Optimized",
+          "eyebrow": "Block Scheduling",
+          "highlights": [
+            "PGY-level requirements respected",
+            "Elective preferences factored in",
+            "Multi-track programs supported"
+          ],
+          "description": "Generates complete year-long block rotation schedules that respect PGY-level requirements, elective preferences, coverage minimums, and ACGME rotation mandates across complex multi-track GME programs."
+        },
+        {
+          "id": "call-scheduling",
+          "title": "Fair Call Distribution Across Residents",
+          "eyebrow": "Call Scheduling",
+          "highlights": [
+            "Weekend call balanced automatically",
+            "Holiday shifts distributed fairly",
+            "Post-call rules enforced"
+          ],
+          "description": "Produces ACGME-compliant on-call schedules that distribute call, weekend, and holiday burden equitably across all residents. Fairness disputes are eliminated because the algorithm optimizes distribution before any schedule is published."
+        }
+      ],
+      "title": "Built for the Complexity of GME Scheduling",
+      "description": "Every feature is designed around the real constraints residency and fellowship programs face, from ACGME compliance to resident preferences."
+    },
+    "problems": {
+      "items": [
+        {
+          "title": "Software Nobody Has Time to Learn",
+          "description": "Most GME scheduling software puts the burden on chief residents to master complex tools they will only use for one year before rotating out."
+        },
+        {
+          "title": "Compliance Gaps Risk Accreditation",
+          "description": "Manually checking ACGME duty hour rules across block, call, and clinic schedules leaves room for violations that put program accreditation at risk."
+        },
+        {
+          "title": "Knowledge Lost Every Year",
+          "description": "When chiefs rotate out, scheduling knowledge walks out with them. The next chief starts from scratch with a blank spreadsheet and no institutional memory."
+        }
+      ],
+      "title": "GME Scheduling Is Broken",
+      "description": "Residency programs lose hundreds of hours each year to scheduling work that pulls chiefs away from patient care."
+    },
+    "solution": {
+      "title": "A Done For You GME Scheduling Service",
+      "description": "Scheduling Wizard is a managed service, not software. Submit your program's constraints and receive finished, ACGME-compliant Block, Clinic, Call, and Attending schedules delivered as ready-to-use Excel files. No software to learn. No institutional knowledge lost when chiefs rotate."
+    },
+    "metaTitle": "GME Scheduling Software | Eliminate Admin Burden | Scheduling Wizard",
+    "metaDescription": "GME scheduling software shouldn't be your burden. Scheduling Wizard is a managed service that takes your constraints and delivers complete, ACGME-compliant schedules."
+  },
+  "searchIntent": {
+    "keyword": "GME scheduling software",
+    "searchIntents": [
+      "As a chief resident, I'm overwhelmed by the complexity of creating schedules that comply with ACGME standards and need a solution that eliminates my administrative burden while ensuring compliance without having to learn new software.",
+      "I'm a program coordinator seeking a managed service for GME scheduling because I need to efficiently generate fair and compliant schedules, and I can't afford the mistakes that come with generic scheduling software.",
+      "As a fellowship program director, I want to ensure that our rotation schedules meet all ACGME requirements without the hassle of manual adjustments, so I need a specialized solution that understands our unique constraints.",
+      "I'm looking for a way to handle residency scheduling that maintains continuity from year to year, as my chief residents change, and I can't rely on basic scheduling tools that don't adapt to our specific needs."
+    ]
+  },
+  "seoMetadata": {
+    "h1": "GME Scheduling Software, Managed for You",
+    "metaTitle": "GME Scheduling Software | Eliminate Admin Burden | Scheduling Wizard",
+    "h1Paragraph": "Ditch the complex software. Scheduling Wizard is a managed service. Send your constraints, and we deliver a complete, ACGME-compliant schedule. Reclaim your time.",
+    "metaDescription": "GME scheduling software shouldn't be your burden. Scheduling Wizard is a managed service that takes your constraints and delivers complete, ACGME-compliant schedules."
+  },
+  "finalMetadata": {
+    "slug": "gme-scheduling-software",
+    "anchor": "GME Scheduling Software",
+    "category": "setting",
+    "generatedAt": "2026-06-04T09:55:51.827Z"
+  },
+  "id": "cmpzbivwe000al304q96gajro",
+  "createdAt": "2026-06-04T09:54:01.599Z",
+  "updatedAt": "2026-06-04T09:55:51.830Z"
+}

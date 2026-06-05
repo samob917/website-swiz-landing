@@ -1,0 +1,156 @@
+{
+  "keyword": "ACGME duty hour violations",
+  "slug": "acgme-duty-hour-violations",
+  "anchor": "ACGME Duty Hour Violations",
+  "title": "ACGME Duty Hour Violations | Eliminate Risk | Scheduling Wizard",
+  "description": "ACGME duty hour violations put your programs at risk. Scheduling Wizard's managed service uses a proprietary engine to deliver mathematically guaranteed compliant schedules.",
+  "h1": "Eliminate ACGME Duty Hour Violations for Good",
+  "paragraph": "Stop relying on manual checks and remove human error. Scheduling Wizard's managed service delivers ACGME-compliant schedules, mathematically guaranteed.",
+  "category": "specialty",
+  "data": {
+    "cta": {
+      "title": "Stop Risking Violations on Every Schedule",
+      "buttonText": "Book a Free Scheduling Consult",
+      "description": "Join 18 departments across 13 hospitals who already rely on Scheduling Wizard for compliant schedules."
+    },
+    "faq": [
+      {
+        "answer": "The most common ACGME duty hour violations involve exceeding the 80-hour weekly work limit, failing to provide minimum 10-hour rest periods between shifts, and violating the 24-hour maximum continuous duty cap. Programs also frequently encounter violations when moonlighting hours are not counted toward the weekly total or when subspecialty-specific rules are inadvertently overlooked. Manual scheduling processes are especially prone to these errors because compliance is checked after a schedule is built rather than enforced during construction.",
+        "question": "What are the most common ACGME duty hour violations in residency programs?"
+      },
+      {
+        "answer": "Scheduling Wizard prevents ACGME duty hour violations by enforcing compliance rules mathematically at schedule generation time through a proprietary optimization engine. Rather than producing a schedule and then checking it against duty hour rules, the engine treats every ACGME regulation as a hard constraint that the schedule must satisfy before it is delivered. Subspecialty-specific rules are built into the engine, so programs receive a finished, compliant schedule without any manual checking required.",
+        "question": "How does Scheduling Wizard prevent ACGME duty hour violations?"
+      },
+      {
+        "answer": "If a duty hour violation is identified after a schedule is published, the affected portion of the schedule must be revised and redistributed, which can disrupt the entire program. Scheduling Wizard addresses this upstream by building compliance into the schedule at creation time. For mid-year changes that introduce new constraints, the engine can re-optimize affected portions of the schedule without requiring a full rebuild.",
+        "question": "What happens if a duty hour violation is found after a schedule is published?"
+      },
+      {
+        "answer": "Yes. Subspecialty-specific ACGME duty hour rules are built into Scheduling Wizard's optimization engine. ACGME compliance is the most common question asked during onboarding, and the service is designed to handle the nuances that vary across residency and fellowship programs. Programs should communicate their specific requirements during the constraint submission process so the engine can apply the correct rules for their specialty.",
+        "question": "Does Scheduling Wizard know the ACGME rules for my specific subspecialty?"
+      },
+      {
+        "answer": "Schedules are delivered as ready-to-use Excel spreadsheets. Many Scheduling Wizard clients upload these finished files directly into Amion or QGenda for day-to-day viewing and access. Scheduling Wizard handles the schedule creation and optimization, while your existing viewing platform handles display. There is no new software for your program to learn or operate.",
+        "question": "How are schedules delivered and can we use them with Amion or QGenda?"
+      },
+      {
+        "answer": "This is a common source of compliance risk. When a chief resident rotates out, institutional knowledge about scheduling rules, constraints, and past decisions typically leaves with them. Scheduling Wizard retains all program-specific constraints and ACGME rules on its end, so incoming chiefs inherit a working, compliant system rather than rebuilding from scratch each year.",
+        "question": "Who is responsible for scheduling when chief residents rotate annually?"
+      }
+    ],
+    "hero": {
+      "title": "Eliminate ACGME Duty Hour Violations for Good",
+      "description": "Scheduling Wizard's managed service delivers mathematically guaranteed ACGME-compliant schedules, removing human error and eliminating duty hour violations before they happen."
+    },
+    "features": {
+      "items": [
+        {
+          "id": "acgme-compliance",
+          "title": "Violations Prevented at Generation Time",
+          "eyebrow": "ACGME Compliance",
+          "highlights": [
+            "80-hour limits enforced automatically",
+            "Subspecialty-specific rules built in",
+            "Violations prevented not detected"
+          ],
+          "description": "The proprietary optimization engine enforces ACGME duty hour regulations mathematically when the schedule is built. The 80-hour weekly limit, rest requirements, and 24-hour caps are enforced automatically, with subspecialty-specific rules built in."
+        },
+        {
+          "id": "managed-service",
+          "title": "Done For You Scheduling Delivery",
+          "eyebrow": "Managed Service",
+          "highlights": [
+            "No software to learn",
+            "Finished schedules delivered as Excel",
+            "Expert schedulers handle optimization"
+          ],
+          "description": "Programs submit their constraints and receive finished, compliant schedules as Excel files. There is no software to learn, no compliance checklist to run manually, and no reliance on a chief resident's institutional memory."
+        },
+        {
+          "id": "institutional-continuity",
+          "title": "Compliance Knowledge Persists Year Over Year",
+          "eyebrow": "Program Continuity",
+          "highlights": [
+            "Rules retained across chief rotations",
+            "No knowledge lost year to year",
+            "New chiefs inherit a working system"
+          ],
+          "description": "ACGME duty hour rules and program-specific constraints are retained by Scheduling Wizard across annual chief rotations. New chiefs inherit a working, compliant system instead of rebuilding from a blank spreadsheet."
+        },
+        {
+          "id": "constraint-modeling",
+          "title": "Every Program Rule Captured Precisely",
+          "eyebrow": "Custom Constraints",
+          "highlights": [
+            "Subspecialty rules modeled precisely",
+            "Site-specific requirements captured",
+            "Moonlighting restrictions enforced"
+          ],
+          "description": "Program-specific requirements, subspecialty ACGME rules, moonlighting restrictions, and site-specific obligations are modeled through a proprietary scheduling language so no compliance-relevant constraint is overlooked."
+        },
+        {
+          "id": "conflict-detection",
+          "title": "Scheduling Conflicts Caught Before Publishing",
+          "eyebrow": "Conflict Detection",
+          "highlights": [
+            "Conflicts flagged before publishing",
+            "Cross-schedule errors eliminated",
+            "No post-publish scrambling"
+          ],
+          "description": "The engine automatically identifies conflicts between rotations, call assignments, and clinic obligations before a schedule is published, eliminating the cascading compliance errors that follow manual scheduling mistakes."
+        }
+      ],
+      "title": "Built to Prevent Duty Hour Violations",
+      "description": "Every feature is designed to remove the compliance burden from your program and deliver schedules that are correct from the start."
+    },
+    "problems": {
+      "items": [
+        {
+          "title": "Violations Discovered After Publishing",
+          "description": "Manual duty hour checks catch violations too late. By the time errors surface, residents are already working non-compliant schedules."
+        },
+        {
+          "title": "Subspecialty Rules Are Easy to Miss",
+          "description": "ACGME duty hour rules vary by subspecialty. A general checklist cannot account for every program-specific regulation your residents are subject to."
+        },
+        {
+          "title": "New Chiefs Restart From Zero",
+          "description": "When chief residents rotate annually, institutional scheduling knowledge disappears and compliance risks reset with every transition."
+        }
+      ],
+      "title": "Manual Scheduling Puts Programs at Risk",
+      "description": "Residency programs relying on manual checks are one scheduling error away from a serious compliance failure."
+    },
+    "solution": {
+      "title": "Compliance Built Into Every Schedule",
+      "description": "Scheduling Wizard is a done-for-you managed service. Submit your program's constraints and receive finished, ACGME-compliant Block, Call, Clinic, and Attending schedules as ready-to-use Excel files. Duty hour compliance is mathematically enforced at generation time, not manually checked after the fact."
+    },
+    "metaTitle": "ACGME Duty Hour Violations | Eliminate Risk | Scheduling Wizard",
+    "metaDescription": "ACGME duty hour violations put your programs at risk. Scheduling Wizard's managed service uses a proprietary engine to deliver mathematically guaranteed compliant schedules."
+  },
+  "searchIntent": {
+    "keyword": "ACGME duty hour violations",
+    "searchIntents": [
+      "A residency program director concerned about recent ACGME audits, looking for information on how to ensure compliance with duty hour regulations to avoid penalties.",
+      "A chief resident who is overwhelmed with scheduling duties and seeking solutions to prevent duty hour violations for their cohort while managing rotations efficiently.",
+      "A program coordinator researching the implications of duty hour violations and how to implement a compliant scheduling system that aligns with ACGME standards.",
+      "A GME office administrator trying to find automated scheduling tools that can guarantee ACGME compliance and eliminate the risk of violations during resident scheduling."
+    ]
+  },
+  "seoMetadata": {
+    "h1": "Eliminate ACGME Duty Hour Violations for Good",
+    "metaTitle": "ACGME Duty Hour Violations | Eliminate Risk | Scheduling Wizard",
+    "h1Paragraph": "Stop relying on manual checks and remove human error. Scheduling Wizard's managed service delivers ACGME-compliant schedules, mathematically guaranteed.",
+    "metaDescription": "ACGME duty hour violations put your programs at risk. Scheduling Wizard's managed service uses a proprietary engine to deliver mathematically guaranteed compliant schedules."
+  },
+  "finalMetadata": {
+    "slug": "duty-hour-violations",
+    "anchor": "ACGME Duty Hour Violations",
+    "category": "specialty",
+    "generatedAt": "2026-06-04T09:58:11.863Z"
+  },
+  "id": "cmpzbix9i0007ks04i9sfmvsi",
+  "createdAt": "2026-06-04T09:54:03.366Z",
+  "updatedAt": "2026-06-04T10:09:40.026Z"
+}

@@ -1,0 +1,156 @@
+{
+  "keyword": "residency management software",
+  "slug": "residency-management-software",
+  "anchor": "Residency Management Software",
+  "title": "Residency Management Software | Get Schedules Done | Scheduling Wizard",
+  "description": "Residency management software shouldn't add to your workload. Scheduling Wizard is a managed service that builds your ACGME-compliant schedules for you. Get optimized schedules delivered.",
+  "h1": "Residency Management Software, Done For You",
+  "paragraph": "Stop losing nights to spreadsheets. Scheduling Wizard isn't software you learn—it's a service. Submit your rules; we deliver a perfect, ACGME-compliant schedule.",
+  "category": "role",
+  "data": {
+    "cta": {
+      "title": "Stop Managing Schedules. Start Receiving Them.",
+      "buttonText": "Book a Free Scheduling Consult",
+      "description": "Join 18 departments across 13 hospitals that already outsource residency scheduling to Scheduling Wizard."
+    },
+    "faq": [
+      {
+        "answer": "Residency management software typically refers to self-service platforms that programs operate themselves to build and manage schedules. Scheduling Wizard differs by operating as a done-for-you managed service — programs submit their constraints and rules, and Scheduling Wizard's optimization engine delivers finished, ACGME-compliant schedules as Excel files. There is no platform to log into or software to learn. The output can be uploaded directly to existing tools like Amion or QGenda for day-to-day schedule viewing.",
+        "question": "What is residency management software and how does Scheduling Wizard differ?"
+      },
+      {
+        "answer": "ACGME compliance is mathematically enforced at schedule generation time, not manually checked after the fact. The optimization engine has subspecialty-specific ACGME rules built in — including the 80-hour weekly limit, minimum rest requirements, and the 24-hour hard cap. Violations are prevented during generation rather than discovered after the schedule is published. Buyers frequently ask about subspecialty-specific rules on sales calls, and those rules are encoded directly into the engine.",
+        "question": "How does Scheduling Wizard ensure ACGME duty hour compliance?"
+      },
+      {
+        "answer": "Scheduling Wizard generates four schedule types: Block and rotation schedules, Call schedules, Clinic schedules, and Attending schedules. These are optimized simultaneously so that a change in one propagates correctly across the others — eliminating the manual cross-schedule patching that causes errors in traditional residency management approaches.",
+        "question": "What types of schedules does Scheduling Wizard generate for residency programs?"
+      },
+      {
+        "answer": "Institutional scheduling knowledge, program rules, and constraint configurations persist with Scheduling Wizard year over year. When a new chief resident takes over, they inherit a fully working, optimized scheduling system rather than starting from a blank spreadsheet. This eliminates the annual knowledge loss that plagues programs relying on outgoing chiefs to transfer scheduling expertise.",
+        "question": "How does Scheduling Wizard handle the annual chief resident transition?"
+      },
+      {
+        "answer": "Yes — many Scheduling Wizard clients use Amion or QGenda alongside the service. Scheduling Wizard handles schedule creation and optimization, delivering finished schedules as Excel files. Programs then upload those files to Amion or QGenda for day-to-day schedule viewing and access. Scheduling Wizard is designed to complement these tools, not replace them.",
+        "question": "Can Scheduling Wizard work alongside our existing tools like Amion or QGenda?"
+      },
+      {
+        "answer": "Scheduling Wizard serves chief residents, program directors, program coordinators, and GME offices at hospitals and academic medical centers. The service is built for any residency or fellowship program that creates Block, Call, Clinic, or Attending schedules and wants to eliminate the operator burden of building those schedules manually or through self-service software.",
+        "question": "Who uses Scheduling Wizard for residency and fellowship program management?"
+      }
+    ],
+    "hero": {
+      "title": "Residency Management Software Done For You",
+      "description": "Scheduling Wizard is a managed service that delivers ACGME-compliant Block, Call, Clinic, and Attending schedules as ready-to-use Excel files. No software to learn."
+    },
+    "features": {
+      "items": [
+        {
+          "id": "managed-service",
+          "title": "Done For You Schedule Delivery",
+          "eyebrow": "Managed Service",
+          "highlights": [
+            "No software to learn",
+            "Finished schedules delivered",
+            "Upload to existing tools"
+          ],
+          "description": "Scheduling Wizard operates as a fully managed service — not self-service residency management software. Submit your constraints and receive finished Excel schedules ready to upload to Amion or QGenda for day-to-day viewing."
+        },
+        {
+          "id": "acgme-compliance",
+          "title": "Compliance Guaranteed at Generation Time",
+          "eyebrow": "ACGME Compliance",
+          "highlights": [
+            "80-hour limits enforced",
+            "Subspecialty rules built in",
+            "No manual compliance checks"
+          ],
+          "description": "ACGME duty hour rules are mathematically enforced during schedule generation — 80-hour weekly limits, rest requirements, and subspecialty-specific regulations — so violations are prevented before the schedule is ever published."
+        },
+        {
+          "id": "institutional-continuity",
+          "title": "Knowledge That Survives Chief Rotations",
+          "eyebrow": "Program Continuity",
+          "highlights": [
+            "Rules persist year to year",
+            "No annual knowledge loss",
+            "New chiefs ready immediately"
+          ],
+          "description": "Your program's scheduling constraints, rules, and configurations persist with Scheduling Wizard year over year. Incoming chief residents inherit a fully working system instead of starting from scratch every July."
+        },
+        {
+          "id": "block-scheduling",
+          "title": "Year Long Rotation Schedules Automated",
+          "eyebrow": "Block Scheduling",
+          "highlights": [
+            "PGY requirements respected",
+            "Elective preferences included",
+            "Coverage minimums met"
+          ],
+          "description": "Generate complete year-long block rotation schedules that respect PGY-level requirements, elective preferences, coverage minimums, and ACGME rotation mandates across all tracks in your program."
+        },
+        {
+          "id": "call-scheduling",
+          "title": "Fair Call Schedules Every Time",
+          "eyebrow": "Call Scheduling",
+          "highlights": [
+            "Holiday burden distributed fairly",
+            "Post-call rules enforced",
+            "Weekend call balanced automatically"
+          ],
+          "description": "On-call schedules are algorithmically optimized to distribute call, weekend, and holiday burden equitably across all residents while respecting duty hour limits and post-call rules — eliminating fairness disputes."
+        }
+      ],
+      "title": "Built for Residency Program Management",
+      "description": "Every capability is designed to eliminate the scheduling burden on chief residents, coordinators, and program directors."
+    },
+    "problems": {
+      "items": [
+        {
+          "title": "Chiefs Rebuild From Scratch Annually",
+          "description": "Every year a new chief inherits a blank spreadsheet and months of tribal knowledge disappears — putting your entire program at risk."
+        },
+        {
+          "title": "Compliance Violations Risk Accreditation",
+          "description": "Manually checking ACGME duty hour rules across block, call, and clinic schedules leaves room for violations that put accreditation in jeopardy."
+        },
+        {
+          "title": "Scheduling Consumes Clinical Time",
+          "description": "Chief residents spend hundreds of hours each year buried in spreadsheets instead of focusing on patient care and professional development."
+        }
+      ],
+      "title": "Scheduling Is Breaking Your Program",
+      "description": "Residency management software should reduce your burden — not create a new one to maintain."
+    },
+    "solution": {
+      "title": "Residency Scheduling Managed by Experts",
+      "description": "Submit your program's constraints — rotation requirements, subspecialty ACGME rules, resident preferences, and call targets — and receive finished, compliant schedules as ready-to-use Excel files. No software to learn, no annual retraining when chiefs rotate, and no compliance guesswork."
+    },
+    "metaTitle": "Residency Management Software | Get Schedules Done | Scheduling Wizard",
+    "metaDescription": "Residency management software shouldn't add to your workload. Scheduling Wizard is a managed service that builds your ACGME-compliant schedules for you. Get optimized schedules delivered."
+  },
+  "searchIntent": {
+    "keyword": "residency management software",
+    "searchIntents": [
+      "A chief resident overwhelmed with the complexities of creating compliant rotation schedules is looking for a specialized software solution that can handle intricate scheduling rules and ensure ACGME compliance without adding to their workload.",
+      "A program director at a medical residency program needs a way to optimize attending and call schedules for their residents while ensuring fairness and compliance; they're seeking a managed service to avoid the headaches of traditional scheduling software.",
+      "A program coordinator wants to streamline the scheduling process for multiple departments within their hospital and needs a tool that integrates with existing systems like Amion or QGenda, ensuring that the unique constraints of each subspecialty are met efficiently.",
+      "An administrator in a private practice is looking for a scheduling solution that not only manages residency schedules but can also handle specific requirements for their practice, ensuring both regulatory compliance and effective coverage without excessive manual input."
+    ]
+  },
+  "seoMetadata": {
+    "h1": "Residency Management Software, Done For You",
+    "metaTitle": "Residency Management Software | Get Schedules Done | Scheduling Wizard",
+    "h1Paragraph": "Stop losing nights to spreadsheets. Scheduling Wizard isn't software you learn—it's a service. Submit your rules; we deliver a perfect, ACGME-compliant schedule.",
+    "metaDescription": "Residency management software shouldn't add to your workload. Scheduling Wizard is a managed service that builds your ACGME-compliant schedules for you. Get optimized schedules delivered."
+  },
+  "finalMetadata": {
+    "slug": "residency-management-software",
+    "anchor": "Residency Management Software",
+    "category": "role",
+    "generatedAt": "2026-06-04T09:55:20.170Z"
+  },
+  "id": "cmpzbivkr0001l304k06s02jy",
+  "createdAt": "2026-06-04T09:54:01.180Z",
+  "updatedAt": "2026-06-04T09:55:20.172Z"
+}
