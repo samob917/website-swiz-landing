@@ -2,17 +2,83 @@
 
 import type React from "react"
 import { useState, useRef } from "react"
-import { ArrowRight, Check } from "lucide-react"
+import { AlertTriangle, ArrowRight, Check, UploadCloud, FileText } from "lucide-react"
 import emailjs from "@emailjs/browser"
+import posthog from "posthog-js"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 
+type Stage = "input" | "capture" | "success"
+
+// EmailJS free plan caps the total request payload (form vars + base64-encoded
+// attachment) at 50 KB. Paid plans bump that to 2 MB. We validate against the
+// free-plan ceiling and capture a PostHog event when files exceed it — if the
+// rate is high, that's the signal to swap to a real attachment-friendly backend.
+const MAX_FILE_BYTES = 50 * 1024
+const MAX_FILE_LABEL = "Up to 50 KB"
+
 export default function ComplianceCheckerPage() {
+  const [stage, setStage] = useState<Stage>("input")
+  const [source, setSource] = useState("")
+  const [isDragging, setIsDragging] = useState(false)
   const [isSubmitting, setIsSubmitting] = useState(false)
-  const [isSuccess, setIsSuccess] = useState(false)
   const [errorMsg, setErrorMsg] = useState<string | null>(null)
+
   const formRef = useRef<HTMLFormElement>(null)
+  const fileInputRef = useRef<HTMLInputElement>(null)
+
+  const selectFile = (file: File) => {
+    if (file.size > MAX_FILE_BYTES) {
+      const sizeMb = +(file.size / (1024 * 1024)).toFixed(2)
+      posthog.capture("compliance_check_file_too_large", {
+        file_name: file.name,
+        file_size_bytes: file.size,
+        file_size_mb: sizeMb,
+        file_type: file.type || file.name.split(".").pop() || "unknown",
+        limit_bytes: MAX_FILE_BYTES,
+      })
+      const sizeKb = Math.round(file.size / 1024)
+      setErrorMsg(
+        `That file is ${sizeKb} KB. We can only accept up to 50 KB right now — try compressing it, or email it to founders@schedulingwiz.com.`,
+      )
+      if (fileInputRef.current) fileInputRef.current.value = ""
+      return
+    }
+    setSource(file.name)
+    setErrorMsg(null)
+    setStage("capture")
+  }
+
+  const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0]
+    if (file) selectFile(file)
+  }
+
+  const handleDrop = (e: React.DragEvent<HTMLLabelElement>) => {
+    e.preventDefault()
+    setIsDragging(false)
+    const file = e.dataTransfer.files?.[0]
+    if (!file) return
+    // Mirror the dropped file into the hidden input so EmailJS can attach it.
+    if (fileInputRef.current) fileInputRef.current.files = e.dataTransfer.files
+    selectFile(file)
+  }
+
+  const skipFile = () => {
+    // Lets people without a schedule on hand still book an expert consult.
+    if (fileInputRef.current) fileInputRef.current.value = ""
+    setSource("Expert consult — no schedule")
+    setErrorMsg(null)
+    setStage("capture")
+  }
+
+  const reset = () => {
+    if (fileInputRef.current) fileInputRef.current.value = ""
+    setSource("")
+    setErrorMsg(null)
+    setStage("input")
+  }
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
@@ -30,14 +96,16 @@ export default function ComplianceCheckerPage() {
       )
 
       if (result.status === 200) {
-        setIsSuccess(true)
-        formRef.current.reset()
+        setStage("success")
       } else {
-        setErrorMsg("Failed to send. Please try again.")
+        setErrorMsg(`Failed to send (status ${result.status}). ${result.text || "Please try again."}`)
       }
     } catch (err) {
       console.error("EmailJS error:", err)
-      setErrorMsg("Something went wrong. Please try again.")
+      const e = err as { text?: string; status?: number; message?: string }
+      const status = e?.status ? ` (HTTP ${e.status})` : ""
+      const detail = e?.text || e?.message || "Unknown error — check the browser console."
+      setErrorMsg(`Couldn't send${status}: ${detail}`)
     } finally {
       setIsSubmitting(false)
     }
@@ -54,11 +122,22 @@ export default function ComplianceCheckerPage() {
               <span className="hero-text-bold text-yellow-400">Compliance Checker</span>
             </h1>
 
-            <p className="text-base sm:text-lg text-white/80 max-w-xl leading-relaxed mb-12">
-              Worried your schedule won&apos;t hold up to ACGME review? Send us
-              your block, call, or clinic schedule and we&apos;ll flag every
-              duty-hour issue before it becomes a citation.
+            <p className="text-base sm:text-lg text-white/80 max-w-xl leading-relaxed mb-8">
+              Drop in your schedule. We&apos;ll check every shift against the
+              2026 ACGME duty-hour rules — including the home-call changes most
+              programs haven&apos;t updated for.
             </p>
+
+            <div className="mb-12 flex gap-3 rounded-xl border border-yellow-400/30 bg-yellow-400/5 p-4 sm:p-5">
+              <AlertTriangle className="w-5 h-5 flex-shrink-0 text-yellow-400 mt-0.5" />
+              <p className="text-sm text-white/80 leading-relaxed">
+                <span className="font-semibold text-white">
+                  ACGME rules changed in February 2026.
+                </span>{" "}
+                Home call now counts toward the 80-hour max; the 24+4 rule is
+                gone. Pre-2026 schedules need a recheck.
+              </p>
+            </div>
 
             <div className="mb-8">
               <span className="text-white/60 text-xs font-medium uppercase tracking-[0.2em]">
@@ -70,21 +149,21 @@ export default function ComplianceCheckerPage() {
               {[
                 {
                   n: "01",
-                  title: "Book your audit.",
+                  title: "Drop your schedule.",
                   body:
-                    "Fill out the form. We'll reply within one business day with a secure link to share your current block, call, or clinic schedule — .ics, CSV, Excel, even a screenshot.",
+                    "Block, call, or clinic — any common format works. No file? Talk to an expert instead.",
                 },
                 {
                   n: "02",
                   title: "We flag the violations.",
                   body:
-                    "We check every shift against ACGME duty-hour rules for your specialty — 80-hour breaches, missed days off, short rest, call frequency — and pull out the exact dates and residents at risk.",
+                    "Every shift checked against your specialty's ACGME rules — 80-hour, missed days off, short rest, call, home call. We flag the exact dates and residents at risk.",
                 },
                 {
                   n: "03",
-                  title: "Decide how to fix it.",
+                  title: "An expert gets back to you.",
                   body:
-                    "Get a clean report you can act on, or have us rebuild the block fully compliant. You decide on the call.",
+                    "A scheduling expert follows up within one business day with the violations, the residents at risk, and the fix. Or we rebuild it as Excel — ready for Amion, QGenda, or wherever you publish.",
                 },
               ].map((step) => (
                 <div key={step.n} className="flex gap-5">
@@ -104,150 +183,232 @@ export default function ComplianceCheckerPage() {
             </div>
           </div>
 
-          {/* Right: form */}
+          {/* Right: interactive panel */}
           <div className="bg-black/40 backdrop-blur-xl border border-white/10 rounded-2xl p-6 sm:p-8 shadow-2xl">
-            {isSuccess ? (
+            {stage === "success" ? (
               <div className="flex flex-col items-center text-center gap-4 py-10">
                 <div className="w-12 h-12 rounded-full bg-yellow-400/10 border border-yellow-400/40 flex items-center justify-center">
                   <Check className="w-6 h-6 text-yellow-400" />
                 </div>
-                <h3 className="text-2xl font-semibold text-white">Thank you!</h3>
+                <h3 className="text-2xl font-semibold text-white">
+                  Your schedule is in review.
+                </h3>
                 <p className="text-white/60 text-sm max-w-sm">
-                  We&apos;ve got your request and will reply within one business
-                  day at{" "}
-                  <span className="text-yellow-400">founders@schedulingwiz.com</span>.
+                  One of our scheduling experts will follow up within one
+                  business day from{" "}
+                  <span className="text-yellow-400">founders@schedulingwiz.com</span>{" "}
+                  with what we found.
                 </p>
               </div>
             ) : (
               <>
                 <div className="flex items-start justify-between mb-6">
                   <h2 className="text-2xl font-semibold text-white">
-                    Book the call
+                    {stage === "input"
+                      ? "Check your schedule"
+                      : "Where should we reach you?"}
                   </h2>
                   <span className="text-white/40 text-xs tracking-widest uppercase mt-2">
-                    60 sec
+                    Free
                   </span>
                 </div>
 
                 <form ref={formRef} onSubmit={handleSubmit} className="space-y-5">
-                  {/* hidden recipient field for EmailJS template */}
+                  {/* Hidden fields consumed by the existing EmailJS template */}
                   <input
                     type="hidden"
                     name="to_email"
                     value="founders@schedulingwiz.com"
                   />
+                  <input
+                    type="hidden"
+                    name="subject"
+                    value={`ACGME Compliance Check — ${source || "schedule"}`}
+                  />
 
-                  <div className="grid sm:grid-cols-2 gap-4">
-                    <div>
+                  {/* File input persists across stages so EmailJS can attach it on submit.
+                      Accepts the common formats schedules show up as: calendars, spreadsheets,
+                      docs, and screenshots. */}
+                  <input
+                    id="cc-schedule-file"
+                    ref={fileInputRef}
+                    type="file"
+                    name="schedule"
+                    accept=".ics,.csv,.tsv,.xlsx,.xls,.ods,.numbers,.pdf,.doc,.docx,.txt,.png,.jpg,.jpeg,.gif,.heic"
+                    onChange={handleFileChange}
+                    className="hidden"
+                  />
+
+                  {stage === "input" && (
+                    <>
                       <label
-                        htmlFor="cc-name"
-                        className="block text-xs font-medium text-white/70 uppercase tracking-wider mb-2"
+                        htmlFor="cc-schedule-file"
+                        onDragOver={(e) => {
+                          e.preventDefault()
+                          setIsDragging(true)
+                        }}
+                        onDragLeave={() => setIsDragging(false)}
+                        onDrop={handleDrop}
+                        className={`flex flex-col items-center justify-center gap-3 cursor-pointer rounded-xl border-2 border-dashed px-6 py-12 text-center transition-colors ${
+                          isDragging
+                            ? "border-yellow-400 bg-yellow-400/5"
+                            : "border-white/15 hover:border-yellow-400/50 hover:bg-white/5"
+                        }`}
                       >
-                        Name <span className="text-yellow-400">*</span>
+                        <UploadCloud className="w-8 h-8 text-yellow-400" />
+                        <span className="text-white font-medium">
+                          Drop your schedule here
+                        </span>
+                        <span className="text-white/40 text-sm">
+                          .ics, .csv, Excel, PDF, Word, or screenshot — or click to browse
+                        </span>
+                        <span className="inline-flex items-center rounded-full border border-white/10 bg-white/5 px-2.5 py-0.5 text-[10px] font-medium uppercase tracking-wider text-white/60">
+                          {MAX_FILE_LABEL}
+                        </span>
                       </label>
-                      <Input
-                        id="cc-name"
-                        name="name"
-                        type="text"
-                        required
-                        placeholder="Your name"
-                        disabled={isSubmitting}
-                        className="bg-white/5 border-white/10 text-white placeholder:text-white/30 focus:border-yellow-400/50 focus:ring-0 rounded-lg h-11"
-                      />
-                    </div>
-                    <div>
-                      <label
-                        htmlFor="cc-email"
-                        className="block text-xs font-medium text-white/70 uppercase tracking-wider mb-2"
+
+                      {errorMsg && (
+                        <p className="text-sm text-red-400">{errorMsg}</p>
+                      )}
+
+                      <p className="text-center text-xs text-white/40">
+                        Our team personally reviews every submission — no
+                        automated reports.
+                      </p>
+
+                      <div className="flex items-center gap-4">
+                        <span className="h-px flex-1 bg-white/10" />
+                        <span className="text-white/30 text-xs uppercase tracking-widest">
+                          or
+                        </span>
+                        <span className="h-px flex-1 bg-white/10" />
+                      </div>
+
+                      <Button
+                        type="button"
+                        onClick={skipFile}
+                        variant="outline"
+                        className="w-full border-white/15 bg-white/5 text-white hover:bg-white/10 hover:text-white h-12 rounded-lg"
                       >
-                        Email Address <span className="text-yellow-400">*</span>
-                      </label>
-                      <Input
-                        id="cc-email"
-                        name="email"
-                        type="email"
-                        required
-                        placeholder="your.email@example.com"
-                        disabled={isSubmitting}
-                        className="bg-white/5 border-white/10 text-white placeholder:text-white/30 focus:border-yellow-400/50 focus:ring-0 rounded-lg h-11"
-                      />
-                    </div>
-                  </div>
-
-                  <div>
-                    <label
-                      htmlFor="cc-company"
-                      className="block text-xs font-medium text-white/70 uppercase tracking-wider mb-2"
-                    >
-                      Medical Institution
-                    </label>
-                    <Input
-                      id="cc-company"
-                      name="company"
-                      type="text"
-                      placeholder="Your hospital or medical center"
-                      disabled={isSubmitting}
-                      className="bg-white/5 border-white/10 text-white placeholder:text-white/30 focus:border-yellow-400/50 focus:ring-0 rounded-lg h-11"
-                    />
-                  </div>
-
-                  <div>
-                    <label
-                      htmlFor="cc-subject"
-                      className="block text-xs font-medium text-white/70 uppercase tracking-wider mb-2"
-                    >
-                      Subject
-                    </label>
-                    <Input
-                      id="cc-subject"
-                      name="subject"
-                      type="text"
-                      placeholder="What can we help you with?"
-                      disabled={isSubmitting}
-                      className="bg-white/5 border-white/10 text-white placeholder:text-white/30 focus:border-yellow-400/50 focus:ring-0 rounded-lg h-11"
-                    />
-                  </div>
-
-                  <div>
-                    <label
-                      htmlFor="cc-message"
-                      className="block text-xs font-medium text-white/70 uppercase tracking-wider mb-2"
-                    >
-                      Message <span className="text-yellow-400">*</span>
-                    </label>
-                    <Textarea
-                      id="cc-message"
-                      name="message"
-                      required
-                      rows={6}
-                      placeholder="Tell us about your scheduling challenges; let's set up a meeting!"
-                      disabled={isSubmitting}
-                      className="bg-white/5 border-white/10 text-white placeholder:text-white/30 focus:border-yellow-400/50 focus:ring-0 rounded-lg resize-none"
-                    />
-                  </div>
-
-                  {errorMsg && (
-                    <p className="text-sm text-red-400">{errorMsg}</p>
+                        Talk to a scheduling expert →
+                      </Button>
+                    </>
                   )}
 
-                  <Button
-                    type="submit"
-                    disabled={isSubmitting}
-                    className="w-full bg-yellow-400 hover:bg-yellow-300 text-black font-semibold h-12 rounded-lg group"
-                  >
-                    {isSubmitting ? (
-                      "Sending…"
-                    ) : (
-                      <>
-                        Send Message
-                        <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                      </>
-                    )}
-                  </Button>
+                  {stage === "capture" && (
+                    <>
+                      <div className="flex items-center justify-between rounded-lg border border-white/10 bg-white/5 px-4 py-3">
+                        <span className="flex items-center gap-2 text-sm text-white/80">
+                          <FileText className="w-4 h-4 text-yellow-400" />
+                          {source}
+                        </span>
+                        <button
+                          type="button"
+                          onClick={reset}
+                          className="text-xs text-white/40 hover:text-yellow-400 transition-colors"
+                        >
+                          Change
+                        </button>
+                      </div>
 
-                  <p className="text-center text-xs text-white/40">
-                    Reply within one business day.
-                  </p>
+                      <div className="grid sm:grid-cols-2 gap-4">
+                        <div>
+                          <label
+                            htmlFor="cc-name"
+                            className="block text-xs font-medium text-white/70 uppercase tracking-wider mb-2"
+                          >
+                            Name <span className="text-yellow-400">*</span>
+                          </label>
+                          <Input
+                            id="cc-name"
+                            name="name"
+                            type="text"
+                            required
+                            placeholder="Your name"
+                            disabled={isSubmitting}
+                            className="bg-white/5 border-white/10 text-white placeholder:text-white/30 focus:border-yellow-400/50 focus:ring-0 rounded-lg h-11"
+                          />
+                        </div>
+                        <div>
+                          <label
+                            htmlFor="cc-email"
+                            className="block text-xs font-medium text-white/70 uppercase tracking-wider mb-2"
+                          >
+                            Email <span className="text-yellow-400">*</span>
+                          </label>
+                          <Input
+                            id="cc-email"
+                            name="email"
+                            type="email"
+                            required
+                            placeholder="your.email@example.com"
+                            disabled={isSubmitting}
+                            className="bg-white/5 border-white/10 text-white placeholder:text-white/30 focus:border-yellow-400/50 focus:ring-0 rounded-lg h-11"
+                          />
+                        </div>
+                      </div>
+
+                      <div>
+                        <label
+                          htmlFor="cc-company"
+                          className="block text-xs font-medium text-white/70 uppercase tracking-wider mb-2"
+                        >
+                          Program / Institution{" "}
+                          <span className="text-yellow-400">*</span>
+                        </label>
+                        <Input
+                          id="cc-company"
+                          name="company"
+                          type="text"
+                          required
+                          placeholder="e.g. Internal Medicine, Mass General"
+                          disabled={isSubmitting}
+                          className="bg-white/5 border-white/10 text-white placeholder:text-white/30 focus:border-yellow-400/50 focus:ring-0 rounded-lg h-11"
+                        />
+                      </div>
+
+                      <div>
+                        <label
+                          htmlFor="cc-message"
+                          className="block text-xs font-medium text-white/70 uppercase tracking-wider mb-2"
+                        >
+                          Anything we should know?
+                        </label>
+                        <Textarea
+                          id="cc-message"
+                          name="message"
+                          rows={3}
+                          placeholder="Specialty, program size, or specific rules you're worried about."
+                          disabled={isSubmitting}
+                          className="bg-white/5 border-white/10 text-white placeholder:text-white/30 focus:border-yellow-400/50 focus:ring-0 rounded-lg resize-none"
+                        />
+                      </div>
+
+                      {errorMsg && (
+                        <p className="text-sm text-red-400">{errorMsg}</p>
+                      )}
+
+                      <Button
+                        type="submit"
+                        disabled={isSubmitting}
+                        className="w-full bg-yellow-400 hover:bg-yellow-300 text-black font-semibold h-12 rounded-lg group"
+                      >
+                        {isSubmitting ? (
+                          "Sending…"
+                        ) : (
+                          <>
+                            Get my review
+                            <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                          </>
+                        )}
+                      </Button>
+
+                      <p className="text-center text-xs text-white/40">
+                        Free expert review within one business day. No account
+                        required.
+                      </p>
+                    </>
+                  )}
                 </form>
               </>
             )}
