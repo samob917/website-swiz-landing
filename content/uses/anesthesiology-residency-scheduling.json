@@ -1,0 +1,156 @@
+{
+  "keyword": "anesthesiology residency scheduling",
+  "slug": "anesthesiology-residency-scheduling",
+  "anchor": "Anesthesiology Residency Scheduling",
+  "title": "Anesthesiology Residency Scheduling | ACGME-Compliant | SW",
+  "description": "Anesthesiology residency scheduling is our specialty. Our managed service builds your Block and Call schedules, ensuring ACGME compliance and fairness. Free your chief residents from complex software and get a finished Excel schedule.",
+  "h1": "Managed Anesthesiology Residency Scheduling",
+  "paragraph": "Your anesthesiology program has unique rules. We build your ACGME-compliant Block and Call schedules for you. Scheduling Wizard frees your chiefs from software.",
+  "category": "specialty",
+  "data": {
+    "cta": {
+      "title": "Get Your Anesthesiology Schedule Done Right",
+      "buttonText": "Book a Free Scheduling Consult",
+      "description": "Join 18 departments across 13 hospitals that already trust Scheduling Wizard with their residency schedules."
+    },
+    "faq": [
+      {
+        "answer": "Yes. ACGME compliance is built into Scheduling Wizard's optimization engine for anesthesiology programs specifically. Subspecialty-specific duty hour rules are enforced mathematically at schedule generation time, meaning violations are prevented before the schedule is published rather than discovered after. ACGME compliance is the most common question buyers ask during sales calls, and it's central to how the product is built.",
+        "question": "Is Scheduling Wizard compliant with ACGME rules for anesthesiology residency?"
+      },
+      {
+        "answer": "Scheduling Wizard generates Block rotation schedules, Call schedules, and Attending schedules for anesthesiology residency programs. All schedule types are optimized simultaneously using a proprietary constraint-solving engine, so changes in one schedule automatically propagate to the others. The finished schedules are delivered as ready-to-use Excel files.",
+        "question": "What types of anesthesiology schedules does Scheduling Wizard generate?"
+      },
+      {
+        "answer": "Scheduling Wizard's engine has subspecialty-specific ACGME rule knowledge built in. When you submit your program's constraints, those include rotation-level requirements such as subspecialty exposure minimums, site-specific coverage rules, and PGY-level requirements. The engine generates block rotation schedules that satisfy all of those constraints simultaneously.",
+        "question": "How does Scheduling Wizard handle anesthesiology subspecialty rotations?"
+      },
+      {
+        "answer": "No. Scheduling Wizard is a managed service, not software your team operates. Your program submits its scheduling constraints and receives finished schedules as Excel files. There is no platform or dashboard to learn. Your team can continue using tools like Amion or QGenda for day-to-day schedule viewing by simply uploading the finished Excel file.",
+        "question": "Does my anesthesiology program need to learn new scheduling software?"
+      },
+      {
+        "answer": "Your scheduling knowledge stays with Scheduling Wizard, not with your outgoing chief resident. Program rules, constraint configurations, and scheduling logic persist year over year. When new chiefs take over, they inherit a working, optimized system rather than starting from scratch with a blank spreadsheet. This is one of the most significant operational benefits programs report.",
+        "question": "What happens to our scheduling setup when chief residents change each year?"
+      },
+      {
+        "answer": "Resident preferences including vacation requests, elective preferences, conference dates, and personal constraints are submitted as inputs and factored into the optimization directly, not patched in manually after the schedule is built. Mid-year changes such as leave or swaps are also handled through schedule revision, regenerating affected portions without disrupting the entire schedule.",
+        "question": "How does Scheduling Wizard handle resident preferences and constraint changes?"
+      }
+    ],
+    "hero": {
+      "title": "Anesthesiology Residency Scheduling Done For You",
+      "description": "ACGME-compliant Block and Call schedules for your anesthesiology program, delivered as ready-to-use Excel files. No software to learn."
+    },
+    "features": {
+      "items": [
+        {
+          "id": "acgme-compliance",
+          "title": "Anesthesiology ACGME Rules Built In",
+          "eyebrow": "ACGME Compliance",
+          "highlights": [
+            "Subspecialty rules built in",
+            "Violations prevented at generation",
+            "80-hour limits enforced automatically"
+          ],
+          "description": "Subspecialty-specific ACGME duty hour regulations are enforced mathematically at schedule generation time for anesthesiology programs. Violations are prevented before the schedule is ever published, not flagged after the fact."
+        },
+        {
+          "id": "block-scheduling",
+          "title": "Anesthesiology Block Rotations Optimized",
+          "eyebrow": "Block Scheduling",
+          "highlights": [
+            "PGY-level requirements enforced",
+            "Subspecialty rotation coverage met",
+            "Elective preferences factored in"
+          ],
+          "description": "Generates year-long anesthesiology block rotation schedules that respect PGY-level requirements, required subspecialty exposures, elective preferences, and site-specific coverage minimums across all rotation sites."
+        },
+        {
+          "id": "call-scheduling",
+          "title": "Fair Anesthesiology Call Distribution",
+          "eyebrow": "Call Scheduling",
+          "highlights": [
+            "Weekend call balanced automatically",
+            "Holiday shifts distributed fairly",
+            "Post-call rest rules enforced"
+          ],
+          "description": "Algorithmically distributes call, weekend, and holiday burden equitably across all anesthesiology residents while respecting ACGME duty hour limits and post-call rest requirements. No more fairness disputes."
+        },
+        {
+          "id": "managed-service",
+          "title": "Finished Schedules Delivered to You",
+          "eyebrow": "Managed Service",
+          "highlights": [
+            "No software to learn",
+            "Delivered as Excel files",
+            "Works with Amion and QGenda"
+          ],
+          "description": "Scheduling Wizard operates as a done-for-you managed service. Your anesthesiology program submits its constraints and receives a finished, optimized schedule as an Excel file ready to upload to Amion, QGenda, or any viewing tool."
+        },
+        {
+          "id": "institutional-continuity",
+          "title": "Scheduling Knowledge That Persists",
+          "eyebrow": "Institutional Memory",
+          "highlights": [
+            "Rules persist across chief rotations",
+            "No annual knowledge rebuild",
+            "New chiefs onboard instantly"
+          ],
+          "description": "Your anesthesiology program's rules and constraint configurations are retained by Scheduling Wizard year over year. Incoming chief residents inherit a working, optimized system instead of starting from scratch each academic year."
+        }
+      ],
+      "title": "Built for Anesthesiology Residency Programs",
+      "description": "Every feature is designed around the specific scheduling demands of anesthesiology residency, from subspecialty block rotations to ACGME-compliant call distribution."
+    },
+    "problems": {
+      "items": [
+        {
+          "title": "Complex Rules Buried in Spreadsheets",
+          "description": "Anesthesiology Block and Call schedules involve site-specific requirements, subspecialty rotations, and ACGME rules that are nearly impossible to track manually."
+        },
+        {
+          "title": "Chiefs Restart From Scratch Annually",
+          "description": "Every year a new chief inherits a blank spreadsheet and no institutional memory, spending hundreds of hours rebuilding what the last chief already figured out."
+        },
+        {
+          "title": "Compliance Is Checked Too Late",
+          "description": "Manually verifying ACGME duty hour compliance after building the schedule means violations are caught after the fact, not prevented at generation time."
+        }
+      ],
+      "title": "Anesthesiology Scheduling Is Uniquely Complex",
+      "description": "Anesthesiology programs carry scheduling burdens that outlast every chief resident who tries to manage them."
+    },
+    "solution": {
+      "title": "Your Anesthesiology Schedules Built by Experts",
+      "description": "Submit your program's constraints — subspecialty rotations, call coverage requirements, ACGME duty hour rules, and resident preferences — and receive finished, compliant Block and Call schedules as ready-to-use Excel files. No software for your chiefs to learn. No institutional knowledge lost when they rotate out."
+    },
+    "metaTitle": "Anesthesiology Residency Scheduling | ACGME-Compliant | SW",
+    "metaDescription": "Anesthesiology residency scheduling is our specialty. Our managed service builds your Block and Call schedules, ensuring ACGME compliance and fairness. Free your chief residents from complex software and get a finished Excel schedule."
+  },
+  "searchIntent": {
+    "keyword": "anesthesiology residency scheduling",
+    "searchIntents": [
+      "As a chief resident in anesthesiology, I'm struggling to create a compliant schedule that meets all ACGME requirements while also accommodating my colleagues' preferences and departmental needs.",
+      "I'm a program director for an anesthesiology residency, and I need an efficient way to generate our rotation schedules without the administrative headache of using self-service software that my team can't manage effectively.",
+      "Our anesthesiology residency program has unique scheduling constraints, and I need a specialized service that can optimize our Block and Call schedules according to ACGME guidelines without overwhelming my chief residents.",
+      "As a program coordinator, I want a reliable solution that ensures our anesthesiology residency schedules are fair, respect duty hours, and are ready to implement without requiring additional training for my team."
+    ]
+  },
+  "seoMetadata": {
+    "h1": "Managed Anesthesiology Residency Scheduling",
+    "metaTitle": "Anesthesiology Residency Scheduling | ACGME-Compliant | SW",
+    "h1Paragraph": "Your anesthesiology program has unique rules. We build your ACGME-compliant Block and Call schedules for you. Scheduling Wizard frees your chiefs from software.",
+    "metaDescription": "Anesthesiology residency scheduling is our specialty. Our managed service builds your Block and Call schedules, ensuring ACGME compliance and fairness. Free your chief residents from complex software and get a finished Excel schedule."
+  },
+  "finalMetadata": {
+    "slug": "residency-scheduling",
+    "anchor": "Anesthesiology Residency Scheduling",
+    "category": "specialty",
+    "generatedAt": "2026-07-01T07:31:44.720Z"
+  },
+  "id": "cmr1r2oo2000yjy04q1t5s4zp",
+  "createdAt": "2026-07-01T07:24:34.274Z",
+  "updatedAt": "2026-07-01T10:47:03.276Z"
+}

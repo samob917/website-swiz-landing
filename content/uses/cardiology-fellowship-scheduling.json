@@ -1,0 +1,156 @@
+{
+  "keyword": "cardiology fellowship scheduling",
+  "slug": "cardiology-fellowship-scheduling",
+  "anchor": "Cardiology Fellowship Scheduling",
+  "title": "Cardiology Fellowship Scheduling | ACGME Schedules | Scheduling Wizard",
+  "description": "Cardiology fellowship scheduling is complex. Our managed service takes your constraints and delivers optimized, ACGME-compliant schedules directly to you.",
+  "h1": "Done-For-You Cardiology Fellowship Scheduling",
+  "paragraph": "Overwhelmed by cardiology fellowship scheduling? Scheduling Wizard is a managed service, not software. Submit your constraints; we deliver an optimized, ACGME-compliant schedule.",
+  "category": "specialty",
+  "data": {
+    "cta": {
+      "title": "Get Your Cardiology Fellowship Schedule Done",
+      "buttonText": "Book a Free Scheduling Consult",
+      "description": "Join programs across 18 departments and 13 hospitals who have outsourced scheduling to Scheduling Wizard."
+    },
+    "faq": [
+      {
+        "answer": "Scheduling Wizard is a managed scheduling service built specifically for GME programs, including cardiology fellowships. The proprietary optimization engine has subspecialty-specific ACGME rules built in, so cardiology-specific duty hour requirements are enforced mathematically at schedule generation time. Programs submit their constraints and receive finished Block, Call, Clinic, and Attending schedules as Excel files — without needing to learn or operate any scheduling software.",
+        "question": "What makes Scheduling Wizard suited for cardiology fellowship scheduling?"
+      },
+      {
+        "answer": "ACGME compliance is enforced at the point of schedule generation, not checked manually afterward. The optimization engine applies subspecialty-specific ACGME duty hour rules for cardiology fellowships — including the 80-hour weekly limit, minimum rest requirements, and call restrictions — ensuring no compliant schedule is ever produced with a built-in violation. This is the most common question Scheduling Wizard hears on sales calls, and it is addressed at the core of the engine.",
+        "question": "How does Scheduling Wizard ensure ACGME compliance for cardiology fellowships?"
+      },
+      {
+        "answer": "Yes. Many Scheduling Wizard clients continue using Amion or QGenda for day-to-day schedule viewing and display. Scheduling Wizard handles the creation and optimization of the schedule, delivering finished Excel files that programs can upload directly to their existing viewing platform. The two tools serve different purposes and work well together.",
+        "question": "Does Scheduling Wizard work alongside Amion or QGenda?"
+      },
+      {
+        "answer": "Programs submit their scheduling constraints — rotation requirements, ACGME rules, call preferences, clinic half-days, resident preferences, and any program-specific rules. Scheduling Wizard's expert schedulers and proprietary optimization engine produce finished, compliant schedules and deliver them as ready-to-use Excel spreadsheets. There is no software platform for programs to log into or learn.",
+        "question": "How does the managed service model work for fellowship programs?"
+      },
+      {
+        "answer": "With manual scheduling or self-service software, institutional knowledge often leaves when the chief fellow does. Scheduling Wizard retains your program's full constraint configuration year over year, so incoming chief fellows inherit an optimized and already-configured system rather than starting from scratch. This is one of the most significant operational advantages for cardiology fellowship programs with annual chief rotations.",
+        "question": "What happens to scheduling knowledge when a chief fellow rotates out?"
+      },
+      {
+        "answer": "Yes. Scheduling Wizard handles mid-year revisions such as sick leave, parental leave, or unexpected absences. When a change occurs, the affected portions of the schedule are re-optimized without disrupting the full cardiology fellowship schedule. Programs do not need to manually patch or reshuffle the remaining schedule on their own.",
+        "question": "Can Scheduling Wizard handle mid-year schedule changes for cardiology fellows?"
+      }
+    ],
+    "hero": {
+      "title": "Cardiology Fellowship Scheduling Done For You",
+      "description": "Submit your constraints and receive optimized, ACGME-compliant cardiology fellowship schedules as ready-to-use Excel files. No software to learn."
+    },
+    "features": {
+      "items": [
+        {
+          "id": "acgme-compliance",
+          "title": "Cardiology Specific Compliance Built In",
+          "eyebrow": "ACGME Compliance",
+          "highlights": [
+            "Subspecialty rules built in",
+            "Violations prevented at generation",
+            "80-hour limits enforced automatically"
+          ],
+          "description": "Scheduling Wizard's optimization engine enforces ACGME duty hour regulations at generation time — including subspecialty-specific cardiology fellowship rules. Violations are prevented mathematically, not caught after the fact during a manual audit."
+        },
+        {
+          "id": "managed-service",
+          "title": "Done For You Fellowship Scheduling",
+          "eyebrow": "Managed Service",
+          "highlights": [
+            "No software to learn",
+            "Constraints in, schedules out",
+            "Excel files ready to publish"
+          ],
+          "description": "Scheduling Wizard is not software your chief fellow has to learn. Submit your program's constraints and receive finished cardiology fellowship schedules as ready-to-use Excel files, handled by expert schedulers."
+        },
+        {
+          "id": "institutional-continuity",
+          "title": "Scheduling Knowledge That Persists Year Over Year",
+          "eyebrow": "Program Continuity",
+          "highlights": [
+            "Rules persist across chief rotations",
+            "No annual restart from scratch",
+            "Institutional knowledge protected"
+          ],
+          "description": "When your cardiology chief fellow rotates out, your scheduling knowledge doesn't leave with them. Scheduling Wizard retains your program's rules and constraints, so every new chief inherits a working optimized system."
+        },
+        {
+          "id": "call-scheduling",
+          "title": "Fair Cardiology Call Distribution",
+          "eyebrow": "Call Scheduling",
+          "highlights": [
+            "Call burden distributed fairly",
+            "Post-call rest rules enforced",
+            "Holiday and weekend equity built in"
+          ],
+          "description": "Cardiology call schedules, including cath lab and overnight coverage, are optimized to distribute burden equitably across fellows while respecting ACGME duty hour limits, post-call rules, and individual constraints."
+        },
+        {
+          "id": "cross-schedule-resolution",
+          "title": "Rotations Clinic and Call Aligned",
+          "eyebrow": "Schedule Coordination",
+          "highlights": [
+            "All schedule types coordinated",
+            "Changes propagate automatically",
+            "No cross-schedule conflicts"
+          ],
+          "description": "Block rotations, clinic half-days, call assignments, and attending coverage are optimized simultaneously. A change in one schedule automatically propagates across the others — no manual domino-effect patching required."
+        }
+      ],
+      "title": "Built for Cardiology Fellowship Programs",
+      "description": "Every feature is designed to handle the scheduling complexity specific to cardiology fellowships and GME compliance requirements."
+    },
+    "problems": {
+      "items": [
+        {
+          "title": "ACGME Rules Keep Changing",
+          "description": "Cardiology fellowship programs must navigate subspecialty-specific ACGME duty hour rules, and manual compliance checking leaves room for costly violations."
+        },
+        {
+          "title": "Chiefs Restart From Scratch Annually",
+          "description": "Every year, a new chief fellow inherits a blank spreadsheet and no institutional knowledge, repeating the same scheduling burden from zero."
+        },
+        {
+          "title": "Conflicts Cascade Across Schedule Types",
+          "description": "Block rotations, cath lab call, clinic half-days, and attending coverage collide — a single change creates conflicts across every other schedule."
+        }
+      ],
+      "title": "Cardiology Scheduling Is Uniquely Complex",
+      "description": "Cardiology fellowships demand precision across rotations, call, and clinic — and the stakes are too high for manual scheduling."
+    },
+    "solution": {
+      "title": "Scheduling Wizard Manages It All For You",
+      "description": "Scheduling Wizard is a done-for-you managed service built for cardiology fellowship programs. Submit your rotation requirements, call rules, clinic obligations, and resident preferences. Receive finished, ACGME-compliant schedules as Excel files — ready to upload to your existing tools. No software to learn, no annual retraining."
+    },
+    "metaTitle": "Cardiology Fellowship Scheduling | ACGME Schedules | Scheduling Wizard",
+    "metaDescription": "Cardiology fellowship scheduling is complex. Our managed service takes your constraints and delivers optimized, ACGME-compliant schedules directly to you."
+  },
+  "searchIntent": {
+    "keyword": "cardiology fellowship scheduling",
+    "searchIntents": [
+      "As a program director for a cardiology fellowship, I'm overwhelmed trying to coordinate schedules for multiple residents while ensuring compliance with ACGME regulations. I need a way to automate schedule creation that also considers each resident's specific needs, but I don't have time to learn any new software.",
+      "I'm a chief fellow looking for an efficient method to handle my call and rotation schedules for the cardiology fellowship. I want a reliable solution that ensures fairness among residents and adheres to ACGME duty hour requirements without creating more administrative burden for me.",
+      "As a residency coordinator, I struggle with conflicts in the cardiology fellows' schedules, especially during peak rotations. I'm looking for a service that can provide compliant and optimized schedules while allowing me to focus on other important administrative tasks.",
+      "I'm a resident in a cardiology fellowship who needs to plan for personal commitments, like vacations and conferences. I want a solution that respects my preferences but also fits the program's ACGME compliance needs, which generic scheduling tools don't seem to address effectively."
+    ]
+  },
+  "seoMetadata": {
+    "h1": "Done-For-You Cardiology Fellowship Scheduling",
+    "metaTitle": "Cardiology Fellowship Scheduling | ACGME Schedules | Scheduling Wizard",
+    "h1Paragraph": "Overwhelmed by cardiology fellowship scheduling? Scheduling Wizard is a managed service, not software. Submit your constraints; we deliver an optimized, ACGME-compliant schedule.",
+    "metaDescription": "Cardiology fellowship scheduling is complex. Our managed service takes your constraints and delivers optimized, ACGME-compliant schedules directly to you."
+  },
+  "finalMetadata": {
+    "slug": "cardiology-fellowship-scheduling",
+    "anchor": "Cardiology Fellowship Scheduling",
+    "category": "specialty",
+    "generatedAt": "2026-06-02T05:32:06.398Z"
+  },
+  "id": "cmpw77lm4000djp04m2hxffqa",
+  "createdAt": "2026-06-02T05:29:58.060Z",
+  "updatedAt": "2026-06-02T05:32:06.401Z"
+}

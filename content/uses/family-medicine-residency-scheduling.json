@@ -1,0 +1,156 @@
+{
+  "keyword": "family medicine residency scheduling",
+  "slug": "family-medicine-residency-scheduling",
+  "anchor": "Family Medicine Residency Scheduling",
+  "title": "Family Medicine Residency Scheduling | Done-For-You | Scheduling Wizard",
+  "description": "Family medicine residency scheduling made simple. Our managed service builds your ACGME-compliant Block, Call, and Clinic schedules, saving you from complex software.",
+  "h1": "Family Medicine Residency Scheduling Without the Software",
+  "paragraph": "Stop wrestling with complex tools. Submit your ACGME rules, resident preferences & faculty availability. Scheduling Wizard delivers a complete, optimized schedule.",
+  "category": "specialty",
+  "data": {
+    "cta": {
+      "title": "Get Your Family Medicine Schedule Done Right",
+      "buttonText": "Book a Free Scheduling Consult",
+      "description": "Join 18 departments across 13 hospitals who already outsource their residency scheduling to experts."
+    },
+    "faq": [
+      {
+        "answer": "Scheduling Wizard's proprietary optimization engine enforces ACGME duty hour rules mathematically at schedule generation time, so violations are prevented before the schedule is published rather than caught after the fact. Subspecialty-specific rules for family medicine are built directly into the engine, meaning you do not need to manually audit the output for compliance. ACGME compliance is the most common question programs ask before signing on, and it is central to how the service is built.",
+        "question": "How does Scheduling Wizard handle family medicine ACGME compliance?"
+      },
+      {
+        "answer": "Scheduling Wizard generates Block rotation schedules, Call schedules, Clinic schedules, and Attending schedules for family medicine residency programs. All four schedule types are optimized simultaneously so that changes in one automatically resolve dependencies in the others. The finished schedules are delivered as Excel spreadsheets, which programs can upload to existing viewing tools like Amion or QGenda.",
+        "question": "What types of schedules does Scheduling Wizard generate for family medicine programs?"
+      },
+      {
+        "answer": "Family medicine residents depend on consistent continuity clinic half-days throughout the year, which frequently conflict with rotation and call assignments when schedules are built manually. Scheduling Wizard resolves these dependencies simultaneously across all schedule types, ensuring clinic slots are protected without creating duty hour violations or coverage gaps in other areas.",
+        "question": "How is family medicine clinic scheduling coordinated with call and rotation blocks?"
+      },
+      {
+        "answer": "With Scheduling Wizard, institutional scheduling knowledge does not leave with the outgoing chief resident. Your program's rules, constraints, and configurations are retained by Scheduling Wizard year over year. Incoming chiefs inherit a fully working, optimized system from day one instead of rebuilding the schedule from scratch, which is one of the most common sources of scheduling delays in family medicine programs.",
+        "question": "What happens to scheduling knowledge when chief residents rotate each year?"
+      },
+      {
+        "answer": "No. Scheduling Wizard handles schedule creation and optimization, while Amion and QGenda are used for day-to-day schedule viewing and display. Many Scheduling Wizard clients use both simultaneously. Scheduling Wizard generates the finished, optimized schedule as an Excel file, which programs then upload to their existing viewing platform. The two tools serve different purposes and work alongside each other.",
+        "question": "Does Scheduling Wizard replace Amion or QGenda for family medicine programs?"
+      },
+      {
+        "answer": "Programs submit their scheduling constraints to Scheduling Wizard, including rotation requirements, ACGME rules, resident preferences, faculty availability, and any program-specific rules. Scheduling Wizard's optimization engine processes those constraints and delivers finished, ready-to-publish schedules as Excel spreadsheets. There is no client-facing platform to log into or software to operate — the service is fully managed on your behalf.",
+        "question": "How do programs submit constraints and receive their finished schedules?"
+      }
+    ],
+    "hero": {
+      "title": "Family Medicine Residency Scheduling Done For You",
+      "description": "Submit your ACGME rules, resident preferences, and faculty availability. Scheduling Wizard delivers complete, optimized Block, Call, and Clinic schedules as ready-to-use Excel files."
+    },
+    "features": {
+      "items": [
+        {
+          "id": "acgme-compliance",
+          "title": "Family Medicine ACGME Rules Enforced",
+          "eyebrow": "ACGME Compliance",
+          "highlights": [
+            "80-hour weekly limits enforced",
+            "Specialty-specific rules built in",
+            "Compliance guaranteed at generation"
+          ],
+          "description": "Scheduling Wizard's optimization engine enforces family medicine ACGME duty hour rules at generation time. Violations are prevented mathematically before the schedule is ever published, not flagged after the fact."
+        },
+        {
+          "id": "clinic-scheduling",
+          "title": "Clinic and Rotation Conflicts Resolved",
+          "eyebrow": "Clinic Coordination",
+          "highlights": [
+            "Continuity clinic half-days protected",
+            "No rotation vs. clinic conflicts",
+            "Cross-schedule conflicts eliminated"
+          ],
+          "description": "Family medicine residents require consistent continuity clinic half-days regardless of rotation assignments. Scheduling Wizard coordinates clinic, call, and block schedules simultaneously so no resident is ever double-booked."
+        },
+        {
+          "id": "block-scheduling",
+          "title": "Year-Long Rotation Blocks Optimized",
+          "eyebrow": "Block Scheduling",
+          "highlights": [
+            "PGY-level requirements respected",
+            "Elective preferences factored in",
+            "Full-year schedule generated"
+          ],
+          "description": "Generates complete year-long rotation block schedules for family medicine programs, respecting PGY-level requirements, elective preferences, coverage minimums, and mandatory ACGME rotation assignments across all tracks."
+        },
+        {
+          "id": "institutional-continuity",
+          "title": "Scheduling Knowledge Persists Each Year",
+          "eyebrow": "Program Continuity",
+          "highlights": [
+            "No annual knowledge loss",
+            "New chiefs onboard instantly",
+            "Rules preserved across rotations"
+          ],
+          "description": "Your program's rules, constraints, and scheduling logic stay with Scheduling Wizard year over year. Incoming chiefs inherit a fully configured, working system instead of starting from an empty spreadsheet."
+        },
+        {
+          "id": "managed-service",
+          "title": "No Software for Your Team to Learn",
+          "eyebrow": "Managed Service",
+          "highlights": [
+            "Zero software to operate",
+            "Excel files ready to publish",
+            "Works with Amion and QGenda"
+          ],
+          "description": "Scheduling Wizard is a done-for-you service. Your program submits its constraints and receives finished, ACGME-compliant schedules as Excel files ready to upload to Amion, QGenda, or any viewing tool you already use."
+        }
+      ],
+      "title": "Built for Family Medicine Residency Programs",
+      "description": "Every feature is designed to handle the specific scheduling complexity of family medicine residency without requiring you to operate any software."
+    },
+    "problems": {
+      "items": [
+        {
+          "title": "ACGME Compliance Left to Chance",
+          "description": "Family medicine programs juggle duty hour limits, specialty-specific ACGME rules, and clinic continuity requirements with no automated compliance checking."
+        },
+        {
+          "title": "Chiefs Start From Scratch Annually",
+          "description": "Every year, incoming chief residents inherit a blank spreadsheet and zero institutional knowledge, repeating months of painful trial-and-error scheduling."
+        },
+        {
+          "title": "Clinic and Call Conflicts Pile Up",
+          "description": "Balancing continuity clinic half-days against call assignments and rotation blocks creates cascading conflicts that are tedious to resolve manually."
+        }
+      ],
+      "title": "Scheduling Shouldn't Be This Hard",
+      "description": "Family medicine scheduling is complex, time-consuming, and high-stakes. Here is what programs deal with every year."
+    },
+    "solution": {
+      "title": "Your Family Medicine Schedules Built by Experts",
+      "description": "Submit your program constraints — rotation requirements, specialty-specific ACGME rules, resident preferences, and clinic coverage needs — and receive finished, compliant Block, Call, Clinic, and Attending schedules as ready-to-use Excel files. No software to learn. No knowledge lost when chiefs rotate."
+    },
+    "metaTitle": "Family Medicine Residency Scheduling | Done-For-You | Scheduling Wizard",
+    "metaDescription": "Family medicine residency scheduling made simple. Our managed service builds your ACGME-compliant Block, Call, and Clinic schedules, saving you from complex software."
+  },
+  "searchIntent": {
+    "keyword": "family medicine residency scheduling",
+    "searchIntents": [
+      "As a chief resident in family medicine, I'm struggling to create a compliant rotation schedule that meets ACGME requirements while considering resident preferences and available faculty. I need a solution that simplifies this process without requiring me to learn complicated software.",
+      "I'm a program coordinator for a family medicine residency, and I'm overwhelmed with scheduling responsibilities each year. I need a managed service that will take care of the entire scheduling process efficiently while ensuring all institutional policies are followed without manual effort.",
+      "As a program director, I need a reliable way to generate duty hour-compliant schedules for my family medicine residency. The current tools are too rigid and manual, and I need a service that understands the complexities of our specific scheduling needs and saves me time.",
+      "I manage a fellowship program and need to integrate family medicine call schedules with clinic and attending schedules. I want a solution that can handle the nuances of multiple specializations and deliver optimized schedules without additional stress on my residents or staff."
+    ]
+  },
+  "seoMetadata": {
+    "h1": "Family Medicine Residency Scheduling Without the Software",
+    "metaTitle": "Family Medicine Residency Scheduling | Done-For-You | Scheduling Wizard",
+    "h1Paragraph": "Stop wrestling with complex tools. Submit your ACGME rules, resident preferences & faculty availability. Scheduling Wizard delivers a complete, optimized schedule.",
+    "metaDescription": "Family medicine residency scheduling made simple. Our managed service builds your ACGME-compliant Block, Call, and Clinic schedules, saving you from complex software."
+  },
+  "finalMetadata": {
+    "slug": "family-medicine-scheduling",
+    "anchor": "Family Medicine Residency Scheduling",
+    "category": "specialty",
+    "generatedAt": "2026-07-01T07:32:14.843Z"
+  },
+  "id": "cmr1r2oto0011jy04q3zabpo9",
+  "createdAt": "2026-07-01T07:24:34.477Z",
+  "updatedAt": "2026-07-01T11:27:55.759Z"
+}

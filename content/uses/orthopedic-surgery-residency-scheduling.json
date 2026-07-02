@@ -1,0 +1,156 @@
+{
+  "keyword": "orthopedic surgery residency scheduling",
+  "slug": "orthopedic-surgery-residency-scheduling",
+  "anchor": "Orthopedic Surgery Residency Scheduling",
+  "title": "Ortho Residency Scheduling | Done-For-You | Scheduling Wizard",
+  "description": "Orthopedic surgery residency scheduling is complex. Our managed service takes your unique ortho constraints and delivers a complete, fair, and ACGME-compliant schedule.",
+  "h1": "Orthopedic Surgery Residency Scheduling, Solved",
+  "paragraph": "Stop wrestling with spreadsheets. Scheduling Wizard is a managed service for orthopedic surgery residency scheduling. Submit your constraints, we deliver a fair, ACGME-compliant schedule.",
+  "category": "specialty",
+  "data": {
+    "cta": {
+      "title": "Stop Rebuilding Your Ortho Schedule Every Year",
+      "buttonText": "Book a Free Scheduling Consult",
+      "description": "Join 18 departments across 13 hospitals that already trust Scheduling Wizard with their residency schedules."
+    },
+    "faq": [
+      {
+        "answer": "Yes. ACGME compliance for orthopedic surgery is mathematically enforced at schedule generation time, not manually checked after the fact. Scheduling Wizard's optimization engine has subspecialty-specific ACGME duty hour rules built in, including the 80-hour weekly limit, minimum 8-hour rest between shifts (with 10 hours recommended), and applicable call rules. This means violations are structurally prevented when the schedule is generated, not caught later during an audit.",
+        "question": "Is Scheduling Wizard ACGME compliant for orthopedic surgery residency programs?"
+      },
+      {
+        "answer": "Scheduling Wizard algorithmically distributes trauma call, weekend call, and holiday shifts equitably across all residents in your orthopedic surgery program. The engine respects ACGME duty hour constraints, post-call rest requirements, and individual resident constraints simultaneously. The result is a fair, compliant call schedule that eliminates the disputes and manual rework that typically come with ortho call distribution.",
+        "question": "How does Scheduling Wizard handle orthopedic surgery call scheduling?"
+      },
+      {
+        "answer": "Scheduling Wizard produces Block rotation schedules, Call schedules, Clinic schedules, and Attending schedules for orthopedic surgery residency programs. All schedule types are optimized simultaneously so that changes in one schedule are automatically reflected across the others. Finished schedules are delivered as ready-to-use Excel files that programs can upload to their existing viewing tools.",
+        "question": "What types of schedules does Scheduling Wizard produce for ortho programs?"
+      },
+      {
+        "answer": "Scheduling Wizard is a managed service, not self-service scheduling software. Your program submits its constraints and receives finished, optimized schedules — there is no platform to log into or software to learn. Many Scheduling Wizard clients continue using Amion or QGenda alongside the service for day-to-day schedule viewing. Scheduling Wizard handles the schedule creation and optimization; your existing viewing tool handles display.",
+        "question": "How is Scheduling Wizard different from scheduling software like Amion or QGenda?"
+      },
+      {
+        "answer": "Your program's scheduling rules, constraints, and configurations are retained by Scheduling Wizard across chief rotations. Incoming chief residents inherit a working, optimized system instead of rebuilding the schedule from scratch in a spreadsheet. This institutional continuity is one of the core reasons orthopedic surgery programs work with Scheduling Wizard — the scheduling knowledge no longer walks out the door every year.",
+        "question": "What happens to our scheduling setup when our chief resident changes?"
+      },
+      {
+        "answer": "Yes. Vacation requests, elective preferences, conference dates, and moonlighting restrictions are factored into the optimization as direct inputs. If an unplanned absence occurs mid-year, Scheduling Wizard can rapidly re-optimize the affected portions of the schedule without manually reshuffling the entire calendar. Finished revisions are delivered as updated Excel files.",
+        "question": "Can Scheduling Wizard accommodate resident preferences and unplanned absences?"
+      }
+    ],
+    "hero": {
+      "title": "Orthopedic Surgery Residency Scheduling Done For You",
+      "description": "Scheduling Wizard is a managed service that delivers fair, ACGME-compliant orthopedic surgery residency schedules as ready-to-use Excel files. No software to learn."
+    },
+    "features": {
+      "items": [
+        {
+          "id": "acgme-compliance",
+          "title": "Ortho Subspecialty Compliance Built In",
+          "eyebrow": "ACGME Compliance",
+          "highlights": [
+            "Subspecialty rules pre-loaded",
+            "80-hour limits enforced automatically",
+            "Violations prevented at generation"
+          ],
+          "description": "Scheduling Wizard's optimization engine has subspecialty-specific ACGME rules for orthopedic surgery built in. Compliance is mathematically enforced at generation time — violations are prevented, not discovered after the schedule is published."
+        },
+        {
+          "id": "call-scheduling",
+          "title": "Fair Ortho Call Distribution Guaranteed",
+          "eyebrow": "Call Scheduling",
+          "highlights": [
+            "Trauma call balanced algorithmically",
+            "Holiday shifts distributed fairly",
+            "Post-call rules enforced"
+          ],
+          "description": "Trauma call, weekend call, and holiday shifts are algorithmically distributed across your ortho residents. No more disputes over who has more holiday call — the math handles it equitably every time."
+        },
+        {
+          "id": "block-scheduling",
+          "title": "Ortho Rotation Blocks Optimized",
+          "eyebrow": "Block Scheduling",
+          "highlights": [
+            "PGY-level requirements respected",
+            "Subspecialty electives accommodated",
+            "Multi-site rotations handled"
+          ],
+          "description": "Generate year-long orthopedic rotation block schedules that respect PGY-level requirements, subspecialty elective preferences, and ACGME rotation mandates across all your sites and tracks."
+        },
+        {
+          "id": "managed-service",
+          "title": "Done For You No Software Needed",
+          "eyebrow": "Managed Service",
+          "highlights": [
+            "Submit constraints, receive schedules",
+            "Delivered as Excel files",
+            "No software training required"
+          ],
+          "description": "Scheduling Wizard is not self-service software. Your ortho program submits its constraints and receives finished schedules as Excel files. Upload them to Amion or QGenda for day-to-day viewing — no new platform to learn."
+        },
+        {
+          "id": "institutional-continuity",
+          "title": "Scheduling Knowledge Persists Every Year",
+          "eyebrow": "Institutional Continuity",
+          "highlights": [
+            "No annual knowledge reset",
+            "Constraints preserved year over year",
+            "New chiefs onboard instantly"
+          ],
+          "description": "When your chief resident rotates out, your program's scheduling rules, constraints, and configurations stay with Scheduling Wizard. Incoming chiefs inherit a working, optimized system instead of starting over with a blank spreadsheet."
+        }
+      ],
+      "title": "Built for Orthopedic Surgery Residency Programs",
+      "description": "Every feature is designed to handle the complexity of orthopedic surgery scheduling so your team doesn't have to."
+    },
+    "problems": {
+      "items": [
+        {
+          "title": "Ortho ACGME Rules Are Unforgiving",
+          "description": "Orthopedic surgery has subspecialty-specific ACGME duty hour rules. Manual schedules miss compliance violations until it's too late to fix them."
+        },
+        {
+          "title": "Call Fairness Creates Constant Conflict",
+          "description": "Trauma call, weekend call, and holiday distribution are notoriously contentious in ortho programs. Manual scheduling can't guarantee equitable burden."
+        },
+        {
+          "title": "Chiefs Restart From Scratch Yearly",
+          "description": "Every new chief resident inherits a blank spreadsheet, losing the accumulated scheduling knowledge of the outgoing chief."
+        }
+      ],
+      "title": "Ortho Scheduling Is Uniquely Complex",
+      "description": "Orthopedic surgery programs face scheduling pressures that generic tools and manual spreadsheets simply cannot handle."
+    },
+    "solution": {
+      "title": "Scheduling Wizard Handles Ortho Scheduling",
+      "description": "Submit your orthopedic program's constraints — rotation requirements, subspecialty ACGME rules, call fairness targets, and resident preferences — and receive finished, compliant schedules as ready-to-use Excel files. No software to learn. No institutional knowledge lost when chiefs rotate."
+    },
+    "metaTitle": "Ortho Residency Scheduling | Done-For-You | Scheduling Wizard",
+    "metaDescription": "Orthopedic surgery residency scheduling is complex. Our managed service takes your unique ortho constraints and delivers a complete, fair, and ACGME-compliant schedule."
+  },
+  "searchIntent": {
+    "keyword": "orthopedic surgery residency scheduling",
+    "searchIntents": [
+      "As a chief resident in orthopedic surgery, I'm looking for a way to create compliant schedules that cater to our unique rotations and preserve fairness in call assignments without adding hours of manual work.",
+      "A program director in orthopedic surgery needs a reliable scheduling solution that ensures ACGME compliance for our residency program, as we currently struggle with outdated methods that often lead to conflicts and inefficiencies.",
+      "I'm a residency coordinator for an orthopedic program seeking an automated scheduling service that understands the specific constraints and requirements of our specialty so we can optimize our schedules without relying on self-service tools.",
+      "As a chief fellow, I need to ensure that our orthopedic surgery schedule accommodates resident preferences and unplanned absences while also adhering to ACGME regulations, which is challenging with our current manual scheduling process."
+    ]
+  },
+  "seoMetadata": {
+    "h1": "Orthopedic Surgery Residency Scheduling, Solved",
+    "metaTitle": "Ortho Residency Scheduling | Done-For-You | Scheduling Wizard",
+    "h1Paragraph": "Stop wrestling with spreadsheets. Scheduling Wizard is a managed service for orthopedic surgery residency scheduling. Submit your constraints, we deliver a fair, ACGME-compliant schedule.",
+    "metaDescription": "Orthopedic surgery residency scheduling is complex. Our managed service takes your unique ortho constraints and delivers a complete, fair, and ACGME-compliant schedule."
+  },
+  "finalMetadata": {
+    "slug": "orthopedic-surgery-scheduling",
+    "anchor": "Orthopedic Surgery Residency Scheduling",
+    "category": "specialty",
+    "generatedAt": "2026-07-01T07:30:13.923Z"
+  },
+  "id": "cmr1r2odt000sjy04uz098o2e",
+  "createdAt": "2026-07-01T07:24:33.905Z",
+  "updatedAt": "2026-07-01T11:27:55.906Z"
+}

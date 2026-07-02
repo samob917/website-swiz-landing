@@ -1,0 +1,156 @@
+{
+  "keyword": "OB GYN residency scheduling",
+  "slug": "ob-gyn-residency-scheduling",
+  "anchor": "OB GYN Residency Scheduling",
+  "title": "OB GYN Residency Scheduling | ACGME Compliant | Scheduling Wizard",
+  "description": "OB GYN residency scheduling is complex. Our managed service delivers fully optimized, ACGME-compliant schedules to protect your program's accreditation.",
+  "h1": "Guaranteed ACGME-Compliant OB GYN Residency Scheduling",
+  "paragraph": "Protect your program's accreditation. Scheduling Wizard delivers mathematically guaranteed ACGME-compliant OB GYN residency scheduling as a managed service.",
+  "category": "specialty",
+  "data": {
+    "cta": {
+      "title": "Get Your OB GYN Schedule Done Right",
+      "buttonText": "Book a Free Scheduling Consult",
+      "description": "Join programs across 18 departments and 13 hospitals who trust Scheduling Wizard with their residency schedules."
+    },
+    "faq": [
+      {
+        "answer": "Yes. ACGME compliance for OB GYN programs is mathematically enforced at schedule generation time, not manually checked after the fact. Scheduling Wizard's proprietary optimization engine has subspecialty-specific ACGME rules built in, including OB GYN-specific requirements. ACGME compliance is the most common question asked on Scheduling Wizard sales calls, and was a core design priority for the engine.",
+        "question": "Is Scheduling Wizard compliant with OB GYN ACGME duty hour rules?"
+      },
+      {
+        "answer": "Scheduling Wizard delivers finished schedules as ready-to-use Excel spreadsheets. Your program submits its constraints — rotation requirements, duty hour rules, resident preferences, call fairness targets — and receives completed Block, Call, Clinic, and Attending schedules. Those Excel files can then be uploaded directly to your existing viewing tools such as Amion or QGenda for day-to-day access.",
+        "question": "How does Scheduling Wizard deliver OB GYN residency schedules?"
+      },
+      {
+        "answer": "Scheduling Wizard produces Block and rotation schedules, Call schedules with fairness optimization, Clinic schedules, and Attending schedules. All four schedule types are optimized simultaneously so that changes in one automatically resolve dependencies across the others, eliminating the domino effect that occurs when OB GYN schedules are patched manually.",
+        "question": "What types of schedules does Scheduling Wizard produce for OB GYN programs?"
+      },
+      {
+        "answer": "Scheduling knowledge and program constraint configurations persist with Scheduling Wizard across chief rotations. When a new OB GYN chief takes over, they inherit a fully documented, working scheduling system instead of starting from scratch. This eliminates the institutional knowledge loss that occurs every year when an outgoing chief resident leaves the program.",
+        "question": "How does Scheduling Wizard handle the annual OB GYN chief resident transition?"
+      },
+      {
+        "answer": "No. Scheduling Wizard handles schedule creation and optimization, while Amion and QGenda serve as viewing and display tools. Many OB GYN programs use Scheduling Wizard alongside their existing Amion or QGenda account. Scheduling Wizard generates the optimized, compliant schedule and delivers it as an Excel file that programs upload directly to their preferred viewing platform.",
+        "question": "Does Scheduling Wizard replace Amion or QGenda for OB GYN programs?"
+      },
+      {
+        "answer": "OB GYN residency scheduling requires simultaneously satisfying ACGME duty hour rules specific to the specialty, equitable call distribution across residents, continuity clinic obligations, attending coverage alignment, and resident preferences such as vacation and elective requests. Managing all of these constraints manually in a spreadsheet leaves significant room for compliance errors, fairness disputes, and wasted time every scheduling cycle.",
+        "question": "Why is OB GYN residency scheduling difficult to manage manually?"
+      }
+    ],
+    "hero": {
+      "title": "OB GYN Residency Scheduling Done For You",
+      "description": "Scheduling Wizard delivers ACGME-compliant OB GYN residency scheduling as a managed service. Submit your constraints and receive finished schedules as ready-to-use Excel files."
+    },
+    "features": {
+      "items": [
+        {
+          "id": "acgme-compliance",
+          "title": "OB GYN Compliance Guaranteed at Generation",
+          "eyebrow": "ACGME Compliance",
+          "highlights": [
+            "OB GYN subspecialty rules built in",
+            "Violations prevented not detected",
+            "80-hour and rest rules enforced"
+          ],
+          "description": "Scheduling Wizard's optimization engine enforces OB GYN-specific ACGME duty hour rules mathematically at schedule generation time. Violations are prevented before the schedule is ever published, not discovered after the fact."
+        },
+        {
+          "id": "call-scheduling",
+          "title": "Fair OB GYN Call Schedules Every Time",
+          "eyebrow": "Call Scheduling",
+          "highlights": [
+            "Holiday call balanced automatically",
+            "Post-call rest rules enforced",
+            "Weekend burden distributed fairly"
+          ],
+          "description": "Algorithmically distribute overnight call, weekend, and holiday burden equitably across your OB GYN residents. Duty hour limits and post-call rest rules are enforced automatically at every step."
+        },
+        {
+          "id": "institutional-continuity",
+          "title": "Knowledge Persists Across Chief Rotations",
+          "eyebrow": "Program Continuity",
+          "highlights": [
+            "No annual relearning required",
+            "Rules carry over each year",
+            "New chiefs onboard instantly"
+          ],
+          "description": "Your OB GYN program's scheduling rules, constraints, and configurations persist with Scheduling Wizard year over year. Incoming chiefs inherit a working, optimized system instead of starting from a blank spreadsheet."
+        },
+        {
+          "id": "managed-service",
+          "title": "Done-For-You OB GYN Schedule Delivery",
+          "eyebrow": "Managed Service",
+          "highlights": [
+            "No software to learn",
+            "Excel files ready to publish",
+            "Works alongside Amion and QGenda"
+          ],
+          "description": "Scheduling Wizard is not software your chief must learn to operate. Your program submits constraints and receives finished OB GYN schedules as Excel files ready to upload to Amion or QGenda for day-to-day viewing."
+        },
+        {
+          "id": "resident-preferences",
+          "title": "Resident Requests Built Into Every Schedule",
+          "eyebrow": "Resident Preferences",
+          "highlights": [
+            "Vacation requests factored in",
+            "Conference dates accounted for",
+            "Elective preferences respected"
+          ],
+          "description": "Vacation requests, elective preferences, conference dates, and personal constraints from your OB GYN residents are treated as first-class inputs in the optimization — not manual patches added after the schedule is built."
+        }
+      ],
+      "title": "Built for OB GYN Residency Programs",
+      "description": "Every feature is designed to eliminate the manual burden of OB GYN residency scheduling while protecting ACGME compliance."
+    },
+    "problems": {
+      "items": [
+        {
+          "title": "ACGME Compliance Keeps You Up",
+          "description": "OB GYN programs must navigate subspecialty-specific duty hour rules. A single compliance error puts your accreditation and resident training at serious risk."
+        },
+        {
+          "title": "Chiefs Rebuild From Scratch Annually",
+          "description": "Every year a new chief resident inherits a blank spreadsheet and months of institutional knowledge walks out the door with the outgoing chief."
+        },
+        {
+          "title": "Call Fairness Fuels Resident Conflict",
+          "description": "Distributing overnight call, holiday shifts, and weekend coverage equitably across OB GYN residents is nearly impossible to guarantee with manual scheduling."
+        }
+      ],
+      "title": "OB GYN Scheduling Is Uniquely Complex",
+      "description": "OB GYN residency programs face scheduling demands that manual processes and generic software cannot reliably handle."
+    },
+    "solution": {
+      "title": "ACGME-Compliant OB GYN Schedules Delivered to You",
+      "description": "Submit your program's constraints — OB GYN rotation requirements, subspecialty ACGME rules, resident preferences, and call fairness targets — and receive finished, compliant Block, Call, Clinic, and Attending schedules as ready-to-use Excel files. No software to learn. No annual retraining when chiefs rotate."
+    },
+    "metaTitle": "OB GYN Residency Scheduling | ACGME Compliant | Scheduling Wizard",
+    "metaDescription": "OB GYN residency scheduling is complex. Our managed service delivers fully optimized, ACGME-compliant schedules to protect your program's accreditation."
+  },
+  "searchIntent": {
+    "keyword": "OB GYN residency scheduling",
+    "searchIntents": [
+      "As a chief resident in OB GYN, I'm looking for a way to create compliant and fair rotation schedules for our residents without having to spend hours learning complicated scheduling software.",
+      "I need to ensure our OB GYN residency schedules meet ACGME requirements because any errors could delay our accreditation and impact the training of our residents.",
+      "As the program director, I want a reliable service that can handle the complexities of OB GYN residency scheduling, so I can focus more on education and less on logistics.",
+      "I'm coordinating the OB GYN residency schedules and need a solution that integrates with our existing tools like QGenda, while also ensuring all duty hours and preferences are respected."
+    ]
+  },
+  "seoMetadata": {
+    "h1": "Guaranteed ACGME-Compliant OB GYN Residency Scheduling",
+    "metaTitle": "OB GYN Residency Scheduling | ACGME Compliant | Scheduling Wizard",
+    "h1Paragraph": "Protect your program's accreditation. Scheduling Wizard delivers mathematically guaranteed ACGME-compliant OB GYN residency scheduling as a managed service.",
+    "metaDescription": "OB GYN residency scheduling is complex. Our managed service delivers fully optimized, ACGME-compliant schedules to protect your program's accreditation."
+  },
+  "finalMetadata": {
+    "slug": "ob-gyn-scheduling",
+    "anchor": "OB GYN Residency Scheduling",
+    "category": "specialty",
+    "generatedAt": "2026-06-02T05:32:13.627Z"
+  },
+  "id": "cmpw77lqh000gjp048vmzdcio",
+  "createdAt": "2026-06-02T05:29:58.217Z",
+  "updatedAt": "2026-06-04T07:51:55.454Z"
+}

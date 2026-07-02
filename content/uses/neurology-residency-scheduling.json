@@ -1,0 +1,156 @@
+{
+  "keyword": "neurology residency scheduling",
+  "slug": "neurology-residency-scheduling",
+  "anchor": "Neurology Residency Scheduling",
+  "title": "Neurology Residency Scheduling | Done-for-You | Scheduling Wizard",
+  "description": "Neurology residency scheduling simplified. Our managed service builds optimized, ACGME-compliant schedules for you, balancing rules and resident preferences. Submit your constraints and get a finished Excel schedule, eliminating the chief resident burden.",
+  "h1": "Done-for-You Neurology Residency Scheduling",
+  "paragraph": "Stop wrestling with complex neurology residency scheduling. We handle the specific ACGME rules and resident requests for you. Submit your constraints and let Scheduling Wizard deliver a complete, optimized schedule.",
+  "category": "specialty",
+  "data": {
+    "cta": {
+      "title": "Get Your Neurology Schedule Done Right",
+      "buttonText": "Book a Free Scheduling Consult",
+      "description": "Join 18 departments across 13 hospitals who already outsource scheduling to Scheduling Wizard."
+    },
+    "faq": [
+      {
+        "answer": "Yes. Scheduling Wizard has subspecialty-specific ACGME rules built directly into its optimization engine, including requirements specific to neurology programs. ACGME compliance is the most common question asked on sales calls, and the engine is designed to mathematically enforce these rules at schedule generation time — meaning violations are prevented before the schedule is ever published, not flagged after the fact.",
+        "question": "Does Scheduling Wizard know the ACGME rules specific to neurology residencies?"
+      },
+      {
+        "answer": "Your neurology program submits its scheduling constraints — rotation requirements, call rules, resident preferences, coverage targets, and any program-specific rules. Scheduling Wizard's engine optimizes across all of these simultaneously and delivers a finished, ACGME-compliant schedule as a ready-to-use Excel file. There is no software platform to learn or operate. You can then upload the finished schedule to your existing viewing tool, such as Amion or QGenda, for day-to-day access.",
+        "question": "How does the managed service model work for neurology programs?"
+      },
+      {
+        "answer": "Yes. Scheduling Wizard generates block rotation schedules, call schedules, clinic schedules, and attending schedules — and optimizes them simultaneously so that changes in one do not create conflicts in another. For neurology programs where residents must balance rotation blocks with clinic half-days and call obligations, this cross-schedule coordination is a core part of the service.",
+        "question": "Can Scheduling Wizard handle both block and call schedules for neurology?"
+      },
+      {
+        "answer": "Scheduling Wizard handles mid-year revisions as part of the managed service. When a resident requires a change due to leave, a swap, or a new constraint, the engine re-optimizes the affected portions of the schedule without disrupting the rest of the program's schedule. You do not need to manually patch the existing schedule or check for cascading conflicts yourself.",
+        "question": "What happens when a neurology resident needs a schedule change mid-year?"
+      },
+      {
+        "answer": "Your program's scheduling rules, constraints, and configurations remain with Scheduling Wizard from year to year. When a new chief resident takes over, they inherit a fully operational scheduling system instead of starting from scratch with a blank spreadsheet. This eliminates the annual loss of institutional scheduling knowledge that occurs when chief residents rotate out of their roles.",
+        "question": "How does Scheduling Wizard preserve scheduling knowledge when chief residents change?"
+      },
+      {
+        "answer": "Yes. Many Scheduling Wizard clients use Amion or QGenda alongside the service. Scheduling Wizard handles schedule creation and optimization, and the finished Excel file can be uploaded directly to Amion or QGenda for day-to-day schedule viewing and access. The two tools serve different functions and work together without conflict.",
+        "question": "Is Scheduling Wizard compatible with Amion or QGenda?"
+      }
+    ],
+    "hero": {
+      "title": "Neurology Residency Scheduling Done For You",
+      "description": "Submit your program constraints and receive finished, ACGME-compliant neurology residency schedules delivered as ready-to-use Excel files. No software to learn."
+    },
+    "features": {
+      "items": [
+        {
+          "id": "acgme-compliance",
+          "title": "Neurology ACGME Rules Built In",
+          "eyebrow": "ACGME Compliance",
+          "highlights": [
+            "Subspecialty rules pre-encoded",
+            "Violations prevented at generation",
+            "80-hour limits enforced automatically"
+          ],
+          "description": "Subspecialty-specific ACGME rules for neurology programs are encoded directly into the optimization engine. Compliance is mathematically enforced at generation time — violations are prevented, not discovered after the schedule is published."
+        },
+        {
+          "id": "managed-service",
+          "title": "Done For You Schedule Delivery",
+          "eyebrow": "Managed Service",
+          "highlights": [
+            "No software to learn",
+            "Finished Excel files delivered",
+            "Expert schedulers handle optimization"
+          ],
+          "description": "Scheduling Wizard operates as a fully managed service. Your neurology program submits constraints and receives a finished, ready-to-publish schedule as an Excel file. No platform to learn, no software to operate."
+        },
+        {
+          "id": "block-scheduling",
+          "title": "Neurology Rotation Blocks Optimized",
+          "eyebrow": "Block Scheduling",
+          "highlights": [
+            "PGY-level requirements respected",
+            "Required rotations fulfilled",
+            "Elective preferences factored in"
+          ],
+          "description": "Generates year-long block schedules for neurology residents respecting PGY-level requirements, required rotation mandates, elective preferences, and coverage minimums across all rotation sites."
+        },
+        {
+          "id": "institutional-continuity",
+          "title": "Scheduling Knowledge Persists Year Over Year",
+          "eyebrow": "Program Continuity",
+          "highlights": [
+            "No annual restart required",
+            "Rules preserved across chiefs",
+            "New chiefs onboard instantly"
+          ],
+          "description": "Your neurology program's scheduling rules, constraint configurations, and institutional knowledge stay with Scheduling Wizard across annual chief rotations. Incoming chiefs inherit a working system, not a blank spreadsheet."
+        },
+        {
+          "id": "cross-schedule-resolution",
+          "title": "Block Clinic and Call Synchronized",
+          "eyebrow": "Schedule Coordination",
+          "highlights": [
+            "All schedule types linked",
+            "Changes propagate automatically",
+            "No downstream conflicts"
+          ],
+          "description": "Block rotations, clinic assignments, and call schedules for your neurology program are optimized simultaneously. A change in one schedule automatically propagates across the others, eliminating manual cross-schedule patching."
+        }
+      ],
+      "title": "Built for Neurology Residency Scheduling",
+      "description": "Every feature is designed to handle the specific complexity of neurology programs, from subspecialty ACGME compliance to fair call distribution."
+    },
+    "problems": {
+      "items": [
+        {
+          "title": "Subspecialty Rules Missed",
+          "description": "Neurology ACGME requirements include subspecialty-specific rotation mandates that manual schedulers routinely overlook, putting accreditation at risk."
+        },
+        {
+          "title": "Chief Burden Repeats Annually",
+          "description": "Each new chief resident inherits a blank spreadsheet and no institutional memory, restarting the same painful scheduling process from scratch."
+        },
+        {
+          "title": "Conflicts Across Schedule Types",
+          "description": "Block rotations, clinic half-days, and call schedules must align simultaneously — a single change can cascade into dozens of downstream conflicts."
+        }
+      ],
+      "title": "Neurology Scheduling Is Uniquely Complex",
+      "description": "Neurology programs face scheduling challenges that generic tools and manual spreadsheets simply cannot handle."
+    },
+    "solution": {
+      "title": "Scheduling Wizard Builds Your Neurology Schedules",
+      "description": "Submit your program's constraints — neurology rotation requirements, ACGME subspecialty rules, call fairness targets, and resident preferences — and receive complete, optimized schedules as ready-to-use Excel files. No software to learn. No annual retraining when chiefs rotate."
+    },
+    "metaTitle": "Neurology Residency Scheduling | Done-for-You | Scheduling Wizard",
+    "metaDescription": "Neurology residency scheduling simplified. Our managed service builds optimized, ACGME-compliant schedules for you, balancing rules and resident preferences. Submit your constraints and get a finished Excel schedule, eliminating the chief resident burden."
+  },
+  "searchIntent": {
+    "keyword": "neurology residency scheduling",
+    "searchIntents": [
+      "A chief resident in a neurology program struggling to create a compliant and optimized rotation schedule that accommodates the specific ACGME rules for neurology residencies, while managing resident preferences and departmental constraints.",
+      "A program director in a neurology residency looking for a reliable managed scheduling service that understands the complexities of residency training and can deliver schedules that meet accreditation standards without adding to their workload.",
+      "A program coordinator for a neurology fellowship needing to efficiently coordinate clinic and call schedules for a diverse group of fellows, ensuring fairness and compliance with ACGME duty hour restrictions, all while juggling last-minute changes.",
+      "A residency program manager frustrated with existing scheduling software that doesn't cater specifically to neurology's unique requirements and wanting a solution that can handle the intricacies of resident schedules more effectively."
+    ]
+  },
+  "seoMetadata": {
+    "h1": "Done-for-You Neurology Residency Scheduling",
+    "metaTitle": "Neurology Residency Scheduling | Done-for-You | Scheduling Wizard",
+    "h1Paragraph": "Stop wrestling with complex neurology residency scheduling. We handle the specific ACGME rules and resident requests for you. Submit your constraints and let Scheduling Wizard deliver a complete, optimized schedule.",
+    "metaDescription": "Neurology residency scheduling simplified. Our managed service builds optimized, ACGME-compliant schedules for you, balancing rules and resident preferences. Submit your constraints and get a finished Excel schedule, eliminating the chief resident burden."
+  },
+  "finalMetadata": {
+    "slug": "neurology-residency-scheduling",
+    "anchor": "Neurology Residency Scheduling",
+    "category": "specialty",
+    "generatedAt": "2026-07-01T07:29:59.044Z"
+  },
+  "id": "cmr1r2o87000pjy04ianrqjby",
+  "createdAt": "2026-07-01T07:24:33.704Z",
+  "updatedAt": "2026-07-01T07:29:59.046Z"
+}

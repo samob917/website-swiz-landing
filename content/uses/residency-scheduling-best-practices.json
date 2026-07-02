@@ -1,0 +1,156 @@
+{
+  "keyword": "residency scheduling best practices",
+  "slug": "residency-scheduling-best-practices",
+  "anchor": "Residency Scheduling Best Practices",
+  "title": "Residency Scheduling Best Practices | ACGME Compliance | Scheduling Wizard",
+  "description": "Residency scheduling best practices balance ACGME rules, fairness, and resident requests. Our managed service delivers optimized, compliant schedules without the burden.",
+  "h1": "Residency Scheduling Best Practices for ACGME Compliance",
+  "paragraph": "The top residency scheduling best practice is automating complexity. Scheduling Wizard's managed service models your unique rules to deliver a finished schedule.",
+  "category": "specialty",
+  "data": {
+    "cta": {
+      "title": "Put Best Practices on Autopilot",
+      "buttonText": "Book a Free Scheduling Consult",
+      "description": "Join 18 departments across 13 hospitals already receiving optimized, compliant schedules from Scheduling Wizard."
+    },
+    "faq": [
+      {
+        "answer": "The most important residency scheduling best practices are ACGME duty hour compliance, equitable call distribution, and consistent institutional knowledge. Programs should ensure schedules are built against all applicable duty hour rules, that call and weekend burden is distributed fairly across PGY levels, and that scheduling knowledge is not lost when chief residents rotate annually. Automating constraint modeling and compliance checking are increasingly recognized as essential practices for sustainable, error-free scheduling.",
+        "question": "What are the most important residency scheduling best practices?"
+      },
+      {
+        "answer": "Scheduling Wizard enforces ACGME compliance mathematically at schedule generation time, not through manual review after the fact. The engine has subspecialty-specific ACGME rules built in, including the 80-hour weekly limit, minimum rest requirements between shifts, and the 24-hour hard cap. This means compliance is guaranteed in the output, not dependent on a chief resident catching violations during a manual audit.",
+        "question": "How does Scheduling Wizard ensure ACGME compliance in residency schedules?"
+      },
+      {
+        "answer": "The best way to handle scheduling fairness is algorithmic distribution, not manual balancing. When call, weekend, and holiday shifts are assigned by hand, bias and error are inevitable. Scheduling Wizard's engine distributes burden equitably across all residents as a core part of the optimization process, eliminating the disputes that arise when residents compare schedules and find uneven assignments.",
+        "question": "What is the best way to handle resident scheduling fairness?"
+      },
+      {
+        "answer": "Scheduling continuity across chief rotations is a recognized best practice gap for most programs. When chiefs rotate annually, institutional scheduling knowledge is typically lost, forcing the incoming chief to rebuild the schedule from scratch. Scheduling Wizard retains your program's constraint configurations and rules year over year, so new chiefs inherit a fully working system rather than starting with a blank spreadsheet.",
+        "question": "How do programs maintain scheduling continuity when chief residents change?"
+      },
+      {
+        "answer": "No. Scheduling Wizard and tools like Amion or QGenda serve different functions. Scheduling Wizard creates and optimizes the schedule — applying best practices, enforcing ACGME rules, and resolving constraints. Amion and QGenda are used by many of the same programs to view and display the finished schedule day-to-day. Programs receive their optimized schedule from Scheduling Wizard as an Excel file and can upload it directly to whichever viewing tool they already use.",
+        "question": "Does Scheduling Wizard replace Amion or QGenda?"
+      },
+      {
+        "answer": "Chief residents, program directors, program coordinators, and GME offices all benefit from best-practice scheduling. Chief residents spend fewer hours on administrative scheduling work. Program directors gain confidence in ACGME compliance. Program coordinators deal with fewer mid-year conflicts and revision requests. GME offices can standardize scheduling quality across multiple departments. Scheduling Wizard is designed to serve all of these roles through a single managed service.",
+        "question": "Who benefits most from following residency scheduling best practices?"
+      }
+    ],
+    "hero": {
+      "title": "Residency Scheduling Best Practices Done For You",
+      "description": "Scheduling Wizard delivers ACGME-compliant block, call, clinic, and attending schedules as finished Excel files. No software to learn, no manual compliance checks."
+    },
+    "features": {
+      "items": [
+        {
+          "id": "acgme-compliance",
+          "title": "Compliance Built In at Generation",
+          "eyebrow": "ACGME Compliance",
+          "highlights": [
+            "Subspecialty rules built in",
+            "Violations prevented at generation",
+            "80-hour and rest rules enforced"
+          ],
+          "description": "Residency scheduling best practices start with compliance. Our engine mathematically enforces ACGME duty hour rules, including subspecialty-specific requirements, at schedule generation time. Violations are prevented, not discovered after publishing."
+        },
+        {
+          "id": "managed-service",
+          "title": "Schedules Delivered as Excel Files",
+          "eyebrow": "Managed Service",
+          "highlights": [
+            "No software to learn",
+            "Finished Excel files delivered",
+            "Upload to existing viewing tools"
+          ],
+          "description": "Following best practices shouldn't require learning new software. Programs submit constraints and receive finished, optimized schedules as Excel files, ready to upload to Amion, QGenda, or any viewing tool your department already uses."
+        },
+        {
+          "id": "fairness-optimization",
+          "title": "Equitable Call and Weekend Distribution",
+          "eyebrow": "Fairness",
+          "highlights": [
+            "Call burden distributed evenly",
+            "Holiday shifts balanced automatically",
+            "No manual fairness audits needed"
+          ],
+          "description": "A core best practice in residency scheduling is fair burden distribution. Our engine algorithmically balances call, weekends, and holidays across all residents, eliminating disputes before they start."
+        },
+        {
+          "id": "institutional-continuity",
+          "title": "Knowledge That Persists Year Over Year",
+          "eyebrow": "Program Continuity",
+          "highlights": [
+            "Rules persist across chief rotations",
+            "No annual rebuild from scratch",
+            "Consistent scheduling year over year"
+          ],
+          "description": "Best-in-class programs don't rebuild their schedule from scratch each year. Scheduling Wizard retains your program's rules and constraint configurations, so new chiefs inherit a working, optimized system instead of a blank spreadsheet."
+        },
+        {
+          "id": "resident-preferences",
+          "title": "Preferences as First-Class Schedule Inputs",
+          "eyebrow": "Resident Preferences",
+          "highlights": [
+            "Vacation requests factored in",
+            "Conference dates respected",
+            "Elective preferences optimized"
+          ],
+          "description": "Best practice includes incorporating resident vacation requests, elective preferences, conference dates, and moonlighting restrictions directly into the optimization, not patching them in manually after the schedule is built."
+        }
+      ],
+      "title": "How Scheduling Wizard Applies Best Practices",
+      "description": "Every schedule is optimized against your program's rules, ACGME requirements, and resident preferences simultaneously — before delivery."
+    },
+    "problems": {
+      "items": [
+        {
+          "title": "ACGME Compliance Falls Through",
+          "description": "Manually checking duty hours, rest requirements, and subspecialty-specific rules across hundreds of shifts leaves too much room for error."
+        },
+        {
+          "title": "Fairness Disputes Drain Morale",
+          "description": "Without algorithmic distribution, call and weekend burden falls unevenly, and chief residents spend hours fielding complaints instead of practicing medicine."
+        },
+        {
+          "title": "Knowledge Lost Every Year",
+          "description": "When chiefs rotate annually, institutional scheduling knowledge walks out the door, forcing each new chief to rebuild the schedule from scratch."
+        }
+      ],
+      "title": "Best Practices Are Hard to Execute",
+      "description": "Knowing residency scheduling best practices is one thing. Actually applying them across every constraint is another."
+    },
+    "solution": {
+      "title": "Best Practices Built Into Every Schedule",
+      "description": "Scheduling Wizard is a managed service that applies residency scheduling best practices automatically. Submit your program's constraints and receive finished, ACGME-compliant schedules as ready-to-use Excel files. No software to learn, no annual retraining, and no compliance checking after the fact."
+    },
+    "metaTitle": "Residency Scheduling Best Practices | ACGME Compliance | Scheduling Wizard",
+    "metaDescription": "Residency scheduling best practices balance ACGME rules, fairness, and resident requests. Our managed service delivers optimized, compliant schedules without the burden."
+  },
+  "searchIntent": {
+    "keyword": "residency scheduling best practices",
+    "searchIntents": [
+      "A residency program director looking for effective strategies to create compliant schedules that satisfy both ACGME requirements and resident preferences, while minimizing conflicts and balancing workloads.",
+      "A chief resident searching for proven methods to streamline the scheduling process, reduce the administrative burden on fellows, and ensure that the schedule accommodates critical clinical rotations and personal requests.",
+      "A program coordinator needing insights on best practices to enhance schedule fairness and transparency for residents, ensuring that no one is overburdened with call shifts and all have opportunities for preferred rotations.",
+      "An administrator in a GME office seeking expert guidance on optimizing residency schedules across multiple departments, while maintaining compliance and avoiding scheduling conflicts that could impact training quality."
+    ]
+  },
+  "seoMetadata": {
+    "h1": "Residency Scheduling Best Practices for ACGME Compliance",
+    "metaTitle": "Residency Scheduling Best Practices | ACGME Compliance | Scheduling Wizard",
+    "h1Paragraph": "The top residency scheduling best practice is automating complexity. Scheduling Wizard's managed service models your unique rules to deliver a finished schedule.",
+    "metaDescription": "Residency scheduling best practices balance ACGME rules, fairness, and resident requests. Our managed service delivers optimized, compliant schedules without the burden."
+  },
+  "finalMetadata": {
+    "slug": "best-practices",
+    "anchor": "Residency Scheduling Best Practices",
+    "category": "specialty",
+    "generatedAt": "2026-07-01T07:26:40.956Z"
+  },
+  "id": "cmr1r2n9z0007jy047256pjof",
+  "createdAt": "2026-07-01T07:24:32.472Z",
+  "updatedAt": "2026-07-01T11:27:56.094Z"
+}

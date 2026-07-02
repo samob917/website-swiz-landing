@@ -1,0 +1,156 @@
+{
+  "keyword": "ACGME home call counting",
+  "slug": "acgme-home-call-counting",
+  "anchor": "ACGME Home Call Counting",
+  "title": "ACGME Home Call Counting | Guaranteed Compliance | Scheduling Wizard",
+  "description": "ACGME home call counting is complex and risky. Our managed service delivers a finished, mathematically-proven compliant call schedule, saving you from manual errors and hours in spreadsheets.",
+  "h1": "ACGME Home Call Counting Solved",
+  "paragraph": "Stop wasting hours tracking home call. Scheduling Wizard's managed service takes your rules and builds a finished, ACGME-compliant schedule for you.",
+  "category": "specialty",
+  "data": {
+    "cta": {
+      "title": "Stop Counting Home Call Hours By Hand",
+      "buttonText": "Book a Free Scheduling Consult",
+      "description": "Join 18 departments across 13 hospitals who already outsource their scheduling to Scheduling Wizard."
+    },
+    "faq": [
+      {
+        "answer": "Yes, home call counts toward the ACGME 80-hour weekly duty hour limit. Under ACGME regulations, all hours a resident spends on patient care activities during home call — including time spent returning to the hospital — must be counted toward weekly duty hours. Scheduling Wizard's compliance engine applies this rule mathematically at schedule generation time, so home call hours are factored into every resident's weekly total before the schedule is published.",
+        "question": "Does home call count toward the ACGME 80-hour weekly duty hour limit?"
+      },
+      {
+        "answer": "The ACGME 24-hour hard cap limits continuous duty periods. Home call shifts that result in a resident returning to the hospital can trigger this rule, depending on how long the resident remains on duty after returning. Scheduling Wizard's engine accounts for this at generation time, preventing schedules that would violate the cap rather than detecting violations after the fact.",
+        "question": "What is the ACGME 24-hour hard cap and does it apply to home call?"
+      },
+      {
+        "answer": "Scheduling Wizard's proprietary optimization engine applies ACGME home call counting rules mathematically during schedule generation. Home call hours are treated as first-class inputs to the constraint model, counted toward weekly duty hour totals, and validated against applicable rest and cap requirements. The finished schedule is delivered as an Excel file that is compliant before it is ever distributed to residents.",
+        "question": "How does Scheduling Wizard handle ACGME home call counting?"
+      },
+      {
+        "answer": "Manual home call counting in spreadsheets is prone to human error — missed hours, miscounted weekends, or overlooked rest requirements can push a resident over duty hour limits without the chief realizing it. ACGME violations discovered during a site visit or self-study can jeopardize a program's accreditation status. Automating home call counting through Scheduling Wizard eliminates the manual error risk entirely.",
+        "question": "Why is manual home call counting risky for ACGME compliance?"
+      },
+      {
+        "answer": "Scheduling Wizard has subspecialty-specific ACGME rule knowledge built directly into its optimization engine. Because ACGME duty hour rules and home call expectations can vary by specialty and program type, the engine applies the rules relevant to your specific program rather than a one-size-fits-all model. This is one of the most common questions buyers ask on sales calls, and it is addressed at the constraint-modeling stage before schedule generation begins.",
+        "question": "What subspecialty-specific ACGME home call rules does Scheduling Wizard support?"
+      },
+      {
+        "answer": "Scheduling Wizard's managed service handles mid-year revisions. If a home call assignment needs to change due to leave, swaps, or updated program constraints, programs submit the change and Scheduling Wizard regenerates the affected portion of the schedule. The revised output is delivered as an updated Excel file, with ACGME home call counting re-validated across the updated assignments.",
+        "question": "Who handles schedule updates if home call assignments need to change mid-year?"
+      }
+    ],
+    "hero": {
+      "title": "ACGME Home Call Counting Solved For Your Program",
+      "description": "Stop manually tracking home call hours. Scheduling Wizard's managed service delivers a finished, ACGME-compliant call schedule with home call counting built in."
+    },
+    "features": {
+      "items": [
+        {
+          "id": "acgme-compliance",
+          "title": "Home Call Hours Counted Automatically",
+          "eyebrow": "ACGME Compliance",
+          "highlights": [
+            "Home call counted toward 80h limit",
+            "24-hour hard cap enforced",
+            "Subspecialty-specific rules built in"
+          ],
+          "description": "The compliance engine mathematically enforces ACGME duty hour rules at generation time, including home call counting toward the 80-hour weekly limit and the 24-hour hard cap. Violations are prevented before the schedule is ever published, not discovered after."
+        },
+        {
+          "id": "call-scheduling",
+          "title": "Fair Home Call Distribution at Scale",
+          "eyebrow": "Call Scheduling",
+          "highlights": [
+            "Weekend call balanced fairly",
+            "Post-call rest rules enforced",
+            "Holiday burden distributed equitably"
+          ],
+          "description": "Generates ACGME-compliant home call schedules that distribute call burden equitably across all residents while respecting post-call rest requirements, duty hour limits, and individual program constraints."
+        },
+        {
+          "id": "managed-service",
+          "title": "Done For You Home Call Scheduling",
+          "eyebrow": "Managed Service",
+          "highlights": [
+            "No software to learn",
+            "Excel output ready to publish",
+            "Expert schedulers handle optimization"
+          ],
+          "description": "Programs submit their constraints and receive a finished home call schedule as a ready-to-use Excel file. No software to learn, no manual counting, and no risk of a new chief losing institutional knowledge about how home call rules are applied."
+        },
+        {
+          "id": "fairness-optimization",
+          "title": "Equitable Home Call Burden Guaranteed",
+          "eyebrow": "Fairness",
+          "highlights": [
+            "Algorithmic call distribution",
+            "Holiday shifts balanced automatically",
+            "Eliminates manual fairness disputes"
+          ],
+          "description": "The optimization engine algorithmically distributes home call, weekends, and holidays so no single resident carries a disproportionate burden. Eliminates the fairness disputes that arise when home call is assigned manually."
+        },
+        {
+          "id": "institutional-continuity",
+          "title": "Home Call Rules Persist Year Over Year",
+          "eyebrow": "Continuity",
+          "highlights": [
+            "Rules persist across chief rotations",
+            "No knowledge lost year to year",
+            "New chiefs inherit compliant system"
+          ],
+          "description": "Your program's home call rules, ACGME constraints, and scheduling configurations stay with Scheduling Wizard across annual chief rotations. Incoming chiefs inherit a working, compliant system instead of rebuilding home call counting logic from scratch."
+        }
+      ],
+      "title": "Built for ACGME Home Call Compliance",
+      "description": "Every feature is designed to eliminate the manual burden of ACGME home call counting and deliver schedulesthat are compliant from the moment they are generated."
+    },
+    "problems": {
+      "items": [
+        {
+          "title": "Manual Counting Breeds Errors",
+          "description": "Tracking home call hours in spreadsheets is tedious and error-prone, and a single miscalculation can push residents over duty hour limits without anyone noticing."
+        },
+        {
+          "title": "Compliance Violations Risk Accreditation",
+          "description": "ACGME home call counts toward the 80-hour weekly limit. Missing that in your schedule exposes the program to duty hour violations and accreditation risk."
+        },
+        {
+          "title": "Fairness Disputes Among Residents",
+          "description": "Without algorithmic distribution, home call burden falls unevenly, generating complaints among residents and adding to the chief's administrative load every cycle."
+        }
+      ],
+      "title": "Home Call Counting Is a Compliance Risk",
+      "description": "Manual home call tracking leaves programs vulnerable to errors, disputes, and ACGME violations."
+    },
+    "solution": {
+      "title": "Home Call Compliance Built Into Every Schedule",
+      "description": "Submit your program's constraints and Scheduling Wizard's proprietary optimization engine builds a complete, ACGME-compliant call schedule with home call counting handled mathematically at generation time. No manual tracking. No spreadsheet errors. Delivered as a ready-to-use Excel file."
+    },
+    "metaTitle": "ACGME Home Call Counting | Guaranteed Compliance | Scheduling Wizard",
+    "metaDescription": "ACGME home call counting is complex and risky. Our managed service delivers a finished, mathematically-proven compliant call schedule, saving you from manual errors and hours in spreadsheets."
+  },
+  "searchIntent": {
+    "keyword": "ACGME home call counting",
+    "searchIntents": [
+      "As a chief resident, I'm trying to ensure our home call schedule complies with ACGME rules, but I'm overwhelmed with the manual counting and tracking of duty hours. I need a reliable way to create an accurate and compliant home call schedule without spending hours on spreadsheets.",
+      "As a residency program coordinator, I need to find a solution to automate our home call counting process. The current methods are error-prone and time-consuming, and I can't risk non-compliance with ACGME regulations when reporting for accreditation purposes.",
+      "I'm a program director looking for ways to streamline our home call counting while ensuring fairness among residents. I want a solution that can help us track hours efficiently, because I can't afford any violations that could jeopardize our accreditation status.",
+      "As a fellowship program manager, I need to calculate home call hours easily, but every year I face issues with compliance and disputes among fellows. A custom solution is crucial to avoid mistakes and maintain trust within the program."
+    ]
+  },
+  "seoMetadata": {
+    "h1": "ACGME Home Call Counting Solved",
+    "metaTitle": "ACGME Home Call Counting | Guaranteed Compliance | Scheduling Wizard",
+    "h1Paragraph": "Stop wasting hours tracking home call. Scheduling Wizard's managed service takes your rules and builds a finished, ACGME-compliant schedule for you.",
+    "metaDescription": "ACGME home call counting is complex and risky. Our managed service delivers a finished, mathematically-proven compliant call schedule, saving you from manual errors and hours in spreadsheets."
+  },
+  "finalMetadata": {
+    "slug": "home-call-counting",
+    "anchor": "ACGME Home Call Counting",
+    "category": "specialty",
+    "generatedAt": "2026-07-01T07:26:52.840Z"
+  },
+  "id": "cmr1r2ner000ajy04mhqw27os",
+  "createdAt": "2026-07-01T07:24:32.643Z",
+  "updatedAt": "2026-07-01T11:27:56.028Z"
+}
