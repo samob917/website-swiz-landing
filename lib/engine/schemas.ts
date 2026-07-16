@@ -73,26 +73,6 @@ const footerConfigSchema = z.object({
     .optional(),
 });
 
-const blogConfigSchema = z.object({
-  seo: z.object({
-    title: z.string(),
-    titleTemplate: z.string().optional(),
-    description: z.string(),
-  }),
-  heading: z.string(),
-  subtitle: z.string(),
-  highlightedTags: z
-    .array(
-      z.object({
-        label: z.string(),
-        value: z.string(),
-        description: z.string(),
-      }),
-    )
-    .optional(),
-  sitemap: sitemapHintsSchema.optional(),
-});
-
 const usesIndexConfigSchema = z.object({
   seo: z.object({ title: z.string(), description: z.string() }),
   heading: z.string(),
@@ -107,7 +87,6 @@ export const siteConfigSchema = z.object({
   globalSeo: globalSeoSchema,
   navbar: navbarConfigSchema,
   footer: footerConfigSchema,
-  blog: blogConfigSchema.optional(),
   usesIndex: usesIndexConfigSchema.optional(),
   featureImageMap: z.record(z.string(), z.string()).optional(),
 });

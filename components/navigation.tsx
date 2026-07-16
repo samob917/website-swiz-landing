@@ -27,9 +27,6 @@ export function Navigation() {
           <Link href="/uses" className="nav-link font-medium">
             Use Cases
           </Link>
-          <Link href="/blog" className="nav-link font-medium">
-            Blog
-          </Link>
           <Link href="/demo" className="nav-link font-medium">
             Demo
           </Link>
@@ -62,7 +59,6 @@ export function Navigation() {
             {[
               { href: "/", label: "Solutions" },
               { href: "/uses", label: "Use Cases" },
-              { href: "/blog", label: "Blog" },
               { href: "/demo", label: "Demo" },
               { href: "/team", label: "Team" },
               { href: "/customers", label: "Customers" },

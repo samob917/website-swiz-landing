@@ -1,4 +1,4 @@
-// Site-level config types — shared across blog/uses/feature pages.
+// Site-level config types — shared across uses/feature pages.
 
 export interface SitemapHints {
   priority: number;
@@ -61,22 +61,6 @@ export interface FooterConfig {
   };
 }
 
-export interface BlogConfig {
-  seo: {
-    title: string;
-    titleTemplate?: string;
-    description: string;
-  };
-  heading: string;
-  subtitle: string;
-  highlightedTags?: {
-    label: string;
-    value: string;
-    description: string;
-  }[];
-  sitemap?: SitemapHints;
-}
-
 export interface UsesIndexConfig {
   seo: { title: string; description: string };
   heading: string;
@@ -91,7 +75,6 @@ export interface SiteConfig {
   globalSeo: GlobalSeo;
   navbar: NavbarConfig;
   footer: FooterConfig;
-  blog?: BlogConfig;
   usesIndex?: UsesIndexConfig;
   featureImageMap?: Record<string, string>;
 }

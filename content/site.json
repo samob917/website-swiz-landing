@@ -16,7 +16,6 @@
     "items": [
       { "label": "Solutions", "href": "/" },
       { "label": "Use Cases", "href": "/uses" },
-      { "label": "Blog", "href": "/blog" },
       { "label": "Demo", "href": "/demo" },
       { "label": "Customers", "href": "/customers" },
       { "label": "Contact", "href": "/contact" }
@@ -40,7 +39,6 @@
         "links": [
           { "label": "Customers", "href": "/customers" },
           { "label": "Team", "href": "/team" },
-          { "label": "Blog", "href": "/blog" },
           { "label": "Contact", "href": "/contact" }
         ]
       }
@@ -48,26 +46,6 @@
     "legal": {
       "copyright": "© 2026 Scheduling Wizard. All rights reserved.",
       "links": []
-    }
-  },
-  "blog": {
-    "seo": {
-      "title": "Scheduling Wizard Blog",
-      "titleTemplate": "%s | Scheduling Wizard Blog",
-      "description": "Insights on medical scheduling, residency operations, fellowship programs, and the work behind every block, clinic, and call schedule."
-    },
-    "heading": "Blog",
-    "subtitle": "Insights on medical scheduling, residency operations, fellowship programs, and the work behind every block, clinic, and call schedule.",
-    "highlightedTags": [
-      {
-        "label": "Featured",
-        "value": "featured",
-        "description": "Featured writing from the Scheduling Wizard team."
-      }
-    ],
-    "sitemap": {
-      "priority": 0.9,
-      "changeFrequency": "daily"
     }
   },
   "usesIndex": {
