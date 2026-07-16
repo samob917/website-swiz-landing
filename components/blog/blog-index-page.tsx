@@ -13,6 +13,7 @@ import {
   PaginationPrevious,
 } from "@/components/ui/pagination";
 import type { BlogConfig } from "@/lib/engine/types";
+import { isHiddenPost } from "@/lib/blog/hidden-posts";
 import { SectionContainer } from "@/components/section-container";
 import type { GetPostsResult } from "@wisp-cms/client";
 import Image from "next/image";
@@ -73,7 +74,7 @@ export const BlogIndexPage = ({
       const fetchParams: GetPostsParams = { page, limit: POSTS_PER_PAGE };
       if (tag) fetchParams.tags = [tag];
       const result = await wisp.getPosts(fetchParams);
-      setPosts(result.posts);
+      setPosts(result.posts.filter((post) => !isHiddenPost(post.slug)));
       setPagination(result.pagination);
       setCurrentPage(page);
       setCurrentTag(tag);

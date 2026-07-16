@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { getSiteConfig } from "@/lib/engine/resolve-site";
 import { getAllUsesData } from "@/lib/engine/resolve-uses";
+import { isHiddenPost } from "@/lib/blog/hidden-posts";
 import { wisp } from "@/lib/wisp";
 
 // Revalidate hourly so newly published blog posts appear without a redeploy.
@@ -40,6 +41,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     while (true) {
       const result = await wisp.getPosts({ page, limit: 100 });
       for (const post of result.posts) {
+        if (isHiddenPost(post.slug)) continue;
         blogEntries.push({
           url: `${base}/blog/${post.slug}`,
           lastModified: post.updatedAt ? new Date(post.updatedAt) : now,

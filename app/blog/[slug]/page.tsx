@@ -5,6 +5,7 @@ import { format } from "date-fns";
 import { PostContent } from "@/components/blog/post-content";
 import { Badge } from "@/components/ui/badge";
 import { getSiteConfig } from "@/lib/engine/resolve-site";
+import { isHiddenPost } from "@/lib/blog/hidden-posts";
 import { wisp } from "@/lib/wisp";
 
 export const revalidate = 3600;
@@ -36,6 +37,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 export default async function BlogPost({ params }: Props) {
   const { slug } = await params;
+  if (isHiddenPost(slug)) return notFound();
+
   const [result, site] = await Promise.all([
     wisp.getPost(slug),
     getSiteConfig(),
