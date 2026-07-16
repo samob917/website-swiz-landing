@@ -1,0 +1,156 @@
+{
+  "keyword": "pediatrics residency scheduling",
+  "slug": "pediatrics-residency-scheduling",
+  "anchor": "Pediatrics Residency Scheduling",
+  "title": "Pediatrics Residency Scheduling | Fair & Compliant | Scheduling Wizard",
+  "description": "Pediatrics residency scheduling is complex. Our managed service delivers complete, ACGME-compliant schedules for your program without you needing to learn any software.",
+  "h1": "Pediatrics Residency Scheduling, Solved.",
+  "paragraph": "Stop losing nights to spreadsheets. Scheduling Wizard delivers fair, 100% ACGME-compliant pediatrics residency schedules directly to your inbox as an Excel file.",
+  "category": "specialty",
+  "data": {
+    "cta": {
+      "title": "Get Your Pediatrics Schedule Done Right",
+      "buttonText": "Book a Free Scheduling Consult",
+      "description": "Join 18 departments across 13 hospitals who already trust Scheduling Wizard with their residency schedules."
+    },
+    "faq": [
+      {
+        "answer": "Yes. ACGME compliance is mathematically enforced at schedule generation time, not manually checked after the fact. Scheduling Wizard's engine has subspecialty-specific ACGME rule knowledge built in, including the rules applicable to pediatrics programs. This means violations are prevented before the schedule is ever finalized, not caught during an audit. ACGME compliance is the most common question we receive on sales calls, and it is a core part of how the service is built.",
+        "question": "Is Scheduling Wizard compliant with pediatrics ACGME duty hour rules?"
+      },
+      {
+        "answer": "Scheduling Wizard generates Block, Clinic, Call, and Attending schedules for pediatrics residency programs. All schedule types are optimized simultaneously using a proprietary mathematical engine, so a change in one schedule automatically resolves dependencies across the others. The finished schedules are delivered as Excel files ready to upload to your existing viewing tool, such as Amion or QGenda.",
+        "question": "What types of schedules does Scheduling Wizard generate for pediatrics programs?"
+      },
+      {
+        "answer": "Scheduling Wizard is a done-for-you managed service, not self-service software. You do not log into a platform or build the schedule yourself. You submit your constraints and receive a finished, optimized schedule as an Excel file. Many Scheduling Wizard clients continue to use Amion or QGenda alongside the service for day-to-day schedule viewing and display — Scheduling Wizard handles schedule creation and optimization.",
+        "question": "How is Scheduling Wizard different from scheduling software like Amion or QGenda?"
+      },
+      {
+        "answer": "Scheduling Wizard handles mid-year revisions including unplanned absences, sick leave, parental leave, and schedule swaps. When a change is submitted, the engine re-optimizes the affected portions of the schedule without disrupting the rest of the year. This means your pediatrics program can respond to last-minute coverage needs without manually reshuffling the entire schedule.",
+        "question": "What happens when a pediatrics resident has an unplanned absence or last-minute change?"
+      },
+      {
+        "answer": "Resident preferences — including vacation requests, elective choices, conference attendance, and moonlighting restrictions — are submitted as constraints before schedule generation. The optimization engine integrates them as first-class inputs, not manual patches applied after the schedule is built. The result is a schedule that already reflects your pediatrics residents' approved preferences from day one.",
+        "question": "How does the service handle resident preferences like vacation and elective requests?"
+      },
+      {
+        "answer": "Your program's scheduling rules, constraint configurations, and ACGME compliance requirements stay with Scheduling Wizard indefinitely. When new chief residents take over, they inherit a fully working, optimized scheduling system instead of rebuilding from a blank spreadsheet. This eliminates the annual knowledge loss that comes with chief rotations in pediatrics programs.",
+        "question": "How does Scheduling Wizard preserve institutional knowledge when chiefs change each year?"
+      }
+    ],
+    "hero": {
+      "title": "Pediatrics Residency Scheduling Done For You",
+      "description": "Fair, ACGME-compliant pediatrics residency schedules delivered as ready-to-use Excel files. No software to learn, no spreadsheet rebuilding every year."
+    },
+    "features": {
+      "items": [
+        {
+          "id": "acgme-compliance",
+          "title": "Pediatrics Compliance Built Into Every Schedule",
+          "eyebrow": "ACGME Compliance",
+          "highlights": [
+            "Subspecialty rules enforced automatically",
+            "Violations prevented at generation time",
+            "80-hour limits mathematically guaranteed"
+          ],
+          "description": "Scheduling Wizard's engine enforces pediatrics-specific ACGME duty hour regulations at the moment of schedule generation. Compliance is mathematically guaranteed, not manually reviewed after the fact."
+        },
+        {
+          "id": "managed-service",
+          "title": "No Software for Chiefs to Learn",
+          "eyebrow": "Managed Service",
+          "highlights": [
+            "Submit constraints, receive Excel file",
+            "Expert schedulers handle optimization",
+            "Works with Amion and QGenda"
+          ],
+          "description": "Scheduling Wizard operates as a done-for-you service. Your pediatrics program submits its constraints and receives a finished, ready-to-publish Excel schedule. No platform to onboard, no scheduling logic to manage."
+        },
+        {
+          "id": "block-scheduling",
+          "title": "Year-Long Rotation Schedules Optimized",
+          "eyebrow": "Block Scheduling",
+          "highlights": [
+            "PGY-level requirements respected",
+            "Elective preferences accommodated",
+            "Coverage minimums enforced"
+          ],
+          "description": "Generate complete year-long block rotation schedules for your pediatrics residency that respect PGY-level requirements, ACGME rotation mandates, elective preferences, and site-specific coverage rules."
+        },
+        {
+          "id": "call-scheduling",
+          "title": "Fair Call Distribution Across All Residents",
+          "eyebrow": "Call Scheduling",
+          "highlights": [
+            "Weekend call balanced automatically",
+            "Holiday burden distributed equitably",
+            "Post-call rest rules enforced"
+          ],
+          "description": "Our optimization engine distributes call, weekend, and holiday burden equitably across all pediatrics residents. Fairness is calculated algorithmically, eliminating disputes before the schedule is ever published."
+        },
+        {
+          "id": "institutional-continuity",
+          "title": "Knowledge That Survives Chief Rotations",
+          "eyebrow": "Program Continuity",
+          "highlights": [
+            "Constraints carry over year to year",
+            "New chiefs inherit a working system",
+            "No annual rebuild from scratch"
+          ],
+          "description": "Your pediatrics program's scheduling rules, constraints, and configurations stay with Scheduling Wizard year over year. Incoming chiefs inherit a fully operational system instead of starting from a blank spreadsheet."
+        }
+      ],
+      "title": "Built for Pediatrics Residency Scheduling",
+      "description": "Every feature is designed to handle the complexity of pediatrics programs without adding work to your plate."
+    },
+    "problems": {
+      "items": [
+        {
+          "title": "Compliance Rules Keep Changing",
+          "description": "Pediatrics-specific ACGME duty hour rules are complex and evolving. Manual scheduling leaves programs one error away from a compliance violation."
+        },
+        {
+          "title": "Chief Turnover Resets Everything",
+          "description": "Every year, outgoing chiefs take their scheduling knowledge with them. Incoming chiefs rebuild from scratch, burning weeks before the academic year starts."
+        },
+        {
+          "title": "Fairness Disputes Hurt Morale",
+          "description": "Manually distributing call, weekends, and holidays across pediatrics residents is nearly impossible to make fair, and complaints follow every schedule release."
+        }
+      ],
+      "title": "Scheduling Shouldn't Cost This Much",
+      "description": "Pediatrics residency scheduling is a recurring burden that falls hardest on the people least equipped to carry it."
+    },
+    "solution": {
+      "title": "A Managed Service Built for Pediatrics Programs",
+      "description": "Submit your program's constraints — rotation requirements, subspecialty ACGME rules, resident preferences, and call fairness targets — and receive finished, compliant schedules as ready-to-use Excel files. No software to learn. No institutional knowledge lost when chiefs rotate."
+    },
+    "metaTitle": "Pediatrics Residency Scheduling | Fair & Compliant | Scheduling Wizard",
+    "metaDescription": "Pediatrics residency scheduling is complex. Our managed service delivers complete, ACGME-compliant schedules for your program without you needing to learn any software."
+  },
+  "searchIntent": {
+    "keyword": "pediatrics residency scheduling",
+    "searchIntents": [
+      "A chief resident for a pediatrics program struggling to create a compliant and fair schedule that accommodates all resident preferences and duty hour regulations, looking for a solution that minimizes their workload and ensures ACGME compliance.",
+      "A program coordinator in a pediatric residency trying to streamline the scheduling process for 10 residents, urgently seeking an efficient way to generate a conflict-free schedule that adheres to specific subspecialty rules, without having to learn complicated software.",
+      "A residency program director concerned about the frequent scheduling errors and miscommunications in their pediatrics department, searching for an automated solution that handles schedule optimization and revisions seamlessly, ensuring that all faculty and resident needs are met without excessive manual input.",
+      "A chief fellow in pediatrics who needs to handle last-minute schedule changes due to resident absences and wants a reliable service that can quickly re-optimize schedules and maintain compliance with GME regulations, reducing stress during busy rotations."
+    ]
+  },
+  "seoMetadata": {
+    "h1": "Pediatrics Residency Scheduling, Solved.",
+    "metaTitle": "Pediatrics Residency Scheduling | Fair & Compliant | Scheduling Wizard",
+    "h1Paragraph": "Stop losing nights to spreadsheets. Scheduling Wizard delivers fair, 100% ACGME-compliant pediatrics residency schedules directly to your inbox as an Excel file.",
+    "metaDescription": "Pediatrics residency scheduling is complex. Our managed service delivers complete, ACGME-compliant schedules for your program without you needing to learn any software."
+  },
+  "finalMetadata": {
+    "slug": "residency-scheduling",
+    "anchor": "Pediatrics Residency Scheduling",
+    "category": "specialty",
+    "generatedAt": "2026-06-02T05:32:41.851Z"
+  },
+  "id": "cmpw77lvb000jjp04rzcpkt2w",
+  "createdAt": "2026-06-02T05:29:58.391Z",
+  "updatedAt": "2026-06-04T07:51:55.396Z"
+}

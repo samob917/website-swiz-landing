@@ -13,7 +13,7 @@ type Stage = "input" | "capture" | "success"
 
 // EmailJS free plan caps the total request payload (form vars + base64-encoded
 // attachment) at 50 KB. Paid plans bump that to 2 MB. We validate against the
-// free-plan ceiling and capture a PostHog event when files exceed it — if the
+// free-plan ceiling and capture a PostHog event when files exceed it. If the
 // rate is high, that's the signal to swap to a real attachment-friendly backend.
 const MAX_FILE_BYTES = 50 * 1024
 const MAX_FILE_LABEL = "Up to 50 KB"
@@ -40,7 +40,7 @@ export default function ComplianceCheckerPage() {
       })
       const sizeKb = Math.round(file.size / 1024)
       setErrorMsg(
-        `That file is ${sizeKb} KB. We can only accept up to 50 KB right now — try compressing it, or email it to founders@schedulingwiz.com.`,
+        `That file is ${sizeKb} KB. We can only accept up to 50 KB right now. Try compressing it, or email it to founders@schedulingwiz.com.`,
       )
       if (fileInputRef.current) fileInputRef.current.value = ""
       return
@@ -68,7 +68,7 @@ export default function ComplianceCheckerPage() {
   const skipFile = () => {
     // Lets people without a schedule on hand still book an expert consult.
     if (fileInputRef.current) fileInputRef.current.value = ""
-    setSource("Expert consult — no schedule")
+    setSource("Expert consult (no schedule)")
     setErrorMsg(null)
     setStage("capture")
   }
@@ -104,7 +104,7 @@ export default function ComplianceCheckerPage() {
       console.error("EmailJS error:", err)
       const e = err as { text?: string; status?: number; message?: string }
       const status = e?.status ? ` (HTTP ${e.status})` : ""
-      const detail = e?.text || e?.message || "Unknown error — check the browser console."
+      const detail = e?.text || e?.message || "Unknown error. Check the browser console."
       setErrorMsg(`Couldn't send${status}: ${detail}`)
     } finally {
       setIsSubmitting(false)
@@ -117,18 +117,18 @@ export default function ComplianceCheckerPage() {
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-start">
           {/* Left: messaging */}
           <div className="text-white">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl hero-text mb-6">
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl hero-text mb-5 leading-tight">
               <span className="hero-text-bold hero-glow">ACGME Duty Hour </span>
               <span className="hero-text-bold text-yellow-400">Compliance Checker</span>
             </h1>
 
-            <p className="text-base sm:text-lg text-white/80 max-w-xl leading-relaxed mb-8">
+            <p className="text-base sm:text-lg text-white/80 max-w-xl leading-relaxed mb-6">
               Drop in your schedule. We&apos;ll check every shift against the
-              2026 ACGME duty-hour rules — including the home-call changes most
+              2026 ACGME duty-hour rules, including the home-call changes most
               programs haven&apos;t updated for.
             </p>
 
-            <div className="mb-12 flex gap-3 rounded-xl border border-yellow-400/30 bg-yellow-400/5 p-4 sm:p-5">
+            <div className="mb-8 flex gap-3 rounded-xl border border-yellow-400/30 bg-yellow-400/5 p-4">
               <AlertTriangle className="w-5 h-5 flex-shrink-0 text-yellow-400 mt-0.5" />
               <p className="text-sm text-white/80 leading-relaxed">
                 <span className="font-semibold text-white">
@@ -139,31 +139,31 @@ export default function ComplianceCheckerPage() {
               </p>
             </div>
 
-            <div className="mb-8">
+            <div className="mb-5">
               <span className="text-white/60 text-xs font-medium uppercase tracking-[0.2em]">
                 How it works
               </span>
             </div>
 
-            <div className="space-y-7">
+            <div className="space-y-5">
               {[
                 {
                   n: "01",
                   title: "Drop your schedule.",
                   body:
-                    "Block, call, or clinic — any common format works. No file? Talk to an expert instead.",
+                    "Block, call, or clinic. Any common format works. No file? Talk to an expert instead.",
                 },
                 {
                   n: "02",
                   title: "We flag the violations.",
                   body:
-                    "Every shift checked against your specialty's ACGME rules — 80-hour, missed days off, short rest, call, home call. We flag the exact dates and residents at risk.",
+                    "Every shift checked against your specialty's ACGME rules: 80-hour, missed days off, short rest, call, and home call. We flag the exact dates and residents at risk.",
                 },
                 {
                   n: "03",
                   title: "An expert gets back to you.",
                   body:
-                    "A scheduling expert follows up within one business day with the violations, the residents at risk, and the fix. Or we rebuild it as Excel — ready for Amion, QGenda, or wherever you publish.",
+                    "A scheduling expert follows up within one business day with the violations, the residents at risk, and the fix. Or we rebuild it as Excel, ready for Amion, QGenda, or wherever you publish.",
                 },
               ].map((step) => (
                 <div key={step.n} className="flex gap-5">
@@ -223,7 +223,7 @@ export default function ComplianceCheckerPage() {
                   <input
                     type="hidden"
                     name="subject"
-                    value={`ACGME Compliance Check — ${source || "schedule"}`}
+                    value={`ACGME Compliance Check: ${source || "schedule"}`}
                   />
 
                   {/* File input persists across stages so EmailJS can attach it on submit.
@@ -260,7 +260,7 @@ export default function ComplianceCheckerPage() {
                           Drop your schedule here
                         </span>
                         <span className="text-white/40 text-sm">
-                          .ics, .csv, Excel, PDF, Word, or screenshot — or click to browse
+                          .ics, .csv, Excel, PDF, Word, or screenshot. Click to browse.
                         </span>
                         <span className="inline-flex items-center rounded-full border border-white/10 bg-white/5 px-2.5 py-0.5 text-[10px] font-medium uppercase tracking-wider text-white/60">
                           {MAX_FILE_LABEL}
@@ -272,7 +272,7 @@ export default function ComplianceCheckerPage() {
                       )}
 
                       <p className="text-center text-xs text-white/40">
-                        Our team personally reviews every submission — no
+                        Our team personally reviews every submission. No
                         automated reports.
                       </p>
 

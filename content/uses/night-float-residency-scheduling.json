@@ -1,0 +1,156 @@
+{
+  "keyword": "night float residency scheduling",
+  "slug": "night-float-residency-scheduling",
+  "anchor": "Night Float Residency Scheduling",
+  "title": "Night Float Residency Scheduling | End Burnout | Scheduling Wizard",
+  "description": "Night float residency scheduling is complex. Our managed service creates optimized, ACGME-compliant schedules that integrate resident requests to prevent burnout.",
+  "h1": "End Burnout with Optimized Night Float Residency Scheduling",
+  "paragraph": "Prevent burnout with a managed service. Send us your constraints and resident requests. Scheduling Wizard delivers your ACGME-compliant night float schedule.",
+  "category": "specialty",
+  "data": {
+    "cta": {
+      "title": "Get Your Night Float Schedule Done Right",
+      "buttonText": "Book a Free Scheduling Consult",
+      "description": "Join 18 departments across 13 hospitals who already outsource scheduling to Scheduling Wizard."
+    },
+    "faq": [
+      {
+        "answer": "Night float residency scheduling is the process of assigning residents to overnight coverage blocks, typically in a rotating structure designed to replace traditional overnight call. It is complex because night float blocks must satisfy ACGME duty hour limits, subspecialty-specific rest requirements, handoff protocols, and fair distribution rules — all simultaneously. When done manually, even small changes can cascade into compliance violations or coverage gaps that are difficult to detect.",
+        "question": "What is night float residency scheduling and why is it complex?"
+      },
+      {
+        "answer": "ACGME compliance is enforced mathematically at the time the schedule is generated. The optimization engine has subspecialty-specific ACGME rules built in — including duty hour limits, minimum rest periods between shifts, and handoff requirements specific to night float structures. Violations are prevented during schedule creation rather than caught after the fact through a manual audit.",
+        "question": "How does Scheduling Wizard ensure ACGME compliance for night float schedules?"
+      },
+      {
+        "answer": "Programs submit their constraints — rotation requirements, night float block structure, resident preferences, and any program-specific rules — and Scheduling Wizard returns a finished, ready-to-publish schedule as an Excel file. There is no software platform to log into or learn. The finished schedule can be uploaded directly to your existing viewing tool, such as Amion or QGenda, for day-to-day access.",
+        "question": "How does the managed service model work for night float scheduling?"
+      },
+      {
+        "answer": "Yes. Resident vacation requests, conference dates, elective preferences, and other personal constraints are submitted upfront and treated as first-class inputs by the optimization engine. They are factored directly into the night float schedule during generation, not manually adjusted after an initial draft is produced.",
+        "question": "Can Scheduling Wizard integrate resident vacation and preference requests into night float schedules?"
+      },
+      {
+        "answer": "With Scheduling Wizard, scheduling knowledge does not leave when chiefs rotate. Your program's constraints, night float rules, and scheduling logic are retained by Scheduling Wizard year over year. Incoming chief residents inherit a fully configured, working system rather than rebuilding the night float schedule from scratch, which is one of the most common sources of scheduling errors and burnout in GME programs.",
+        "question": "What happens to night float scheduling knowledge when chief residents rotate out?"
+      },
+      {
+        "answer": "Yes. Schedule revision handling is built into the service. If a resident goes on leave, swaps are needed, or new constraints arise mid-year, Scheduling Wizard can regenerate the affected portions of the night float schedule without disrupting the rest of the year's assignments.",
+        "question": "Does Scheduling Wizard handle mid-year changes to night float schedules?"
+      }
+    ],
+    "hero": {
+      "title": "Night Float Residency Scheduling Done For You",
+      "description": "Submit your constraints and receive ACGME-compliant night float schedules as ready-to-use Excel files. No software to learn."
+    },
+    "features": {
+      "items": [
+        {
+          "id": "acgme-compliance",
+          "title": "Night Float Compliance at Generation Time",
+          "eyebrow": "ACGME Compliance",
+          "highlights": [
+            "Violations prevented at generation",
+            "Subspecialty rules built in",
+            "2026 ACGME changes supported"
+          ],
+          "description": "ACGME duty hour rules for night float — including handoff requirements, minimum 8-hour rest periods between shifts (with 10 hours recommended), and the 80-hour weekly cap — are mathematically enforced when the schedule is built, not manually audited afterward."
+        },
+        {
+          "id": "managed-service",
+          "title": "Done For You Night Float Schedules",
+          "eyebrow": "Managed Service",
+          "highlights": [
+            "No software to learn",
+            "Excel files ready to publish",
+            "Expert schedulers handle optimization"
+          ],
+          "description": "Scheduling Wizard operates as a done-for-you service. Submit your constraints and night float rotation requirements and receive a finished Excel schedule ready to publish or upload to your existing viewing tool like Amion or QGenda."
+        },
+        {
+          "id": "fairness-optimization",
+          "title": "Equitable Night Float Burden Distribution",
+          "eyebrow": "Fairness Optimization",
+          "highlights": [
+            "Night float balanced automatically",
+            "Holiday shifts distributed fairly",
+            "No manual fairness audits needed"
+          ],
+          "description": "Night float shifts, weekends, and holiday coverage are algorithmically distributed across your resident pool so no individual carries a disproportionate burden — eliminating the fairness disputes that erode program culture."
+        },
+        {
+          "id": "resident-preferences",
+          "title": "Preferences Factored Into Night Float",
+          "eyebrow": "Resident Preferences",
+          "highlights": [
+            "Vacation requests honored",
+            "Conference dates accounted for",
+            "Constraints captured upfront"
+          ],
+          "description": "Vacation requests, conference dates, and personal constraints submitted by residents are treated as first-class inputs by the optimization engine — integrated directly into the night float schedule, not patched in manually."
+        },
+        {
+          "id": "institutional-continuity",
+          "title": "Night Float Knowledge Persists Year Over Year",
+          "eyebrow": "Institutional Continuity",
+          "highlights": [
+            "No knowledge lost at transition",
+            "New chiefs start with a system",
+            "Constraints carry forward annually"
+          ],
+          "description": "Your program's night float constraints, rules, and scheduling logic are retained by Scheduling Wizard across annual chief rotations. Incoming chiefs inherit a working system instead of rebuilding from a blank spreadsheet."
+        }
+      ],
+      "title": "Built for Night Float Residency Scheduling",
+      "description": "Every feature is designed to take the complexity of night float scheduling off your plate and put it in the hands of an expert system."
+    },
+    "problems": {
+      "items": [
+        {
+          "title": "ACGME Compliance Is Unforgiving",
+          "description": "Night float blocks carry strict duty hour rules around handoffs, rest requirements, and weekly hour caps that are easy to violate when scheduling manually."
+        },
+        {
+          "title": "Fairness Disputes Drain Morale",
+          "description": "Residents closely track who absorbs more night float burden. Inequitable distribution leads to burnout and grievances that fall on chief residents to resolve."
+        },
+        {
+          "title": "Chiefs Rebuild From Scratch Annually",
+          "description": "When chief residents rotate out, night float scheduling knowledge leaves with them, forcing the incoming chief to start over every year."
+        }
+      ],
+      "title": "Night Float Scheduling Is Uniquely Hard",
+      "description": "Night float rotations create compliance and fairness challenges that manual scheduling consistently fails to solve."
+    },
+    "solution": {
+      "title": "A Managed Service Built for Night Float",
+      "description": "Submit your program constraints, resident preferences, and night float rotation requirements. Scheduling Wizard's optimization engine returns a finished, ACGME-compliant night float schedule delivered as an Excel file. No software to learn, no annual retraining when chiefs rotate."
+    },
+    "metaTitle": "Night Float Residency Scheduling | End Burnout | Scheduling Wizard",
+    "metaDescription": "Night float residency scheduling is complex. Our managed service creates optimized, ACGME-compliant schedules that integrate resident requests to prevent burnout."
+  },
+  "searchIntent": {
+    "keyword": "night float residency scheduling",
+    "searchIntents": [
+      "As a chief resident, I'm struggling to create a night float schedule that complies with ACGME duty hour regulations while accommodating resident preferences — I need a way to optimize this without spending countless hours on manual adjustments.",
+      "I manage a residency program and need an efficient solution to schedule night float shifts that ensures fair distribution among residents and meets specialty-specific requirements. Standard scheduling tools don’t accommodate our unique needs well.",
+      "As a program coordinator, I need to generate a night float schedule that minimizes conflicts while ensuring resident well-being and compliance with accreditation standards — I don’t have time to learn complex software to get this right.",
+      "As a residency program director, I'm looking for a managed service that can create an ACGME-compliant night float schedule that also considers individual resident requests for time off, since our current method is leading to burnout among participants."
+    ]
+  },
+  "seoMetadata": {
+    "h1": "End Burnout with Optimized Night Float Residency Scheduling",
+    "metaTitle": "Night Float Residency Scheduling | End Burnout | Scheduling Wizard",
+    "h1Paragraph": "Prevent burnout with a managed service. Send us your constraints and resident requests. Scheduling Wizard delivers your ACGME-compliant night float schedule.",
+    "metaDescription": "Night float residency scheduling is complex. Our managed service creates optimized, ACGME-compliant schedules that integrate resident requests to prevent burnout."
+  },
+  "finalMetadata": {
+    "slug": "night-float-scheduling",
+    "anchor": "Night Float Residency Scheduling",
+    "category": "specialty",
+    "generatedAt": "2026-07-01T07:25:35.090Z"
+  },
+  "id": "cmr1r2n1h0004jy04ik9k0q09",
+  "createdAt": "2026-07-01T07:24:32.166Z",
+  "updatedAt": "2026-07-01T11:27:56.161Z"
+}

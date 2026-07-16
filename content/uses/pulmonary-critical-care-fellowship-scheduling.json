@@ -1,0 +1,156 @@
+{
+  "keyword": "pulmonary critical care fellowship scheduling",
+  "slug": "pulmonary-critical-care-fellowship-scheduling",
+  "anchor": "Pulmonary Critical Care Fellowship Scheduling",
+  "title": "Pulmonary Critical Care Scheduling | Solved | Scheduling Wizard",
+  "description": "Pulmonary critical care fellowship scheduling is complex. Our managed service builds your ACGME-compliant schedule for you, handling all constraints. Get a finished Excel schedule.",
+  "h1": "Pulmonary Critical Care Fellowship Scheduling, Simplified",
+  "paragraph": "Stop wrestling with software. Submit your Pulm/CC Fellowship scheduling rules to Scheduling Wizard. We deliver a finished, ACGME-compliant schedule.",
+  "category": "specialty",
+  "data": {
+    "cta": {
+      "title": "Get Your Pulm/CC Fellowship Schedule Done",
+      "buttonText": "Book a Free Scheduling Consult",
+      "description": "Join 18 departments across 13 hospitals who already outsource their scheduling to Scheduling Wizard."
+    },
+    "faq": [
+      {
+        "answer": "Yes. ACGME compliance is mathematically enforced at schedule generation time, not manually checked after the fact. Scheduling Wizard's optimization engine has subspecialty-specific ACGME rules built in for pulmonary critical care fellowships. This means duty hour limits, rest requirements, and Pulm/CC-specific mandates are enforced as hard constraints during schedule creation — violations cannot appear in the finished schedule.",
+        "question": "Is Scheduling Wizard ACGME compliant for pulmonary critical care fellowships?"
+      },
+      {
+        "answer": "Programs submit their scheduling constraints — rotation requirements, ACGME rules, ICU call obligations, continuity clinic assignments, fellow preferences, and attending coverage needs. Scheduling Wizard's proprietary optimization engine processes all of these simultaneously and delivers a finished, ACGME-compliant schedule as a ready-to-use Excel file. There is no software for your chief fellow to learn or operate.",
+        "question": "How does Scheduling Wizard handle pulmonary critical care fellowship scheduling?"
+      },
+      {
+        "answer": "Scheduling Wizard produces complete Block/Rotation schedules, Call schedules, Clinic schedules, and Attending schedules. For pulmonary critical care fellowships, these are optimized simultaneously so that ICU call, continuity clinic obligations, and rotation assignments do not conflict with one another.",
+        "question": "What types of schedules does Scheduling Wizard produce for fellowship programs?"
+      },
+      {
+        "answer": "Your program's scheduling rules, constraints, and configurations remain with Scheduling Wizard across annual chief fellow transitions. The incoming chief fellow inherits a fully working, optimized scheduling system instead of rebuilding from a blank spreadsheet. This institutional continuity is one of the core reasons fellowship programs choose Scheduling Wizard.",
+        "question": "What happens to our scheduling setup when the chief fellow changes each year?"
+      },
+      {
+        "answer": "Yes. Many Scheduling Wizard clients use Amion or QGenda for day-to-day schedule viewing and display. Scheduling Wizard handles the schedule creation and optimization, delivering the finished schedule as an Excel file that your team can upload directly to your existing viewing tool. The two services serve complementary roles.",
+        "question": "Can we still use Amion or QGenda alongside Scheduling Wizard?"
+      },
+      {
+        "answer": "Scheduling Wizard works with chief fellows, program directors, program coordinators, and GME offices. For pulmonary critical care programs, the primary contacts are typically the chief fellow responsible for building the schedule and the program director or coordinator who oversees ACGME compliance and training requirements.",
+        "question": "Who typically works with Scheduling Wizard in a fellowship program?"
+      }
+    ],
+    "hero": {
+      "title": "Pulmonary Critical Care Fellowship Scheduling Done For You",
+      "description": "Submit your Pulm/CC fellowship constraints and receive a finished, ACGME-compliant schedule as a ready-to-use Excel file. No software to learn."
+    },
+    "features": {
+      "items": [
+        {
+          "id": "acgme-compliance",
+          "title": "Pulm/CC Subspecialty Rules Enforced",
+          "eyebrow": "ACGME Compliance",
+          "highlights": [
+            "Subspecialty rules built in",
+            "Violations prevented at generation",
+            "Duty hours mathematically enforced"
+          ],
+          "description": "Scheduling Wizard's optimization engine has subspecialty-specific ACGME rules built in for pulmonary critical care fellowships. Compliance is mathematically enforced at schedule generation time — violations are prevented, not discovered after the schedule is published."
+        },
+        {
+          "id": "managed-service",
+          "title": "No Software for Fellows to Learn",
+          "eyebrow": "Managed Service",
+          "highlights": [
+            "Submit constraints, receive schedule",
+            "Delivered as Excel files",
+            "No software onboarding required"
+          ],
+          "description": "Pulm/CC chief fellows submit their program's constraints and receive a finished Excel schedule back. There is no platform to onboard, no tool to train on, and no annual relearning when fellowship leadership changes."
+        },
+        {
+          "id": "institutional-continuity",
+          "title": "Scheduling Knowledge Persists Year Over Year",
+          "eyebrow": "Program Continuity",
+          "highlights": [
+            "Rules retained year over year",
+            "New chiefs inherit working system",
+            "No annual rebuild required"
+          ],
+          "description": "Your fellowship's rules, rotation requirements, and constraint configurations stay with Scheduling Wizard across annual chief transitions. New chief fellows inherit a working, optimized system instead of a blank spreadsheet."
+        },
+        {
+          "id": "cross-schedule-resolution",
+          "title": "ICU Call and Clinic Resolved Together",
+          "eyebrow": "Schedule Coordination",
+          "highlights": [
+            "Block and call optimized together",
+            "Clinic conflicts auto-resolved",
+            "Attending coverage aligned"
+          ],
+          "description": "Block rotations, ICU call, continuity clinic half-days, and attending coverage are optimized simultaneously for your Pulm/CC program — a change in one schedule automatically propagates across the others, eliminating manual conflict patching."
+        },
+        {
+          "id": "resident-preferences",
+          "title": "Vacation and Conference Requests Integrated",
+          "eyebrow": "Fellow Preferences",
+          "highlights": [
+            "Vacation requests built in",
+            "Conference dates accommodated",
+            "Elective preferences respected"
+          ],
+          "description": "Vacation requests, conference attendance, elective preferences, and personal constraints for your Pulm/CC fellows are treated as first-class inputs to the optimization engine — not manual patches applied after the schedule is built."
+        }
+      ],
+      "title": "Built for Pulmonary Critical Care Fellowship Programs",
+      "description": "Every component of your Pulm/CC fellowship schedule handled simultaneously, with subspecialty-specific ACGME rules enforced at generation time."
+    },
+    "problems": {
+      "items": [
+        {
+          "title": "Subspecialty Rules Missed",
+          "description": "Pulm/CC programs have subspecialty-specific ACGME requirements that generic scheduling tools and manual spreadsheets routinely overlook, putting accreditation at risk."
+        },
+        {
+          "title": "Knowledge Lost Every Year",
+          "description": "When the chief fellow rotates out, all institutional scheduling knowledge walks out with them, forcing the next chief to rebuild from scratch every year."
+        },
+        {
+          "title": "ICU and Clinic Conflicts",
+          "description": "Balancing ICU coverage, continuity clinic obligations, and call across a small Pulm/CC cohort creates conflicts that cascade through the entire schedule."
+        }
+      ],
+      "title": "Pulm/CC Scheduling Is Uniquely Complex",
+      "description": "Pulmonary critical care fellowships carry scheduling demands that overwhelm any manual process."
+    },
+    "solution": {
+      "title": "Your Pulm/CC Schedule Built by Experts",
+      "description": "Scheduling Wizard is a done-for-you managed service. Submit your fellowship's constraints — ACGME rules, ICU rotations, clinic obligations, call fairness targets, and resident preferences — and receive a finished, compliant schedule as a ready-to-use Excel file. No software to learn, no annual retraining when fellows rotate."
+    },
+    "metaTitle": "Pulmonary Critical Care Scheduling | Solved | Scheduling Wizard",
+    "metaDescription": "Pulmonary critical care fellowship scheduling is complex. Our managed service builds your ACGME-compliant schedule for you, handling all constraints. Get a finished Excel schedule."
+  },
+  "searchIntent": {
+    "keyword": "pulmonary critical care fellowship scheduling",
+    "searchIntents": [
+      "As a chief resident in pulmonary critical care, I need an ACGME-compliant schedule that accommodates our unique training requirements without overwhelming me with software to learn.",
+      "I'm a program coordinator for a fellowship in pulmonary critical care and I'm looking for a managed service that can create a fair and efficient schedule, ensuring compliance with ACGME duty hour regulations.",
+      "I'm a fellowship program director who needs assistance with scheduling for multiple residents, and I want a solution that not only saves time but also ensures that all training and clinic requirements are met without conflicts.",
+      "As a chief fellow, I'm concerned about maintaining institutional continuity across rotations and ensuring that everyone’s preferences for vacation and electives are integrated into the scheduling process."
+    ]
+  },
+  "seoMetadata": {
+    "h1": "Pulmonary Critical Care Fellowship Scheduling, Simplified",
+    "metaTitle": "Pulmonary Critical Care Scheduling | Solved | Scheduling Wizard",
+    "h1Paragraph": "Stop wrestling with software. Submit your Pulm/CC Fellowship scheduling rules to Scheduling Wizard. We deliver a finished, ACGME-compliant schedule.",
+    "metaDescription": "Pulmonary critical care fellowship scheduling is complex. Our managed service builds your ACGME-compliant schedule for you, handling all constraints. Get a finished Excel schedule."
+  },
+  "finalMetadata": {
+    "slug": "pulmonary-critical-care-fellowship-scheduling",
+    "anchor": "Pulmonary Critical Care Fellowship Scheduling",
+    "category": "specialty",
+    "generatedAt": "2026-07-01T07:29:07.953Z"
+  },
+  "id": "cmr1r2o1w000mjy04ky7dwj3b",
+  "createdAt": "2026-07-01T07:24:33.476Z",
+  "updatedAt": "2026-07-01T07:29:07.955Z"
+}

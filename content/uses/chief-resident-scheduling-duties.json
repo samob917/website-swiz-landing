@@ -1,0 +1,156 @@
+{
+  "keyword": "chief resident duties scheduling",
+  "slug": "chief-resident-scheduling-duties",
+  "anchor": "Chief Resident Duties Scheduling",
+  "title": "Chief Resident Duties Scheduling | Reduce Workload | Scheduling Wizard",
+  "description": "Chief resident duties scheduling can be overwhelming. Get ACGME-compliant Block, Call, and Clinic schedules delivered to you without learning complex software.",
+  "h1": "Simplify Chief Resident Scheduling Duties",
+  "paragraph": "Stop losing nights to spreadsheets. Scheduling Wizard takes your program's rules and delivers a complete, ACGME-compliant schedule. No complex software to learn.",
+  "category": "role",
+  "data": {
+    "cta": {
+      "title": "Stop Losing Nights to Scheduling Duties",
+      "buttonText": "Book a Free Scheduling Consult",
+      "description": "Join 18 departments across 13 hospitals who already outsource their scheduling to Scheduling Wizard."
+    },
+    "faq": [
+      {
+        "answer": "Chief resident scheduling duties typically include building and publishing Block rotation schedules, Call schedules, and Clinic schedules for all residents in the program while ensuring ACGME duty hour compliance. Chiefs are also responsible for integrating resident preferences, handling mid-year changes, and resolving conflicts between schedule types. This operational burden often consumes hundreds of hours per academic year on top of clinical responsibilities.",
+        "question": "What exactly are chief resident duties in residency scheduling?"
+      },
+      {
+        "answer": "Scheduling Wizard operates as a done-for-you managed service. Chief residents submit their program's constraints and rules, and Scheduling Wizard's optimization engine produces finished, ACGME-compliant schedules delivered as Excel spreadsheets. There is no scheduling software to learn or operate. The chief's role shifts from building schedules manually to reviewing and publishing a finished product.",
+        "question": "How does Scheduling Wizard reduce chief resident scheduling workload?"
+      },
+      {
+        "answer": "Yes. ACGME compliance is mathematically enforced at the time of schedule generation, not checked manually after the fact. The engine has subspecialty-specific ACGME rules built in, including the 80-hour weekly limit, minimum rest requirements, and the 24-hour hard cap. This is the most common question buyers ask, and it is a core part of how every schedule is built.",
+        "question": "Is Scheduling Wizard compliant with ACGME duty hour requirements?"
+      },
+      {
+        "answer": "Scheduling Wizard produces Block rotation schedules, Call schedules, Clinic schedules, and Attending schedules. These are generated simultaneously so that constraints across all schedule types are resolved together. The finished schedules are delivered as Excel files that programs can upload to their existing viewing tools such as Amion or QGenda.",
+        "question": "What schedule types does Scheduling Wizard produce for residency programs?"
+      },
+      {
+        "answer": "With manual scheduling, institutional knowledge typically leaves with the outgoing chief, and the incoming chief starts over from a blank spreadsheet. Scheduling Wizard retains all program rules, constraint configurations, and scheduling logic year over year. Incoming chiefs inherit a working, optimized system and do not need to rebuild the scheduling foundation from scratch.",
+        "question": "What happens to scheduling knowledge when a chief resident rotates out?"
+      },
+      {
+        "answer": "When unexpected changes occur, such as sick leave, parental leave, or constraint updates, Scheduling Wizard processes the revision and regenerates the affected portions of the schedule without disrupting the entire published schedule. Programs submit the updated constraints and receive a revised schedule back as an Excel file, following the same done-for-you process as the original build.",
+        "question": "How does Scheduling Wizard handle mid-year scheduling changes?"
+      }
+    ],
+    "hero": {
+      "title": "Chief Resident Scheduling Duties Done For You",
+      "description": "Submit your program constraints and receive finished, ACGME-compliant Block, Call, and Clinic schedules as ready-to-use Excel files. No software to learn."
+    },
+    "features": {
+      "items": [
+        {
+          "id": "managed-service",
+          "title": "No Software for Chiefs to Learn",
+          "eyebrow": "Managed Service",
+          "highlights": [
+            "Submit constraints, get schedules",
+            "Excel files ready to publish",
+            "No software onboarding required"
+          ],
+          "description": "Chief residents submit their program constraints and receive finished schedules as Excel files. There is no platform to onboard, no scheduling software to master, and no time lost to tool configuration."
+        },
+        {
+          "id": "acgme-compliance",
+          "title": "Compliance Built Into Every Schedule",
+          "eyebrow": "ACGME Compliance",
+          "highlights": [
+            "Subspecialty rules built in",
+            "Violations prevented at generation",
+            "80-hour and rest rules enforced"
+          ],
+          "description": "ACGME duty hour rules are mathematically enforced at generation time across all schedule types. Subspecialty-specific rules are built into the engine so violations are prevented before the schedule is ever published."
+        },
+        {
+          "id": "institutional-continuity",
+          "title": "Scheduling Knowledge Persists Year Over Year",
+          "eyebrow": "Chief Transitions",
+          "highlights": [
+            "Rules carry over annually",
+            "No restart for new chiefs",
+            "Program knowledge never lost"
+          ],
+          "description": "Program rules and constraint configurations stay with Scheduling Wizard across annual chief rotations. Incoming chiefs inherit a working, optimized system instead of rebuilding from scratch every July."
+        },
+        {
+          "id": "call-scheduling",
+          "title": "Fair Call Distribution Across Residents",
+          "eyebrow": "Call Scheduling",
+          "highlights": [
+            "Weekend call balanced automatically",
+            "Holiday shifts distributed fairly",
+            "Post-call rest rules enforced"
+          ],
+          "description": "The optimization engine produces ACGME-compliant call schedules that distribute call, weekend, and holiday burden equitably across all residents, eliminating the fairness disputes that follow manual assignment."
+        },
+        {
+          "id": "resident-preferences",
+          "title": "Preferences Factored In From the Start",
+          "eyebrow": "Resident Preferences",
+          "highlights": [
+            "Vacation requests incorporated",
+            "Conference dates accounted for",
+            "Elective preferences respected"
+          ],
+          "description": "Vacation requests, elective preferences, conference dates, and personal constraints are treated as first-class inputs in the optimization, not manual patches added after the schedule is built."
+        }
+      ],
+      "title": "Built for Chief Resident Scheduling Duties",
+      "description": "Every feature is designed to eliminate the manual burden that falls on chief residents each scheduling cycle."
+    },
+    "problems": {
+      "items": [
+        {
+          "title": "Nights Lost to Spreadsheets",
+          "description": "Building Block, Call, and Clinic schedules manually consumes the nights and weekends of every incoming chief resident, year after year."
+        },
+        {
+          "title": "Compliance Is Never Certain",
+          "description": "Manually checking every resident against ACGME duty hour rules across rotation types leaves room for violations that put accreditation at risk."
+        },
+        {
+          "title": "Knowledge Resets Every Year",
+          "description": "When chiefs rotate out, institutional scheduling knowledge walks out with them. Each new chief starts over from a blank spreadsheet."
+        }
+      ],
+      "title": "Scheduling Is Consuming Your Residency",
+      "description": "Chief resident duties scheduling takes hundreds of hours that should be spent on patient care and teaching."
+    },
+    "solution": {
+      "title": "Your Scheduling Duties Handled by Experts",
+      "description": "Scheduling Wizard is a done-for-you managed service. Submit your program's constraints and receive finished, ACGME-compliant schedules as ready-to-use Excel files. No software to learn, no annual retraining when chiefs rotate, and no compliance guesswork."
+    },
+    "metaTitle": "Chief Resident Duties Scheduling | Reduce Workload | Scheduling Wizard",
+    "metaDescription": "Chief resident duties scheduling can be overwhelming. Get ACGME-compliant Block, Call, and Clinic schedules delivered to you without learning complex software."
+  },
+  "searchIntent": {
+    "keyword": "chief resident duties scheduling",
+    "searchIntents": [
+      "As a chief resident, I'm overwhelmed with the scheduling responsibilities and need a reliable solution that ensures compliance with ACGME rules while minimizing my workload.",
+      "I'm looking for a way to create a fair and optimized call schedule for my residency program without having to learn complicated scheduling software that takes too much time.",
+      "As a program coordinator, I need to ensure that our chief residents can effectively manage their duties while maintaining compliance and continuity across rotations, but I struggle with the various scheduling constraints involved.",
+      "I want to reduce conflicts and ensure proper coverage in our residency schedules, but I can't find a solution that understands the specific needs of our program and doesn’t leave gaps or result in overstaffing."
+    ]
+  },
+  "seoMetadata": {
+    "h1": "Simplify Chief Resident Scheduling Duties",
+    "metaTitle": "Chief Resident Duties Scheduling | Reduce Workload | Scheduling Wizard",
+    "h1Paragraph": "Stop losing nights to spreadsheets. Scheduling Wizard takes your program's rules and delivers a complete, ACGME-compliant schedule. No complex software to learn.",
+    "metaDescription": "Chief resident duties scheduling can be overwhelming. Get ACGME-compliant Block, Call, and Clinic schedules delivered to you without learning complex software."
+  },
+  "finalMetadata": {
+    "slug": "scheduling-duties",
+    "anchor": "Chief Resident Duties Scheduling",
+    "category": "role",
+    "generatedAt": "2026-07-01T07:28:56.545Z"
+  },
+  "id": "cmr1r2nv9000jjy04kq1pcanw",
+  "createdAt": "2026-07-01T07:24:33.237Z",
+  "updatedAt": "2026-07-01T11:27:55.968Z"
+}

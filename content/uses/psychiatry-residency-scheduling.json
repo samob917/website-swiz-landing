@@ -1,0 +1,156 @@
+{
+  "keyword": "psychiatry residency scheduling",
+  "slug": "psychiatry-residency-scheduling",
+  "anchor": "Psychiatry Residency Scheduling",
+  "title": "Psychiatry Residency Scheduling | Done-For-You | Scheduling Wizard",
+  "description": "Psychiatry residency scheduling doesn't have to be your burden. We deliver a finished, ACGME-compliant schedule that handles subspecialty rules and preferences.",
+  "h1": "Done-For-You Psychiatry Residency Scheduling",
+  "paragraph": "Stop losing nights to spreadsheets. Scheduling Wizard handles complex psychiatry residency scheduling for you. Just send us your rules and preferences.",
+  "category": "specialty",
+  "data": {
+    "cta": {
+      "title": "Get Your Psychiatry Schedule Done Right",
+      "buttonText": "Book a Free Scheduling Consult",
+      "description": "Join programs across 18 departments and 13 hospitals who already outsource scheduling to Scheduling Wizard."
+    },
+    "faq": [
+      {
+        "answer": "Yes. ACGME compliance is built into Scheduling Wizard's optimization engine at the subspecialty level. For psychiatry programs, this means the engine applies psychiatry-specific duty hour rules and rotation requirements during schedule generation — violations are prevented mathematically, not caught manually after the schedule is already built. ACGME compliance is the number-one question asked on every sales call, and it is treated as a non-negotiable constraint, not an optional check.",
+        "question": "Is Scheduling Wizard compliant with ACGME rules for psychiatry residency programs?"
+      },
+      {
+        "answer": "Scheduling Wizard encodes your psychiatry program's specific rotation requirements, including any subspecialty mandates, as hard constraints in the optimization engine. When you submit your program's rules, those requirements are modeled directly so that every generated schedule reflects the correct rotation mix for each PGY level. This eliminates the need for chiefs to manually cross-reference ACGME requirements while building schedules.",
+        "question": "How does Scheduling Wizard handle psychiatry subspecialty rotation requirements?"
+      },
+      {
+        "answer": "Scheduling Wizard delivers finished schedules as ready-to-use Excel spreadsheets. There is no client-facing platform or dashboard. Once you receive the Excel file, you can upload it directly to your existing schedule-viewing tool such as Amion or QGenda for day-to-day access. The entire creation and optimization process is handled by Scheduling Wizard.",
+        "question": "What does Scheduling Wizard actually deliver to a psychiatry program?"
+      },
+      {
+        "answer": "No, and many Scheduling Wizard clients continue using Amion or QGenda alongside the service. Scheduling Wizard handles schedule creation and optimization, producing the finished schedule as an Excel file. Programs then upload that file to Amion or QGenda for day-to-day viewing and access. The two serve different purposes and are designed to work together.",
+        "question": "Does Scheduling Wizard replace the scheduling tools we already use like Amion or QGenda?"
+      },
+      {
+        "answer": "Programs begin by submitting their scheduling constraints — rotation requirements, ACGME rules, resident preferences, call fairness targets, and any program-specific rules. Scheduling Wizard's team and optimization engine then produce a finished, compliant schedule and deliver it as an Excel file. No software installation, no onboarding training, and no scheduling expertise is required from your program.",
+        "question": "How does a psychiatry program get started with Scheduling Wizard?"
+      },
+      {
+        "answer": "Scheduling Wizard handles mid-year revisions by re-optimizing the affected portions of the schedule without disrupting the entire year. If a psychiatry resident goes on leave, a rotation requirement changes, or an unexpected absence occurs, the engine generates updated coverage options. Programs submit the change and receive a revised schedule, rather than manually reshuffling assignments across all resident tracks.",
+        "question": "How does Scheduling Wizard handle mid-year schedule changes for psychiatry residents?"
+      }
+    ],
+    "hero": {
+      "title": "Psychiatry Residency Scheduling Done For You",
+      "description": "Get finished, ACGME-compliant psychiatry residency schedules delivered as Excel files. No software to learn, no spreadsheet marathons."
+    },
+    "features": {
+      "items": [
+        {
+          "id": "acgme-compliance",
+          "title": "Psychiatry Compliance Built In",
+          "eyebrow": "ACGME Compliance",
+          "highlights": [
+            "Subspecialty rules enforced automatically",
+            "Violations prevented at generation",
+            "80-hour weekly limits upheld"
+          ],
+          "description": "Scheduling Wizard's optimization engine has psychiatry-specific ACGME duty hour rules built in. Compliance is enforced mathematically at schedule generation time, not manually reviewed after the fact."
+        },
+        {
+          "id": "managed-service",
+          "title": "Done For You Schedule Delivery",
+          "eyebrow": "Managed Service",
+          "highlights": [
+            "No software to learn",
+            "Finished Excel files delivered",
+            "Expert schedulers handle optimization"
+          ],
+          "description": "Psychiatry chief residents submit constraints and receive a finished schedule as an Excel file. There is no software to install, no platform to learn, and no scheduling expertise required on your end."
+        },
+        {
+          "id": "institutional-continuity",
+          "title": "Knowledge Survives Chief Rotations",
+          "eyebrow": "Program Continuity",
+          "highlights": [
+            "Rules persist across chief rotations",
+            "No annual retraining required",
+            "New chiefs start with a working system"
+          ],
+          "description": "Your psychiatry program's scheduling rules, rotation requirements, and constraint configurations stay with Scheduling Wizard year over year. Incoming chiefs inherit a working system, not a blank spreadsheet."
+        },
+        {
+          "id": "resident-preferences",
+          "title": "Preferences Factored In From the Start",
+          "eyebrow": "Resident Preferences",
+          "highlights": [
+            "Vacation requests integrated automatically",
+            "Conference and elective dates respected",
+            "Moonlighting restrictions enforced"
+          ],
+          "description": "Vacation requests, elective preferences, conference dates, and moonlighting restrictions from your psychiatry residents are treated as first-class scheduling inputs, not manual patches added after the schedule is built."
+        },
+        {
+          "id": "call-scheduling",
+          "title": "Fair Call Distribution for Psychiatry",
+          "eyebrow": "Call Scheduling",
+          "highlights": [
+            "Weekend call balanced automatically",
+            "Holiday shifts distributed fairly",
+            "Post-call rest rules enforced"
+          ],
+          "description": "On-call schedules for psychiatry residents are generated with algorithmic fairness, distributing call, weekend, and holiday burden equitably while respecting ACGME duty hour limits and post-call rest requirements."
+        }
+      ],
+      "title": "Built for Psychiatry Residency Scheduling",
+      "description": "Every feature is designed to handle the constraints, compliance rules, and coordination demands specific to psychiatry programs."
+    },
+    "problems": {
+      "items": [
+        {
+          "title": "Subspecialty Rules Get Missed",
+          "description": "Psychiatry has distinct ACGME rotation and duty hour rules. Manual scheduling leaves room for compliance gaps that put your accreditation at risk."
+        },
+        {
+          "title": "Chiefs Rebuild From Scratch Annually",
+          "description": "Every year a new chief inherits a blank spreadsheet and the institutional scheduling knowledge walks out the door with the previous one."
+        },
+        {
+          "title": "Resident Preferences Create Constant Conflict",
+          "description": "Balancing vacation requests, elective choices, and call fairness across an entire psychiatry cohort manually is a recipe for disputes and burnout."
+        }
+      ],
+      "title": "Psychiatry Scheduling Is Uniquely Complex",
+      "description": "Psychiatry programs carry subspecialty-specific ACGME rules that generic scheduling tools simply cannot handle."
+    },
+    "solution": {
+      "title": "Scheduling Wizard Delivers Your Schedule For You",
+      "description": "Submit your psychiatry program's rotation requirements, subspecialty ACGME rules, and resident preferences. Scheduling Wizard's optimization engine produces finished, compliant Block, Call, Clinic, and Attending schedules delivered as ready-to-use Excel files. No software to learn. No knowledge lost when chiefs rotate."
+    },
+    "metaTitle": "Psychiatry Residency Scheduling | Done-For-You | Scheduling Wizard",
+    "metaDescription": "Psychiatry residency scheduling doesn't have to be your burden. We deliver a finished, ACGME-compliant schedule that handles subspecialty rules and preferences."
+  },
+  "searchIntent": {
+    "keyword": "psychiatry residency scheduling",
+    "searchIntents": [
+      "As a chief resident in a psychiatry program, I'm stressed about creating an ACGME-compliant schedule that accommodates all the residents' preferences and the specific requirements of our subspecialty. I need a solution that can handle these complexities without adding to my workload.",
+      "I'm a residency program director looking for a managed scheduling solution specifically for psychiatry that ensures compliance with ACGME rules. I want to avoid the headache of manually coordinating rotations and want to ensure fair distribution of call duties among residents.",
+      "As a program coordinator for a psychiatry residency, I find it challenging to coordinate shifts and make adjustments on the fly when emergencies arise. I need a scheduling service that can quickly respond to changes and optimize the schedule without requiring me to learn complicated software.",
+      "I'm looking for a reliable way to streamline the scheduling process for my psychiatry fellowship program, ensuring that our schedules meet both accreditation standards and our residents' needs. A generic scheduling software won't suffice because of the nuances of our subspecialty and compliance requirements."
+    ]
+  },
+  "seoMetadata": {
+    "h1": "Done-For-You Psychiatry Residency Scheduling",
+    "metaTitle": "Psychiatry Residency Scheduling | Done-For-You | Scheduling Wizard",
+    "h1Paragraph": "Stop losing nights to spreadsheets. Scheduling Wizard handles complex psychiatry residency scheduling for you. Just send us your rules and preferences.",
+    "metaDescription": "Psychiatry residency scheduling doesn't have to be your burden. We deliver a finished, ACGME-compliant schedule that handles subspecialty rules and preferences."
+  },
+  "finalMetadata": {
+    "slug": "psychiatry-scheduling",
+    "anchor": "Psychiatry Residency Scheduling",
+    "category": "specialty",
+    "generatedAt": "2026-07-01T07:31:10.213Z"
+  },
+  "id": "cmr1r2ojf000vjy04p3n4l5ay",
+  "createdAt": "2026-07-01T07:24:34.107Z",
+  "updatedAt": "2026-07-01T11:27:55.834Z"
+}

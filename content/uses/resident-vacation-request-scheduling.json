@@ -1,0 +1,156 @@
+{
+  "keyword": "resident vacation request scheduling",
+  "slug": "resident-vacation-request-scheduling",
+  "anchor": "Resident Vacation Request Scheduling",
+  "title": "Resident Vacation Scheduling | ACGME Compliance | Scheduling Wizard",
+  "description": "Resident vacation request scheduling shouldn't be a manual puzzle. Our managed service integrates requests to deliver optimized, ACGME-compliant schedules for you.",
+  "h1": "Done-For-You Resident Vacation Scheduling",
+  "paragraph": "Stop manually fitting vacation requests into a complex schedule. Submit your resident time-off as a constraint, and let Scheduling Wizard handle the rest.",
+  "category": "specialty",
+  "data": {
+    "cta": {
+      "title": "Stop Manually Fitting Vacation Requests Into Schedules",
+      "buttonText": "Book a Free Scheduling Consult",
+      "description": "Join 18 departments across 13 hospitals who outsource their scheduling to Scheduling Wizard."
+    },
+    "faq": [
+      {
+        "answer": "Scheduling Wizard treats vacation requests as first-class constraints fed directly into its optimization engine. When you submit your program's constraints, resident time-off requests are modeled alongside rotation requirements, call rules, and ACGME duty hour limits. The engine then generates a finished schedule that honors approved vacation dates while ensuring every required shift remains covered and all compliance rules are met. The result is delivered as a ready-to-use Excel file.",
+        "question": "How does Scheduling Wizard handle resident vacation request scheduling?"
+      },
+      {
+        "answer": "No. The optimization engine enforces ACGME duty hour rules mathematically at schedule generation time. When a resident takes approved vacation, any coverage adjustments are automatically checked against the 80-hour weekly limit, required rest periods, and subspecialty-specific regulations. Violations are prevented during schedule generation, not discovered after the schedule is already published.",
+        "question": "Will resident vacation requests affect ACGME duty hour compliance?"
+      },
+      {
+        "answer": "Scheduling Wizard handles mid-year schedule revisions, including new vacation requests submitted after the initial schedule is published. Affected portions of the schedule are re-optimized without disrupting the rest of the program's assignments. This prevents the cascade of manual changes that typically follows a single time-off request.",
+        "question": "What happens when a vacation request comes in mid-year?"
+      },
+      {
+        "answer": "No. Scheduling Wizard is a managed service, not a self-service software platform. Chief residents submit their constraints, including resident vacation requests, directly to the Scheduling Wizard team. There is no platform or dashboard to learn. The finished, optimized schedule is returned as an Excel file that can be uploaded to existing tools like Amion or QGenda for day-to-day viewing.",
+        "question": "Do chief residents need to learn new software to submit vacation requests?"
+      },
+      {
+        "answer": "The optimization engine factors in all resident vacation requests alongside call burden, holiday assignments, and rotation requirements simultaneously. This ensures that time-off approvals do not disproportionately shift coverage burden onto other residents. The result is a schedule that balances workload equitably across the program while honoring approved requests.",
+        "question": "How does Scheduling Wizard ensure fair vacation distribution across residents?"
+      },
+      {
+        "answer": "Scheduling Wizard delivers complete Block, Clinic, Call, and Attending schedules, all optimized together. Vacation requests and other resident preferences are integrated across all schedule types simultaneously, so a resident's approved time off is reflected consistently in their rotation block, call assignments, and clinic half-days without manual cross-referencing.",
+        "question": "What scheduling types are included beyond vacation request scheduling?"
+      }
+    ],
+    "hero": {
+      "title": "Resident Vacation Request Scheduling Done For You",
+      "description": "Submit vacation requests as constraints and receive finished, ACGME-compliant schedules as Excel files. No software to learn, no manual juggling."
+    },
+    "features": {
+      "items": [
+        {
+          "id": "resident-preferences",
+          "title": "Vacation Requests Built Into the Schedule",
+          "eyebrow": "Vacation Integration",
+          "highlights": [
+            "Vacation dates modeled as constraints",
+            "Conference and elective requests honored",
+            "No manual post-build patching"
+          ],
+          "description": "Resident vacation requests, elective preferences, conference dates, and personal constraints are treated as optimization inputs from the start, not manually patched in after the schedule is built."
+        },
+        {
+          "id": "acgme-compliance",
+          "title": "Compliance Guaranteed at Generation Time",
+          "eyebrow": "ACGME Compliance",
+          "highlights": [
+            "80-hour limits enforced automatically",
+            "Subspecialty-specific rules built in",
+            "Violations prevented, not detected later"
+          ],
+          "description": "ACGME duty hour rules are mathematically enforced when the schedule is generated. Vacation-driven coverage shifts never push residents past 80-hour weekly limits, rest requirements, or specialty-specific rules."
+        },
+        {
+          "id": "coverage-optimization",
+          "title": "No Gaps When Residents Are Out",
+          "eyebrow": "Coverage Planning",
+          "highlights": [
+            "All shifts covered during vacations",
+            "No overstaffing or understaffing",
+            "Coverage verified before publishing"
+          ],
+          "description": "The optimization engine ensures every required shift and rotation slot remains covered when residents take approved time off, eliminating the scramble to fill gaps at the last minute."
+        },
+        {
+          "id": "managed-service",
+          "title": "Done For You, Start to Finish",
+          "eyebrow": "Managed Service",
+          "highlights": [
+            "No scheduling software to learn",
+            "Finished Excel files delivered",
+            "Works with Amion and QGenda"
+          ],
+          "description": "Scheduling Wizard operates as a done-for-you managed service. Chief residents submit constraints and receive finished schedules as Excel files, ready to upload to Amion, QGenda, or any existing viewing tool."
+        },
+        {
+          "id": "institutional-continuity",
+          "title": "Scheduling Knowledge Survives Chief Rotations",
+          "eyebrow": "Program Continuity",
+          "highlights": [
+            "Rules persist across chief transitions",
+            "No annual rebuild required",
+            "Incoming chiefs start with context"
+          ],
+          "description": "Vacation request history, program rules, and constraint configurations stay with Scheduling Wizard year over year. Incoming chiefs inherit a working system instead of rebuilding vacation logic from a blank spreadsheet."
+        }
+      ],
+      "title": "Built Around Resident Preferences and Compliance",
+      "description": "Every feature works together to turn vacation requests and program constraints into optimized, compliant schedules without burdening your chief residents."
+    },
+    "problems": {
+      "items": [
+        {
+          "title": "Manual Patching Creates Conflicts",
+          "description": "Every vacation request forces a chain of manual adjustments across rotations, call, and clinic schedules, creating cascading conflicts that take hours to resolve."
+        },
+        {
+          "title": "Coverage Gaps Risk Compliance",
+          "description": "One missed vacation constraint can leave a shift uncovered or push a resident past ACGME duty hour limits, putting accreditation at risk."
+        },
+        {
+          "title": "Lost Knowledge Each Chief Year",
+          "description": "When chiefs rotate annually, vacation request history and scheduling logic disappear with them, forcing the next chief to start over from scratch."
+        }
+      ],
+      "title": "Vacation Requests Break Your Schedule",
+      "description": "Fitting resident time-off into an already complex schedule is a manual, error-prone process that falls on chiefs."
+    },
+    "solution": {
+      "title": "Submit Requests. Receive a Finished Schedule.",
+      "description": "Scheduling Wizard's managed service treats resident vacation requests as first-class constraints. Submit your program's rules, time-off requests, and coverage requirements, and receive a finished, ACGME-compliant schedule as a ready-to-use Excel file. No software to learn, no manual rework."
+    },
+    "metaTitle": "Resident Vacation Scheduling | ACGME Compliance | Scheduling Wizard",
+    "metaDescription": "Resident vacation request scheduling shouldn't be a manual puzzle. Our managed service integrates requests to deliver optimized, ACGME-compliant schedules for you."
+  },
+  "searchIntent": {
+    "keyword": "resident vacation request scheduling",
+    "searchIntents": [
+      "As a chief resident, I'm trying to find a way to efficiently manage and schedule vacation requests for my team, ensuring we maintain ACGME compliance and avoid scheduling conflicts without needing to learn complicated software.",
+      "I'm a program coordinator looking for a managed service that can handle resident vacation requests automatically and integrate with our existing scheduling tools, so I don't have to manually adjust the schedule every time someone requests time off.",
+      "I need to schedule my vacation as a resident but I'm worried how it will impact my program's coverage and compliance. I want a solution that ensures I can take time off without leaving gaps in the schedule or burdening my colleagues.",
+      "As a residency program director, I’m searching for a way to streamline the vacation request process for residents, ensuring we have fair coverage and meet all regulatory requirements, without adding extra work to our already stretched resources."
+    ]
+  },
+  "seoMetadata": {
+    "h1": "Done-For-You Resident Vacation Scheduling",
+    "metaTitle": "Resident Vacation Scheduling | ACGME Compliance | Scheduling Wizard",
+    "h1Paragraph": "Stop manually fitting vacation requests into a complex schedule. Submit your resident time-off as a constraint, and let Scheduling Wizard handle the rest.",
+    "metaDescription": "Resident vacation request scheduling shouldn't be a manual puzzle. Our managed service integrates requests to deliver optimized, ACGME-compliant schedules for you."
+  },
+  "finalMetadata": {
+    "slug": "vacation-request-scheduling",
+    "anchor": "Resident Vacation Request Scheduling",
+    "category": "specialty",
+    "generatedAt": "2026-07-01T07:25:38.877Z"
+  },
+  "id": "cmr1r2mq60001jy042tarubw5",
+  "createdAt": "2026-07-01T07:24:31.758Z",
+  "updatedAt": "2026-07-01T11:27:56.237Z"
+}

@@ -1,0 +1,156 @@
+{
+  "keyword": "ACGME duty hours home call",
+  "slug": "acgme-duty-hours-home-call",
+  "anchor": "ACGME Duty Hours Home Call",
+  "title": "ACGME Duty Hours Home Call | Ensure Compliance | Scheduling Wizard",
+  "description": "ACGME duty hours home call rules are complex and put your program at risk. Our managed service delivers mathematically guaranteed compliant call schedules, eliminating the burden on chiefs.",
+  "h1": "ACGME Duty Hours Home Call Compliance, Simplified",
+  "paragraph": "Stop risking ACGME home call violations. Scheduling Wizard’s managed service uses a compliance engine to build your schedule, ensuring rules are met.",
+  "category": "setting",
+  "data": {
+    "cta": {
+      "title": "Get Your Home Call Schedule Done Right",
+      "buttonText": "Book a Free Scheduling Consult",
+      "description": "Join 18 departments across 13 hospitals that trust Scheduling Wizard for ACGME-compliant scheduling."
+    },
+    "faq": [
+      {
+        "answer": "ACGME home call rules require that time spent in the hospital while on home call counts toward the 80-hour weekly duty hour limit. Residents on home call must receive adequate rest when called in, and programs must be able to document that home call frequency and in-house time do not create duty hour violations. Scheduling Wizard's compliance engine enforces these rules at schedule generation time, with subspecialty-specific rule sets built in.",
+        "question": "What are the ACGME duty hour rules for home call?"
+      },
+      {
+        "answer": "Yes. ACGME requires that any time a resident is physically in the hospital while on home call counts toward the 80-hour weekly duty hour limit. Programs must track this carefully, as failure to account for in-house home call hours is one of the most common sources of duty hour violations. Scheduling Wizard automatically accounts for home call hours when building compliant schedules.",
+        "question": "Does home call count toward ACGME 80-hour duty hour limits?"
+      },
+      {
+        "answer": "Scheduling Wizard uses a proprietary mathematical optimization engine that enforces ACGME duty hour rules at schedule generation time. This means home call violations are prevented before the schedule is published, not flagged after the fact. The engine includes subspecialty-specific ACGME rule knowledge, so the compliance model reflects the rules that apply to your specific program.",
+        "question": "How does Scheduling Wizard ensure ACGME home call compliance?"
+      },
+      {
+        "answer": "Under ACGME rules, in-house call requires the resident to remain physically in the hospital and counts in full toward duty hours. Home call allows the resident to be off-site but requires any time spent in-hospital to be counted toward duty hours. Home call also carries frequency and rest requirements. Because the line between home and in-house call affects duty hour calculations, accurate scheduling is critical for compliance.",
+        "question": "What is the difference between home call and in-house call under ACGME?"
+      },
+      {
+        "answer": "Program directors hold ultimate responsibility for ACGME duty hour compliance, but chief residents typically build and manage the actual schedule. This gap between accountability and execution is a common risk point. Scheduling Wizard eliminates manual compliance checking by enforcing duty hour rules programmatically, giving program directors confidence that home call schedules meet ACGME requirements before they are published.",
+        "question": "Who is responsible for ACGME duty hour compliance in residency programs?"
+      },
+      {
+        "answer": "Yes. Scheduling Wizard has subspecialty-specific ACGME rule knowledge built directly into its compliance engine. Subspecialties have different home call requirements, and a generic scheduling approach risks non-compliance. Programs submit their specialty-specific constraints, and the engine generates schedules that reflect the exact duty hour rules applicable to their program.",
+        "question": "Can Scheduling Wizard handle subspecialty-specific ACGME home call rules?"
+      }
+    ],
+    "hero": {
+      "title": "ACGME Duty Hours Home Call Compliance Simplified",
+      "description": "Stop risking home call violations. Scheduling Wizard's managed service mathematically enforces ACGME duty hour rules and delivers compliant call schedules as ready-to-use Excel files."
+    },
+    "features": {
+      "items": [
+        {
+          "id": "acgme-compliance",
+          "title": "Home Call Rules Enforced at Generation",
+          "eyebrow": "ACGME Compliance",
+          "highlights": [
+            "Home call hours counted automatically",
+            "Subspecialty-specific rules built in",
+            "Violations prevented not detected"
+          ],
+          "description": "Scheduling Wizard's compliance engine mathematically enforces ACGME duty hour rules — including home call counting toward the 80-hour weekly limit, minimum 8-hour rest periods (10 hours recommended), and the 24-hour hard cap — before the schedule is ever published."
+        },
+        {
+          "id": "call-scheduling",
+          "title": "Fair Compliant Home Call Schedules",
+          "eyebrow": "Call Scheduling",
+          "highlights": [
+            "Post-call rest rules enforced",
+            "Weekend call balanced equitably",
+            "Holiday burden distributed fairly"
+          ],
+          "description": "Produces ACGME-compliant home call schedules that distribute burden equitably across residents while respecting duty hour limits, post-call rest rules, and program-specific constraints. Fairness and compliance are optimized together."
+        },
+        {
+          "id": "managed-service",
+          "title": "Done For You No Software Required",
+          "eyebrow": "Managed Service",
+          "highlights": [
+            "No scheduling software to learn",
+            "Delivered as Excel spreadsheets",
+            "Upload directly to Amion or QGenda"
+          ],
+          "description": "Submit your home call constraints and receive a finished, compliant schedule as an Excel file. No platform to learn, no manual compliance checking. Your schedule is built by an engine that knows the rules for your subspecialty."
+        },
+        {
+          "id": "institutional-continuity",
+          "title": "Compliance Knowledge That Persists",
+          "eyebrow": "Program Continuity",
+          "highlights": [
+            "Rules retained across chief rotations",
+            "No annual knowledge loss",
+            "New chiefs start with a working system"
+          ],
+          "description": "Scheduling rules, home call constraints, and compliance configurations carry forward year over year with Scheduling Wizard. New chief residents inherit a working, compliant system instead of rebuilding from scratch."
+        },
+        {
+          "id": "resident-preferences",
+          "title": "Constraints Integrated From the Start",
+          "eyebrow": "Resident Preferences",
+          "highlights": [
+            "Vacation requests factored in",
+            "Conference dates respected",
+            "Moonlighting restrictions enforced"
+          ],
+          "description": "Vacation requests, conference dates, moonlighting restrictions, and personal constraints are factored into the home call optimization as first-class inputs, not manual patches applied after the schedule is built."
+        }
+      ],
+      "title": "Built for ACGME Duty Hour Compliance",
+      "description": "Every feature is designed to enforce compliance and eliminate the manual burden of home call scheduling across residency and fellowship programs."
+    },
+    "problems": {
+      "items": [
+        {
+          "title": "Home Call Rules Are Complex",
+          "description": "Home call that becomes in-house call, counting rules toward the 80-hour weekly limit, and rest requirements create compliance traps that are nearly impossible to track manually."
+        },
+        {
+          "title": "Violations Risk Your Accreditation",
+          "description": "A single documented ACGME duty hour violation can trigger a program review. Manual schedules offer no guarantee home call rules are being met before publishing."
+        },
+        {
+          "title": "Chiefs Rotate but Risk Stays",
+          "description": "Incoming chief residents inherit scheduling responsibility with no knowledge of prior rules or decisions, exposing programs to repeated compliance gaps year after year."
+        }
+      ],
+      "title": "Home Call Compliance Is Unforgiving",
+      "description": "ACGME duty hours home call rules are nuanced, high-stakes, and easy to violate when scheduling manually."
+    },
+    "solution": {
+      "title": "Mathematically Guaranteed Home Call Compliance",
+      "description": "Submit your program's constraints and receive finished, ACGME-compliant call schedules as ready-to-use Excel files. Scheduling Wizard's proprietary engine enforces duty hour rules at generation time, including home call rules specific to your subspecialty. No software to learn. No compliance guesswork."
+    },
+    "metaTitle": "ACGME Duty Hours Home Call | Ensure Compliance | Scheduling Wizard",
+    "metaDescription": "ACGME duty hours home call rules are complex and put your program at risk. Our managed service delivers mathematically guaranteed compliant call schedules, eliminating the burden on chiefs."
+  },
+  "searchIntent": {
+    "keyword": "ACGME duty hours home call",
+    "searchIntents": [
+      "A chief resident searching for a way to ensure their home call schedule complies with ACGME duty hour regulations while managing the workload of their team, afraid of potential penalties for non-compliance.",
+      "A program director looking for specific guidelines on establishing home call duties that fit ACGME standards, needing to adhere to strict duty hour limitations and avoid burnout among residents.",
+      "A residency coordinator trying to optimize the home call schedule for their department, looking for a solution that takes into account ACGME compliance and the varying needs of their residents.",
+      "A fellowship program administrator needing to integrate home call duties into existing schedules while ensuring all ACGME compliance requirements are met, worried about the legal implications of improper scheduling."
+    ]
+  },
+  "seoMetadata": {
+    "h1": "ACGME Duty Hours Home Call Compliance, Simplified",
+    "metaTitle": "ACGME Duty Hours Home Call | Ensure Compliance | Scheduling Wizard",
+    "h1Paragraph": "Stop risking ACGME home call violations. Scheduling Wizard’s managed service uses a compliance engine to build your schedule, ensuring rules are met.",
+    "metaDescription": "ACGME duty hours home call rules are complex and put your program at risk. Our managed service delivers mathematically guaranteed compliant call schedules, eliminating the burden on chiefs."
+  },
+  "finalMetadata": {
+    "slug": "home-call",
+    "anchor": "ACGME Duty Hours Home Call",
+    "category": "setting",
+    "generatedAt": "2026-06-02T05:33:59.064Z"
+  },
+  "id": "cmpw77msd000yjp045i1ltfya",
+  "createdAt": "2026-06-02T05:29:59.582Z",
+  "updatedAt": "2026-07-01T10:46:08.900Z"
+}

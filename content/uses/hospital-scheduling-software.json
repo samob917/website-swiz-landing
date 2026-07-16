@@ -1,0 +1,156 @@
+{
+  "keyword": "hospital scheduling software",
+  "slug": "hospital-scheduling-software",
+  "anchor": "Hospital Scheduling Software",
+  "title": "Hospital Scheduling Software | ACGME Compliance | Scheduling Wizard",
+  "description": "Hospital scheduling software shouldn't burden your chiefs. Our managed service delivers optimized, ACGME-compliant Block, Call, and Clinic schedules without any software to learn.",
+  "h1": "Hospital Scheduling Software Built for GME Compliance",
+  "paragraph": "Stop forcing chief residents to learn complex software. Scheduling Wizard is a managed service that guarantees ACGME compliance for your program. Just submit your constraints; we deliver a complete, optimized schedule.",
+  "category": "setting",
+  "data": {
+    "cta": {
+      "title": "Get Your Hospital Schedules Done Right",
+      "buttonText": "Book a Free Scheduling Consult",
+      "description": "Join 18 departments across 13 hospitals who trust Scheduling Wizard to deliver compliant, optimized schedules."
+    },
+    "faq": [
+      {
+        "answer": "Hospital scheduling software typically refers to self-service platforms where staff manually configure and build schedules. Scheduling Wizard is different — it operates as a managed service, not self-service software. Programs submit their constraints and receive finished, ACGME-compliant schedules as Excel files. There is no platform to log into or software to learn. The completed schedule can then be uploaded to existing viewing tools like Amion or QGenda for day-to-day access.",
+        "question": "What is hospital scheduling software and how does Scheduling Wizard differ?"
+      },
+      {
+        "answer": "ACGME compliance is enforced mathematically at the moment the schedule is generated, not checked manually after the fact. The engine has subspecialty-specific ACGME rules built in, covering duty hour limits, required rest periods, and call restrictions. This means violations are prevented from appearing in the schedule rather than being discovered and corrected later, which is a critical distinction for programs undergoing ACGME review.",
+        "question": "How does Scheduling Wizard ensure ACGME duty hour compliance for hospital programs?"
+      },
+      {
+        "answer": "Scheduling Wizard generates Block rotation schedules, Call schedules, Clinic schedules, and Attending schedules. These schedule types are optimized simultaneously so that a change in one propagates correctly across the others. The output is delivered as ready-to-use Excel spreadsheets that programs can upload to their existing schedule-viewing platforms.",
+        "question": "What types of hospital schedules does Scheduling Wizard generate?"
+      },
+      {
+        "answer": "No. This is one of Scheduling Wizard's core advantages over traditional hospital scheduling software. Chiefs submit their program's constraints and preferences, and Scheduling Wizard's team and optimization engine handle the rest. There is no dashboard, no platform, and no software training required. The finished schedule is delivered as an Excel file, which is familiar to every program.",
+        "question": "Do chief residents need to learn new software to use Scheduling Wizard?"
+      },
+      {
+        "answer": "Scheduling Wizard handles mid-year revisions by re-optimizing the affected portions of the schedule without disrupting the entire year's plan. When a resident goes on unexpected leave or a constraint changes, the engine generates updated coverage options. Programs do not need to manually patch conflicts across block, call, and clinic schedules — the cross-schedule dependencies are resolved automatically.",
+        "question": "How does Scheduling Wizard handle mid-year schedule changes or unexpected absences?"
+      },
+      {
+        "answer": "Yes. Many Scheduling Wizard clients continue using Amion or QGenda for day-to-day schedule viewing and communication. Scheduling Wizard handles the schedule creation and optimization, delivering finished Excel files that programs upload directly to their existing viewing platform. The two systems are complementary — Scheduling Wizard builds the optimized schedule, and your current tools display it.",
+        "question": "Can Scheduling Wizard work alongside our existing Amion or QGenda setup?"
+      }
+    ],
+    "hero": {
+      "title": "Hospital Scheduling Software Built for GME Compliance",
+      "description": "Scheduling Wizard is a managed service that delivers optimized, ACGME-compliant Block, Call, and Clinic schedules for residency programs. No software to learn."
+    },
+    "features": {
+      "items": [
+        {
+          "id": "acgme-compliance",
+          "title": "Compliance Guaranteed at Generation Time",
+          "eyebrow": "ACGME Compliance",
+          "highlights": [
+            "80-hour limits enforced automatically",
+            "Subspecialty rules built in",
+            "Violations prevented not detected"
+          ],
+          "description": "ACGME duty hour rules are mathematically enforced when the schedule is built, not manually checked afterward. Subspecialty-specific rules are built into the engine, so your program stays compliant without anyone auditing the output."
+        },
+        {
+          "id": "managed-service",
+          "title": "Done for You No Software Required",
+          "eyebrow": "Managed Service",
+          "highlights": [
+            "No software to learn",
+            "Excel files ready to publish",
+            "Works with Amion and QGenda"
+          ],
+          "description": "Unlike self-service hospital scheduling software, Scheduling Wizard operates as a done-for-you service. Submit your constraints and receive finished schedules as Excel files ready to upload to your existing viewing tools like Amion or QGenda."
+        },
+        {
+          "id": "block-scheduling",
+          "title": "Year-Long Rotation Schedules Automated",
+          "eyebrow": "Block Scheduling",
+          "highlights": [
+            "PGY-level requirements respected",
+            "Elective preferences included",
+            "Coverage minimums guaranteed"
+          ],
+          "description": "Generates complete year-long block rotation schedules respecting PGY-level requirements, elective preferences, coverage minimums, and ACGME rotation mandates across complex multi-track hospital programs."
+        },
+        {
+          "id": "call-scheduling",
+          "title": "Fair Call Schedules Across All Residents",
+          "eyebrow": "Call Scheduling",
+          "highlights": [
+            "Weekend call balanced automatically",
+            "Holiday shifts distributed fairly",
+            "Post-call rules enforced"
+          ],
+          "description": "Produces ACGME-compliant on-call schedules that distribute call burden equitably across residents. Holiday, weekend, and overnight call are algorithmically balanced so no resident carries an unfair load."
+        },
+        {
+          "id": "institutional-continuity",
+          "title": "Scheduling Knowledge That Persists Year Over Year",
+          "eyebrow": "Institutional Continuity",
+          "highlights": [
+            "No annual knowledge reset",
+            "New chiefs onboard instantly",
+            "Program rules preserved automatically"
+          ],
+          "description": "Your program's constraints, rules, and scheduling configurations are retained by Scheduling Wizard across annual chief rotations. Incoming chiefs inherit a working, optimized system instead of rebuilding from a blank spreadsheet."
+        }
+      ],
+      "title": "Built for Hospital Scheduling Complexity",
+      "description": "Every feature is designed for the unique demands of residency and fellowship programs operating under ACGME requirements."
+    },
+    "problems": {
+      "items": [
+        {
+          "title": "Chiefs Buried in Spreadsheets",
+          "description": "Chief residents spend hundreds of hours building and rebuilding schedules in Excel instead of focusing on patient care and clinical training."
+        },
+        {
+          "title": "Compliance Violations Risk Accreditation",
+          "description": "Manually checking ACGME duty hour rules across block, call, and clinic schedules leaves programs exposed to violations that threaten program standing."
+        },
+        {
+          "title": "Knowledge Lost Every Year",
+          "description": "When chiefs rotate annually, hard-won scheduling knowledge walks out the door and the next chief starts from scratch with no institutional memory."
+        }
+      ],
+      "title": "Scheduling Shouldn't Fall on Chiefs",
+      "description": "Hospital scheduling is complex, high-stakes work that consumes chief residents and risks compliance every year."
+    },
+    "solution": {
+      "title": "A Managed Service That Does It For You",
+      "description": "Submit your program's constraints and Scheduling Wizard's proprietary optimization engine generates finished, ACGME-compliant Block, Call, Clinic, and Attending schedules delivered as ready-to-use Excel files. No software to learn, no dashboard to manage, and no retraining when chiefs rotate."
+    },
+    "metaTitle": "Hospital Scheduling Software | ACGME Compliance | Scheduling Wizard",
+    "metaDescription": "Hospital scheduling software shouldn't burden your chiefs. Our managed service delivers optimized, ACGME-compliant Block, Call, and Clinic schedules without any software to learn."
+  },
+  "searchIntent": {
+    "keyword": "hospital scheduling software",
+    "searchIntents": [
+      "A residency program director searching for a scheduling solution that ensures ACGME compliance while alleviating the burden on chief residents, who often lack the time and expertise to manage complex schedules.",
+      "A program coordinator needing a reliable software to automate shift assignments and rotations across multiple departments, without the risk of errors that come with manual scheduling.",
+      "A chief resident looking for a straightforward way to produce fair and optimized call schedules that accommodate resident preferences, ensuring no one is overworked or underrepresented in shifts.",
+      "A private practice administrator seeking a customizable scheduling tool that minimizes gaps and overstaffing while integrating with existing systems, as generic solutions often fail to meet the specific needs of medical scheduling."
+    ]
+  },
+  "seoMetadata": {
+    "h1": "Hospital Scheduling Software Built for GME Compliance",
+    "metaTitle": "Hospital Scheduling Software | ACGME Compliance | Scheduling Wizard",
+    "h1Paragraph": "Stop forcing chief residents to learn complex software. Scheduling Wizard is a managed service that guarantees ACGME compliance for your program. Just submit your constraints; we deliver a complete, optimized schedule.",
+    "metaDescription": "Hospital scheduling software shouldn't burden your chiefs. Our managed service delivers optimized, ACGME-compliant Block, Call, and Clinic schedules without any software to learn."
+  },
+  "finalMetadata": {
+    "slug": "scheduling-software",
+    "anchor": "Hospital Scheduling Software",
+    "category": "setting",
+    "generatedAt": "2026-06-02T05:34:32.849Z"
+  },
+  "id": "cmpw77n6y0014jp049zlseq1e",
+  "createdAt": "2026-06-02T05:30:00.106Z",
+  "updatedAt": "2026-06-04T07:51:55.108Z"
+}
