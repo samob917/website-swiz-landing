@@ -2,7 +2,7 @@
 
 import type React from "react"
 import { useState, useRef } from "react"
-import { AlertTriangle, ArrowRight, Check, UploadCloud, FileText } from "lucide-react"
+import { ArrowRight, Check, UploadCloud, FileText } from "lucide-react"
 import emailjs from "@emailjs/browser"
 import posthog from "posthog-js"
 import { Button } from "@/components/ui/button"
@@ -122,22 +122,10 @@ export default function ComplianceCheckerPage() {
               <span className="hero-text-bold text-yellow-400">Compliance Checker</span>
             </h1>
 
-            <p className="text-base sm:text-lg text-white/80 max-w-xl leading-relaxed mb-8">
+            <p className="text-base sm:text-lg text-white/80 max-w-xl leading-relaxed mb-12">
               Drop in your schedule. We&apos;ll check every shift against the
-              2026 ACGME duty-hour rules — including the home-call changes most
-              programs haven&apos;t updated for.
+              ACGME duty-hour rules for your specialty.
             </p>
-
-            <div className="mb-12 flex gap-3 rounded-xl border border-yellow-400/30 bg-yellow-400/5 p-4 sm:p-5">
-              <AlertTriangle className="w-5 h-5 flex-shrink-0 text-yellow-400 mt-0.5" />
-              <p className="text-sm text-white/80 leading-relaxed">
-                <span className="font-semibold text-white">
-                  ACGME rules changed in February 2026.
-                </span>{" "}
-                Home call now counts toward the 80-hour max; the 24+4 rule is
-                gone. Pre-2026 schedules need a recheck.
-              </p>
-            </div>
 
             <div className="mb-8">
               <span className="text-white/60 text-xs font-medium uppercase tracking-[0.2em]">
