@@ -23,8 +23,8 @@
         "question": "How does Scheduling Wizard guarantee ACGME compliance for subspecialties?"
       },
       {
-        "answer": "Yes. The 2026 ACGME changes, including home call counting toward the 80-hour weekly limit and the 24-hour hard cap on continuous duty, are incorporated into the compliance engine. Programs do not need to manually track or reconfigure rules when regulatory requirements change, as those updates are reflected in how schedules are generated.",
-        "question": "Does Scheduling Wizard handle the 2026 ACGME duty hour changes?"
+        "answer": "Yes. Current ACGME duty hour requirements, including the 80-hour weekly limit, minimum rest periods, and the 24-hour hard cap on continuous duty, are incorporated into the compliance engine. Programs do not need to manually track or reconfigure rules when regulatory requirements change, as those updates are reflected in how schedules are generated.",
+        "question": "Does Scheduling Wizard stay current with ACGME duty hour requirements?"
       },
       {
         "answer": "No. Scheduling Wizard handles schedule creation and optimization, while Amion and QGenda are used for day-to-day schedule viewing and access. Many Scheduling Wizard clients continue using Amion or QGenda alongside the service. Scheduling Wizard delivers finished schedules as Excel files, which programs can upload directly to their existing viewing platform.",

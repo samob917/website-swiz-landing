@@ -15,7 +15,7 @@
     },
     "faq": [
       {
-        "answer": "ACGME duty hour rules set maximum working time limits for resident physicians to protect patient safety and resident well-being. Core requirements include an 80-hour weekly limit averaged over four weeks, a minimum of 10 hours off between shifts, and a 24-hour cap on continuous duty for PGY-2 residents and above. Rules vary by specialty and are updated periodically — for example, 2026 changes require home call to count toward the 80-hour weekly limit. Scheduling Wizard's compliance engine has subspecialty-specific rules built in and enforces them mathematically at schedule generation time.",
+        "answer": "ACGME duty hour rules set maximum working time limits for resident physicians to protect patient safety and resident well-being. Core requirements include an 80-hour weekly limit averaged over four weeks, a minimum of 10 hours off between shifts, and a 24-hour cap on continuous duty for PGY-2 residents and above. Rules vary by specialty and are updated periodically. Scheduling Wizard's compliance engine has subspecialty-specific rules built in and enforces them mathematically at schedule generation time.",
         "question": "What are the ACGME duty hour rules for residents?"
       },
       {
@@ -23,15 +23,15 @@
         "question": "How does Scheduling Wizard guarantee ACGME duty hour compliance?"
       },
       {
-        "answer": "When ACGME updates its duty hour regulations — such as the upcoming 2026 changes requiring home call to count toward the 80-hour weekly limit — Scheduling Wizard updates its compliance engine accordingly. Because the managed service model means programs are not operating software themselves, rule updates are absorbed by Scheduling Wizard rather than requiring chief residents or coordinators to reconfigure their own system.",
+        "answer": "When ACGME updates its duty hour regulations, Scheduling Wizard updates its compliance engine accordingly. Because the managed service model means programs are not operating software themselves, rule updates are absorbed by Scheduling Wizard rather than requiring chief residents or coordinators to reconfigure their own system.",
         "question": "What happens when ACGME duty hour rules change?"
       },
       {
-        "answer": "Common compliance risks include exceeding the 80-hour weekly limit, scheduling residents without sufficient rest between shifts, violations of the 24-hour continuous duty cap, and improper handling of home call under the 2026 rule changes. These violations can trigger ACGME citations, corrective action plans, or in serious cases, threats to program accreditation. Manual schedule-building with spreadsheets makes these violations easy to miss until it is too late.",
+        "answer": "Common compliance risks include exceeding the 80-hour weekly limit, scheduling residents without sufficient rest between shifts, violations of the 24-hour continuous duty cap, and improper handling of home call hours. These violations can trigger ACGME citations, corrective action plans, or in serious cases, threats to program accreditation. Manual schedule-building with spreadsheets makes these violations easy to miss until it is too late.",
         "question": "What ACGME duty hour violations put a program at risk?"
       },
       {
-        "answer": "While all ACGME-accredited programs share core duty hour requirements, subspecialties have additional or modified rules — for example, surgery programs have specific requirements around trauma call pyramids and back-up call coverage, while pediatrics programs must prepare for the 2026 home call changes. Scheduling Wizard's compliance engine has subspecialty-specific ACGME rules built in, so your schedule reflects the rules that actually apply to your program rather than a one-size-fits-all interpretation.",
+        "answer": "While all ACGME-accredited programs share core duty hour requirements, subspecialties have additional or modified rules — for example, surgery programs have specific requirements around trauma call pyramids and back-up call coverage, while pediatrics programs have their own home call requirements. Scheduling Wizard's compliance engine has subspecialty-specific ACGME rules built in, so your schedule reflects the rules that actually apply to your program rather than a one-size-fits-all interpretation.",
         "question": "How do subspecialty ACGME duty hour rules differ across programs?"
       },
       {
@@ -52,9 +52,9 @@
           "highlights": [
             "80-hour weekly limits enforced",
             "Subspecialty-specific rules built in",
-            "2026 home call changes included"
+            "Home call rules handled correctly"
           ],
-          "description": "ACGME duty hour regulations — including 80-hour weekly limits, 10-hour rest requirements, 24-hour hard caps, and 2026 home call changes — are enforced mathematically at generation time. Violations are prevented before the schedule is ever published."
+          "description": "ACGME duty hour regulations — including 80-hour weekly limits, 10-hour rest requirements, 24-hour hard caps, and home call rules — are enforced mathematically at generation time. Violations are prevented before the schedule is ever published."
         },
         {
           "id": "managed-service",
@@ -112,7 +112,7 @@
         },
         {
           "title": "Rules Change and Vary by Specialty",
-          "description": "Subspecialty-specific ACGME rules differ program to program. Keeping up with updates like the 2026 home call changes adds another layer of complexity."
+          "description": "Subspecialty-specific ACGME rules differ program to program. Keeping up as ACGME updates its requirements adds another layer of complexity."
         },
         {
           "title": "Chiefs Rebuild Compliance From Scratch",

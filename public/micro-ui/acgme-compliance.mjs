@@ -258,7 +258,7 @@ const checks = h(
   checkRow("80h-weekly-limit", "12ms"),
   checkRow("24h-shift-cap", "8ms"),
   checkRow("post-call-rest", "14ms"),
-  checkRow("home-call-2026", "11ms", { amber: true }),
+  checkRow("home-call-hours", "11ms", { amber: true }),
   checkRow("weekend-spacing", "9ms"),
 );
 

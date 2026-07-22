@@ -52,7 +52,7 @@
           "highlights": [
             "Subspecialty rules built in",
             "Violations prevented at generation",
-            "Covers 2026 rule changes"
+            "Kept current with ACGME updates"
           ],
           "description": "Fellowship programs face subspecialty-specific ACGME duty hour rules that differ from categorical residency programs. Scheduling Wizard's engine enforces these rules at generation time — violations are prevented, not discovered after publishing."
         },

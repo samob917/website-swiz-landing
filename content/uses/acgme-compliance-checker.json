@@ -23,7 +23,7 @@
         "question": "How does Scheduling Wizard handle subspecialty-specific ACGME rules?"
       },
       {
-        "answer": "The engine enforces core ACGME standards including the 80-hour weekly duty hour limit, minimum 10-hour rest between shifts, the 24-hour hard cap on continuous duty, and the upcoming 2026 changes requiring home call to count toward the 80-hour weekly limit. Subspecialty-specific rules are also incorporated based on your program type, ensuring compliance extends beyond the universal standards.",
+        "answer": "The engine enforces core ACGME standards including the 80-hour weekly duty hour limit, minimum 10-hour rest between shifts, the 24-hour hard cap on continuous duty, and specialty-specific home call requirements. Subspecialty-specific rules are also incorporated based on your program type, ensuring compliance extends beyond the universal standards.",
         "question": "What ACGME duty hour rules does the scheduling engine enforce?"
       },
       {

@@ -63,7 +63,7 @@
           "highlights": [
             "Violations prevented at generation",
             "Subspecialty rules built in",
-            "2026 ACGME changes accounted for"
+            "Home call and rest rules covered"
           ],
           "description": "ACGME duty hour rules — including 80-hour weekly limits, mandatory rest requirements, and the 24-hour cap — are mathematically enforced at generation time. Subspecialty-specific rules are built into the engine, not checked manually after the fact."
         },

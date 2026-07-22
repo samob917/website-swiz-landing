@@ -63,9 +63,9 @@
           "highlights": [
             "80-hour weekly limit enforced",
             "Subspecialty rules built in",
-            "2026 ACGME changes accounted for"
+            "Home call and rest rules covered"
           ],
-          "description": "ACGME duty hour rules — including the 80-hour weekly limit, 10-hour rest minimums, 24-hour caps, and the 2026 home call changes — are mathematically enforced when the schedule is built, not manually checked afterward. Subspecialty-specific rules are built in."
+          "description": "ACGME duty hour rules — including the 80-hour weekly limit, 10-hour rest minimums, 24-hour caps, and home call rules — are mathematically enforced when the schedule is built, not manually checked afterward. Subspecialty-specific rules are built in."
         },
         {
           "id": "managed-service",
