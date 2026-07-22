@@ -176,6 +176,8 @@ export default function GetAQuotePage() {
         `Total people incl. rotators: ${field("num_total")}`,
         `Rotating departments within the schedule(s): ${field("rotating_departments")}`,
         ``,
+        `Budget expectations: ${field("budget")}`,
+        ``,
         `Attached files: ${fileNames.length ? fileNames.join(", ") : "none"}`,
         ``,
         `Notes / schedule rules:`,
@@ -235,30 +237,9 @@ export default function GetAQuotePage() {
             </h1>
 
             <p className="text-base sm:text-lg text-white/80 max-w-xl leading-relaxed mb-8">
-              Tell us about your schedules and we&apos;ll send back a custom
-              estimate for building them for you.
+              Tell us about your schedules. We&apos;ll scope the work and send
+              back a custom estimate for building them for you, by email.
             </p>
-
-            <div className="mb-5">
-              <span className="text-white/60 text-xs font-medium uppercase tracking-[0.2em]">
-                How it works
-              </span>
-            </div>
-
-            <div className="space-y-4 mb-8">
-              {[
-                "Tell us about your schedules.",
-                "We scope the work.",
-                "You get your quote by email.",
-              ].map((title, i) => (
-                <div key={title} className="flex items-center gap-4">
-                  <div className="flex-shrink-0 w-8 h-8 rounded-full border border-yellow-400/40 flex items-center justify-center text-yellow-400 text-xs font-medium">
-                    {`0${i + 1}`}
-                  </div>
-                  <h3 className="text-white font-semibold text-base">{title}</h3>
-                </div>
-              ))}
-            </div>
 
             <div className="max-w-md rounded-xl border border-white/10 bg-white/5 p-4">
               <p className="text-sm text-white/60 leading-relaxed">
@@ -630,6 +611,24 @@ export default function GetAQuotePage() {
                     <p className="mt-2 text-xs text-white/40">
                       Optional. Keep or redact physician names. We never share
                       your schedules or rules with anyone.
+                    </p>
+                  </div>
+
+                  <div>
+                    <label htmlFor="gq-budget" className={labelClass}>
+                      Budget expectations
+                    </label>
+                    <Input
+                      id="gq-budget"
+                      name="budget"
+                      type="text"
+                      placeholder="Optional. A rough range or what you'd expect this to cost."
+                      disabled={isSubmitting}
+                      className={inputClass}
+                    />
+                    <p className="mt-2 text-xs text-white/40">
+                      This doesn&apos;t lock anything in. It just helps us scope
+                      the right solution for you.
                     </p>
                   </div>
 
