@@ -2,7 +2,7 @@
 
 import type React from "react"
 import { useState, useRef } from "react"
-import { ArrowRight, Check, UploadCloud, FileText, CalendarClock, X } from "lucide-react"
+import { ArrowRight, Check, UploadCloud, FileText, CalendarClock, Plus, X } from "lucide-react"
 import emailjs from "@emailjs/browser"
 import posthog from "posthog-js"
 import { Button } from "@/components/ui/button"
@@ -11,26 +11,26 @@ import { Textarea } from "@/components/ui/textarea"
 
 type Stage = "form" | "success"
 
+type CustomSchedule = { name: string; cadence: string }
+
 // EmailJS free plan caps the total request payload (form vars + base64-encoded
 // attachments) at 50 KB. Paid plans bump that to 2 MB. We validate against the
-// free-plan ceiling and capture a PostHog event when files exceed it — if the
+// free-plan ceiling and capture a PostHog event when files exceed it. If the
 // rate is high, that's the signal to swap to a real attachment-friendly backend.
 const MAX_FILES_BYTES = 50 * 1024
 const MAX_FILES_LABEL = "Up to 50 KB total"
 
 const CALENDLY_URL = "https://calendly.com/zacdermody-schedulingwiz/new-meeting"
 
-const PROGRAM_TYPES = ["Residency", "Fellowship", "Attending / APP"]
-
-const SCHEDULE_TYPES = [
-  "Block",
-  "Call",
-  "Clinic",
-  "Elective",
-  "Attending",
-  "APP",
-  "Other",
+const PROGRAM_TYPES = [
+  "Residency",
+  "Fellowship",
+  "Attendings",
+  "APPs",
+  "Private Practice Physician Group",
 ]
+
+const SCHEDULE_TYPES = ["Block", "Call", "Clinic", "Elective", "Attending", "APP"]
 
 const CADENCE_OPTIONS = [
   "Once a year",
@@ -44,8 +44,11 @@ const CADENCE_OPTIONS = [
 export default function GetAQuotePage() {
   const [stage, setStage] = useState<Stage>("form")
   const [programTypes, setProgramTypes] = useState<string[]>([])
+  const [programOther, setProgramOther] = useState(false)
+  const [programOtherText, setProgramOtherText] = useState("")
   const [schedules, setSchedules] = useState<string[]>([])
   const [cadences, setCadences] = useState<Record<string, string>>({})
+  const [customSchedules, setCustomSchedules] = useState<CustomSchedule[]>([])
   const [fileNames, setFileNames] = useState<string[]>([])
   const [isDragging, setIsDragging] = useState(false)
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -56,13 +59,14 @@ export default function GetAQuotePage() {
   const messageRef = useRef<HTMLInputElement>(null)
   const subjectRef = useRef<HTMLInputElement>(null)
 
-  const toggle = (
-    value: string,
-    list: string[],
-    setList: (v: string[]) => void,
-  ) => {
-    setList(
-      list.includes(value) ? list.filter((v) => v !== value) : [...list, value],
+  const namedCustoms = customSchedules.filter((c) => c.name.trim())
+  const hasSchedules = schedules.length > 0 || namedCustoms.length > 0
+
+  const toggleProgram = (value: string) => {
+    setProgramTypes(
+      programTypes.includes(value)
+        ? programTypes.filter((v) => v !== value)
+        : [...programTypes, value],
     )
   }
 
@@ -74,6 +78,20 @@ export default function GetAQuotePage() {
       setSchedules([...schedules, value])
     }
   }
+
+  const addCustomSchedule = () =>
+    setCustomSchedules([...customSchedules, { name: "", cadence: "" }])
+
+  const updateCustomSchedule = (
+    index: number,
+    patch: Partial<CustomSchedule>,
+  ) =>
+    setCustomSchedules(
+      customSchedules.map((c, i) => (i === index ? { ...c, ...patch } : c)),
+    )
+
+  const removeCustomSchedule = (index: number) =>
+    setCustomSchedules(customSchedules.filter((_, i) => i !== index))
 
   const acceptFiles = (files: FileList) => {
     const total = Array.from(files).reduce((sum, f) => sum + f.size, 0)
@@ -87,7 +105,7 @@ export default function GetAQuotePage() {
       })
       const sizeKb = Math.round(total / 1024)
       setErrorMsg(
-        `Those files add up to ${sizeKb} KB. We can only accept up to 50 KB right now — try a smaller set, or email them to founders@schedulingwiz.com and we'll take it from there.`,
+        `Those files add up to ${sizeKb} KB. We can only accept up to 50 KB right now. Try a smaller set, or email them to founders@schedulingwiz.com and we'll take it from there.`,
       )
       if (fileInputRef.current) fileInputRef.current.value = ""
       setFileNames([])
@@ -115,6 +133,19 @@ export default function GetAQuotePage() {
     setFileNames([])
   }
 
+  const allProgramTypes = () => {
+    const types = [...programTypes]
+    if (programOther && programOtherText.trim()) types.push(programOtherText.trim())
+    return types
+  }
+
+  const allScheduleLines = () => [
+    ...schedules.map((s) => `  - ${s}: ${cadences[s] || "cadence not specified"}`),
+    ...namedCustoms.map(
+      (c) => `  - ${c.name.trim()}: ${c.cadence || "cadence not specified"}`,
+    ),
+  ]
+
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setIsSubmitting(true)
@@ -126,13 +157,9 @@ export default function GetAQuotePage() {
 
       // The shared EmailJS template renders {{subject}} and {{message}} (same
       // template the contact form uses), so fold every answer into those two
-      // variables — no template changes needed for new fields.
+      // variables. No template changes needed for new fields.
       const data = new FormData(form)
-      const field = (name: string) => (data.get(name) as string)?.trim() || "—"
-
-      const cadenceLines = schedules
-        .map((s) => `  - ${s}: ${cadences[s] || "not specified"}`)
-        .join("\n")
+      const field = (name: string) => (data.get(name) as string)?.trim() || "-"
 
       const summary = [
         `QUOTE REQUEST`,
@@ -140,14 +167,14 @@ export default function GetAQuotePage() {
         `Contact: ${field("name")} <${field("email")}>`,
         `Hospital / institution: ${field("hospital")}`,
         `Department: ${field("department")}`,
-        `Program type: ${programTypes.join(", ") || "—"}`,
+        `Program type: ${allProgramTypes().join(", ") || "-"}`,
         ``,
         `Schedules needed & cadence:`,
-        cadenceLines || "  —",
+        allScheduleLines().join("\n") || "  -",
         ``,
-        `Residents / fellows on the schedule: ${field("num_residents")}`,
+        `Individuals on the schedule: ${field("num_individuals")}`,
         `Total people incl. rotators: ${field("num_total")}`,
-        `Rotating departments: ${field("rotating_departments")}`,
+        `Rotating departments within the schedule(s): ${field("rotating_departments")}`,
         ``,
         `Attached files: ${fileNames.length ? fileNames.join(", ") : "none"}`,
         ``,
@@ -157,7 +184,7 @@ export default function GetAQuotePage() {
 
       if (messageRef.current) messageRef.current.value = summary
       if (subjectRef.current)
-        subjectRef.current.value = `Quote request — ${field("department")} @ ${field("hospital")}`
+        subjectRef.current.value = `Quote request - ${field("department")} @ ${field("hospital")}`
 
       const result = await emailjs.sendForm(
         "service_x9kkaxn",
@@ -175,7 +202,7 @@ export default function GetAQuotePage() {
       console.error("EmailJS error:", err)
       const e = err as { text?: string; status?: number; message?: string }
       const status = e?.status ? ` (HTTP ${e.status})` : ""
-      const detail = e?.text || e?.message || "Unknown error — check the browser console."
+      const detail = e?.text || e?.message || "Unknown error. Check the browser console."
       setErrorMsg(`Couldn't send${status}: ${detail}`)
     } finally {
       setIsSubmitting(false)
@@ -193,6 +220,8 @@ export default function GetAQuotePage() {
     "block text-xs font-medium text-white/70 uppercase tracking-wider mb-2"
   const inputClass =
     "bg-white/5 border-white/10 text-white placeholder:text-white/30 focus:border-yellow-400/50 focus:ring-0 rounded-lg h-11"
+  const selectClass =
+    "h-9 rounded-lg border border-white/10 bg-white/5 px-2 text-sm text-white/80 focus:border-yellow-400/50 focus:outline-none [&>option]:bg-neutral-900"
 
   return (
     <section className="hero-background medical-pattern min-h-screen relative overflow-hidden pt-32 pb-20">
@@ -205,63 +234,39 @@ export default function GetAQuotePage() {
               <span className="hero-text-bold text-yellow-400">Quote</span>
             </h1>
 
-            <p className="text-base sm:text-lg text-white/80 max-w-xl leading-relaxed mb-12">
-              Tell us about your program — the schedules you need, how many
-              people are on them, and the rules they have to respect. We&apos;ll
-              send back a custom estimate for building them for you.
+            <p className="text-base sm:text-lg text-white/80 max-w-xl leading-relaxed mb-8">
+              Tell us about your schedules and we&apos;ll send back a custom
+              estimate for building them for you.
             </p>
 
-            <div className="mb-8">
+            <div className="mb-5">
               <span className="text-white/60 text-xs font-medium uppercase tracking-[0.2em]">
                 How it works
               </span>
             </div>
 
-            <div className="space-y-7">
+            <div className="space-y-4 mb-8">
               {[
-                {
-                  n: "01",
-                  title: "Tell us about your schedules.",
-                  body:
-                    "Department, program type, schedule types and how often each gets made, headcount — plus any rules or past schedules you can share.",
-                },
-                {
-                  n: "02",
-                  title: "We scope the work.",
-                  body:
-                    "A scheduling expert reviews your program's complexity — schedule types, cadence, rotators, constraints — and prices it accurately.",
-                },
-                {
-                  n: "03",
-                  title: "You get your quote by email.",
-                  body:
-                    "An estimated quote lands in your inbox, or a couple of follow-up questions if we need them. Prefer to talk it through? Book a meeting any time.",
-                },
-              ].map((step) => (
-                <div key={step.n} className="flex gap-5">
-                  <div className="flex-shrink-0 w-10 h-10 rounded-full border border-yellow-400/40 flex items-center justify-center text-yellow-400 text-sm font-medium">
-                    {step.n}
+                "Tell us about your schedules.",
+                "We scope the work.",
+                "You get your quote by email.",
+              ].map((title, i) => (
+                <div key={title} className="flex items-center gap-4">
+                  <div className="flex-shrink-0 w-8 h-8 rounded-full border border-yellow-400/40 flex items-center justify-center text-yellow-400 text-xs font-medium">
+                    {`0${i + 1}`}
                   </div>
-                  <div>
-                    <h3 className="text-white font-semibold text-lg mb-1.5">
-                      {step.title}
-                    </h3>
-                    <p className="text-white/60 text-sm leading-relaxed max-w-md">
-                      {step.body}
-                    </p>
-                  </div>
+                  <h3 className="text-white font-semibold text-base">{title}</h3>
                 </div>
               ))}
             </div>
 
-            <div className="mt-10 max-w-md rounded-xl border border-white/10 bg-white/5 p-4 sm:p-5">
+            <div className="max-w-md rounded-xl border border-white/10 bg-white/5 p-4">
               <p className="text-sm text-white/60 leading-relaxed">
                 <span className="font-semibold text-white">
                   Your information stays private.
                 </span>{" "}
-                Keep or redact physician names on anything you upload — either
-                way, your schedules, rules, and program details are never shared
-                with anyone.
+                Keep or redact physician names. Your schedules, rules, and
+                program details are never shared with anyone.
               </p>
             </div>
           </div>
@@ -279,7 +284,7 @@ export default function GetAQuotePage() {
                 <p className="text-white/60 text-sm max-w-sm">
                   You&apos;ll receive an email soon from{" "}
                   <span className="text-yellow-400">founders@schedulingwiz.com</span>{" "}
-                  with your estimated quote — or any follow-up questions we need
+                  with your estimated quote, or any follow-up questions we need
                   to price it accurately.
                 </p>
                 <a
@@ -311,14 +316,12 @@ export default function GetAQuotePage() {
                   <input
                     type="hidden"
                     name="program_types"
-                    value={programTypes.join(", ")}
+                    value={allProgramTypes().join(", ")}
                   />
                   <input
                     type="hidden"
                     name="schedules_needed"
-                    value={schedules
-                      .map((s) => `${s} (${cadences[s] || "cadence not specified"})`)
-                      .join(", ")}
+                    value={allScheduleLines().join("; ")}
                   />
 
                   <div className="grid sm:grid-cols-2 gap-4">
@@ -391,14 +394,32 @@ export default function GetAQuotePage() {
                         <button
                           key={t}
                           type="button"
-                          onClick={() => toggle(t, programTypes, setProgramTypes)}
+                          onClick={() => toggleProgram(t)}
                           disabled={isSubmitting}
                           className={chipClass(programTypes.includes(t))}
                         >
                           {t}
                         </button>
                       ))}
+                      <button
+                        type="button"
+                        onClick={() => setProgramOther(!programOther)}
+                        disabled={isSubmitting}
+                        className={chipClass(programOther)}
+                      >
+                        Other
+                      </button>
                     </div>
+                    {programOther && (
+                      <Input
+                        type="text"
+                        value={programOtherText}
+                        onChange={(e) => setProgramOtherText(e.target.value)}
+                        placeholder="Tell us your program type"
+                        disabled={isSubmitting}
+                        className={`${inputClass} mt-2`}
+                      />
+                    )}
                   </div>
 
                   <div>
@@ -417,10 +438,19 @@ export default function GetAQuotePage() {
                           {s}
                         </button>
                       ))}
+                      <button
+                        type="button"
+                        onClick={addCustomSchedule}
+                        disabled={isSubmitting}
+                        className={`${chipClass(false)} inline-flex items-center gap-1`}
+                      >
+                        <Plus className="w-3.5 h-3.5" />
+                        Other
+                      </button>
                     </div>
                   </div>
 
-                  {schedules.length > 0 && (
+                  {(schedules.length > 0 || customSchedules.length > 0) && (
                     <div className="space-y-2 rounded-xl border border-white/10 bg-white/5 p-4">
                       <span className="block text-xs font-medium text-white/70 uppercase tracking-wider mb-1">
                         How often is each one made?
@@ -437,7 +467,7 @@ export default function GetAQuotePage() {
                               setCadences({ ...cadences, [s]: e.target.value })
                             }
                             disabled={isSubmitting}
-                            className="h-9 rounded-lg border border-white/10 bg-white/5 px-2 text-sm text-white/80 focus:border-yellow-400/50 focus:outline-none [&>option]:bg-neutral-900"
+                            className={selectClass}
                           >
                             <option value="" disabled>
                               Select cadence…
@@ -450,17 +480,57 @@ export default function GetAQuotePage() {
                           </select>
                         </div>
                       ))}
+                      {customSchedules.map((c, i) => (
+                        <div key={i} className="flex items-center gap-2">
+                          <Input
+                            type="text"
+                            value={c.name}
+                            onChange={(e) =>
+                              updateCustomSchedule(i, { name: e.target.value })
+                            }
+                            placeholder="Schedule name, e.g. Jeopardy"
+                            disabled={isSubmitting}
+                            className={`${inputClass} h-9 flex-1 min-w-0`}
+                          />
+                          <select
+                            value={c.cadence}
+                            onChange={(e) =>
+                              updateCustomSchedule(i, { cadence: e.target.value })
+                            }
+                            disabled={isSubmitting}
+                            className={`${selectClass} flex-shrink-0`}
+                          >
+                            <option value="" disabled>
+                              Select cadence…
+                            </option>
+                            {CADENCE_OPTIONS.map((opt) => (
+                              <option key={opt} value={opt}>
+                                {opt}
+                              </option>
+                            ))}
+                          </select>
+                          <button
+                            type="button"
+                            onClick={() => removeCustomSchedule(i)}
+                            disabled={isSubmitting}
+                            className="flex-shrink-0 text-white/40 hover:text-yellow-400 transition-colors"
+                            aria-label="Remove schedule"
+                          >
+                            <X className="w-4 h-4" />
+                          </button>
+                        </div>
+                      ))}
                     </div>
                   )}
 
                   <div className="grid sm:grid-cols-2 gap-4">
                     <div>
-                      <label htmlFor="gq-residents" className={labelClass}>
-                        Residents / fellows
+                      <label htmlFor="gq-individuals" className={labelClass}>
+                        Individuals on the schedule
                       </label>
                       <Input
-                        id="gq-residents"
-                        name="num_residents"
+                        id="gq-individuals"
+                        name="num_individuals"
                         type="number"
                         min={0}
                         placeholder="e.g. 42"
@@ -486,13 +556,13 @@ export default function GetAQuotePage() {
 
                   <div>
                     <label htmlFor="gq-rotating" className={labelClass}>
-                      Rotating departments — roughly how many, and which?
+                      Rotating departments within the schedule(s)
                     </label>
                     <Input
                       id="gq-rotating"
                       name="rotating_departments"
                       type="text"
-                      placeholder="e.g. 6 — neurology, cardiology, MICU, …"
+                      placeholder="e.g. 6: neurology, cardiology, MICU, …"
                       disabled={isSubmitting}
                       className={inputClass}
                     />
@@ -529,11 +599,11 @@ export default function GetAQuotePage() {
                       >
                         <UploadCloud className="w-7 h-7 text-yellow-400" />
                         <span className="text-white text-sm font-medium">
-                          Drop rules docs or past schedules here
+                          Drop rules and/or past schedules here
                         </span>
                         <span className="text-white/40 text-xs">
-                          Excel, CSV, PDF, Word, or screenshots — or click to
-                          browse
+                          So we can understand the schedule and its complexity.
+                          Excel, CSV, PDF, Word, or screenshots. Click to browse.
                         </span>
                         <span className="inline-flex items-center rounded-full border border-white/10 bg-white/5 px-2.5 py-0.5 text-[10px] font-medium uppercase tracking-wider text-white/60">
                           {MAX_FILES_LABEL}
@@ -558,7 +628,7 @@ export default function GetAQuotePage() {
                       </div>
                     )}
                     <p className="mt-2 text-xs text-white/40">
-                      Optional. Keep or redact physician names — we never share
+                      Optional. Keep or redact physician names. We never share
                       your schedules or rules with anyone.
                     </p>
                   </div>
@@ -571,7 +641,7 @@ export default function GetAQuotePage() {
                       id="gq-notes"
                       name="notes"
                       rows={3}
-                      placeholder="Key scheduling rules, pain points, deadlines — anything that helps us scope your quote."
+                      placeholder="Key scheduling rules, pain points, deadlines, anything that helps us scope your quote."
                       disabled={isSubmitting}
                       className="bg-white/5 border-white/10 text-white placeholder:text-white/30 focus:border-yellow-400/50 focus:ring-0 rounded-lg resize-none"
                     />
@@ -581,7 +651,7 @@ export default function GetAQuotePage() {
 
                   <Button
                     type="submit"
-                    disabled={isSubmitting || schedules.length === 0}
+                    disabled={isSubmitting || !hasSchedules}
                     className="w-full bg-yellow-400 hover:bg-yellow-300 text-black font-semibold h-12 rounded-lg group disabled:opacity-50"
                   >
                     {isSubmitting ? (
@@ -595,9 +665,9 @@ export default function GetAQuotePage() {
                   </Button>
 
                   <p className="text-center text-xs text-white/40">
-                    {schedules.length === 0
+                    {!hasSchedules
                       ? "Pick at least one schedule type above to continue."
-                      : "Estimated quote by email within one business day. No account required."}
+                      : "Estimated quote by email soon. No account required."}
                   </p>
                 </form>
               </>
