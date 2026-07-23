@@ -2,7 +2,7 @@
 
 import type React from "react"
 import { useState, useRef } from "react"
-import { ArrowRight, Check, UploadCloud, FileText, CalendarClock, Plus, X } from "lucide-react"
+import { ArrowRight, Check, UploadCloud, FileText, CalendarClock, ListChecks, MessageSquareText, Plus, X } from "lucide-react"
 import emailjs from "@emailjs/browser"
 import posthog from "posthog-js"
 import { Button } from "@/components/ui/button"
@@ -11,11 +11,15 @@ import { Textarea } from "@/components/ui/textarea"
 
 type Stage = "form" | "success"
 
+type Mode = "" | "select" | "describe"
+
 type ScheduleRow = {
+  dept: string
   who: string
   type: string
   otherName: string
   cadence: string
+  people: string
 }
 
 // EmailJS free plan caps the total request payload (form vars + base64-encoded
@@ -47,16 +51,30 @@ const CADENCE_OPTIONS = [
   "Not sure yet",
 ]
 
+const DESCRIBE_PLACEHOLDERS: Record<string, string> = {
+  "Single department":
+    "e.g. We have about 60 residents including some rotators. We'd like the resident block schedule built once a year and the call schedule once a month.",
+  "Multiple departments":
+    "e.g. Neurology needs a resident block schedule once a year and call monthly. Cardiology needs a fellow clinic schedule twice a year. About 80 people total.",
+  "Enterprise (hospital-wide)":
+    "e.g. We manage schedules for 12 departments across the hospital: block, call, and clinic for residents and attendings. Roughly 300 people in total.",
+  "Private practice group":
+    "e.g. Our group has 25 physicians. We need the call schedule made monthly and the clinic schedule every quarter.",
+}
+
 const emptyRow = (): ScheduleRow => ({
+  dept: "",
   who: "",
   type: "",
   otherName: "",
   cadence: "",
+  people: "",
 })
 
 export default function GetAQuotePage() {
   const [stage, setStage] = useState<Stage>("form")
   const [setting, setSetting] = useState("")
+  const [mode, setMode] = useState<Mode>("")
   const [rows, setRows] = useState<ScheduleRow[]>([emptyRow()])
   const [describe, setDescribe] = useState("")
   const [fileNames, setFileNames] = useState<string[]>([])
@@ -69,10 +87,34 @@ export default function GetAQuotePage() {
   const messageRef = useRef<HTMLInputElement>(null)
   const subjectRef = useRef<HTMLInputElement>(null)
 
+  const multiDept =
+    setting === "Multiple departments" || setting === "Enterprise (hospital-wide)"
+
+  const deptLabel =
+    setting === "Private practice group"
+      ? "Group / specialty"
+      : multiDept
+        ? "Department(s)"
+        : "Department"
+
+  const deptPlaceholder =
+    setting === "Private practice group"
+      ? "e.g. Radiology"
+      : setting === "Enterprise (hospital-wide)"
+        ? "e.g. all GME programs, or list them"
+        : multiDept
+          ? "e.g. Neurology, Cardiology, MICU"
+          : "e.g. Internal Medicine"
+
   const completeRows = rows.filter(
     (r) => r.who && r.type && (r.type !== "Other" || r.otherName.trim()),
   )
-  const hasSchedules = completeRows.length > 0 || describe.trim().length > 0
+  const hasSchedules =
+    mode === "select"
+      ? completeRows.length > 0
+      : mode === "describe"
+        ? describe.trim().length > 0
+        : false
 
   const rowLabel = (r: ScheduleRow) =>
     `${r.who} ${r.type === "Other" ? r.otherName.trim() : r.type}`
@@ -142,27 +184,26 @@ export default function GetAQuotePage() {
       const data = new FormData(form)
       const field = (name: string) => (data.get(name) as string)?.trim() || "-"
 
-      const scheduleLines = completeRows.map(
-        (r) => `  - ${rowLabel(r)}: ${r.cadence || "cadence not specified"}`,
-      )
+      const scheduleLines =
+        mode === "select"
+          ? completeRows.map(
+              (r) =>
+                `  - ${r.dept.trim() ? `${r.dept.trim()}: ` : ""}${rowLabel(r)}: ${
+                  r.cadence || "cadence not specified"
+                }${r.people.trim() ? `, ~${r.people.trim()} people incl. rotators` : ""}`,
+            )
+          : []
 
       const summary = [
         `QUOTE REQUEST`,
         ``,
         `Contact: ${field("name")} <${field("email")}>`,
-        `Hospital / institution: ${field("hospital")}`,
-        `Department(s): ${field("departments")}`,
         `Setting: ${setting || "-"}`,
+        `Hospital / institution: ${field("hospital")}`,
+        `${deptLabel}: ${field("departments")}`,
         ``,
-        `Schedules requested:`,
-        scheduleLines.join("\n") || "  -",
-        ``,
-        `In their own words:`,
-        describe.trim() || "-",
-        ``,
-        `Individuals on the schedule: ${field("num_individuals")}`,
-        `Total people incl. rotators: ${field("num_total")}`,
-        `Rotating departments within the schedule(s): ${field("rotating_departments")}`,
+        `Schedules requested${mode === "describe" ? " (in their own words)" : ""}:`,
+        mode === "select" ? scheduleLines.join("\n") || "  -" : describe.trim() || "-",
         ``,
         `Budget expectations: ${field("budget")}`,
         ``,
@@ -283,13 +324,6 @@ export default function GetAQuotePage() {
                   <input type="hidden" name="subject" ref={subjectRef} />
                   <input type="hidden" name="message" ref={messageRef} />
                   <input type="hidden" name="setting" value={setting} />
-                  <input
-                    type="hidden"
-                    name="schedules_needed"
-                    value={completeRows
-                      .map((r) => `${rowLabel(r)} (${r.cadence || "cadence not specified"})`)
-                      .join("; ")}
-                  />
 
                   <div className="grid sm:grid-cols-2 gap-4">
                     <div>
@@ -322,40 +356,10 @@ export default function GetAQuotePage() {
                     </div>
                   </div>
 
-                  <div className="grid sm:grid-cols-2 gap-4">
-                    <div>
-                      <label htmlFor="gq-hospital" className={labelClass}>
-                        Hospital / medical center{" "}
-                        <span className="text-yellow-400">*</span>
-                      </label>
-                      <Input
-                        id="gq-hospital"
-                        name="hospital"
-                        type="text"
-                        required
-                        placeholder="e.g. Mass General"
-                        disabled={isSubmitting}
-                        className={inputClass}
-                      />
-                    </div>
-                    <div>
-                      <label htmlFor="gq-departments" className={labelClass}>
-                        Department(s) <span className="text-yellow-400">*</span>
-                      </label>
-                      <Input
-                        id="gq-departments"
-                        name="departments"
-                        type="text"
-                        required
-                        placeholder="e.g. Internal Medicine"
-                        disabled={isSubmitting}
-                        className={inputClass}
-                      />
-                    </div>
-                  </div>
-
                   <div>
-                    <span className={labelClass}>This is for a…</span>
+                    <span className={labelClass}>
+                      This is for a… <span className="text-yellow-400">*</span>
+                    </span>
                     <div className="flex flex-wrap gap-2">
                       {SETTINGS.map((s) => (
                         <button
@@ -371,281 +375,341 @@ export default function GetAQuotePage() {
                     </div>
                   </div>
 
-                  <div>
-                    <span className={labelClass}>
-                      Schedules you need <span className="text-yellow-400">*</span>
-                    </span>
-                    <div className="space-y-2">
-                      {rows.map((r, i) => (
-                        <div
-                          key={i}
-                          className="rounded-xl border border-white/10 bg-white/5 p-3 space-y-2"
-                        >
-                          <div className="flex items-center gap-2">
-                            <select
-                              value={r.who}
-                              onChange={(e) => updateRow(i, { who: e.target.value })}
-                              disabled={isSubmitting}
-                              className={`${selectClass} flex-1 min-w-0 ${r.who ? "text-white/90" : "text-white/40"}`}
-                              aria-label="Who is this schedule for?"
+                  {setting && (
+                    <>
+                      <div className="grid sm:grid-cols-2 gap-4">
+                        <div>
+                          <label htmlFor="gq-hospital" className={labelClass}>
+                            Hospital / medical center{" "}
+                            <span className="text-yellow-400">*</span>
+                          </label>
+                          <Input
+                            id="gq-hospital"
+                            name="hospital"
+                            type="text"
+                            required
+                            placeholder="e.g. Mass General"
+                            disabled={isSubmitting}
+                            className={inputClass}
+                          />
+                        </div>
+                        <div>
+                          <label htmlFor="gq-departments" className={labelClass}>
+                            {deptLabel} <span className="text-yellow-400">*</span>
+                          </label>
+                          <Input
+                            id="gq-departments"
+                            name="departments"
+                            type="text"
+                            required
+                            placeholder={deptPlaceholder}
+                            disabled={isSubmitting}
+                            className={inputClass}
+                          />
+                        </div>
+                      </div>
+
+                      <div>
+                        <span className={labelClass}>
+                          Schedules you need{" "}
+                          <span className="text-yellow-400">*</span>
+                        </span>
+                        <div className="grid grid-cols-2 gap-2">
+                          <button
+                            type="button"
+                            onClick={() => setMode("select")}
+                            disabled={isSubmitting}
+                            className={`flex items-center justify-center gap-2 rounded-xl border px-4 py-3 text-sm font-medium transition-colors ${
+                              mode === "select"
+                                ? "border-yellow-400 bg-yellow-400/15 text-yellow-400"
+                                : "border-white/15 bg-white/5 text-white/70 hover:border-yellow-400/50 hover:text-white"
+                            }`}
+                          >
+                            <ListChecks className="w-4 h-4" />
+                            Pick from options
+                          </button>
+                          <button
+                            type="button"
+                            onClick={() => setMode("describe")}
+                            disabled={isSubmitting}
+                            className={`flex items-center justify-center gap-2 rounded-xl border px-4 py-3 text-sm font-medium transition-colors ${
+                              mode === "describe"
+                                ? "border-yellow-400 bg-yellow-400/15 text-yellow-400"
+                                : "border-white/15 bg-white/5 text-white/70 hover:border-yellow-400/50 hover:text-white"
+                            }`}
+                          >
+                            <MessageSquareText className="w-4 h-4" />
+                            Describe it yourself
+                          </button>
+                        </div>
+                      </div>
+
+                      {mode === "select" && (
+                        <div className="space-y-2">
+                          {rows.map((r, i) => (
+                            <div
+                              key={i}
+                              className="rounded-xl border border-white/10 bg-white/5 p-3 space-y-2"
                             >
-                              <option value="" disabled>
-                                Who is it for?
-                              </option>
-                              {WHO_OPTIONS.map((o) => (
-                                <option key={o} value={o}>
-                                  {o}
-                                </option>
-                              ))}
-                            </select>
-                            <select
-                              value={r.type}
-                              onChange={(e) => updateRow(i, { type: e.target.value })}
-                              disabled={isSubmitting}
-                              className={`${selectClass} flex-1 min-w-0 ${r.type ? "text-white/90" : "text-white/40"}`}
-                              aria-label="Schedule type"
-                            >
-                              <option value="" disabled>
-                                Schedule type?
-                              </option>
-                              {TYPE_OPTIONS.map((o) => (
-                                <option key={o} value={o}>
-                                  {o}
-                                </option>
-                              ))}
-                            </select>
-                            <select
-                              value={r.cadence}
-                              onChange={(e) => updateRow(i, { cadence: e.target.value })}
-                              disabled={isSubmitting}
-                              className={`${selectClass} flex-1 min-w-0 ${r.cadence ? "text-white/90" : "text-white/40"}`}
-                              aria-label="How often is it made?"
-                            >
-                              <option value="" disabled>
-                                Made how often?
-                              </option>
-                              {CADENCE_OPTIONS.map((o) => (
-                                <option key={o} value={o}>
-                                  {o}
-                                </option>
-                              ))}
-                            </select>
+                              {multiDept && (
+                                <Input
+                                  type="text"
+                                  value={r.dept}
+                                  onChange={(e) =>
+                                    updateRow(i, { dept: e.target.value })
+                                  }
+                                  placeholder="Department, e.g. Neurology"
+                                  disabled={isSubmitting}
+                                  className={`${inputClass} h-9`}
+                                />
+                              )}
+                              <div className="flex items-center gap-2">
+                                <select
+                                  value={r.who}
+                                  onChange={(e) =>
+                                    updateRow(i, { who: e.target.value })
+                                  }
+                                  disabled={isSubmitting}
+                                  className={`${selectClass} flex-1 min-w-0 ${r.who ? "text-white/90" : "text-white/40"}`}
+                                  aria-label="Who is this schedule for?"
+                                >
+                                  <option value="" disabled>
+                                    Who is it for?
+                                  </option>
+                                  {WHO_OPTIONS.map((o) => (
+                                    <option key={o} value={o}>
+                                      {o}
+                                    </option>
+                                  ))}
+                                </select>
+                                <select
+                                  value={r.type}
+                                  onChange={(e) =>
+                                    updateRow(i, { type: e.target.value })
+                                  }
+                                  disabled={isSubmitting}
+                                  className={`${selectClass} flex-1 min-w-0 ${r.type ? "text-white/90" : "text-white/40"}`}
+                                  aria-label="Schedule type"
+                                >
+                                  <option value="" disabled>
+                                    Schedule type?
+                                  </option>
+                                  {TYPE_OPTIONS.map((o) => (
+                                    <option key={o} value={o}>
+                                      {o}
+                                    </option>
+                                  ))}
+                                </select>
+                                <select
+                                  value={r.cadence}
+                                  onChange={(e) =>
+                                    updateRow(i, { cadence: e.target.value })
+                                  }
+                                  disabled={isSubmitting}
+                                  className={`${selectClass} flex-1 min-w-0 ${r.cadence ? "text-white/90" : "text-white/40"}`}
+                                  aria-label="How often is it made?"
+                                >
+                                  <option value="" disabled>
+                                    Made how often?
+                                  </option>
+                                  {CADENCE_OPTIONS.map((o) => (
+                                    <option key={o} value={o}>
+                                      {o}
+                                    </option>
+                                  ))}
+                                </select>
+                                <button
+                                  type="button"
+                                  onClick={() => removeRow(i)}
+                                  disabled={isSubmitting}
+                                  className="flex-shrink-0 text-white/40 hover:text-yellow-400 transition-colors"
+                                  aria-label="Remove schedule"
+                                >
+                                  <X className="w-4 h-4" />
+                                </button>
+                              </div>
+                              {r.type === "Other" && (
+                                <Input
+                                  type="text"
+                                  value={r.otherName}
+                                  onChange={(e) =>
+                                    updateRow(i, { otherName: e.target.value })
+                                  }
+                                  placeholder="Name this schedule, e.g. Jeopardy"
+                                  disabled={isSubmitting}
+                                  className={`${inputClass} h-9`}
+                                />
+                              )}
+                              <Input
+                                type="number"
+                                min={0}
+                                value={r.people}
+                                onChange={(e) =>
+                                  updateRow(i, { people: e.target.value })
+                                }
+                                placeholder="Estimated people on it, incl. rotators, e.g. 60"
+                                disabled={isSubmitting}
+                                className={`${inputClass} h-9`}
+                              />
+                            </div>
+                          ))}
+                          <button
+                            type="button"
+                            onClick={addRow}
+                            disabled={isSubmitting}
+                            className={`${chipClass(false)} inline-flex items-center gap-1`}
+                          >
+                            <Plus className="w-3.5 h-3.5" />
+                            Add another schedule
+                          </button>
+                        </div>
+                      )}
+
+                      {mode === "describe" && (
+                        <Textarea
+                          id="gq-describe"
+                          name="schedules_description"
+                          rows={4}
+                          value={describe}
+                          onChange={(e) => setDescribe(e.target.value)}
+                          placeholder={DESCRIBE_PLACEHOLDERS[setting]}
+                          disabled={isSubmitting}
+                          className="bg-white/5 border-white/10 text-white placeholder:text-white/30 focus:border-yellow-400/50 focus:ring-0 rounded-lg resize-none"
+                        />
+                      )}
+                    </>
+                  )}
+
+                  {hasSchedules && (
+                    <>
+                      <div>
+                        <span className={labelClass}>
+                          Schedule rules & past schedules
+                        </span>
+                        <input
+                          id="gq-files"
+                          ref={fileInputRef}
+                          type="file"
+                          name="schedule"
+                          multiple
+                          accept=".ics,.csv,.tsv,.xlsx,.xls,.ods,.numbers,.pdf,.doc,.docx,.txt,.png,.jpg,.jpeg,.gif,.heic"
+                          onChange={handleFileChange}
+                          className="hidden"
+                        />
+                        {fileNames.length === 0 ? (
+                          <label
+                            htmlFor="gq-files"
+                            onDragOver={(e) => {
+                              e.preventDefault()
+                              setIsDragging(true)
+                            }}
+                            onDragLeave={() => setIsDragging(false)}
+                            onDrop={handleDrop}
+                            className={`flex flex-col items-center justify-center gap-2 cursor-pointer rounded-xl border-2 border-dashed px-6 py-8 text-center transition-colors ${
+                              isDragging
+                                ? "border-yellow-400 bg-yellow-400/5"
+                                : "border-white/15 hover:border-yellow-400/50 hover:bg-white/5"
+                            }`}
+                          >
+                            <UploadCloud className="w-7 h-7 text-yellow-400" />
+                            <span className="text-white text-sm font-medium">
+                              Drop rules and/or past schedules here
+                            </span>
+                            <span className="text-white/40 text-xs">
+                              So we can understand the schedule and its
+                              complexity. Excel, CSV, PDF, Word, or screenshots.
+                              Click to browse.
+                            </span>
+                            <span className="inline-flex items-center rounded-full border border-white/10 bg-white/5 px-2.5 py-0.5 text-[10px] font-medium uppercase tracking-wider text-white/60">
+                              {MAX_FILES_LABEL}
+                            </span>
+                          </label>
+                        ) : (
+                          <div className="flex items-center justify-between rounded-lg border border-white/10 bg-white/5 px-4 py-3">
+                            <span className="flex items-center gap-2 text-sm text-white/80 min-w-0">
+                              <FileText className="w-4 h-4 flex-shrink-0 text-yellow-400" />
+                              <span className="truncate">
+                                {fileNames.join(", ")}
+                              </span>
+                            </span>
                             <button
                               type="button"
-                              onClick={() => removeRow(i)}
-                              disabled={isSubmitting}
-                              className="flex-shrink-0 text-white/40 hover:text-yellow-400 transition-colors"
-                              aria-label="Remove schedule"
+                              onClick={clearFiles}
+                              className="ml-3 flex-shrink-0 text-white/40 hover:text-yellow-400 transition-colors"
+                              aria-label="Remove files"
                             >
                               <X className="w-4 h-4" />
                             </button>
                           </div>
-                          {r.type === "Other" && (
-                            <Input
-                              type="text"
-                              value={r.otherName}
-                              onChange={(e) =>
-                                updateRow(i, { otherName: e.target.value })
-                              }
-                              placeholder="Name this schedule, e.g. Jeopardy"
-                              disabled={isSubmitting}
-                              className={`${inputClass} h-9`}
-                            />
-                          )}
-                        </div>
-                      ))}
-                      <button
-                        type="button"
-                        onClick={addRow}
-                        disabled={isSubmitting}
-                        className={`${chipClass(false)} inline-flex items-center gap-1`}
-                      >
-                        <Plus className="w-3.5 h-3.5" />
-                        Add another schedule
-                      </button>
-                    </div>
-                  </div>
-
-                  <div>
-                    <label htmlFor="gq-describe" className={labelClass}>
-                      Or just describe what you need
-                    </label>
-                    <Textarea
-                      id="gq-describe"
-                      name="schedules_description"
-                      rows={3}
-                      value={describe}
-                      onChange={(e) => setDescribe(e.target.value)}
-                      placeholder="Plain English works. e.g. Resident call every 3 months, fellowship call yearly, and an attending clinic schedule once a year."
-                      disabled={isSubmitting}
-                      className="bg-white/5 border-white/10 text-white placeholder:text-white/30 focus:border-yellow-400/50 focus:ring-0 rounded-lg resize-none"
-                    />
-                  </div>
-
-                  <div className="grid sm:grid-cols-2 gap-4">
-                    <div>
-                      <label htmlFor="gq-individuals" className={labelClass}>
-                        Individuals on the schedule
-                      </label>
-                      <Input
-                        id="gq-individuals"
-                        name="num_individuals"
-                        type="number"
-                        min={0}
-                        placeholder="e.g. 42"
-                        disabled={isSubmitting}
-                        className={inputClass}
-                      />
-                    </div>
-                    <div>
-                      <label htmlFor="gq-total" className={labelClass}>
-                        Total people incl. rotators
-                      </label>
-                      <Input
-                        id="gq-total"
-                        name="num_total"
-                        type="number"
-                        min={0}
-                        placeholder="e.g. 65"
-                        disabled={isSubmitting}
-                        className={inputClass}
-                      />
-                    </div>
-                  </div>
-
-                  <div>
-                    <label htmlFor="gq-rotating" className={labelClass}>
-                      Rotating departments within the schedule(s)
-                    </label>
-                    <Input
-                      id="gq-rotating"
-                      name="rotating_departments"
-                      type="text"
-                      placeholder="e.g. 6: neurology, cardiology, MICU, …"
-                      disabled={isSubmitting}
-                      className={inputClass}
-                    />
-                  </div>
-
-                  <div>
-                    <span className={labelClass}>
-                      Schedule rules & past schedules
-                    </span>
-                    <input
-                      id="gq-files"
-                      ref={fileInputRef}
-                      type="file"
-                      name="schedule"
-                      multiple
-                      accept=".ics,.csv,.tsv,.xlsx,.xls,.ods,.numbers,.pdf,.doc,.docx,.txt,.png,.jpg,.jpeg,.gif,.heic"
-                      onChange={handleFileChange}
-                      className="hidden"
-                    />
-                    {fileNames.length === 0 ? (
-                      <label
-                        htmlFor="gq-files"
-                        onDragOver={(e) => {
-                          e.preventDefault()
-                          setIsDragging(true)
-                        }}
-                        onDragLeave={() => setIsDragging(false)}
-                        onDrop={handleDrop}
-                        className={`flex flex-col items-center justify-center gap-2 cursor-pointer rounded-xl border-2 border-dashed px-6 py-8 text-center transition-colors ${
-                          isDragging
-                            ? "border-yellow-400 bg-yellow-400/5"
-                            : "border-white/15 hover:border-yellow-400/50 hover:bg-white/5"
-                        }`}
-                      >
-                        <UploadCloud className="w-7 h-7 text-yellow-400" />
-                        <span className="text-white text-sm font-medium">
-                          Drop rules and/or past schedules here
-                        </span>
-                        <span className="text-white/40 text-xs">
-                          So we can understand the schedule and its complexity.
-                          Excel, CSV, PDF, Word, or screenshots. Click to browse.
-                        </span>
-                        <span className="inline-flex items-center rounded-full border border-white/10 bg-white/5 px-2.5 py-0.5 text-[10px] font-medium uppercase tracking-wider text-white/60">
-                          {MAX_FILES_LABEL}
-                        </span>
-                      </label>
-                    ) : (
-                      <div className="flex items-center justify-between rounded-lg border border-white/10 bg-white/5 px-4 py-3">
-                        <span className="flex items-center gap-2 text-sm text-white/80 min-w-0">
-                          <FileText className="w-4 h-4 flex-shrink-0 text-yellow-400" />
-                          <span className="truncate">
-                            {fileNames.join(", ")}
-                          </span>
-                        </span>
-                        <button
-                          type="button"
-                          onClick={clearFiles}
-                          className="ml-3 flex-shrink-0 text-white/40 hover:text-yellow-400 transition-colors"
-                          aria-label="Remove files"
-                        >
-                          <X className="w-4 h-4" />
-                        </button>
+                        )}
+                        <p className="mt-2 text-xs text-white/40">
+                          Optional. Keep or redact physician names. We never
+                          share your schedules or rules with anyone.
+                        </p>
                       </div>
-                    )}
-                    <p className="mt-2 text-xs text-white/40">
-                      Optional. Keep or redact physician names. We never share
-                      your schedules or rules with anyone.
-                    </p>
-                  </div>
 
-                  <div>
-                    <label htmlFor="gq-budget" className={labelClass}>
-                      Budget expectations
-                    </label>
-                    <Input
-                      id="gq-budget"
-                      name="budget"
-                      type="text"
-                      placeholder="Optional. A rough range or what you'd expect this to cost."
-                      disabled={isSubmitting}
-                      className={inputClass}
-                    />
-                    <p className="mt-2 text-xs text-white/40">
-                      This doesn&apos;t lock anything in. It just helps us scope
-                      the right solution for you.
-                    </p>
-                  </div>
+                      <div>
+                        <label htmlFor="gq-budget" className={labelClass}>
+                          Budget expectations
+                        </label>
+                        <Input
+                          id="gq-budget"
+                          name="budget"
+                          type="text"
+                          placeholder="Optional. A rough range or what you'd expect this to cost."
+                          disabled={isSubmitting}
+                          className={inputClass}
+                        />
+                        <p className="mt-2 text-xs text-white/40">
+                          This doesn&apos;t lock anything in. It just helps us
+                          scope the right solution for you.
+                        </p>
+                      </div>
 
-                  <div>
-                    <label htmlFor="gq-notes" className={labelClass}>
-                      Anything else?
-                    </label>
-                    <Textarea
-                      id="gq-notes"
-                      name="notes"
-                      rows={3}
-                      placeholder="Key scheduling rules, pain points, deadlines, anything that helps us scope your quote."
-                      disabled={isSubmitting}
-                      className="bg-white/5 border-white/10 text-white placeholder:text-white/30 focus:border-yellow-400/50 focus:ring-0 rounded-lg resize-none"
-                    />
-                  </div>
+                      <div>
+                        <label htmlFor="gq-notes" className={labelClass}>
+                          Anything else?
+                        </label>
+                        <Textarea
+                          id="gq-notes"
+                          name="notes"
+                          rows={3}
+                          placeholder="Key pain points, deadlines, the system you currently use, past experiences with other vendors, anything that helps us scope your quote."
+                          disabled={isSubmitting}
+                          className="bg-white/5 border-white/10 text-white placeholder:text-white/30 focus:border-yellow-400/50 focus:ring-0 rounded-lg resize-none"
+                        />
+                      </div>
+                    </>
+                  )}
 
                   {errorMsg && <p className="text-sm text-red-400">{errorMsg}</p>}
 
-                  <Button
-                    type="submit"
-                    disabled={isSubmitting || !hasSchedules}
-                    className="w-full bg-yellow-400 hover:bg-yellow-300 text-black font-semibold h-12 rounded-lg group disabled:opacity-50"
-                  >
-                    {isSubmitting ? (
-                      "Sending…"
-                    ) : (
-                      <>
-                        Get my quote
-                        <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
-                      </>
-                    )}
-                  </Button>
+                  {setting && (
+                    <>
+                      <Button
+                        type="submit"
+                        disabled={isSubmitting || !hasSchedules}
+                        className="w-full bg-yellow-400 hover:bg-yellow-300 text-black font-semibold h-12 rounded-lg group disabled:opacity-50"
+                      >
+                        {isSubmitting ? (
+                          "Sending…"
+                        ) : (
+                          <>
+                            Get my quote
+                            <ArrowRight className="ml-2 w-4 h-4 group-hover:translate-x-1 transition-transform" />
+                          </>
+                        )}
+                      </Button>
 
-                  <p className="text-center text-xs text-white/40">
-                    {!hasSchedules
-                      ? "Add at least one schedule above, or describe what you need."
-                      : "Estimated quote by email soon. No account required."}
-                  </p>
+                      <p className="text-center text-xs text-white/40">
+                        {!hasSchedules
+                          ? mode === ""
+                            ? "Choose how you'd like to tell us about your schedules."
+                            : "Tell us about at least one schedule to continue."
+                          : "Estimated quote by email soon. No account required."}
+                      </p>
+                    </>
+                  )}
                 </form>
               </>
             )}
