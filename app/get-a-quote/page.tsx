@@ -4,6 +4,7 @@ import type React from "react"
 import { useEffect, useRef, useState } from "react"
 import { ArrowRight, Check, UploadCloud, FileText, CalendarClock, ListChecks, MessageSquareText, Plus, X } from "lucide-react"
 import emailjs from "@emailjs/browser"
+import { upload } from "@vercel/blob/client"
 import posthog from "posthog-js"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
@@ -23,12 +24,13 @@ type ScheduleRow = {
   people: string
 }
 
-// EmailJS free plan caps the total request payload (form vars + base64-encoded
-// attachments) at 50 KB. Paid plans bump that to 2 MB. We validate against the
-// free-plan ceiling and capture a PostHog event when files exceed it. If the
-// rate is high, that's the signal to swap to a real attachment-friendly backend.
-const MAX_FILES_BYTES = 50 * 1024
-const MAX_FILES_LABEL = "Up to 50 KB total"
+// Attachments upload directly from the browser to Vercel Blob (any size, up
+// to 100 MB per file), and the quote email carries their download links.
+// This sidesteps EmailJS's 50 KB total-payload cap entirely.
+const MAX_FILE_BYTES = 100 * 1024 * 1024
+const FILES_LABEL = "Any size, up to 100 MB per file"
+
+type UploadedFile = { name: string; size: number; url: string }
 
 const CALENDLY_URL = "https://calendly.com/zacdermody-schedulingwiz/new-meeting"
 
@@ -70,6 +72,11 @@ const DESCRIBE_PLACEHOLDERS: Record<string, string> = {
     "e.g. Our group has 25 physicians plus part-timers. Call schedule made monthly, clinic schedule every quarter, holiday coverage once a year.",
 }
 
+const prettySize = (bytes: number) =>
+  bytes >= 1024 * 1024
+    ? `${(bytes / (1024 * 1024)).toFixed(1)} MB`
+    : `${Math.max(1, Math.round(bytes / 1024))} KB`
+
 const emptyRow = (): ScheduleRow => ({
   label: "",
   dept: "",
@@ -97,6 +104,7 @@ export default function GetAQuotePage() {
   const [files, setFiles] = useState<File[]>([])
   const [isDragging, setIsDragging] = useState(false)
   const [isSubmitting, setIsSubmitting] = useState(false)
+  const [uploadProgress, setUploadProgress] = useState<string | null>(null)
   const [errorMsg, setErrorMsg] = useState<string | null>(null)
 
   const formRef = useRef<HTMLFormElement>(null)
@@ -189,41 +197,23 @@ export default function GetAQuotePage() {
 
   const addRow = () => setRows([...rows, emptyRow()])
 
-  // The hidden input is what EmailJS reads at submit time, so keep its
-  // FileList mirrored to the managed files state after every add/rename/remove.
-  const syncInput = (list: File[]) => {
-    const dt = new DataTransfer()
-    list.forEach((f) => dt.items.add(f))
-    if (fileInputRef.current) fileInputRef.current.files = dt.files
-  }
-
   const addFiles = (incoming: FileList) => {
-    const merged = [...files, ...Array.from(incoming)]
-    const total = merged.reduce((sum, f) => sum + f.size, 0)
-    if (total > MAX_FILES_BYTES) {
-      const sizeMb = +(total / (1024 * 1024)).toFixed(2)
-      posthog.capture("quote_files_too_large", {
-        file_count: merged.length,
-        total_size_bytes: total,
-        total_size_mb: sizeMb,
-        limit_bytes: MAX_FILES_BYTES,
-      })
-      const sizeKb = Math.round(total / 1024)
+    const accepted = Array.from(incoming)
+    const oversized = accepted.find((f) => f.size > MAX_FILE_BYTES)
+    if (oversized) {
       setErrorMsg(
-        `Those files add up to ${sizeKb} KB. We can only accept up to 50 KB right now. Try a smaller set, or email them to founders@schedulingwiz.com and we'll take it from there.`,
+        `${oversized.name} is over 100 MB. Email it to founders@schedulingwiz.com instead and we'll take it from there.`,
       )
-      syncInput(files)
       return
     }
     setErrorMsg(null)
-    setFiles(merged)
-    syncInput(merged)
+    setFiles([...files, ...accepted])
+    // Reset the picker so choosing the same file again still fires onChange.
+    if (fileInputRef.current) fileInputRef.current.value = ""
   }
 
   const removeFile = (index: number) => {
-    const next = files.filter((_, i) => i !== index)
-    setFiles(next)
-    syncInput(next)
+    setFiles(files.filter((_, i) => i !== index))
   }
 
   const renameFile = (index: number, newName: string) => {
@@ -236,9 +226,7 @@ export default function GetAQuotePage() {
     const finalName =
       trimmed.includes(".") || !ext ? trimmed : `${trimmed}${ext}`
     const renamed = new File([original], finalName, { type: original.type })
-    const next = files.map((f, i) => (i === index ? renamed : f))
-    setFiles(next)
-    syncInput(next)
+    setFiles(files.map((f, i) => (i === index ? renamed : f)))
   }
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -254,7 +242,7 @@ export default function GetAQuotePage() {
   // One structured, delimited report: easy for a human to scan and for an LLM
   // to parse downstream. Includes both input modes regardless of which was
   // active so nothing typed is ever silently dropped.
-  const buildSummary = () => {
+  const buildSummary = (uploaded: UploadedFile[]) => {
     const structured = completeRows.length
       ? completeRows
           .map((r, n) => {
@@ -294,10 +282,10 @@ export default function GetAQuotePage() {
       `## BUDGET EXPECTATIONS`,
       budget.trim() || "not specified",
       ``,
-      `## ATTACHED FILES`,
-      files.length
-        ? files
-            .map((f) => `- ${f.name} (${Math.max(1, Math.round(f.size / 1024))} KB)`)
+      `## ATTACHED FILES (download links)`,
+      uploaded.length
+        ? uploaded
+            .map((f) => `- ${f.name} (${prettySize(f.size)}): ${f.url}`)
             .join("\n")
         : "none",
       ``,
@@ -321,6 +309,38 @@ export default function GetAQuotePage() {
     setIsSubmitting(true)
     setErrorMsg(null)
 
+    // Upload attachments to Blob first; the email only carries their links,
+    // so file size never hits EmailJS's payload cap.
+    const uploaded: UploadedFile[] = []
+    for (let i = 0; i < files.length; i++) {
+      const f = files[i]
+      setUploadProgress(
+        files.length > 1
+          ? `Uploading file ${i + 1} of ${files.length}…`
+          : "Uploading file…",
+      )
+      try {
+        const blob = await upload(`quote-uploads/${f.name}`, f, {
+          access: "public",
+          handleUploadUrl: "/api/quote-upload",
+        })
+        uploaded.push({ name: f.name, size: f.size, url: blob.url })
+      } catch (err) {
+        console.error("Upload error:", err)
+        posthog.capture("quote_upload_failed", {
+          file_name: f.name,
+          file_size_bytes: f.size,
+        })
+        setErrorMsg(
+          `Couldn't upload ${f.name}. Try again, or remove it and email the file to founders@schedulingwiz.com. Your answers are still saved.`,
+        )
+        setUploadProgress(null)
+        setIsSubmitting(false)
+        return
+      }
+    }
+    setUploadProgress(null)
+
     try {
       const form = formRef.current
       if (!form) return
@@ -328,7 +348,7 @@ export default function GetAQuotePage() {
       // The shared EmailJS template renders {{subject}} and {{message}} (same
       // template the contact form uses), so fold every answer into those two
       // variables. No template changes needed for new fields.
-      if (messageRef.current) messageRef.current.value = buildSummary()
+      if (messageRef.current) messageRef.current.value = buildSummary(uploaded)
 
       const result = await emailjs.sendForm(
         "service_x9kkaxn",
@@ -349,7 +369,14 @@ export default function GetAQuotePage() {
       console.error("EmailJS error:", err)
       const e = err as { text?: string; status?: number; message?: string }
       const detail = e?.text || e?.message || ""
-      if (e?.status === 422 || /email|recipient/i.test(detail)) {
+      if (e?.status === 413 || /size limit/i.test(detail)) {
+        posthog.capture("quote_send_payload_too_large", {
+          message_chars: messageRef.current?.value.length ?? 0,
+        })
+        setErrorMsg(
+          "Your submission text is too long to send in one go. Trim the description or notes a bit and resend. You can always email the rest to founders@schedulingwiz.com.",
+        )
+      } else if (e?.status === 422 || /email|recipient/i.test(detail)) {
         setEmailInvalid(true)
         setErrorMsg(
           "We couldn't send this. Please double-check your email address and try again.",
@@ -765,11 +792,11 @@ export default function GetAQuotePage() {
                       <span className={labelClass}>
                         Schedule rules & past schedules
                       </span>
+                      {/* No name attribute: files go to Blob storage, not EmailJS */}
                       <input
                         id="gq-files"
                         ref={fileInputRef}
                         type="file"
-                        name="schedule"
                         multiple
                         accept=".ics,.csv,.tsv,.xlsx,.xls,.ods,.numbers,.pdf,.doc,.docx,.txt,.png,.jpg,.jpeg,.gif,.heic"
                         onChange={handleFileChange}
@@ -799,7 +826,7 @@ export default function GetAQuotePage() {
                                 className="h-8 flex-1 min-w-0 bg-transparent border-transparent hover:border-white/10 focus:border-yellow-400/50 focus:ring-0 rounded-md text-sm text-white/80 px-2"
                               />
                               <span className="flex-shrink-0 text-[10px] text-white/30">
-                                {Math.max(1, Math.round(f.size / 1024))} KB
+                                {prettySize(f.size)}
                               </span>
                               <button
                                 type="button"
@@ -846,7 +873,7 @@ export default function GetAQuotePage() {
                           </span>
                         )}
                         <span className="inline-flex items-center rounded-full border border-white/10 bg-white/5 px-2.5 py-0.5 text-[10px] font-medium uppercase tracking-wider text-white/60">
-                          {MAX_FILES_LABEL}
+                          {FILES_LABEL}
                         </span>
                       </label>
                       <p className="mt-2 text-xs text-white/40">
@@ -899,7 +926,7 @@ export default function GetAQuotePage() {
                       className="w-full bg-yellow-400 hover:bg-yellow-300 text-black font-semibold h-12 rounded-lg group disabled:opacity-50"
                     >
                       {isSubmitting ? (
-                        "Sending…"
+                        uploadProgress || "Sending…"
                       ) : (
                         <>
                           Get my quote
