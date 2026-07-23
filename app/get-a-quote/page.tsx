@@ -103,8 +103,8 @@ export default function GetAQuotePage() {
       : setting === "Enterprise (hospital-wide)"
         ? "e.g. all GME programs, or list them"
         : multiDept
-          ? "e.g. Neurology, Cardiology, MICU"
-          : "e.g. Internal Medicine"
+          ? "e.g. Neurology Residency, NeuroICU Fellowship, EM Residency and Attendings"
+          : "e.g. Internal Medicine Residency"
 
   const completeRows = rows.filter(
     (r) => r.who && r.type && (r.type !== "Other" || r.otherName.trim()),
@@ -579,7 +579,7 @@ export default function GetAQuotePage() {
                     </>
                   )}
 
-                  {hasSchedules && (
+                  {setting && (
                     <>
                       <div>
                         <span className={labelClass}>
