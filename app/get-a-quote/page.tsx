@@ -321,11 +321,8 @@ export default function GetAQuotePage() {
               </div>
             ) : (
               <>
-                <div className="flex items-start justify-between mb-6">
-                  <h2 className="text-2xl font-semibold text-white">
-                    Tell us about your program
-                  </h2>
-                  <span className="text-white/40 text-xs tracking-widest uppercase mt-2">
+                <div className="flex justify-end mb-4">
+                  <span className="text-white/40 text-xs tracking-widest uppercase">
                     Free quote
                   </span>
                 </div>
