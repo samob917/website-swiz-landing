@@ -53,13 +53,13 @@ const CADENCE_OPTIONS = [
 
 const DESCRIBE_PLACEHOLDERS: Record<string, string> = {
   "Single department":
-    "e.g. We have about 60 residents including rotators. We'd like the resident block schedule built once a year and the call schedule once a month.",
+    "e.g. We have about 60 residents including rotators. We need the resident block schedule built once a year, the call schedule monthly, and a clinic schedule twice a year.",
   "Multiple departments":
-    "e.g. Neurology needs a resident block schedule once a year and call monthly. Cardiology needs a fellow clinic schedule twice a year. About 80 people total.",
+    "e.g. Neurology Residency: block yearly and call monthly for about 40 residents. NeuroICU Fellowship: call every 6 months for 12 fellows. EM Attendings: clinic quarterly for 25.",
   "Enterprise (hospital-wide)":
-    "e.g. We manage schedules for 12 departments across the hospital: block, call, and clinic for residents and attendings. Roughly 300 people in total.",
+    "e.g. 12 departments, about 300 people. Around 20 schedules in total: most made once a year, 3 made monthly, 2 every 6 months, a mix of block, call, and clinic.",
   "Private practice group":
-    "e.g. Our group has 25 physicians. We need the call schedule made monthly and the clinic schedule every quarter.",
+    "e.g. Our group has 25 physicians plus part-timers. Call schedule made monthly, clinic schedule every quarter, holiday coverage once a year.",
 }
 
 const emptyRow = (): ScheduleRow => ({
@@ -77,7 +77,7 @@ export default function GetAQuotePage() {
   const [mode, setMode] = useState<Mode>("")
   const [rows, setRows] = useState<ScheduleRow[]>([emptyRow()])
   const [describe, setDescribe] = useState("")
-  const [fileNames, setFileNames] = useState<string[]>([])
+  const [files, setFiles] = useState<File[]>([])
   const [isDragging, setIsDragging] = useState(false)
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [errorMsg, setErrorMsg] = useState<string | null>(null)
@@ -129,12 +129,21 @@ export default function GetAQuotePage() {
 
   const addRow = () => setRows([...rows, emptyRow()])
 
-  const acceptFiles = (files: FileList) => {
-    const total = Array.from(files).reduce((sum, f) => sum + f.size, 0)
+  // The hidden input is what EmailJS reads at submit time, so keep its
+  // FileList mirrored to the managed files state after every add/rename/remove.
+  const syncInput = (list: File[]) => {
+    const dt = new DataTransfer()
+    list.forEach((f) => dt.items.add(f))
+    if (fileInputRef.current) fileInputRef.current.files = dt.files
+  }
+
+  const addFiles = (incoming: FileList) => {
+    const merged = [...files, ...Array.from(incoming)]
+    const total = merged.reduce((sum, f) => sum + f.size, 0)
     if (total > MAX_FILES_BYTES) {
       const sizeMb = +(total / (1024 * 1024)).toFixed(2)
       posthog.capture("quote_files_too_large", {
-        file_count: files.length,
+        file_count: merged.length,
         total_size_bytes: total,
         total_size_mb: sizeMb,
         limit_bytes: MAX_FILES_BYTES,
@@ -143,30 +152,43 @@ export default function GetAQuotePage() {
       setErrorMsg(
         `Those files add up to ${sizeKb} KB. We can only accept up to 50 KB right now. Try a smaller set, or email them to founders@schedulingwiz.com and we'll take it from there.`,
       )
-      if (fileInputRef.current) fileInputRef.current.value = ""
-      setFileNames([])
+      syncInput(files)
       return
     }
     setErrorMsg(null)
-    setFileNames(Array.from(files).map((f) => f.name))
+    setFiles(merged)
+    syncInput(merged)
+  }
+
+  const removeFile = (index: number) => {
+    const next = files.filter((_, i) => i !== index)
+    setFiles(next)
+    syncInput(next)
+  }
+
+  const renameFile = (index: number, newName: string) => {
+    const trimmed = newName.trim()
+    const original = files[index]
+    if (!original || !trimmed || trimmed === original.name) return
+    // Preserve the original extension when the new name doesn't include one.
+    const dot = original.name.lastIndexOf(".")
+    const ext = dot > 0 ? original.name.slice(dot) : ""
+    const finalName =
+      trimmed.includes(".") || !ext ? trimmed : `${trimmed}${ext}`
+    const renamed = new File([original], finalName, { type: original.type })
+    const next = files.map((f, i) => (i === index ? renamed : f))
+    setFiles(next)
+    syncInput(next)
   }
 
   const handleFileChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    if (e.target.files?.length) acceptFiles(e.target.files)
+    if (e.target.files?.length) addFiles(e.target.files)
   }
 
   const handleDrop = (e: React.DragEvent<HTMLLabelElement>) => {
     e.preventDefault()
     setIsDragging(false)
-    if (!e.dataTransfer.files?.length) return
-    // Mirror the dropped files into the hidden input so EmailJS can attach them.
-    if (fileInputRef.current) fileInputRef.current.files = e.dataTransfer.files
-    acceptFiles(e.dataTransfer.files)
-  }
-
-  const clearFiles = () => {
-    if (fileInputRef.current) fileInputRef.current.value = ""
-    setFileNames([])
+    if (e.dataTransfer.files?.length) addFiles(e.dataTransfer.files)
   }
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -207,7 +229,7 @@ export default function GetAQuotePage() {
         ``,
         `Budget expectations: ${field("budget")}`,
         ``,
-        `Attached files: ${fileNames.length ? fileNames.join(", ") : "none"}`,
+        `Attached files: ${files.length ? files.map((f) => f.name).join(", ") : "none"}`,
         ``,
         `Notes:`,
         field("notes"),
@@ -265,20 +287,10 @@ export default function GetAQuotePage() {
               <span className="hero-text-bold text-yellow-400">Quote</span>
             </h1>
 
-            <p className="text-base sm:text-lg text-white/80 max-w-xl leading-relaxed mb-8">
-              Tell us about your schedules. We&apos;ll scope the work and send
-              back a custom estimate for building them for you, by email.
+            <p className="text-base sm:text-lg text-white/80 max-w-xl leading-relaxed">
+              Tell us about your schedules. We&apos;ll scope the work and email
+              you a custom estimate for building your schedules.
             </p>
-
-            <div className="max-w-md rounded-xl border border-white/10 bg-white/5 p-4">
-              <p className="text-sm text-white/60 leading-relaxed">
-                <span className="font-semibold text-white">
-                  Your information stays private.
-                </span>{" "}
-                Keep or redact physician names. Your schedules, rules, and
-                program details are never shared with anyone.
-              </p>
-            </div>
           </div>
 
           {/* Right: quote form */}
@@ -565,16 +577,23 @@ export default function GetAQuotePage() {
                       )}
 
                       {mode === "describe" && (
-                        <Textarea
-                          id="gq-describe"
-                          name="schedules_description"
-                          rows={4}
-                          value={describe}
-                          onChange={(e) => setDescribe(e.target.value)}
-                          placeholder={DESCRIBE_PLACEHOLDERS[setting]}
-                          disabled={isSubmitting}
-                          className="bg-white/5 border-white/10 text-white placeholder:text-white/30 focus:border-yellow-400/50 focus:ring-0 rounded-lg resize-none"
-                        />
+                        <div>
+                          <Textarea
+                            id="gq-describe"
+                            name="schedules_description"
+                            rows={4}
+                            value={describe}
+                            onChange={(e) => setDescribe(e.target.value)}
+                            placeholder={DESCRIBE_PLACEHOLDERS[setting]}
+                            disabled={isSubmitting}
+                            className="bg-white/5 border-white/10 text-white placeholder:text-white/30 focus:border-yellow-400/50 focus:ring-0 rounded-lg resize-none"
+                          />
+                          <p className="mt-2 text-xs text-white/40">
+                            No structure needed. As much detail as you can
+                            helps: which schedules, how often each is made, and
+                            roughly how many people are on each.
+                          </p>
+                        </div>
                       )}
                     </>
                   )}
@@ -595,52 +614,80 @@ export default function GetAQuotePage() {
                           onChange={handleFileChange}
                           className="hidden"
                         />
-                        {fileNames.length === 0 ? (
-                          <label
-                            htmlFor="gq-files"
-                            onDragOver={(e) => {
-                              e.preventDefault()
-                              setIsDragging(true)
-                            }}
-                            onDragLeave={() => setIsDragging(false)}
-                            onDrop={handleDrop}
-                            className={`flex flex-col items-center justify-center gap-2 cursor-pointer rounded-xl border-2 border-dashed px-6 py-8 text-center transition-colors ${
-                              isDragging
-                                ? "border-yellow-400 bg-yellow-400/5"
-                                : "border-white/15 hover:border-yellow-400/50 hover:bg-white/5"
-                            }`}
-                          >
-                            <UploadCloud className="w-7 h-7 text-yellow-400" />
-                            <span className="text-white text-sm font-medium">
-                              Drop rules and/or past schedules here
-                            </span>
+                        {files.length > 0 && (
+                          <div className="space-y-2 mb-2">
+                            {files.map((f, i) => (
+                              <div
+                                key={`${i}-${f.name}`}
+                                className="flex items-center gap-2 rounded-lg border border-white/10 bg-white/5 px-3 py-2"
+                              >
+                                <FileText className="w-4 h-4 flex-shrink-0 text-yellow-400" />
+                                <Input
+                                  type="text"
+                                  defaultValue={f.name}
+                                  onBlur={(e) => renameFile(i, e.target.value)}
+                                  onKeyDown={(e) => {
+                                    if (e.key === "Enter") {
+                                      e.preventDefault()
+                                      e.currentTarget.blur()
+                                    }
+                                  }}
+                                  disabled={isSubmitting}
+                                  aria-label="Rename file"
+                                  title="Click to rename"
+                                  className="h-8 flex-1 min-w-0 bg-transparent border-transparent hover:border-white/10 focus:border-yellow-400/50 focus:ring-0 rounded-md text-sm text-white/80 px-2"
+                                />
+                                <span className="flex-shrink-0 text-[10px] text-white/30">
+                                  {Math.max(1, Math.round(f.size / 1024))} KB
+                                </span>
+                                <button
+                                  type="button"
+                                  onClick={() => removeFile(i)}
+                                  disabled={isSubmitting}
+                                  className="flex-shrink-0 text-white/40 hover:text-yellow-400 transition-colors"
+                                  aria-label={`Remove ${f.name}`}
+                                >
+                                  <X className="w-4 h-4" />
+                                </button>
+                              </div>
+                            ))}
+                          </div>
+                        )}
+                        <label
+                          htmlFor="gq-files"
+                          onDragOver={(e) => {
+                            e.preventDefault()
+                            setIsDragging(true)
+                          }}
+                          onDragLeave={() => setIsDragging(false)}
+                          onDrop={handleDrop}
+                          className={`flex flex-col items-center justify-center gap-2 cursor-pointer rounded-xl border-2 border-dashed text-center transition-colors ${
+                            files.length > 0 ? "px-4 py-4" : "px-6 py-8"
+                          } ${
+                            isDragging
+                              ? "border-yellow-400 bg-yellow-400/5"
+                              : "border-white/15 hover:border-yellow-400/50 hover:bg-white/5"
+                          }`}
+                        >
+                          <UploadCloud
+                            className={`text-yellow-400 ${files.length > 0 ? "w-5 h-5" : "w-7 h-7"}`}
+                          />
+                          <span className="text-white text-sm font-medium">
+                            {files.length > 0
+                              ? "Add more files"
+                              : "Drop rules and/or past schedules here"}
+                          </span>
+                          {files.length === 0 && (
                             <span className="text-white/40 text-xs">
                               So we can understand the schedule and its
                               complexity. Excel, CSV, PDF, Word, or screenshots.
                               Click to browse.
                             </span>
-                            <span className="inline-flex items-center rounded-full border border-white/10 bg-white/5 px-2.5 py-0.5 text-[10px] font-medium uppercase tracking-wider text-white/60">
-                              {MAX_FILES_LABEL}
-                            </span>
-                          </label>
-                        ) : (
-                          <div className="flex items-center justify-between rounded-lg border border-white/10 bg-white/5 px-4 py-3">
-                            <span className="flex items-center gap-2 text-sm text-white/80 min-w-0">
-                              <FileText className="w-4 h-4 flex-shrink-0 text-yellow-400" />
-                              <span className="truncate">
-                                {fileNames.join(", ")}
-                              </span>
-                            </span>
-                            <button
-                              type="button"
-                              onClick={clearFiles}
-                              className="ml-3 flex-shrink-0 text-white/40 hover:text-yellow-400 transition-colors"
-                              aria-label="Remove files"
-                            >
-                              <X className="w-4 h-4" />
-                            </button>
-                          </div>
-                        )}
+                          )}
+                          <span className="inline-flex items-center rounded-full border border-white/10 bg-white/5 px-2.5 py-0.5 text-[10px] font-medium uppercase tracking-wider text-white/60">
+                            {MAX_FILES_LABEL}
+                          </span>
+                        </label>
                         <p className="mt-2 text-xs text-white/40">
                           Optional. Keep or redact physician names. We never
                           share your schedules or rules with anyone.
@@ -659,10 +706,6 @@ export default function GetAQuotePage() {
                           disabled={isSubmitting}
                           className={inputClass}
                         />
-                        <p className="mt-2 text-xs text-white/40">
-                          This doesn&apos;t lock anything in. It just helps us
-                          scope the right solution for you.
-                        </p>
                       </div>
 
                       <div>
@@ -701,11 +744,7 @@ export default function GetAQuotePage() {
                       </Button>
 
                       <p className="text-center text-xs text-white/40">
-                        {!hasSchedules
-                          ? mode === ""
-                            ? "Choose how you'd like to tell us about your schedules."
-                            : "Tell us about at least one schedule to continue."
-                          : "Estimated quote by email soon. No account required."}
+                        Estimated quote by email soon. No account required.
                       </p>
                     </>
                   )}
