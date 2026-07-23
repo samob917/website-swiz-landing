@@ -11,7 +11,12 @@ import { Textarea } from "@/components/ui/textarea"
 
 type Stage = "form" | "success"
 
-type CustomSchedule = { name: string; cadence: string }
+type ScheduleRow = {
+  who: string
+  type: string
+  otherName: string
+  cadence: string
+}
 
 // EmailJS free plan caps the total request payload (form vars + base64-encoded
 // attachments) at 50 KB. Paid plans bump that to 2 MB. We validate against the
@@ -22,15 +27,16 @@ const MAX_FILES_LABEL = "Up to 50 KB total"
 
 const CALENDLY_URL = "https://calendly.com/zacdermody-schedulingwiz/new-meeting"
 
-const PROGRAM_TYPES = [
-  "Residency",
-  "Fellowship",
-  "Attendings",
-  "APPs",
-  "Private Practice Physician Group",
+const SETTINGS = [
+  "Single department",
+  "Multiple departments",
+  "Enterprise (hospital-wide)",
+  "Private practice group",
 ]
 
-const SCHEDULE_TYPES = ["Block", "Call", "Clinic", "Elective", "Attending", "APP"]
+const WHO_OPTIONS = ["Residents", "Fellows", "Attendings", "APPs", "Mixed"]
+
+const TYPE_OPTIONS = ["Block", "Call", "Clinic", "Elective", "Other"]
 
 const CADENCE_OPTIONS = [
   "Once a year",
@@ -41,14 +47,18 @@ const CADENCE_OPTIONS = [
   "Not sure yet",
 ]
 
+const emptyRow = (): ScheduleRow => ({
+  who: "",
+  type: "",
+  otherName: "",
+  cadence: "",
+})
+
 export default function GetAQuotePage() {
   const [stage, setStage] = useState<Stage>("form")
-  const [programTypes, setProgramTypes] = useState<string[]>([])
-  const [programOther, setProgramOther] = useState(false)
-  const [programOtherText, setProgramOtherText] = useState("")
-  const [schedules, setSchedules] = useState<string[]>([])
-  const [cadences, setCadences] = useState<Record<string, string>>({})
-  const [customSchedules, setCustomSchedules] = useState<CustomSchedule[]>([])
+  const [setting, setSetting] = useState("")
+  const [rows, setRows] = useState<ScheduleRow[]>([emptyRow()])
+  const [describe, setDescribe] = useState("")
   const [fileNames, setFileNames] = useState<string[]>([])
   const [isDragging, setIsDragging] = useState(false)
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -59,39 +69,23 @@ export default function GetAQuotePage() {
   const messageRef = useRef<HTMLInputElement>(null)
   const subjectRef = useRef<HTMLInputElement>(null)
 
-  const namedCustoms = customSchedules.filter((c) => c.name.trim())
-  const hasSchedules = schedules.length > 0 || namedCustoms.length > 0
+  const completeRows = rows.filter(
+    (r) => r.who && r.type && (r.type !== "Other" || r.otherName.trim()),
+  )
+  const hasSchedules = completeRows.length > 0 || describe.trim().length > 0
 
-  const toggleProgram = (value: string) => {
-    setProgramTypes(
-      programTypes.includes(value)
-        ? programTypes.filter((v) => v !== value)
-        : [...programTypes, value],
-    )
+  const rowLabel = (r: ScheduleRow) =>
+    `${r.who} ${r.type === "Other" ? r.otherName.trim() : r.type}`
+
+  const updateRow = (index: number, patch: Partial<ScheduleRow>) =>
+    setRows(rows.map((r, i) => (i === index ? { ...r, ...patch } : r)))
+
+  const removeRow = (index: number) => {
+    const next = rows.filter((_, i) => i !== index)
+    setRows(next.length ? next : [emptyRow()])
   }
 
-  const toggleSchedule = (value: string) => {
-    if (schedules.includes(value)) {
-      setSchedules(schedules.filter((v) => v !== value))
-      setCadences(({ [value]: _removed, ...rest }) => rest)
-    } else {
-      setSchedules([...schedules, value])
-    }
-  }
-
-  const addCustomSchedule = () =>
-    setCustomSchedules([...customSchedules, { name: "", cadence: "" }])
-
-  const updateCustomSchedule = (
-    index: number,
-    patch: Partial<CustomSchedule>,
-  ) =>
-    setCustomSchedules(
-      customSchedules.map((c, i) => (i === index ? { ...c, ...patch } : c)),
-    )
-
-  const removeCustomSchedule = (index: number) =>
-    setCustomSchedules(customSchedules.filter((_, i) => i !== index))
+  const addRow = () => setRows([...rows, emptyRow()])
 
   const acceptFiles = (files: FileList) => {
     const total = Array.from(files).reduce((sum, f) => sum + f.size, 0)
@@ -133,19 +127,6 @@ export default function GetAQuotePage() {
     setFileNames([])
   }
 
-  const allProgramTypes = () => {
-    const types = [...programTypes]
-    if (programOther && programOtherText.trim()) types.push(programOtherText.trim())
-    return types
-  }
-
-  const allScheduleLines = () => [
-    ...schedules.map((s) => `  - ${s}: ${cadences[s] || "cadence not specified"}`),
-    ...namedCustoms.map(
-      (c) => `  - ${c.name.trim()}: ${c.cadence || "cadence not specified"}`,
-    ),
-  ]
-
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     setIsSubmitting(true)
@@ -161,16 +142,23 @@ export default function GetAQuotePage() {
       const data = new FormData(form)
       const field = (name: string) => (data.get(name) as string)?.trim() || "-"
 
+      const scheduleLines = completeRows.map(
+        (r) => `  - ${rowLabel(r)}: ${r.cadence || "cadence not specified"}`,
+      )
+
       const summary = [
         `QUOTE REQUEST`,
         ``,
         `Contact: ${field("name")} <${field("email")}>`,
         `Hospital / institution: ${field("hospital")}`,
-        `Department: ${field("department")}`,
-        `Program type: ${allProgramTypes().join(", ") || "-"}`,
+        `Department(s): ${field("departments")}`,
+        `Setting: ${setting || "-"}`,
         ``,
-        `Schedules needed & cadence:`,
-        allScheduleLines().join("\n") || "  -",
+        `Schedules requested:`,
+        scheduleLines.join("\n") || "  -",
+        ``,
+        `In their own words:`,
+        describe.trim() || "-",
         ``,
         `Individuals on the schedule: ${field("num_individuals")}`,
         `Total people incl. rotators: ${field("num_total")}`,
@@ -180,13 +168,13 @@ export default function GetAQuotePage() {
         ``,
         `Attached files: ${fileNames.length ? fileNames.join(", ") : "none"}`,
         ``,
-        `Notes / schedule rules:`,
+        `Notes:`,
         field("notes"),
       ].join("\n")
 
       if (messageRef.current) messageRef.current.value = summary
       if (subjectRef.current)
-        subjectRef.current.value = `Quote request - ${field("department")} @ ${field("hospital")}`
+        subjectRef.current.value = `Quote request - ${field("departments")} @ ${field("hospital")}`
 
       const result = await emailjs.sendForm(
         "service_x9kkaxn",
@@ -223,7 +211,7 @@ export default function GetAQuotePage() {
   const inputClass =
     "bg-white/5 border-white/10 text-white placeholder:text-white/30 focus:border-yellow-400/50 focus:ring-0 rounded-lg h-11"
   const selectClass =
-    "h-9 rounded-lg border border-white/10 bg-white/5 px-2 text-sm text-white/80 focus:border-yellow-400/50 focus:outline-none [&>option]:bg-neutral-900"
+    "h-10 rounded-lg border border-white/10 bg-white/5 px-2 text-sm focus:border-yellow-400/50 focus:outline-none [&>option]:bg-neutral-900"
 
   return (
     <section className="hero-background medical-pattern min-h-screen relative overflow-hidden pt-32 pb-20">
@@ -294,15 +282,13 @@ export default function GetAQuotePage() {
                   <input type="hidden" name="to_email" value="founders@schedulingwiz.com" />
                   <input type="hidden" name="subject" ref={subjectRef} />
                   <input type="hidden" name="message" ref={messageRef} />
-                  <input
-                    type="hidden"
-                    name="program_types"
-                    value={allProgramTypes().join(", ")}
-                  />
+                  <input type="hidden" name="setting" value={setting} />
                   <input
                     type="hidden"
                     name="schedules_needed"
-                    value={allScheduleLines().join("; ")}
+                    value={completeRows
+                      .map((r) => `${rowLabel(r)} (${r.cadence || "cadence not specified"})`)
+                      .join("; ")}
                   />
 
                   <div className="grid sm:grid-cols-2 gap-4">
@@ -353,12 +339,12 @@ export default function GetAQuotePage() {
                       />
                     </div>
                     <div>
-                      <label htmlFor="gq-department" className={labelClass}>
-                        Department <span className="text-yellow-400">*</span>
+                      <label htmlFor="gq-departments" className={labelClass}>
+                        Department(s) <span className="text-yellow-400">*</span>
                       </label>
                       <Input
-                        id="gq-department"
-                        name="department"
+                        id="gq-departments"
+                        name="departments"
                         type="text"
                         required
                         placeholder="e.g. Internal Medicine"
@@ -369,140 +355,132 @@ export default function GetAQuotePage() {
                   </div>
 
                   <div>
-                    <span className={labelClass}>Program type</span>
+                    <span className={labelClass}>This is for a…</span>
                     <div className="flex flex-wrap gap-2">
-                      {PROGRAM_TYPES.map((t) => (
+                      {SETTINGS.map((s) => (
                         <button
-                          key={t}
+                          key={s}
                           type="button"
-                          onClick={() => toggleProgram(t)}
+                          onClick={() => setSetting(setting === s ? "" : s)}
                           disabled={isSubmitting}
-                          className={chipClass(programTypes.includes(t))}
+                          className={chipClass(setting === s)}
                         >
-                          {t}
+                          {s}
                         </button>
                       ))}
-                      <button
-                        type="button"
-                        onClick={() => setProgramOther(!programOther)}
-                        disabled={isSubmitting}
-                        className={chipClass(programOther)}
-                      >
-                        Other
-                      </button>
                     </div>
-                    {programOther && (
-                      <Input
-                        type="text"
-                        value={programOtherText}
-                        onChange={(e) => setProgramOtherText(e.target.value)}
-                        placeholder="Tell us your program type"
-                        disabled={isSubmitting}
-                        className={`${inputClass} mt-2`}
-                      />
-                    )}
                   </div>
 
                   <div>
                     <span className={labelClass}>
                       Schedules you need <span className="text-yellow-400">*</span>
                     </span>
-                    <div className="flex flex-wrap gap-2">
-                      {SCHEDULE_TYPES.map((s) => (
-                        <button
-                          key={s}
-                          type="button"
-                          onClick={() => toggleSchedule(s)}
-                          disabled={isSubmitting}
-                          className={chipClass(schedules.includes(s))}
+                    <div className="space-y-2">
+                      {rows.map((r, i) => (
+                        <div
+                          key={i}
+                          className="rounded-xl border border-white/10 bg-white/5 p-3 space-y-2"
                         >
-                          {s}
-                        </button>
+                          <div className="flex items-center gap-2">
+                            <select
+                              value={r.who}
+                              onChange={(e) => updateRow(i, { who: e.target.value })}
+                              disabled={isSubmitting}
+                              className={`${selectClass} flex-1 min-w-0 ${r.who ? "text-white/90" : "text-white/40"}`}
+                              aria-label="Who is this schedule for?"
+                            >
+                              <option value="" disabled>
+                                Who is it for?
+                              </option>
+                              {WHO_OPTIONS.map((o) => (
+                                <option key={o} value={o}>
+                                  {o}
+                                </option>
+                              ))}
+                            </select>
+                            <select
+                              value={r.type}
+                              onChange={(e) => updateRow(i, { type: e.target.value })}
+                              disabled={isSubmitting}
+                              className={`${selectClass} flex-1 min-w-0 ${r.type ? "text-white/90" : "text-white/40"}`}
+                              aria-label="Schedule type"
+                            >
+                              <option value="" disabled>
+                                Schedule type?
+                              </option>
+                              {TYPE_OPTIONS.map((o) => (
+                                <option key={o} value={o}>
+                                  {o}
+                                </option>
+                              ))}
+                            </select>
+                            <select
+                              value={r.cadence}
+                              onChange={(e) => updateRow(i, { cadence: e.target.value })}
+                              disabled={isSubmitting}
+                              className={`${selectClass} flex-1 min-w-0 ${r.cadence ? "text-white/90" : "text-white/40"}`}
+                              aria-label="How often is it made?"
+                            >
+                              <option value="" disabled>
+                                Made how often?
+                              </option>
+                              {CADENCE_OPTIONS.map((o) => (
+                                <option key={o} value={o}>
+                                  {o}
+                                </option>
+                              ))}
+                            </select>
+                            <button
+                              type="button"
+                              onClick={() => removeRow(i)}
+                              disabled={isSubmitting}
+                              className="flex-shrink-0 text-white/40 hover:text-yellow-400 transition-colors"
+                              aria-label="Remove schedule"
+                            >
+                              <X className="w-4 h-4" />
+                            </button>
+                          </div>
+                          {r.type === "Other" && (
+                            <Input
+                              type="text"
+                              value={r.otherName}
+                              onChange={(e) =>
+                                updateRow(i, { otherName: e.target.value })
+                              }
+                              placeholder="Name this schedule, e.g. Jeopardy"
+                              disabled={isSubmitting}
+                              className={`${inputClass} h-9`}
+                            />
+                          )}
+                        </div>
                       ))}
                       <button
                         type="button"
-                        onClick={addCustomSchedule}
+                        onClick={addRow}
                         disabled={isSubmitting}
                         className={`${chipClass(false)} inline-flex items-center gap-1`}
                       >
                         <Plus className="w-3.5 h-3.5" />
-                        Other
+                        Add another schedule
                       </button>
                     </div>
                   </div>
 
-                  {(schedules.length > 0 || customSchedules.length > 0) && (
-                    <div className="space-y-2 rounded-xl border border-white/10 bg-white/5 p-4">
-                      <span className="block text-xs font-medium text-white/70 uppercase tracking-wider mb-1">
-                        How often is each one made?
-                      </span>
-                      {schedules.map((s) => (
-                        <div
-                          key={s}
-                          className="flex items-center justify-between gap-3"
-                        >
-                          <span className="text-sm text-white/80">{s}</span>
-                          <select
-                            value={cadences[s] || ""}
-                            onChange={(e) =>
-                              setCadences({ ...cadences, [s]: e.target.value })
-                            }
-                            disabled={isSubmitting}
-                            className={selectClass}
-                          >
-                            <option value="" disabled>
-                              Select cadence…
-                            </option>
-                            {CADENCE_OPTIONS.map((c) => (
-                              <option key={c} value={c}>
-                                {c}
-                              </option>
-                            ))}
-                          </select>
-                        </div>
-                      ))}
-                      {customSchedules.map((c, i) => (
-                        <div key={i} className="flex items-center gap-2">
-                          <Input
-                            type="text"
-                            value={c.name}
-                            onChange={(e) =>
-                              updateCustomSchedule(i, { name: e.target.value })
-                            }
-                            placeholder="Schedule name, e.g. Jeopardy"
-                            disabled={isSubmitting}
-                            className={`${inputClass} h-9 flex-1 min-w-0`}
-                          />
-                          <select
-                            value={c.cadence}
-                            onChange={(e) =>
-                              updateCustomSchedule(i, { cadence: e.target.value })
-                            }
-                            disabled={isSubmitting}
-                            className={`${selectClass} flex-shrink-0`}
-                          >
-                            <option value="" disabled>
-                              Select cadence…
-                            </option>
-                            {CADENCE_OPTIONS.map((opt) => (
-                              <option key={opt} value={opt}>
-                                {opt}
-                              </option>
-                            ))}
-                          </select>
-                          <button
-                            type="button"
-                            onClick={() => removeCustomSchedule(i)}
-                            disabled={isSubmitting}
-                            className="flex-shrink-0 text-white/40 hover:text-yellow-400 transition-colors"
-                            aria-label="Remove schedule"
-                          >
-                            <X className="w-4 h-4" />
-                          </button>
-                        </div>
-                      ))}
-                    </div>
-                  )}
+                  <div>
+                    <label htmlFor="gq-describe" className={labelClass}>
+                      Or just describe what you need
+                    </label>
+                    <Textarea
+                      id="gq-describe"
+                      name="schedules_description"
+                      rows={3}
+                      value={describe}
+                      onChange={(e) => setDescribe(e.target.value)}
+                      placeholder="Plain English works. e.g. Resident call every 3 months, fellowship call yearly, and an attending clinic schedule once a year."
+                      disabled={isSubmitting}
+                      className="bg-white/5 border-white/10 text-white placeholder:text-white/30 focus:border-yellow-400/50 focus:ring-0 rounded-lg resize-none"
+                    />
+                  </div>
 
                   <div className="grid sm:grid-cols-2 gap-4">
                     <div>
@@ -665,7 +643,7 @@ export default function GetAQuotePage() {
 
                   <p className="text-center text-xs text-white/40">
                     {!hasSchedules
-                      ? "Pick at least one schedule type above to continue."
+                      ? "Add at least one schedule above, or describe what you need."
                       : "Estimated quote by email soon. No account required."}
                   </p>
                 </form>
