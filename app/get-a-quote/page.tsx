@@ -53,7 +53,7 @@ const CADENCE_OPTIONS = [
 
 const DESCRIBE_PLACEHOLDERS: Record<string, string> = {
   "Single department":
-    "e.g. We have about 60 residents including some rotators. We'd like the resident block schedule built once a year and the call schedule once a month.",
+    "e.g. We have about 60 residents including rotators. We'd like the resident block schedule built once a year and the call schedule once a month.",
   "Multiple departments":
     "e.g. Neurology needs a resident block schedule once a year and call monthly. Cardiology needs a fellow clinic schedule twice a year. About 80 people total.",
   "Enterprise (hospital-wide)":
