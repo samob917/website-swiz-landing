@@ -483,18 +483,10 @@ export default function GetAQuotePage() {
                 <h3 className="text-2xl font-semibold text-white">
                   Thanks for the information!
                 </h3>
-                <p className="text-white/60 text-sm max-w-sm">
-                  You&apos;ll receive an email at{" "}
-                  <span className="text-white font-medium">{email.trim()}</span>{" "}
-                  from{" "}
-                  <span className="text-yellow-400">founders@schedulingwiz.com</span>{" "}
-                  with your estimated quote, or any follow-up questions we need
-                  to price it accurately.
+                <p className="text-white/60 text-sm">
+                  Your estimated quote will be emailed to
                 </p>
-                <p className="text-white/40 text-xs max-w-sm">
-                  Wrong address? Email founders@schedulingwiz.com and we&apos;ll
-                  match it to your submission.
-                </p>
+                <p className="text-white font-medium -mt-2">{email.trim()}</p>
                 <a
                   href={CALENDLY_URL}
                   target="_blank"
@@ -504,6 +496,9 @@ export default function GetAQuotePage() {
                   <CalendarClock className="w-4 h-4 text-yellow-400" />
                   Want to talk sooner? Schedule a meeting
                 </a>
+                <p className="text-white/40 text-xs">
+                  Wrong email? Write to founders@schedulingwiz.com
+                </p>
               </div>
             ) : (
               <form ref={formRef} onSubmit={handleSubmit} className="space-y-5">
