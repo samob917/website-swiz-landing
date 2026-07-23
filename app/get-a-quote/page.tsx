@@ -88,6 +88,7 @@ export default function GetAQuotePage() {
   const [hospital, setHospital] = useState("")
   const [departments, setDepartments] = useState("")
   const [setting, setSetting] = useState("")
+  const [ppScope, setPpScope] = useState("")
   const [mode, setMode] = useState<Mode>("")
   const [rows, setRows] = useState<ScheduleRow[]>([emptyRow()])
   const [describe, setDescribe] = useState("")
@@ -114,6 +115,8 @@ export default function GetAQuotePage() {
       if (typeof d.hospital === "string") setHospital(d.hospital)
       if (typeof d.departments === "string") setDepartments(d.departments)
       if (SETTINGS.includes(d.setting)) setSetting(d.setting)
+      if (d.ppScope === "Single department" || d.ppScope === "Multiple departments")
+        setPpScope(d.ppScope)
       if (d.mode === "select" || d.mode === "describe") setMode(d.mode)
       if (Array.isArray(d.rows) && d.rows.length)
         setRows(d.rows.map((r: Partial<ScheduleRow>) => ({ ...emptyRow(), ...r })))
@@ -131,31 +134,37 @@ export default function GetAQuotePage() {
     try {
       sessionStorage.setItem(
         DRAFT_KEY,
-        JSON.stringify({ name, email, hospital, departments, setting, mode, rows, describe, budget, notes }),
+        JSON.stringify({ name, email, hospital, departments, setting, ppScope, mode, rows, describe, budget, notes }),
       )
     } catch {
       // Storage full or unavailable: the form still works without drafts.
     }
-  }, [name, email, hospital, departments, setting, mode, rows, describe, budget, notes, stage])
+  }, [name, email, hospital, departments, setting, ppScope, mode, rows, describe, budget, notes, stage])
+
+  const isPrivatePractice = setting === "Private practice group"
 
   const multiDept =
-    setting === "Multiple departments" || setting === "Enterprise (hospital-wide)"
+    setting === "Multiple departments" ||
+    setting === "Enterprise (hospital-wide)" ||
+    (isPrivatePractice && ppScope === "Multiple departments")
 
-  const deptLabel =
-    setting === "Private practice group"
-      ? "Group / specialty"
+  const deptLabel = isPrivatePractice
+    ? multiDept
+      ? "Groups / specialties"
+      : "Group / specialty"
+    : multiDept
+      ? "Department(s)"
+      : "Department"
+
+  const deptPlaceholder = isPrivatePractice
+    ? multiDept
+      ? "e.g. Radiology, Cardiology, Anesthesiology"
+      : "e.g. Radiology"
+    : setting === "Enterprise (hospital-wide)"
+      ? "e.g. all GME programs, or list them"
       : multiDept
-        ? "Department(s)"
-        : "Department"
-
-  const deptPlaceholder =
-    setting === "Private practice group"
-      ? "e.g. Radiology"
-      : setting === "Enterprise (hospital-wide)"
-        ? "e.g. all GME programs, or list them"
-        : multiDept
-          ? "e.g. Neurology Residency, NeuroICU Fellowship, EM Residency and Attendings"
-          : "e.g. Internal Medicine Residency"
+        ? "e.g. Neurology Residency, NeuroICU Fellowship, EM Residency and Attendings"
+        : "e.g. Internal Medicine Residency"
 
   const completeRows = rows.filter(
     (r) => r.who && r.type && (r.type !== "Other" || r.otherName.trim()),
@@ -273,7 +282,7 @@ export default function GetAQuotePage() {
       `Name: ${name.trim() || "-"}`,
       `Email: ${email.trim() || "-"}`,
       `Hospital / medical center: ${hospital.trim() || "-"}`,
-      `Setting: ${setting || "-"}`,
+      `Setting: ${setting ? `${setting}${isPrivatePractice && ppScope ? ` (${ppScope.toLowerCase()})` : ""}` : "-"}`,
       `${deptLabel}: ${departments.trim() || "-"}`,
       ``,
       `## SCHEDULES (structured)`,
@@ -502,7 +511,10 @@ export default function GetAQuotePage() {
                       <button
                         key={s}
                         type="button"
-                        onClick={() => setSetting(setting === s ? "" : s)}
+                        onClick={() => {
+                          setSetting(setting === s ? "" : s)
+                          setPpScope("")
+                        }}
                         disabled={isSubmitting}
                         className={chipClass(setting === s)}
                       >
@@ -510,6 +522,24 @@ export default function GetAQuotePage() {
                       </button>
                     ))}
                   </div>
+                  {isPrivatePractice && (
+                    <div className="mt-3 flex flex-wrap items-center gap-2">
+                      <span className="text-xs text-white/50">
+                        Covering…
+                      </span>
+                      {["Single department", "Multiple departments"].map((s) => (
+                        <button
+                          key={s}
+                          type="button"
+                          onClick={() => setPpScope(ppScope === s ? "" : s)}
+                          disabled={isSubmitting}
+                          className={chipClass(ppScope === s)}
+                        >
+                          {s}
+                        </button>
+                      ))}
+                    </div>
+                  )}
                 </div>
 
                 {setting && (
@@ -672,7 +702,11 @@ export default function GetAQuotePage() {
                                   onChange={(e) =>
                                     updateRow(i, { dept: e.target.value })
                                   }
-                                  placeholder="Department, e.g. Neurology"
+                                  placeholder={
+                                    isPrivatePractice
+                                      ? "Group, e.g. Radiology"
+                                      : "Department, e.g. Neurology"
+                                  }
                                   disabled={isSubmitting}
                                   className={`${inputClass} h-9`}
                                 />
