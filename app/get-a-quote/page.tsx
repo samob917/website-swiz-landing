@@ -864,9 +864,9 @@ export default function GetAQuotePage() {
                           className="bg-white/5 border-white/10 text-white placeholder:text-white/30 focus:border-yellow-400/50 focus:ring-0 rounded-lg resize-none"
                         />
                         <p className="mt-2 text-xs text-white/40">
-                          No structure needed. As much detail as you can helps:
-                          which schedules, how often each is made, and roughly
-                          how many people are on each.
+                          As much detail as you can helps: which schedules, how
+                          often each is made, and roughly how many people are
+                          on each.
                         </p>
                       </div>
                     )}
