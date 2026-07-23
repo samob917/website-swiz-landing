@@ -321,12 +321,6 @@ export default function GetAQuotePage() {
               </div>
             ) : (
               <>
-                <div className="flex justify-end mb-4">
-                  <span className="text-white/40 text-xs tracking-widest uppercase">
-                    Free quote
-                  </span>
-                </div>
-
                 <form ref={formRef} onSubmit={handleSubmit} className="space-y-5">
                   {/* Hidden fields consumed by the shared EmailJS template */}
                   <input type="hidden" name="to_email" value="founders@schedulingwiz.com" />
@@ -459,26 +453,28 @@ export default function GetAQuotePage() {
                               key={i}
                               className="rounded-xl border border-white/10 bg-white/5 p-3 space-y-2"
                             >
-                              {multiDept && (
-                                <Input
-                                  type="text"
-                                  value={r.dept}
-                                  onChange={(e) =>
-                                    updateRow(i, { dept: e.target.value })
-                                  }
-                                  placeholder="Department, e.g. Neurology"
+                              <div className="flex items-center justify-between">
+                                <span className="text-[10px] font-medium uppercase tracking-wider text-white/40">
+                                  Schedule {i + 1}
+                                </span>
+                                <button
+                                  type="button"
+                                  onClick={() => removeRow(i)}
                                   disabled={isSubmitting}
-                                  className={`${inputClass} h-9`}
-                                />
-                              )}
-                              <div className="flex items-center gap-2">
+                                  className="text-white/40 hover:text-yellow-400 transition-colors"
+                                  aria-label="Remove schedule"
+                                >
+                                  <X className="w-4 h-4" />
+                                </button>
+                              </div>
+                              <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
                                 <select
                                   value={r.who}
                                   onChange={(e) =>
                                     updateRow(i, { who: e.target.value })
                                   }
                                   disabled={isSubmitting}
-                                  className={`${selectClass} flex-1 min-w-0 ${r.who ? "text-white/90" : "text-white/40"}`}
+                                  className={`${selectClass} w-full ${r.who ? "text-white/90" : "text-white/40"}`}
                                   aria-label="Who is this schedule for?"
                                 >
                                   <option value="" disabled>
@@ -496,7 +492,7 @@ export default function GetAQuotePage() {
                                     updateRow(i, { type: e.target.value })
                                   }
                                   disabled={isSubmitting}
-                                  className={`${selectClass} flex-1 min-w-0 ${r.type ? "text-white/90" : "text-white/40"}`}
+                                  className={`${selectClass} w-full ${r.type ? "text-white/90" : "text-white/40"}`}
                                   aria-label="Schedule type"
                                 >
                                   <option value="" disabled>
@@ -514,7 +510,7 @@ export default function GetAQuotePage() {
                                     updateRow(i, { cadence: e.target.value })
                                   }
                                   disabled={isSubmitting}
-                                  className={`${selectClass} flex-1 min-w-0 ${r.cadence ? "text-white/90" : "text-white/40"}`}
+                                  className={`${selectClass} w-full ${r.cadence ? "text-white/90" : "text-white/40"}`}
                                   aria-label="How often is it made?"
                                 >
                                   <option value="" disabled>
@@ -526,15 +522,6 @@ export default function GetAQuotePage() {
                                     </option>
                                   ))}
                                 </select>
-                                <button
-                                  type="button"
-                                  onClick={() => removeRow(i)}
-                                  disabled={isSubmitting}
-                                  className="flex-shrink-0 text-white/40 hover:text-yellow-400 transition-colors"
-                                  aria-label="Remove schedule"
-                                >
-                                  <X className="w-4 h-4" />
-                                </button>
                               </div>
                               {r.type === "Other" && (
                                 <Input
@@ -548,17 +535,31 @@ export default function GetAQuotePage() {
                                   className={`${inputClass} h-9`}
                                 />
                               )}
-                              <Input
-                                type="number"
-                                min={0}
-                                value={r.people}
-                                onChange={(e) =>
-                                  updateRow(i, { people: e.target.value })
-                                }
-                                placeholder="Estimated people on it, incl. rotators, e.g. 60"
-                                disabled={isSubmitting}
-                                className={`${inputClass} h-9`}
-                              />
+                              <div className="grid sm:grid-cols-2 gap-2">
+                                {multiDept && (
+                                  <Input
+                                    type="text"
+                                    value={r.dept}
+                                    onChange={(e) =>
+                                      updateRow(i, { dept: e.target.value })
+                                    }
+                                    placeholder="Department, e.g. Neurology"
+                                    disabled={isSubmitting}
+                                    className={`${inputClass} h-9`}
+                                  />
+                                )}
+                                <Input
+                                  type="number"
+                                  min={0}
+                                  value={r.people}
+                                  onChange={(e) =>
+                                    updateRow(i, { people: e.target.value })
+                                  }
+                                  placeholder="Est. people incl. rotators, e.g. 60"
+                                  disabled={isSubmitting}
+                                  className={`${inputClass} h-9`}
+                                />
+                              </div>
                             </div>
                           ))}
                           <button
