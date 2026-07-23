@@ -243,6 +243,22 @@ export default function GetAQuotePage() {
 
   const addRow = () => setRows([...rows, emptyRow()])
 
+  // Back to a fresh request from the success screen. Contact details stay
+  // (it's almost always the same person); everything else clears.
+  const startNewRequest = () => {
+    setSetting("")
+    setPpScope("")
+    setMode("")
+    setRows([emptyRow()])
+    setDescribe("")
+    setBudget("")
+    setNotes("")
+    setFiles([])
+    setErrorMsg(null)
+    setEmailInvalid(false)
+    setStage("form")
+  }
+
   const addFiles = (incoming: FileList) => {
     const accepted = Array.from(incoming)
     const oversized = accepted.find((f) => f.size > MAX_FILE_BYTES)
@@ -496,6 +512,13 @@ export default function GetAQuotePage() {
                   <CalendarClock className="w-4 h-4 text-yellow-400" />
                   Want to talk sooner? Schedule a meeting
                 </a>
+                <button
+                  type="button"
+                  onClick={startNewRequest}
+                  className="text-xs text-white/40 underline underline-offset-2 hover:text-yellow-400 transition-colors"
+                >
+                  Submit another request
+                </button>
                 <p className="text-white/40 text-xs">
                   Wrong email? Write to founders@schedulingwiz.com
                 </p>
