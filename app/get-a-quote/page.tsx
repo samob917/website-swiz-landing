@@ -598,7 +598,7 @@ export default function GetAQuotePage() {
                     </>
                   )}
 
-                  {setting && (
+                  {mode !== "" && (
                     <>
                       <div>
                         <span className={labelClass}>
@@ -726,7 +726,7 @@ export default function GetAQuotePage() {
 
                   {errorMsg && <p className="text-sm text-red-400">{errorMsg}</p>}
 
-                  {setting && (
+                  {mode !== "" && (
                     <>
                       <Button
                         type="submit"
