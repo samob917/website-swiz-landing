@@ -357,6 +357,22 @@ export default function GetAQuotePage() {
                   </div>
 
                   <div>
+                    <label htmlFor="gq-hospital" className={labelClass}>
+                      Hospital / medical center{" "}
+                      <span className="text-yellow-400">*</span>
+                    </label>
+                    <Input
+                      id="gq-hospital"
+                      name="hospital"
+                      type="text"
+                      required
+                      placeholder="e.g. Mass General"
+                      disabled={isSubmitting}
+                      className={inputClass}
+                    />
+                  </div>
+
+                  <div>
                     <span className={labelClass}>
                       This is for a… <span className="text-yellow-400">*</span>
                     </span>
@@ -377,36 +393,19 @@ export default function GetAQuotePage() {
 
                   {setting && (
                     <>
-                      <div className="grid sm:grid-cols-2 gap-4">
-                        <div>
-                          <label htmlFor="gq-hospital" className={labelClass}>
-                            Hospital / medical center{" "}
-                            <span className="text-yellow-400">*</span>
-                          </label>
-                          <Input
-                            id="gq-hospital"
-                            name="hospital"
-                            type="text"
-                            required
-                            placeholder="e.g. Mass General"
-                            disabled={isSubmitting}
-                            className={inputClass}
-                          />
-                        </div>
-                        <div>
-                          <label htmlFor="gq-departments" className={labelClass}>
-                            {deptLabel} <span className="text-yellow-400">*</span>
-                          </label>
-                          <Input
-                            id="gq-departments"
-                            name="departments"
-                            type="text"
-                            required
-                            placeholder={deptPlaceholder}
-                            disabled={isSubmitting}
-                            className={inputClass}
-                          />
-                        </div>
+                      <div>
+                        <label htmlFor="gq-departments" className={labelClass}>
+                          {deptLabel} <span className="text-yellow-400">*</span>
+                        </label>
+                        <Input
+                          id="gq-departments"
+                          name="departments"
+                          type="text"
+                          required
+                          placeholder={deptPlaceholder}
+                          disabled={isSubmitting}
+                          className={inputClass}
+                        />
                       </div>
 
                       <div>
