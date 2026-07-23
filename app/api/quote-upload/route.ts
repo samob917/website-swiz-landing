@@ -15,10 +15,13 @@ export async function POST(request: Request): Promise<NextResponse> {
       onBeforeGenerateToken: async () => ({
         maximumSizeInBytes: 100 * 1024 * 1024,
         addRandomSuffix: true,
+        // Generous validity so local-dev clock skew can't expire the token
+        // before Vercel validates it; harmless in production.
+        validUntil: Date.now() + 6 * 60 * 60 * 1000,
       }),
-      // Blob calls this from their infra after the upload lands. Nothing to
-      // do here: the client puts the resulting URLs into the quote email.
-      onUploadCompleted: async () => {},
+      // No onUploadCompleted: nothing to do server-side after upload (the
+      // client puts the resulting links into the quote email), and omitting
+      // it means no callback URL is needed, so localhost works too.
     })
 
     return NextResponse.json(jsonResponse)

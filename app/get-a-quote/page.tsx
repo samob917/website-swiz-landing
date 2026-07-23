@@ -320,11 +320,14 @@ export default function GetAQuotePage() {
           : "Uploading file…",
       )
       try {
+        // Private store: the blob URL itself isn't fetchable, so the email
+        // links to our own download route, which streams the file.
         const blob = await upload(`quote-uploads/${f.name}`, f, {
-          access: "public",
+          access: "private",
           handleUploadUrl: "/api/quote-upload",
         })
-        uploaded.push({ name: f.name, size: f.size, url: blob.url })
+        const link = `${window.location.origin}/api/quote-file?pathname=${encodeURIComponent(blob.pathname)}`
+        uploaded.push({ name: f.name, size: f.size, url: link })
       } catch (err) {
         console.error("Upload error:", err)
         posthog.capture("quote_upload_failed", {
