@@ -34,7 +34,53 @@ type UploadedFile = { name: string; size: number; url: string }
 
 const CALENDLY_URL = "https://calendly.com/zacdermody-schedulingwiz/new-meeting"
 
+// Canonical origin for the download links in the quote email. Never derive
+// from window.location: a submission from localhost or a preview deploy
+// would otherwise email links nobody else can open.
+const SITE_URL = "https://schedulingwiz.com"
+
 const EMAIL_RE = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/
+
+// Common mail domains for did-you-mean typo suggestions. A well-formed but
+// wrong address is undetectable without a verification email, so catching
+// popular-domain typos plus echoing the address on the success screen is the
+// practical ceiling for a form like this.
+const COMMON_DOMAINS = [
+  "gmail.com",
+  "yahoo.com",
+  "outlook.com",
+  "hotmail.com",
+  "icloud.com",
+  "aol.com",
+  "proton.me",
+  "protonmail.com",
+]
+
+const editDistance = (a: string, b: string) => {
+  const dp = Array.from({ length: a.length + 1 }, (_, i) => [i, ...Array(b.length).fill(0)])
+  for (let j = 0; j <= b.length; j++) dp[0][j] = j
+  for (let i = 1; i <= a.length; i++)
+    for (let j = 1; j <= b.length; j++)
+      dp[i][j] = Math.min(
+        dp[i - 1][j] + 1,
+        dp[i][j - 1] + 1,
+        dp[i - 1][j - 1] + (a[i - 1] === b[j - 1] ? 0 : 1),
+      )
+  return dp[a.length][b.length]
+}
+
+const suggestEmail = (value: string): string | null => {
+  const at = value.lastIndexOf("@")
+  if (at < 1) return null
+  const local = value.slice(0, at)
+  const domain = value.slice(at + 1).toLowerCase()
+  if (!domain || COMMON_DOMAINS.includes(domain)) return null
+  for (const candidate of COMMON_DOMAINS) {
+    const distance = editDistance(domain, candidate)
+    if (distance > 0 && distance <= 2) return `${local}@${candidate}`
+  }
+  return null
+}
 
 // Draft persists per tab until submit so a refresh doesn't wipe the form.
 // sessionStorage (not localStorage) so it dies with the tab and never leaves
@@ -326,7 +372,7 @@ export default function GetAQuotePage() {
           access: "private",
           handleUploadUrl: "/api/quote-upload",
         })
-        const link = `${window.location.origin}/api/quote-file?pathname=${encodeURIComponent(blob.pathname)}`
+        const link = `${SITE_URL}/api/quote-file?pathname=${encodeURIComponent(blob.pathname)}`
         uploaded.push({ name: f.name, size: f.size, url: link })
       } catch (err) {
         console.error("Upload error:", err)
@@ -438,10 +484,16 @@ export default function GetAQuotePage() {
                   Thanks for the information!
                 </h3>
                 <p className="text-white/60 text-sm max-w-sm">
-                  You&apos;ll receive an email soon from{" "}
+                  You&apos;ll receive an email at{" "}
+                  <span className="text-white font-medium">{email.trim()}</span>{" "}
+                  from{" "}
                   <span className="text-yellow-400">founders@schedulingwiz.com</span>{" "}
                   with your estimated quote, or any follow-up questions we need
                   to price it accurately.
+                </p>
+                <p className="text-white/40 text-xs max-w-sm">
+                  Wrong address? Email founders@schedulingwiz.com and we&apos;ll
+                  match it to your submission.
                 </p>
                 <a
                   href={CALENDLY_URL}
@@ -455,7 +507,11 @@ export default function GetAQuotePage() {
               </div>
             ) : (
               <form ref={formRef} onSubmit={handleSubmit} className="space-y-5">
-                {/* Hidden fields consumed by the shared EmailJS template */}
+                {/* Hidden fields consumed by the shared EmailJS template.
+                    Visible inputs are disabled while sending, and disabled
+                    controls are dropped from form serialization, so the
+                    template's header variables (name/email/company) must be
+                    mirrored here rather than read from the visible fields. */}
                 <input type="hidden" name="to_email" value="founders@schedulingwiz.com" />
                 <input
                   type="hidden"
@@ -463,6 +519,9 @@ export default function GetAQuotePage() {
                   value="Quote Inquiry Through schedulingwiz Website"
                 />
                 <input type="hidden" name="message" ref={messageRef} />
+                <input type="hidden" name="name" value={name} />
+                <input type="hidden" name="email" value={email} />
+                <input type="hidden" name="company" value={hospital} />
                 <input type="hidden" name="setting" value={setting} />
 
                 <div className="grid sm:grid-cols-2 gap-4">
@@ -472,8 +531,8 @@ export default function GetAQuotePage() {
                     </label>
                     <Input
                       id="gq-name"
-                      name="name"
                       type="text"
+                      autoComplete="name"
                       required
                       value={name}
                       onChange={(e) => setName(e.target.value)}
@@ -488,8 +547,8 @@ export default function GetAQuotePage() {
                     </label>
                     <Input
                       id="gq-email"
-                      name="email"
                       type="email"
+                      autoComplete="email"
                       required
                       ref={emailRef}
                       value={email}
@@ -511,6 +570,15 @@ export default function GetAQuotePage() {
                         Please double-check this email address.
                       </p>
                     )}
+                    {!emailInvalid && suggestEmail(email) && (
+                      <button
+                        type="button"
+                        onClick={() => setEmail(suggestEmail(email) ?? email)}
+                        className="mt-1.5 text-xs text-yellow-400 hover:underline"
+                      >
+                        Did you mean {suggestEmail(email)}?
+                      </button>
+                    )}
                   </div>
                 </div>
 
@@ -521,8 +589,8 @@ export default function GetAQuotePage() {
                   </label>
                   <Input
                     id="gq-hospital"
-                    name="hospital"
                     type="text"
+                    autoComplete="organization"
                     required
                     value={hospital}
                     onChange={(e) => setHospital(e.target.value)}
@@ -580,7 +648,6 @@ export default function GetAQuotePage() {
                       </label>
                       <Input
                         id="gq-departments"
-                        name="departments"
                         type="text"
                         required
                         value={departments}
@@ -771,7 +838,6 @@ export default function GetAQuotePage() {
                       <div>
                         <Textarea
                           id="gq-describe"
-                          name="schedules_description"
                           rows={4}
                           value={describe}
                           onChange={(e) => setDescribe(e.target.value)}
@@ -891,7 +957,6 @@ export default function GetAQuotePage() {
                       </label>
                       <Input
                         id="gq-budget"
-                        name="budget"
                         type="text"
                         value={budget}
                         onChange={(e) => setBudget(e.target.value)}
@@ -907,7 +972,6 @@ export default function GetAQuotePage() {
                       </label>
                       <Textarea
                         id="gq-notes"
-                        name="notes"
                         rows={3}
                         value={notes}
                         onChange={(e) => setNotes(e.target.value)}
