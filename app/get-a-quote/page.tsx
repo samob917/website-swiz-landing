@@ -14,6 +14,7 @@ type Stage = "form" | "success"
 type Mode = "" | "select" | "describe"
 
 type ScheduleRow = {
+  label: string
   dept: string
   who: string
   type: string
@@ -63,6 +64,7 @@ const DESCRIBE_PLACEHOLDERS: Record<string, string> = {
 }
 
 const emptyRow = (): ScheduleRow => ({
+  label: "",
   dept: "",
   who: "",
   type: "",
@@ -208,12 +210,14 @@ export default function GetAQuotePage() {
 
       const scheduleLines =
         mode === "select"
-          ? completeRows.map(
-              (r) =>
-                `  - ${r.dept.trim() ? `${r.dept.trim()}: ` : ""}${rowLabel(r)}: ${
-                  r.cadence || "cadence not specified"
-                }${r.people.trim() ? `, ~${r.people.trim()} people incl. rotators` : ""}`,
-            )
+          ? completeRows.map((r, n) => {
+              const name = r.label.trim() || `Schedule ${n + 1}`
+              const dept = r.dept.trim() ? `${r.dept.trim()} ` : ""
+              const people = r.people.trim()
+                ? `, ~${r.people.trim()} people incl. rotators`
+                : ""
+              return `  - ${name}: ${dept}${rowLabel(r)}, ${r.cadence || "cadence not specified"}${people}`
+            })
           : []
 
       const summary = [
@@ -453,15 +457,24 @@ export default function GetAQuotePage() {
                               key={i}
                               className="rounded-xl border border-white/10 bg-white/5 p-3 space-y-2"
                             >
-                              <div className="flex items-center justify-between">
-                                <span className="text-[10px] font-medium uppercase tracking-wider text-white/40">
-                                  Schedule {i + 1}
-                                </span>
+                              <div className="flex items-center justify-between gap-2">
+                                <Input
+                                  type="text"
+                                  value={r.label}
+                                  onChange={(e) =>
+                                    updateRow(i, { label: e.target.value })
+                                  }
+                                  placeholder={`Schedule ${i + 1}`}
+                                  disabled={isSubmitting}
+                                  aria-label="Schedule name"
+                                  title="Click to rename this schedule"
+                                  className="h-7 flex-1 min-w-0 bg-transparent border-transparent hover:border-white/10 focus:border-yellow-400/50 focus:ring-0 rounded-md px-1 text-[11px] font-medium uppercase tracking-wider text-white/50 placeholder:text-white/40"
+                                />
                                 <button
                                   type="button"
                                   onClick={() => removeRow(i)}
                                   disabled={isSubmitting}
-                                  className="text-white/40 hover:text-yellow-400 transition-colors"
+                                  className="flex-shrink-0 text-white/40 hover:text-yellow-400 transition-colors"
                                   aria-label="Remove schedule"
                                 >
                                   <X className="w-4 h-4" />
