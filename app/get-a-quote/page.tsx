@@ -331,7 +331,7 @@ export default function GetAQuotePage() {
       `## CONTACT`,
       `Name: ${name.trim() || "-"}`,
       `Email: ${email.trim() || "-"}`,
-      `Hospital / medical center: ${hospital.trim() || "-"}`,
+      `Hospital / medical group: ${hospital.trim() || "-"}`,
       `Setting: ${setting ? `${setting}${isPrivatePractice && ppScope ? ` (${ppScope.toLowerCase()})` : ""}` : "-"}`,
       `${deptLabel}: ${departments.trim() || "-"}`,
       ``,
@@ -602,7 +602,7 @@ export default function GetAQuotePage() {
 
                 <div>
                   <label htmlFor="gq-hospital" className={labelClass}>
-                    Hospital / medical center{" "}
+                    Hospital / Medical Group{" "}
                     <span className="text-yellow-400">*</span>
                   </label>
                   <Input
