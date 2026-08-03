@@ -18,7 +18,6 @@ const logosRow2 = [
   { src: "/logos/university-of-iowa.png", alt: "University of Iowa", width: 110, height: 110 },
   { src: "/logos/westchester-medical-center-logo.png", alt: "Westchester Medical Center", width: 160, height: 80 },
   { src: "/logos/harnett-health.png", alt: "Harnett Health Foundation", width: 160, height: 90 },
-  { src: "/logos/marshall.png", alt: "Marshall University", width: 170, height: 70 },
   { src: "/logos/texas-tech.png", alt: "Texas Tech", width: 100, height: 120 },
   { src: "/logos/yale.jpg", alt: "Yale", width: 160, height: 80 },
   { src: "/logos/texoma-medical.png", alt: "Texoma Medical Center", width: 160, height: 60 },
