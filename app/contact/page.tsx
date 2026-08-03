@@ -139,7 +139,7 @@ export default function ContactPage() {
                     id="company"
                     name="company"
                     type="text"
-                    placeholder="Your hospital or medical center"
+                    placeholder="Your hospital or medical group"
                     disabled={isSubmitting}
                     className="rounded-lg border-gray-200 focus:border-gray-400 focus:ring-0 transition-colors duration-300"
                   />
