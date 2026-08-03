@@ -1035,7 +1035,7 @@ export default function GetAQuotePage() {
                     </Button>
 
                     <p className="text-center text-xs text-white/40">
-                      Estimated quote by email soon. No account required.
+                      Estimated quote by email soon.
                     </p>
                     <p className="text-center text-xs">
                       <a
