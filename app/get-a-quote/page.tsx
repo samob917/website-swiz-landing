@@ -17,7 +17,7 @@ type Mode = "" | "select" | "describe"
 type ScheduleRow = {
   label: string
   dept: string
-  who: string
+  who: string[]
   type: string
   otherName: string
   cadence: string
@@ -94,7 +94,7 @@ const SETTINGS = [
   "Private practice group",
 ]
 
-const WHO_OPTIONS = ["Residents", "Fellows", "Attendings", "APPs", "Mixed"]
+const WHO_OPTIONS = ["Residents", "Fellows", "Attendings", "APPs", "Other"]
 
 const TYPE_OPTIONS = ["Block", "Call", "Clinic", "Elective", "Other"]
 
@@ -126,7 +126,7 @@ const prettySize = (bytes: number) =>
 const emptyRow = (): ScheduleRow => ({
   label: "",
   dept: "",
-  who: "",
+  who: [],
   type: "",
   otherName: "",
   cadence: "",
@@ -173,7 +173,14 @@ export default function GetAQuotePage() {
         setPpScope(d.ppScope)
       if (d.mode === "select" || d.mode === "describe") setMode(d.mode)
       if (Array.isArray(d.rows) && d.rows.length)
-        setRows(d.rows.map((r: Partial<ScheduleRow>) => ({ ...emptyRow(), ...r })))
+        setRows(
+          d.rows.map((r: Partial<ScheduleRow> & { who?: string | string[] }) => ({
+            ...emptyRow(),
+            ...r,
+            // Older drafts stored who as a single string; normalize to array.
+            who: Array.isArray(r.who) ? r.who : r.who ? [r.who] : [],
+          })),
+        )
       if (typeof d.describe === "string") setDescribe(d.describe)
       if (typeof d.budget === "string") setBudget(d.budget)
       if (typeof d.notes === "string") setNotes(d.notes)
@@ -221,7 +228,7 @@ export default function GetAQuotePage() {
         : "e.g. Internal Medicine Residency"
 
   const completeRows = rows.filter(
-    (r) => r.who && r.type && (r.type !== "Other" || r.otherName.trim()),
+    (r) => r.who.length > 0 && r.type && (r.type !== "Other" || r.otherName.trim()),
   )
   const hasSchedules =
     mode === "select"
@@ -231,7 +238,7 @@ export default function GetAQuotePage() {
         : false
 
   const rowLabel = (r: ScheduleRow) =>
-    `${r.who} ${r.type === "Other" ? r.otherName.trim() : r.type}`
+    `${r.who.join(" + ")} ${r.type === "Other" ? r.otherName.trim() : r.type}`
 
   const updateRow = (index: number, patch: Partial<ScheduleRow>) =>
     setRows(rows.map((r, i) => (i === index ? { ...r, ...patch } : r)))
@@ -311,7 +318,7 @@ export default function GetAQuotePage() {
             const parts = [
               `${n + 1}. ${r.label.trim() || `Schedule ${n + 1}`}`,
               ...(r.dept.trim() ? [`department: ${r.dept.trim()}`] : []),
-              `for: ${r.who}`,
+              `for: ${r.who.join(", ")}`,
               `type: ${r.type === "Other" ? `Other (${r.otherName.trim()})` : r.type}`,
               `cadence: ${r.cadence || "not specified"}`,
               ...(r.people.trim()
@@ -741,25 +748,34 @@ export default function GetAQuotePage() {
                                 <X className="w-4 h-4" />
                               </button>
                             </div>
-                            <div className="grid grid-cols-1 sm:grid-cols-3 gap-2">
-                              <select
-                                value={r.who}
-                                onChange={(e) =>
-                                  updateRow(i, { who: e.target.value })
-                                }
-                                disabled={isSubmitting}
-                                className={`${selectClass} w-full ${r.who ? "text-white/90" : "text-white/40"}`}
-                                aria-label="Who is this schedule for?"
-                              >
-                                <option value="" disabled>
-                                  Who is it for?
-                                </option>
-                                {WHO_OPTIONS.map((o) => (
-                                  <option key={o} value={o}>
-                                    {o}
-                                  </option>
-                                ))}
-                              </select>
+                            <div className="flex flex-wrap items-center gap-1.5">
+                              <span className="text-xs text-white/40 mr-1">
+                                For
+                              </span>
+                              {WHO_OPTIONS.map((o) => (
+                                <button
+                                  key={o}
+                                  type="button"
+                                  onClick={() =>
+                                    updateRow(i, {
+                                      who: r.who.includes(o)
+                                        ? r.who.filter((w) => w !== o)
+                                        : [...r.who, o],
+                                    })
+                                  }
+                                  disabled={isSubmitting}
+                                  aria-pressed={r.who.includes(o)}
+                                  className={`rounded-full border px-2.5 py-1 text-xs font-medium transition-colors ${
+                                    r.who.includes(o)
+                                      ? "border-yellow-400 bg-yellow-400/15 text-yellow-400"
+                                      : "border-white/15 bg-white/5 text-white/60 hover:border-yellow-400/50 hover:text-white"
+                                  }`}
+                                >
+                                  {o}
+                                </button>
+                              ))}
+                            </div>
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                               <select
                                 value={r.type}
                                 onChange={(e) =>
