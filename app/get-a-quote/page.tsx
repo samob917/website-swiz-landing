@@ -109,13 +109,13 @@ const CADENCE_OPTIONS = [
 
 const DESCRIBE_PLACEHOLDERS: Record<string, string> = {
   "Single department":
-    "e.g. We have about 60 residents including rotators. We need the resident block schedule built once a year, the call schedule monthly, and a clinic schedule twice a year.",
+    "e.g. We need the residency block schedule built once a year, the call schedule made monthly, etc.",
   "Multiple departments":
-    "e.g. Neurology Residency: block yearly and call monthly for about 40 residents. NeuroICU Fellowship: call every 6 months for 12 fellows. EM Attendings: clinic quarterly for 25.",
+    "e.g. Neurology Residency: block yearly and call monthly for about 40 residents. Neurocritical Care Fellowship: ...",
   "Enterprise (hospital-wide)":
-    "e.g. 12 departments, about 300 people. Around 20 schedules in total: most made once a year, 3 made monthly, 2 every 6 months, a mix of block, call, and clinic.",
+    "e.g. 12 departments, about 300 people, around 20 schedules: most made once a year, some monthly, etc.",
   "Private practice group":
-    "e.g. Our group has 25 physicians plus part-timers. Call schedule made monthly, clinic schedule every quarter, holiday coverage once a year.",
+    "e.g. Our group has 25 physicians. Call schedule made monthly, clinic schedule every quarter, etc.",
 }
 
 const prettySize = (bytes: number) =>
@@ -950,12 +950,11 @@ export default function GetAQuotePage() {
                         <span className="text-white text-sm font-medium">
                           {files.length > 0
                             ? "Add more files"
-                            : "Drop rules and/or past schedules here"}
+                            : "We want to understand the schedules and their complexity"}
                         </span>
                         {files.length === 0 && (
                           <span className="text-white/40 text-xs">
-                            So we can understand the schedule and its
-                            complexity. Excel, CSV, PDF, Word, or screenshots.
+                            Excel, CSV, PDF, Word, or screenshots.
                           </span>
                         )}
                         <span className="inline-flex items-center rounded-full border border-white/10 bg-white/5 px-2.5 py-0.5 text-[10px] font-medium uppercase tracking-wider text-white/60">
@@ -992,7 +991,7 @@ export default function GetAQuotePage() {
                         rows={3}
                         value={notes}
                         onChange={(e) => setNotes(e.target.value)}
-                        placeholder="Key pain points, deadlines, the system you currently use, past experiences with other vendors, anything that helps us scope your quote."
+                        placeholder="Pain points, deadlines, the system you currently use, past experiences with other vendors."
                         disabled={isSubmitting}
                         className="bg-white/5 border-white/10 text-white placeholder:text-white/30 focus:border-yellow-400/50 focus:ring-0 rounded-lg resize-none"
                       />
