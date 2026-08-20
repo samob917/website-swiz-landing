@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://schedulingwiz.com"),
   title: "Scheduling Wizard | Physician & Residency Scheduling Service",
   description:
-    "Custom scheduling automation for medical residencies and fellowships. Save hundreds of hours with automated Block, Clinic, and Call schedules.",
+    "Done-for-you physician scheduling. We build fair, ACGME-compliant block, clinic, and call schedules for GME programs, provider groups, and private practices.",
   alternates: {
     canonical: "./",
   },
@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     type: "website",
     title: "Scheduling Wizard | Physician & Residency Scheduling Service",
     description:
-      "Custom scheduling automation for medical residencies and fellowships. Save hundreds of hours with automated Block, Clinic, and Call schedules.",
+      "Done-for-you physician scheduling. We build fair, ACGME-compliant block, clinic, and call schedules for GME programs, provider groups, and private practices.",
     images: ["/logo.png"],
   },
   generator: 'v0.dev'
