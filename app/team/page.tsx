@@ -7,13 +7,13 @@ const teamMembers = [
     name: "Samuel Oberly",
     title: "CEO",
     education: "Johns Hopkins University &\nUniversity of Cambridge",
-    degree: "MS, BS Applied Math & Statistics (2024)",
+    degree: "MS, BS Applied Math & Statistics, BS Pure Math,\nBA Economics (2024)",
     bullets: [
       "Award Winning Mathematician",
       "Expert in Scheduling Algorithms",
       "Civilian Service Medal for DoD Predictive Logistics",
     ],
-    image: "/team/sam-oberly.png",
+    image: "/team/sam-oberly.jpg",
     imageStyle: "object-cover object-center",
     imageInline: {},
     linkedin: "https://www.linkedin.com/in/sam-oberly/",
@@ -22,7 +22,7 @@ const teamMembers = [
     name: "Abdelrahman Hamimi",
     title: "CTO",
     education: "Johns Hopkins University",
-    degree: "MS, BS Computer Science (2025)",
+    degree: "MS, BS Computer Science (2025),\nBA Economics (2024)",
     bullets: [
       "AWS Certified Cloud Solutions Architect",
       "Built internal automation tools used at GEICO",
@@ -113,7 +113,7 @@ export default function TeamPage() {
                   <p className="text-yellow-500 font-medium text-sm h-6 flex items-center justify-center">{member.title}</p>
                   <div className="mt-3 border-t border-gray-100 pt-3">
                     <p className="font-medium whitespace-pre-line text-gray-600 text-sm h-12 flex items-center justify-center">{member.education}</p>
-                    <p className="text-xs text-gray-500 h-10 flex items-center justify-center">{member.degree}</p>
+                    <p className="text-xs text-gray-500 h-10 flex items-center justify-center whitespace-pre-line text-center">{member.degree}</p>
                     <div className="mt-2">
                       <ul className="space-y-1 text-xs text-gray-400">
                         {member.bullets.map((bullet, i) => (

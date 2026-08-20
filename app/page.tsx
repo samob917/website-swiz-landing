@@ -22,29 +22,16 @@ const testimonials = [
 
 export default function HomePage() {
   const [typedText, setTypedText] = useState("")
-  const [isDeleting, setIsDeleting] = useState(false)
   const [activeTestimonial, setActiveTestimonial] = useState(0)
   const fullText = "Again."
 
   useEffect(() => {
-    let timeout: NodeJS.Timeout
-
-    if (!isDeleting && typedText.length < fullText.length) {
-      timeout = setTimeout(() => {
-        setTypedText(fullText.slice(0, typedText.length + 1))
-      }, 120)
-    } else if (!isDeleting && typedText.length === fullText.length) {
-      timeout = setTimeout(() => setIsDeleting(true), 3000)
-    } else if (isDeleting && typedText.length > 0) {
-      timeout = setTimeout(() => {
-        setTypedText(fullText.slice(0, typedText.length - 1))
-      }, 80)
-    } else if (isDeleting && typedText.length === 0) {
-      timeout = setTimeout(() => setIsDeleting(false), 800)
-    }
-
+    if (typedText.length === fullText.length) return
+    const timeout = setTimeout(() => {
+      setTypedText(fullText.slice(0, typedText.length + 1))
+    }, 120)
     return () => clearTimeout(timeout)
-  }, [typedText, isDeleting])
+  }, [typedText])
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -84,10 +71,10 @@ export default function HomePage() {
           </h1>
 
           <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-white/90 max-w-5xl mx-auto mb-8 md:mb-12 leading-relaxed px-2">
-            We save program directors, chiefs, admins, and attendings hundreds of hours through our cutting-edge approach to <span className="text-yellow-400 font-semibold">physician schedule creation.</span>
+            We save GME programs, provider groups and private practices hundreds of hours through our cutting-edge approach to <span className="text-yellow-400 font-semibold">physician schedule creation.</span>
           </p>
 
-          <div className="mb-8 md:mb-10">
+          <div className="mb-10 md:mb-12">
             <span className="inline-block border border-white/20 text-white/70 text-xs sm:text-sm font-medium uppercase tracking-widest px-5 py-2 rounded-full backdrop-blur-sm">
               Serving 25+ Departments
             </span>
@@ -140,8 +127,7 @@ export default function HomePage() {
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-4 tracking-tight">
             The First Effective <span className="text-yellow-400">GME & Attending</span><br className="hidden sm:block" />{" "}Scheduling Service.
           </h2>
-          <p className="text-white/70 mb-10 max-w-2xl mx-auto">Resident, fellow, and attending scheduling - tailored for any specialty.</p>
-          <div className="flex flex-wrap justify-center gap-3">
+          <div className="flex flex-wrap justify-center gap-3 mt-10">
             {["Reduce scheduling time by 95%+", "Handling your most complex and granular rules", "Seamless workflow integration"].map((text) => (
               <span key={text} className="smooth-pill bg-white/10 backdrop-blur-sm border border-white/10 text-white/70 px-5 py-2.5 rounded-full text-sm font-medium cursor-default hover:bg-white/15 hover:text-white/90">
                 {text}
@@ -172,7 +158,7 @@ export default function HomePage() {
       <section className="hero-background medical-pattern py-14 sm:py-20 relative overflow-hidden">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="text-center mb-10">
-            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 tracking-tight">Serving Any Department</h2>
+            <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 tracking-tight">Serving Any Specialty</h2>
           </div>
           <div className="flex flex-wrap justify-center gap-3 sm:gap-4">
             {["Neurology", "Internal Medicine", "Emergency Medicine", "Family Medicine", "General Surgery", "Psychiatry", "Urology", "Neurocritical Care", "Pediatrics"].map((dept) => (

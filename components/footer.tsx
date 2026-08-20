@@ -18,7 +18,7 @@ export function Footer() {
               </a>
             </div>
             <p className="text-xs text-white/50 mt-1">
-              Logistics Infrastructure To Modernize Healthcare Operations
+              Making Your Scheduling Problems Disappear
             </p>
           </div>
 

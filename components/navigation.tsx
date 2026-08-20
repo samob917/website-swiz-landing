@@ -22,7 +22,7 @@ export function Navigation() {
         {/* Desktop Navigation */}
         <div className="hidden md:flex items-center space-x-8">
           <Link href="/" className="nav-link font-medium">
-            Solutions
+            Home
           </Link>
           <Link href="/uses" className="nav-link font-medium">
             Use Cases
@@ -32,6 +32,9 @@ export function Navigation() {
           </Link>
           <Link href="/customers" className="nav-link font-medium">
             Customers
+          </Link>
+          <Link href="/team" className="nav-link font-medium">
+            Team
           </Link>
           <Link href="/contact" className="nav-link font-medium">
             Contact us
@@ -57,7 +60,7 @@ export function Navigation() {
         <div className="md:hidden mt-4 bg-black/60 backdrop-blur-xl rounded-2xl p-6 border border-white/10">
           <div className="space-y-4">
             {[
-              { href: "/", label: "Solutions" },
+              { href: "/", label: "Home" },
               { href: "/uses", label: "Use Cases" },
               { href: "/demo", label: "Demo" },
               { href: "/team", label: "Team" },

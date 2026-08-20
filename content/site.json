@@ -14,10 +14,11 @@
       "alt": "Scheduling Wizard"
     },
     "items": [
-      { "label": "Solutions", "href": "/" },
+      { "label": "Home", "href": "/" },
       { "label": "Use Cases", "href": "/uses" },
       { "label": "Demo", "href": "/demo" },
       { "label": "Customers", "href": "/customers" },
+      { "label": "Team", "href": "/team" },
       { "label": "Contact", "href": "/contact" }
     ],
     "cta": {
