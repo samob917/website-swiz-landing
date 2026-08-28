@@ -5,13 +5,22 @@ import { useState, useRef } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Mail, Phone } from "lucide-react"
+import { Mail, Phone, Calendar, ArrowRight, Copy, Check } from "lucide-react"
 import emailjs from "@emailjs/browser"
 
 export default function ContactPage() {
   const [isSubmitting, setIsSubmitting] = useState(false)
   const [submitStatus, setSubmitStatus] = useState<{ type: "success" | "error"; message: string } | null>(null)
+  const [copied, setCopied] = useState<string | null>(null)
   const formRef = useRef<HTMLFormElement>(null)
+
+  const copyToClipboard = (e: React.MouseEvent, text: string) => {
+    e.preventDefault()
+    e.stopPropagation()
+    navigator.clipboard.writeText(text)
+    setCopied(text)
+    setTimeout(() => setCopied(null), 2000)
+  }
 
   const scrollToContent = () => {
     window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })
@@ -186,25 +195,65 @@ export default function ContactPage() {
 
             {/* Contact Info */}
             <div className="space-y-6">
-              <div className="glass-card rounded-2xl p-6">
-                <div className="flex items-start space-x-4">
-                  <Mail className="w-5 h-5 text-gray-400 mt-0.5" />
-                  <div>
-                    <h3 className="font-semibold text-gray-900 text-sm mb-1">Email Us</h3>
-                    <a href="mailto:founders@schedulingwiz.com" className="text-gray-500 text-sm hover:text-gray-700 transition-colors duration-300">founders@schedulingwiz.com</a>
+              <a
+                href="https://calendly.com/zacdermody-schedulingwiz/new-meeting"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group block bg-gray-900 hover:bg-gray-800 rounded-2xl p-6 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_16px_48px_rgba(0,0,0,0.2)]"
+              >
+                <div className="flex items-center justify-between">
+                  <div className="flex items-start space-x-4">
+                    <Calendar className="w-5 h-5 text-gray-400 mt-0.5" />
+                    <div>
+                      <h3 className="font-semibold text-white text-sm mb-1">Schedule a Call</h3>
+                      <p className="text-gray-400 text-sm group-hover:text-gray-300 transition-colors duration-300">Book a time on Calendly</p>
+                    </div>
                   </div>
+                  <ArrowRight className="w-4 h-4 text-gray-400 group-hover:text-white group-hover:translate-x-1 transition-all duration-300" />
                 </div>
-              </div>
+              </a>
 
-              <div className="glass-card rounded-2xl p-6">
-                <div className="flex items-start space-x-4">
-                  <Phone className="w-5 h-5 text-gray-400 mt-0.5" />
-                  <div>
-                    <h3 className="font-semibold text-gray-900 text-sm mb-1">Call Us</h3>
-                    <p className="text-gray-500 text-sm">(302) 932-1448</p>
+              <a href="mailto:founders@schedulingwiz.com" className="group glass-card block rounded-2xl p-6 cursor-pointer">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-start space-x-4">
+                    <Mail className="w-5 h-5 text-gray-400 mt-0.5" />
+                    <div>
+                      <h3 className="font-semibold text-gray-900 text-sm mb-1">Email Us</h3>
+                      <p className="text-gray-500 text-sm group-hover:text-gray-900 transition-colors duration-300 underline decoration-gray-300 underline-offset-4 group-hover:decoration-gray-500">founders@schedulingwiz.com</p>
+                    </div>
                   </div>
+                  <button
+                    type="button"
+                    onClick={(e) => copyToClipboard(e, "founders@schedulingwiz.com")}
+                    title="Copy email address"
+                    aria-label="Copy email address"
+                    className="p-2 rounded-lg text-gray-400 hover:text-gray-900 hover:bg-gray-100 transition-colors duration-300"
+                  >
+                    {copied === "founders@schedulingwiz.com" ? <Check className="w-4 h-4 text-green-600" /> : <Copy className="w-4 h-4" />}
+                  </button>
                 </div>
-              </div>
+              </a>
+
+              <a href="tel:+13029321448" className="group glass-card block rounded-2xl p-6 cursor-pointer">
+                <div className="flex items-center justify-between">
+                  <div className="flex items-start space-x-4">
+                    <Phone className="w-5 h-5 text-gray-400 mt-0.5" />
+                    <div>
+                      <h3 className="font-semibold text-gray-900 text-sm mb-1">Call Us</h3>
+                      <p className="text-gray-500 text-sm group-hover:text-gray-900 transition-colors duration-300 underline decoration-gray-300 underline-offset-4 group-hover:decoration-gray-500">(302) 932-1448</p>
+                    </div>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={(e) => copyToClipboard(e, "(302) 932-1448")}
+                    title="Copy phone number"
+                    aria-label="Copy phone number"
+                    className="p-2 rounded-lg text-gray-400 hover:text-gray-900 hover:bg-gray-100 transition-colors duration-300"
+                  >
+                    {copied === "(302) 932-1448" ? <Check className="w-4 h-4 text-green-600" /> : <Copy className="w-4 h-4" />}
+                  </button>
+                </div>
+              </a>
             </div>
           </div>
         </div>
