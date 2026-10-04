@@ -94,8 +94,6 @@ export default function ContactPage() {
           <div className="grid lg:grid-cols-2 gap-16">
             {/* Form */}
             <div>
-              <h2 className="text-3xl font-semibold text-gray-900 mb-8 tracking-tight">Send us a message</h2>
-
               {submitStatus && (
                 <div
                   className={`mb-6 p-4 rounded-xl text-sm ${
@@ -155,6 +153,20 @@ export default function ContactPage() {
                 </div>
 
                 <div>
+                  <label htmlFor="department" className="block text-xs font-medium text-gray-500 uppercase tracking-wider mb-2">
+                    Department
+                  </label>
+                  <Input
+                    id="department"
+                    name="department"
+                    type="text"
+                    placeholder="EM residency, radiology practice, etc."
+                    disabled={isSubmitting}
+                    className="rounded-lg border-gray-200 focus:border-gray-400 focus:ring-0 transition-colors duration-300"
+                  />
+                </div>
+
+                <div>
                   <label htmlFor="subject" className="block text-xs font-medium text-gray-500 uppercase tracking-wider mb-2">
                     Subject
                   </label>
@@ -172,6 +184,10 @@ export default function ContactPage() {
                   <label htmlFor="message" className="block text-xs font-medium text-gray-500 uppercase tracking-wider mb-2">
                     Message *
                   </label>
+                  <p className="text-sm text-gray-500 mb-2 leading-relaxed">
+                    Helpful to include: your scheduling challenges; how many
+                    providers or residents; the schedules you want built.
+                  </p>
                   <Textarea
                     id="message"
                     name="message"

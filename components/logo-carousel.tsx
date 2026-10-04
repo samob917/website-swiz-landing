@@ -15,7 +15,6 @@ const logosRow1 = [
 
 const logosRow2 = [
   { src: "/logos/usc-la-general.png", alt: "USC LA General Medical Center", width: 200, height: 50 },
-  { src: "/logos/university-of-iowa.png", alt: "University of Iowa", width: 110, height: 110 },
   { src: "/logos/westchester-medical-center-logo.png", alt: "Westchester Medical Center", width: 160, height: 80 },
   { src: "/logos/harnett-health.png", alt: "Harnett Health Foundation", width: 160, height: 90 },
   { src: "/logos/texas-tech.png", alt: "Texas Tech", width: 100, height: 120 },
