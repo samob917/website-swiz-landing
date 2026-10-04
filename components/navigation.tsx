@@ -36,14 +36,11 @@ export function Navigation() {
           <Link href="/team" className="nav-link font-medium">
             Team
           </Link>
-          <Link href="/contact" className="nav-link font-medium">
-            Contact us
-          </Link>
           <Link
-            href="/get-a-quote"
+            href="/contact"
             className="inline-flex items-center rounded-full bg-yellow-400 px-4 py-1.5 text-sm font-semibold text-black transition-colors hover:bg-yellow-300"
           >
-            Get a Quote
+            Contact us
           </Link>
         </div>
 
@@ -65,7 +62,6 @@ export function Navigation() {
               { href: "/demo", label: "Demo" },
               { href: "/team", label: "Team" },
               { href: "/customers", label: "Customers" },
-              { href: "/contact", label: "Contact us" },
             ].map((link) => (
               <Link
                 key={link.href}
@@ -77,11 +73,11 @@ export function Navigation() {
               </Link>
             ))}
             <Link
-              href="/get-a-quote"
+              href="/contact"
               onClick={() => setIsOpen(false)}
               className="inline-flex items-center rounded-full bg-yellow-400 px-4 py-2 text-sm font-semibold text-black transition-colors hover:bg-yellow-300"
             >
-              Get a Quote
+              Contact us
             </Link>
           </div>
         </div>

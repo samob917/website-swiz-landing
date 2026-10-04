@@ -81,7 +81,7 @@ export default function HomePage() {
           </div>
 
           <a href="https://calendly.com/zacdermody-schedulingwiz/new-meeting?back=1&month=2025-10" target="_blank" rel="noopener noreferrer" className="group relative inline-flex items-center gap-3 bg-white/10 backdrop-blur-md border border-white/20 text-white font-medium text-base sm:text-lg px-8 sm:px-10 py-3.5 sm:py-4 rounded-lg hover:bg-white/20 hover:border-white/40 hover:shadow-[0_8px_32px_rgba(255,255,255,0.1)] transition-all duration-500 cursor-pointer">
-            <span className="relative z-10">Take back your time</span>
+            <span className="relative z-10">Schedule a call to learn more</span>
             <svg className="w-4 h-4 sm:w-5 sm:h-5 relative z-10 text-yellow-400 group-hover:translate-x-1 transition-all duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
