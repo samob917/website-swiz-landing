@@ -201,8 +201,8 @@ export default function ContactPage() {
                     Message *
                   </label>
                   <p className="text-sm text-gray-500 mb-2 leading-relaxed">
-                    Helpful to include: your scheduling challenges; how many
-                    providers or residents; the schedules you want built.
+                    Helpful to include: your scheduling challenges, how many
+                    providers or residents, the schedules you want built, etc.
                   </p>
                   <Textarea
                     id="message"
