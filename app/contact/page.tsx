@@ -34,10 +34,26 @@ export default function ContactPage() {
     try {
       if (!formRef.current) return
 
-      const result = await emailjs.sendForm(
+      const data = new FormData(formRef.current)
+      const field = (key: string) => (data.get(key) as string | null)?.trim() ?? ""
+      const department = field("department")
+      const message = field("message")
+
+      // `department` is sent as its own variable, but the EmailJS template only
+      // renders variables it names. Until {{department}} is added there, prefix
+      // it onto the message so it still reaches the inbox rather than being
+      // silently dropped.
+      const result = await emailjs.send(
         "service_x9kkaxn",
         "template_pw6eygq",
-        formRef.current,
+        {
+          name: field("name"),
+          email: field("email"),
+          company: field("company"),
+          department,
+          subject: field("subject"),
+          message: department ? `Department: ${department}\n\n${message}` : message,
+        },
         "gH4mRyjdPmvSERjtQ",
       )
 
