@@ -29,3 +29,8 @@ next-env.d.ts
 # claude code
 .claude/
 .env*.local
+
+# Logos for programs that have not signed yet, plus retired logos.
+# This repo is public, so these stay local: committing them would publish
+# the logos of institutions that have not agreed to be named.
+/logos-pending/

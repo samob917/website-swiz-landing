@@ -76,7 +76,7 @@ export default function HomePage() {
 
           <div className="mb-10 md:mb-12">
             <span className="inline-block border border-white/20 text-white/70 text-xs sm:text-sm font-medium uppercase tracking-widest px-5 py-2 rounded-full backdrop-blur-sm">
-              Serving 25+ Departments
+              Serving 30+ Departments
             </span>
           </div>
 
