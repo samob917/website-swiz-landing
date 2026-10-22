@@ -1,0 +1,102 @@
+// Consent state for analytics on the public marketing site.
+//
+// Nothing that tracks may run before the visitor has explicitly accepted.
+// PostHog is still loaded on every page (PostHog's own guidance is to always
+// load the SDK and control it with the opt-in/opt-out API rather than gating
+// the script), but it is initialised opted out, with in-memory persistence and
+// session recording off, so it writes nothing and sends nothing until Accept.
+// Google Ads' gtag is a plain script with no such API, so that one is not
+// rendered at all until Accept.
+
+/**
+ * Bumping this invalidates every stored choice and re-prompts everyone. Bump it
+ * whenever the privacy policy changes in a way that affects what we collect.
+ */
+export const POLICY_VERSION = 1
+
+export type ConsentChoice = "granted" | "denied"
+
+const STORAGE_KEY = `sw-consent-v${POLICY_VERSION}`
+const CHANGE_EVENT = "sw-consent-change"
+
+/** Reads the stored choice. `null` means the visitor has not decided yet. */
+export function readConsent(): ConsentChoice | null {
+  if (typeof window === "undefined") return null
+  try {
+    const stored = window.localStorage.getItem(STORAGE_KEY)
+    return stored === "granted" || stored === "denied" ? stored : null
+  } catch {
+    // Private mode or blocked storage: treat as undecided, which keeps us opted out.
+    return null
+  }
+}
+
+export function writeConsent(choice: ConsentChoice) {
+  try {
+    window.localStorage.setItem(STORAGE_KEY, choice)
+  } catch {
+    // If we cannot persist the choice we still honour it for this page view;
+    // the banner simply reappears next time.
+  }
+  window.dispatchEvent(new CustomEvent(CHANGE_EVENT, { detail: choice }))
+}
+
+/** Re-opens the banner from the footer's "Cookie settings" link. */
+export function clearConsent() {
+  try {
+    window.localStorage.removeItem(STORAGE_KEY)
+  } catch {
+    /* nothing to clear */
+  }
+  window.dispatchEvent(new CustomEvent(CHANGE_EVENT, { detail: null }))
+}
+
+export function onConsentChange(handler: (choice: ConsentChoice | null) => void) {
+  const listener = (e: Event) => handler((e as CustomEvent).detail ?? null)
+  window.addEventListener(CHANGE_EVENT, listener)
+  return () => window.removeEventListener(CHANGE_EVENT, listener)
+}
+
+const isTrackingKey = (key: string) => {
+  const k = key.toLowerCase()
+  return k.startsWith("ph_") || k.includes("posthog") || k.startsWith("_gcl") || k.startsWith("_ga")
+}
+
+/**
+ * Removes analytics storage left behind by the previous, consent-free setup so
+ * a returning visitor who never agreed to anything does not keep carrying an
+ * identifier around. Called on load whenever no choice is stored.
+ */
+export function purgeTrackingStorage() {
+  if (typeof window === "undefined") return
+
+  for (const store of [window.localStorage, window.sessionStorage]) {
+    try {
+      for (const key of Object.keys(store)) {
+        if (isTrackingKey(key)) store.removeItem(key)
+      }
+    } catch {
+      /* storage unavailable */
+    }
+  }
+
+  try {
+    // Expire on the exact host and on the registrable domain, since PostHog and
+    // gtag set cookies on a leading-dot domain that the host-only delete misses.
+    const host = window.location.hostname
+    const parts = host.split(".")
+    const domains = [undefined, host, parts.length > 2 ? `.${parts.slice(-2).join(".")}` : `.${host}`]
+
+    for (const cookie of document.cookie.split(";")) {
+      const name = cookie.split("=")[0]?.trim()
+      if (!name || !isTrackingKey(name)) continue
+      for (const domain of domains) {
+        document.cookie =
+          `${name}=; expires=Thu, 01 Jan 1970 00:00:00 GMT; path=/` +
+          (domain ? `; domain=${domain}` : "")
+      }
+    }
+  } catch {
+    /* document unavailable */
+  }
+}

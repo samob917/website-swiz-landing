@@ -5,6 +5,7 @@ import "./globals.css"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import GoogleAnalytics from '@/components/GoogleAnalytics'
+import { ConsentBanner } from "@/components/consent-banner"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -57,6 +58,7 @@ export default function RootLayout({
           {children}
         </main>
         <Footer />
+        <ConsentBanner />
       </body>
     </html>
   )
