@@ -1,12 +1,12 @@
 // Consent state for analytics on the public marketing site.
 //
 // Nothing that tracks may run before the visitor has explicitly accepted.
-// PostHog is still loaded on every page (PostHog's own guidance is to always
-// load the SDK and control it with the opt-in/opt-out API rather than gating
-// the script), but it is initialised opted out, with in-memory persistence and
-// session recording off, so it writes nothing and sends nothing until Accept.
-// Google Ads' gtag is a plain script with no such API, so that one is not
-// rendered at all until Accept.
+// PostHog is the only tracker on the site and is not initialised at all until
+// then; see lib/posthog-client.ts.
+//
+// The _ga/_gcl patterns below are kept deliberately: a Google Ads tag ran on
+// this site until October 2026, so returning visitors may still be carrying
+// its cookies, and they should be cleared rather than left behind.
 
 /**
  * Bumping this invalidates every stored choice and re-prompts everyone. Bump it
@@ -81,8 +81,8 @@ export function purgeTrackingStorage() {
   }
 
   try {
-    // Expire on the exact host and on the registrable domain, since PostHog and
-    // gtag set cookies on a leading-dot domain that the host-only delete misses.
+    // Expire on the exact host and on the registrable domain: these are set on
+    // a leading-dot domain that a host-only delete would miss.
     const host = window.location.hostname
     const parts = host.split(".")
     const domains = [undefined, host, parts.length > 2 ? `.${parts.slice(-2).join(".")}` : `.${host}`]

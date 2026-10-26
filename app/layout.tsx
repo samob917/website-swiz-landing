@@ -4,7 +4,6 @@ import { Inter } from "next/font/google"
 import "./globals.css"
 import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
-import GoogleAnalytics from '@/components/GoogleAnalytics'
 import { ConsentBanner } from "@/components/consent-banner"
 
 const inter = Inter({ subsets: ["latin"] })
@@ -53,10 +52,7 @@ export default function RootLayout({
         </head>
       <body className={`${inter.className} min-h-screen flex flex-col`}>
         <Navigation />
-        <main className="flex-1">
-          <GoogleAnalytics />
-          {children}
-        </main>
+        <main className="flex-1">{children}</main>
         <Footer />
         <ConsentBanner />
       </body>
