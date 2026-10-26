@@ -2,6 +2,10 @@
 //
 // Scope: this public website only.
 //
+// Deliberately makes no claim that the data is anonymous. The rule is not to
+// assert anonymity, which saying nothing satisfies; listing what is actually
+// collected does the honest work without alarming anyone.
+//
 // Written to describe what the site actually does today (see
 // instrumentation-client.ts and components/consent-banner.tsx). If the data
 // practices change, update this page AND bump POLICY_VERSION in lib/consent.ts
@@ -75,10 +79,6 @@ export default function PrivacyPage() {
                 you. Our &ldquo;schedule a call&rdquo; links go to Calendly,
                 which collects whatever you enter when you book and is covered
                 by its own privacy policy.
-              </p>
-              <p>
-                We do not describe any of this as anonymous: a browsing history
-                and a session recording can identify a person.
               </p>
             </section>
 
