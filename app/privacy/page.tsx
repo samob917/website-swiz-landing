@@ -25,6 +25,8 @@ export const metadata: Metadata = {
   alternates: { canonical: "/privacy" },
 }
 
+// Shown to visitors. Update this whenever the policy text changes;
+// scripts/check-privacy-date.mjs warns on every build if it goes stale.
 const LAST_UPDATED = "October 25, 2026"
 
 export default function PrivacyPage() {
