@@ -4,8 +4,8 @@
   "anchor": "Amion Alternative",
   "title": "Amion Alternative | Optimized GME Schedules | Scheduling Wizard",
   "description": "Amion alternative for GME programs? Scheduling Wizard is a managed service delivering optimized, ACGME-compliant schedules. Get consistent, error-free results that handle your specialty's unique rules.",
-  "h1": "Amion Alternative for ACGME-Compliant Schedules",
-  "paragraph": "End inconsistent schedules and complex ACGME rule management. Scheduling Wizard is the managed Amion alternative that builds your perfect schedule for you.",
+  "h1": "Amion Manages Your Schedule. We Build It.",
+  "paragraph": "Keep Amion for the day to day. Scheduling Wizard builds the ACGME-compliant schedule you upload to it \u2014 no migration, no software to learn.",
   "category": "competitor",
   "data": {
     "cta": {
@@ -40,8 +40,8 @@
       }
     ],
     "hero": {
-      "title": "The Amion Alternative Built for Schedule Creation",
-      "description": "Scheduling Wizard is the managed Amion alternative that builds your ACGME-compliant schedules for you. Submit constraints, receive finished Excel files."
+      "title": "Amion Manages Your Schedule. We Build It.",
+      "description": "Keep Amion exactly as you use it today. Scheduling Wizard builds your ACGME-compliant block, call and clinic schedules and hands them back as finished Excel files, ready to upload."
     },
     "features": {
       "items": [
@@ -87,7 +87,7 @@
             "Elective preferences factored in",
             "Coverage minimums maintained"
           ],
-          "description": "Scheduling Wizard generates year-long block rotation schedules that respect PGY-level requirements, elective preferences, coverage minimums, and ACGME rotation mandates — the part of scheduling Amion was never designed to do."
+          "description": "Scheduling Wizard generates year-long block rotation schedules that respect PGY-level requirements, elective preferences, coverage minimums, and ACGME rotation mandates \u2014 the part of scheduling Amion was never designed to do."
         },
         {
           "id": "call-scheduling",
@@ -119,8 +119,8 @@
           "description": "When a new chief takes over, all institutional scheduling logic lives in one person's head and disappears when they leave."
         }
       ],
-      "title": "Why Programs Look Beyond Amion",
-      "description": "Amion displays schedules well, but building optimized, compliant schedules is a different challenge entirely."
+      "title": "Platforms Manage Schedules. They Don't Effectively Create Them.",
+      "description": "That's why most departments still have someone building the schedule in Excel, even while using a platform to manage day-to-day changes."
     },
     "solution": {
       "title": "Schedule Creation Handled by Experts",

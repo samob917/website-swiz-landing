@@ -44,9 +44,9 @@ export default function PrivacyPage() {
                 Who we are
               </h2>
               <p>
-                Scheduling Wizard, Inc. builds physician and resident schedules
-                for graduate medical education programs, provider groups and
-                private practices.
+                Scheduling Wizard, Inc. builds physician schedules for graduate
+                medical education programs, provider groups and private
+                practices.
               </p>
               <p>This policy covers this website, schedulingwiz.com.</p>
             </section>
