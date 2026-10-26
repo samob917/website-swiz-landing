@@ -14,12 +14,30 @@
       "alt": "Scheduling Wizard"
     },
     "items": [
-      { "label": "Home", "href": "/" },
-      { "label": "Use Cases", "href": "/uses" },
-      { "label": "Demo", "href": "/demo" },
-      { "label": "Customers", "href": "/customers" },
-      { "label": "Team", "href": "/team" },
-      { "label": "Contact", "href": "/contact" }
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Use Cases",
+        "href": "/uses"
+      },
+      {
+        "label": "Demo",
+        "href": "/demo"
+      },
+      {
+        "label": "Customers",
+        "href": "/customers"
+      },
+      {
+        "label": "Team",
+        "href": "/team"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
     ],
     "cta": {
       "label": "Book a Meeting",
@@ -31,31 +49,46 @@
       {
         "heading": "Product",
         "links": [
-          { "label": "Use Cases", "href": "/uses" },
-          { "label": "Demo", "href": "/demo" }
+          {
+            "label": "Use Cases",
+            "href": "/uses"
+          },
+          {
+            "label": "Demo",
+            "href": "/demo"
+          }
         ]
       },
       {
         "heading": "Company",
         "links": [
-          { "label": "Customers", "href": "/customers" },
-          { "label": "Team", "href": "/team" },
-          { "label": "Contact", "href": "/contact" }
+          {
+            "label": "Customers",
+            "href": "/customers"
+          },
+          {
+            "label": "Team",
+            "href": "/team"
+          },
+          {
+            "label": "Contact",
+            "href": "/contact"
+          }
         ]
       }
     ],
     "legal": {
-      "copyright": "© 2026 Scheduling Wizard. All rights reserved.",
+      "copyright": "\u00a9 2026 Scheduling Wizard. All rights reserved.",
       "links": []
     }
   },
   "usesIndex": {
     "seo": {
-      "title": "Use Cases — Scheduling Wizard",
+      "title": "Use Cases \u2014 Scheduling Wizard",
       "description": "See how program directors, chiefs, and administrators use Scheduling Wizard across departments, specialties, and program structures."
     },
     "heading": "Use Cases",
-    "description": "From neurology block schedules to surgery call rotations — see how Scheduling Wizard handles the most complex requirements across every department.",
+    "description": "From neurology block schedules to monthly ED shift schedules, see how Scheduling Wizard builds schedules regardless of complexity.",
     "categoryLabels": {
       "role": "Role",
       "setting": "Setting",
