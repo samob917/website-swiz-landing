@@ -9,7 +9,6 @@
 
 import type { Metadata } from "next"
 
-import { POLICY_VERSION } from "@/lib/consent"
 import { CookieSettingsButton } from "@/components/cookie-settings-button"
 
 export const metadata: Metadata = {
@@ -31,7 +30,7 @@ export default function PrivacyPage() {
             <span className="hero-text-bold text-yellow-400">Policy</span>
           </h1>
           <p className="mt-4 text-sm text-white/50">
-            Last updated {LAST_UPDATED} &middot; Version {POLICY_VERSION}
+            Last updated {LAST_UPDATED}
           </p>
         </div>
       </section>
@@ -71,7 +70,11 @@ export default function PrivacyPage() {
                 site. We do not sell it and we do not use it for advertising.
               </p>
               <p>
-                If you fill in a form here, we receive what you type into it.
+                If you fill in a form here, we receive what you type into it,
+                and we keep it in our email for as long as we are in touch with
+                you. Our &ldquo;schedule a call&rdquo; links go to Calendly,
+                which collects whatever you enter when you book and is covered
+                by its own privacy policy.
               </p>
               <p>
                 We do not describe any of this as anonymous: a browsing history
@@ -85,10 +88,11 @@ export default function PrivacyPage() {
               </h2>
               <p>
                 PostHog also records your visit so we can play it back. Every
-                form input and every piece of text is masked before the
-                recording leaves your browser, so it shows layout and clicks
-                rather than anything you typed. Recordings are deleted after
-                about 30 days.
+                form input and every piece of on-page text is masked before the
+                recording leaves your browser, so a recording shows layout and
+                clicks rather than anything you typed. The address of each page
+                you visit is recorded as part of it. Recordings are set to be
+                deleted after about 30 days.
               </p>
               <p>
                 PostHog processes this data on our behalf, under our
@@ -102,15 +106,19 @@ export default function PrivacyPage() {
                 Your choice
               </h2>
               <p>
-                Nothing is collected until you press Accept. If you decline,
-                analytics and session recording stay off and no identifier is
-                stored on your device. You can change your mind at any time
+                We do not switch on analytics or session recording unless you
+                press Accept. If you decline, both stay off and no identifier is
+                stored on your device. Our host keeps ordinary server logs
+                either way, and anything you send us through a form reaches us
+                whichever you choose. You can change your mind at any time
                 using{" "}
                 <CookieSettingsButton className="font-medium text-gray-900 underline underline-offset-2 hover:text-gray-700">
                   cookie settings
                 </CookieSettingsButton>
-                , here or in the footer of any page. Switching to decline also
-                clears what is already stored.
+                , here or in the footer of any page. Switching to decline
+                clears the analytics cookies and storage on your device. It does
+                not by itself delete recordings we already hold, so email us if
+                you want those removed.
               </p>
             </section>
 

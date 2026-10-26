@@ -15,7 +15,7 @@
     },
     "faq": [
       {
-        "answer": "Fellowship scheduling software refers to tools or services used to build ACGME-compliant rotation, call, and clinic schedules for fellowship training programs. Most solutions are self-service platforms that require chief fellows to learn and operate the software themselves. Scheduling Wizard differs by operating as a managed service — programs submit their constraints and receive finished, optimized schedules as Excel files, with no software to learn or operate.",
+        "answer": "Fellowship scheduling software refers to tools or services used to build ACGME-compliant rotation, call, and clinic schedules for fellowship training programs. Most solutions are self-service platforms that require chief fellows to learn and operate the software themselves. Scheduling Wizard differs by operating as a managed service, programs submit their constraints and receive finished, optimized schedules as Excel files, with no software to learn or operate.",
         "question": "What is fellowship scheduling software and how does Scheduling Wizard differ?"
       },
       {
@@ -54,7 +54,7 @@
             "Violations prevented at generation",
             "Kept current with ACGME updates"
           ],
-          "description": "Fellowship programs face subspecialty-specific ACGME duty hour rules that differ from categorical residency programs. Scheduling Wizard's engine enforces these rules at generation time — violations are prevented, not discovered after publishing."
+          "description": "Fellowship programs face subspecialty-specific ACGME duty hour rules that differ from categorical residency programs. Scheduling Wizard's engine enforces these rules at generation time, violations are prevented, not discovered after publishing."
         },
         {
           "id": "managed-service",
@@ -65,7 +65,7 @@
             "Finished Excel files delivered",
             "Upload to Amion or QGenda"
           ],
-          "description": "Unlike self-service fellowship scheduling software, Scheduling Wizard operates as a done-for-you managed service. Submit your constraints and receive finished, ready-to-publish schedules — no platform to log into, no software to operate."
+          "description": "Unlike self-service fellowship scheduling software, Scheduling Wizard operates as a done-for-you managed service. Submit your constraints and receive finished, ready-to-publish schedules, no platform to log into, no software to operate."
         },
         {
           "id": "institutional-continuity",
@@ -124,7 +124,7 @@
     },
     "solution": {
       "title": "Done-For-You Fellowship Schedule Delivery",
-      "description": "Submit your program's constraints — rotation requirements, subspecialty ACGME rules, resident preferences, and coverage targets — and Scheduling Wizard returns finished, compliant Block, Call, Clinic, and Attending schedules as ready-to-use Excel files. No software to learn. No annual retraining when fellows rotate out."
+      "description": "Submit your program's constraints (rotation requirements, subspecialty ACGME rules, resident preferences, and coverage targets) and Scheduling Wizard returns finished, compliant Block, Call, Clinic, and Attending schedules as ready-to-use Excel files. No software to learn. No annual retraining when fellows rotate out."
     },
     "metaTitle": "Fellowship Scheduling Software | ACGME-Compliant | Scheduling Wizard",
     "metaDescription": "Fellowship scheduling software shouldn't add to your workload. Scheduling Wizard is a managed service that takes your constraints and delivers complete, ACGME-compliant schedules."

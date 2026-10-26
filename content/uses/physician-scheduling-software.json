@@ -54,7 +54,7 @@
             "Finished schedules delivered",
             "Expert schedulers handle complexity"
           ],
-          "description": "Unlike self-service physician scheduling software, Scheduling Wizard handles the entire scheduling process. Submit your constraints and receive finished Excel schedules — no software to operate, no learning curve, no annual retraining."
+          "description": "Unlike self-service physician scheduling software, Scheduling Wizard handles the entire scheduling process. Submit your constraints and receive finished Excel schedules, no software to operate, no learning curve, no annual retraining."
         },
         {
           "id": "acgme-compliance",
@@ -65,7 +65,7 @@
             "Subspecialty rules built in",
             "Violations prevented at generation"
           ],
-          "description": "ACGME duty hour regulations — including 80-hour weekly limits, rest requirements, and subspecialty-specific rules — are mathematically enforced at generation time. Violations are prevented before the schedule is ever published."
+          "description": "ACGME duty hour regulations (including 80-hour weekly limits, rest requirements, and subspecialty-specific rules) are mathematically enforced at generation time. Violations are prevented before the schedule is ever published."
         },
         {
           "id": "block-scheduling",
@@ -87,7 +87,7 @@
             "Holiday shifts distributed fairly",
             "Post-call rules enforced"
           ],
-          "description": "On-call schedules are algorithmically optimized to distribute call, weekend, and holiday burden equitably across residents while enforcing duty hour limits and post-call rules — eliminating fairness disputes."
+          "description": "On-call schedules are algorithmically optimized to distribute call, weekend, and holiday burden equitably across residents while enforcing duty hour limits and post-call rules, eliminating fairness disputes."
         },
         {
           "id": "institutional-continuity",
@@ -108,7 +108,7 @@
       "items": [
         {
           "title": "Software You Have to Master",
-          "description": "Self-service physician scheduling software requires hours of setup, training, and rework — time chief residents and coordinators don't have."
+          "description": "Self-service physician scheduling software requires hours of setup, training, and rework, time chief residents and coordinators don't have."
         },
         {
           "title": "Compliance Gaps Put Programs at Risk",
@@ -116,7 +116,7 @@
         },
         {
           "title": "Knowledge Lost Every Year",
-          "description": "When the chief resident rotates out, all scheduling expertise walks out with them — leaving the next chief to start from scratch."
+          "description": "When the chief resident rotates out, all scheduling expertise walks out with them, leaving the next chief to start from scratch."
         }
       ],
       "title": "Scheduling Software Isn't the Answer",

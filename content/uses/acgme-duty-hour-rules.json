@@ -19,7 +19,7 @@
         "question": "What are the ACGME duty hour rules for residents?"
       },
       {
-        "answer": "Scheduling Wizard enforces ACGME duty hour rules mathematically during schedule generation — violations are prevented, not detected after the fact. Rather than building a schedule and then checking it for compliance, the proprietary optimization engine treats every duty hour requirement as a hard constraint that cannot be violated. This means the finished schedule delivered to your program is compliant at the moment it is generated, including subspecialty-specific rules relevant to your program.",
+        "answer": "Scheduling Wizard enforces ACGME duty hour rules mathematically during schedule generation, violations are prevented, not detected after the fact. Rather than building a schedule and then checking it for compliance, the proprietary optimization engine treats every duty hour requirement as a hard constraint that cannot be violated. This means the finished schedule delivered to your program is compliant at the moment it is generated, including subspecialty-specific rules relevant to your program.",
         "question": "How does Scheduling Wizard guarantee ACGME duty hour compliance?"
       },
       {
@@ -31,11 +31,11 @@
         "question": "What ACGME duty hour violations put a program at risk?"
       },
       {
-        "answer": "While all ACGME-accredited programs share core duty hour requirements, subspecialties have additional or modified rules — for example, surgery programs have specific requirements around trauma call pyramids and back-up call coverage, while pediatrics programs have their own home call requirements. Scheduling Wizard's compliance engine has subspecialty-specific ACGME rules built in, so your schedule reflects the rules that actually apply to your program rather than a one-size-fits-all interpretation.",
+        "answer": "While all ACGME-accredited programs share core duty hour requirements, subspecialties have additional or modified rules, for example, surgery programs have specific requirements around trauma call pyramids and back-up call coverage, while pediatrics programs have their own home call requirements. Scheduling Wizard's compliance engine has subspecialty-specific ACGME rules built in, so your schedule reflects the rules that actually apply to your program rather than a one-size-fits-all interpretation.",
         "question": "How do subspecialty ACGME duty hour rules differ across programs?"
       },
       {
-        "answer": "Yes. Scheduling Wizard delivers finished, ACGME-compliant schedules as Excel spreadsheets, which programs can upload directly to Amion or QGenda for day-to-day viewing and access. Many current Scheduling Wizard clients use this exact workflow — Scheduling Wizard handles the schedule creation and optimization, while Amion or QGenda serves as the display and communication layer your team is already familiar with.",
+        "answer": "Yes. Scheduling Wizard delivers finished, ACGME-compliant schedules as Excel spreadsheets, which programs can upload directly to Amion or QGenda for day-to-day viewing and access. Many current Scheduling Wizard clients use this exact workflow. Scheduling Wizard handles the schedule creation and optimization, while Amion or QGenda serves as the display and communication layer your team is already familiar with.",
         "question": "Can Scheduling Wizard work with our existing Amion or QGenda system?"
       }
     ],
@@ -54,7 +54,7 @@
             "Subspecialty-specific rules built in",
             "Home call rules handled correctly"
           ],
-          "description": "ACGME duty hour regulations — including 80-hour weekly limits, 10-hour rest requirements, 24-hour hard caps, and home call rules — are enforced mathematically at generation time. Violations are prevented before the schedule is ever published."
+          "description": "ACGME duty hour regulations (including 80-hour weekly limits, 10-hour rest requirements, 24-hour hard caps, and home call rules) are enforced mathematically at generation time. Violations are prevented before the schedule is ever published."
         },
         {
           "id": "managed-service",
@@ -65,7 +65,7 @@
             "Excel files ready to publish",
             "No software training required"
           ],
-          "description": "Programs submit their constraints and receive finished, ACGME-compliant schedules as Excel files. There is no platform to operate or software to train incoming chiefs on — Scheduling Wizard handles the optimization entirely."
+          "description": "Programs submit their constraints and receive finished, ACGME-compliant schedules as Excel files. There is no platform to operate or software to train incoming chiefs on. Scheduling Wizard handles the optimization entirely."
         },
         {
           "id": "institutional-continuity",
@@ -87,7 +87,7 @@
             "ACGME rotation mandates enforced",
             "Multi-track programs supported"
           ],
-          "description": "Year-long block and rotation schedules are generated to satisfy PGY-level requirements, rotation mandates, and ACGME duty hour rules simultaneously — across every resident in your program."
+          "description": "Year-long block and rotation schedules are generated to satisfy PGY-level requirements, rotation mandates, and ACGME duty hour rules simultaneously, across every resident in your program."
         },
         {
           "id": "call-scheduling",
@@ -98,7 +98,7 @@
             "Fair call burden distribution",
             "Holiday and weekend call balanced"
           ],
-          "description": "On-call schedules are built to distribute burden equitably while strictly honoring ACGME duty hour limits, post-call rest requirements, and program-specific call rules — all without manual checking."
+          "description": "On-call schedules are built to distribute burden equitably while strictly honoring ACGME duty hour limits, post-call rest requirements, and program-specific call rules, all without manual checking."
         }
       ],
       "title": "Built Around ACGME Duty Hour Compliance",
@@ -108,7 +108,7 @@
       "items": [
         {
           "title": "One Violation Risks Accreditation",
-          "description": "Missing a duty hour limit or rest requirement puts your program's accreditation at risk — and manual checking is too slow to catch every conflict."
+          "description": "Missing a duty hour limit or rest requirement puts your program's accreditation at risk, and manual checking is too slow to catch every conflict."
         },
         {
           "title": "Rules Change and Vary by Specialty",
@@ -124,7 +124,7 @@
     },
     "solution": {
       "title": "Compliance Built Into Every Schedule",
-      "description": "Scheduling Wizard operates as a done-for-you managed service. Submit your program's constraints and receive finished Block, Call, Clinic, and Attending schedules as ready-to-use Excel files — with ACGME duty hour compliance mathematically enforced at generation time, not manually checked after the fact. Subspecialty-specific rules are built into the engine."
+      "description": "Scheduling Wizard operates as a done-for-you managed service. Submit your program's constraints and receive finished Block, Call, Clinic, and Attending schedules as ready-to-use Excel files, with ACGME duty hour compliance mathematically enforced at generation time, not manually checked after the fact. Subspecialty-specific rules are built into the engine."
     },
     "metaTitle": "ACGME Duty Hour Rules | Guaranteed Compliance | Scheduling Wizard",
     "metaDescription": "ACGME duty hour rules can be complex and risky. Our managed service builds your residency schedule for you, guaranteeing compliance to protect your program's accreditation."

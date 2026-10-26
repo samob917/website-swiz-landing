@@ -23,7 +23,7 @@
         "question": "What ACGME duty hour rules apply to residency call schedules?"
       },
       {
-        "answer": "Manual call scheduling requires simultaneously tracking dozens of resident constraints, rotating holiday and weekend assignments, honoring individual preferences, and enforcing ACGME rules — all in a spreadsheet. Any single change cascades through the entire schedule. The result is hours of manual work and fairness outcomes that are difficult to defend objectively when residents raise concerns.",
+        "answer": "Manual call scheduling requires simultaneously tracking dozens of resident constraints, rotating holiday and weekend assignments, honoring individual preferences, and enforcing ACGME rules, all in a spreadsheet. Any single change cascades through the entire schedule. The result is hours of manual work and fairness outcomes that are difficult to defend objectively when residents raise concerns.",
         "question": "Why is building a fair call schedule so difficult manually?"
       },
       {
@@ -35,7 +35,7 @@
         "question": "Who builds the call schedules at Scheduling Wizard?"
       },
       {
-        "answer": "Scheduling Wizard handles schedule revisions as part of the managed service. When mid-year changes occur — such as leave, swaps, or new constraints — the affected portions of the schedule are re-optimized while preserving the fairness balance and ACGME compliance of the overall call schedule, without manually reshuffling the entire roster.",
+        "answer": "Scheduling Wizard handles schedule revisions as part of the managed service. When mid-year changes occur (such as leave, swaps, or new constraints) the affected portions of the schedule are re-optimized while preserving the fairness balance and ACGME compliance of the overall call schedule, without manually reshuffling the entire roster.",
         "question": "How does Scheduling Wizard handle changes to the call schedule mid-year?"
       }
     ],

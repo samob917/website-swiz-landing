@@ -15,7 +15,7 @@
     },
     "faq": [
       {
-        "answer": "Scheduling Wizard re-optimizes your affected schedules when a resident goes on maternity leave. You submit the updated constraints — including the leave details, duration, and any coverage preferences — and the engine redistributes rotations, call assignments, and clinic coverage across your remaining residents. The output is a revised, ACGME-compliant Excel schedule ready to publish, without your team manually rebuilding anything from scratch.",
+        "answer": "Scheduling Wizard re-optimizes your affected schedules when a resident goes on maternity leave. You submit the updated constraints (including the leave details, duration, and any coverage preferences) and the engine redistributes rotations, call assignments, and clinic coverage across your remaining residents. The output is a revised, ACGME-compliant Excel schedule ready to publish, without your team manually rebuilding anything from scratch.",
         "question": "How does Scheduling Wizard handle maternity leave in a residency program?"
       },
       {
@@ -31,11 +31,11 @@
         "question": "What schedule types are affected by maternity leave and does SW handle all of them?"
       },
       {
-        "answer": "Programs submit their scheduling constraints — rotation requirements, ACGME rules, resident preferences, coverage minimums, and the specifics of the maternity leave (dates, affected resident, any accommodation requirements). Scheduling Wizard handles the optimization from there and delivers finished Excel files your team can upload directly to Amion, QGenda, or your existing viewing tool.",
+        "answer": "Programs submit their scheduling constraints, rotation requirements, ACGME rules, resident preferences, coverage minimums, and the specifics of the maternity leave (dates, affected resident, any accommodation requirements). Scheduling Wizard handles the optimization from there and delivers finished Excel files your team can upload directly to Amion, QGenda, or your existing viewing tool.",
         "question": "What does the program need to submit to get a revised schedule?"
       },
       {
-        "answer": "Manual scheduling in Excel requires someone — typically a chief resident — to hand-check every affected rotation, call slot, and clinic assignment for conflicts and compliance after each change. Scheduling Wizard replaces that process entirely. The optimization engine handles all constraint checking and redistribution automatically, and institutional scheduling knowledge persists with Scheduling Wizard year over year, so a new chief does not have to relearn how your program's rules work.",
+        "answer": "Manual scheduling in Excel requires someone, typically a chief resident, to hand-check every affected rotation, call slot, and clinic assignment for conflicts and compliance after each change. Scheduling Wizard replaces that process entirely. The optimization engine handles all constraint checking and redistribution automatically, and institutional scheduling knowledge persists with Scheduling Wizard year over year, so a new chief does not have to relearn how your program's rules work.",
         "question": "How is Scheduling Wizard different from managing maternity leave manually in Excel?"
       }
     ],
@@ -124,7 +124,7 @@
     },
     "solution": {
       "title": "A Done-For-You Schedule That Absorbs Leave",
-      "description": "Submit your program's constraints — including the maternity leave details — and Scheduling Wizard's optimization engine rebuilds your ACGME-compliant block, call, and clinic schedules automatically. You receive finished Excel files, ready to publish. No software to learn, no manual reshuffling."
+      "description": "Submit your program's constraints, including the maternity leave details, and Scheduling Wizard's optimization engine rebuilds your ACGME-compliant block, call, and clinic schedules automatically. You receive finished Excel files, ready to publish. No software to learn, no manual reshuffling."
     },
     "metaTitle": "Maternity Leave Residency Scheduling | Optimized Shifts | SW",
     "metaDescription": "Maternity leave residency scheduling is complex. Our managed service creates optimized, ACGME-compliant schedules for you, ensuring fair coverage without manual work."

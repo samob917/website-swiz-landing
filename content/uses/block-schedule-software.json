@@ -15,7 +15,7 @@
     },
     "faq": [
       {
-        "answer": "Residency block schedule software automates the creation of year-long rotation assignments for residents across clinical sites, PGY levels, and ACGME-required rotations. Scheduling Wizard takes this a step further as a managed service — instead of operating software yourself, you submit your program's constraints and receive a finished, ACGME-compliant block schedule delivered as an Excel file. No platform to learn, no configuration required.",
+        "answer": "Residency block schedule software automates the creation of year-long rotation assignments for residents across clinical sites, PGY levels, and ACGME-required rotations. Scheduling Wizard takes this a step further as a managed service, instead of operating software yourself, you submit your program's constraints and receive a finished, ACGME-compliant block schedule delivered as an Excel file. No platform to learn, no configuration required.",
         "question": "What is residency block schedule software and how does it work?"
       },
       {
@@ -23,7 +23,7 @@
         "question": "How does Scheduling Wizard ensure ACGME compliance in block schedules?"
       },
       {
-        "answer": "Block scheduling requires balancing dozens of simultaneous constraints — PGY requirements, ACGME rules, resident preferences, coverage minimums, and site availability — in a way that is fair and compliant. Most chief residents inherit a blank spreadsheet and very little institutional context, spending hundreds of hours on a problem they've never solved before. Scheduling Wizard eliminates this burden by carrying the program's constraints forward each year.",
+        "answer": "Block scheduling requires balancing dozens of simultaneous constraints (PGY requirements, ACGME rules, resident preferences, coverage minimums, and site availability) in a way that is fair and compliant. Most chief residents inherit a blank spreadsheet and very little institutional context, spending hundreds of hours on a problem they've never solved before. Scheduling Wizard eliminates this burden by carrying the program's constraints forward each year.",
         "question": "Why do chief residents struggle with building block schedules each year?"
       },
       {
@@ -41,7 +41,7 @@
     ],
     "hero": {
       "title": "Residency Block Schedule Software Managed For You",
-      "description": "Stop wrestling with scheduling software. Scheduling Wizard delivers complete, ACGME-compliant block schedules as ready-to-use Excel files — no software to learn."
+      "description": "Stop wrestling with scheduling software. Scheduling Wizard delivers complete, ACGME-compliant block schedules as ready-to-use Excel files, no software to learn."
     },
     "features": {
       "items": [
@@ -54,7 +54,7 @@
             "Elective preferences factored in",
             "Coverage minimums guaranteed"
           ],
-          "description": "Generates complete year-long rotation block schedules respecting PGY-level requirements, elective preferences, coverage minimums, and ACGME rotation mandates — delivered as ready-to-use Excel files your program can publish immediately."
+          "description": "Generates complete year-long rotation block schedules respecting PGY-level requirements, elective preferences, coverage minimums, and ACGME rotation mandates, delivered as ready-to-use Excel files your program can publish immediately."
         },
         {
           "id": "acgme-compliance",
@@ -87,7 +87,7 @@
             "Excel output, ready to publish",
             "Upload to Amion or QGenda"
           ],
-          "description": "Scheduling Wizard operates as a done-for-you managed service. Chief residents submit constraints and receive finished block schedules — no platform to navigate, no scheduling software to master, no training required."
+          "description": "Scheduling Wizard operates as a done-for-you managed service. Chief residents submit constraints and receive finished block schedules, no platform to navigate, no scheduling software to master, no training required."
         },
         {
           "id": "constraint-modeling",
@@ -98,7 +98,7 @@
             "Moonlighting restrictions included",
             "Conference and leave accommodated"
           ],
-          "description": "Program-specific rules — site requirements, moonlighting restrictions, parental leave, conference attendance, and complex multi-site block arrangements — are modeled via a proprietary scheduling language so no constraint is left unaddressed."
+          "description": "Program-specific rules (site requirements, moonlighting restrictions, parental leave, conference attendance, and complex multi-site block arrangements) are modeled via a proprietary scheduling language so no constraint is left unaddressed."
         }
       ],
       "title": "Built for Residency Block Scheduling",
@@ -124,7 +124,7 @@
     },
     "solution": {
       "title": "Done For You Block Schedule Delivery",
-      "description": "Submit your program's constraints — rotation requirements, PGY-level rules, resident preferences, and subspecialty-specific ACGME standards — and receive finished, compliant block schedules as ready-to-use Excel files. No software to learn, and no institutional knowledge lost when chiefs rotate."
+      "description": "Submit your program's constraints (rotation requirements, PGY-level rules, resident preferences, and subspecialty-specific ACGME standards) and receive finished, compliant block schedules as ready-to-use Excel files. No software to learn, and no institutional knowledge lost when chiefs rotate."
     },
     "metaTitle": "Residency Block Schedule Software | Custom & Compliant | Scheduling Wizard",
     "metaDescription": "Residency block schedule software managed for you. We take your program's unique constraints and deliver complete, ACGME-compliant block schedules without the software hassle."

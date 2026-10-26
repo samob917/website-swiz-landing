@@ -15,15 +15,15 @@
     },
     "faq": [
       {
-        "answer": "Healthcare staff scheduling software helps medical programs build, manage, and distribute workforce schedules. Whether you need traditional software depends on your team's capacity. Scheduling Wizard takes a different approach entirely — rather than giving you software to operate, it functions as a managed service. You submit your program's constraints and receive finished, optimized schedules as Excel files, so your team never has to learn or maintain a scheduling platform.",
+        "answer": "Healthcare staff scheduling software helps medical programs build, manage, and distribute workforce schedules. Whether you need traditional software depends on your team's capacity. Scheduling Wizard takes a different approach entirely, rather than giving you software to operate, it functions as a managed service. You submit your program's constraints and receive finished, optimized schedules as Excel files, so your team never has to learn or maintain a scheduling platform.",
         "question": "What is healthcare staff scheduling software and do I need it?"
       },
       {
-        "answer": "ACGME compliance is enforced mathematically at schedule generation time, not audited manually after the fact. The optimization engine has subspecialty-specific ACGME rules built in — including the 80-hour weekly limit, minimum rest requirements, and the 24-hour hard cap. Violations are prevented during schedule creation, not discovered after the schedule is already in use. This is the number one question buyers ask on sales calls, and it's why ACGME compliance is central to how Scheduling Wizard is built.",
+        "answer": "ACGME compliance is enforced mathematically at schedule generation time, not audited manually after the fact. The optimization engine has subspecialty-specific ACGME rules built in, including the 80-hour weekly limit, minimum rest requirements, and the 24-hour hard cap. Violations are prevented during schedule creation, not discovered after the schedule is already in use. This is the number one question buyers ask on sales calls, and it's why ACGME compliance is central to how Scheduling Wizard is built.",
         "question": "How does Scheduling Wizard ensure ACGME duty hour compliance?"
       },
       {
-        "answer": "Most healthcare staff scheduling software is self-service — you buy it, learn it, and operate it yourself. Scheduling Wizard is a managed service. Programs submit their constraints and an expert scheduling engine delivers a finished, ready-to-publish schedule. There is no platform to log into and no software to maintain. Many Scheduling Wizard clients also use Amion or QGenda alongside it — Scheduling Wizard handles schedule creation and optimization, while Amion or QGenda are used for day-to-day schedule viewing.",
+        "answer": "Most healthcare staff scheduling software is self-service; you buy it, learn it, and operate it yourself. Scheduling Wizard is a managed service. Programs submit their constraints and an expert scheduling engine delivers a finished, ready-to-publish schedule. There is no platform to log into and no software to maintain. Many Scheduling Wizard clients also use Amion or QGenda alongside it. Scheduling Wizard handles schedule creation and optimization, while Amion or QGenda are used for day-to-day schedule viewing.",
         "question": "How is Scheduling Wizard different from other healthcare staff scheduling software?"
       },
       {
@@ -112,7 +112,7 @@
         },
         {
           "title": "Compliance Left to Chance",
-          "description": "Manually checking ACGME duty hours after building a schedule doesn't prevent violations — it just finds them too late to fix cleanly."
+          "description": "Manually checking ACGME duty hours after building a schedule doesn't prevent violations; it just finds them too late to fix cleanly."
         },
         {
           "title": "Fairness Disputes Every Cycle",

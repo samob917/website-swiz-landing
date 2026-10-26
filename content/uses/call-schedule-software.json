@@ -15,7 +15,7 @@
     },
     "faq": [
       {
-        "answer": "Call schedule software typically refers to self-service tools that help programs manually build on-call schedules. Scheduling Wizard takes a different approach: it is a managed service, not a self-service platform. Programs submit their constraints and receive finished, ACGME-compliant call schedules as Excel files — there is no software to learn or operate. This eliminates the burden on chief residents and program coordinators who would otherwise spend hundreds of hours each year building schedules manually.",
+        "answer": "Call schedule software typically refers to self-service tools that help programs manually build on-call schedules. Scheduling Wizard takes a different approach: it is a managed service, not a self-service platform. Programs submit their constraints and receive finished, ACGME-compliant call schedules as Excel files; there is no software to learn or operate. This eliminates the burden on chief residents and program coordinators who would otherwise spend hundreds of hours each year building schedules manually.",
         "question": "What is call schedule software and how does Scheduling Wizard differ?"
       },
       {
@@ -23,11 +23,11 @@
         "question": "How does Scheduling Wizard ensure ACGME compliance in call schedules?"
       },
       {
-        "answer": "Yes. Scheduling Wizard uses a proprietary constraint modeling system that accepts program-specific rules including site requirements, resident preferences, moonlighting restrictions, parental leave, conference attendance, and multi-site arrangements. No constraint is too unusual — the managed service model means an expert scheduler works through your program's requirements directly.",
+        "answer": "Yes. Scheduling Wizard uses a proprietary constraint modeling system that accepts program-specific rules including site requirements, resident preferences, moonlighting restrictions, parental leave, conference attendance, and multi-site arrangements. No constraint is too unusual, the managed service model means an expert scheduler works through your program's requirements directly.",
         "question": "Can Scheduling Wizard handle our program's specific call scheduling rules and constraints?"
       },
       {
-        "answer": "Finished call schedules are delivered as Excel spreadsheets, ready to use immediately. Programs can upload these files directly to their existing schedule viewing tools — such as Amion or QGenda — for day-to-day resident access. Scheduling Wizard handles the schedule creation and optimization; your existing viewing platform handles display and distribution.",
+        "answer": "Finished call schedules are delivered as Excel spreadsheets, ready to use immediately. Programs can upload these files directly to their existing schedule viewing tools, such as Amion or QGenda, for day-to-day resident access. Scheduling Wizard handles the schedule creation and optimization; your existing viewing platform handles display and distribution.",
         "question": "What format are the finished call schedules delivered in?"
       },
       {
@@ -35,7 +35,7 @@
         "question": "How does Scheduling Wizard handle fairness in call schedule distribution?"
       },
       {
-        "answer": "Scheduling Wizard supports rapid re-optimization when unplanned absences occur — such as illness or emergency leave. Rather than manually reshuffling the entire schedule, the engine generates updated coverage options for the affected shifts while maintaining compliance and fairness across the rest of the call schedule.",
+        "answer": "Scheduling Wizard supports rapid re-optimization when unplanned absences occur, such as illness or emergency leave. Rather than manually reshuffling the entire schedule, the engine generates updated coverage options for the affected shifts while maintaining compliance and fairness across the rest of the call schedule.",
         "question": "What happens when a resident unexpectedly cannot cover a call shift?"
       }
     ],
@@ -54,7 +54,7 @@
             "Holiday shifts distributed fairly",
             "Post-call rest rules enforced"
           ],
-          "description": "Scheduling Wizard's optimization engine produces ACGME-compliant call schedules that distribute weekend, holiday, and overnight call burden equitably across all residents — without hours of manual effort from your chief."
+          "description": "Scheduling Wizard's optimization engine produces ACGME-compliant call schedules that distribute weekend, holiday, and overnight call burden equitably across all residents, without hours of manual effort from your chief."
         },
         {
           "id": "acgme-compliance",
@@ -65,7 +65,7 @@
             "Subspecialty-specific rules included",
             "Violations prevented not detected"
           ],
-          "description": "ACGME duty hour rules are mathematically enforced at generation time — 80-hour weekly limits, minimum rest requirements, and call caps. Subspecialty-specific rules are built into the engine so violations are prevented, not discovered after publishing."
+          "description": "ACGME duty hour rules are mathematically enforced at generation time, 80-hour weekly limits, minimum rest requirements, and call caps. Subspecialty-specific rules are built into the engine so violations are prevented, not discovered after publishing."
         },
         {
           "id": "managed-service",
@@ -98,11 +98,11 @@
             "Conference and moonlighting constraints handled",
             "Preferences balanced with fairness"
           ],
-          "description": "Vacation requests, conference dates, moonlighting restrictions, and personal constraints are incorporated as first-class inputs into the call schedule optimization — not manually patched in as afterthoughts."
+          "description": "Vacation requests, conference dates, moonlighting restrictions, and personal constraints are incorporated as first-class inputs into the call schedule optimization, not manually patched in as afterthoughts."
         }
       ],
       "title": "Built for Residency Call Scheduling",
-      "description": "Every feature is purpose-built for the complexity of GME call scheduling — fairness, compliance, and managed delivery included."
+      "description": "Every feature is purpose-built for the complexity of GME call scheduling, fairness, compliance, and managed delivery included."
     },
     "problems": {
       "items": [
@@ -124,7 +124,7 @@
     },
     "solution": {
       "title": "A Done For You Call Scheduling Service",
-      "description": "Submit your program's constraints — ACGME rules, resident preferences, call fairness targets, and rotation requirements — and receive finished, compliant call schedules as ready-to-use Excel files. No software to learn. No annual retraining when chiefs rotate."
+      "description": "Submit your program's constraints (ACGME rules, resident preferences, call fairness targets, and rotation requirements) and receive finished, compliant call schedules as ready-to-use Excel files. No software to learn. No annual retraining when chiefs rotate."
     },
     "metaTitle": "Call Schedule Software | Ensure ACGME Compliance | Scheduling Wizard",
     "metaDescription": "Call schedule software can be complex. Our managed service delivers fair, optimized call schedules that are mathematically guaranteed to be ACGME compliant."

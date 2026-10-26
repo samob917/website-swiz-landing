@@ -5,7 +5,7 @@
   "title": "QGenda Alternative | Managed ACGME Scheduling | Scheduling Wizard",
   "description": "QGenda alternative for GME programs seeking a managed service. We deliver complete, ACGME-compliant block, call, and clinic schedules as Excel files, freeing your chief residents from complex software.",
   "h1": "QGenda Manages Your Schedule. We Build It.",
-  "paragraph": "Keep QGenda for the day to day. Scheduling Wizard builds the ACGME-compliant schedule you run in it \u2014 no migration, no software to learn.",
+  "paragraph": "Keep QGenda for the day to day. Scheduling Wizard builds the ACGME-compliant schedule you run in it, no migration, no software to learn.",
   "category": "competitor",
   "data": {
     "cta": {
@@ -15,11 +15,11 @@
     },
     "faq": [
       {
-        "answer": "Scheduling Wizard replaces QGenda for schedule creation and optimization, not for schedule viewing. Many Scheduling Wizard clients continue using QGenda as their day-to-day viewing and display platform \u2014 they simply upload the finished Excel schedule that Scheduling Wizard delivers. The key distinction is that Scheduling Wizard handles the complex work of building and optimizing the schedule, while QGenda serves as the viewer.",
+        "answer": "Scheduling Wizard replaces QGenda for schedule creation and optimization, not for schedule viewing. Many Scheduling Wizard clients continue using QGenda as their day-to-day viewing and display platform; they simply upload the finished Excel schedule that Scheduling Wizard delivers. The key distinction is that Scheduling Wizard handles the complex work of building and optimizing the schedule, while QGenda serves as the viewer.",
         "question": "Is Scheduling Wizard a replacement for QGenda?"
       },
       {
-        "answer": "ACGME duty hour rules are enforced mathematically at the time the schedule is generated, not checked manually after the fact. The engine includes the 80-hour weekly limit, 10-hour rest requirements, 24-hour hard caps, and subspecialty-specific rules. Compliance is not a post-generation audit \u2014 violations are structurally prevented before the schedule is ever produced.",
+        "answer": "ACGME duty hour rules are enforced mathematically at the time the schedule is generated, not checked manually after the fact. The engine includes the 80-hour weekly limit, 10-hour rest requirements, 24-hour hard caps, and subspecialty-specific rules. Compliance is not a post-generation audit, violations are structurally prevented before the schedule is ever produced.",
         "question": "How does Scheduling Wizard handle ACGME duty hour compliance?"
       },
       {
@@ -31,7 +31,7 @@
         "question": "Do chief residents need to learn new software to use Scheduling Wizard?"
       },
       {
-        "answer": "Subspecialty-specific ACGME rules are built directly into the optimization engine. During sales calls, ACGME compliance is consistently the first question program directors and chiefs ask \u2014 and specifically whether the engine knows the rules for their subspecialty. Scheduling Wizard's engine is built to handle those subspecialty distinctions rather than applying generic duty hour rules across all programs.",
+        "answer": "Subspecialty-specific ACGME rules are built directly into the optimization engine. During sales calls, ACGME compliance is consistently the first question program directors and chiefs ask, and specifically whether the engine knows the rules for their subspecialty. Scheduling Wizard's engine is built to handle those subspecialty distinctions rather than applying generic duty hour rules across all programs.",
         "question": "How does Scheduling Wizard handle subspecialty-specific ACGME rules?"
       },
       {
@@ -87,7 +87,7 @@
             "Elective preferences factored in",
             "Coverage minimums enforced"
           ],
-          "description": "Scheduling Wizard generates year-long block rotation schedules that respect PGY-level requirements, elective preferences, coverage minimums, and ACGME rotation mandates \u2014 fully optimized, not manually assembled."
+          "description": "Scheduling Wizard generates year-long block rotation schedules that respect PGY-level requirements, elective preferences, coverage minimums, and ACGME rotation mandates, fully optimized, not manually assembled."
         },
         {
           "id": "cross-schedule-resolution",
@@ -116,7 +116,7 @@
         },
         {
           "title": "Compliance Falls on Your Team",
-          "description": "Verifying ACGME duty hour compliance in self-service software is a manual, error-prone process \u2014 leaving your program exposed to violations and accreditation risk."
+          "description": "Verifying ACGME duty hour compliance in self-service software is a manual, error-prone process, leaving your program exposed to violations and accreditation risk."
         }
       ],
       "title": "Platforms Manage Schedules. They Don't Effectively Create Them.",

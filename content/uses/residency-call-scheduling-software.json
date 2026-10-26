@@ -15,7 +15,7 @@
     },
     "faq": [
       {
-        "answer": "Scheduling Wizard is not traditional self-service call scheduling software — it is a managed service. Rather than giving your chief residents a tool to learn and operate, Scheduling Wizard accepts your program's constraints and delivers a finished, optimized call schedule as an Excel file. There is no platform to log into, no training required, and no annual retraining when chiefs rotate out.",
+        "answer": "Scheduling Wizard is not traditional self-service call scheduling software; it is a managed service. Rather than giving your chief residents a tool to learn and operate, Scheduling Wizard accepts your program's constraints and delivers a finished, optimized call schedule as an Excel file. There is no platform to log into, no training required, and no annual retraining when chiefs rotate out.",
         "question": "What is residency call scheduling software and how does Scheduling Wizard differ?"
       },
       {
@@ -54,7 +54,7 @@
             "Holiday shifts distributed fairly",
             "Post-call rules enforced"
           ],
-          "description": "Our optimization engine produces ACGME-compliant on-call schedules that distribute call, weekend, and holiday burden equitably across all residents — respecting duty hour limits, post-call rest rules, and individual constraints automatically."
+          "description": "Our optimization engine produces ACGME-compliant on-call schedules that distribute call, weekend, and holiday burden equitably across all residents, respecting duty hour limits, post-call rest rules, and individual constraints automatically."
         },
         {
           "id": "acgme-compliance",
@@ -65,7 +65,7 @@
             "Subspecialty-specific rules built in",
             "Violations prevented before publishing"
           ],
-          "description": "ACGME duty hour rules are enforced mathematically when the call schedule is generated — including the 80-hour weekly limit, rest requirements, and the 24-hour cap. Subspecialty-specific rules are built into the engine, so violations are prevented, not discovered after publishing."
+          "description": "ACGME duty hour rules are enforced mathematically when the call schedule is generated, including the 80-hour weekly limit, rest requirements, and the 24-hour cap. Subspecialty-specific rules are built into the engine, so violations are prevented, not discovered after publishing."
         },
         {
           "id": "managed-service",
@@ -98,7 +98,7 @@
             "Conference dates respected",
             "Moonlighting restrictions honored"
           ],
-          "description": "Vacation requests, conference dates, elective preferences, and moonlighting restrictions are treated as first-class inputs to the call schedule optimization — not manually patched in after the fact by an overwhelmed chief."
+          "description": "Vacation requests, conference dates, elective preferences, and moonlighting restrictions are treated as first-class inputs to the call schedule optimization, not manually patched in after the fact by an overwhelmed chief."
         }
       ],
       "title": "Built for Residency Call Scheduling",

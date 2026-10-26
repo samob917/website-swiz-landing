@@ -15,7 +15,7 @@
     },
     "faq": [
       {
-        "answer": "A resident call schedule automation tool uses software or a managed service to generate on-call schedules for residency programs automatically, replacing manual spreadsheet builds. Scheduling Wizard goes further than self-service software by operating as a done-for-you managed service — programs submit their constraints and receive finished, ACGME-compliant call schedules as Excel files, with no software to learn or operate.",
+        "answer": "A resident call schedule automation tool uses software or a managed service to generate on-call schedules for residency programs automatically, replacing manual spreadsheet builds. Scheduling Wizard goes further than self-service software by operating as a done-for-you managed service, programs submit their constraints and receive finished, ACGME-compliant call schedules as Excel files, with no software to learn or operate.",
         "question": "What is a resident call schedule automation tool?"
       },
       {
@@ -23,11 +23,11 @@
         "question": "How does Scheduling Wizard guarantee ACGME call schedule compliance?"
       },
       {
-        "answer": "Yes. Subspecialty-specific ACGME rules are built directly into Scheduling Wizard's optimization engine. ACGME compliance — including specialty-specific call constraints — is the most common question asked on sales calls, and it is the area the engine was built to address with precision. Programs can also submit any additional program-specific rules as part of their constraint submission.",
+        "answer": "Yes. Subspecialty-specific ACGME rules are built directly into Scheduling Wizard's optimization engine. ACGME compliance, including specialty-specific call constraints, is the most common question asked on sales calls, and it is the area the engine was built to address with precision. Programs can also submit any additional program-specific rules as part of their constraint submission.",
         "question": "Does Scheduling Wizard know my subspecialty's specific ACGME call rules?"
       },
       {
-        "answer": "Self-service scheduling tools require your chief residents to learn, configure, and operate the software — and relearn it every year when leadership rotates. Scheduling Wizard is a managed service: your program submits constraints and receives finished call schedules as Excel files. There is no platform to log into, no software to master, and no knowledge loss when a chief transitions out.",
+        "answer": "Self-service scheduling tools require your chief residents to learn, configure, and operate the software, and relearn it every year when leadership rotates. Scheduling Wizard is a managed service: your program submits constraints and receives finished call schedules as Excel files. There is no platform to log into, no software to master, and no knowledge loss when a chief transitions out.",
         "question": "How is Scheduling Wizard different from self-service call scheduling software?"
       },
       {
@@ -35,7 +35,7 @@
         "question": "Can I still use Amion or QGenda alongside Scheduling Wizard?"
       },
       {
-        "answer": "Programs submit their scheduling constraints — including ACGME duty hour requirements, subspecialty-specific call rules, resident preferences (vacation, conferences, moonlighting), coverage minimums, and any program-specific rules. Scheduling Wizard's team and engine translate these inputs into a finished, optimized call schedule delivered as a ready-to-use Excel file.",
+        "answer": "Programs submit their scheduling constraints, including ACGME duty hour requirements, subspecialty-specific call rules, resident preferences (vacation, conferences, moonlighting), coverage minimums, and any program-specific rules. Scheduling Wizard's team and engine translate these inputs into a finished, optimized call schedule delivered as a ready-to-use Excel file.",
         "question": "What information does my program need to submit to get a call schedule?"
       }
     ],
@@ -65,7 +65,7 @@
             "Subspecialty rules built in",
             "Home call and rest rules covered"
           ],
-          "description": "ACGME duty hour rules — including the 80-hour weekly limit, 10-hour rest minimums, 24-hour caps, and home call rules — are mathematically enforced when the schedule is built, not manually checked afterward. Subspecialty-specific rules are built in."
+          "description": "ACGME duty hour rules (including the 80-hour weekly limit, 10-hour rest minimums, 24-hour caps, and home call rules) are mathematically enforced when the schedule is built, not manually checked afterward. Subspecialty-specific rules are built in."
         },
         {
           "id": "managed-service",
@@ -124,7 +124,7 @@
     },
     "solution": {
       "title": "A Done For You Call Scheduling Service",
-      "description": "Submit your program's constraints — ACGME duty hour rules, subspecialty requirements, resident preferences, and call fairness targets — and receive finished, compliant call schedules as ready-to-use Excel files. No software to learn. No annual retraining when chiefs rotate. Scheduling Wizard handles all of it."
+      "description": "Submit your program's constraints (ACGME duty hour rules, subspecialty requirements, resident preferences, and call fairness targets) and receive finished, compliant call schedules as ready-to-use Excel files. No software to learn. No annual retraining when chiefs rotate. Scheduling Wizard handles all of it."
     },
     "metaTitle": "Resident Call Schedule Automation | ACGME | Scheduling Wizard",
     "metaDescription": "Resident call schedule automation tool that guarantees ACGME compliance. Our managed service creates fair, optimized call schedules for you, saving time and eliminating risk."

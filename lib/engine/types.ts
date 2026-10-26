@@ -1,4 +1,4 @@
-// Site-level config types — shared across uses/feature pages.
+// Site-level config types, shared across uses/feature pages.
 
 export interface SitemapHints {
   priority: number;

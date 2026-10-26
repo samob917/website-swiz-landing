@@ -1,4 +1,4 @@
-// /uses/[slug] domain model — fixed-section: hero → problems → solution → features → faq → cta
+// /uses/[slug] domain model. Fixed-section: hero → problems → solution → features → faq → cta
 
 export interface UsesPageData {
   hero: {

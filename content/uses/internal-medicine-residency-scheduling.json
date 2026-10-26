@@ -15,7 +15,7 @@
     },
     "faq": [
       {
-        "answer": "Yes. ACGME compliance is mathematically enforced at schedule generation time, not manually checked after the fact. Scheduling Wizard's optimization engine has internal medicine and subspecialty-specific ACGME rules built in — including the 80-hour weekly limit, 10-hour minimum rest periods, and other duty hour requirements. Your schedule is compliant before it is ever delivered.",
+        "answer": "Yes. ACGME compliance is mathematically enforced at schedule generation time, not manually checked after the fact. Scheduling Wizard's optimization engine has internal medicine and subspecialty-specific ACGME rules built in, including the 80-hour weekly limit, 10-hour minimum rest periods, and other duty hour requirements. Your schedule is compliant before it is ever delivered.",
         "question": "Is Scheduling Wizard compliant with internal medicine ACGME duty hour rules?"
       },
       {
@@ -35,7 +35,7 @@
         "question": "Can Scheduling Wizard integrate with Amion or QGenda for schedule viewing?"
       },
       {
-        "answer": "The process has three steps. First, you submit your program's constraints — rotation requirements, ACGME rules, resident preferences, call fairness targets, and clinic assignments. Second, Scheduling Wizard's optimization engine builds your complete, compliant schedule. Third, you receive a finished Excel file ready to review, approve, and publish. No software to learn, no manual optimization required.",
+        "answer": "The process has three steps. First, you submit your program's constraints, rotation requirements, ACGME rules, resident preferences, call fairness targets, and clinic assignments. Second, Scheduling Wizard's optimization engine builds your complete, compliant schedule. Third, you receive a finished Excel file ready to review, approve, and publish. No software to learn, no manual optimization required.",
         "question": "How does the internal medicine residency scheduling process work with Scheduling Wizard?"
       }
     ],
@@ -54,7 +54,7 @@
             "Violations prevented at generation",
             "Compliant across all PGY levels"
           ],
-          "description": "Internal medicine ACGME rules — including 80-hour weekly limits, 10-hour rest minimums, and subspecialty-specific requirements — are mathematically enforced at schedule generation time. Violations are prevented, not discovered after the fact."
+          "description": "Internal medicine ACGME rules (including 80-hour weekly limits, 10-hour rest minimums, and subspecialty-specific requirements) are mathematically enforced at schedule generation time. Violations are prevented, not discovered after the fact."
         },
         {
           "id": "clinic-scheduling",
@@ -98,11 +98,11 @@
             "Delivered as ready-to-use Excel files",
             "Works with Amion and QGenda"
           ],
-          "description": "Scheduling Wizard is not software your chief residents have to learn. Submit your constraints and receive finished IM schedules as Excel files — ready to review, approve, and upload to your existing viewing tools."
+          "description": "Scheduling Wizard is not software your chief residents have to learn. Submit your constraints and receive finished IM schedules as Excel files, ready to review, approve, and upload to your existing viewing tools."
         }
       ],
       "title": "Built for Internal Medicine Scheduling",
-      "description": "Every feature is designed around the complexity of IM programs — from X+Y clinic coordination to ACGME duty hour enforcement across PGY levels."
+      "description": "Every feature is designed around the complexity of IM programs, from X+Y clinic coordination to ACGME duty hour enforcement across PGY levels."
     },
     "problems": {
       "items": [
@@ -124,7 +124,7 @@
     },
     "solution": {
       "title": "Scheduling Wizard Handles Your IM Program",
-      "description": "Submit your internal medicine program's rotation requirements, ACGME rules, clinic assignments, and resident preferences. Scheduling Wizard's optimization engine produces finished, compliant block, call, and clinic schedules delivered as Excel files — ready to upload to Amion or QGenda. No software to learn. No institutional knowledge lost when chiefs rotate."
+      "description": "Submit your internal medicine program's rotation requirements, ACGME rules, clinic assignments, and resident preferences. Scheduling Wizard's optimization engine produces finished, compliant block, call, and clinic schedules delivered as Excel files, ready to upload to Amion or QGenda. No software to learn. No institutional knowledge lost when chiefs rotate."
     },
     "metaTitle": "Internal Medicine Residency Scheduling | Save Time | Scheduling Wizard",
     "metaDescription": "Internal medicine residency scheduling is a complex burden. Our managed service takes your constraints and delivers a complete, ACGME-compliant schedule in Excel."

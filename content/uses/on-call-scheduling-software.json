@@ -15,7 +15,7 @@
     },
     "faq": [
       {
-        "answer": "On call scheduling software automates the creation and distribution of on-call shifts for medical residents and fellows. Traditional tools are self-service platforms that programs operate themselves, while Scheduling Wizard takes a different approach as a fully managed service — programs submit their constraints and receive finished, ACGME-compliant on call schedules delivered as Excel files, with no software for the team to learn or operate.",
+        "answer": "On call scheduling software automates the creation and distribution of on-call shifts for medical residents and fellows. Traditional tools are self-service platforms that programs operate themselves, while Scheduling Wizard takes a different approach as a fully managed service, programs submit their constraints and receive finished, ACGME-compliant on call schedules delivered as Excel files, with no software for the team to learn or operate.",
         "question": "What is on call scheduling software for residency programs?"
       },
       {
@@ -23,7 +23,7 @@
         "question": "How does Scheduling Wizard ensure ACGME compliance in on call schedules?"
       },
       {
-        "answer": "Most on call scheduling software requires your team to learn and operate the platform, manually input constraints, and troubleshoot compliance issues. Scheduling Wizard is a managed service — your program submits constraints and receives finished schedules. There is no software to learn and no annual retraining when chief residents rotate. Your finished schedules are delivered as Excel files ready to upload to viewing tools like Amion or QGenda.",
+        "answer": "Most on call scheduling software requires your team to learn and operate the platform, manually input constraints, and troubleshoot compliance issues. Scheduling Wizard is a managed service; your program submits constraints and receives finished schedules. There is no software to learn and no annual retraining when chief residents rotate. Your finished schedules are delivered as Excel files ready to upload to viewing tools like Amion or QGenda.",
         "question": "How is Scheduling Wizard different from self-service on call scheduling software?"
       },
       {
@@ -54,7 +54,7 @@
             "Holiday shifts distributed fairly",
             "Post-call rest rules enforced"
           ],
-          "description": "Produces ACGME-compliant on call schedules that distribute call burden equitably across all residents, respecting duty hour limits, post-call rest rules, and individual constraints — all in a single optimization pass."
+          "description": "Produces ACGME-compliant on call schedules that distribute call burden equitably across all residents, respecting duty hour limits, post-call rest rules, and individual constraints, all in a single optimization pass."
         },
         {
           "id": "acgme-compliance",
@@ -76,7 +76,7 @@
             "Excel files ready to upload",
             "No software training required"
           ],
-          "description": "Scheduling Wizard operates as a done-for-you managed service. Programs submit their constraints and receive finished on call schedules as Excel files — no platform to learn, no software to operate."
+          "description": "Scheduling Wizard operates as a done-for-you managed service. Programs submit their constraints and receive finished on call schedules as Excel files, no platform to learn, no software to operate."
         },
         {
           "id": "fairness-optimization",
@@ -124,7 +124,7 @@
     },
     "solution": {
       "title": "Your On Call Schedules Done For You",
-      "description": "Submit your program constraints and receive finished, ACGME-compliant on call schedules as Excel files ready to upload to Amion or QGenda. Scheduling Wizard handles the optimization as a managed service — no software to learn, no expertise required from your team."
+      "description": "Submit your program constraints and receive finished, ACGME-compliant on call schedules as Excel files ready to upload to Amion or QGenda. Scheduling Wizard handles the optimization as a managed service, no software to learn, no expertise required from your team."
     },
     "metaTitle": "On Call Scheduling Software | Managed Service | Scheduling Wizard",
     "metaDescription": "On call scheduling software delivered as a managed service. Get optimized, ACGME-compliant schedules built for you and ready to upload to Amion or QGenda."

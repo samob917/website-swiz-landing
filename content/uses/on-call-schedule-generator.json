@@ -15,11 +15,11 @@
     },
     "faq": [
       {
-        "answer": "An on call schedule generator is a tool or service that automates the creation of on-call rotations for residency programs, distributing call shifts across residents while respecting ACGME duty hour rules, individual constraints, and fairness requirements. Scheduling Wizard goes further as a fully managed service — instead of giving programs software to operate themselves, it delivers finished, optimized on-call schedules as Excel files based on the program's submitted constraints.",
+        "answer": "An on call schedule generator is a tool or service that automates the creation of on-call rotations for residency programs, distributing call shifts across residents while respecting ACGME duty hour rules, individual constraints, and fairness requirements. Scheduling Wizard goes further as a fully managed service, instead of giving programs software to operate themselves, it delivers finished, optimized on-call schedules as Excel files based on the program's submitted constraints.",
         "question": "What is an on call schedule generator for medical residencies?"
       },
       {
-        "answer": "ACGME duty hour rules are enforced mathematically at the time the schedule is generated — not checked manually after the fact. The engine applies the 80-hour weekly limit, minimum rest requirements, and the 24-hour hard cap for continuous duty, along with subspecialty-specific rules built into the system. This means violations are prevented at generation, not discovered during an audit.",
+        "answer": "ACGME duty hour rules are enforced mathematically at the time the schedule is generated, not checked manually after the fact. The engine applies the 80-hour weekly limit, minimum rest requirements, and the 24-hour hard cap for continuous duty, along with subspecialty-specific rules built into the system. This means violations are prevented at generation, not discovered during an audit.",
         "question": "How does Scheduling Wizard ensure ACGME compliance in call schedules?"
       },
       {
@@ -27,7 +27,7 @@
         "question": "How is on-call burden distributed fairly across residents?"
       },
       {
-        "answer": "Most scheduling tools are self-service platforms that require chief residents to learn and operate the software themselves. Scheduling Wizard is a managed service — programs submit their constraints and receive finished schedules back as Excel files, with no software to install or learn. Expert schedulers and a proprietary optimization engine handle the complexity. Programs can still upload the finished schedules to Amion or QGenda for day-to-day viewing.",
+        "answer": "Most scheduling tools are self-service platforms that require chief residents to learn and operate the software themselves. Scheduling Wizard is a managed service, programs submit their constraints and receive finished schedules back as Excel files, with no software to install or learn. Expert schedulers and a proprietary optimization engine handle the complexity. Programs can still upload the finished schedules to Amion or QGenda for day-to-day viewing.",
         "question": "What makes Scheduling Wizard different from self-service scheduling software?"
       },
       {
@@ -54,7 +54,7 @@
             "Holiday shifts distributed fairly",
             "Post-call rest rules enforced"
           ],
-          "description": "Produces ACGME-compliant on-call schedules that distribute call burden equitably across all residents. Call, weekend, and holiday assignments are algorithmically balanced — no manual juggling required."
+          "description": "Produces ACGME-compliant on-call schedules that distribute call burden equitably across all residents. Call, weekend, and holiday assignments are algorithmically balanced, no manual juggling required."
         },
         {
           "id": "acgme-compliance",
@@ -65,7 +65,7 @@
             "Subspecialty-specific rules included",
             "Violations prevented at generation"
           ],
-          "description": "ACGME duty hour regulations are mathematically enforced at generation time — 80-hour weekly limits, rest requirements, and 24-hour hard caps. Subspecialty-specific rules are built into the engine, not checked manually after the fact."
+          "description": "ACGME duty hour regulations are mathematically enforced at generation time, 80-hour weekly limits, rest requirements, and 24-hour hard caps. Subspecialty-specific rules are built into the engine, not checked manually after the fact."
         },
         {
           "id": "managed-service",
@@ -76,7 +76,7 @@
             "Delivered as Excel spreadsheets",
             "No platform or software to learn"
           ],
-          "description": "Scheduling Wizard is a done-for-you managed service. Programs submit their constraints and receive finished schedules as Excel files — ready to upload to Amion, QGenda, or any viewing tool your program already uses."
+          "description": "Scheduling Wizard is a done-for-you managed service. Programs submit their constraints and receive finished schedules as Excel files, ready to upload to Amion, QGenda, or any viewing tool your program already uses."
         },
         {
           "id": "institutional-continuity",
@@ -98,7 +98,7 @@
             "Conference dates respected",
             "Moonlighting restrictions honored"
           ],
-          "description": "Vacation requests, conference dates, elective preferences, and personal constraints are treated as first-class inputs — factored into the on call schedule generator from the start, not patched in manually afterward."
+          "description": "Vacation requests, conference dates, elective preferences, and personal constraints are treated as first-class inputs, factored into the on call schedule generator from the start, not patched in manually afterward."
         }
       ],
       "title": "Built for On Call Schedule Generation",
@@ -124,7 +124,7 @@
     },
     "solution": {
       "title": "A Done-For-You On Call Schedule Generator",
-      "description": "Submit your program's constraints — duty hour rules, resident preferences, call fairness targets, and coverage requirements — and receive finished, ACGME-compliant schedules as ready-to-use Excel files. No software to learn. No annual retraining when your chiefs rotate."
+      "description": "Submit your program's constraints (duty hour rules, resident preferences, call fairness targets, and coverage requirements) and receive finished, ACGME-compliant schedules as ready-to-use Excel files. No software to learn. No annual retraining when your chiefs rotate."
     },
     "metaTitle": "On Call Schedule Generator | Fair Rotations | Scheduling Wizard",
     "metaDescription": "On call schedule generator for medical residencies. Stop wrestling with complex software and spreadsheets. We deliver fair, ACGME-compliant call schedules for you."
