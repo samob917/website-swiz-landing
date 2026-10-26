@@ -10,7 +10,10 @@
 
 /**
  * Bumping this invalidates every stored choice and re-prompts everyone. Bump it
- * whenever the privacy policy changes in a way that affects what we collect.
+ * when we start collecting something new, not when we collect less: an existing
+ * Accept already covers a narrower set of data, so removing a tracker does not
+ * need fresh consent. Not displayed anywhere; LAST_UPDATED on /privacy is what
+ * visitors see.
  */
 export const POLICY_VERSION = 1
 
