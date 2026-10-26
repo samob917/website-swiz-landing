@@ -30,28 +30,27 @@ export function startPostHog() {
     // We never call identify() on the marketing site, so no person profiles.
     person_profiles: "identified_only",
 
-    // Recording is started explicitly below rather than automatically, so that
-    // it can never begin before this function is reached.
+    // Session replay is off. We only need pageviews, top pages, referrers and
+    // autocapture clicks, none of which require recording anyone's screen.
+    // Replay can also be switched on server-side in PostHog project settings,
+    // so this client flag is what actually guarantees it stays off.
     disable_session_recording: true,
 
     session_recording: {
-      // Mask every input and every piece of on-page text. A replay shows
-      // layout, clicks and movement, never what someone typed.
+      // Belt and braces: if replay is ever deliberately re-enabled, it starts
+      // from a masked configuration rather than PostHog's defaults.
       maskAllInputs: true,
       maskTextSelector: "*",
     },
   })
-
-  posthog.startSessionRecording()
 }
 
-/** Stops capture and recording for a visitor who changes their mind. */
+/** Stops capture for a visitor who changes their mind. */
 export function stopPostHog() {
   if (!started) return
   try {
-    posthog.stopSessionRecording()
     posthog.opt_out_capturing()
   } catch {
-    /* SDK not in a state to stop; the storage purge below still runs */
+    /* SDK not in a state to stop; the storage purge still runs */
   }
 }

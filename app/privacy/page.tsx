@@ -6,10 +6,8 @@
 // assert anonymity, which saying nothing satisfies; listing what is actually
 // collected does the honest work without alarming anyone.
 //
-// Retention is stated without a number on purpose: the replay retention
-// period has not been confirmed in the PostHog project. Put a specific
-// figure back only once Settings > Session replay > Data retention is
-// checked. Free plans cap at 30 days; paid plans can run far longer.
+// Session replay is off (see lib/posthog-client.ts), so this page describes
+// pageview analytics only.
 //
 // Written to describe what the site actually does today (see
 // instrumentation-client.ts and components/consent-banner.tsx). If the data
@@ -23,7 +21,7 @@ import { CookieSettingsButton } from "@/components/cookie-settings-button"
 export const metadata: Metadata = {
   title: "Privacy Policy | Scheduling Wizard",
   description:
-    "How Scheduling Wizard uses cookies, analytics and session recording on schedulingwiz.com, and how to change your choice.",
+    "How Scheduling Wizard uses cookies and analytics on schedulingwiz.com, and how to change your choice.",
   alternates: { canonical: "/privacy" },
 }
 
@@ -85,22 +83,8 @@ export default function PrivacyPage() {
                 which collects whatever you enter when you book and is covered
                 by its own privacy policy.
               </p>
-            </section>
-
-            <section className="space-y-3">
-              <h2 className="text-2xl font-semibold tracking-tight text-gray-900">
-                Session recordings
-              </h2>
               <p>
-                PostHog also records your visit so we can play it back. Every
-                form input and every piece of on-page text is masked before the
-                recording leaves your browser, so a recording shows layout and
-                clicks rather than anything you typed. The address of each page
-                you visit is recorded as part of it. Recordings are kept for a
-                limited period and then deleted automatically.
-              </p>
-              <p>
-                PostHog processes this data on our behalf, under our
+                PostHog processes analytics data on our behalf, under our
                 instructions, and not for their own purposes. Form submissions
                 reach us by email through EmailJS.
               </p>
@@ -111,19 +95,16 @@ export default function PrivacyPage() {
                 Your choice
               </h2>
               <p>
-                We do not switch on analytics or session recording unless you
-                press Accept. If you decline, both stay off and no identifier is
-                stored on your device. Our host keeps ordinary server logs
-                either way, and anything you send us through a form reaches us
-                whichever you choose. You can change your mind at any time
-                using{" "}
+                We do not switch on analytics unless you press Accept. If you
+                decline, it stays off and no identifier is stored on your
+                device. Our host keeps ordinary server logs either way, and
+                anything you send us through a form reaches us whichever you
+                choose. You can change your mind at any time using{" "}
                 <CookieSettingsButton className="font-medium text-gray-900 underline underline-offset-2 hover:text-gray-700">
                   cookie settings
                 </CookieSettingsButton>
                 , here or in the footer of any page. Switching to decline
-                clears the analytics cookies and storage on your device. It does
-                not by itself delete recordings we already hold, so email us if
-                you want those removed.
+                clears the analytics cookies and storage on your device.
               </p>
             </section>
 

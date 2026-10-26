@@ -49,8 +49,7 @@ export function ConsentBanner() {
     >
       <div className="mx-auto flex max-w-6xl flex-col gap-4 px-4 py-4 sm:px-6 lg:px-8 md:flex-row md:items-center md:justify-between">
         <p className="text-sm leading-relaxed text-white/70">
-          We use cookies and session recording to fix bugs and improve this
-          site.{" "}
+          We use cookies to fix bugs and improve this site.{" "}
           <Link
             href="/privacy"
             className="text-white/90 underline underline-offset-2 transition-colors hover:text-white"
