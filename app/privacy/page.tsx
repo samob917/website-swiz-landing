@@ -6,6 +6,11 @@
 // assert anonymity, which saying nothing satisfies; listing what is actually
 // collected does the honest work without alarming anyone.
 //
+// Retention is stated without a number on purpose: the replay retention
+// period has not been confirmed in the PostHog project. Put a specific
+// figure back only once Settings > Session replay > Data retention is
+// checked. Free plans cap at 30 days; paid plans can run far longer.
+//
 // Written to describe what the site actually does today (see
 // instrumentation-client.ts and components/consent-banner.tsx). If the data
 // practices change, update this page AND bump POLICY_VERSION in lib/consent.ts
@@ -91,8 +96,8 @@ export default function PrivacyPage() {
                 form input and every piece of on-page text is masked before the
                 recording leaves your browser, so a recording shows layout and
                 clicks rather than anything you typed. The address of each page
-                you visit is recorded as part of it. Recordings are set to be
-                deleted after about 30 days.
+                you visit is recorded as part of it. Recordings are kept for a
+                limited period and then deleted automatically.
               </p>
               <p>
                 PostHog processes this data on our behalf, under our
