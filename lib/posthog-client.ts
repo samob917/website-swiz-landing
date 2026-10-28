@@ -25,14 +25,29 @@ const RETIRED_PROJECT_KEYS = [
   "phc_n5m3qThwZT4XxEV5Fr5acXWFSTiQH7LGdnGUcM39JG5q",
 ]
 
+// Our own PostHog project. A project API key is public by design: it ships in
+// this file's bundle and anyone can read it from the page source. It lives in
+// the repo on purpose. The previous key existed only as a Vercel environment
+// variable, which meant nothing here recorded whose account the site reported
+// to, and that is how it went unnoticed that it was a former vendor's.
+//
+// NEXT_PUBLIC_POSTHOG_KEY still wins when set to something that is not
+// retired, so a different project can be pointed at per environment.
+const PROJECT_KEY = "phc_keJgvHkADhJJcLMXAakpGbN2VThGeACT5Um3STFA5aTs"
+
+function resolveKey() {
+  const fromEnv = process.env.NEXT_PUBLIC_POSTHOG_KEY
+  if (fromEnv && !RETIRED_PROJECT_KEYS.includes(fromEnv)) return fromEnv
+  return PROJECT_KEY
+}
+
 /**
  * True when a usable, non-retired PostHog key is configured. When this is
  * false nothing on the site stores anything on a visitor's device, so the
  * consent banner has nothing to ask about and does not render.
  */
 export function analyticsConfigured() {
-  const key = process.env.NEXT_PUBLIC_POSTHOG_KEY
-  return Boolean(key) && !RETIRED_PROJECT_KEYS.includes(key as string)
+  return Boolean(resolveKey())
 }
 
 let started = false
@@ -40,15 +55,8 @@ let started = false
 /** Idempotent: safe to call on every page load and again from the banner. */
 export function startPostHog() {
   if (started) return
-  const key = process.env.NEXT_PUBLIC_POSTHOG_KEY
+  const key = resolveKey()
   if (!key) return
-  if (RETIRED_PROJECT_KEYS.includes(key)) {
-    console.warn(
-      "[analytics] NEXT_PUBLIC_POSTHOG_KEY is set to a retired project. " +
-        "PostHog will not start. Set the key for the current project to re-enable."
-    )
-    return
-  }
   started = true
 
   posthog.init(key, {
