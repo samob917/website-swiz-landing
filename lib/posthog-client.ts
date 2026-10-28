@@ -66,6 +66,12 @@ export function startPostHog() {
     // We never call identify() on the marketing site, so no person profiles.
     person_profiles: "identified_only",
 
+    // Heatmaps capture mouse movement and scrolling, which is not what
+    // /privacy describes ("which links and buttons you use"). Pinned off here
+    // rather than left to the project toggle, so the policy cannot quietly
+    // stop being true. To enable: remove this and add a line to the policy.
+    capture_heatmaps: false,
+
     // Session replay is off. We only need pageviews, top pages, referrers and
     // autocapture clicks, none of which require recording anyone's screen.
     // Replay can also be switched on server-side in PostHog project settings,
