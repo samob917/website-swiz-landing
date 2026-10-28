@@ -10,7 +10,7 @@ import {
   readConsent,
   writeConsent,
 } from "@/lib/consent"
-import { startPostHog, stopPostHog } from "@/lib/posthog-client"
+import { analyticsConfigured, startPostHog, stopPostHog } from "@/lib/posthog-client"
 
 /** Brings analytics into line with a choice. */
 export function applyConsent(choice: ConsentChoice) {
@@ -39,6 +39,9 @@ export function ConsentBanner() {
     writeConsent(next)
   }
 
+  // With no analytics configured the site stores nothing on the visitor's
+  // device, so there is nothing to ask consent for.
+  if (!analyticsConfigured()) return null
   if (choice !== null) return null
 
   return (

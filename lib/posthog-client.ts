@@ -14,6 +14,27 @@ import posthog from "posthog-js"
 //   https://posthog.com/docs/session-replay/privacy
 //   https://posthog.com/docs/session-replay/how-to-control-which-sessions-you-record
 
+// PostHog projects we have been disconnected from. A key listed here is
+// refused even if it is still set in the hosting environment, so retiring a
+// vendor does not depend on someone remembering to clear an env var.
+//
+// phc_n5m3qT... was a workspace created by an outside contractor
+// (jaz@bluejay.finance, May 2026) and administered by them. We are no longer
+// sending our visitors' data to it.
+const RETIRED_PROJECT_KEYS = [
+  "phc_n5m3qThwZT4XxEV5Fr5acXWFSTiQH7LGdnGUcM39JG5q",
+]
+
+/**
+ * True when a usable, non-retired PostHog key is configured. When this is
+ * false nothing on the site stores anything on a visitor's device, so the
+ * consent banner has nothing to ask about and does not render.
+ */
+export function analyticsConfigured() {
+  const key = process.env.NEXT_PUBLIC_POSTHOG_KEY
+  return Boolean(key) && !RETIRED_PROJECT_KEYS.includes(key as string)
+}
+
 let started = false
 
 /** Idempotent: safe to call on every page load and again from the banner. */
@@ -21,6 +42,13 @@ export function startPostHog() {
   if (started) return
   const key = process.env.NEXT_PUBLIC_POSTHOG_KEY
   if (!key) return
+  if (RETIRED_PROJECT_KEYS.includes(key)) {
+    console.warn(
+      "[analytics] NEXT_PUBLIC_POSTHOG_KEY is set to a retired project. " +
+        "PostHog will not start. Set the key for the current project to re-enable."
+    )
+    return
+  }
   started = true
 
   posthog.init(key, {
