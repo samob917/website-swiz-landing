@@ -85,6 +85,14 @@ export function startPostHog() {
       maskTextSelector: "*",
     },
   })
+
+  // Imported as a module, posthog-js does not attach itself to window. The
+  // PostHog toolbar looks for window.posthog, so without this the "Launch"
+  // buttons on the Authorized Domains settings page do nothing. It also makes
+  // the integration debuggable from the console.
+  if (typeof window !== "undefined") {
+    ;(window as unknown as { posthog?: typeof posthog }).posthog = posthog
+  }
 }
 
 /** Stops capture for a visitor who changes their mind. */
