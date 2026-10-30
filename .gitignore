@@ -34,3 +34,11 @@ next-env.d.ts
 # This repo is public, so these stay local: committing them would publish
 # the logos of institutions that have not agreed to be named.
 /logos-pending/
+
+# Internal working notes: these quote client email, our pricing and
+# capabilities we have not announced. This repo is public, so they stay on
+# disk and out of git.
+/docs/voice.md
+/docs/blog-competitor-claims.md
+/docs/blog-positioning.md
+/docs/blog-fact-check.md
