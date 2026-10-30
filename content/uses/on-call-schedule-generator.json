@@ -2,8 +2,8 @@
   "keyword": "on call schedule generator",
   "slug": "on-call-schedule-generator",
   "anchor": "On Call Schedule Generator",
-  "title": "On Call Schedule Generator | Fair Rotations | Scheduling Wizard",
-  "description": "On call schedule generator for medical residencies. Stop wrestling with complex software and spreadsheets. We deliver fair, ACGME-compliant call schedules for you.",
+  "title": "On Call Schedule Generator | Fair Rotations",
+  "description": "On call schedule generator for medical residencies. Stop wrestling with complex software and spreadsheets.",
   "h1": "On Call Schedule Generator for Chief Residents",
   "paragraph": "Overwhelmed building call rotas? Scheduling Wizard is a managed on call schedule generator. We deliver fair, ACGME-compliant schedules without new software.",
   "category": "specialty",
@@ -126,8 +126,8 @@
       "title": "A Done-For-You On Call Schedule Generator",
       "description": "Submit your program's constraints (duty hour rules, resident preferences, call fairness targets, and coverage requirements) and receive finished, ACGME-compliant schedules as ready-to-use Excel files. No software to learn. No annual retraining when your chiefs rotate."
     },
-    "metaTitle": "On Call Schedule Generator | Fair Rotations | Scheduling Wizard",
-    "metaDescription": "On call schedule generator for medical residencies. Stop wrestling with complex software and spreadsheets. We deliver fair, ACGME-compliant call schedules for you."
+    "metaTitle": "On Call Schedule Generator | Fair Rotations",
+    "metaDescription": "On call schedule generator for medical residencies. Stop wrestling with complex software and spreadsheets."
   },
   "searchIntent": {
     "keyword": "on call schedule generator",
@@ -140,9 +140,9 @@
   },
   "seoMetadata": {
     "h1": "On Call Schedule Generator for Chief Residents",
-    "metaTitle": "On Call Schedule Generator | Fair Rotations | Scheduling Wizard",
+    "metaTitle": "On Call Schedule Generator | Fair Rotations",
     "h1Paragraph": "Overwhelmed building call rotas? Scheduling Wizard is a managed on call schedule generator. We deliver fair, ACGME-compliant schedules without new software.",
-    "metaDescription": "On call schedule generator for medical residencies. Stop wrestling with complex software and spreadsheets. We deliver fair, ACGME-compliant call schedules for you."
+    "metaDescription": "On call schedule generator for medical residencies. Stop wrestling with complex software and spreadsheets."
   },
   "finalMetadata": {
     "slug": "schedule-generator",

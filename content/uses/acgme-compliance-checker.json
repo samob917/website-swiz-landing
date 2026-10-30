@@ -2,8 +2,8 @@
   "keyword": "ACGME compliance checker",
   "slug": "acgme-compliance-checker",
   "anchor": "ACGME Compliance Checker",
-  "title": "ACGME Compliance Checker | Guarantee Compliance | Scheduling Wizard",
-  "description": "This ACGME compliance checker service helps GME offices maintain program accreditation. We deliver mathematically guaranteed compliant schedules built for your unique subspecialty rules.",
+  "title": "ACGME Compliance Checker | Guarantee Compliance",
+  "description": "This ACGME compliance checker service helps GME offices maintain program accreditation.",
   "h1": "ACGME Compliance Checker for Multi-Department GME",
   "paragraph": "Generic software fails to audit subspecialty rules. Our managed ACGME compliance checker service delivers guaranteed compliant schedules for all departments.",
   "category": "specialty",
@@ -126,8 +126,8 @@
       "title": "Compliance Built In From the Start",
       "description": "Scheduling Wizard's proprietary optimization engine enforces ACGME duty hour rules at schedule generation time, not after. Submit your program constraints and receive finished, subspecialty-compliant schedules as ready-to-use Excel files. No manual auditing, no software to learn, no knowledge lost between chief rotations."
     },
-    "metaTitle": "ACGME Compliance Checker | Guarantee Compliance | Scheduling Wizard",
-    "metaDescription": "This ACGME compliance checker service helps GME offices maintain program accreditation. We deliver mathematically guaranteed compliant schedules built for your unique subspecialty rules."
+    "metaTitle": "ACGME Compliance Checker | Guarantee Compliance",
+    "metaDescription": "This ACGME compliance checker service helps GME offices maintain program accreditation."
   },
   "searchIntent": {
     "keyword": "ACGME compliance checker",
@@ -140,9 +140,9 @@
   },
   "seoMetadata": {
     "h1": "ACGME Compliance Checker for Multi-Department GME",
-    "metaTitle": "ACGME Compliance Checker | Guarantee Compliance | Scheduling Wizard",
+    "metaTitle": "ACGME Compliance Checker | Guarantee Compliance",
     "h1Paragraph": "Generic software fails to audit subspecialty rules. Our managed ACGME compliance checker service delivers guaranteed compliant schedules for all departments.",
-    "metaDescription": "This ACGME compliance checker service helps GME offices maintain program accreditation. We deliver mathematically guaranteed compliant schedules built for your unique subspecialty rules."
+    "metaDescription": "This ACGME compliance checker service helps GME offices maintain program accreditation."
   },
   "finalMetadata": {
     "slug": "acgme-compliance-checker",

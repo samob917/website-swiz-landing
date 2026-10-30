@@ -2,8 +2,8 @@
   "keyword": "resident call schedule automation tool",
   "slug": "resident-call-schedule-automation",
   "anchor": "Resident Call Schedule Automation Tool",
-  "title": "Resident Call Schedule Automation | ACGME | Scheduling Wizard",
-  "description": "Resident call schedule automation tool that guarantees ACGME compliance. Our managed service creates fair, optimized call schedules for you, saving time and eliminating risk.",
+  "title": "Resident Call Schedule Automation | ACGME",
+  "description": "Resident call schedule automation tool that guarantees ACGME compliance. Our managed service creates fair, optimized call schedules for you, saving time.",
   "h1": "Resident Call Schedule Automation That Guarantees Compliance",
   "paragraph": "Eliminate compliance risks. As a managed service, Scheduling Wizard delivers mathematically guaranteed ACGME-compliant resident call schedules for you.",
   "category": "setting",
@@ -126,8 +126,8 @@
       "title": "A Done For You Call Scheduling Service",
       "description": "Submit your program's constraints (ACGME duty hour rules, subspecialty requirements, resident preferences, and call fairness targets) and receive finished, compliant call schedules as ready-to-use Excel files. No software to learn. No annual retraining when chiefs rotate. Scheduling Wizard handles all of it."
     },
-    "metaTitle": "Resident Call Schedule Automation | ACGME | Scheduling Wizard",
-    "metaDescription": "Resident call schedule automation tool that guarantees ACGME compliance. Our managed service creates fair, optimized call schedules for you, saving time and eliminating risk."
+    "metaTitle": "Resident Call Schedule Automation | ACGME",
+    "metaDescription": "Resident call schedule automation tool that guarantees ACGME compliance. Our managed service creates fair, optimized call schedules for you, saving time."
   },
   "searchIntent": {
     "keyword": "resident call schedule automation tool",
@@ -140,9 +140,9 @@
   },
   "seoMetadata": {
     "h1": "Resident Call Schedule Automation That Guarantees Compliance",
-    "metaTitle": "Resident Call Schedule Automation | ACGME | Scheduling Wizard",
+    "metaTitle": "Resident Call Schedule Automation | ACGME",
     "h1Paragraph": "Eliminate compliance risks. As a managed service, Scheduling Wizard delivers mathematically guaranteed ACGME-compliant resident call schedules for you.",
-    "metaDescription": "Resident call schedule automation tool that guarantees ACGME compliance. Our managed service creates fair, optimized call schedules for you, saving time and eliminating risk."
+    "metaDescription": "Resident call schedule automation tool that guarantees ACGME compliance. Our managed service creates fair, optimized call schedules for you, saving time."
   },
   "finalMetadata": {
     "slug": "automation-tool",

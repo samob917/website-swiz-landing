@@ -10,18 +10,18 @@ const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://schedulingwiz.com"),
-  title: "Scheduling Wizard | Physician & Residency Scheduling Service",
+  title: "Physician & Residency Scheduling | Scheduling Wizard",
   description:
-    "The first effective physician scheduling service. We build equitable block, clinic, and call schedules for GME programs and provider groups. No schedule is too complex for us.",
+    "The first effective physician scheduling service. We build equitable block, clinic and call schedules for GME programs and provider groups.",
   alternates: {
     canonical: "./",
   },
   openGraph: {
     siteName: "Scheduling Wizard",
     type: "website",
-    title: "Scheduling Wizard | Physician & Residency Scheduling Service",
+    title: "Physician & Residency Scheduling | Scheduling Wizard",
     description:
-      "The first effective physician scheduling service. We build equitable block, clinic, and call schedules for GME programs and provider groups. No schedule is too complex for us.",
+      "The first effective physician scheduling service. We build equitable block, clinic and call schedules for GME programs and provider groups.",
     images: ["/logo.png"],
   },
   generator: 'v0.dev'

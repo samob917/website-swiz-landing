@@ -11,6 +11,7 @@ import { UsesPageContent } from "@/components/uses-page-content";
 import { SectionContainer } from "@/components/section-container";
 import { PageHeader } from "@/components/page-header";
 import { buildWebPageJsonLd } from "@/lib/json-ld";
+import { RelatedUses } from "@/components/related-uses";
 
 export const dynamicParams = false;
 
@@ -144,6 +145,16 @@ export default async function UsesPage({
     path: `/uses/${slug[0]}`,
   });
 
+  // Siblings in the same category, so each detail page gains inbound links
+  // instead of hanging off the index alone. Falls back to any other page when
+  // a category is too small to fill the row.
+  const siblings = (await getAllUsesData()).filter((u) => u.slug !== slug[0]);
+  const sameCategory = siblings.filter((u) => u.category === page.category);
+  const related = (sameCategory.length >= 3 ? sameCategory : [...sameCategory, ...siblings])
+    .filter((u, i, arr) => arr.findIndex((x) => x.slug === u.slug) === i)
+    .slice(0, 6)
+    .map((u) => ({ slug: u.slug, anchor: u.anchor, heroTitle: u.data.hero.title }));
+
   const faqJsonLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -168,6 +179,7 @@ export default async function UsesPage({
         data={page.data}
         featureImageMap={site.featureImageMap}
       />
+      <RelatedUses items={related} />
     </>
   );
 }

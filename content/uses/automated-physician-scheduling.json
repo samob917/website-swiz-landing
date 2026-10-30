@@ -2,8 +2,8 @@
   "keyword": "automated physician scheduling",
   "slug": "automated-physician-scheduling",
   "anchor": "Automated Physician Scheduling",
-  "title": "Automated Physician Scheduling | ACGME Compliant | Scheduling Wizard",
-  "description": "Automated physician scheduling for residency programs. Our managed service takes your constraints and delivers optimized, ACGME-compliant schedules without any software to learn.",
+  "title": "Automated Physician Scheduling | ACGME Compliant",
+  "description": "Automated physician scheduling for residency programs. Our managed service takes your constraints and delivers optimized, ACGME-compliant schedules.",
   "h1": "Automated Physician Scheduling Without the Software",
   "paragraph": "Stop spending weeks learning complex software. Submit your program's constraints and let Scheduling Wizard's managed service deliver your optimized, ACGME-compliant schedule.",
   "category": "specialty",
@@ -126,8 +126,8 @@
       "title": "A Managed Service That Does It For You",
       "description": "Scheduling Wizard is a done-for-you automated physician scheduling service. Submit your constraints, and our proprietary optimization engine delivers finished, ACGME-compliant Block, Call, Clinic, and Attending schedules as ready-to-use Excel files. No software to learn, no annual retraining when chiefs rotate."
     },
-    "metaTitle": "Automated Physician Scheduling | ACGME Compliant | Scheduling Wizard",
-    "metaDescription": "Automated physician scheduling for residency programs. Our managed service takes your constraints and delivers optimized, ACGME-compliant schedules without any software to learn."
+    "metaTitle": "Automated Physician Scheduling | ACGME Compliant",
+    "metaDescription": "Automated physician scheduling for residency programs. Our managed service takes your constraints and delivers optimized, ACGME-compliant schedules."
   },
   "searchIntent": {
     "keyword": "automated physician scheduling",
@@ -140,9 +140,9 @@
   },
   "seoMetadata": {
     "h1": "Automated Physician Scheduling Without the Software",
-    "metaTitle": "Automated Physician Scheduling | ACGME Compliant | Scheduling Wizard",
+    "metaTitle": "Automated Physician Scheduling | ACGME Compliant",
     "h1Paragraph": "Stop spending weeks learning complex software. Submit your program's constraints and let Scheduling Wizard's managed service deliver your optimized, ACGME-compliant schedule.",
-    "metaDescription": "Automated physician scheduling for residency programs. Our managed service takes your constraints and delivers optimized, ACGME-compliant schedules without any software to learn."
+    "metaDescription": "Automated physician scheduling for residency programs. Our managed service takes your constraints and delivers optimized, ACGME-compliant schedules."
   },
   "finalMetadata": {
     "slug": "scheduling",
