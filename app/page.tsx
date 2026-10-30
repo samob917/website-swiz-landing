@@ -161,11 +161,34 @@ export default function HomePage() {
             <h2 className="text-3xl sm:text-4xl font-bold text-white mb-4 tracking-tight">Serving Any Specialty</h2>
           </div>
           <div className="flex flex-wrap justify-center gap-3 sm:gap-4">
-            {["Neurology", "Internal Medicine", "Emergency Medicine", "Family Medicine", "General Surgery", "Psychiatry", "Urology", "Neurocritical Care", "Pediatrics"].map((dept) => (
-              <span key={dept} className="smooth-pill bg-white/10 backdrop-blur-sm border border-white/10 text-white px-6 py-3 rounded-xl text-sm sm:text-base font-medium hover:bg-white/20 cursor-default transition-all duration-300">
-                {dept}
-              </span>
-            ))}
+            {/* Where a specialty has its own use-case page, the pill links to
+                it. The homepage carries the most authority on the site and
+                previously passed none of it directly to those pages. */}
+            {[
+              { name: "Neurology" },
+              { name: "Internal Medicine", slug: "internal-medicine-residency-scheduling" },
+              { name: "Emergency Medicine", slug: "emergency-medicine-scheduling-software" },
+              { name: "Family Medicine" },
+              { name: "General Surgery", slug: "general-surgery-residency-scheduling" },
+              { name: "Psychiatry" },
+              { name: "Urology" },
+              { name: "Neurocritical Care" },
+              { name: "Pediatrics" },
+            ].map((dept) =>
+              dept.slug ? (
+                <Link
+                  key={dept.name}
+                  href={`/uses/${dept.slug}`}
+                  className="smooth-pill bg-white/10 backdrop-blur-sm border border-white/10 text-white px-6 py-3 rounded-xl text-sm sm:text-base font-medium hover:bg-white/20 hover:border-yellow-400/50 transition-all duration-300"
+                >
+                  {dept.name}
+                </Link>
+              ) : (
+                <span key={dept.name} className="smooth-pill bg-white/10 backdrop-blur-sm border border-white/10 text-white px-6 py-3 rounded-xl text-sm sm:text-base font-medium hover:bg-white/20 cursor-default transition-all duration-300">
+                  {dept.name}
+                </span>
+              )
+            )}
             <span className="smooth-pill bg-white/5 border border-white/10 text-white/40 px-6 py-3 rounded-xl text-sm sm:text-base font-medium italic cursor-default">
               & others
             </span>

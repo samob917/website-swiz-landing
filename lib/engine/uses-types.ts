@@ -44,6 +44,8 @@ export interface UsesPageJson {
   anchor: string;
   paragraph: string;
   category: string;
+  /** ISO timestamp from the content file; feeds a real sitemap lastmod. */
+  updatedAt?: string;
   data: UsesPageData;
   seoMetadata: {
     h1: string;

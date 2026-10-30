@@ -155,6 +155,18 @@ export default async function UsesPage({
     .slice(0, 6)
     .map((u) => ({ slug: u.slug, anchor: u.anchor, heroTitle: u.data.hero.title }));
 
+  // Breadcrumbs render in search results and tell Google the hierarchy, which
+  // a flat /uses/<slug> URL does not convey on its own.
+  const breadcrumbJsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: site.domain.replace(/\/$/, "") },
+      { "@type": "ListItem", position: 2, name: "Use Cases", item: `${site.domain.replace(/\/$/, "")}/uses` },
+      { "@type": "ListItem", position: 3, name: page.anchor ?? page.data.hero.title },
+    ],
+  };
+
   const faqJsonLd = {
     "@context": "https://schema.org",
     "@type": "FAQPage",
@@ -170,6 +182,10 @@ export default async function UsesPage({
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(webPageJsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
       <script
         type="application/ld+json"
