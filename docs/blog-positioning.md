@@ -37,6 +37,34 @@ And underneath all of it: **equitable, not merely compliant.** Compliance is
 table stakes. Fair distribution of call, weekends, holidays and undesirable
 rotations is what people actually argue about.
 
+## Voice
+
+Confident, clear, respectful. Those are not in tension, and getting the
+balance right matters more than any individual sentence.
+
+**Confident means stating what we do and what it is worth, plainly.** We
+build schedules, we are very good at it, and programs save hundreds of hours.
+That is a strong claim and it stands on its own. Confidence does not need a
+foil.
+
+**Respectful means we never build ourselves up by running others down.**
+Trash-talking a competitor reads as insecurity, and the reader notices. It
+also undercuts the trust that is the actual reason clients stay. A program
+director choosing a vendor is asking "can I rely on these people", and
+someone who is rude about rivals in public answers that question badly.
+
+**Clear means a reader knows exactly what they get.** Constraints in,
+finished schedules out. Redrafts handled when coverage breaks. No software to
+learn. No hedging, no jargon, no "AI-powered solutions".
+
+**Integrity means every claim is one we can stand behind.** Sourced, current,
+and true. That rule produced the two fact-check documents alongside this one;
+it also means not publishing our pricing or our integrations, and not
+asserting things about other people's products that we have not verified.
+
+The test for any sentence: **would I be comfortable if a program director,
+and a competitor, both read this?** If yes, it is on brand.
+
 ## How to talk about other vendors
 
 **Do not say what a competitor cannot do.** Three reasons: it is often wrong,
