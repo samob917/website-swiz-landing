@@ -14,30 +14,30 @@ const CALENDLY_URL =
 export function ScheduleACall() {
   return (
     <section className="border-t border-gray-100 bg-gray-50">
-      <div className="mx-auto max-w-4xl px-4 py-16 text-center sm:px-6 sm:py-20 lg:px-8">
-        <h2 className="text-2xl font-semibold tracking-tight text-gray-900 sm:text-3xl">
+      <div className="mx-auto max-w-3xl px-4 py-12 text-center sm:px-6 sm:py-14 lg:px-8">
+        <h2 className="text-xl font-semibold tracking-tight text-gray-900 sm:text-2xl">
           Want us to build your schedules?
         </h2>
 
-        <p className="mx-auto mt-4 max-w-xl text-base leading-relaxed text-gray-600">
+        <p className="mx-auto mt-3 max-w-lg text-[15px] leading-relaxed text-gray-600">
           Tell us how your program works and we will build the schedule around
           it, from a four-resident program to a 300-provider group. You keep
           whatever platform you already use to publish it.
         </p>
 
-        <div className="mt-8">
+        <div className="mt-7">
           <a
             href={CALENDLY_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="group inline-flex items-center gap-2.5 rounded-lg bg-gray-900 px-6 py-3.5 text-sm font-medium text-white transition-colors duration-300 hover:bg-gray-800"
+            className="group inline-flex items-center gap-2.5 rounded-md bg-gray-900 px-6 py-3 text-sm font-medium text-white transition-colors duration-300 hover:bg-gray-800"
           >
             <Calendar className="h-4 w-4" />
             Schedule a call
           </a>
         </div>
 
-        <p className="mt-5 text-sm text-gray-500">
+        <p className="mt-4 text-sm text-gray-500">
           Or{" "}
           <Link
             href="/contact"
