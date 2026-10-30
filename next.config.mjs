@@ -20,9 +20,9 @@ const nextConfig = {
   },
   async redirects() {
     return [
-      // NOTE (blog-preview branch only): the /blog -> / redirects are removed
-      // here so the restored blog can be read locally. They must go back
-      // before this is merged, or stay removed if the blog is relaunched.
+      // The /blog -> / redirects are gone: the blog is live again on its
+      // original slugs, so those URLs resolve to the posts Google already
+      // indexed rather than being funnelled to the homepage.
 
       // /compliance-checker was a real page with a navbar link until it was
       // removed. Anything still linking to it should land on the use-case
