@@ -8,10 +8,12 @@ A specific, false, published claim about a named competitor's price or
 capability is the fact pattern for a false-advertising complaint. Each needs
 a source or needs striking.
 
-## Our own pricing is published
+## Our own pricing is published - REMOVE, decided
 
-These disclose Scheduling Wizard's own pricing publicly. Competitors read
-these posts. Decide deliberately whether this stays.
+**This does not go public.** Strike the figure before anything is
+republished. The same paragraph also names the Amion/QGenda integrations,
+which also stay private. Must be edited in Wisp: the content is served from
+the CMS, not from this repo.
 
 - [ ] `/blog/residency-block-schedule-tools`
   > …Average annual contract value runs approximately $6,000–$7,000 , with private practice and larger programs quoted higher…

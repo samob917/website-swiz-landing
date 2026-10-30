@@ -67,11 +67,28 @@ integrations publicly.** Keep it general:
 
 True, useful to the reader, non-disparaging, and reveals nothing.
 
-## Pricing
+## Pricing: remove it
 
-Our own annual contract value is currently published in
-`/blog/residency-block-schedule-tools`. Decide deliberately whether that
-stays. Competitors read these posts.
+**Decided: our pricing does not go public.**
+
+`/blog/residency-block-schedule-tools` contains a vendor-profile block for
+Scheduling Wizard reading "Average annual contract value runs approximately
+$6,000-$7,000, with private practice and larger programs quoted higher."
+Strike it. "Service-based model. Pricing on request." is enough.
+
+The sentence directly above it also names the integrations:
+
+> "schedules are delivered as Excel files that plug directly into Amion or
+> QGenda... Many Scheduling Wizard clients already use those tools"
+
+Both go. Replace the whole block with something like:
+
+> Pricing: service-based, quoted per program. Delivered as finished files
+> that work with whatever you already use to publish schedules.
+
+This is the only place either appears. Checked all 48 posts and the live
+site; nothing else discloses our pricing. It must be edited in Wisp, since
+removing it from the repo does not change what the CMS serves.
 
 Other vendors' prices are quoted in 31 places with no sources and no dates.
 Software pricing moves. Either source and date each one or cut it.
