@@ -9,6 +9,9 @@
 // Session replay is off (see lib/posthog-client.ts), so this page describes
 // pageview analytics only.
 //
+// Analytics is opt-OUT (see lib/consent.ts). Nothing here should be phrased
+// as conditional on the visitor agreeing first.
+//
 // Written to describe what the site actually does today (see
 // instrumentation-client.ts and components/consent-banner.tsx). If the data
 // practices change, update this page AND bump POLICY_VERSION in lib/consent.ts
@@ -27,7 +30,7 @@ export const metadata: Metadata = {
 
 // Shown to visitors. Update this whenever the policy text changes;
 // scripts/check-privacy-date.mjs warns on every build if it goes stale.
-const LAST_UPDATED = "October 25, 2026"
+const LAST_UPDATED = "October 30, 2026"
 
 export default function PrivacyPage() {
   return (
@@ -64,7 +67,7 @@ export default function PrivacyPage() {
                 What we collect, and why
               </h2>
               <p>
-                If you accept cookies, we use{" "}
+                We use{" "}
                 <a
                   href="https://posthog.com"
                   target="_blank"
@@ -74,9 +77,11 @@ export default function PrivacyPage() {
                   PostHog
                 </a>{" "}
                 to record which pages you visit, which links and buttons you
-                use, roughly where in the world you are, and what browser and
-                device you are using. We use it to fix bugs and improve the
-                site. We do not sell it and we do not use it for advertising.
+                use, roughly where in the world you are, what browser and
+                device you are using, and how quickly pages load for you. This
+                runs unless you turn it off. We use
+                it to fix bugs and improve the site. We do not sell it and we
+                do not use it for advertising.
               </p>
               <p>
                 If you fill in a form here, we receive what you type into it,
@@ -87,8 +92,9 @@ export default function PrivacyPage() {
               </p>
               <p>
                 PostHog processes analytics data on our behalf, under our
-                instructions, and not for their own purposes. Form submissions
-                reach us by email through EmailJS.
+                instructions, and not for their own purposes, and we keep it
+                only while it is useful. Form submissions reach us by email
+                through EmailJS. The site is hosted by Vercel.
               </p>
             </section>
 
@@ -112,7 +118,7 @@ export default function PrivacyPage() {
               </p>
               <p>
                 Either way, our host keeps ordinary server logs, and anything
-                you send us through a form reaches us regardless.
+                you send us through a form still reaches us.
               </p>
             </section>
 
@@ -121,8 +127,8 @@ export default function PrivacyPage() {
                 Contact
               </h2>
               <p>
-                Questions, or a request to see or delete what we hold about
-                you:{" "}
+                Questions about any of this, or want to see or delete what we
+                hold about you? Email us and we will sort it out:{" "}
                 <a
                   href="mailto:founders@schedulingwiz.com"
                   className="text-gray-900 underline underline-offset-2 hover:text-gray-700"
