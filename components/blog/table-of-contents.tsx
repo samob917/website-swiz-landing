@@ -1,6 +1,6 @@
 "use client";
 
-import type { TableOfContentsItem } from "@wisp-cms/table-of-content";
+import type { TableOfContentsItem } from "@/lib/blog/table-of-contents";
 import { cn } from "@/lib/utils";
 import { useEffect, useState } from "react";
 
@@ -57,7 +57,7 @@ export const TableOfContents: React.FC<TableOfContentsProps> = ({ items }) => {
                   : "text-gray-500 hover:text-yellow-500",
               )}
             >
-              {item.text}
+              {item.title}
             </a>
           </li>
         ))}

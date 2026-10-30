@@ -117,5 +117,13 @@
     "resident-preferences": "/micro-ui/resident-preferences.svg",
     "coverage-optimization": "/micro-ui/coverage-optimization.svg",
     "absence-response": "/micro-ui/absence-response.svg"
+  },
+  "blog": {
+    "heading": "Blog",
+    "subtitle": "Scheduling, ACGME compliance and program operations, written for the people who actually build the schedule.",
+    "seo": {
+      "title": "Blog | Scheduling Wizard",
+      "description": "Guides on ACGME duty hour requirements, residency and fellowship scheduling, and how programs get schedules built."
+    }
   }
 }

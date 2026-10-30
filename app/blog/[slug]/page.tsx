@@ -6,9 +6,14 @@ import { PostContent } from "@/components/blog/post-content";
 import { Badge } from "@/components/ui/badge";
 import { getSiteConfig } from "@/lib/engine/resolve-site";
 import { isHiddenPost } from "@/lib/blog/hidden-posts";
-import { wisp } from "@/lib/wisp";
+import { getAllSlugs, getPost } from "@/lib/blog/resolve-blog";
 
-export const revalidate = 3600;
+// Content is in the repo now, so these are built statically.
+export const dynamicParams = false;
+
+export async function generateStaticParams() {
+  return getAllSlugs().map((slug) => ({ slug }));
+}
 
 interface Params {
   slug: string;
@@ -20,10 +25,10 @@ type Props = {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug } = await params;
-  const result = await wisp.getPost(slug);
-  if (!result.post) return { title: "Post Not Found" };
+  const post = getPost(slug);
+  if (!post) return { title: "Post Not Found" };
 
-  const { title, description, image } = result.post;
+  const { title, description, image } = post;
   return {
     title,
     description: description ?? "",
@@ -39,25 +44,16 @@ export default async function BlogPost({ params }: Props) {
   const { slug } = await params;
   if (isHiddenPost(slug)) return notFound();
 
-  const [result, site] = await Promise.all([
-    wisp.getPost(slug),
+  const [post, site] = await Promise.all([
+    Promise.resolve(getPost(slug)),
     getSiteConfig(),
   ]);
 
-  if (!result.post) return notFound();
+  if (!post) return notFound();
 
-  const {
-    title,
-    publishedAt,
-    createdAt,
-    content,
-    tags,
-    image,
-    updatedAt,
-    author,
-  } = result.post;
+  const { title, publishedAt, content, tags, image, updatedAt } = post;
 
-  const publishDate = publishedAt || createdAt;
+  const publishDate = publishedAt ?? updatedAt ?? new Date().toISOString();
   const formattedDate = format(new Date(publishDate), "MMMM dd, yyyy");
 
   const jsonLd = {
@@ -68,12 +64,8 @@ export default async function BlogPost({ params }: Props) {
     datePublished: publishedAt
       ? new Date(publishedAt).toISOString()
       : undefined,
-    dateModified: new Date(updatedAt).toISOString(),
-    author: {
-      "@type": "Person",
-      name: author?.name ?? undefined,
-      image: author?.image ?? undefined,
-    },
+    dateModified: updatedAt ? new Date(updatedAt).toISOString() : undefined,
+    author: { "@type": "Organization", name: site.name },
     publisher: {
       "@type": "Organization",
       name: site.name,
@@ -107,17 +99,17 @@ export default async function BlogPost({ params }: Props) {
           <div>
             <PostContent content={content} title={title} />
 
-            {tags.length > 0 && (
+            {tags && tags.length > 0 && (
               <div className="mt-10 flex items-center gap-3">
                 <span className="text-sm text-gray-500">Tags:</span>
                 <div className="flex flex-wrap gap-2">
                   {tags.map((tag) => (
-                    <Link key={tag.id} href={`/blog?tag=${tag.name}`}>
+                    <Link key={tag} href={`/blog?tag=${encodeURIComponent(tag)}`}>
                       <Badge
                         variant="secondary"
                         className="cursor-pointer hover:bg-secondary/80"
                       >
-                        {tag.name}
+                        {tag}
                       </Badge>
                     </Link>
                   ))}

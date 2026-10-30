@@ -1,7 +1,6 @@
 "use client";
 
-import { ContentWithCustomComponents } from "@wisp-cms/react-custom-component";
-import { generateTableOfContents } from "@wisp-cms/table-of-content";
+import { generateTableOfContents } from "@/lib/blog/table-of-contents";
 import sanitize, { defaults } from "sanitize-html";
 import { TableOfContents } from "./table-of-contents";
 import { Separator } from "@/components/ui/separator";
@@ -53,12 +52,6 @@ export function PostContent({
       ...defaults.allowedAttributes,
       "*": ["style", "class", "id"],
       iframe: ["src", "allowfullscreen", "style"],
-      div: [
-        "data-name",
-        "data-wisp-react-component",
-        "data-version",
-        "data-props",
-      ],
     },
     allowedIframeHostnames: ["www.youtube.com", "www.youtube-nocookie.com"],
   });
@@ -73,10 +66,7 @@ export function PostContent({
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-12">
       <div className="lg:col-span-8">
         <div className="prose prose-lg max-w-none break-words prose-headings:font-bold prose-headings:tracking-tight prose-a:text-yellow-600 hover:prose-a:text-yellow-700">
-          <ContentWithCustomComponents
-            content={modifiedHtml}
-            customComponents={{}}
-          />
+          <div className="prose prose-lg max-w-none" dangerouslySetInnerHTML={{ __html: modifiedHtml }} />
         </div>
       </div>
 
