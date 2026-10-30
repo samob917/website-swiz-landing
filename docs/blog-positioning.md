@@ -1,67 +1,97 @@
-# Positioning for the comparison posts
+# Positioning for the blog
 
-Applies to the ~32 "best tools" / "X alternatives" posts, which carry no
-regulatory errors and are the lower-risk half of the blog.
+How the posts should read when they go back up. Applies to all 48, and
+specifically governs the ~38 places where a post currently says a named
+competitor cannot do something.
 
-## The message
+## What we are
 
-Scheduling Wizard is a **professional scheduling service**. We build the
-schedules. We are not another platform to learn.
+**We build schedules.** That is the product. Not software, not a platform, not
+a dashboard. Programs send us their constraints and get finished schedules
+back.
 
-Four things to land, in this order:
+Four things to land:
 
-1. **We do the work, not the software.** Programs send us their constraints
-   and receive finished schedules. There is nothing to configure, no annual
-   retraining when the chief rotates.
+**1. Schedule creation is the hard part, and it is what we do.**
+Not compliance checking, not publishing, not swaps. The weeks of work that go
+into producing a schedule in the first place.
 
-2. **Most of our clients already have a platform.** Amion, QGenda, whatever
-   the department runs. They keep it. What they outsource is the part the
-   platform does not do: actually building the schedule. Replacing the
-   platform is not on the table and never comes up.
+**2. Redrafts, which is where the real pain lives.**
+A resident leaves. Someone goes on maternity leave. An illness takes out
+coverage in February. The original schedule is now wrong and somebody has to
+rebuild it around the gap, mid-year, without breaking anything else. This is
+the part programs dread most and the part we handle as a matter of course. It
+deserves more prominence than it currently gets anywhere on the site.
 
-3. **We handle the rules nothing else handles.** Subspecialty requirements,
-   department-specific conventions, the granular constraints that live in one
-   person's head and have never been written down. This is the differentiator.
-   A platform's rule engine covers the common cases; the hard 10% is what
-   makes schedule-building take weeks.
+**3. Complexity is the differentiator.**
+Subspecialty requirements, department conventions, the granular rules that
+live in one person's head and have never been written down. Any tool handles
+the common cases. The hard 10% is what turns schedule-building into weeks.
 
-4. **Equitable, not just compliant.** Compliance is table stakes. Call
-   burden, weekends, holidays and undesirable rotations distributed fairly
-   across the group is what people actually argue about, and it is what
-   mathematical optimisation is for.
+**4. Trust and service.**
+Clients stay because we are responsive and because the schedules are right,
+not because of a feature list. Say less about capability and more about what
+it is like to work with us.
 
-## How this changes the comparison posts
+And underneath all of it: **equitable, not merely compliant.** Compliance is
+table stakes. Fair distribution of call, weekends, holidays and undesirable
+rotations is what people actually argue about.
 
-They currently read as "here are 6 tools, and we are one of them." That puts
-us in a category we are not in and invites a feature-by-feature comparison we
-will lose, because we do not have a dashboard.
+## How to talk about other vendors
 
-Reframe: **the tools are compared to each other; we are the alternative to
-doing it yourself.** The list stays honest and useful (that is why it ranks),
-but the conclusion changes from "pick us instead" to "whichever you pick,
-someone still has to build the schedule."
+**Do not say what a competitor cannot do.** Three reasons: it is often wrong,
+software changes; it is disputable, and a specific false claim about a named
+competitor's capability is the fact pattern for a false-advertising
+complaint; and it reads as mean, which is off-brand for a company selling on
+trust.
 
-### Wording that carries it
+Replace the claim with a statement about us. Same point, no target.
 
-- "Whichever platform you choose, someone on your team still builds the
-  schedule. That is the part we take."
-- "Most of our clients keep Amion or QGenda. We build the schedule; they run
-  it."
-- "No migration, no software to learn, no retraining the next chief."
-- "Platforms manage schedules. They do not effectively create them." (Already
-  used on the /uses pages. Consistent voice across the site.)
+| Instead of | Write |
+|---|---|
+| "Amion has no rule engine" | "Amion is built for publishing and viewing the schedule. Creating it is a separate job." |
+| "Amion does not build or optimize schedules" | "Whatever you use to publish the schedule, someone still has to build it. That is the part we take." |
+| "QGenda cannot handle subspecialty rules" | "We handle the subspecialty rules that are specific to your program, including the ones nobody has written down." |
+| "X lacks a compliance engine" | "We build compliance in at generation time, so a schedule does not need checking afterwards." |
 
-### Avoid
+The test: **would this sentence still be fine if the vendor's head of product
+read it?** If not, rewrite it.
+
+## Integrations
+
+We work alongside MedHub, QGenda, Amion and others. **Do not name those
+integrations publicly.** Keep it general:
+
+> "Our clients keep whatever platform they already use. We deliver finished
+> schedules ready to upload."
+
+True, useful to the reader, non-disparaging, and reveals nothing.
+
+## Pricing
+
+Our own annual contract value is currently published in
+`/blog/residency-block-schedule-tools`. Decide deliberately whether that
+stays. Competitors read these posts.
+
+Other vendors' prices are quoted in 31 places with no sources and no dates.
+Software pricing moves. Either source and date each one or cut it.
+
+## Avoid
 
 - Claiming to replace a platform. We do not, and saying so invites an
   objection that does not exist.
-- Feature-matrix comparisons where we are a column. We lose on features and
-  win on outcome.
+- Feature matrices where we are a column. We lose on features and win on
+  outcome.
 - "AI-powered" or "automated" as the headline. The promise is a finished
   schedule, not the method.
+- Any ACGME claim nobody has verified. See `blog-fact-check.md`.
 
-## Honest-comparison test
+## Keeping what made these rank
 
-These posts rank partly because they read as genuinely useful rather than as
-sales copy. Keep that. If a post would not be worth reading by someone who
-ends up choosing QGenda, it has tipped too far.
+These posts earn traffic because they read as genuinely useful rather than as
+sales copy. The comparison format is doing real work for a reader deciding
+between tools. Keep the list honest and complete, and change only the
+conclusion: whichever they pick, the schedule still has to be built.
+
+If a post would not be worth reading by someone who ends up choosing QGenda,
+it has tipped too far.
