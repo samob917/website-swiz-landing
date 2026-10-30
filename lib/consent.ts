@@ -1,19 +1,24 @@
-// Consent state for analytics on the public marketing site.
+// Analytics consent for the public marketing site.
 //
-// Nothing that tracks may run before the visitor has explicitly accepted.
-// PostHog is the only tracker on the site and is not initialised at all until
-// then; see lib/posthog-client.ts.
+// Opt-out model: analytics runs by default, and visitors turn it off from
+// "Your privacy choices" in the footer. This is lawful for US visitors, who
+// are effectively all of ours, and matches what comparable sites do.
+//
+// It would NOT satisfy EU/UK law, which requires opt-in before anything is
+// stored on a device. If real European traffic appears in the country
+// breakdown, this needs geo-gating so those visitors get an opt-in prompt
+// instead. Vercel supplies x-vercel-ip-country on every request, so the
+// detection is available when it is needed.
 //
 // The _ga/_gcl patterns below are kept deliberately: a Google Ads tag ran on
 // this site until October 2026, so returning visitors may still be carrying
 // its cookies, and they should be cleared rather than left behind.
 
 /**
- * Bumping this invalidates every stored choice and re-prompts everyone. Bump it
- * when we start collecting something new, not when we collect less: an existing
- * Accept already covers a narrower set of data, so removing a tracker does not
- * need fresh consent. Not displayed anywhere; LAST_UPDATED on /privacy is what
- * visitors see.
+ * Bumping this invalidates every stored choice. Bump it when we start
+ * collecting something new, not when we collect less: an existing choice
+ * already covers a narrower set of data. Not displayed anywhere;
+ * LAST_UPDATED on /privacy is what visitors see.
  */
 export const POLICY_VERSION = 1
 
@@ -22,40 +27,53 @@ export type ConsentChoice = "granted" | "denied"
 const STORAGE_KEY = `sw-consent-v${POLICY_VERSION}`
 const CHANGE_EVENT = "sw-consent-change"
 
-/** Reads the stored choice. `null` means the visitor has not decided yet. */
-export function readConsent(): ConsentChoice | null {
+/**
+ * Global Privacy Control: a browser-level "do not sell or share my data"
+ * signal that California has required honouring since March 2024. Treated as
+ * a standing opt-out.
+ */
+export function gpcEnabled(): boolean {
+  if (typeof navigator === "undefined") return false
+  return (navigator as Navigator & { globalPrivacyControl?: boolean })
+    .globalPrivacyControl === true
+}
+
+/** The visitor's explicit choice, or null if they have not made one. */
+export function readStoredChoice(): ConsentChoice | null {
   if (typeof window === "undefined") return null
   try {
     const stored = window.localStorage.getItem(STORAGE_KEY)
     return stored === "granted" || stored === "denied" ? stored : null
   } catch {
-    // Private mode or blocked storage: treat as undecided, which keeps us opted out.
+    // Private mode or blocked storage: no stored choice.
     return null
   }
+}
+
+/**
+ * What applies right now. An explicit choice wins, including over GPC, since
+ * someone who switched analytics on in our own UI made a deliberate decision
+ * about this site specifically. Otherwise GPC opts them out, and failing that
+ * analytics is on.
+ */
+export function effectiveConsent(): ConsentChoice {
+  const stored = readStoredChoice()
+  if (stored) return stored
+  return gpcEnabled() ? "denied" : "granted"
 }
 
 export function writeConsent(choice: ConsentChoice) {
   try {
     window.localStorage.setItem(STORAGE_KEY, choice)
   } catch {
-    // If we cannot persist the choice we still honour it for this page view;
-    // the banner simply reappears next time.
+    // Unpersistable: honour it for this page view anyway. The visitor can set
+    // it again next time.
   }
   window.dispatchEvent(new CustomEvent(CHANGE_EVENT, { detail: choice }))
 }
 
-/** Re-opens the banner from the footer's "Cookie settings" link. */
-export function clearConsent() {
-  try {
-    window.localStorage.removeItem(STORAGE_KEY)
-  } catch {
-    /* nothing to clear */
-  }
-  window.dispatchEvent(new CustomEvent(CHANGE_EVENT, { detail: null }))
-}
-
-export function onConsentChange(handler: (choice: ConsentChoice | null) => void) {
-  const listener = (e: Event) => handler((e as CustomEvent).detail ?? null)
+export function onConsentChange(handler: (choice: ConsentChoice) => void) {
+  const listener = (e: Event) => handler((e as CustomEvent).detail as ConsentChoice)
   window.addEventListener(CHANGE_EVENT, listener)
   return () => window.removeEventListener(CHANGE_EVENT, listener)
 }
@@ -66,9 +84,9 @@ const isTrackingKey = (key: string) => {
 }
 
 /**
- * Removes analytics storage left behind by the previous, consent-free setup so
- * a returning visitor who never agreed to anything does not keep carrying an
- * identifier around. Called on load whenever no choice is stored.
+ * Clears analytics storage from this device. Run when someone opts out, so
+ * that turning analytics off also removes the identifier already set rather
+ * than merely stopping new collection.
  */
 export function purgeTrackingStorage() {
   if (typeof window === "undefined") return

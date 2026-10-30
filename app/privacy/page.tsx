@@ -16,7 +16,7 @@
 
 import type { Metadata } from "next"
 
-import { CookieSettingsButton } from "@/components/cookie-settings-button"
+import { PrivacyChoicesLink } from "@/components/privacy-choices-link"
 
 export const metadata: Metadata = {
   title: "Privacy Policy | Scheduling Wizard",
@@ -97,16 +97,22 @@ export default function PrivacyPage() {
                 Your choice
               </h2>
               <p>
-                We do not switch on analytics unless you press Accept. If you
-                decline, it stays off and no identifier is stored on your
-                device. Our host keeps ordinary server logs either way, and
-                anything you send us through a form reaches us whichever you
-                choose. You can change your mind at any time using{" "}
-                <CookieSettingsButton className="font-medium text-gray-900 underline underline-offset-2 hover:text-gray-700">
-                  cookie settings
-                </CookieSettingsButton>
-                , here or in the footer of any page. Switching to decline
-                clears the analytics cookies and storage on your device.
+                Analytics is on by default. You can turn it off at any time
+                using{" "}
+                <PrivacyChoicesLink className="font-medium text-gray-900 underline underline-offset-2 hover:text-gray-700">
+                  your privacy choices
+                </PrivacyChoicesLink>
+                , here or in the footer of any page. Turning it off also clears
+                the analytics cookies and storage already on your device.
+              </p>
+              <p>
+                If your browser sends a Global Privacy Control signal, we treat
+                that as turning analytics off and you do not need to do
+                anything.
+              </p>
+              <p>
+                Either way, our host keeps ordinary server logs, and anything
+                you send us through a form reaches us regardless.
               </p>
             </section>
 

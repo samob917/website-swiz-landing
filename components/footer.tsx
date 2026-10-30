@@ -2,7 +2,7 @@ import Link from "next/link"
 import Image from "next/image"
 import { Calendar } from "lucide-react"
 
-import { CookieSettingsButton } from "@/components/cookie-settings-button"
+import { PrivacyChoicesLink } from "@/components/privacy-choices-link"
 
 export function Footer() {
   return (
@@ -53,9 +53,9 @@ export function Footer() {
             Privacy Policy
           </Link>
           <span className="text-white/20">|</span>
-          <CookieSettingsButton className="hover:text-white/80 transition-colors duration-300">
-            Cookie settings
-          </CookieSettingsButton>
+          <PrivacyChoicesLink className="hover:text-white/80 transition-colors duration-300">
+            Your privacy choices
+          </PrivacyChoicesLink>
         </p>
       </div>
     </footer>
