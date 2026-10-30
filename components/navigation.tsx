@@ -4,7 +4,7 @@
 import { useState } from "react"
 import Link from "next/link"
 import Image from "next/image"
-import { Calendar, Menu, X } from "lucide-react"
+import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 export function Navigation() {
@@ -36,18 +36,12 @@ export function Navigation() {
           <Link href="/team" className="nav-link font-medium">
             Team
           </Link>
-          <Link href="/contact" className="nav-link font-medium">
+          <Link
+            href="/contact"
+            className="inline-flex items-center rounded-full bg-yellow-400 px-4 py-1.5 text-sm font-semibold text-black transition-colors hover:bg-yellow-300"
+          >
             Contact us
           </Link>
-          <a
-            href="https://calendly.com/zacdermody-schedulingwiz/new-meeting"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-1.5 rounded-full bg-yellow-400 px-4 py-1.5 text-sm font-semibold text-black transition-colors hover:bg-yellow-300"
-          >
-            <Calendar className="h-3.5 w-3.5" />
-            Schedule a call
-          </a>
         </div>
 
         {/* Mobile menu button */}
@@ -67,7 +61,6 @@ export function Navigation() {
               { href: "/uses", label: "Use Cases" },
               { href: "/demo", label: "Demo" },
               { href: "/team", label: "Team" },
-              { href: "/contact", label: "Contact us" },
               { href: "/customers", label: "Customers" },
             ].map((link) => (
               <Link
@@ -79,16 +72,13 @@ export function Navigation() {
                 {link.label}
               </Link>
             ))}
-            <a
-              href="https://calendly.com/zacdermody-schedulingwiz/new-meeting"
-              target="_blank"
-              rel="noopener noreferrer"
+            <Link
+              href="/contact"
               onClick={() => setIsOpen(false)}
-              className="inline-flex items-center gap-1.5 rounded-full bg-yellow-400 px-4 py-2 text-sm font-semibold text-black transition-colors hover:bg-yellow-300"
+              className="inline-flex items-center rounded-full bg-yellow-400 px-4 py-2 text-sm font-semibold text-black transition-colors hover:bg-yellow-300"
             >
-              <Calendar className="h-4 w-4" />
-              Schedule a call
-            </a>
+              Contact us
+            </Link>
           </div>
         </div>
       )}

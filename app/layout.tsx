@@ -6,6 +6,7 @@ import { Navigation } from "@/components/navigation"
 import { Footer } from "@/components/footer"
 import { PrivacyChoices } from "@/components/privacy-choices"
 import { ScheduleACall } from "@/components/schedule-a-call"
+import { ScheduleACallFloat } from "@/components/schedule-a-call-float"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -53,6 +54,7 @@ export default function RootLayout({
         </head>
       <body className={`${inter.className} min-h-screen flex flex-col`}>
         <Navigation />
+        <ScheduleACallFloat />
         <main className="flex-1">{children}</main>
         <ScheduleACall />
         <Footer />
