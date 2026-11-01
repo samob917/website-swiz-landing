@@ -3,7 +3,7 @@
   "slug": "on-call-schedule-generator",
   "anchor": "On Call Schedule Generator",
   "title": "On Call Schedule Generator | Fair Rotations",
-  "description": "On call schedule generator for medical residencies. Stop wrestling with complex software and spreadsheets.",
+  "description": "Looking for an on call schedule generator? A generator gives you a draft to repair. We give you the finished call schedule.",
   "h1": "On Call Schedule Generator for Chief Residents",
   "paragraph": "Overwhelmed building call rotas? A generator gives you a draft to repair. Scheduling Wizard gives you the finished call schedule.",
   "category": "specialty",
@@ -47,12 +47,12 @@
       "items": [
         {
           "id": "call-scheduling",
-          "title": "Fair On Call Schedule Generation",
+          "title": "Fair On Call Schedules, Built",
           "eyebrow": "Call Scheduling",
           "highlights": [
             "Weekend call balanced automatically",
             "Holiday shifts distributed fairly",
-            "Post-call rest rules enforced"
+            "Post-call rest rules applied"
           ],
           "description": "Produces ACGME-compliant on-call schedules that distribute call burden equitably across all residents. Call, weekend, and holiday assignments are algorithmically balanced, no manual juggling required."
         },
@@ -61,9 +61,9 @@
           "title": "Compliance Built Into Every Schedule",
           "eyebrow": "ACGME Compliance",
           "highlights": [
-            "80-hour limits enforced automatically",
+            "80-hour limit applied",
             "Subspecialty-specific rules included",
-            "Violations prevented at generation"
+            "Rules applied as we build"
           ],
           "description": "ACGME duty hour regulations are built into the schedule as it is created, 80-hour weekly limits, rest requirements, and 24-hour hard caps. Subspecialty-specific rules are built into the schedule itself, not checked manually after the fact."
         },
@@ -76,7 +76,7 @@
             "Delivered as Excel spreadsheets",
             "No platform or software to learn"
           ],
-          "description": "Scheduling Wizard is a done-for-you managed service. Programs submit their rules and receive finished schedules as Excel files, ready to upload to whatever platform you already usees. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Scheduling Wizard is a done-for-you managed service. Programs submit their rules and receive finished schedules as Excel files, ready to upload to whatever platform you already use. The schedules are built by mathematicians who do this full time and nothing else."
         },
         {
           "id": "institutional-continuity",
@@ -85,7 +85,7 @@
           "highlights": [
             "Rules persist across chief rotations",
             "No annual rebuilding required",
-            "New chiefs onboard instantly"
+            "New chiefs start with a working schedule"
           ],
           "description": "Your program's rules, requests, and scheduling logic stay with Scheduling Wizard year over year. Incoming chiefs inherit a working, optimized on-call system instead of starting from scratch with a blank spreadsheet."
         },
@@ -98,7 +98,7 @@
             "Conference dates respected",
             "Moonlighting restrictions honored"
           ],
-          "description": "Vacation requests, conference dates, elective preferences, and personal rules are treated as first-class inputs, factored into the on call schedule generator from the start, not patched in manually afterward."
+          "description": "Vacation requests, conference dates, elective preferences and personal rules are treated as first-class inputs, factored in from the start rather than patched in afterwards."
         },
         {
           "id": "redrafts-included",
@@ -122,8 +122,8 @@
           "description": "Manually distributing call, weekends, and holidays across residents is nearly impossible to do equitably, leading to constant complaints and morale problems."
         },
         {
-          "title": "Compliance Violations Risk Accreditation",
-          "description": "ACGME duty hour rules are complex and subspecialty-specific. A single overlooked violation can shows up at your next review."
+          "title": "Checking the Rules by Hand Is Slow",
+          "description": "ACGME duty hour rules are detailed and subspecialty-specific. A single overlooked rule is easy to miss by hand and awkward to unwind later."
         },
         {
           "title": "Knowledge Lost Every Year",
@@ -138,7 +138,7 @@
       "description": "Submit your program's rules (duty hour rules, resident preferences, call fairness targets, and coverage requirements) and receive finished, ACGME-compliant schedules as ready-to-use Excel files. No software to learn. No annual retraining when your chiefs rotate."
     },
     "metaTitle": "On Call Schedule Generator | Fair Rotations",
-    "metaDescription": "On call schedule generator for medical residencies. Stop wrestling with complex software and spreadsheets."
+    "metaDescription": "Looking for an on call schedule generator? A generator gives you a draft to repair. We give you the finished call schedule."
   },
   "searchIntent": {
     "keyword": "on call schedule generator",
@@ -153,7 +153,7 @@
     "h1": "On Call Schedule Generator for Chief Residents",
     "metaTitle": "On Call Schedule Generator | Fair Rotations",
     "h1Paragraph": "Overwhelmed building call rotas? A generator gives you a draft to repair. Scheduling Wizard gives you the finished call schedule.",
-    "metaDescription": "On call schedule generator for medical residencies. Stop wrestling with complex software and spreadsheets."
+    "metaDescription": "Looking for an on call schedule generator? A generator gives you a draft to repair. We give you the finished call schedule."
   },
   "finalMetadata": {
     "slug": "schedule-generator",

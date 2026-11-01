@@ -31,8 +31,8 @@
         "question": "Why is a managed service better than self-service scheduling software for attendings?"
       },
       {
-        "answer": "Subspecialty-specific ACGME rules are built into the schedule itself. Rather than applying generic compliance logic, our team accounts for the specific duty hour requirements, call structures, and coverage mandates relevant to your program's subspecialty, ensuring the attending schedules it delivers are appropriate for your accreditation context.",
-        "question": "How does Scheduling Wizard handle subspecialty-specific attending scheduling rules?"
+        "answer": "Not the duty hour limits; those govern residents and fellows. What an attending schedule has to provide, where the department trains, is the supervision coverage the ACGME Program Requirements call for, and we build that in alongside the group's own rules: coverage minimums, call equity, contracts, time off and requests. A group with no training program has no ACGME requirement at all, and we build to its own rules instead.",
+        "question": "Do ACGME duty hour rules apply to attending schedules?"
       },
       {
         "answer": "Yes. Our team resolves dependencies across attending schedules, block rotations, call schedules, and clinic assignments simultaneously. A change in one schedule type automatically propagates across the others, eliminating the manual cross-referencing and patching that causes conflicts when attending and resident schedules are built separately.",
@@ -47,23 +47,23 @@
       "items": [
         {
           "id": "attending-scheduling",
-          "title": "Optimized Attending Coverage Every Time",
+          "title": "Attending Coverage Built Around the Residents' Schedule",
           "eyebrow": "Attending Scheduling",
           "highlights": [
-            "Faculty coverage fully optimized",
-            "Aligned with resident assignments",
-            "Program-specific rules enforced"
+            "Coverage built around resident assignments",
+            "Site requirements respected",
+            "Program-specific rules applied"
           ],
-          "description": "Scheduling Wizard extends the same approach to attending and faculty schedules, ensuring coverage aligns with resident assignments, site requirements, and program-specific rules without manual coordination."
+          "description": "We build attending and faculty schedules alongside the resident schedules, so coverage lines up with resident assignments, site requirements and program-specific rules without manual coordination."
         },
         {
           "id": "acgme-compliance",
           "title": "Compliance Built Into Every Schedule",
           "eyebrow": "The Rules That Apply",
           "highlights": [
-            "Subspecialty rules built in",
-            "Violations prevented at generation",
-            "Requirements checked before delivery"
+            "Coverage minimums held",
+            "Call equity across the group",
+            "Supervision requirements where you train"
           ],
           "description": "An attending schedule is governed by coverage minimums, call equity, contractual obligations, time off and requests, and multiple sites where a group has them. Where the department also trains residents or fellows, it has to provide the supervision coverage the ACGME Program Requirements call for, and we build that in too."
         },
@@ -85,7 +85,7 @@
           "highlights": [
             "Rules preserved across chief rotations",
             "No annual rebuilding required",
-            "New chiefs onboard instantly"
+            "New chiefs start with a working schedule"
           ],
           "description": "Your attending scheduling rules, requests, and configurations stay with Scheduling Wizard across annual chief rotations. New chiefs inherit a working, optimized system instead of starting from a blank spreadsheet."
         },
@@ -96,9 +96,9 @@
           "highlights": [
             "Holiday burden distributed fairly",
             "Weekend shifts balanced automatically",
-            "Eliminates fairness disputes"
+            "Fewer fairness disputes"
           ],
-          "description": "Holiday coverage, weekend shifts, and call burden are distributed equitably across attending physicians using algorithmic optimization, eliminating disputes and ensuring no faculty member carries a disproportionate load."
+          "description": "Holiday coverage, weekend shifts, and call burden are distributed equitably across attending physicians using algorithmic optimization, so no one carries a disproportionate load and there is less to argue about."
         },
         {
           "id": "redrafts-included",
@@ -113,7 +113,7 @@
         }
       ],
       "title": "Built for Attending Physician Scheduling",
-      "description": "Every capability is designed to remove the scheduling burden from your team and deliver optimized, compliant attending schedules without any software to operate."
+      "description": "Every capability is designed to take the scheduling burden off your team and deliver finished attending schedules without any software to operate."
     },
     "problems": {
       "items": [

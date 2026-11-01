@@ -3,9 +3,9 @@
   "slug": "acgme-duty-hour-rules",
   "anchor": "ACGME Duty Hour Rules",
   "title": "ACGME Duty Hour Rules | Compliance Built In",
-  "description": "ACGME duty hour rules can be complex and risky. Our managed service builds your residency schedule for you, enforcing the rules when the schedule is built to.",
+  "description": "The ACGME duty hour rules, explained, and built into the schedule for you. Send us your program's rules and we build to them.",
   "h1": "ACGME Duty Hour Rules, Built Into the Schedule",
-  "paragraph": "Violating ACGME duty hour rules shows up at your next review. Scheduling Wizard's managed service builds your schedule, enforcing the rules when the schedule is built so you can focus on medicine.",
+  "paragraph": "The ACGME duty hour rules, and how we build them into your schedule so nobody has to check afterwards.",
   "category": "specialty",
   "data": {
     "cta": {
@@ -15,12 +15,12 @@
     },
     "faq": [
       {
-        "answer": "ACGME duty hour rules set maximum working time limits for resident physicians to protect patient safety and resident well-being. Core requirements include an 80-hour weekly limit averaged over four weeks, a minimum of 10 hours off between shifts, and a 24-hour cap on continuous duty for PGY-2 residents and above. Rules vary by specialty and are updated periodically. We build the subspecialty-specific rules in and hold to them mathematically at schedule generation time.",
+        "answer": "ACGME duty hour rules set limits on resident working time to protect patients and residents. The core requirements: an 80-hour weekly limit averaged over four weeks, eight hours off between scheduled duty periods, at least 14 hours free after 24 hours of in-house call, a 24-hour cap on continuous clinical work with up to four additional hours for transitions, one day off in seven averaged over four weeks, and in-house call no more often than every third night. Since 2017 these apply to all PGY levels. Specialty Program Requirements add to them.",
         "question": "What are the ACGME duty hour rules for residents?"
       },
       {
         "answer": "Scheduling Wizard applies the ACGME duty hour rules while the schedule is built, the rules are applied as we build, not detected after the fact. Rather than building a schedule and then checking it for compliance, our team treats every duty hour requirement as a rule that cannot be broken. This means the finished schedule delivered to your program is compliant at the moment it is generated, including subspecialty-specific rules relevant to your program.",
-        "question": "How does Scheduling Wizard enforce ACGME duty hour compliance?"
+        "question": "How does Scheduling Wizard handle the ACGME duty hour rules?"
       },
       {
         "answer": "When ACGME updates its duty hour regulations, we update the rules we build from. Because the managed service model means programs are not operating software themselves, rule updates are absorbed by Scheduling Wizard rather than requiring chief residents or coordinators to reconfigure their own system.",
@@ -40,21 +40,21 @@
       }
     ],
     "hero": {
-      "title": "ACGME Duty Hour Rules Compliance Done For You",
-      "description": "Scheduling Wizard builds your residency schedules with ACGME duty hour compliance built into the schedule as it is created. No software to learn."
+      "title": "ACGME Duty Hour Rules, Built Into the Schedule",
+      "description": "Scheduling Wizard builds your residency schedules with the ACGME duty hour rules applied as the schedule is created. No software to learn."
     },
     "features": {
       "items": [
         {
           "id": "acgme-compliance",
-          "title": "Duty Hour Rules Enforced Automatically",
+          "title": "Duty Hour Rules Applied as We Build",
           "eyebrow": "ACGME Compliance",
           "highlights": [
-            "80-hour weekly limits enforced",
+            "80-hour weekly limit applied",
             "Subspecialty-specific rules built in",
             "Home call rules handled correctly"
           ],
-          "description": "ACGME duty hour regulations (including 80-hour weekly limits, 10-hour rest requirements, 24-hour hard caps, and home call rules) are applied as the schedule is built, at generation time. The rules are applied before the schedule reaches your program."
+          "description": "The ACGME duty hour regulations, including the 80-hour weekly limit, eight hours off between duty periods, 14 hours free after 24-hour call, the 24-hour cap and the home call rules, are applied as the schedule is built, before it reaches your program."
         },
         {
           "id": "managed-service",
@@ -74,7 +74,7 @@
           "highlights": [
             "Rules retained across chief rotations",
             "No institutional knowledge lost",
-            "Compliant from day one each year"
+            "Rules carry over each year"
           ],
           "description": "ACGME duty hour rules, program-specific rules, and scheduling configurations are retained by Scheduling Wizard year over year. New chiefs inherit a working, compliant system instead of rebuilding compliance from scratch."
         },
@@ -84,7 +84,7 @@
           "eyebrow": "Block Scheduling",
           "highlights": [
             "PGY-level requirements respected",
-            "ACGME rotation mandates enforced",
+            "ACGME rotation requirements applied",
             "Multi-track programs supported"
           ],
           "description": "Year-long block and rotation schedules are generated to satisfy PGY-level requirements, rotation mandates, and ACGME duty hour rules simultaneously, across every resident in your program."
@@ -94,7 +94,7 @@
           "title": "Call Schedules Within Duty Hour Limits",
           "eyebrow": "Call Scheduling",
           "highlights": [
-            "Post-call rest rules enforced",
+            "Post-call rest rules applied",
             "Fair call burden distribution",
             "Holiday and weekend call balanced"
           ],
@@ -118,8 +118,8 @@
     "problems": {
       "items": [
         {
-          "title": "One Violation Risks Accreditation",
-          "description": "Missing a duty hour limit or rest requirement shows up at your next review, and manual checking is too slow to catch every conflict."
+          "title": "Easy to Miss by Hand",
+          "description": "A duty hour limit or rest requirement missed in a spreadsheet does not announce itself. It turns up later, when fixing it means moving other people."
         },
         {
           "title": "Rules Change and Vary by Specialty",
@@ -131,14 +131,14 @@
         }
       ],
       "title": "Compliance Is Too Easy To Get Wrong",
-      "description": "ACGME duty hour rules are complex, subspecialty-specific, and unforgiving when violated."
+      "description": "ACGME duty hour rules are detailed, differ by subspecialty, and change."
     },
     "solution": {
       "title": "Compliance Built Into Every Schedule",
       "description": "Scheduling Wizard operates as a done-for-you managed service. Submit your program's rules and receive finished Block, Call, Clinic, and Attending schedules as ready-to-use Excel files, with ACGME duty hour compliance built into the schedule as it is created, not manually checked after the fact. Subspecialty-specific rules are built into the schedule itself."
     },
     "metaTitle": "ACGME Duty Hour Rules | Compliance Built In",
-    "metaDescription": "ACGME duty hour rules can be complex and risky. Our managed service builds your residency schedule for you, enforcing the rules when the schedule is built to."
+    "metaDescription": "The ACGME duty hour rules, explained, and built into the schedule for you. Send us your program's rules and we build to them."
   },
   "searchIntent": {
     "keyword": "ACGME duty hour rules",
@@ -152,8 +152,8 @@
   "seoMetadata": {
     "h1": "ACGME Duty Hour Rules, Built Into the Schedule",
     "metaTitle": "ACGME Duty Hour Rules | Compliance Built In",
-    "h1Paragraph": "Violating ACGME duty hour rules shows up at your next review. Scheduling Wizard's managed service builds your schedule, enforcing the rules when the schedule is built so you can focus on medicine.",
-    "metaDescription": "ACGME duty hour rules can be complex and risky. Our managed service builds your residency schedule for you, enforcing the rules when the schedule is built to."
+    "h1Paragraph": "The ACGME duty hour rules, and how we build them into your schedule so nobody has to check afterwards.",
+    "metaDescription": "The ACGME duty hour rules, explained, and built into the schedule for you. Send us your program's rules and we build to them."
   },
   "finalMetadata": {
     "slug": "duty-hour-rules",

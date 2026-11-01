@@ -41,7 +41,7 @@
     ],
     "hero": {
       "title": "Emergency Medicine Scheduling Software Done For You",
-      "description": "Scheduling Wizard delivers ACGME-compliant EM call, block, and attending schedules as ready-to-use Excel files. No software to learn, no misses that surface later."
+      "description": "Scheduling Wizard delivers ACGME-compliant EM call, block, and attending schedules as ready-to-use Excel files. No software to learn."
     },
     "features": {
       "items": [
@@ -50,11 +50,11 @@
           "title": "EM Duty Hour Requirements Built In",
           "eyebrow": "ACGME Compliance",
           "highlights": [
-            "EM-specific rules enforced",
+            "EM-specific rules applied",
             "80-hour weekly limit built in",
-            "Violations prevented at generation"
+            "Rules applied as we build"
           ],
-          "description": "Our team enforces ACGME duty hour regulations at generation time for emergency medicine programs. Subspecialty-specific EM rules are built in, so they are applied before the schedule reaches your program."
+          "description": "We apply the ACGME duty hour regulations as the schedule is built for emergency medicine programs. The EM-specific rules are built in, so they are applied before the schedule reaches your program."
         },
         {
           "id": "call-scheduling",
@@ -63,9 +63,9 @@
           "highlights": [
             "Weekend shifts balanced automatically",
             "Holiday burden distributed fairly",
-            "Post-call rest rules enforced"
+            "Post-call rest rules applied"
           ],
-          "description": "Algorithmically distributes on-call shifts, weekends, and holidays equitably across all EM residents while respecting individual rules and ACGME duty hour limits. No more manual balancing or fairness disputes."
+          "description": "Algorithmically distributes on-call shifts, weekends, and holidays equitably across all EM residents while respecting individual rules and ACGME duty hour limits. Less manual balancing, fewer fairness disputes."
         },
         {
           "id": "managed-service",
@@ -85,7 +85,7 @@
           "highlights": [
             "Rules persist across chief rotations",
             "No annual knowledge loss",
-            "New chiefs onboard instantly"
+            "New chiefs start with a working schedule"
           ],
           "description": "Your EM program's rule configurations and scheduling rules stay with Scheduling Wizard year over year. Incoming chiefs inherit a working, optimized system instead of rebuilding the entire schedule from a blank spreadsheet."
         },
@@ -95,8 +95,8 @@
           "eyebrow": "Unplanned Absences",
           "highlights": [
             "Coverage restored without manual work",
-            "Downstream conflicts auto-resolved",
-            "ACGME compliance maintained throughout"
+            "Downstream conflicts resolved",
+            "Duty hour rules held throughout"
           ],
           "description": "When an EM resident is unexpectedly unavailable, Scheduling Wizard rapidly re-optimizes the affected portion of the schedule to restore coverage without manually reshuffling every downstream assignment."
         },
@@ -113,7 +113,7 @@
         }
       ],
       "title": "Built for Emergency Medicine Scheduling",
-      "description": "Every capability is designed around the real rules EM programs face, from shift fairness to subspecialty ACGME compliance."
+      "description": "Every capability is designed around the real rules EM programs face, from shift fairness to the subspecialty ACGME requirements."
     },
     "problems": {
       "items": [
@@ -122,15 +122,15 @@
           "description": "EM programs juggle dense shift rotations, irregular call patterns, and duty hour limits that generic scheduling tools were never built to handle."
         },
         {
-          "title": "ACGME Compliance Is Never Certain",
-          "description": "Manually checking every EM resident's hours against subspecialty-specific ACGME rules and the misses only surface later."
+          "title": "Checking Hours by Hand Is Slow",
+          "description": "Checking every EM resident's hours against the subspecialty-specific ACGME rules by hand is slow, and the misses only surface later."
         },
         {
           "title": "Chiefs Restart From Scratch Every Year",
           "description": "When a new chief takes over, institutional scheduling knowledge walks out the door, forcing another year of painful trial and error."
         }
       ],
-      "title": "EM Scheduling Is Breaking Chiefs",
+      "title": "EM Scheduling Lands on the Chiefs",
       "description": "Emergency medicine scheduling is uniquely demanding, and the burden falls entirely on chief residents."
     },
     "solution": {

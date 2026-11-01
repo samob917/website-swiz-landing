@@ -4,7 +4,7 @@
   "anchor": "Internal Medicine Residency Scheduling",
   "title": "Internal Medicine Residency Scheduling | Save Time",
   "description": "Internal medicine residency scheduling is a complex burden. Our managed service takes your rules and delivers a complete, ACGME-compliant schedule.",
-  "h1": "Internal Medicine Residency Scheduling, Solved",
+  "h1": "Internal Medicine Residency Scheduling, Built For You",
   "paragraph": "Stop wrestling with complex software. Submit your IM program's rules, preferences, and ACGME rules. Scheduling Wizard delivers your complete schedule.",
   "category": "specialty",
   "data": {
@@ -15,7 +15,7 @@
     },
     "faq": [
       {
-        "answer": "Yes. ACGME compliance is built into the schedule as it is created, not manually checked after the fact. Our team has internal medicine and subspecialty-specific ACGME rules built in, including the 80-hour weekly limit, 10-hour minimum rest periods, and other duty hour requirements. Your schedule is compliant before it is ever delivered.",
+        "answer": "Yes. ACGME compliance is built into the schedule as it is created, not manually checked after the fact. Our team has internal medicine and subspecialty-specific ACGME rules built in, including the 80-hour weekly limit, eight hours off between duty periods, and the other duty hour requirements. Your schedule is compliant before it is ever delivered.",
         "question": "Is Scheduling Wizard compliant with internal medicine ACGME duty hour rules?"
       },
       {
@@ -40,21 +40,21 @@
       }
     ],
     "hero": {
-      "title": "Internal Medicine Residency Scheduling Done For You",
+      "title": "Internal Medicine Residency Scheduling, Built For You",
       "description": "Submit your IM program's rules and receive complete, ACGME-compliant block, call, and clinic schedules as ready-to-use Excel files. No software to learn."
     },
     "features": {
       "items": [
         {
           "id": "acgme-compliance",
-          "title": "IM Duty Hour Rules Enforced Automatically",
+          "title": "IM Duty Hour Rules Applied as We Build",
           "eyebrow": "ACGME Compliance",
           "highlights": [
             "Subspecialty rules built in",
-            "Violations prevented at generation",
-            "Compliant across all PGY levels"
+            "Rules applied as we build",
+            "Applied across all PGY levels"
           ],
-          "description": "Internal medicine ACGME rules (including 80-hour weekly limits, 10-hour rest minimums, and subspecialty-specific requirements) are built into the schedule as it is created. The rules are applied as we build, not discovered after the fact."
+          "description": "Internal medicine ACGME rules (including 80-hour weekly limits, eight hours off between duty periods, and subspecialty-specific requirements) are built into the schedule as it is created. The rules are applied as we build, not discovered after the fact."
         },
         {
           "id": "clinic-scheduling",
@@ -62,10 +62,10 @@
           "eyebrow": "Clinic Coordination",
           "highlights": [
             "Continuity clinic half-days protected",
-            "Call conflicts eliminated automatically",
+            "Call conflicts resolved in the build",
             "X+Y model fully supported"
           ],
-          "description": "Scheduling Wizard manages the intricate interplay between continuity clinic half-days and rotation or call obligations specific to internal medicine X+Y scheduling models, ensuring every clinic session is covered without creating downstream conflicts."
+          "description": "Scheduling Wizard manages the interplay between continuity clinic half-days and rotation or call obligations in internal medicine X+Y models, so every clinic session is covered without creating downstream conflicts."
         },
         {
           "id": "block-scheduling",
@@ -85,7 +85,7 @@
           "highlights": [
             "No annual retraining required",
             "Rules preserved across chief rotations",
-            "New chiefs onboard instantly"
+            "New chiefs start with a working schedule"
           ],
           "description": "Your internal medicine program's rules, requests, and configurations stay with Scheduling Wizard. Incoming chiefs inherit a fully optimized, working system instead of starting from scratch with a blank spreadsheet each academic year."
         },
@@ -113,7 +113,7 @@
         }
       ],
       "title": "Built for Internal Medicine Scheduling",
-      "description": "Every feature is designed around the complexity of IM programs, from X+Y clinic coordination to ACGME duty hour enforcement across PGY levels."
+      "description": "Every feature is designed around the complexity of IM programs, from X+Y clinic coordination to the ACGME duty hour rules across PGY levels."
     },
     "problems": {
       "items": [
@@ -122,8 +122,8 @@
           "description": "Balancing continuity clinic half-days against block rotations and call obligations in X+Y models creates cascading conflicts that no spreadsheet can reliably prevent."
         },
         {
-          "title": "ACGME Rules Keep Changing",
-          "description": "Internal medicine duty hour regulations and subspecialty-specific rules require constant vigilance. One missed rule can show up at your next review standing."
+          "title": "Rules Change and Vary by Subspecialty",
+          "description": "Internal medicine duty hour rules and subspecialty requirements change, and keeping up is one more job that lands on the chief."
         },
         {
           "title": "Chiefs Start From Scratch Annually",

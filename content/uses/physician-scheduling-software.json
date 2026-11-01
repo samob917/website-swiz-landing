@@ -3,8 +3,8 @@
   "slug": "physician-scheduling-software",
   "anchor": "Physician Scheduling Software",
   "title": "Physician Scheduling Software | Built For You as a Service",
-  "description": "Physician scheduling software, delivered as a service. Send us your rules and we build the finished schedules, for residency and fellowship programs.",
-  "h1": "Physician Scheduling Software, Delivered.",
+  "description": "Physician scheduling software, delivered as a service. Send us your rules and we build the finished schedules, for residency and fellowship programs, provider groups and private practices.",
+  "h1": "Physician Scheduling, Built For You",
   "paragraph": "Stop wrestling with physician scheduling software. Send us your rules and requests; we build the schedule and send it back finished.",
   "category": "role",
   "data": {
@@ -40,7 +40,7 @@
       }
     ],
     "hero": {
-      "title": "Physician Scheduling Software Delivered To You",
+      "title": "Physician Scheduling, Built For You",
       "description": "Stop wrestling with physician scheduling software. Send us your rules and receive finished schedules as ready-to-use Excel files, or on a live viewing link we build for you."
     },
     "features": {
@@ -61,9 +61,9 @@
           "title": "Compliance Built Into Every Schedule",
           "eyebrow": "The Rules That Apply",
           "highlights": [
-            "80-hour limits enforced automatically",
+            "80-hour limit applied",
             "Subspecialty rules built in",
-            "Violations prevented at generation"
+            "Rules applied as we build"
           ],
           "description": "We build each schedule to the rules that govern it. For a residency or fellowship that means the ACGME Common and specialty-specific Program Requirements: the 80-hour weekly limit, minimum rest, the 24-hour cap. For a provider group or practice it means yours: coverage minimums, call equity, contractual obligations, time off and requests, and multiple sites where a group has them."
         },
@@ -80,14 +80,14 @@
         },
         {
           "id": "call-scheduling",
-          "title": "Fair Call Schedules Every Time",
+          "title": "Fair Call Schedules",
           "eyebrow": "Call Scheduling",
           "highlights": [
             "Weekend call balanced automatically",
             "Holiday shifts distributed fairly",
-            "Post-call rules enforced"
+            "Post-call rest rules applied"
           ],
-          "description": "On-call schedules are algorithmically optimized to distribute call, weekend, and holiday burden equitably across residents while enforcing duty hour limits and post-call rules, eliminating fairness disputes."
+          "description": "On-call schedules distribute call, weekend and holiday burden equitably across residents, with the duty hour limits and post-call rules applied, and far fewer fairness disputes."
         },
         {
           "id": "institutional-continuity",
@@ -138,7 +138,7 @@
       "description": "Scheduling Wizard is a done-for-you managed service, not another tool to learn. Send us your rules and receive finished Block, Call, Clinic and Attending schedules as ready-to-use Excel files. No platform to navigate. No retraining when chiefs rotate."
     },
     "metaTitle": "Physician Scheduling Software | Built For You as a Service",
-    "metaDescription": "Physician scheduling software, delivered as a service. Send us your rules and we build the finished schedules, for GME programs, provider groups and private practices."
+    "metaDescription": "Physician scheduling software, delivered as a service. Send us your rules and we build the finished schedules, for residency and fellowship programs, provider groups and private practices."
   },
   "searchIntent": {
     "keyword": "physician scheduling software",
@@ -153,7 +153,7 @@
     "h1": "Physician Scheduling Software, Delivered.",
     "metaTitle": "Physician Scheduling Software | Built For You as a Service",
     "h1Paragraph": "Stop wrestling with physician scheduling software. Send us your rules and requests; we build the schedule and send it back finished.",
-    "metaDescription": "Physician scheduling software, delivered as a service. Send us your rules and we build the finished schedules, for GME programs, provider groups and private practices."
+    "metaDescription": "Physician scheduling software, delivered as a service. Send us your rules and we build the finished schedules, for residency and fellowship programs, provider groups and private practices."
   },
   "finalMetadata": {
     "slug": "scheduling-software",

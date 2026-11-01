@@ -61,11 +61,11 @@
           "title": "Requirements Built In From the Start",
           "eyebrow": "ACGME Compliance",
           "highlights": [
-            "80-hour limits enforced",
+            "80-hour limit applied",
             "Subspecialty rules built in",
             "No manual compliance checks"
           ],
-          "description": "ACGME duty hour rules are built into the schedule as it is created (80-hour weekly limits, rest requirements, and subspecialty-specific regulations) are applied before the schedule reaches your program."
+          "description": "The ACGME duty hour rules, the 80-hour weekly limit, rest requirements and the subspecialty-specific regulations, are applied as the schedule is built, before it reaches your program."
         },
         {
           "id": "institutional-continuity",
@@ -74,13 +74,13 @@
           "highlights": [
             "Rules persist year to year",
             "No annual knowledge loss",
-            "New chiefs ready immediately"
+            "New chiefs start with a working schedule"
           ],
           "description": "Your program's scheduling rules, requests, and configurations persist with Scheduling Wizard year over year. Incoming chief residents inherit a fully working system instead of starting from scratch every July."
         },
         {
           "id": "block-scheduling",
-          "title": "Year Long Rotation Schedules Automated",
+          "title": "Year-Long Rotation Schedules Built",
           "eyebrow": "Block Scheduling",
           "highlights": [
             "PGY requirements respected",
@@ -91,14 +91,14 @@
         },
         {
           "id": "call-scheduling",
-          "title": "Fair Call Schedules Every Time",
+          "title": "Fair Call Schedules",
           "eyebrow": "Call Scheduling",
           "highlights": [
             "Holiday burden distributed fairly",
-            "Post-call rules enforced",
+            "Post-call rest rules applied",
             "Weekend call balanced automatically"
           ],
-          "description": "On-call schedules are algorithmically optimized to distribute call, weekend, and holiday burden equitably across all residents while respecting duty hour limits and post-call rules, eliminating fairness disputes."
+          "description": "On-call schedules distribute call, weekend and holiday burden equitably across all residents, with the duty hour limits and post-call rules applied, and fewer fairness disputes."
         },
         {
           "id": "redrafts-included",
@@ -119,19 +119,19 @@
       "items": [
         {
           "title": "Chiefs Rebuild From Scratch Annually",
-          "description": "Every year a new chief inherits a blank spreadsheet and months of tribal knowledge disappears, and the program starts over every year."
+          "description": "Every year a new chief inherits a blank spreadsheet, and the tribal knowledge goes with the chief who left."
         },
         {
-          "title": "Compliance Violations Risk Accreditation",
-          "description": "Manually checking ACGME duty hour rules across block, call, and clinic schedules leaves room for violations that put accreditation at stake."
+          "title": "Checking the Rules by Hand Is Slow",
+          "description": "Checking the ACGME duty hour rules across block, call and clinic schedules by hand is slow, and the misses surface later."
         },
         {
           "title": "Scheduling Consumes Clinical Time",
           "description": "Chief residents spend hundreds of hours each year buried in spreadsheets instead of focusing on patient care and professional development."
         }
       ],
-      "title": "Scheduling Is Breaking Your Program",
-      "description": "Residency management software should reduce your burden | not create a new one to maintain."
+      "title": "Scheduling Is Costing Your Program",
+      "description": "Residency management software should reduce your burden, not create a new one to maintain."
     },
     "solution": {
       "title": "Residency Scheduling Managed by Experts",

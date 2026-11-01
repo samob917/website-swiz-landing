@@ -2,10 +2,10 @@
   "keyword": "GME scheduling software",
   "slug": "gme-scheduling-software",
   "anchor": "GME Scheduling Software",
-  "title": "GME Scheduling Software | Eliminate Admin Burden",
-  "description": "GME scheduling software shouldn't be your burden. Scheduling Wizard is a managed service that takes your rules and delivers complete.",
+  "title": "GME Scheduling Software | Managed for You",
+  "description": "GME scheduling software should not be your burden. Scheduling Wizard takes your program's rules and delivers complete block, call, clinic and attending schedules, built to the ACGME requirements.",
   "h1": "GME Scheduling Software, Managed for You",
-  "paragraph": "Ditch the complex software. Scheduling Wizard is a managed service. Send your rules, and we deliver a complete, ACGME-compliant schedule. Reclaim your time.",
+  "paragraph": "Send us your program's rules and we build the complete schedule, block, call, clinic and attending, and send it back finished.",
   "category": "setting",
   "data": {
     "cta": {
@@ -62,8 +62,8 @@
           "eyebrow": "ACGME Compliance",
           "highlights": [
             "Subspecialty rules built in",
-            "Violations prevented at generation",
-            "80-hour limits enforced automatically"
+            "Rules applied as we build",
+            "80-hour limit applied"
           ],
           "description": "ACGME duty hour rules are built into the schedule as it is created across all schedule types. Subspecialty-specific rules are built into the schedule itself, so they are applied before the schedule reaches your program."
         },
@@ -96,9 +96,9 @@
           "highlights": [
             "Weekend call balanced automatically",
             "Holiday shifts distributed fairly",
-            "Post-call rules enforced"
+            "Post-call rest rules applied"
           ],
-          "description": "Produces ACGME-compliant on-call schedules that distribute call, weekend, and holiday burden equitably across all residents. Fairness disputes are eliminated because the algorithm optimizes distribution before any schedule is published."
+          "description": "Builds on-call schedules that distribute call, weekend and holiday burden equitably across all residents, with the ACGME rules applied. There is less to argue about because the distribution is worked out before anything is published."
         },
         {
           "id": "redrafts-included",
@@ -122,23 +122,23 @@
           "description": "Most GME scheduling software puts the burden on chief residents to master complex tools they will only use for one year before rotating out."
         },
         {
-          "title": "Compliance Gaps Risk Accreditation",
-          "description": "Manually checking ACGME duty hour rules across block, call, and clinic schedules leaves room for violations and leaves the misses to surface later."
+          "title": "Checking the Rules by Hand Is Slow",
+          "description": "Manually checking ACGME duty hour rules across block, call, and clinic schedules leaves misses that surface later."
         },
         {
           "title": "Knowledge Lost Every Year",
           "description": "When chiefs rotate out, scheduling knowledge walks out with them. The next chief starts from scratch with a blank spreadsheet and no institutional memory."
         }
       ],
-      "title": "GME Scheduling Is Broken",
+      "title": "GME Scheduling Eats the Year",
       "description": "Residency programs lose hundreds of hours each year to scheduling work that pulls chiefs away from patient care."
     },
     "solution": {
       "title": "A Done For You GME Scheduling Service",
       "description": "Scheduling Wizard is a managed service, not software. Submit your program's rules and receive finished, ACGME-compliant Block, Clinic, Call, and Attending schedules delivered as ready-to-use Excel files. No software to learn. No institutional knowledge lost when chiefs rotate."
     },
-    "metaTitle": "GME Scheduling Software | Eliminate Admin Burden",
-    "metaDescription": "GME scheduling software shouldn't be your burden. Scheduling Wizard is a managed service that takes your rules and delivers complete."
+    "metaTitle": "GME Scheduling Software | Managed for You",
+    "metaDescription": "GME scheduling software should not be your burden. Scheduling Wizard takes your program's rules and delivers complete block, call, clinic and attending schedules, built to the ACGME requirements."
   },
   "searchIntent": {
     "keyword": "GME scheduling software",
@@ -151,9 +151,9 @@
   },
   "seoMetadata": {
     "h1": "GME Scheduling Software, Managed for You",
-    "metaTitle": "GME Scheduling Software | Eliminate Admin Burden",
-    "h1Paragraph": "Ditch the complex software. Scheduling Wizard is a managed service. Send your rules, and we deliver a complete, ACGME-compliant schedule. Reclaim your time.",
-    "metaDescription": "GME scheduling software shouldn't be your burden. Scheduling Wizard is a managed service that takes your rules and delivers complete."
+    "metaTitle": "GME Scheduling Software | Managed for You",
+    "h1Paragraph": "Send us your program's rules and we build the complete schedule, block, call, clinic and attending, and send it back finished.",
+    "metaDescription": "GME scheduling software should not be your burden. Scheduling Wizard takes your program's rules and delivers complete block, call, clinic and attending schedules, built to the ACGME requirements."
   },
   "finalMetadata": {
     "slug": "gme-scheduling-software",

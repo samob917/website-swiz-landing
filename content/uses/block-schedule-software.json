@@ -3,7 +3,7 @@
   "slug": "block-schedule-software",
   "anchor": "Residency Block Schedule Software",
   "title": "Residency Block Schedule Software | Custom & Compliant",
-  "description": "Residency block schedule software managed for you. We take your program's unique rules and deliver complete, ACGME-compliant block schedules without.",
+  "description": "Residency block schedule software, managed for you. We take your program's own rules and deliver complete block schedules built to the ACGME requirements, with nothing for your chiefs to run.",
   "h1": "Residency Block Schedule Software, Managed For You",
   "paragraph": "Stop wrestling with scheduling software. As a managed service, Scheduling Wizard handles your custom rules to deliver fair, ACGME-compliant schedules.",
   "category": "role",
@@ -50,7 +50,7 @@
           "title": "Year-Long Block Schedules Generated",
           "eyebrow": "Block Scheduling",
           "highlights": [
-            "PGY-level requirements enforced",
+            "PGY-level requirements applied",
             "Elective preferences factored in",
             "Coverage minimums built in"
           ],
@@ -58,10 +58,10 @@
         },
         {
           "id": "acgme-compliance",
-          "title": "Compliance Enforced at Generation Time",
+          "title": "Rules Applied as We Build",
           "eyebrow": "ACGME Compliance",
           "highlights": [
-            "80-hour weekly limits enforced",
+            "80-hour weekly limit applied",
             "Subspecialty rules built in",
             "No post-hoc manual checking"
           ],
@@ -73,7 +73,7 @@
           "eyebrow": "Program Continuity",
           "highlights": [
             "Rules persist year over year",
-            "New chiefs onboard instantly",
+            "New chiefs start with a working schedule",
             "No lost institutional knowledge"
           ],
           "description": "Your program's scheduling rules, requests, and configurations stay with Scheduling Wizard year over year. Incoming chief residents inherit a working, optimized block schedule system instead of starting from a blank spreadsheet."
@@ -98,7 +98,7 @@
             "Moonlighting restrictions included",
             "Conference and leave accommodated"
           ],
-          "description": "Program-specific rules (site requirements, moonlighting restrictions, parental leave, conference attendance, and complex multi-site block arrangements) are modeled via a proprietary scheduling language so no rule is left unaddressed."
+          "description": "Program-specific rules (site requirements, moonlighting restrictions, parental leave, conference attendance, and complex multi-site block arrangements) are written down with you during onboarding, so the schedule is built to them."
         },
         {
           "id": "redrafts-included",
@@ -113,7 +113,7 @@
         }
       ],
       "title": "Built for Residency Block Scheduling",
-      "description": "Every feature is designed to eliminate the manual burden of block schedule creation while enforcing ACGME rules when the schedule is built and fairness."
+      "description": "Every feature removes the manual work of block schedule creation, with the ACGME rules and fairness built in as the schedule is built."
     },
     "problems": {
       "items": [
@@ -138,7 +138,7 @@
       "description": "Submit your program's rules (rotation requirements, PGY-level rules, resident preferences, and subspecialty-specific ACGME standards) and receive finished, compliant block schedules as ready-to-use Excel files. No software to learn, and no institutional knowledge lost when chiefs rotate."
     },
     "metaTitle": "Residency Block Schedule Software | Custom & Compliant",
-    "metaDescription": "Residency block schedule software managed for you. We take your program's unique rules and deliver complete, ACGME-compliant block schedules without."
+    "metaDescription": "Residency block schedule software, managed for you. We take your program's own rules and deliver complete block schedules built to the ACGME requirements, with nothing for your chiefs to run."
   },
   "searchIntent": {
     "keyword": "residency block schedule software",
@@ -153,7 +153,7 @@
     "h1": "Residency Block Schedule Software, Managed For You",
     "metaTitle": "Residency Block Schedule Software | Custom & Compliant",
     "h1Paragraph": "Stop wrestling with scheduling software. As a managed service, Scheduling Wizard handles your custom rules to deliver fair, ACGME-compliant schedules.",
-    "metaDescription": "Residency block schedule software managed for you. We take your program's unique rules and deliver complete, ACGME-compliant block schedules without."
+    "metaDescription": "Residency block schedule software, managed for you. We take your program's own rules and deliver complete block schedules built to the ACGME requirements, with nothing for your chiefs to run."
   },
   "finalMetadata": {
     "slug": "block-schedule-software",

@@ -61,7 +61,7 @@
           "title": "Compliance Built Into Every Schedule",
           "eyebrow": "The Rules That Apply",
           "highlights": [
-            "Violations prevented at generation",
+            "Rules applied as we build",
             "Subspecialty rules built in",
             "Home call and rest rules covered"
           ],
@@ -69,12 +69,12 @@
         },
         {
           "id": "call-scheduling",
-          "title": "Fair Call Distribution Every Time",
+          "title": "Fair Call Distribution",
           "eyebrow": "Call Scheduling",
           "highlights": [
             "Weekend call balanced automatically",
             "Holiday shifts distributed fairly",
-            "Post-call rules enforced"
+            "Post-call rest rules applied"
           ],
           "description": "On-call schedules are algorithmically optimized to distribute call, weekend, and holiday burden equitably across all residents while respecting duty hour limits, post-call rest rules, and individual rules."
         },
@@ -85,7 +85,7 @@
           "highlights": [
             "PGY-level requirements respected",
             "Elective preferences incorporated",
-            "Coverage minimums enforced"
+            "Coverage minimums held"
           ],
           "description": "Generate complete year-long block schedules that respect PGY-level requirements, elective preferences, coverage minimums, and ACGME rotation mandates, across multi-track programs with dozens of rotation sites."
         },
@@ -96,7 +96,7 @@
           "highlights": [
             "Rules persist across chief rotations",
             "No annual knowledge reset",
-            "New chiefs onboard instantly"
+            "New chiefs start with a working schedule"
           ],
           "description": "Your program's scheduling rules, requests, and configurations persist with Scheduling Wizard year over year. Incoming chiefs inherit a working, optimized system instead of a blank spreadsheet and institutional memory gaps."
         },
@@ -119,10 +119,10 @@
       "items": [
         {
           "title": "Software Nobody Has Time to Learn",
-          "description": "Chief residents rotate annually. Every new chief restarts from scratch, spending months learning scheduling software instead of leading their program."
+          "description": "Chief residents rotate annually. Every new chief restarts from scratch, spending weeks learning scheduling software instead of leading their program."
         },
         {
-          "title": "Compliance Violations Risk Accreditation",
+          "title": "Checking the Rules by Hand Is Slow",
           "description": "Checking the rules by hand after the schedule is built finds problems too late to fix cleanly. They belong in the build."
         },
         {
@@ -130,7 +130,7 @@
           "description": "When call, weekend, and holiday burden is distributed manually, inequities surface fast and erode resident trust and morale program-wide."
         }
       ],
-      "title": "Scheduling Is Breaking Your Program",
+      "title": "Scheduling Is Costing Your Program",
       "description": "Doctor scheduling software adds complexity instead of removing it. Here is what that costs your team."
     },
     "solution": {

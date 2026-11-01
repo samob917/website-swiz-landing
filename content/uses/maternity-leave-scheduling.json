@@ -2,10 +2,10 @@
   "keyword": "maternity leave residency scheduling",
   "slug": "maternity-leave-scheduling",
   "anchor": "Maternity Leave Residency Scheduling",
-  "title": "Maternity Leave Residency Scheduling | Optimized Shifts | SW",
-  "description": "Maternity leave residency scheduling is complex. Our managed service creates optimized, ACGME-compliant schedules for you, ensuring fair coverage without.",
+  "title": "Maternity Leave Residency Scheduling | Rebuilt For You",
+  "description": "Maternity leave residency scheduling, handled. Our managed service rebuilds the schedule around a resident's leave, with coverage and fairness held, and nothing for your chief to redo.",
   "h1": "Maternity Leave Residency Scheduling Without the Headache",
-  "paragraph": "Stop manually rebuilding schedules for maternity leave. Submit your rules and Scheduling Wizard delivers a fully optimized, ACGME-compliant schedule.",
+  "paragraph": "Stop manually rebuilding schedules for maternity leave. Send us the leave details and your rules; we rebuild the schedule around it and send it back finished.",
   "category": "role",
   "data": {
     "cta": {
@@ -19,7 +19,7 @@
         "question": "How does Scheduling Wizard handle maternity leave in a residency program?"
       },
       {
-        "answer": "Yes. Our team enforces ACGME duty hour rules mathematically at the point of schedule generation, not as a manual check afterward. Even when coverage is thinner due to leave, our team will not produce a schedule that violates 80-hour weekly limits, required rest intervals, or subspecialty-specific rules. If a compliant schedule is not achievable under the submitted rules, that conflict is surfaced before delivery.",
+        "answer": "Yes. We apply the duty hour rules as we rebuild rather than checking afterwards. Even with coverage thinner, the 80-hour average, the rest requirements and your subspecialty's rules are part of the rebuild, and if anything needs to change once the program reviews it, we redraft.",
         "question": "Will ACGME compliance be maintained when a resident is on maternity leave?"
       },
       {
@@ -61,11 +61,11 @@
           "title": "Requirements Held Through Leave Periods",
           "eyebrow": "ACGME Compliance",
           "highlights": [
-            "80-hour limits enforced automatically",
+            "80-hour limit applied",
             "Subspecialty-specific rules built in",
-            "Violations prevented at generation time"
+            "Rules applied as we rebuild"
           ],
-          "description": "Duty hour rules do not pause when coverage is thin. Our team enforces 80-hour weekly limits, rest intervals, and subspecialty-specific ACGME requirements mathematically at generation time, even after leave-driven redistribution."
+          "description": "Duty hour rules do not pause when coverage is thin. We apply the 80-hour weekly limit, rest requirements and the subspecialty-specific ACGME requirements as we rebuild, even after leave-driven redistribution."
         },
         {
           "id": "coverage-optimization",
@@ -85,7 +85,7 @@
           "highlights": [
             "Call burden balanced across residents",
             "Holidays redistributed fairly",
-            "Fairness disputes eliminated"
+            "Fewer fairness disputes"
           ],
           "description": "When a resident is on maternity leave, the remaining call, weekend, and holiday burden is redistributed algorithmically so no single resident absorbs a disproportionate share."
         },
@@ -123,11 +123,11 @@
         },
         {
           "title": "Coverage Gaps Appear Overnight",
-          "description": "Pulling one resident for leave creates uncovered shifts, overloaded teammates, and compliance risks that compound across the schedule."
+          "description": "Pulling one resident for leave creates uncovered shifts, overloaded teammates and duty hour problems that compound across the schedule."
         },
         {
-          "title": "ACGME Compliance Becomes Uncertain",
-          "description": "Manually patching a schedule for parental leave makes it easy to accidentally violate duty hour limits, rest requirements, or subspecialty-specific ACGME rules."
+          "title": "Duty Hours Get Patched by Hand",
+          "description": "Patching a schedule for parental leave by hand makes it easy to miss a duty hour limit, a rest requirement or a subspecialty-specific rule."
         }
       ],
       "title": "Maternity Leave Breaks Manual Scheduling",
@@ -137,8 +137,8 @@
       "title": "A Done-For-You Schedule That Absorbs Leave",
       "description": "Submit your program's rules, including the maternity leave details, and our team rebuilds your ACGME-compliant block, call, and clinic schedules automatically. You receive finished Excel files, ready to publish. No software to learn, no manual reshuffling."
     },
-    "metaTitle": "Maternity Leave Residency Scheduling | Optimized Shifts | SW",
-    "metaDescription": "Maternity leave residency scheduling is complex. Our managed service creates optimized, ACGME-compliant schedules for you, ensuring fair coverage without."
+    "metaTitle": "Maternity Leave Residency Scheduling | Rebuilt For You",
+    "metaDescription": "Maternity leave residency scheduling, handled. Our managed service rebuilds the schedule around a resident's leave, with coverage and fairness held, and nothing for your chief to redo."
   },
   "searchIntent": {
     "keyword": "maternity leave residency scheduling",
@@ -151,9 +151,9 @@
   },
   "seoMetadata": {
     "h1": "Maternity Leave Residency Scheduling Without the Headache",
-    "metaTitle": "Maternity Leave Residency Scheduling | Optimized Shifts | SW",
-    "h1Paragraph": "Stop manually rebuilding schedules for maternity leave. Submit your rules and Scheduling Wizard delivers a fully optimized, ACGME-compliant schedule.",
-    "metaDescription": "Maternity leave residency scheduling is complex. Our managed service creates optimized, ACGME-compliant schedules for you, ensuring fair coverage without."
+    "metaTitle": "Maternity Leave Residency Scheduling | Rebuilt For You",
+    "h1Paragraph": "Stop manually rebuilding schedules for maternity leave. Send us the leave details and your rules; we rebuild the schedule around it and send it back finished.",
+    "metaDescription": "Maternity leave residency scheduling, handled. Our managed service rebuilds the schedule around a resident's leave, with coverage and fairness held, and nothing for your chief to redo."
   },
   "finalMetadata": {
     "slug": "maternity-leave-scheduling",

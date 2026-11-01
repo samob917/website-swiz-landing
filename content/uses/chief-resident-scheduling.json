@@ -4,7 +4,7 @@
   "anchor": "Chief Resident Scheduling",
   "title": "Chief Resident Scheduling | Done-For-You Service",
   "description": "Chief resident scheduling can be overwhelming. Scheduling Wizard is a managed service that builds your ACGME-compliant schedules for you.",
-  "h1": "Effortless Chief Resident Scheduling",
+  "h1": "Chief Resident Scheduling, Done For You",
   "paragraph": "Stop wrestling with software. With Scheduling Wizard, you submit your rules and our experts deliver a complete, ACGME-compliant schedule in Excel.",
   "category": "role",
   "data": {
@@ -40,7 +40,7 @@
       }
     ],
     "hero": {
-      "title": "Chief Resident Scheduling Done For You",
+      "title": "Chief Resident Scheduling, Done For You",
       "description": "Submit your rules and receive finished, ACGME-compliant block, call, and clinic schedules as Excel files. No software to learn."
     },
     "features": {
@@ -61,9 +61,9 @@
           "title": "Compliance Built Into Every Schedule",
           "eyebrow": "ACGME Compliance",
           "highlights": [
-            "80-hour limits enforced automatically",
+            "80-hour limit applied",
             "Subspecialty-specific rules built in",
-            "Violations prevented at generation"
+            "Rules applied as we build"
           ],
           "description": "ACGME duty hour rules are built into the schedule as it is created, including 80-hour weekly limits, rest requirements, and subspecialty-specific regulations. The rules are applied before the schedule reaches your program, not discovered after."
         },
@@ -85,9 +85,9 @@
           "highlights": [
             "Weekend call balanced automatically",
             "Holiday shifts distributed fairly",
-            "Post-call rules enforced"
+            "Post-call rest rules applied"
           ],
-          "description": "Call schedules are algorithmically optimized to distribute on-call burden equitably across all residents, respecting duty hour limits, post-call rules, and individual rules. No more manual fairness disputes."
+          "description": "Call schedules are algorithmically optimized to distribute on-call burden equitably across all residents, respecting duty hour limits, post-call rules, and individual rules. Fewer fairness disputes."
         },
         {
           "id": "resident-preferences",
@@ -122,8 +122,8 @@
           "description": "Chief residents spend significant time building and rebuilding schedules in spreadsheets instead of focusing on clinical training and patient care."
         },
         {
-          "title": "Compliance Violations Risk Accreditation",
-          "description": "Manually checking ACGME duty hour rules across every resident, every week, leaves room for violations that shows up at your next review."
+          "title": "Checking Every Resident's Hours by Hand",
+          "description": "Checking the ACGME duty hour rules across every resident, every week, by hand is slow, and the misses surface later."
         },
         {
           "title": "Knowledge Lost Every Rotation",

@@ -35,7 +35,7 @@
         "question": "What happens to our scheduling setup when a new chief resident takes over?"
       },
       {
-        "answer": "Scheduling Wizard is designed for medical residency and fellowship programs, including chief residents, program directors, program coordinators, and GME offices. It is currently serving 30+ departments across 20+ hospitals and practices. The service is also expanding to serve private practice administrators and managing partners who need complex physician scheduling without the overhead of self-service software.",
+        "answer": "Physician and advanced practice provider schedules, for residency and fellowship programs, provider groups and private practices. On the GME side that means chief residents, program directors, coordinators and GME offices; on the group side, practice administrators and managing partners. We currently serve 30+ departments across 20+ hospitals and practices.",
         "question": "Who is Scheduling Wizard designed for?"
       }
     ],
@@ -61,9 +61,9 @@
           "title": "Requirements Built In From the Start",
           "eyebrow": "The Rules That Apply",
           "highlights": [
-            "80-hour limits enforced automatically",
+            "80-hour limit applied",
             "Subspecialty-specific rules built in",
-            "Violations prevented not detected"
+            "Checked while building, not after"
           ],
           "description": "We build each schedule to the rules that govern it. For a residency or fellowship that means the ACGME duty hour requirements and the specialty-specific Program Requirements. For a provider group or practice it means yours: coverage minimums, call equity, contractual obligations, time off and requests, and multiple sites where a group has them."
         },
@@ -74,7 +74,7 @@
           "highlights": [
             "Rules carry over annually",
             "No knowledge lost at transition",
-            "New chiefs onboard instantly"
+            "New chiefs start with a working schedule"
           ],
           "description": "Your program's scheduling rules, requests, and configurations persist with Scheduling Wizard year over year. Incoming chiefs inherit a working, optimized system instead of rebuilding from a blank spreadsheet."
         },
@@ -87,7 +87,7 @@
             "Weekend call distributed equitably",
             "Algorithmic fairness across cohort"
           ],
-          "description": "Call burden, weekend shifts, and holiday assignments are algorithmically distributed across your resident cohort. Fair outcomes are calculated, not negotiated, eliminating disputes before they start."
+          "description": "Call burden, weekend shifts and holiday assignments are distributed algorithmically across the group. Fair outcomes are calculated, not negotiated, which leaves less to dispute."
         },
         {
           "id": "cross-schedule-resolution",
@@ -119,10 +119,10 @@
       "items": [
         {
           "title": "Software You Never Master",
-          "description": "Most healthcare staff scheduling software requires months of learning. When chiefs rotate, that hard-won knowledge walks out the door with them."
+          "description": "Most healthcare staff scheduling software takes weeks to learn. When chiefs rotate, that hard-won knowledge walks out the door with them."
         },
         {
-          "title": "Compliance Left to Chance",
+          "title": "Checking the Rules by Hand Is Slow",
           "description": "Checking duty hours by hand after a schedule is built finds the problems too late to fix cleanly."
         },
         {
@@ -130,7 +130,7 @@
           "description": "When call and weekend distribution relies on spreadsheets and gut feel, residents notice inequity and chiefs spend hours resolving complaints."
         }
       ],
-      "title": "Scheduling Is Breaking Your Program",
+      "title": "Scheduling Is Costing Your Program",
       "description": "Healthcare staff scheduling software puts the burden on you. It shouldn't."
     },
     "solution": {

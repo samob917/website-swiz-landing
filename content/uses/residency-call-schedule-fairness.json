@@ -3,9 +3,9 @@
   "slug": "residency-call-schedule-fairness",
   "anchor": "Residency Call Schedule Fairness",
   "title": "Fair Residency Call Schedules | Expert-Built Rosters",
-  "description": "Residency call schedule fairness is complex. Our managed service uses powerful optimization to build your ACGME-compliant schedule, balancing every rule.",
+  "description": "Residency call schedule fairness is hard to get right by hand. Our managed service builds your call schedule with call equity worked out and the ACGME rules applied.",
   "h1": "Fair Residency Call Schedules, Without the Software Headaches",
-  "paragraph": "Stop fighting complex software. Scheduling Wizard’s experts build your fair call schedule, balancing every rule and enforcing ACGME rules when the schedule is built.",
+  "paragraph": "Stop fighting complex software. Scheduling Wizard's team builds your fair call schedule, balancing every rule, with the ACGME rules applied as it is built.",
   "category": "role",
   "data": {
     "cta": {
@@ -19,7 +19,7 @@
         "question": "How does Scheduling Wizard ensure residency call schedule fairness?"
       },
       {
-        "answer": "ACGME duty hour standards include an 80-hour weekly limit averaged over four weeks, a minimum 10-hour rest period between shifts, and a 24-hour hard cap on continuous duty with an optional 4-hour transition extension. We hold to these rules mathematically at schedule generation time, and has subspecialty-specific rules built in so your program's unique requirements are automatically satisfied.",
+        "answer": "ACGME duty hour standards include an 80-hour weekly limit averaged over four weeks, eight hours off between duty periods, and a 24-hour hard cap on continuous duty with an optional 4-hour transition extension. We hold to these rules mathematically at schedule generation time, and has subspecialty-specific rules built in so your program's unique requirements are automatically satisfied.",
         "question": "What ACGME duty hour rules apply to residency call schedules?"
       },
       {
@@ -54,14 +54,14 @@
             "Holiday shifts distributed fairly",
             "Objective, auditable call counts"
           ],
-          "description": "Our team algorithmically balances call, weekend, and holiday burden across all residents. Every final schedule reflects provably equitable distribution, eliminating the disputes that plague manually built rosters."
+          "description": "Our team balances call, weekend and holiday burden across all residents. The counts are there for anyone to check, which leaves far less to dispute."
         },
         {
           "id": "call-scheduling",
           "title": "Fair ACGME-Compliant Call Schedules",
           "eyebrow": "Call Scheduling",
           "highlights": [
-            "Post-call rules enforced",
+            "Post-call rest rules applied",
             "Individual rules respected",
             "Duty hours checked at generation"
           ],
@@ -69,14 +69,14 @@
         },
         {
           "id": "acgme-compliance",
-          "title": "Compliance Enforced at Generation Time",
+          "title": "Rules Applied as We Build",
           "eyebrow": "ACGME Compliance",
           "highlights": [
-            "80-hour weekly limits enforced",
+            "80-hour weekly limit applied",
             "Subspecialty-specific rules built in",
-            "Violations prevented, not detected"
+            "Checked while building, not after"
           ],
-          "description": "ACGME duty hour regulations are built into the schedule as it is built, not manually reviewed afterward. Subspecialty-specific rules are embedded in our team so your call schedule meets your program's exact requirements."
+          "description": "The ACGME duty hour regulations are built into the schedule as it is built, not reviewed afterwards. The subspecialty-specific rules are written down with you, so the call schedule is built to your program's requirements."
         },
         {
           "id": "resident-preferences",
@@ -122,7 +122,7 @@
           "description": "Residents track their own call counts and challenge the schedule. Manual distribution makes it nearly impossible to prove equitable treatment objectively."
         },
         {
-          "title": "Compliance Violations Risk Accreditation",
+          "title": "Checking the Rules by Hand Is Slow",
           "description": "Balancing fair call distribution against ACGME duty hour limits by hand means one overlooked rule is easy to miss."
         },
         {
@@ -131,14 +131,14 @@
         }
       ],
       "title": "Fair Call Schedules Are Hard to Build",
-      "description": "Manual scheduling leaves chief residents unable to prove fairness or enforces the rules when the schedule is built."
+      "description": "Manual scheduling leaves chief residents unable to show the distribution was fair, with the rules to check by hand on top of it."
     },
     "solution": {
       "title": "Algorithmic Fairness Built Into Every Schedule",
       "description": "Submit your program's rules, call fairness targets, resident preferences, and ACGME rules to Scheduling Wizard. Our schedulers produce finished, compliant call schedules delivered as ready-to-use Excel files. No software to learn, no fairness arguments to referee."
     },
     "metaTitle": "Fair Residency Call Schedules | Expert-Built Rosters",
-    "metaDescription": "Residency call schedule fairness is complex. Our managed service uses powerful optimization to build your ACGME-compliant schedule, balancing every rule."
+    "metaDescription": "Residency call schedule fairness is hard to get right by hand. Our managed service builds your call schedule with call equity worked out and the ACGME rules applied."
   },
   "searchIntent": {
     "keyword": "residency call schedule fairness",
@@ -152,8 +152,8 @@
   "seoMetadata": {
     "h1": "Fair Residency Call Schedules, Without the Software Headaches",
     "metaTitle": "Fair Residency Call Schedules | Expert-Built Rosters",
-    "h1Paragraph": "Stop fighting complex software. Scheduling Wizard’s experts build your fair call schedule, balancing every rule and enforcing ACGME rules when the schedule is built.",
-    "metaDescription": "Residency call schedule fairness is complex. Our managed service uses powerful optimization to build your ACGME-compliant schedule, balancing every rule."
+    "h1Paragraph": "Stop fighting complex software. Scheduling Wizard's team builds your fair call schedule, balancing every rule, with the ACGME rules applied as it is built.",
+    "metaDescription": "Residency call schedule fairness is hard to get right by hand. Our managed service builds your call schedule with call equity worked out and the ACGME rules applied."
   },
   "finalMetadata": {
     "slug": "schedule-fairness",
