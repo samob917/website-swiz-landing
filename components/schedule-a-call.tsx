@@ -20,10 +20,7 @@ export function ScheduleACall() {
         </h2>
 
         <p className="mx-auto mt-3 max-w-lg text-[15px] leading-relaxed text-gray-600">
-          Tell us how your program works and we will build the schedule around
-          it, from a four-resident program to a 300-provider group. Most keep
-          publishing where they already do; we can also build you a custom live
-          view of your schedules if you want one.
+          Tell us about how your schedules work and we will build them for you.
         </p>
 
         <div className="mt-7">
