@@ -10,8 +10,8 @@
   "data": {
     "cta": {
       "title": "Get Your Attending Schedules Done Right",
-      "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 30+ departments across 20+ hospitals and practices that have Scheduling Wizard build their call, block, clinic and shift schedules. Finished schedules in your format, with redrafts through the year included."
+      "buttonText": "Book a call",
+      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join 30+ departments across 20+ hospitals and practices that have us build their call, block, clinic and shift schedules."
     },
     "faq": [
       {
@@ -46,6 +46,17 @@
     "features": {
       "items": [
         {
+          "id": "coverage-optimization",
+          "title": "Compliance Built Into Every Schedule",
+          "eyebrow": "Your Rules and Requests",
+          "highlights": [
+            "Coverage minimums held",
+            "Call equity across the group",
+            "Supervision requirements where you train"
+          ],
+          "description": "An attending schedule is governed by coverage minimums, call equity, contractual obligations, time off and requests, and multiple sites where a group has them. Where the department also trains residents or fellows, it has to provide the supervision coverage the ACGME Program Requirements call for, and we build that in too."
+        },
+        {
           "id": "attending-scheduling",
           "title": "Attending Coverage Built Around the Residents' Schedule",
           "eyebrow": "Attending Scheduling",
@@ -55,17 +66,6 @@
             "Program-specific rules applied"
           ],
           "description": "We build attending and faculty schedules alongside the resident schedules, so coverage lines up with resident assignments, site requirements and program-specific rules without manual coordination."
-        },
-        {
-          "id": "coverage-optimization",
-          "title": "Compliance Built Into Every Schedule",
-          "eyebrow": "The Rules That Apply",
-          "highlights": [
-            "Coverage minimums held",
-            "Call equity across the group",
-            "Supervision requirements where you train"
-          ],
-          "description": "An attending schedule is governed by coverage minimums, call equity, contractual obligations, time off and requests, and multiple sites where a group has them. Where the department also trains residents or fellows, it has to provide the supervision coverage the ACGME Program Requirements call for, and we build that in too."
         },
         {
           "id": "managed-service",

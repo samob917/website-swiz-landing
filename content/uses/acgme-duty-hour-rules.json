@@ -10,8 +10,8 @@
   "data": {
     "cta": {
       "title": "Stop Carrying the Rules in Your Head",
-      "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 30+ departments across 20+ hospitals and practices that have Scheduling Wizard build their call, block, clinic and shift schedules. Finished schedules in your format, with redrafts through the year included."
+      "buttonText": "Book a call",
+      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join 30+ departments across 20+ hospitals and practices that have us build their call, block, clinic and shift schedules."
     },
     "faq": [
       {
@@ -41,14 +41,25 @@
     ],
     "hero": {
       "title": "ACGME Duty Hour Rules, Built Into the Schedule",
-      "description": "Scheduling Wizard builds your residency schedules with the ACGME duty hour rules applied as the schedule is created. No software to learn."
+      "description": "Residency schedules, built to your rules and requests, however granular, with the ACGME requirements as part of them. Send us the rules; we send back the finished schedule."
     },
     "features": {
       "items": [
         {
+          "id": "constraint-modeling",
+          "eyebrow": "Your Rules and Requests",
+          "title": "Built to Your Rules, However Granular",
+          "description": "We build to your rules and requests, however complex or granular: the written ones, including the ACGME requirements where they apply, and the local ones nobody has written down. The attending who does not take Friday call. The two residents who cannot share a rotation. The clinic that needs Thursdays protected. If you can describe it, it goes in.",
+          "highlights": [
+            "The written rules and the local ones",
+            "ACGME requirements where they apply",
+            "If you can describe it, it goes in"
+          ]
+        },
+        {
           "id": "acgme-compliance",
           "title": "Duty Hour Rules Applied as We Build",
-          "eyebrow": "ACGME Compliance",
+          "eyebrow": "ACGME Requirements",
           "highlights": [
             "80-hour weekly limit applied",
             "Subspecialty-specific rules built in",

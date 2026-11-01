@@ -10,8 +10,8 @@
   "data": {
     "cta": {
       "title": "Get Your ACGME Compliant Schedule Done Right",
-      "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 30+ departments across 20+ hospitals and practices that have Scheduling Wizard build their call, block, clinic and shift schedules. Finished schedules in your format, with redrafts through the year included."
+      "buttonText": "Book a call",
+      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join 30+ departments across 20+ hospitals and practices that have us build their call, block, clinic and shift schedules."
     },
     "faq": [
       {
@@ -41,14 +41,25 @@
     ],
     "hero": {
       "title": "ACGME Compliant Scheduling Software Built for Subspecialties",
-      "description": "Scheduling Wizard delivers ACGME compliant scheduling for residency and fellowship programs as a managed service. Submit your rules and receive finished, optimized schedules as Excel files."
+      "description": "Residency and fellowship schedules, built to your rules and requests, however granular, with the ACGME requirements as part of them. Send us the rules; we send back the finished schedule."
     },
     "features": {
       "items": [
         {
+          "id": "rule-modeling",
+          "eyebrow": "Your Rules and Requests",
+          "title": "Built to Your Rules, However Granular",
+          "description": "We build to your rules and requests, however complex or granular: the written ones, including the ACGME requirements where they apply, and the local ones nobody has written down. The attending who does not take Friday call. The two residents who cannot share a rotation. The clinic that needs Thursdays protected. If you can describe it, it goes in.",
+          "highlights": [
+            "The written rules and the local ones",
+            "ACGME requirements where they apply",
+            "If you can describe it, it goes in"
+          ]
+        },
+        {
           "id": "acgme-compliance",
           "title": "Subspecialty ACGME Rules Built In",
-          "eyebrow": "ACGME Compliance",
+          "eyebrow": "ACGME Requirements",
           "highlights": [
             "Subspecialty rules built in",
             "Rules applied as we build",
@@ -88,17 +99,6 @@
             "ACGME rotation requirements met"
           ],
           "description": "Year-long rotation block schedules are generated to satisfy PGY-level ACGME rotation mandates, elective preferences, and coverage minimums for your specific subspecialty program."
-        },
-        {
-          "id": "rule-modeling",
-          "title": "Your Subspecialty Rules Modeled Exactly",
-          "eyebrow": "Custom Rules",
-          "highlights": [
-            "Program-specific rules captured",
-            "Multi-site arrangements handled",
-            "The local rules too, not just the written ones"
-          ],
-          "description": "Complex, program-specific rules, including site requirements, moonlighting restrictions, conference attendance and multi-site arrangements, are written down with you during onboarding so the schedule is built to them."
         },
         {
           "id": "redrafts-included",

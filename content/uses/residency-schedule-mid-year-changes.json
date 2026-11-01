@@ -10,8 +10,8 @@
   "data": {
     "cta": {
       "title": "Stop Rebuilding Schedules From Scratch",
-      "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 30+ departments across 20+ hospitals and practices that have Scheduling Wizard build their call, block, clinic and shift schedules. Finished schedules in your format, with redrafts through the year included."
+      "buttonText": "Book a call",
+      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join 30+ departments across 20+ hospitals and practices that have us build their call, block, clinic and shift schedules."
     },
     "faq": [
       {
@@ -41,10 +41,21 @@
     ],
     "hero": {
       "title": "Residency Schedule Mid Year Changes, Rebuilt For You",
-      "description": "Submit new rules and receive a rapidly re-optimized, ACGME-compliant schedule as a ready-to-use Excel file. No software to learn."
+      "description": "Schedules rebuilt around a mid-year change, built to your rules and requests, however granular, with the ACGME requirements as part of them. Send us the rules; we send back the finished schedule."
     },
     "features": {
       "items": [
+        {
+          "id": "constraint-modeling",
+          "eyebrow": "Your Rules and Requests",
+          "title": "Built to Your Rules, However Granular",
+          "description": "We build to your rules and requests, however complex or granular: the written ones, including the ACGME requirements where they apply, and the local ones nobody has written down. The attending who does not take Friday call. The two residents who cannot share a rotation. The clinic that needs Thursdays protected. If you can describe it, it goes in.",
+          "highlights": [
+            "The written rules and the local ones",
+            "ACGME requirements where they apply",
+            "If you can describe it, it goes in"
+          ]
+        },
         {
           "id": "absence-response",
           "title": "Rapid Re-Optimization for Unexpected Absences",
@@ -70,7 +81,7 @@
         {
           "id": "acgme-compliance",
           "title": "Compliance Maintained Through Every Change",
-          "eyebrow": "ACGME Compliance",
+          "eyebrow": "ACGME Requirements",
           "highlights": [
             "Rules applied as we build",
             "Subspecialty rules built in",

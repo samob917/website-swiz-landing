@@ -1,4 +1,7 @@
+"use client"
+
 import Link from "next/link"
+import { usePathname } from "next/navigation"
 import { Calendar } from "lucide-react"
 
 const CALENDLY_URL =
@@ -12,6 +15,11 @@ const CALENDLY_URL =
  * has read a 2,500-word post about duty hours does not need to be pushed.
  */
 export function ScheduleACall() {
+  // Each use-case page closes with its own call to action, so a second one
+  // directly beneath it was asking twice. Everywhere else this is the only one.
+  const pathname = usePathname()
+  if (pathname && /^\/uses\/[^/]+/.test(pathname)) return null
+
   return (
     <section className="border-t border-gray-100 bg-gray-50">
       <div className="mx-auto max-w-3xl px-4 py-12 text-center sm:px-6 sm:py-14 lg:px-8">
