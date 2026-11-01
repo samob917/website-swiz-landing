@@ -11,7 +11,7 @@
     "cta": {
       "title": "Ready to Solve Schedule Creation for Good?",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 18 departments across 13 hospitals who have outsourced schedule creation to Scheduling Wizard."
+      "description": "Join 30+ departments across 20+ hospitals and practices who have outsourced schedule creation to Scheduling Wizard."
     },
     "faq": [
       {
@@ -23,7 +23,7 @@
         "question": "Do I have to stop using Amion if I work with Scheduling Wizard?"
       },
       {
-        "answer": "ACGME duty hour rules are mathematically enforced at the moment the schedule is generated, not audited manually afterward. our team applies the 80-hour weekly limit, minimum 10-hour rest intervals, the 24-hour hard cap, and subspecialty-specific rules built into its the way we write down your rules. Violations are prevented before the schedule is ever produced rather than flagged as errors to fix later.",
+        "answer": "ACGME duty hour rules are built into the schedule as it is built, not audited manually afterward. Our team applies the 80-hour weekly limit, minimum 10-hour rest intervals, the 24-hour hard cap, and subspecialty-specific rules built into its the way we write down your rules. The rules are applied before the schedule reaches your program rather than flagged as errors to fix later.",
         "question": "How does Scheduling Wizard ensure ACGME compliance during schedule creation?"
       },
       {
@@ -65,7 +65,7 @@
             "Subspecialty-specific rules included",
             "Violations prevented before publishing"
           ],
-          "description": "ACGME duty hour rules including the 80-hour weekly limit, 10-hour rest requirements, and 24-hour hard caps are mathematically enforced when the schedule is generated, not manually audited after the fact. Subspecialty-specific rules are built in."
+          "description": "ACGME duty hour rules including the 80-hour weekly limit, 10-hour rest requirements, and 24-hour hard caps are built into the schedule as it is built, not manually audited after the fact. Subspecialty-specific rules are built in."
         },
         {
           "id": "institutional-continuity",

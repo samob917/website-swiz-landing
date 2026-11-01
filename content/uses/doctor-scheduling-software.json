@@ -3,15 +3,15 @@
   "slug": "doctor-scheduling-software",
   "anchor": "Doctor Scheduling Software",
   "title": "Doctor Scheduling Software | Managed Service",
-  "description": "Doctor scheduling software shouldn't add to your workload. Scheduling Wizard is a managed service that delivers optimized, ACGME-compliant schedules for.",
+  "description": "Doctor scheduling software shouldn't add to your workload. Scheduling Wizard is a managed service: send us your rules and we build the finished schedules.",
   "h1": "Doctor Scheduling Software for Overwhelmed Chiefs",
-  "paragraph": "Stop wrestling with complex software. As a managed service, Scheduling Wizard takes your rules and delivers optimized, ACGME-compliant schedules.",
+  "paragraph": "Stop wrestling with complex software. Send us your rules and requests; we build the schedule and send it back finished.",
   "category": "specialty",
   "data": {
     "cta": {
       "title": "Get Your Doctor Schedules Done Right",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 18 departments across 13 hospitals who already trust Scheduling Wizard with their scheduling."
+      "description": "Join 30+ departments across 20+ hospitals and practices who already trust Scheduling Wizard with their scheduling."
     },
     "faq": [
       {
@@ -19,8 +19,8 @@
         "question": "What is doctor scheduling software and how does Scheduling Wizard differ?"
       },
       {
-        "answer": "Our team mathematically enforces ACGME duty hour regulations at the time the schedule is generated, not after. This includes the 80-hour weekly limit, minimum rest requirements, and the 24-hour hard cap. Subspecialty-specific ACGME rules are built directly into our team, so compliance is guaranteed by design rather than checked manually.",
-        "question": "How does Scheduling Wizard ensure ACGME compliance for my specialty?"
+        "answer": "For a residency or fellowship we build the ACGME requirements in as the schedule is created: the 80-hour weekly limit, minimum rest, the 24-hour cap, and the specialty-specific Program Requirements. We work from the requirements your program tells us apply, and we redraft when something needs to change.",
+        "question": "How do you handle ACGME requirements for my specialty?"
       },
       {
         "answer": "Scheduling Wizard generates Block and rotation schedules, Call schedules with fairness optimization, Clinic schedules, and Attending schedules. All schedule types are optimized simultaneously so that changes in one automatically resolve dependencies in the others, eliminating the manual cross-schedule patching that burdens chief residents and coordinators.",
@@ -35,13 +35,13 @@
         "question": "What happens to our scheduling setup when a new chief resident takes over?"
       },
       {
-        "answer": "Scheduling Wizard serves chief residents, chief fellows, program directors, program coordinators, GME offices, and department chairs at medical residency and fellowship programs. It is currently active across 18 departments in 13 hospitals. The service is also expanding to serve private practice administrators and managing partners who need physician scheduling without the burden of operating complex software.",
+        "answer": "Scheduling Wizard serves chief residents, chief fellows, program directors, program coordinators, GME offices, and department chairs at medical residency and fellowship programs. It is currently active across 30+ departments across 20+ hospitals and practices. The service is also expanding to serve private practice administrators and managing partners who need physician scheduling without the burden of operating complex software.",
         "question": "Who is Scheduling Wizard built for?"
       }
     ],
     "hero": {
       "title": "Doctor Scheduling Software That Works for You",
-      "description": "Scheduling Wizard is a managed service that delivers optimized, ACGME-compliant doctor schedules as ready-to-use Excel files. No software to learn."
+      "description": "Scheduling Wizard is a managed service that builds your doctor schedules and delivers them as ready-to-use Excel files. No software to learn."
     },
     "features": {
       "items": [
@@ -59,13 +59,13 @@
         {
           "id": "acgme-compliance",
           "title": "Compliance Built Into Every Schedule",
-          "eyebrow": "ACGME Compliance",
+          "eyebrow": "The Rules That Apply",
           "highlights": [
             "Violations prevented at generation",
             "Subspecialty rules built in",
             "Home call and rest rules covered"
           ],
-          "description": "ACGME duty hour rules (including 80-hour weekly limits, mandatory rest requirements, and the 24-hour cap) are mathematically enforced at generation time. Subspecialty-specific rules are built into our team, not checked manually after the fact."
+          "description": "We build each schedule to the rules that govern it. For a residency or fellowship that means the ACGME requirements: the 80-hour weekly limit, mandatory rest, the 24-hour cap, and the specialty-specific Program Requirements. For a group or practice it means yours: coverage minimums, call equity, contractual obligations, time off and requests, and multiple sites where a group has them."
         },
         {
           "id": "call-scheduling",
@@ -112,7 +112,7 @@
         },
         {
           "title": "Compliance Violations Risk Accreditation",
-          "description": "Manual or self-service scheduling leaves ACGME duty hour compliance to guesswork, violations are caught after the fact, not prevented at the source."
+          "description": "Checking the rules by hand after the schedule is built finds problems too late to fix cleanly. They belong in the build."
         },
         {
           "title": "Fairness Disputes Burn Out Residents",
@@ -127,7 +127,7 @@
       "description": "Submit your program's rules (rotation requirements, ACGME rules, resident preferences, and call fairness targets) and receive finished, compliant schedules as ready-to-use Excel files. No software to learn. No annual retraining when chiefs rotate. Scheduling Wizard handles the complexity so your team does not have to."
     },
     "metaTitle": "Doctor Scheduling Software | Managed Service",
-    "metaDescription": "Doctor scheduling software shouldn't add to your workload. Scheduling Wizard is a managed service that delivers optimized, ACGME-compliant schedules for."
+    "metaDescription": "Doctor scheduling software shouldn't add to your workload. Scheduling Wizard is a managed service: send us your rules and we build the finished schedules."
   },
   "searchIntent": {
     "keyword": "doctor scheduling software",
@@ -141,8 +141,8 @@
   "seoMetadata": {
     "h1": "Doctor Scheduling Software for Overwhelmed Chiefs",
     "metaTitle": "Doctor Scheduling Software | Managed Service",
-    "h1Paragraph": "Stop wrestling with complex software. As a managed service, Scheduling Wizard takes your rules and delivers optimized, ACGME-compliant schedules.",
-    "metaDescription": "Doctor scheduling software shouldn't add to your workload. Scheduling Wizard is a managed service that delivers optimized, ACGME-compliant schedules for."
+    "h1Paragraph": "Stop wrestling with complex software. Send us your rules and requests; we build the schedule and send it back finished.",
+    "metaDescription": "Doctor scheduling software shouldn't add to your workload. Scheduling Wizard is a managed service: send us your rules and we build the finished schedules."
   },
   "finalMetadata": {
     "slug": "scheduling-software",

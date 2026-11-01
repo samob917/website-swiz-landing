@@ -11,15 +11,15 @@
     "cta": {
       "title": "Get Your IM Schedule Done Right",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join the departments across 13 hospitals that already trust Scheduling Wizard with their residency scheduling."
+      "description": "Join the 30+ departments across 20+ hospitals and practices that already trust Scheduling Wizard with their residency scheduling."
     },
     "faq": [
       {
-        "answer": "Yes. ACGME compliance is mathematically enforced at schedule generation time, not manually checked after the fact. Our team has internal medicine and subspecialty-specific ACGME rules built in, including the 80-hour weekly limit, 10-hour minimum rest periods, and other duty hour requirements. Your schedule is compliant before it is ever delivered.",
+        "answer": "Yes. ACGME compliance is built into the schedule as it is created, not manually checked after the fact. Our team has internal medicine and subspecialty-specific ACGME rules built in, including the 80-hour weekly limit, 10-hour minimum rest periods, and other duty hour requirements. Your schedule is compliant before it is ever delivered.",
         "question": "Is Scheduling Wizard compliant with internal medicine ACGME duty hour rules?"
       },
       {
-        "answer": "Scheduling Wizard's clinic coordination feature is designed specifically for X+Y scheduling structures common in internal medicine programs. our team balances continuity clinic half-day assignments against block rotation and call obligations simultaneously, ensuring clinics are always staffed without creating conflicts elsewhere in the schedule.",
+        "answer": "Scheduling Wizard's clinic coordination feature is designed specifically for X+Y scheduling structures common in internal medicine programs. Our team balances continuity clinic half-day assignments against block rotation and call obligations simultaneously, ensuring clinics are always staffed without creating conflicts elsewhere in the schedule.",
         "question": "How does Scheduling Wizard handle internal medicine X+Y scheduling models?"
       },
       {
@@ -54,7 +54,7 @@
             "Violations prevented at generation",
             "Compliant across all PGY levels"
           ],
-          "description": "Internal medicine ACGME rules (including 80-hour weekly limits, 10-hour rest minimums, and subspecialty-specific requirements) are mathematically enforced at schedule generation time. Violations are prevented, not discovered after the fact."
+          "description": "Internal medicine ACGME rules (including 80-hour weekly limits, 10-hour rest minimums, and subspecialty-specific requirements) are built into the schedule as it is created. The rules are applied as we build, not discovered after the fact."
         },
         {
           "id": "clinic-scheduling",

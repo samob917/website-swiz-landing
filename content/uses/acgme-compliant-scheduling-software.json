@@ -11,11 +11,11 @@
     "cta": {
       "title": "Get Your ACGME Compliant Schedule Done Right",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 18 departments across 13 hospitals who trust Scheduling Wizard with their residency scheduling."
+      "description": "Join 30+ departments across 20+ hospitals and practices who trust Scheduling Wizard with their residency scheduling."
     },
     "faq": [
       {
-        "answer": "ACGME compliant scheduling software is a tool or service that generates residency and fellowship schedules while mathematically enforcing ACGME duty hour requirements, including the 80-hour weekly limit, minimum rest periods, and the 24-hour hard cap on continuous duty. Scheduling Wizard goes further by building subspecialty-specific ACGME rules into the schedule itself, so compliance is settled at the moment the schedule is built rather than checked manually after the fact.",
+        "answer": "ACGME compliant scheduling software is a tool or service that generates residency and fellowship schedules while building the ACGME duty hour requirements in, including the 80-hour weekly limit, minimum rest periods, and the 24-hour hard cap on continuous duty. Scheduling Wizard goes further by building subspecialty-specific ACGME rules into the schedule itself, so compliance is settled at the moment the schedule is built rather than checked manually after the fact.",
         "question": "What is ACGME compliant scheduling software?"
       },
       {
@@ -54,7 +54,7 @@
             "Violations prevented at generation",
             "80-hour limits enforced automatically"
           ],
-          "description": "ACGME duty hour requirements are mathematically enforced at schedule generation time, not manually reviewed afterward. Subspecialty-specific rules are built into the schedule itself, so violations are prevented before the schedule is ever published."
+          "description": "ACGME duty hour requirements are built into the schedule as it is created, not manually reviewed afterward. Subspecialty-specific rules are built into the schedule itself, so they are applied before the schedule reaches your program."
         },
         {
           "id": "managed-service",
@@ -112,7 +112,7 @@
         },
         {
           "title": "Compliance Violations Risk Accreditation",
-          "description": "A single overlooked duty hour violation can trigger an ACGME citation. Manual checks cannot catch every conflict across block, call, and clinic schedules simultaneously."
+          "description": "A single overlooked duty hour rule is easy to miss and awkward to unwind. Manual checks cannot catch every conflict across block, call, and clinic schedules simultaneously."
         },
         {
           "title": "Knowledge Lost With Every Chief",
@@ -120,10 +120,10 @@
         }
       ],
       "title": "Compliance Is Too Important to Risk",
-      "description": "Manual scheduling leaves programs exposed to ACGME violations that can threaten accreditation."
+      "description": "Manual scheduling leaves ACGME misses to be found later."
     },
     "solution": {
-      "title": "ACGME Compliance Mathematically Enforced at Generation",
+      "title": "ACGME Requirements Built In From the Start",
       "description": "Scheduling Wizard's managed service models your program's subspecialty-specific ACGME rules and rule set, then delivers finished, compliant Block, Call, Clinic, and Attending schedules as ready-to-use Excel files. No software to learn. No manual compliance checks. Scheduling knowledge persists year over year as chiefs rotate."
     },
     "metaTitle": "ACGME Compliant Scheduling Software | For Subspecialties",

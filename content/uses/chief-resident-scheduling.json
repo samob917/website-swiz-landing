@@ -11,7 +11,7 @@
     "cta": {
       "title": "Stop Rebuilding Your Schedule From Scratch",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join the 18 departments across 13 hospitals that already trust Scheduling Wizard with their residency scheduling."
+      "description": "Join the 30+ departments across 20+ hospitals and practices that already trust Scheduling Wizard with their residency scheduling."
     },
     "faq": [
       {
@@ -19,7 +19,7 @@
         "question": "What is chief resident scheduling and why is it so difficult?"
       },
       {
-        "answer": "Our team mathematically enforces ACGME duty hour rules at the moment the schedule is generated. This includes the 80-hour weekly limit, minimum rest requirements, the 24-hour hard cap, and subspecialty-specific rules relevant to your program. Compliance is built into the output, chiefs do not need to manually audit the schedule after the fact.",
+        "answer": "Our team builds in the ACGME duty hour rules at the moment the schedule is generated. This includes the 80-hour weekly limit, minimum rest requirements, the 24-hour hard cap, and subspecialty-specific rules relevant to your program. Compliance is built into the output, chiefs do not need to manually audit the schedule after the fact.",
         "question": "How does Scheduling Wizard handle ACGME duty hour compliance for chief residents?"
       },
       {
@@ -65,7 +65,7 @@
             "Subspecialty-specific rules built in",
             "Violations prevented at generation"
           ],
-          "description": "ACGME duty hour rules are mathematically enforced at generation time, including 80-hour weekly limits, rest requirements, and subspecialty-specific regulations. Violations are prevented before the schedule is published, not discovered after."
+          "description": "ACGME duty hour rules are built into the schedule as it is created, including 80-hour weekly limits, rest requirements, and subspecialty-specific regulations. The rules are applied before the schedule reaches your program, not discovered after."
         },
         {
           "id": "institutional-continuity",

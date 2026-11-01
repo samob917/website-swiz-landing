@@ -11,7 +11,7 @@
     "cta": {
       "title": "Get Your Holiday Call Schedule Right",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 18 departments across 13 hospitals who outsource their scheduling to Scheduling Wizard."
+      "description": "Join 30+ departments across 20+ hospitals and practices who outsource their scheduling to Scheduling Wizard."
     },
     "faq": [
       {
@@ -19,7 +19,7 @@
         "question": "How does Scheduling Wizard create a fair holiday call schedule for residency programs?"
       },
       {
-        "answer": "Yes. ACGME duty hour compliance is mathematically enforced at schedule generation time, not manually checked after the fact. Our team knows the subspecialty-specific ACGME rules, so the rules relevant to your program are built into the optimization. This includes the 80-hour weekly limit, 10-hour minimum rest periods, and the 24-hour hard cap, as well as any upcoming regulatory changes.",
+        "answer": "Yes. ACGME duty hour compliance is built into the schedule as it is created, not manually checked after the fact. Our team knows the subspecialty-specific ACGME rules, so the rules relevant to your program are built into the optimization. This includes the 80-hour weekly limit, 10-hour minimum rest periods, and the 24-hour hard cap, as well as any upcoming regulatory changes.",
         "question": "Is the holiday call schedule ACGME compliant for my residency subspecialty?"
       },
       {
@@ -27,7 +27,7 @@
         "question": "How long does it take to receive a finished holiday call schedule?"
       },
       {
-        "answer": "Scheduling Wizard delivers finished schedules as Excel spreadsheets. These files are ready to use immediately and can be uploaded directly to platform your program already uses, for day-to-day access by residents and attendings.",
+        "answer": "Scheduling Wizard delivers finished schedules as Excel or Google Sheets files, and can build a custom live viewing link for your program if you want one. The files are ready to use immediately and can be uploaded directly to platform your program already uses, for day-to-day access by residents and attendings.",
         "question": "What format is the holiday call schedule delivered in?"
       },
       {
@@ -65,11 +65,11 @@
             "Violations prevented at generation",
             "Subspecialty rules built in"
           ],
-          "description": "ACGME duty hour regulations are mathematically enforced at generation time during holiday periods, including the 80-hour weekly limit, 10-hour rest requirements, and 24-hour hard caps. Subspecialty-specific rules are built into our team."
+          "description": "ACGME duty hour regulations are built into the schedule as it is created during holiday periods, including the 80-hour weekly limit, 10-hour rest requirements, and 24-hour hard caps. Subspecialty-specific rules are built into the schedule itself."
         },
         {
           "id": "fairness-optimization",
-          "title": "Defensible Holiday Fairness Guaranteed",
+          "title": "Holiday Fairness You Can Defend",
           "eyebrow": "Fairness",
           "highlights": [
             "Holiday burden tracked across residents",

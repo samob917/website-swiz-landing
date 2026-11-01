@@ -11,11 +11,11 @@
     "cta": {
       "title": "Get Your EM Schedules Done Right",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 18 departments across 13 hospitals who already outsource their scheduling to Scheduling Wizard."
+      "description": "Join 30+ departments across 20+ hospitals and practices who already outsource their scheduling to Scheduling Wizard."
     },
     "faq": [
       {
-        "answer": "Yes. ACGME compliance for emergency medicine is mathematically enforced at the time the schedule is generated, not manually checked after the fact. Our team has subspecialty-specific EM rules built in, including duty hour limits and rest requirements. This is the most common question buyers ask on sales calls, and it is a core capability of the service, not an add-on.",
+        "answer": "Yes. ACGME compliance for emergency medicine is built into the schedule as it is built, not manually checked after the fact. Our team has subspecialty-specific EM rules built in, including duty hour limits and rest requirements. This is the most common question buyers ask on sales calls, and it is a core capability of the service, not an add-on.",
         "question": "Is Scheduling Wizard compliant with ACGME rules for emergency medicine?"
       },
       {
@@ -41,20 +41,20 @@
     ],
     "hero": {
       "title": "Emergency Medicine Scheduling Software Done For You",
-      "description": "Scheduling Wizard delivers ACGME-compliant EM call, block, and attending schedules as ready-to-use Excel files. No software to learn, no something that surfaces at review."
+      "description": "Scheduling Wizard delivers ACGME-compliant EM call, block, and attending schedules as ready-to-use Excel files. No software to learn, no misses that surface later."
     },
     "features": {
       "items": [
         {
           "id": "acgme-compliance",
-          "title": "EM Duty Hour Compliance Guaranteed",
+          "title": "EM Duty Hour Requirements Built In",
           "eyebrow": "ACGME Compliance",
           "highlights": [
             "EM-specific rules enforced",
-            "80-hour weekly limit guaranteed",
+            "80-hour weekly limit built in",
             "Violations prevented at generation"
           ],
-          "description": "Our team enforces ACGME duty hour regulations at generation time for emergency medicine programs. Subspecialty-specific EM rules are built in, so violations are prevented before the schedule is ever published."
+          "description": "Our team enforces ACGME duty hour regulations at generation time for emergency medicine programs. Subspecialty-specific EM rules are built in, so they are applied before the schedule reaches your program."
         },
         {
           "id": "call-scheduling",
@@ -112,7 +112,7 @@
         },
         {
           "title": "ACGME Compliance Is Never Certain",
-          "description": "Manually checking every EM resident's hours against subspecialty-specific ACGME rules leaves programs exposed to violations and something that surfaces at review."
+          "description": "Manually checking every EM resident's hours against subspecialty-specific ACGME rules and the misses only surface later."
         },
         {
           "title": "Chiefs Restart From Scratch Every Year",
@@ -124,7 +124,7 @@
     },
     "solution": {
       "title": "Scheduling Wizard Delivers Your EM Schedules",
-      "description": "Submit your emergency medicine program's rules and receive finished, ACGME-compliant block, call, and attending schedules as ready-to-use Excel files. No software to learn. No annual retraining. Subspecialty-specific compliance rules are mathematically enforced at generation time, not manually checked after the fact."
+      "description": "Submit your emergency medicine program's rules and receive finished, ACGME-compliant block, call, and attending schedules as ready-to-use Excel files. No software to learn. No annual retraining. Subspecialty-specific compliance rules are built into the schedule as it is created, not manually checked after the fact."
     },
     "metaTitle": "EM Scheduling Software | ACGME-Compliant | Scheduling Wizard",
     "metaDescription": "Emergency medicine scheduling software can be a burden on chief residents. Scheduling Wizard is a managed service delivering optimized, ACGME-compliant."

@@ -11,7 +11,7 @@
     "cta": {
       "title": "Stop Losing Time to GME Scheduling",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 18 departments across 13 hospitals who already outsource scheduling to Scheduling Wizard."
+      "description": "Join 30+ departments across 20+ hospitals and practices who already outsource scheduling to Scheduling Wizard."
     },
     "faq": [
       {
@@ -19,7 +19,7 @@
         "question": "What is GME scheduling software and how does Scheduling Wizard differ?"
       },
       {
-        "answer": "Scheduling Wizard mathematically enforces ACGME duty hour regulations at schedule generation time. This means the 80-hour weekly limit, minimum rest requirements, and the 24-hour shift cap are built into the schedule itself, not checked manually after the fact. Subspecialty-specific ACGME rules are also built in, so programs do not need to cross-reference requirements themselves.",
+        "answer": "Scheduling Wizard builds in the ACGME duty hour regulations at schedule generation time. This means the 80-hour weekly limit, minimum rest requirements, and the 24-hour shift cap are built into the schedule itself, not checked manually after the fact. Subspecialty-specific ACGME rules are also built in, so programs do not need to cross-reference requirements themselves.",
         "question": "How does Scheduling Wizard ensure ACGME duty hour compliance?"
       },
       {
@@ -65,7 +65,7 @@
             "Violations prevented at generation",
             "80-hour limits enforced automatically"
           ],
-          "description": "ACGME duty hour rules are mathematically enforced at generation time across all schedule types. Subspecialty-specific rules are built into our team so violations are prevented before the schedule is ever published."
+          "description": "ACGME duty hour rules are built into the schedule as it is created across all schedule types. Subspecialty-specific rules are built into the schedule itself, so they are applied before the schedule reaches your program."
         },
         {
           "id": "institutional-continuity",
@@ -112,7 +112,7 @@
         },
         {
           "title": "Compliance Gaps Risk Accreditation",
-          "description": "Manually checking ACGME duty hour rules across block, call, and clinic schedules leaves room for violations that put program accreditation exposed at review."
+          "description": "Manually checking ACGME duty hour rules across block, call, and clinic schedules leaves room for violations and leaves the misses to surface later."
         },
         {
           "title": "Knowledge Lost Every Year",

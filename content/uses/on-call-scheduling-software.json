@@ -3,7 +3,7 @@
   "slug": "on-call-scheduling-software",
   "anchor": "On Call Scheduling Software",
   "title": "On Call Scheduling Software | Managed Service",
-  "description": "On call scheduling software delivered as a managed service. Get optimized, ACGME-compliant schedules built for you and ready to upload to whatever platform you already use.",
+  "description": "On call scheduling software delivered as a managed service. We build the call schedule and hand it back ready to upload to whatever platform you already use.",
   "h1": "The On Call Scheduling Software That Runs Itself",
   "paragraph": "Eliminate manual errors and wasted time. Scheduling Wizard delivers optimized on-call rosters as simple Excel files for easy upload to whatever platform you already use.",
   "category": "role",
@@ -11,7 +11,7 @@
     "cta": {
       "title": "Stop Building On Call Schedules by Hand",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 18 departments across 13 hospitals who already trust Scheduling Wizard with their on call scheduling."
+      "description": "Join 30+ departments across 20+ hospitals and practices who already trust Scheduling Wizard with their on call scheduling."
     },
     "faq": [
       {
@@ -19,8 +19,8 @@
         "question": "What is on call scheduling software for residency programs?"
       },
       {
-        "answer": "ACGME duty hour compliance is mathematically enforced at the moment the schedule is generated, not manually reviewed after the fact. our team applies the 80-hour weekly limit, 10-hour minimum rest between shifts, and the 24-hour maximum shift length rules automatically. Subspecialty-specific ACGME regulations are built directly into our team, so programs do not need to manually verify compliance for their specialty.",
-        "question": "How does Scheduling Wizard ensure ACGME compliance in on call schedules?"
+        "answer": "For a residency or fellowship we apply the duty hour rules while the call schedule is built rather than reviewing it afterward: the 80-hour weekly limit, minimum rest between shifts, the 24-hour maximum shift, and the specialty-specific Program Requirements. We work from the requirements your program tells us apply, and we redraft when something needs to change. A group or practice outside GME has no ACGME requirement, so we build to their own rules instead.",
+        "question": "How do you handle ACGME duty hours in a call schedule?"
       },
       {
         "answer": "Most on call scheduling software requires your team to learn and operate the platform, manually input rules, and troubleshoot compliance issues. Scheduling Wizard is a managed service; your program submits rules and receives finished schedules. There is no software to learn and no annual retraining when chief residents rotate. Your finished schedules are delivered as Excel files ready to upload to publishing platform.",
@@ -41,7 +41,7 @@
     ],
     "hero": {
       "title": "On Call Scheduling Software That Runs Itself",
-      "description": "Scheduling Wizard delivers optimized, ACGME-compliant on call schedules as ready-to-use Excel files. No software to learn, no manual errors."
+      "description": "Scheduling Wizard builds your on call schedules and delivers them as ready-to-use Excel files, or on a live viewing link we build for you."
     },
     "features": {
       "items": [
@@ -54,18 +54,18 @@
             "Holiday shifts distributed fairly",
             "Post-call rest rules enforced"
           ],
-          "description": "Produces ACGME-compliant on call schedules that distribute call burden equitably across all residents, respecting duty hour limits, post-call rest rules, and individual rules, all in a single optimization pass."
+          "description": "Builds on call schedules that spread the call burden equitably across everyone on it, respecting rest rules, post-call recovery and individual requests, all in a single pass."
         },
         {
           "id": "acgme-compliance",
-          "title": "Compliance Guaranteed at Generation Time",
-          "eyebrow": "ACGME Compliance",
+          "title": "Requirements Built In From the Start",
+          "eyebrow": "The Rules That Apply",
           "highlights": [
             "80-hour weekly limits enforced",
             "Subspecialty rules built in",
             "No manual compliance checking"
           ],
-          "description": "ACGME duty hour regulations are mathematically enforced when the schedule is built, not manually checked afterward. Subspecialty-specific rules are built into our team so violations are prevented before they occur."
+          "description": "We build each call schedule to the rules that govern it. For a residency or fellowship that means the ACGME duty hour requirements and the specialty-specific Program Requirements. For a group or practice it means yours: coverage minimums, call equity, contractual obligations, time off and requests, and multiple sites where a group has them."
         },
         {
           "id": "managed-service",
@@ -108,7 +108,7 @@
       "items": [
         {
           "title": "Compliance Violations Risk Accreditation",
-          "description": "Manually tracking ACGME duty hour limits across every resident leaves programs exposed to violations that threaten accreditation."
+          "description": "Tracking duty hour limits across every resident by hand is slow, and the errors only show up once the schedule is already out."
         },
         {
           "title": "Fairness Disputes Hurt Morale",
@@ -124,10 +124,10 @@
     },
     "solution": {
       "title": "Your On Call Schedules Done For You",
-      "description": "Submit your program rules and receive finished, ACGME-compliant on call schedules as Excel files ready to upload to whatever platform you already use. Scheduling Wizard handles the optimization as a managed service, no software to learn, no expertise required from your team."
+      "description": "Send us your rules and receive finished on call schedules as Excel files, ready to upload to whatever platform you already use. Scheduling Wizard handles the build as a managed service: no software to learn, no expertise required from your team."
     },
     "metaTitle": "On Call Scheduling Software | Managed Service",
-    "metaDescription": "On call scheduling software delivered as a managed service. Get optimized, ACGME-compliant schedules built for you and ready to upload to whatever platform you already use."
+    "metaDescription": "On call scheduling software delivered as a managed service. We build the call schedule and hand it back ready to upload to whatever platform you already use."
   },
   "searchIntent": {
     "keyword": "on call scheduling software",
@@ -142,7 +142,7 @@
     "h1": "The On Call Scheduling Software That Runs Itself",
     "metaTitle": "On Call Scheduling Software | Managed Service",
     "h1Paragraph": "Eliminate manual errors and wasted time. Scheduling Wizard delivers optimized on-call rosters as simple Excel files for easy upload to whatever platform you already use.",
-    "metaDescription": "On call scheduling software delivered as a managed service. Get optimized, ACGME-compliant schedules built for you and ready to upload to whatever platform you already use."
+    "metaDescription": "On call scheduling software delivered as a managed service. We build the call schedule and hand it back ready to upload to whatever platform you already use."
   },
   "finalMetadata": {
     "slug": "on-call-scheduling-software",

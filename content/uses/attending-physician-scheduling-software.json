@@ -3,15 +3,15 @@
   "slug": "attending-physician-scheduling-software",
   "anchor": "Attending Physician Scheduling Software",
   "title": "Attending Physician Scheduling Software | Managed Service",
-  "description": "Attending physician scheduling software that operates as a managed service. We handle all your rules to deliver optimized, ACGME-compliant schedules.",
+  "description": "Attending physician scheduling software that operates as a managed service. Send us your coverage rules and we build the finished attending schedules.",
   "h1": "Attending Physician Scheduling, Done For You",
-  "paragraph": "Free your chiefs from complex software. Scheduling Wizard builds your optimized, ACGME-compliant attending schedules using your rules, delivered in Excel.",
+  "paragraph": "Free your chiefs from complex software. Scheduling Wizard builds your attending schedules from your rules and delivers them in Excel.",
   "category": "setting",
   "data": {
     "cta": {
       "title": "Get Your Attending Schedules Done Right",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 18 departments across 13 hospitals who have outsourced their scheduling to Scheduling Wizard."
+      "description": "Join 30+ departments across 20+ hospitals and practices who have outsourced their scheduling to Scheduling Wizard."
     },
     "faq": [
       {
@@ -19,8 +19,8 @@
         "question": "What is attending physician scheduling software and how does it work?"
       },
       {
-        "answer": "ACGME compliance is enforced mathematically at the moment the schedule is generated, not checked manually after the fact. Our team has subspecialty-specific ACGME rules built in, so violations are prevented before the schedule is ever delivered. This includes duty hour regulations and program-specific requirements relevant to your specialty.",
-        "question": "How does Scheduling Wizard ensure ACGME compliance for attending schedules?"
+        "answer": "Coverage minimums first, then call equity, contractual obligations, time off and requests, and multiple sites where a group has them. Where the department also trains residents or fellows, the attending schedule has to provide the supervision coverage the ACGME Program Requirements call for, so we build that in alongside the rest. We work from the requirements you tell us apply, and we redraft when something needs to change.",
+        "question": "What rules do you build an attending schedule around?"
       },
       {
         "answer": "Scheduling Wizard handles schedule creation and optimization, while the platform you already use handles day-to-day schedule access. Many Scheduling Wizard clients continue using the platform they already have alongside the service. SW builds the optimized attending schedule, and programs upload the finished Excel file to their existing publishing platform.",
@@ -41,7 +41,7 @@
     ],
     "hero": {
       "title": "Attending Physician Scheduling Software Done For You",
-      "description": "Scheduling Wizard delivers optimized, ACGME-compliant attending physician schedules as ready-to-use Excel files. No software for your team to learn or operate."
+      "description": "Scheduling Wizard builds attending physician schedules and delivers them as ready-to-use Excel files. No software for your team to learn or operate."
     },
     "features": {
       "items": [
@@ -59,13 +59,13 @@
         {
           "id": "acgme-compliance",
           "title": "Compliance Built Into Every Schedule",
-          "eyebrow": "ACGME Compliance",
+          "eyebrow": "The Rules That Apply",
           "highlights": [
             "Subspecialty rules built in",
             "Violations prevented at generation",
-            "Compliance guaranteed on delivery"
+            "Requirements checked before delivery"
           ],
-          "description": "ACGME duty hour regulations and subspecialty-specific rules are enforced mathematically at generation time for attending schedules, violations are prevented before the schedule is ever published, not discovered after."
+          "description": "An attending schedule is governed by coverage minimums, call equity, contractual obligations, time off and requests, and multiple sites where a group has them. Where the department also trains residents or fellows, it has to provide the supervision coverage the ACGME Program Requirements call for, and we build that in too."
         },
         {
           "id": "managed-service",
@@ -111,8 +111,8 @@
           "description": "Self-service attending physician scheduling software puts the burden on chiefs and coordinators who already lack time to master complex tools."
         },
         {
-          "title": "Compliance Gaps Put Programs exposed at review",
-          "description": "Manually checking attending schedules against ACGME subspecialty-specific rules is error-prone and leaves accreditation exposure that automated tools prevent."
+          "title": "Checking the Rules by Hand Is Slow",
+          "description": "Balancing attending coverage against call equity, contracts and time off by hand is slow, and the gaps only surface once the schedule is already out."
         },
         {
           "title": "Knowledge Lost With Every Chief Rotation",
@@ -124,10 +124,10 @@
     },
     "solution": {
       "title": "Attending Schedules Built and Delivered by Experts",
-      "description": "Scheduling Wizard operates as a done-for-you managed service. Submit your program's rules (attending coverage requirements, subspecialty ACGME rules, faculty preferences) and receive finished, compliant schedules as ready-to-use Excel files. No software to learn, no institutional knowledge lost when chiefs rotate."
+      "description": "Scheduling Wizard operates as a done-for-you managed service. Send us your rules, including attending coverage requirements, faculty preferences and any supervision the program requires, and receive finished schedules as ready-to-use Excel files."
     },
     "metaTitle": "Attending Physician Scheduling Software | Managed Service",
-    "metaDescription": "Attending physician scheduling software that operates as a managed service. We handle all your rules to deliver optimized, ACGME-compliant schedules."
+    "metaDescription": "Attending physician scheduling software that operates as a managed service. Send us your coverage rules and we build the finished attending schedules."
   },
   "searchIntent": {
     "keyword": "attending physician scheduling software",
@@ -135,14 +135,14 @@
       "A residency program director looking for a reliable way to create compliant and optimized attending schedules that adhere to ACGME guidelines without burdening chief residents with complicated software.",
       "A chief resident overwhelmed with scheduling tasks, needing a solution that can automate the creation of attending schedules while ensuring all shifts are filled fairly and without conflicts.",
       "A program coordinator seeking a done-for-you service that can handle the intricacies of attending physician scheduling, including specific subspecialty rules, to reduce the administrative load on staff.",
-      "A private practice administrator searching for an efficient scheduling solution that not only meets ACGME compliance but also integrates cleanly with existing publishing platform."
+      "A private practice administrator looking for an efficient way to get attending coverage built around contracts and call equity, and delivered in a format that drops straight into the platform the practice already uses."
     ]
   },
   "seoMetadata": {
     "h1": "Attending Physician Scheduling, Done For You",
     "metaTitle": "Attending Physician Scheduling Software | Managed Service",
-    "h1Paragraph": "Free your chiefs from complex software. Scheduling Wizard builds your optimized, ACGME-compliant attending schedules using your rules, delivered in Excel.",
-    "metaDescription": "Attending physician scheduling software that operates as a managed service. We handle all your rules to deliver optimized, ACGME-compliant schedules."
+    "h1Paragraph": "Free your chiefs from complex software. Scheduling Wizard builds your attending schedules from your rules and delivers them in Excel.",
+    "metaDescription": "Attending physician scheduling software that operates as a managed service. Send us your coverage rules and we build the finished attending schedules."
   },
   "finalMetadata": {
     "slug": "scheduling-software",

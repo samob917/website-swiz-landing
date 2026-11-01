@@ -11,7 +11,7 @@
     "cta": {
       "title": "Get Your Call Schedule Done Right",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 18 departments across 13 hospitals who already trust Scheduling Wizard with their scheduling."
+      "description": "Join 30+ departments across 20+ hospitals and practices who already trust Scheduling Wizard with their scheduling."
     },
     "faq": [
       {
@@ -19,7 +19,7 @@
         "question": "What is a resident call schedule automation tool?"
       },
       {
-        "answer": "ACGME compliance is mathematically enforced at schedule generation time, not checked manually after the fact. our team applies the 80-hour weekly duty hour limit, 10-hour rest minimums, 24-hour shift caps, and subspecialty-specific call rules when building every schedule. Violations are prevented from appearing in the output, not flagged for a human to fix later.",
+        "answer": "ACGME compliance is built into the schedule as it is created, not checked manually after the fact. Our team applies the 80-hour weekly duty hour limit, 10-hour rest minimums, 24-hour shift caps, and subspecialty-specific call rules when building every schedule. The rules are applied as we build from appearing in the output, not flagged for a human to fix later.",
         "question": "How does Scheduling Wizard enforce ACGME call schedule compliance?"
       },
       {
@@ -41,7 +41,7 @@
     ],
     "hero": {
       "title": "Resident Call Schedule Automation Tool That enforcing the rules when the schedule is built",
-      "description": "Scheduling Wizard is a managed service that delivers ACGME-compliant resident call schedules as finished Excel files. No software to learn, no something that surfaces at review."
+      "description": "Scheduling Wizard is a managed service that delivers ACGME-compliant resident call schedules as finished Excel files. No software to learn, no misses that surface later."
     },
     "features": {
       "items": [
@@ -58,14 +58,14 @@
         },
         {
           "id": "acgme-compliance",
-          "title": "Compliance Guaranteed at Generation Time",
+          "title": "Requirements Built In From the Start",
           "eyebrow": "ACGME Compliance",
           "highlights": [
             "80-hour weekly limit enforced",
             "Subspecialty rules built in",
             "Home call and rest rules covered"
           ],
-          "description": "ACGME duty hour rules (including the 80-hour weekly limit, 10-hour rest minimums, 24-hour caps, and home call rules) are mathematically enforced when the schedule is built, not manually checked afterward. Subspecialty-specific rules are built in."
+          "description": "ACGME duty hour rules (including the 80-hour weekly limit, 10-hour rest minimums, 24-hour caps, and home call rules) are built into the schedule as it is built, not manually checked afterward. Subspecialty-specific rules are built in."
         },
         {
           "id": "managed-service",
@@ -102,13 +102,13 @@
         }
       ],
       "title": "Built for Resident Call Schedule Automation",
-      "description": "Every capability is designed to eliminate the complexity and something that surfaces at review of resident call scheduling for residency and fellowship programs."
+      "description": "Every capability is designed to eliminate the complexity and misses that surface later of resident call scheduling for residency and fellowship programs."
     },
     "problems": {
       "items": [
         {
           "title": "Compliance Violations Risk Accreditation",
-          "description": "Manually checking every call schedule against ACGME duty hour rules is error-prone. One missed rule can trigger a citation and put accreditation exposed at review."
+          "description": "Manually checking every call schedule against ACGME duty hour rules is error-prone. One missed rule is easy to overlook and hard to undo once the schedule is out."
         },
         {
           "title": "Chiefs Rebuilt From Scratch Every Year",
@@ -120,7 +120,7 @@
         }
       ],
       "title": "Call Scheduling Is Breaking Your Program",
-      "description": "Manual call schedule builds drain chief residents and leave programs exposed to compliance failures."
+      "description": "Manual call schedule builds drain chief residents and leave the misses to be found later."
     },
     "solution": {
       "title": "A Done For You Call Scheduling Service",

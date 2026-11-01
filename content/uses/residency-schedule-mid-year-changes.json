@@ -11,7 +11,7 @@
     "cta": {
       "title": "Stop Rebuilding Schedules From Scratch",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 18 departments across 13 hospitals who outsource their scheduling to Scheduling Wizard."
+      "description": "Join 30+ departments across 20+ hospitals and practices who outsource their scheduling to Scheduling Wizard."
     },
     "faq": [
       {
@@ -23,7 +23,7 @@
         "question": "How quickly can a revised schedule be generated after a mid year change?"
       },
       {
-        "answer": "Mid year changes can introduce compliance risks if re-optimization is done manually, since each revision must be re-checked against 80-hour weekly limits, rest period requirements, and subspecialty-specific rules. Scheduling Wizard mathematically enforces ACGME duty hour regulations at generation time, so every revised schedule is compliant before it is delivered to your program, violations are prevented, not discovered after publishing.",
+        "answer": "Mid year changes can introduce compliance risks if re-optimization is done manually, since each revision must be re-checked against 80-hour weekly limits, rest period requirements, and subspecialty-specific rules. Scheduling Wizard builds in the ACGME duty hour regulations at generation time, so every revised schedule is compliant before it is delivered to your program, the rules are applied as we build, not discovered after publishing.",
         "question": "Will mid year schedule changes affect ACGME duty hour compliance?"
       },
       {
@@ -76,7 +76,7 @@
             "Subspecialty rules built in",
             "80-hour limits always enforced"
           ],
-          "description": "ACGME duty hour rules are mathematically enforced at re-generation time, not manually reviewed after the fact. Subspecialty-specific rules are built into our team, so mid year revisions never introduce hidden compliance violations."
+          "description": "ACGME duty hour rules are built into the schedule as it is created, not manually reviewed after the fact. Subspecialty-specific rules are built into the schedule itself, so mid year revisions never introduce hidden compliance violations."
         },
         {
           "id": "cross-schedule-resolution",

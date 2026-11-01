@@ -11,7 +11,7 @@
     "cta": {
       "title": "Stop Rebuilding Schedules Around Leave",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 18 departments across 13 hospitals who trust Scheduling Wizard to deliver compliant, optimized schedules."
+      "description": "Join 30+ departments across 20+ hospitals and practices who trust Scheduling Wizard to deliver compliant, optimized schedules."
     },
     "faq": [
       {
@@ -58,14 +58,14 @@
         },
         {
           "id": "acgme-compliance",
-          "title": "Compliance Guaranteed Through Leave Periods",
+          "title": "Requirements Held Through Leave Periods",
           "eyebrow": "ACGME Compliance",
           "highlights": [
             "80-hour limits enforced automatically",
             "Subspecialty-specific rules built in",
             "Violations prevented at generation time"
           ],
-          "description": "Duty hour rules do not pause when coverage is thin. our team enforces 80-hour weekly limits, rest intervals, and subspecialty-specific ACGME requirements mathematically at generation time, even after leave-driven redistribution."
+          "description": "Duty hour rules do not pause when coverage is thin. Our team enforces 80-hour weekly limits, rest intervals, and subspecialty-specific ACGME requirements mathematically at generation time, even after leave-driven redistribution."
         },
         {
           "id": "coverage-optimization",

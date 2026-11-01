@@ -11,7 +11,7 @@
     "cta": {
       "title": "Get Your Physician Schedules Done Right",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join the 18 departments across 13 hospitals already using Scheduling Wizard for automated physician scheduling."
+      "description": "Join the 30+ departments across 20+ hospitals and practices already using Scheduling Wizard for automated physician scheduling."
     },
     "faq": [
       {
@@ -19,7 +19,7 @@
         "question": "What is automated physician scheduling and how does it work?"
       },
       {
-        "answer": "Yes. ACGME duty hour compliance is mathematically enforced at the moment the schedule is generated, not reviewed manually afterward. our team enforces the 80-hour weekly limit, 10-hour rest minimums, the 24-hour hard cap, and subspecialty-specific rules built into the system. This means violations are prevented before the schedule is ever delivered, rather than detected and corrected post-hoc.",
+        "answer": "Yes. ACGME duty hour compliance is built into the schedule as it is built, not reviewed manually afterward. Our team enforces the 80-hour weekly limit, 10-hour rest minimums, the 24-hour hard cap, and subspecialty-specific rules built into the system. This means the rules are applied before the schedule reaches your program, rather than detected and corrected post-hoc.",
         "question": "Is Scheduling Wizard's automated scheduling ACGME compliant?"
       },
       {
@@ -65,7 +65,7 @@
             "Subspecialty-specific rules included",
             "Violations prevented at generation"
           ],
-          "description": "ACGME duty hour rules are mathematically enforced at generation time, not manually checked after the fact. Subspecialty-specific rules are built into our team so your schedule is compliant before you ever review it."
+          "description": "ACGME duty hour rules are built into the schedule as it is created, not manually checked after the fact. Subspecialty-specific rules are built into the schedule itself so your schedule is compliant before you ever review it."
         },
         {
           "id": "call-scheduling",
@@ -96,7 +96,7 @@
           "highlights": [
             "PGY-level requirements respected",
             "Elective preferences integrated",
-            "Coverage minimums guaranteed"
+            "Coverage minimums built in"
           ],
           "description": "Year-long block and rotation schedules are generated respecting PGY-level requirements, elective preferences, coverage minimums, and ACGME rotation mandates across complex multi-track programs."
         }
@@ -111,8 +111,8 @@
           "description": "Chief residents spend weeks building schedules from scratch in Excel, time that should be spent on patient care and training."
         },
         {
-          "title": "Compliance Gaps Threaten Accreditation",
-          "description": "Manually checking ACGME duty hour rules across block, call, and clinic schedules leaves room for violations that put programs exposed at review."
+          "title": "Checking the Rules by Hand Is Slow",
+          "description": "Manually checking ACGME duty hour rules across block, call, and clinic schedules leaves room for violations and leaves the misses to surface later."
         },
         {
           "title": "Knowledge Disappears Every Year",
@@ -120,7 +120,7 @@
         }
       ],
       "title": "Scheduling Is Breaking Your Program",
-      "description": "Manual physician scheduling consumes time, creates something that surfaces at review, and resets every year when chiefs rotate."
+      "description": "Manual physician scheduling consumes time, creates misses that surface later, and resets every year when chiefs rotate."
     },
     "solution": {
       "title": "A Managed Service That Does It For You",

@@ -11,7 +11,7 @@
     "cta": {
       "title": "Stop Building Call Schedules by Hand",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 18 departments across 13 hospitals who have outsourced call scheduling to Scheduling Wizard."
+      "description": "Join 30+ departments across 20+ hospitals and practices who have outsourced call scheduling to Scheduling Wizard."
     },
     "faq": [
       {
@@ -19,7 +19,7 @@
         "question": "What is residency call scheduling software and how does Scheduling Wizard differ?"
       },
       {
-        "answer": "ACGME compliance is enforced mathematically at the time the call schedule is generated, not checked manually after the fact. our team applies the 80-hour weekly duty hour limit, minimum rest requirements between shifts, the 24-hour hard cap on continuous duty, and subspecialty-specific rules that vary by program type. Violations are prevented at generation time, so your program receives a compliant schedule from day one.",
+        "answer": "ACGME compliance is enforced mathematically at the time the call schedule is generated, not checked manually after the fact. Our team applies the 80-hour weekly duty hour limit, minimum rest requirements between shifts, the 24-hour hard cap on continuous duty, and subspecialty-specific rules that vary by program type. The rules are applied while the schedule is built, so your program receives a compliant schedule from day one.",
         "question": "How does Scheduling Wizard ensure ACGME duty hour compliance in call schedules?"
       },
       {
@@ -35,7 +35,7 @@
         "question": "What happens when a resident needs a last-minute call schedule change?"
       },
       {
-        "answer": "Scheduling Wizard primarily serves chief residents, program directors, program coordinators, and GME offices at residency and fellowship programs. Chief residents benefit most from not having to build or maintain call schedules themselves. Program directors benefit from ACGME compliance confidence and the elimination of annual knowledge loss when chiefs rotate out. Scheduling Wizard is currently serving 18 departments across 13 hospitals.",
+        "answer": "Scheduling Wizard primarily serves chief residents, program directors, program coordinators, and GME offices at residency and fellowship programs. Chief residents benefit most from not having to build or maintain call schedules themselves. Program directors benefit from ACGME compliance confidence and the elimination of annual knowledge loss when chiefs rotate out. Scheduling Wizard is currently serving 30+ departments across 20+ hospitals and practices.",
         "question": "Who typically uses Scheduling Wizard for call scheduling?"
       }
     ],
@@ -58,14 +58,14 @@
         },
         {
           "id": "acgme-compliance",
-          "title": "Compliance Guaranteed at Generation Time",
+          "title": "Requirements Built In From the Start",
           "eyebrow": "ACGME Compliance",
           "highlights": [
             "80-hour limits enforced automatically",
             "Subspecialty-specific rules built in",
             "Violations prevented before publishing"
           ],
-          "description": "ACGME duty hour rules are enforced mathematically when the call schedule is generated, including the 80-hour weekly limit, rest requirements, and the 24-hour cap. Subspecialty-specific rules are built into our team, so violations are prevented, not discovered after publishing."
+          "description": "ACGME duty hour rules are applied as the call schedule is built, including the 80-hour weekly limit, rest requirements, and the 24-hour cap. Subspecialty-specific rules are built into the schedule itself, so the rules are applied as we build, not discovered after publishing."
         },
         {
           "id": "managed-service",
@@ -120,7 +120,7 @@
         }
       ],
       "title": "Call Scheduling Is Breaking Chiefs",
-      "description": "Manual call scheduling drains chief residents of time, creates something that surfaces at review, and restarts from zero every year."
+      "description": "Manual call scheduling drains chief residents of time, creates misses that surface later, and restarts from zero every year."
     },
     "solution": {
       "title": "Submit Rules. Receive a Finished Call Schedule.",

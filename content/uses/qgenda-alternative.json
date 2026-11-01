@@ -11,7 +11,7 @@
     "cta": {
       "title": "Ready to Stop Building Schedules Yourself?",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 18 departments across 13 hospitals that trust Scheduling Wizard for optimized, compliant schedule creation."
+      "description": "Join 30+ departments across 20+ hospitals and practices that trust Scheduling Wizard for optimized, compliant schedule creation."
     },
     "faq": [
       {
@@ -19,7 +19,7 @@
         "question": "Is Scheduling Wizard a replacement for QGenda?"
       },
       {
-        "answer": "ACGME duty hour rules are enforced mathematically at the time the schedule is generated, not checked manually after the fact. our team includes the 80-hour weekly limit, 10-hour rest requirements, 24-hour hard caps, and subspecialty-specific rules. Compliance is not a post-generation audit, violations are structurally prevented before the schedule is ever produced.",
+        "answer": "ACGME duty hour rules are applied as the schedule is built, at the time the schedule is generated, not checked manually after the fact. Our team includes the 80-hour weekly limit, 10-hour rest requirements, 24-hour hard caps, and subspecialty-specific rules. Compliance is not a post-generation audit, violations are structurally prevented before the schedule is ever produced.",
         "question": "How does Scheduling Wizard handle ACGME duty hour compliance?"
       },
       {
@@ -65,7 +65,7 @@
             "Subspecialty rules built in",
             "80-hour and rest rules enforced"
           ],
-          "description": "ACGME duty hour rules are mathematically enforced at the moment the schedule is generated, not manually checked afterward. Subspecialty-specific rules are built into our team so compliance is never left to interpretation."
+          "description": "ACGME duty hour rules are built into the schedule as it is built, not manually checked afterward. Subspecialty-specific rules are built into the schedule itself so compliance is never left to interpretation."
         },
         {
           "id": "institutional-continuity",
@@ -116,7 +116,7 @@
         },
         {
           "title": "Compliance Falls on Your Team",
-          "description": "Verifying ACGME duty hour compliance in self-service software is a manual, error-prone process, leaving your program exposed to violations and something that surfaces at review."
+          "description": "Verifying ACGME duty hour compliance in self-service software is a manual, error-prone process, and the misses only surface later."
         }
       ],
       "title": "Platforms Manage Schedules. They Don't Effectively Create Them.",
@@ -133,7 +133,7 @@
     "keyword": "qgenda alternative",
     "searchIntents": [
       "A residency program coordinator frustrated with QGenda's limitations is looking for a managed scheduling solution that can automate the creation of ACGME-compliant schedules without burdening chief residents with software complexities.",
-      "A chief resident tired of the time-consuming manual adjustments in QGenda wants an alternative that guarantees optimized rotation schedules while still ensuring adherence to subspecialty-specific ACGME rules.",
+      "A chief resident tired of the time-consuming manual adjustments in QGenda wants an alternative that builds the rotation schedules while still ensuring adherence to subspecialty-specific ACGME rules.",
       "A fellowship program director seeking a more efficient way to handle scheduling is searching for alternatives to QGenda that offer complete scheduling services, including call and attending schedules, all while maintaining compliance with ACGME duty hour regulations.",
       "An administrator in a medical residency program wants to find a scheduling tool that integrates easily with existing platforms like Amion but provides a fully managed service to reduce the operational burden on staff and ensure continuity during chief rotations."
     ]

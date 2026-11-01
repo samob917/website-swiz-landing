@@ -11,11 +11,11 @@
     "cta": {
       "title": "Stop Building Surgery Schedules From Scratch",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join the departments across 13 hospitals that already trust Scheduling Wizard with their residency scheduling."
+      "description": "Join the 30+ departments across 20+ hospitals and practices that already trust Scheduling Wizard with their residency scheduling."
     },
     "faq": [
       {
-        "answer": "ACGME compliance is mathematically enforced at schedule generation time, not checked manually afterward. Our team has subspecialty-specific ACGME duty hour rules built in, including the 80-hour weekly limit, 10-hour rest minimums between shifts, and the 24-hour hard cap. For surgical programs specifically, our team accounts for the specific call and trauma coverage rules that are unique to surgery. Violations are prevented before the schedule is ever produced.",
+        "answer": "ACGME compliance is built into the schedule as it is created, not checked manually afterward. Our team has subspecialty-specific ACGME duty hour rules built in, including the 80-hour weekly limit, 10-hour rest minimums between shifts, and the 24-hour hard cap. For surgical programs specifically, our team accounts for the specific call and trauma coverage rules that are unique to surgery. The rules are applied before the schedule reaches your program.",
         "question": "How does Scheduling Wizard ensure ACGME compliance for surgery residency schedules?"
       },
       {
@@ -23,7 +23,7 @@
         "question": "What types of schedules does Scheduling Wizard generate for surgery programs?"
       },
       {
-        "answer": "Fairness is algorithmically optimized, not estimated. our team distributes call, weekend, and holiday burden equitably across all residents in a surgical program while simultaneously respecting ACGME duty hour limits and individual rules. This eliminates the manual back-and-forth and \"why do I have more weekend call?\" disputes that are common with spreadsheet-based scheduling.",
+        "answer": "Fairness is algorithmically optimized, not estimated. Our team distributes call, weekend, and holiday burden equitably across all residents in a surgical program while simultaneously respecting ACGME duty hour limits and individual rules. This eliminates the manual back-and-forth and \"why do I have more weekend call?\" disputes that are common with spreadsheet-based scheduling.",
         "question": "How is surgery residency call scheduling made fair across all residents?"
       },
       {
@@ -47,7 +47,7 @@
       "items": [
         {
           "id": "acgme-compliance",
-          "title": "Surgery Compliance Guaranteed at Generation",
+          "title": "Surgery Requirements Built In From the Start",
           "eyebrow": "ACGME Compliance",
           "highlights": [
             "80-hour weekly limits enforced",
