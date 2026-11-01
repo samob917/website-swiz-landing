@@ -52,9 +52,9 @@
           "highlights": [
             "No software to learn",
             "Finished schedules delivered",
-            "Upload to existing tools"
+            "Or a custom live view we build"
           ],
-          "description": "Scheduling Wizard operates as a fully managed service, not self-service residency management software. Submit your rules and receive finished Excel schedules ready to upload to whatever platform you already use for day-to-day viewing. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Scheduling Wizard operates as a fully managed service, not self-service residency management software. Submit your rules and receive finished Excel schedules as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by mathematicians who do this full time and nothing else."
         },
         {
           "id": "acgme-compliance",
