@@ -1,6 +1,5 @@
 import Link from "next/link"
 import Image from "next/image"
-import { Calendar } from "lucide-react"
 
 import { PrivacyChoicesLink } from "@/components/privacy-choices-link"
 
@@ -26,16 +25,7 @@ export function Footer() {
           </div>
 
           {/* Right - Contact */}
-          <div className="flex flex-col items-center sm:items-end gap-1.5 text-xs text-white/60">
-            <a
-              href="https://calendly.com/zacdermody-schedulingwiz/new-meeting"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 bg-white/10 border border-white/20 rounded-full px-3 py-1.5 text-white/90 hover:bg-white/20 hover:border-white/40 hover:text-white transition-all duration-300"
-            >
-              <Calendar className="w-3.5 h-3.5" />
-              Schedule a call
-            </a>
+          <div className="flex flex-col items-center sm:items-end text-xs text-white/60">
             <div className="flex flex-col items-center gap-1.5 sm:flex-row sm:gap-2">
               <a href="mailto:founders@schedulingwiz.com" className="hover:text-white transition-colors duration-300">founders@schedulingwiz.com</a>
               <span className="hidden sm:inline text-white/30">|</span>
