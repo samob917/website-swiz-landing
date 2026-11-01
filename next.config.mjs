@@ -1,5 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  // The blog pulls featured images from Cloudflare Images. This was
+  // "unoptimized: true" before the blog was removed, which is what let
+  // remote images render without a domain allowlist.
+  images: {
+    unoptimized: true,
+  },
   eslint: {
     ignoreDuringBuilds: true,
   },
@@ -14,11 +20,9 @@ const nextConfig = {
   },
   async redirects() {
     return [
-      // The blog was removed; old posts still rank in Google. 301 them
-      // to the homepage so clicks land somewhere useful and Google
-      // drops the old URLs.
-      { source: "/blog", destination: "/", permanent: true },
-      { source: "/blog/:slug*", destination: "/", permanent: true },
+      // The /blog -> / redirects are gone: the blog is live again on its
+      // original slugs, so those URLs resolve to the posts Google already
+      // indexed rather than being funnelled to the homepage.
 
       // /compliance-checker was a real page with a navbar link until it was
       // removed. Anything still linking to it should land on the use-case

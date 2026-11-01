@@ -62,7 +62,7 @@ export interface FooterConfig {
 }
 
 export interface UsesIndexConfig {
-  seo: { title: string; description: string };
+  seo: { title: string; description: string; titleTemplate?: string };
   heading: string;
   description: string;
   categoryLabels: Record<string, string>;
@@ -70,6 +70,11 @@ export interface UsesIndexConfig {
 }
 
 export interface SiteConfig {
+  blog?: {
+    heading: string;
+    subtitle?: string;
+    seo: { title: string; description: string; titleTemplate?: string };
+  };
   name: string;
   domain: string;
   globalSeo: GlobalSeo;
