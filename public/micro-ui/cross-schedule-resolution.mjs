@@ -155,7 +155,7 @@ const labelPills = beams.map((b) => {
   );
 });
 
-// "Constraint change" pill on the left
+// "Rule change" pill on the left
 const inputPill = h(
   "div",
   {
@@ -173,7 +173,7 @@ const inputPill = h(
     fontWeight: 600,
     color: "#6b7280",
   },
-  "Constraint change",
+  "Rule change",
 );
 
 const canvas = h(

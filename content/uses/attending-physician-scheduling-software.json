@@ -57,7 +57,7 @@
           "description": "We build attending and faculty schedules alongside the resident schedules, so coverage lines up with resident assignments, site requirements and program-specific rules without manual coordination."
         },
         {
-          "id": "acgme-compliance",
+          "id": "coverage-optimization",
           "title": "Compliance Built Into Every Schedule",
           "eyebrow": "The Rules That Apply",
           "highlights": [

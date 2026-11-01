@@ -22,7 +22,7 @@ const hero = { x: 268, y: 222, r: 11, color: "#fbbf24", label: "Active · 2026" 
 const primary = [
   { x: 110, y: 118, r: 9, color: "#1f2937", label: "Program rules" },
   { x: 420, y: 102, r: 9, color: "#4f46e5", label: "Block templates" },
-  { x: 96, y: 312, r: 9, color: "#4f46e5", label: "Constraints" },
+  { x: 96, y: 312, r: 9, color: "#4f46e5", label: "Rules" },
   { x: 432, y: 310, r: 9, color: "#1f2937", label: "Site requirements" },
 ];
 
