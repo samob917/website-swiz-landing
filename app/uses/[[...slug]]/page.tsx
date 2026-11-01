@@ -12,6 +12,9 @@ import { SectionContainer } from "@/components/section-container";
 import { PageHeader } from "@/components/page-header";
 import { buildWebPageJsonLd } from "@/lib/json-ld";
 import { RelatedUses } from "@/components/related-uses";
+import { FurtherReading } from "@/components/further-reading";
+import { USES_READING } from "@/lib/uses-reading";
+import { getPost } from "@/lib/blog/resolve-blog";
 
 export const dynamicParams = false;
 
@@ -155,6 +158,13 @@ export default async function UsesPage({
     .slice(0, 6)
     .map((u) => ({ slug: u.slug, anchor: u.anchor, heroTitle: u.data.hero.title }));
 
+  // The posts that link here, offered back. Held-back posts resolve to null
+  // and drop out, so a retired post never leaves a dead card behind.
+  const reading = (USES_READING[slug[0]] ?? [])
+    .map((s) => getPost(s))
+    .filter((p): p is NonNullable<typeof p> => p !== null)
+    .map((p) => ({ slug: p.slug, title: p.title }));
+
   // Breadcrumbs render in search results and tell Google the hierarchy, which
   // a flat /uses/<slug> URL does not convey on its own.
   const breadcrumbJsonLd = {
@@ -195,6 +205,7 @@ export default async function UsesPage({
         data={page.data}
         featureImageMap={site.featureImageMap}
       />
+      <FurtherReading items={reading} />
       <RelatedUses items={related} />
     </>
   );

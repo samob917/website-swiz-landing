@@ -1,0 +1,33 @@
+// Which posts each use-case page points its reader at, and the reverse of the
+// links the posts carry to /uses. The posts are where search traffic lands;
+// the use-case pages are where it converts. Before this, the equity flowed one way.
+export const USES_READING: Record<string, string[]> = {
+  "acgme-compliance-checker": ["acgme-compliance-tools"],
+  "acgme-compliant-scheduling-software": ["acgme-compliant-schedule-tips", "acgme-residency-scheduling", "best-scheduling-tools-acgme", "compare-acgme-scheduling-tools"],
+  "acgme-duty-hour-rules": ["acgme-duty-hour-compliance", "acgme-duty-hours-call-rules", "best-tools-residency-scheduling", "specialty-hour-rules-acgme"],
+  "acgme-duty-hour-violations": ["acgme-duty-hour-violations"],
+  "amion-alternative": ["amion-vs-qgenda-vs-scheduling-wizard", "compare-acgme-call-scheduling-tools"],
+  "attending-physician-scheduling-software": ["best-physician-scheduling-tools-2023"],
+  "automated-physician-scheduling": ["best-scheduling-tools-residency"],
+  "block-schedule-software": ["residency-block-schedule-tools"],
+  "chief-resident-scheduling": ["chief-resident-scheduling-guide"],
+  "doctor-scheduling-software": ["best-doctor-scheduling-software"],
+  "emergency-medicine-scheduling-software": ["acgme-duty-hour-violations", "best-on-call-scheduling-software", "specialty-hour-rules-acgme"],
+  "fellowship-scheduling-software": ["acgme-fellowship-scheduling", "best-gme-scheduling-tools", "cardiology-fellowship-scheduling", "compare-cardiology-scheduling-tools"],
+  "gme-scheduling-software": ["residency-scheduling-tools-review"],
+  "healthcare-staff-scheduling-software": ["healthcare-staff-scheduling-tools"],
+  "holiday-call-schedule": ["holiday-call-schedule-residency"],
+  "internal-medicine-residency-scheduling": ["residency-scheduling-models-guide"],
+  "maternity-leave-scheduling": ["maternity-leave-residency-scheduling"],
+  "on-call-schedule-generator": ["best-schedule-generators-for-residency"],
+  "on-call-scheduling-software": ["best-call-scheduling-tools-acgme", "best-on-call-scheduling-software"],
+  "physician-scheduling-software": ["best-software-hospital-scheduling", "compare-physician-scheduling-tools"],
+  "private-practice-physician-scheduling": ["best-physician-scheduling-tools"],
+  "qgenda-alternative": ["qgenda-alternatives-comparison"],
+  "residency-call-schedule-fairness": ["residency-call-scheduling-tools"],
+  "residency-call-scheduling-software": ["best-residency-scheduling-tools", "building-acgme-call-schedules", "residency-call-scheduling-software"],
+  "residency-management-software": ["best-gme-residency-tools"],
+  "residency-schedule-mid-year-changes": ["unplanned-residency-schedule-changes"],
+  "residency-scheduling-software": ["acgme-family-medicine-scheduling-rules", "anesthesiology-residency-scheduling-tools", "best-residency-scheduling-tools-2026", "family-medicine-residency-scheduling-tools"],
+  "surgery-residency-scheduling": ["acgme-surgery-residency-scheduling", "residency-scheduling-tools-comparison"],
+}
