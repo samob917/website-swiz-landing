@@ -23,11 +23,11 @@
         "question": "How does Scheduling Wizard ensure ACGME compliance in on call schedules?"
       },
       {
-        "answer": "Most on call scheduling software requires your team to learn and operate the platform, manually input rules, and troubleshoot compliance issues. Scheduling Wizard is a managed service; your program submits rules and receives finished schedules. There is no software to learn and no annual retraining when chief residents rotate. Your finished schedules are delivered as Excel files ready to upload to viewing tools your existing platform.",
+        "answer": "Most on call scheduling software requires your team to learn and operate the platform, manually input rules, and troubleshoot compliance issues. Scheduling Wizard is a managed service; your program submits rules and receives finished schedules. There is no software to learn and no annual retraining when chief residents rotate. Your finished schedules are delivered as Excel files ready to upload to publishing platform.",
         "question": "How is Scheduling Wizard different from self-service on call scheduling software?"
       },
       {
-        "answer": "Yes. Many Scheduling Wizard clients continue using your existing platform for day-to-day schedule viewing and display. Scheduling Wizard handles the schedule creation and optimization, delivering the finished on call schedule as an Excel file that you upload directly into your existing viewing platform. The two tools serve different functions and are designed to complement each other.",
+        "answer": "Yes. Many Scheduling Wizard clients continue using the platform they already have for day-to-day schedule access. Scheduling Wizard handles the schedule creation and optimization, delivering the finished on call schedule as an Excel file that you upload directly into your existing viewing platform. The two tools serve different functions and are designed to complement each other.",
         "question": "Can Scheduling Wizard work alongside your existing platform?"
       },
       {
@@ -135,7 +135,7 @@
       "A chief resident looking for an automated solution to create on-call schedules that comply with ACGME regulations, so they can focus more on patient care rather than administrative tasks.",
       "A residency program director who needs a reliable system to generate on-call schedules efficiently while considering complex rules, avoiding the risk of scheduling conflicts that could surface at review for compliance and resident satisfaction.",
       "A program coordinator seeking an effective scheduling tool that can handle the unique requirements of on-call shifts while ensuring fairness among residents, as traditional methods often lead to overstaffing or gaps in coverage.",
-      "A fellowship administrator looking for a managed service for creating on-call rosters that integrates smoothly with existing tools your existing platform, because manual scheduling is too prone to error and consumes valuable time."
+      "A fellowship administrator looking for a managed service for creating on-call rosters that integrates smoothly with the tools you already use, because manual scheduling is too prone to error and consumes valuable time."
     ]
   },
   "seoMetadata": {

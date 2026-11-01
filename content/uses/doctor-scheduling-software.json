@@ -27,11 +27,11 @@
         "question": "What types of schedules does Scheduling Wizard generate?"
       },
       {
-        "answer": "Yes. Scheduling Wizard handles schedule creation and optimization, while many clients continue using your existing platform for day-to-day schedule viewing and display. The finished schedules are delivered as Excel files that are ready to upload directly into your existing viewing platform, so you do not need to change your current workflow for accessing schedules.",
+        "answer": "Yes. Scheduling Wizard handles schedule creation and optimization, while many clients continue using the platform they already have for day-to-day schedule access. The finished schedules are delivered as Excel files that are ready to upload directly into your existing viewing platform, so you do not need to change your current workflow for accessing schedules.",
         "question": "Can Scheduling Wizard work alongside your existing platform?"
       },
       {
-        "answer": "With most doctor scheduling software, annual chief turnover means starting from scratch. With Scheduling Wizard, your program's rules, rules, and scheduling configurations persist year over year within the managed service. Incoming chiefs inherit a fully operational, optimized system instead of rebuilding institutional knowledge from a blank spreadsheet.",
+        "answer": "With most doctor scheduling software, annual chief turnover means starting from scratch. With Scheduling Wizard, your program's rules, requests, and scheduling configurations persist year over year within the managed service. Incoming chiefs inherit a fully operational, optimized system instead of rebuilding institutional knowledge from a blank spreadsheet.",
         "question": "What happens to our scheduling setup when a new chief resident takes over?"
       },
       {
@@ -98,7 +98,7 @@
             "No annual knowledge reset",
             "New chiefs onboard instantly"
           ],
-          "description": "Your program's scheduling rules, rules, and configurations persist with Scheduling Wizard year over year. Incoming chiefs inherit a working, optimized system instead of a blank spreadsheet and institutional memory gaps."
+          "description": "Your program's scheduling rules, requests, and configurations persist with Scheduling Wizard year over year. Incoming chiefs inherit a working, optimized system instead of a blank spreadsheet and institutional memory gaps."
         }
       ],
       "title": "Built for the Complexity of Medical Scheduling",

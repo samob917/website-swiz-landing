@@ -15,7 +15,7 @@
     },
     "faq": [
       {
-        "answer": "An ACGME compliance checker is a tool or service that verifies whether a residency or fellowship schedule meets ACGME duty hour regulations before it is published. Scheduling Wizard goes further than traditional checkers by enforcing compliance mathematically at generation time. Rather than auditing a finished schedule and flagging violations, Our team builds the schedule around ACGME rules from the start, including the 80-hour weekly limit, 10-hour rest minimums, and subspecialty-specific requirements, so no violations exist when the schedule is delivered.",
+        "answer": "An ACGME compliance checker is a tool or service that verifies whether a residency or fellowship schedule meets ACGME duty hour regulations before it is published. Scheduling Wizard goes further than traditional checkers by enforcing compliance mathematically at generation time. Rather than auditing a finished schedule and flagging violations, our team builds the schedule around ACGME rules from the start, including the 80-hour weekly limit, 10-hour rest minimums, and subspecialty-specific requirements, so no violations exist when the schedule is delivered.",
         "question": "What is an ACGME compliance checker and how does it work?"
       },
       {
@@ -27,7 +27,7 @@
         "question": "What ACGME duty hour rules does our team enforce?"
       },
       {
-        "answer": "No. Scheduling Wizard operates as a managed service, not a self-service software platform. There is no client-facing tool to learn or operate. You submit your program's rules, and Scheduling Wizard delivers finished, ACGME-compliant schedules as ready-to-use Excel spreadsheets that your team can upload directly to your existing viewing tools your existing platform.",
+        "answer": "No. Scheduling Wizard operates as a managed service, not a self-service software platform. There is no client-facing tool to learn or operate. You submit your program's rules, and Scheduling Wizard delivers finished, ACGME-compliant schedules as ready-to-use Excel spreadsheets that your team can upload directly to your existing publishing platform.",
         "question": "Do I need to learn scheduling software to use this service?"
       },
       {

@@ -3,7 +3,7 @@
   "slug": "acgme-duty-hour-violations",
   "anchor": "ACGME Duty Hour Violations",
   "title": "ACGME Duty Hour Violations | Eliminate Risk",
-  "description": "ACGME duty hour violations put your programs exposed at review. Scheduling Wizard's managed service uses a proprietary engine to deliver mathematically enforced.",
+  "description": "ACGME duty hour violations put a program in a difficult spot at review. Scheduling Wizard builds the duty hour rules into the schedule itself.",
   "h1": "Eliminate ACGME Duty Hour Violations for Good",
   "paragraph": "Stop relying on manual checks and remove human error. Scheduling Wizard's managed service delivers ACGME-compliant schedules, mathematically enforced.",
   "category": "specialty",
@@ -19,7 +19,7 @@
         "question": "What are the most common ACGME duty hour violations in residency programs?"
       },
       {
-        "answer": "Scheduling Wizard prevents ACGME duty hour violations by enforcing compliance rules mathematically at schedule generation time through a proprietary a team that does this full time. Rather than producing a schedule and then checking it against duty hour rules, our team treats every ACGME regulation as a rules that cannot be broken that the schedule must satisfy before it is delivered. Subspecialty-specific rules are built into our team, so programs receive a finished, compliant schedule without any manual checking required.",
+        "answer": "Scheduling Wizard prevents ACGME duty hour violations by enforcing compliance rules mathematically at schedule generation time by a team that does this full time. Rather than producing a schedule and then checking it against duty hour rules, our team treats every ACGME regulation as a rule the schedule must satisfy before it is delivered. Subspecialty-specific rules are built into our team, so programs receive a finished, compliant schedule without any manual checking required.",
         "question": "How does Scheduling Wizard prevent ACGME duty hour violations?"
       },
       {
@@ -27,15 +27,15 @@
         "question": "What happens if a duty hour violation is found after a schedule is published?"
       },
       {
-        "answer": "Yes. Subspecialty-specific ACGME duty hour rules are built into Our team. ACGME compliance is the most common question asked during onboarding, and the service is designed to handle the nuances that vary across residency and fellowship programs. Programs should communicate their specific requirements during the rule submission process so our team can apply the correct rules for their specialty.",
+        "answer": "Yes. Subspecialty-specific ACGME duty hour rules are built into the schedule itself. ACGME compliance is the most common question asked during onboarding, and the service is designed to handle the nuances that vary across residency and fellowship programs. Programs should communicate their specific requirements during the rule submission process so our team can apply the correct rules for their specialty.",
         "question": "Does Scheduling Wizard know the ACGME rules for my specific subspecialty?"
       },
       {
-        "answer": "Schedules are delivered as ready-to-use Excel spreadsheets. Many Scheduling Wizard clients upload these finished files directly into your existing platform for day-to-day viewing and access. Scheduling Wizard handles the schedule creation and optimization, while your existing viewing platform handles display. There is no new software for your program to learn or operate.",
+        "answer": "Schedules are delivered as ready-to-use Excel spreadsheets. Many Scheduling Wizard clients upload these finished files directly into your existing platform for day-to-day viewing and access. Scheduling Wizard handles the schedule creation and optimization, while you publish it where you already do. There is no new software for your program to learn or operate.",
         "question": "How are schedules delivered and can we use them with your existing platform?"
       },
       {
-        "answer": "This is a common source of something that surfaces at review. When a chief resident rotates out, institutional knowledge about scheduling rules, rules, and past decisions typically leaves with them. Scheduling Wizard retains all program-specific rules and ACGME rules on its end, so incoming chiefs inherit a working, compliant system rather than rebuilding from scratch each year.",
+        "answer": "This is a common source of something that surfaces at review. When a chief resident rotates out, institutional knowledge about scheduling rules, requests, and past decisions typically leaves with them. Scheduling Wizard retains all program-specific rules and ACGME rules on its end, so incoming chiefs inherit a working, compliant system rather than rebuilding from scratch each year.",
         "question": "Who is responsible for scheduling when chief residents rotate annually?"
       }
     ],
@@ -127,7 +127,7 @@
       "description": "Scheduling Wizard is a done-for-you managed service. Submit your program's rules and receive finished, ACGME-compliant Block, Call, Clinic, and Attending schedules as ready-to-use Excel files. Duty hour compliance is mathematically enforced at generation time, not manually checked after the fact."
     },
     "metaTitle": "ACGME Duty Hour Violations | Eliminate Risk",
-    "metaDescription": "ACGME duty hour violations put your programs exposed at review. Scheduling Wizard's managed service uses a proprietary engine to deliver mathematically enforced."
+    "metaDescription": "ACGME duty hour violations put a program in a difficult spot at review. Scheduling Wizard builds the duty hour rules into the schedule itself."
   },
   "searchIntent": {
     "keyword": "ACGME duty hour violations",
@@ -142,7 +142,7 @@
     "h1": "Eliminate ACGME Duty Hour Violations for Good",
     "metaTitle": "ACGME Duty Hour Violations | Eliminate Risk",
     "h1Paragraph": "Stop relying on manual checks and remove human error. Scheduling Wizard's managed service delivers ACGME-compliant schedules, mathematically enforced.",
-    "metaDescription": "ACGME duty hour violations put your programs exposed at review. Scheduling Wizard's managed service uses a proprietary engine to deliver mathematically enforced."
+    "metaDescription": "ACGME duty hour violations put a program in a difficult spot at review. Scheduling Wizard builds the duty hour rules into the schedule itself."
   },
   "finalMetadata": {
     "slug": "duty-hour-violations",

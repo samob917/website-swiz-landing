@@ -15,7 +15,7 @@
     },
     "faq": [
       {
-        "answer": "Scheduling Wizard replaces QGenda for schedule creation and optimization, not for schedule viewing. Many Scheduling Wizard clients continue using QGenda as their day-to-day viewing and display platform; they simply upload the finished Excel schedule that Scheduling Wizard delivers. The key distinction is that Scheduling Wizard handles the complex work of building and optimizing the schedule, while QGenda serves as the viewer.",
+        "answer": "Scheduling Wizard replaces QGenda for schedule creation and optimization, not for schedule viewing. Many Scheduling Wizard clients continue using QGenda as their day-to-day publishing platform; they simply upload the finished Excel schedule that Scheduling Wizard delivers. The key distinction is that Scheduling Wizard handles the complex work of building and optimizing the schedule, while QGenda serves as the publishing platform.",
         "question": "Is Scheduling Wizard a replacement for QGenda?"
       },
       {
@@ -31,7 +31,7 @@
         "question": "Do chief residents need to learn new software to use Scheduling Wizard?"
       },
       {
-        "answer": "Subspecialty-specific ACGME rules are built directly into Our team. During sales calls, ACGME compliance is consistently the first question program directors and chiefs ask, and specifically whether our team knows the rules for their subspecialty. Scheduling Wizard's engine is built to handle those subspecialty distinctions rather than applying generic duty hour rules across all programs.",
+        "answer": "Subspecialty-specific ACGME rules are built into the schedule itself. During sales calls, ACGME compliance is consistently the first question program directors and chiefs ask, and specifically whether our team knows the rules for their subspecialty. Our team works from those subspecialty distinctions rather than applying generic duty hour rules across all programs.",
         "question": "How does Scheduling Wizard handle subspecialty-specific ACGME rules?"
       },
       {
@@ -76,7 +76,7 @@
             "No annual software retraining",
             "New chiefs start with a working system"
           ],
-          "description": "Your program's scheduling rules, rules, and configurations live with Scheduling Wizard permanently. When your chief residents rotate, incoming chiefs inherit a working, optimized system instead of a blank spreadsheet."
+          "description": "Your program's scheduling rules, requests, and configurations live with Scheduling Wizard permanently. When your chief residents rotate, incoming chiefs inherit a working, optimized system instead of a blank spreadsheet."
         },
         {
           "id": "block-scheduling",

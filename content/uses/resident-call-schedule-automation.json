@@ -23,7 +23,7 @@
         "question": "How does Scheduling Wizard enforce ACGME call schedule compliance?"
       },
       {
-        "answer": "Yes. Subspecialty-specific ACGME rules are built directly into Our team. ACGME compliance, including specialty-specific call rules, is the most common question asked on sales calls, and it is the area our team was built to address with precision. Programs can also submit any additional program-specific rules as part of their rule submission.",
+        "answer": "Yes. Subspecialty-specific ACGME rules are built into the schedule itself. ACGME compliance, including specialty-specific call rules, is the most common question asked on sales calls, and it is the area our team was built to address with precision. Programs can also submit any additional program-specific rules as part of their rule submission.",
         "question": "Does Scheduling Wizard know my subspecialty's specific ACGME call rules?"
       },
       {
@@ -31,11 +31,11 @@
         "question": "How is Scheduling Wizard different from self-service call scheduling software?"
       },
       {
-        "answer": "Yes, and many programs do. Scheduling Wizard handles schedule creation and optimization, then delivers finished schedules as Excel files that your program can upload directly to whatever platform you already useor day-to-day schedule access. Scheduling Wizard replaces the schedule building process, not your existing display and communication tools.",
+        "answer": "Yes, and many programs do. Scheduling Wizard handles schedule creation and optimization, then delivers finished schedules as Excel files that your program can upload directly to whatever platform you already use for day-to-day schedule access. Scheduling Wizard replaces the schedule building process, not your existing publishing and communication tools.",
         "question": "Can I still use your existing platform alongside Scheduling Wizard?"
       },
       {
-        "answer": "Programs submit their scheduling rules, including ACGME duty hour requirements, subspecialty-specific call rules, resident preferences (vacation, conferences, moonlighting), coverage minimums, and any program-specific rules. Scheduling Wizard's team and engine translate these inputs into a finished, optimized call schedule delivered as a ready-to-use Excel file.",
+        "answer": "Programs submit their scheduling rules, including ACGME duty hour requirements, subspecialty-specific call rules, resident preferences (vacation, conferences, moonlighting), coverage minimums, and any program-specific rules. Scheduling Wizard's team turns these inputs into a finished, optimized call schedule delivered as a ready-to-use Excel file.",
         "question": "What information does my program need to submit to get a call schedule?"
       }
     ],
@@ -87,7 +87,7 @@
             "New chiefs onboard instantly",
             "Rules retained year over year"
           ],
-          "description": "Your program's scheduling rules, rules, and configurations are retained by Scheduling Wizard across annual chief rotations. Incoming chiefs inherit a working, optimized system instead of starting from scratch each year."
+          "description": "Your program's scheduling rules, requests, and configurations are retained by Scheduling Wizard across annual chief rotations. Incoming chiefs inherit a working, optimized system instead of starting from scratch each year."
         },
         {
           "id": "fairness-optimization",
@@ -134,7 +134,7 @@
     "searchIntents": [
       "As a chief resident, I need an automated scheduling tool that can create compliant call schedules for our residency program without me having to learn complicated software.",
       "I'm a program director looking for a managed service that enforces ACGME rules when the schedule is built in our call scheduling to avoid penalties and ensure fairness among residents.",
-      "As a program coordinator, I'm overwhelmed with the complexity of our current scheduling processes and need an automated solution that integrates with our existing tools your existing platform.",
+      "As a program coordinator, I'm overwhelmed with the complexity of our current scheduling processes and need an automated solution that integrates with the tools you already use.",
       "In my private practice, I'm seeking a reliable call schedule automation tool that can accommodate specific subspecialty rules while minimizing the administrative burden on our team."
     ]
   },

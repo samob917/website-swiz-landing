@@ -27,7 +27,7 @@
         "question": "How is on-call burden distributed fairly across residents?"
       },
       {
-        "answer": "Most scheduling tools are self-service platforms that require chief residents to learn and operate the software themselves. Scheduling Wizard is a managed service, programs submit their rules and receive finished schedules back as Excel files, with no software to install or learn. Expert schedulers and a proprietary a team that does this full time handle the complexity. Programs can still upload the finished schedules to your existing platform for day-to-day viewing.",
+        "answer": "Most scheduling tools are self-service platforms that require chief residents to learn and operate the software themselves. Scheduling Wizard is a managed service, programs submit their rules and receive finished schedules back as Excel files, with no software to install or learn. Our schedulers handle the complexity. Programs can still upload the finished schedules to your existing platform for day-to-day viewing.",
         "question": "What makes Scheduling Wizard different from self-service scheduling software?"
       },
       {
@@ -35,7 +35,7 @@
         "question": "Can Scheduling Wizard handle mid-year changes to the on call schedule?"
       },
       {
-        "answer": "When chiefs change annually, scheduling knowledge typically disappears with them. With Scheduling Wizard, your program's rules, rules, and scheduling configurations are retained by the service year over year. Incoming chief residents inherit a working, optimized on-call scheduling system instead of rebuilding everything from scratch each year.",
+        "answer": "When chiefs change annually, scheduling knowledge typically disappears with them. With Scheduling Wizard, your program's rules, requests, and scheduling configurations are retained by the service year over year. Incoming chief residents inherit a working, optimized on-call scheduling system instead of rebuilding everything from scratch each year.",
         "question": "How does institutional knowledge persist when chief residents rotate annually?"
       }
     ],
@@ -87,7 +87,7 @@
             "No annual rebuilding required",
             "New chiefs onboard instantly"
           ],
-          "description": "Your program's rules, rules, and scheduling logic stay with Scheduling Wizard year over year. Incoming chiefs inherit a working, optimized on-call system instead of starting from scratch with a blank spreadsheet."
+          "description": "Your program's rules, requests, and scheduling logic stay with Scheduling Wizard year over year. Incoming chiefs inherit a working, optimized on-call system instead of starting from scratch with a blank spreadsheet."
         },
         {
           "id": "resident-preferences",

@@ -15,11 +15,11 @@
     },
     "faq": [
       {
-        "answer": "Amion is a schedule viewing and display platform, while Scheduling Wizard is a managed service that creates and optimizes the schedule itself. Many Scheduling Wizard clients continue using Amion to display their finished schedules day-to-day. The difference is in schedule creation: Our team builds your compliant Block, Call, Clinic, and Attending schedules from your rules, then delivers them as Excel files you can upload directly to your existing platform.",
+        "answer": "Amion is a schedule publishing platform, while Scheduling Wizard is a managed service that creates and optimizes the schedule itself. Many Scheduling Wizard clients continue using Amion to publish their finished schedules day-to-day. The difference is in schedule creation: Our team builds your compliant Block, Call, Clinic, and Attending schedules from your rules, then delivers them as Excel files you can upload directly to your existing platform.",
         "question": "What makes Scheduling Wizard different from Amion?"
       },
       {
-        "answer": "No. Scheduling Wizard and Amion serve different functions and work together. Scheduling Wizard handles schedule creation and optimization. Your finished schedules are delivered as Excel spreadsheets that you can upload to your existing platform for day-to-day staff viewing, exactly as you do today. You keep your existing Amion workflow for display while Scheduling Wizard handles the complex build.",
+        "answer": "No. Scheduling Wizard and Amion serve different functions and work together. Scheduling Wizard handles schedule creation and optimization. Your finished schedules are delivered as Excel spreadsheets that you can upload to your existing platform for day-to-day staff viewing, exactly as you do today. You keep your existing Amion workflow for publishing while Scheduling Wizard handles the build.",
         "question": "Do I have to stop using Amion if I work with Scheduling Wizard?"
       },
       {
@@ -27,11 +27,11 @@
         "question": "How does Scheduling Wizard ensure ACGME compliance during schedule creation?"
       },
       {
-        "answer": "Scheduling Wizard operates as a fully managed service, meaning your program does not need to operate any scheduling software. You submit your rules, rotation requirements, resident preferences, and ACGME rules. Scheduling Wizard's engine and expert team handle the optimization and deliver finished, ready-to-publish schedules as Excel files. Chief residents are not required to learn or use any new platform.",
+        "answer": "Scheduling Wizard operates as a fully managed service, meaning your program does not need to operate any scheduling software. You submit your rules, rotation requirements, resident preferences, and ACGME rules. Scheduling Wizard's team handle the optimization and deliver finished, ready-to-publish schedules as Excel files. Chief residents are not required to learn or use any new platform.",
         "question": "Who actually builds the schedule with Scheduling Wizard?"
       },
       {
-        "answer": "Scheduling Wizard generates Block (rotation), Call, Clinic, and Attending schedules. These are optimized simultaneously so that changes in one schedule automatically reflect across the others, eliminating the cross-schedule conflicts that arise when each schedule is built in isolation. Finished schedules are delivered as Excel spreadsheets compatible with your existing platform, and other viewing tools.",
+        "answer": "Scheduling Wizard generates Block (rotation), Call, Clinic, and Attending schedules. These are optimized simultaneously so that changes in one schedule automatically reflect across the others, eliminating the cross-schedule conflicts that arise when each schedule is built in isolation. Finished schedules are delivered as Excel spreadsheets compatible with your existing platform, and other publishing platforms.",
         "question": "What types of schedules does Scheduling Wizard generate?"
       },
       {
@@ -102,13 +102,13 @@
         }
       ],
       "title": "What Scheduling Wizard Handles That Amion Does Not",
-      "description": "Amion is built for schedule display. Scheduling Wizard is built for schedule creation, optimization, and ACGME compliance enforcement."
+      "description": "Amion is built to publish the schedule. Scheduling Wizard is built for schedule creation, optimization, and ACGME compliance enforcement."
     },
     "problems": {
       "items": [
         {
           "title": "Schedule Building Falls on Chiefs",
-          "description": "Amion is a viewing tool, not a builder. Someone still has to create every rotation, call, and clinic schedule from scratch each year."
+          "description": "Amion is a publishing platform, not a builder. Someone still has to create every rotation, call, and clinic schedule from scratch each year."
         },
         {
           "title": "ACGME Rules Are Manually Checked",

@@ -27,7 +27,7 @@
         "question": "What types of EM schedules does Scheduling Wizard generate?"
       },
       {
-        "answer": "Yes. Many Scheduling Wizard clients use your existing platform for day-to-day schedule viewing. Scheduling Wizard handles the schedule creation and optimization, and the finished Excel file can be uploaded directly into whatever platform you already use. The two tools serve different functions and work well alongside each other.",
+        "answer": "Yes. Many Scheduling Wizard clients use the platform they already have for day-to-day schedule viewing. Scheduling Wizard handles the schedule creation and optimization, and the finished Excel file can be uploaded directly into whatever platform you already use. The two tools serve different functions and work well alongside each other.",
         "question": "Can Scheduling Wizard integrate with your existing platform?"
       },
       {
@@ -135,7 +135,7 @@
       "As a chief resident in emergency medicine, I need a scheduling solution that understands our unique ACGME compliance requirements and can generate optimized rotations without me having to learn any complex software.",
       "I'm a residency program director looking for a managed service that can handle the complexities of our emergency medicine scheduling while ensuring there are no gaps or overstaffing, unlike generic scheduling tools.",
       "As a program coordinator in an emergency department, I want a scheduling system that can quickly adapt to sudden changes in resident availability and still maintain compliance with ACGME duty hour regulations.",
-      "I'm interested in a scheduling software that can integrate with our existing tools your existing platform and eliminate the administrative burden on our chief residents by providing ACGME-compliant schedules ready for use."
+      "I'm interested in a scheduling software that can integrate with the tools you already use and eliminate the administrative burden on our chief residents by providing ACGME-compliant schedules ready for use."
     ]
   },
   "seoMetadata": {

@@ -15,15 +15,15 @@
     },
     "faq": [
       {
-        "answer": "ACGME duty hour rules set maximum working time limits for resident physicians to protect patient safety and resident well-being. Core requirements include an 80-hour weekly limit averaged over four weeks, a minimum of 10 hours off between shifts, and a 24-hour cap on continuous duty for PGY-2 residents and above. Rules vary by specialty and are updated periodically. Scheduling Wizard's compliance engine has subspecialty-specific rules built in and enforces them mathematically at schedule generation time.",
+        "answer": "ACGME duty hour rules set maximum working time limits for resident physicians to protect patient safety and resident well-being. Core requirements include an 80-hour weekly limit averaged over four weeks, a minimum of 10 hours off between shifts, and a 24-hour cap on continuous duty for PGY-2 residents and above. Rules vary by specialty and are updated periodically. We build the subspecialty-specific rules in and hold to them mathematically at schedule generation time.",
         "question": "What are the ACGME duty hour rules for residents?"
       },
       {
-        "answer": "Scheduling Wizard enforces ACGME duty hour rules mathematically during schedule generation, violations are prevented, not detected after the fact. Rather than building a schedule and then checking it for compliance, Our team treats every duty hour requirement as a rules that cannot be broken that cannot be violated. This means the finished schedule delivered to your program is compliant at the moment it is generated, including subspecialty-specific rules relevant to your program.",
+        "answer": "Scheduling Wizard enforces ACGME duty hour rules mathematically during schedule generation, violations are prevented, not detected after the fact. Rather than building a schedule and then checking it for compliance, our team treats every duty hour requirement as a rule that cannot be broken that cannot be violated. This means the finished schedule delivered to your program is compliant at the moment it is generated, including subspecialty-specific rules relevant to your program.",
         "question": "How does Scheduling Wizard enforce ACGME duty hour compliance?"
       },
       {
-        "answer": "When ACGME updates its duty hour regulations, Scheduling Wizard updates its compliance engine accordingly. Because the managed service model means programs are not operating software themselves, rule updates are absorbed by Scheduling Wizard rather than requiring chief residents or coordinators to reconfigure their own system.",
+        "answer": "When ACGME updates its duty hour regulations, we update the rules we build from. Because the managed service model means programs are not operating software themselves, rule updates are absorbed by Scheduling Wizard rather than requiring chief residents or coordinators to reconfigure their own system.",
         "question": "What happens when ACGME duty hour rules change?"
       },
       {
@@ -31,12 +31,12 @@
         "question": "What ACGME duty hour violations put a program exposed at review?"
       },
       {
-        "answer": "While all ACGME-accredited programs share core duty hour requirements, subspecialties have additional or modified rules, for example, surgery programs have specific requirements around trauma call pyramids and back-up call coverage, while pediatrics programs have their own home call requirements. Scheduling Wizard's compliance engine has subspecialty-specific ACGME rules built in, so your schedule reflects the rules that actually apply to your program rather than a one-size-fits-all interpretation.",
+        "answer": "While all ACGME-accredited programs share core duty hour requirements, subspecialties have additional or modified rules, for example, surgery programs have specific requirements around trauma call pyramids and back-up call coverage, while pediatrics programs have their own home call requirements. We build the subspecialty-specific ACGME rules in, so your schedule reflects the rules that actually apply to your program rather than a one-size-fits-all interpretation.",
         "question": "How do subspecialty ACGME duty hour rules differ across programs?"
       },
       {
-        "answer": "Yes. Scheduling Wizard delivers finished, ACGME-compliant schedules as Excel spreadsheets, which programs can upload directly to whatever platform you already use for day-to-day viewing and access. Many current Scheduling Wizard clients use this exact workflow. Scheduling Wizard handles the schedule creation and optimization, while your existing platform serves as the display and communication layer your team is already familiar with.",
-        "question": "Can Scheduling Wizard work with our existing your existing platform system?"
+        "answer": "Yes. Scheduling Wizard delivers finished, ACGME-compliant schedules as Excel spreadsheets, which programs can upload directly to whatever platform you already use for day-to-day viewing and access. Many current Scheduling Wizard clients use this exact workflow. Scheduling Wizard handles the schedule creation and optimization, while the platform you already use serves as the publishing and access layer your team is already familiar with.",
+        "question": "Can Scheduling Wizard work with our Amion system?"
       }
     ],
     "hero": {

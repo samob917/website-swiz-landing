@@ -27,15 +27,15 @@
         "question": "What types of schedules does Scheduling Wizard produce for IM programs?"
       },
       {
-        "answer": "Your program's rules, rules, and configurations persist with Scheduling Wizard year over year. When a new chief resident takes over, they inherit a fully working, optimized system rather than starting from a blank spreadsheet. This institutional continuity is one of the core reasons programs choose Scheduling Wizard over self-service software.",
+        "answer": "Your program's rules, requests, and configurations persist with Scheduling Wizard year over year. When a new chief resident takes over, they inherit a fully working, optimized system rather than starting from a blank spreadsheet. This institutional continuity is one of the core reasons programs choose Scheduling Wizard over self-service software.",
         "question": "What happens to our scheduling setup when our chief resident changes?"
       },
       {
-        "answer": "Yes. Many Scheduling Wizard clients use your existing platform alongside the service. Scheduling Wizard handles schedule creation and optimization, delivering finished schedules as Excel files. Programs then upload those files to their existing your existing platform accounts for day-to-day viewing and access. There is no conflict between the two.",
+        "answer": "Yes. Many Scheduling Wizard clients use the platform they already have alongside the service. Scheduling Wizard handles schedule creation and optimization, delivering finished schedules as Excel files. Programs then upload those files to their Amion accounts for day-to-day viewing and access. There is no conflict between the two.",
         "question": "Can Scheduling Wizard integrate with your existing platform for schedule viewing?"
       },
       {
-        "answer": "The process has three steps. First, you submit your program's rules, rotation requirements, ACGME rules, resident preferences, call fairness targets, and clinic assignments. Second, Our team builds your complete, compliant schedule. Third, you receive a finished Excel file ready to review, approve, and publish. No software to learn, no manual optimization required.",
+        "answer": "The process has three steps. First, you submit your program's rules, rotation requirements, ACGME rules, resident preferences, call fairness targets, and clinic assignments. Second, our team builds your complete, compliant schedule. Third, you receive a finished Excel file ready to review, approve, and publish. No software to learn, no manual optimization required.",
         "question": "How does the internal medicine residency scheduling process work with Scheduling Wizard?"
       }
     ],
@@ -87,7 +87,7 @@
             "Rules preserved across chief rotations",
             "New chiefs onboard instantly"
           ],
-          "description": "Your internal medicine program's rules, rules, and configurations stay with Scheduling Wizard. Incoming chiefs inherit a fully optimized, working system instead of starting from scratch with a blank spreadsheet each academic year."
+          "description": "Your internal medicine program's rules, requests, and configurations stay with Scheduling Wizard. Incoming chiefs inherit a fully optimized, working system instead of starting from scratch with a blank spreadsheet each academic year."
         },
         {
           "id": "managed-service",
@@ -98,7 +98,7 @@
             "Delivered as ready-to-use Excel files",
             "Works with your existing platform"
           ],
-          "description": "Scheduling Wizard is not software your chief residents have to learn. Submit your rules and receive finished IM schedules as Excel files, ready to review, approve, and upload to your existing viewing tools."
+          "description": "Scheduling Wizard is not software your chief residents have to learn. Submit your rules and receive finished IM schedules as Excel files, ready to review, approve, and upload to your existing publishing platform."
         }
       ],
       "title": "Built for Internal Medicine Scheduling",

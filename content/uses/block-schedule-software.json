@@ -27,11 +27,11 @@
         "question": "Why do chief residents struggle with building block schedules each year?"
       },
       {
-        "answer": "Yes. Scheduling Wizard handles block schedule creation and optimization, while your existing platform are used by many of the same programs for day-to-day schedule viewing and display. Finished schedules are delivered as Excel files that your program can upload directly to whichever viewing platform you already use. Scheduling Wizard and your existing viewing tools are complementary, not mutually exclusive.",
+        "answer": "Yes. Scheduling Wizard handles block schedule creation and optimization, while many of the same programs use their existing platform for day-to-day schedule access. Finished schedules are delivered as Excel files that your program can upload directly to whichever viewing platform you already use. Scheduling Wizard and your existing publishing platform are complementary, not mutually exclusive.",
         "question": "Can Scheduling Wizard work alongside your existing platform?"
       },
       {
-        "answer": "Scheduling Wizard produces Block/Rotation schedules, Call schedules, Clinic schedules, and Attending schedules. All schedule types are optimized simultaneously using a proprietary rule-solving engine, so a change in one schedule type automatically resolves dependencies in the others. Finished schedules are delivered as Excel spreadsheets ready for immediate use.",
+        "answer": "Scheduling Wizard produces Block/Rotation schedules, Call schedules, Clinic schedules, and Attending schedules. All schedule types are built together, so a change in one schedule type automatically resolves dependencies in the others. Finished schedules are delivered as Excel spreadsheets ready for immediate use.",
         "question": "What types of schedules does Scheduling Wizard produce for residency programs?"
       },
       {
@@ -76,7 +76,7 @@
             "New chiefs onboard instantly",
             "No lost institutional knowledge"
           ],
-          "description": "Your program's scheduling rules, rules, and configurations stay with Scheduling Wizard year over year. Incoming chief residents inherit a working, optimized block schedule system instead of starting from a blank spreadsheet."
+          "description": "Your program's scheduling rules, requests, and configurations stay with Scheduling Wizard year over year. Incoming chief residents inherit a working, optimized block schedule system instead of starting from a blank spreadsheet."
         },
         {
           "id": "managed-service",

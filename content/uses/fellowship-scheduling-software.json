@@ -23,19 +23,19 @@
         "question": "Is Scheduling Wizard compliant with ACGME fellowship duty hour requirements?"
       },
       {
-        "answer": "Subspecialty-specific ACGME rules are built directly into Scheduling Wizard's rule-solving engine. Rather than applying a one-size-fits-all compliance check, our team knows the particular duty hour and rotation requirements that apply to your fellowship's subspecialty and enforces them during schedule generation. This is one of the most critical capabilities for fellowship programs, where rules can differ significantly from categorical residency requirements.",
+        "answer": "Subspecialty-specific ACGME rules are built directly into the way we build your schedule. Rather than applying a one-size-fits-all compliance check, our team knows the particular duty hour and rotation requirements that apply to your fellowship's subspecialty and enforces them during schedule generation. This is one of the most critical capabilities for fellowship programs, where rules can differ significantly from categorical residency requirements.",
         "question": "How does Scheduling Wizard handle subspecialty-specific ACGME fellowship rules?"
       },
       {
-        "answer": "Scheduling Wizard generates Block rotation schedules, Call schedules with fairness optimization, Clinic schedules, and Attending schedules. All four schedule types are optimized simultaneously using a proprietary mathematical engine, so that changes in one schedule type are automatically resolved across the others. Finished schedules are delivered as Excel files that programs can upload to their existing viewing tools your existing platform.",
+        "answer": "Scheduling Wizard generates Block rotation schedules, Call schedules with fairness optimization, Clinic schedules, and Attending schedules. All four schedule types are built together, so that changes in one schedule type are automatically resolved across the others. Finished schedules are delivered as Excel files that programs can upload to their existing publishing platform.",
         "question": "What types of fellowship schedules does Scheduling Wizard generate?"
       },
       {
-        "answer": "With traditional fellowship scheduling software or manual Excel processes, institutional scheduling knowledge is lost when a chief fellow rotates out. Scheduling Wizard retains your program's rules, rules, and scheduling configurations from year to year. New chief fellows inherit a fully working, optimized system instead of starting from scratch, which eliminates one of the most disruptive annual transitions in fellowship program administration.",
+        "answer": "With traditional fellowship scheduling software or manual Excel processes, institutional scheduling knowledge is lost when a chief fellow rotates out. Scheduling Wizard retains your program's rules, requests, and scheduling configurations from year to year. New chief fellows inherit a fully working, optimized system instead of starting from scratch, which eliminates one of the most disruptive annual transitions in fellowship program administration.",
         "question": "What happens to our fellowship scheduling setup when a new chief fellow takes over?"
       },
       {
-        "answer": "Yes, and many Scheduling Wizard clients use exactly this setup. Scheduling Wizard handles schedule creation and optimization, producing finished Excel files. Programs then upload those files to your existing platform for day-to-day schedule viewing and access. Scheduling Wizard is designed to complement existing viewing tools rather than replace them, so there is no disruption to how your fellows and attendings check their schedules.",
+        "answer": "Yes, and many Scheduling Wizard clients use exactly this setup. Scheduling Wizard handles schedule creation and optimization, producing finished Excel files. Programs then upload those files to your existing platform for day-to-day schedule viewing and access. Scheduling Wizard is designed to complement existing publishing platforms rather than replace them, so there is no disruption to how your fellows and attendings check their schedules.",
         "question": "Can Scheduling Wizard work alongside your existing platform for our fellowship program?"
       }
     ],
@@ -54,7 +54,7 @@
             "Violations prevented at generation",
             "Kept current with ACGME updates"
           ],
-          "description": "Fellowship programs face subspecialty-specific ACGME duty hour rules that differ from categorical residency programs. Scheduling Wizard's engine enforces these rules at generation time, violations are prevented, not discovered after publishing."
+          "description": "Fellowship programs face subspecialty-specific ACGME duty hour rules that differ from categorical residency programs. We hold to these rules as the schedule is built, violations are prevented, not discovered after publishing."
         },
         {
           "id": "managed-service",
@@ -76,7 +76,7 @@
             "No annual retraining required",
             "New chiefs start informed"
           ],
-          "description": "Fellowship programs lose critical scheduling knowledge every time a chief fellow rotates out. Scheduling Wizard retains your program's rules and rules year over year so new chiefs inherit a working system instead of a blank spreadsheet."
+          "description": "Fellowship programs lose critical scheduling knowledge every time a chief fellow rotates out. Scheduling Wizard retains your program's rules and requests year over year so new chiefs inherit a working system instead of a blank spreadsheet."
         },
         {
           "id": "block-scheduling",

@@ -15,7 +15,7 @@
     },
     "faq": [
       {
-        "answer": "Attending physician scheduling software automates the creation and optimization of faculty coverage schedules for residency and fellowship programs. Scheduling Wizard takes this a step further by operating as a fully managed service; your program submits its rules, and Our team generates finished, ACGME-compliant attending schedules delivered as Excel spreadsheets. There is no platform for your team to log into or learn.",
+        "answer": "Attending physician scheduling software automates the creation and optimization of faculty coverage schedules for residency and fellowship programs. Scheduling Wizard takes this a step further by operating as a fully managed service; your program submits its rules, and our team generates finished, ACGME-compliant attending schedules delivered as Excel spreadsheets. There is no platform for your team to log into or learn.",
         "question": "What is attending physician scheduling software and how does it work?"
       },
       {
@@ -23,15 +23,15 @@
         "question": "How does Scheduling Wizard ensure ACGME compliance for attending schedules?"
       },
       {
-        "answer": "Scheduling Wizard handles schedule creation and optimization, while your existing platform are used for day-to-day schedule viewing and display. Many Scheduling Wizard clients continue using your existing platform alongside the service. SW builds the optimized attending schedule, and programs upload the finished Excel file to their existing viewing tool.",
-        "question": "Does Scheduling Wizard replace your existing platform for attending scheduling?"
+        "answer": "Scheduling Wizard handles schedule creation and optimization, while the platform you already use handles day-to-day schedule access. Many Scheduling Wizard clients continue using the platform they already have alongside the service. SW builds the optimized attending schedule, and programs upload the finished Excel file to their existing publishing platform.",
+        "question": "Does Scheduling Wizard replace the platform we use now for attending scheduling?"
       },
       {
         "answer": "Self-service scheduling software requires someone on your team to learn, operate, and maintain a complex tool year after year. With a managed service like Scheduling Wizard, your program submits rules and receives finished attending schedules. There is no software to learn, no annual retraining when chiefs rotate, and no institutional knowledge lost when a chief leaves.",
         "question": "Why is a managed service better than self-service scheduling software for attendings?"
       },
       {
-        "answer": "Subspecialty-specific ACGME rules are built directly into Our team. Rather than applying generic compliance logic, our team accounts for the specific duty hour requirements, call structures, and coverage mandates relevant to your program's subspecialty, ensuring the attending schedules it delivers are appropriate for your accreditation context.",
+        "answer": "Subspecialty-specific ACGME rules are built into the schedule itself. Rather than applying generic compliance logic, our team accounts for the specific duty hour requirements, call structures, and coverage mandates relevant to your program's subspecialty, ensuring the attending schedules it delivers are appropriate for your accreditation context.",
         "question": "How does Scheduling Wizard handle subspecialty-specific attending scheduling rules?"
       },
       {
@@ -54,7 +54,7 @@
             "Aligned with resident assignments",
             "Program-specific rules enforced"
           ],
-          "description": "Scheduling Wizard extends its mathematical a team that does this full time to attending and faculty schedules, ensuring coverage aligns with resident assignments, site requirements, and program-specific rules without manual coordination."
+          "description": "Scheduling Wizard extends the same approach to attending and faculty schedules, ensuring coverage aligns with resident assignments, site requirements, and program-specific rules without manual coordination."
         },
         {
           "id": "acgme-compliance",
@@ -87,7 +87,7 @@
             "No annual rebuilding required",
             "New chiefs onboard instantly"
           ],
-          "description": "Your attending scheduling rules, rules, and configurations stay with Scheduling Wizard across annual chief rotations. New chiefs inherit a working, optimized system instead of starting from a blank spreadsheet."
+          "description": "Your attending scheduling rules, requests, and configurations stay with Scheduling Wizard across annual chief rotations. New chiefs inherit a working, optimized system instead of starting from a blank spreadsheet."
         },
         {
           "id": "fairness-optimization",
@@ -135,7 +135,7 @@
       "A residency program director looking for a reliable way to create compliant and optimized attending schedules that adhere to ACGME guidelines without burdening chief residents with complicated software.",
       "A chief resident overwhelmed with scheduling tasks, needing a solution that can automate the creation of attending schedules while ensuring all shifts are filled fairly and without conflicts.",
       "A program coordinator seeking a done-for-you service that can handle the intricacies of attending physician scheduling, including specific subspecialty rules, to reduce the administrative load on staff.",
-      "A private practice administrator searching for an efficient scheduling solution that not only meets ACGME compliance but also integrates cleanly with existing viewing tools your existing platform."
+      "A private practice administrator searching for an efficient scheduling solution that not only meets ACGME compliance but also integrates cleanly with existing publishing platform."
     ]
   },
   "seoMetadata": {

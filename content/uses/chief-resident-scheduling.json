@@ -23,11 +23,11 @@
         "question": "How does Scheduling Wizard handle ACGME duty hour compliance for chief residents?"
       },
       {
-        "answer": "No. Scheduling Wizard is a managed service, not self-service software. Chief residents submit their program's rules and receive finished schedules as ready-to-use Excel files. There is no platform to log into, no interface to learn, and no onboarding burden. The Excel outputs can be uploaded directly to existing viewing tools your existing platform.",
+        "answer": "No. Scheduling Wizard is a managed service, not self-service software. Chief residents submit their program's rules and receive finished schedules as ready-to-use Excel files. There is no platform to log into, no interface to learn, and no onboarding burden. The Excel outputs can be uploaded directly to existing publishing platform.",
         "question": "Do chief residents need to learn new software to use Scheduling Wizard?"
       },
       {
-        "answer": "With traditional spreadsheet-based scheduling, institutional knowledge is lost every time chiefs rotate. Scheduling Wizard retains your program's rules, rules, and scheduling configuration year over year. When a new chief starts, they inherit a fully built, optimized system rather than beginning from a blank spreadsheet, eliminating the ramp-up burden that typically comes with each annual transition.",
+        "answer": "With traditional spreadsheet-based scheduling, institutional knowledge is lost every time chiefs rotate. Scheduling Wizard retains your program's rules, requests, and scheduling configuration year over year. When a new chief starts, they inherit a fully built, optimized system rather than beginning from a blank spreadsheet, eliminating the ramp-up burden that typically comes with each annual transition.",
         "question": "What happens to scheduling knowledge when a new chief resident takes over?"
       },
       {
@@ -35,7 +35,7 @@
         "question": "What types of schedules does Scheduling Wizard generate for residency programs?"
       },
       {
-        "answer": "Yes. Subspecialty-specific ACGME rules are built directly into Our team. This is the most common question asked during program evaluations, and it is a core design requirement of the service. Programs can also submit custom rules via Scheduling Wizard's proprietary the way we write down your rules language to capture rules unique to their site or program structure.",
+        "answer": "Yes. Subspecialty-specific ACGME rules are built into the schedule itself. This is the most common question asked during program evaluations, and it is a core design requirement of the service. Programs can also submit custom rules via Scheduling Wizard's proprietary the way we write down your rules language to capture rules unique to their site or program structure.",
         "question": "Can Scheduling Wizard handle my program's subspecialty-specific ACGME rules?"
       }
     ],
@@ -76,7 +76,7 @@
             "No annual knowledge rebuild",
             "New chiefs start with a working system"
           ],
-          "description": "Your program's rules, rules, and scheduling history stay with Scheduling Wizard year over year. Incoming chiefs inherit a fully working, optimized system instead of rebuilding from scratch each cycle."
+          "description": "Your program's rules, requests, and scheduling history stay with Scheduling Wizard year over year. Incoming chiefs inherit a fully working, optimized system instead of rebuilding from scratch each cycle."
         },
         {
           "id": "call-scheduling",

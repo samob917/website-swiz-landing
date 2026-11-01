@@ -19,19 +19,19 @@
         "question": "What is physician scheduling software and how does Scheduling Wizard differ?"
       },
       {
-        "answer": "ACGME duty hour compliance is mathematically enforced at the point of schedule generation, not manually reviewed afterward. our team applies the 80-hour weekly limit, minimum rest requirements, the 24-hour hard cap, and subspecialty-specific ACGME rules relevant to your program. Because compliance is built into Our team itself, violations are structurally prevented before the schedule is ever delivered to your program.",
+        "answer": "ACGME duty hour compliance is mathematically enforced at the point of schedule generation, not manually reviewed afterward. our team applies the 80-hour weekly limit, minimum rest requirements, the 24-hour hard cap, and subspecialty-specific ACGME rules relevant to your program. Because compliance is built into the schedule itself, violations are structurally prevented before the schedule is ever delivered to your program.",
         "question": "How does Scheduling Wizard ensure ACGME compliance in physician schedules?"
       },
       {
-        "answer": "Scheduling Wizard delivers four types of schedules: Block and rotation schedules, Call schedules with fairness optimization, Clinic schedules, and Attending physician schedules. All schedule types are optimized simultaneously using a proprietary rule-solving engine, so changes in one schedule automatically propagate across the others without manual cross-referencing.",
+        "answer": "Scheduling Wizard delivers four types of schedules: Block and rotation schedules, Call schedules with fairness optimization, Clinic schedules, and Attending physician schedules. All schedule types are built together, so changes in one schedule automatically propagate across the others without manual cross-referencing.",
         "question": "What types of physician schedules does Scheduling Wizard produce?"
       },
       {
-        "answer": "Yes. Many Scheduling Wizard clients continue using your existing platform for day-to-day schedule viewing and display. Scheduling Wizard handles the schedule creation and optimization, delivering finished schedules as Excel files that your team can upload directly into your existing viewing platform. The two workflows are complementary, not mutually exclusive.",
-        "question": "Can Scheduling Wizard work alongside our existing scheduling tools your existing platform?"
+        "answer": "Yes. Many Scheduling Wizard clients continue using the platform they already have for day-to-day schedule access. Scheduling Wizard handles the schedule creation and optimization, delivering finished schedules as Excel files that your team can upload directly into your existing viewing platform. The two workflows are complementary, not mutually exclusive.",
+        "question": "Can Scheduling Wizard work alongside the tools you already use?"
       },
       {
-        "answer": "Subspecialty-specific ACGME rules are built directly into Our team. Rather than applying a generic compliance checklist, our team applies the specific duty hour rules, rotation requirements, and call restrictions relevant to your program's specialty. ACGME compliance is the most common question on sales calls, and it is designed to be answered with confidence for each specific subspecialty.",
+        "answer": "Subspecialty-specific ACGME rules are built into the schedule itself. Rather than applying a generic compliance checklist, our team applies the specific duty hour rules, rotation requirements, and call restrictions relevant to your program's specialty. ACGME compliance is the most common question on sales calls, and it is designed to be answered with confidence for each specific subspecialty.",
         "question": "How does Scheduling Wizard handle subspecialty-specific ACGME scheduling rules?"
       },
       {
@@ -98,7 +98,7 @@
             "New chiefs hit the ground running",
             "No annual rebuild required"
           ],
-          "description": "Your program's scheduling rules, rules, and configurations stay with Scheduling Wizard year over year. New chief residents inherit a fully working, optimized system instead of rebuilding from a blank spreadsheet."
+          "description": "Your program's scheduling rules, requests, and configurations stay with Scheduling Wizard year over year. New chief residents inherit a fully working, optimized system instead of rebuilding from a blank spreadsheet."
         }
       ],
       "title": "Built for Physician and Residency Scheduling",

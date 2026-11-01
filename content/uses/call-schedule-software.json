@@ -24,10 +24,10 @@
       },
       {
         "answer": "Yes. Scheduling Wizard uses a proprietary the way we write down your rules system that accepts program-specific rules including site requirements, resident preferences, moonlighting restrictions, parental leave, conference attendance, and multi-site arrangements. No rule is too unusual, the managed service model means an expert scheduler works through your program's requirements directly.",
-        "question": "Can Scheduling Wizard handle our program's specific call scheduling rules and rules?"
+        "question": "Can Scheduling Wizard handle our program's specific call scheduling rules and requests?"
       },
       {
-        "answer": "Finished call schedules are delivered as Excel spreadsheets, ready to use immediately. Programs can upload these files directly to their existing schedule viewing tools, your existing platform, for day-to-day resident access. Scheduling Wizard handles the schedule creation and optimization; your existing viewing platform handles display and distribution.",
+        "answer": "Finished call schedules are delivered as Excel spreadsheets, ready to use immediately. Programs can upload these files directly to their existing schedule publishing platform, for day-to-day resident access. Scheduling Wizard handles the schedule creation and optimization; you publish and distribute it where you already do.",
         "question": "What format are the finished call schedules delivered in?"
       },
       {
@@ -87,7 +87,7 @@
             "No institutional knowledge lost",
             "New chiefs start with a working system"
           ],
-          "description": "When chiefs rotate annually, your scheduling rules, rules, and call configurations stay with Scheduling Wizard. Incoming chiefs inherit a working, optimized system instead of rebuilding call schedules from a blank spreadsheet."
+          "description": "When chiefs rotate annually, your scheduling rules, requests, and call configurations stay with Scheduling Wizard. Incoming chiefs inherit a working, optimized system instead of rebuilding call schedules from a blank spreadsheet."
         },
         {
           "id": "resident-preferences",

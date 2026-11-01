@@ -19,23 +19,23 @@
         "question": "Is Scheduling Wizard compliant with general surgery ACGME duty hour rules?"
       },
       {
-        "answer": "Scheduling Wizard builds Block rotation schedules, Call schedules, Clinic schedules, and Attending schedules for general surgery residency programs. All four schedule types are optimized simultaneously using a proprietary rule-solving engine, so a change in one schedule automatically propagates across the others, eliminating the manual cross-schedule patching that creates errors in complex surgery programs.",
+        "answer": "Scheduling Wizard builds Block rotation schedules, Call schedules, Clinic schedules, and Attending schedules for general surgery residency programs. All four schedule types are built together, so a change in one schedule automatically propagates across the others, eliminating the manual cross-schedule patching that creates errors in complex surgery programs.",
         "question": "What types of schedules does Scheduling Wizard build for surgery programs?"
       },
       {
-        "answer": "Call fairness is handled algorithmically, not manually. Scheduling Wizard's engine distributes trauma call, weekend call, and holiday shifts equitably across all residents and PGY levels while simultaneously respecting ACGME duty hour limits and individual rules. This eliminates the fairness disputes that commonly arise when call assignments are made by hand.",
+        "answer": "Call fairness is handled algorithmically, not manually. We distribute trauma call, weekend call, and holiday shifts equitably across all residents and PGY levels while simultaneously respecting ACGME duty hour limits and individual rules. This eliminates the fairness disputes that commonly arise when call assignments are made by hand.",
         "question": "How does Scheduling Wizard handle call fairness for surgery residents?"
       },
       {
-        "answer": "No. Scheduling Wizard focuses on building and optimizing your schedule, the output is delivered as a ready-to-use Excel file that your program can upload directly to whatever platform you already use. Many Scheduling Wizard clients continue using your existing platform for day-to-day schedule display while Scheduling Wizard handles all schedule creation and optimization.",
-        "question": "Do we need to replace our existing scheduling tools your existing platform?"
+        "answer": "No. Scheduling Wizard focuses on building and optimizing your schedule, the output is delivered as a ready-to-use Excel file that your program can upload directly to whatever platform you already use. Many Scheduling Wizard clients continue using the platform they already have to publish the schedule day-to-day while Scheduling Wizard handles all schedule creation and optimization.",
+        "question": "Do we need to replace the scheduling tools we already use?"
       },
       {
-        "answer": "Your program's scheduling knowledge stays with Scheduling Wizard. All rules, rules, and configurations are retained from year to year, so when your chief resident rotates, the incoming chief inherits a working, optimized system instead of starting from scratch. This is one of the most significant pain points Scheduling Wizard eliminates for general surgery programs, the annual knowledge loss that occurs with chief transitions.",
+        "answer": "Your program's scheduling knowledge stays with Scheduling Wizard. All rules, requests, and configurations are retained from year to year, so when your chief resident rotates, the incoming chief inherits a working, optimized system instead of starting from scratch. This is one of the most significant pain points Scheduling Wizard eliminates for general surgery programs, the annual knowledge loss that occurs with chief transitions.",
         "question": "What happens to our scheduling knowledge when the chief resident changes?"
       },
       {
-        "answer": "The process has three steps. First, your program submits its scheduling rules, rotation requirements, ACGME rules, resident preferences, call coverage targets, and any site-specific rules. Second, Our team and expert schedulers build a compliant, optimized schedule. Third, you receive a finished Excel file ready to review and publish. No software to learn, no platform to onboard.",
+        "answer": "The process has three steps. First, your program submits its scheduling rules, rotation requirements, ACGME rules, resident preferences, call coverage targets, and any site-specific rules. Second, our team builds a compliant, finished schedule. Third, you receive a finished Excel file ready to review and publish. No software to learn, no platform to onboard.",
         "question": "How does the general surgery residency scheduling process work with Scheduling Wizard?"
       }
     ],
@@ -54,7 +54,7 @@
             "24-hour hard cap respected",
             "Violations prevented at generation"
           ],
-          "description": "Scheduling Wizard's engine mathematically enforces ACGME duty hour rules specific to general surgery at the time of schedule generation (80-hour weekly limits, 24-hour hard caps, required rest periods) preventing violations before the schedule is ever published."
+          "description": "We hold to the ACGME duty hour rules mathematically specific to general surgery at the time of schedule generation (80-hour weekly limits, 24-hour hard caps, required rest periods) preventing violations before the schedule is ever published."
         },
         {
           "id": "call-scheduling",
@@ -98,7 +98,7 @@
             "No annual rebuilds from scratch",
             "New chiefs onboard instantly"
           ],
-          "description": "When your chief resident rotates, your program's scheduling rules, rules, and configurations stay with Scheduling Wizard. Incoming chiefs inherit a working, optimized general surgery schedule instead of starting from a blank spreadsheet."
+          "description": "When your chief resident rotates, your program's scheduling rules, requests, and configurations stay with Scheduling Wizard. Incoming chiefs inherit a working, optimized general surgery schedule instead of starting from a blank spreadsheet."
         }
       ],
       "title": "Built for General Surgery Residency Programs",

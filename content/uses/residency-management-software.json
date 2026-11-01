@@ -15,7 +15,7 @@
     },
     "faq": [
       {
-        "answer": "Residency management software typically refers to self-service platforms that programs operate themselves to build and manage schedules. Scheduling Wizard differs by operating as a done-for-you managed service, programs submit their rules and rules, and Our team delivers finished, ACGME-compliant schedules as Excel files. There is no platform to log into or software to learn. The output can be uploaded directly to existing tools your existing platform for day-to-day schedule viewing.",
+        "answer": "Residency management software typically refers to self-service platforms that programs operate themselves to build and manage schedules. Scheduling Wizard differs by operating as a done-for-you managed service, programs submit their rules and requests, and our team delivers finished, ACGME-compliant schedules as Excel files. There is no platform to log into or software to learn. The output can be uploaded to the tools you already use for day-to-day schedule viewing.",
         "question": "What is residency management software and how does Scheduling Wizard differ?"
       },
       {
@@ -31,8 +31,8 @@
         "question": "How does Scheduling Wizard handle the annual chief resident transition?"
       },
       {
-        "answer": "Yes, many Scheduling Wizard clients use your existing platform alongside the service. Scheduling Wizard handles schedule creation and optimization, delivering finished schedules as Excel files. Programs then upload those files to your existing platform for day-to-day schedule viewing and access. Scheduling Wizard is designed to complement these tools, not replace them.",
-        "question": "Can Scheduling Wizard work alongside our existing tools your existing platform?"
+        "answer": "Yes, many Scheduling Wizard clients use the platform they already have alongside the service. Scheduling Wizard handles schedule creation and optimization, delivering finished schedules as Excel files. Programs then upload those files to your existing platform for day-to-day schedule viewing and access. Scheduling Wizard is designed to complement these tools, not replace them.",
+        "question": "Can Scheduling Wizard work alongside the tools you already use?"
       },
       {
         "answer": "Scheduling Wizard serves chief residents, program directors, program coordinators, and GME offices at hospitals and academic medical centers. The service is built for any residency or fellowship program that creates Block, Call, Clinic, or Attending schedules and wants to eliminate the operator burden of building those schedules manually or through self-service software.",
@@ -76,7 +76,7 @@
             "No annual knowledge loss",
             "New chiefs ready immediately"
           ],
-          "description": "Your program's scheduling rules, rules, and configurations persist with Scheduling Wizard year over year. Incoming chief residents inherit a fully working system instead of starting from scratch every July."
+          "description": "Your program's scheduling rules, requests, and configurations persist with Scheduling Wizard year over year. Incoming chief residents inherit a fully working system instead of starting from scratch every July."
         },
         {
           "id": "block-scheduling",
@@ -134,7 +134,7 @@
     "searchIntents": [
       "A chief resident overwhelmed with the complexities of creating compliant rotation schedules is looking for a specialized software solution that can handle intricate scheduling rules and ensure ACGME compliance without adding to their workload.",
       "A program director at a medical residency program needs a way to optimize attending and call schedules for their residents while ensuring fairness and compliance; they're seeking a managed service to avoid the headaches of traditional scheduling software.",
-      "A program coordinator wants to streamline the scheduling process for multiple departments within their hospital and needs a tool that integrates with existing systems your existing platform, ensuring that the unique rules of each subspecialty are met efficiently.",
+      "A program coordinator wants to streamline the scheduling process for multiple departments within their hospital and needs a tool that integrates with the systems you already use, ensuring that the unique rules of each subspecialty are met efficiently.",
       "An administrator in a private practice is looking for a scheduling solution that not only manages residency schedules but can also handle specific requirements for their practice, ensuring both regulatory compliance and effective coverage without excessive manual input."
     ]
   },

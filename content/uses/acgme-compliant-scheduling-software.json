@@ -15,27 +15,27 @@
     },
     "faq": [
       {
-        "answer": "ACGME compliant scheduling software is a tool or service that generates residency and fellowship schedules while mathematically enforcing ACGME duty hour requirements, including the 80-hour weekly limit, minimum rest periods, and the 24-hour hard cap on continuous duty. Scheduling Wizard goes further by building subspecialty-specific ACGME rules directly into its a team that does this full time, so compliance is ensure at the moment the schedule is generated rather than checked manually after the fact.",
+        "answer": "ACGME compliant scheduling software is a tool or service that generates residency and fellowship schedules while mathematically enforcing ACGME duty hour requirements, including the 80-hour weekly limit, minimum rest periods, and the 24-hour hard cap on continuous duty. Scheduling Wizard goes further by building subspecialty-specific ACGME rules into the schedule itself, so compliance is settled at the moment the schedule is built rather than checked manually after the fact.",
         "question": "What is ACGME compliant scheduling software?"
       },
       {
-        "answer": "Scheduling Wizard's proprietary mathematical a team that does this full time has subspecialty-specific ACGME duty hour rules encoded directly into the rule set. When a schedule is generated, every rotation, call shift, and clinic assignment is validated against those rules simultaneously. Violations cannot exist in the output because our team prevents them at generation time, rather than flagging them after a human has already built the schedule.",
-        "question": "How does Scheduling Wizard enforces ACGME rules when the schedule is built for subspecialties?"
+        "answer": "Scheduling Wizard's team of mathematicians has subspecialty-specific ACGME duty hour rules encoded directly into the rule set. When a schedule is generated, every rotation, call shift, and clinic assignment is validated against those rules simultaneously. Violations cannot exist in the output because our team prevents them at generation time, rather than flagging them after a human has already built the schedule.",
+        "question": "How does Scheduling Wizard handle ACGME rules when the schedule is built for subspecialties?"
       },
       {
-        "answer": "Yes. Current ACGME duty hour requirements, including the 80-hour weekly limit, minimum rest periods, and the 24-hour hard cap on continuous duty, are incorporated into the compliance engine. Programs do not need to manually track or reconfigure rules when regulatory requirements change, as those updates are reflected in how schedules are generated.",
+        "answer": "Yes. Current ACGME duty hour requirements, including the 80-hour weekly limit, minimum rest periods, and the 24-hour hard cap on continuous duty, are built into every schedule we produce. Programs do not need to manually track or reconfigure rules when regulatory requirements change, as those updates are reflected in how schedules are generated.",
         "question": "Does Scheduling Wizard stay current with ACGME duty hour requirements?"
       },
       {
-        "answer": "No. Scheduling Wizard handles schedule creation and optimization, while your existing platform are used for day-to-day schedule viewing and access. Many Scheduling Wizard clients continue using your existing platform alongside the service. Scheduling Wizard delivers finished schedules as Excel files, which programs can upload directly to their existing viewing platform.",
-        "question": "Do I need to replace your existing platform to use Scheduling Wizard?"
+        "answer": "No. Scheduling Wizard handles schedule creation and optimization, while the platform you already use handles day-to-day schedule viewing and access. Many Scheduling Wizard clients continue using the platform they already have alongside the service. Scheduling Wizard delivers finished schedules as Excel files, which programs can upload directly to their existing viewing platform.",
+        "question": "Do I need to replace the platform we use now to use Scheduling Wizard?"
       },
       {
         "answer": "Scheduling Wizard works with chief residents, program directors, program coordinators, and GME offices. Chief residents and coordinators typically submit rules and review delivered schedules. Program directors and GME offices benefit from the institutional continuity the service provides, ensuring that ACGME compliance knowledge and scheduling rules persist across annual chief rotations rather than being lost when leadership changes.",
         "question": "Who at a residency program typically works with Scheduling Wizard?"
       },
       {
-        "answer": "Scheduling Wizard produces Block or rotation schedules, Call schedules with fairness optimization, Clinic schedules, and Attending schedules. All four schedule types are optimized simultaneously by the same engine so that changes in one propagate correctly across the others. Finished schedules are delivered as Excel spreadsheets ready for upload to the program's existing schedule viewing tool.",
+        "answer": "Scheduling Wizard produces Block or rotation schedules, Call schedules with fairness optimization, Clinic schedules, and Attending schedules. All four schedule types are built together, so that changes in one propagate correctly across the others. Finished schedules are delivered as Excel spreadsheets ready for upload to the program's existing schedule publishing platform.",
         "question": "What types of schedules does Scheduling Wizard produce for residency programs?"
       }
     ],
@@ -54,7 +54,7 @@
             "Violations prevented at generation",
             "80-hour limits enforced automatically"
           ],
-          "description": "ACGME duty hour requirements are mathematically enforced at schedule generation time, not manually reviewed afterward. Subspecialty-specific rules are built directly into Our team, so violations are prevented before the schedule is ever published."
+          "description": "ACGME duty hour requirements are mathematically enforced at schedule generation time, not manually reviewed afterward. Subspecialty-specific rules are built into the schedule itself, so violations are prevented before the schedule is ever published."
         },
         {
           "id": "managed-service",

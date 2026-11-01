@@ -19,7 +19,7 @@
         "question": "How does Scheduling Wizard ensure ACGME compliance for surgery residency schedules?"
       },
       {
-        "answer": "Scheduling Wizard generates complete Block, Call, Clinic, and Attending schedules for surgical residency and fellowship programs. All four schedule types are optimized simultaneously, so a change in one automatically propagates across the others. The finished schedules are delivered as Excel spreadsheets that programs can upload directly to their existing viewing tools your existing platform.",
+        "answer": "Scheduling Wizard generates complete Block, Call, Clinic, and Attending schedules for surgical residency and fellowship programs. All four schedule types are optimized simultaneously, so a change in one automatically propagates across the others. The finished schedules are delivered as Excel spreadsheets that programs can upload directly to their existing publishing platform.",
         "question": "What types of schedules does Scheduling Wizard generate for surgery programs?"
       },
       {
@@ -31,8 +31,8 @@
         "question": "What happens when a new chief resident takes over the surgery program?"
       },
       {
-        "answer": "No, and many surgery programs use all three together. Scheduling Wizard handles schedule creation and optimization, producing finished, ACGME-compliant schedules as Excel files. Programs then upload those files to your existing platform for day-to-day schedule viewing and access. Scheduling Wizard focuses on the complex work of building the schedule, while your existing platform serve as the display layer.",
-        "question": "Does Scheduling Wizard replace your existing platform for surgery programs?"
+        "answer": "No, and many surgery programs use all three together. Scheduling Wizard handles schedule creation and optimization, producing finished, ACGME-compliant schedules as Excel files. Programs then upload those files to your existing platform for day-to-day schedule viewing and access. Scheduling Wizard focuses on the complex work of building the schedule, while the platform you already use serves as the publishing layer.",
+        "question": "Does Scheduling Wizard replace the platform we use now for surgery programs?"
       },
       {
         "answer": "Scheduling Wizard primarily works with chief residents, program directors, and program coordinators at surgical residency and fellowship programs. Chief residents benefit most from the managed service model since they do not need to learn scheduling software. Program directors benefit from institutional continuity across chief rotations. Program coordinators benefit from conflict detection and revision handling throughout the academic year.",
@@ -54,7 +54,7 @@
             "24-hour hard cap respected",
             "Subspecialty rules built in"
           ],
-          "description": "Subspecialty-specific ACGME duty hour rules for surgical programs are built into Our team. Violations are mathematically prevented at schedule generation time, not manually audited after the fact."
+          "description": "Subspecialty-specific ACGME duty hour rules for surgical programs are built into the schedule itself. Violations are mathematically prevented at schedule generation time, not manually audited after the fact."
         },
         {
           "id": "call-scheduling",
@@ -87,7 +87,7 @@
             "New chiefs onboard instantly",
             "Program rules preserved permanently"
           ],
-          "description": "Your program's rules, rules, and configurations persist with Scheduling Wizard year over year. Incoming surgery chiefs inherit a working, optimized system instead of starting from a blank spreadsheet."
+          "description": "Your program's rules, requests, and configurations persist with Scheduling Wizard year over year. Incoming surgery chiefs inherit a working, optimized system instead of starting from a blank spreadsheet."
         },
         {
           "id": "managed-service",

@@ -23,15 +23,15 @@
         "question": "How does Scheduling Wizard ensure ACGME duty hour compliance?"
       },
       {
-        "answer": "Scheduling Wizard generates four types of schedules: Block or rotation schedules, Call schedules with fairness optimization, Clinic schedules, and Attending schedules. All four are optimized simultaneously by the same rule-solving engine, so conflicts between schedule types are resolved before the final schedule is delivered. The output is ready-to-use Excel files that programs can upload to their existing viewing tools your existing platform.",
+        "answer": "Scheduling Wizard generates four types of schedules: Block or rotation schedules, Call schedules with fairness optimization, Clinic schedules, and Attending schedules. All four are built together, so conflicts between schedule types are resolved before the final schedule is delivered. The output is ready-to-use Excel files that programs can upload to their existing publishing platform.",
         "question": "What types of schedules does Scheduling Wizard generate for residency programs?"
       },
       {
-        "answer": "No. Many Scheduling Wizard clients continue using your existing platform alongside the service. Scheduling Wizard handles schedule creation and optimization, while your existing platform are used for day-to-day schedule viewing and access. The finished Excel files Scheduling Wizard delivers are designed to be uploaded directly into whichever viewing platform your program already uses.",
-        "question": "Do we need to replace your existing platform to use Scheduling Wizard?"
+        "answer": "No. Many Scheduling Wizard clients continue using the platform they already have alongside the service. Scheduling Wizard handles schedule creation and optimization, while the platform you already use handles day-to-day schedule viewing and access. The finished Excel files Scheduling Wizard delivers are designed to be uploaded directly into whichever viewing platform your program already uses.",
+        "question": "Do we need to replace the platform we use now to use Scheduling Wizard?"
       },
       {
-        "answer": "Your program's rules, rules, and scheduling configurations are retained by Scheduling Wizard year over year. When a new chief resident takes over, they inherit a fully operational, optimized scheduling system instead of starting from scratch. This eliminates one of the most common sources of scheduling disruption in residency programs, where institutional knowledge is lost every time a chief resident rotates out.",
+        "answer": "Your program's rules, requests, and scheduling configurations are retained by Scheduling Wizard year over year. When a new chief resident takes over, they inherit a fully operational, optimized scheduling system instead of starting from scratch. This eliminates one of the most common sources of scheduling disruption in residency programs, where institutional knowledge is lost every time a chief resident rotates out.",
         "question": "What happens to our scheduling setup when chief residents change each year?"
       },
       {
@@ -54,7 +54,7 @@
             "Subspecialty-specific rules built in",
             "No manual compliance checks needed"
           ],
-          "description": "Scheduling Wizard's engine mathematically enforces ACGME duty hour rules at the moment the schedule is built, including 80-hour weekly limits, rest requirements, and subspecialty-specific rules. Violations are prevented, not discovered after publishing."
+          "description": "We hold to the ACGME duty hour rules mathematically at the moment the schedule is built, including 80-hour weekly limits, rest requirements, and subspecialty-specific rules. Violations are prevented, not discovered after publishing."
         },
         {
           "id": "managed-service",
@@ -76,7 +76,7 @@
             "No institutional knowledge lost",
             "New chiefs onboard immediately"
           ],
-          "description": "Your program's rules, rules, and optimization configurations are retained with Scheduling Wizard across annual chief rotations. New chiefs inherit a working system instead of rebuilding the schedule from a blank spreadsheet."
+          "description": "Your program's rules, requests, and optimization configurations are retained with Scheduling Wizard across annual chief rotations. New chiefs inherit a working system instead of rebuilding the schedule from a blank spreadsheet."
         },
         {
           "id": "block-scheduling",
@@ -98,7 +98,7 @@
             "Changes propagate automatically",
             "No manual cross-schedule patching"
           ],
-          "description": "Block, call, clinic, and attending schedules are optimized simultaneously by the same engine. A change in one propagates across the others automatically, eliminating the domino effect of manual cross-schedule patching."
+          "description": "Block, call, clinic, and attending schedules are built together. A change in one propagates across the others automatically, eliminating the domino effect of manual cross-schedule patching."
         }
       ],
       "title": "Built for Residency and Fellowship Scheduling",

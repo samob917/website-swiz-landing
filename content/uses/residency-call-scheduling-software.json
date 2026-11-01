@@ -76,7 +76,7 @@
             "Excel files ready to publish",
             "Works with your existing platform"
           ],
-          "description": "There is no platform to log into and no software to train your chiefs on. Submit your rules, and Scheduling Wizard's expert schedulers deliver a finished call schedule as an Excel file ready to upload to your existing viewing tool your existing platform."
+          "description": "There is no platform to log into and no software to train your chiefs on. Submit your rules, and Scheduling Wizard's expert schedulers deliver a finished call schedule as an Excel file ready to upload to your existing publishing platform."
         },
         {
           "id": "institutional-continuity",
@@ -87,7 +87,7 @@
             "New chiefs onboard instantly",
             "Rules preserved across rotations"
           ],
-          "description": "Your program's rules, rules, and scheduling configurations stay with Scheduling Wizard. When new chiefs take over, they inherit a working optimized system instead of rebuilding the call schedule from a blank spreadsheet."
+          "description": "Your program's rules, requests, and scheduling configurations stay with Scheduling Wizard. When new chiefs take over, they inherit a working optimized system instead of rebuilding the call schedule from a blank spreadsheet."
         },
         {
           "id": "resident-preferences",
