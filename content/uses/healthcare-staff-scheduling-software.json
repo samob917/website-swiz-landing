@@ -10,8 +10,8 @@
   "data": {
     "cta": {
       "title": "Stop Running Schedules on Spreadsheets",
-      "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 30+ departments across 20+ hospitals and practices that have Scheduling Wizard build their call, block, clinic and shift schedules. Finished schedules in your format, with redrafts through the year included."
+      "buttonText": "Book a call",
+      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join 30+ departments across 20+ hospitals and practices that have us build their call, block, clinic and shift schedules."
     },
     "faq": [
       {
@@ -46,6 +46,17 @@
     "features": {
       "items": [
         {
+          "id": "acgme-compliance",
+          "title": "Requirements Built In From the Start",
+          "eyebrow": "Your Rules and Requests",
+          "highlights": [
+            "80-hour limit applied",
+            "Subspecialty-specific rules built in",
+            "Checked while building, not after"
+          ],
+          "description": "We build each schedule to the rules that govern it. For a residency or fellowship that means the ACGME duty hour requirements and the specialty-specific Program Requirements. For a provider group or practice it means yours: coverage minimums, call equity, contractual obligations, time off and requests, and multiple sites where a group has them."
+        },
+        {
           "id": "managed-service",
           "title": "Done For You Scheduling Delivery",
           "eyebrow": "Managed Service",
@@ -55,17 +66,6 @@
             "Expert schedulers handle optimization"
           ],
           "description": "Programs submit their rules and receive finished, optimized schedules as Excel files ready to publish. No platform to log into, no software to learn, no annual retraining when a new chief takes over. The schedules are built by mathematicians who do this full time and nothing else."
-        },
-        {
-          "id": "acgme-compliance",
-          "title": "Requirements Built In From the Start",
-          "eyebrow": "The Rules That Apply",
-          "highlights": [
-            "80-hour limit applied",
-            "Subspecialty-specific rules built in",
-            "Checked while building, not after"
-          ],
-          "description": "We build each schedule to the rules that govern it. For a residency or fellowship that means the ACGME duty hour requirements and the specialty-specific Program Requirements. For a provider group or practice it means yours: coverage minimums, call equity, contractual obligations, time off and requests, and multiple sites where a group has them."
         },
         {
           "id": "institutional-continuity",

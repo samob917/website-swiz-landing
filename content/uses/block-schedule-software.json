@@ -10,8 +10,8 @@
   "data": {
     "cta": {
       "title": "Get Your Block Schedule Done Right",
-      "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 30+ departments across 20+ hospitals and practices that have Scheduling Wizard build their call, block, clinic and shift schedules. Finished schedules in your format, with redrafts through the year included."
+      "buttonText": "Book a call",
+      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join 30+ departments across 20+ hospitals and practices that have us build their call, block, clinic and shift schedules."
     },
     "faq": [
       {
@@ -41,10 +41,21 @@
     ],
     "hero": {
       "title": "Residency Block Schedule Software Managed For You",
-      "description": "Stop wrestling with scheduling software. Scheduling Wizard delivers complete, ACGME-compliant block schedules as ready-to-use Excel files, no software to learn."
+      "description": "Block schedules, built to your rules and requests, however granular, with the ACGME requirements as part of them. Send us the rules; we send back the finished schedule."
     },
     "features": {
       "items": [
+        {
+          "id": "rule-modeling",
+          "eyebrow": "Your Rules and Requests",
+          "title": "Built to Your Rules, However Granular",
+          "description": "We build to your rules and requests, however complex or granular: the written ones, including the ACGME requirements where they apply, and the local ones nobody has written down. The attending who does not take Friday call. The two residents who cannot share a rotation. The clinic that needs Thursdays protected. If you can describe it, it goes in.",
+          "highlights": [
+            "The written rules and the local ones",
+            "ACGME requirements where they apply",
+            "If you can describe it, it goes in"
+          ]
+        },
         {
           "id": "block-scheduling",
           "title": "Year-Long Block Schedules Generated",
@@ -59,7 +70,7 @@
         {
           "id": "acgme-compliance",
           "title": "Rules Applied as We Build",
-          "eyebrow": "ACGME Compliance",
+          "eyebrow": "ACGME Requirements",
           "highlights": [
             "80-hour weekly limit applied",
             "Subspecialty rules built in",
@@ -88,17 +99,6 @@
             "Or a custom live view we build"
           ],
           "description": "Scheduling Wizard operates as a done-for-you managed service. Chief residents submit rules and receive finished block schedules, no platform to navigate, no scheduling software to master, no training required. The schedules are built by mathematicians who do this full time and nothing else."
-        },
-        {
-          "id": "rule-modeling",
-          "title": "Every Program Rule Accommodated",
-          "eyebrow": "Custom Rules",
-          "highlights": [
-            "Site-specific rules modeled",
-            "Moonlighting restrictions included",
-            "Conference and leave accommodated"
-          ],
-          "description": "Program-specific rules (site requirements, moonlighting restrictions, parental leave, conference attendance, and complex multi-site block arrangements) are written down with you during onboarding, so the schedule is built to them."
         },
         {
           "id": "redrafts-included",

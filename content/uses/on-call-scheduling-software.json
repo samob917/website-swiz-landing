@@ -10,8 +10,8 @@
   "data": {
     "cta": {
       "title": "Stop Building On Call Schedules by Hand",
-      "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 30+ departments across 20+ hospitals and practices that have Scheduling Wizard build their call, block, clinic and shift schedules. Finished schedules in your format, with redrafts through the year included."
+      "buttonText": "Book a call",
+      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join 30+ departments across 20+ hospitals and practices that have us build their call, block, clinic and shift schedules."
     },
     "faq": [
       {
@@ -58,6 +58,17 @@
     "features": {
       "items": [
         {
+          "id": "acgme-compliance",
+          "title": "Requirements Built In From the Start",
+          "eyebrow": "Your Rules and Requests",
+          "highlights": [
+            "80-hour weekly limit applied",
+            "Subspecialty rules built in",
+            "No manual compliance checking"
+          ],
+          "description": "We build each call schedule to the rules that govern it. For a residency or fellowship that means the ACGME duty hour requirements and the specialty-specific Program Requirements. For a group or practice it means yours: coverage minimums, call equity, contractual obligations, time off and requests, and multiple sites where a group has them."
+        },
+        {
           "id": "call-scheduling",
           "title": "Fair On Call Schedules, Built",
           "eyebrow": "Call Scheduling",
@@ -67,17 +78,6 @@
             "Post-call rest rules applied"
           ],
           "description": "Builds on call schedules that spread the call burden equitably across everyone on it, respecting rest rules, post-call recovery and individual requests, all in a single pass."
-        },
-        {
-          "id": "acgme-compliance",
-          "title": "Requirements Built In From the Start",
-          "eyebrow": "The Rules That Apply",
-          "highlights": [
-            "80-hour weekly limit applied",
-            "Subspecialty rules built in",
-            "No manual compliance checking"
-          ],
-          "description": "We build each call schedule to the rules that govern it. For a residency or fellowship that means the ACGME duty hour requirements and the specialty-specific Program Requirements. For a group or practice it means yours: coverage minimums, call equity, contractual obligations, time off and requests, and multiple sites where a group has them."
         },
         {
           "id": "managed-service",
