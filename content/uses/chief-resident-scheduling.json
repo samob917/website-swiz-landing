@@ -35,7 +35,7 @@
         "question": "What types of schedules does Scheduling Wizard generate for residency programs?"
       },
       {
-        "answer": "Yes. Subspecialty-specific ACGME rules are built into the schedule itself. This is the most common question asked during program evaluations, and it is a core design requirement of the service. Programs can also submit custom rules via Scheduling Wizard's proprietary the way we write down your rules language to capture rules unique to their site or program structure.",
+        "answer": "Yes. Subspecialty-specific ACGME rules are built into the schedule itself. This is the most common question asked during program evaluations, and it is a core design requirement of the service. Programs can also submit custom rules with Scheduling Wizard, including the ones unique to their site or program structure.",
         "question": "Can Scheduling Wizard handle my program's subspecialty-specific ACGME rules?"
       }
     ],
