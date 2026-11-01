@@ -4,14 +4,14 @@
   "anchor": "Private Practice Physician Scheduling",
   "title": "Private Practice Physician Scheduling | Expert Help",
   "description": "Private practice physician scheduling is complex. Our managed service takes your rules and delivers a complete, optimized, and compliant schedule.",
-  "h1": "Private Practice Physician Scheduling, Solved.",
+  "h1": "Private Practice Physician Scheduling, Built For You",
   "paragraph": "Stop spending hours on private practice physician scheduling. Submit your rules and preferences, and Scheduling Wizard delivers a complete, compliant schedule.",
   "category": "setting",
   "data": {
     "cta": {
       "title": "Get Your Physician Schedule Done Right",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join the practices that have eliminated manual scheduling by submitting rules and receiving optimized results. Finished schedules in your format, with redrafts through the year included."
+      "description": "Join the practices and groups that hand over the schedule build. Finished schedules in your format, with redrafts through the year included."
     },
     "faq": [
       {
@@ -40,8 +40,8 @@
       }
     ],
     "hero": {
-      "title": "Private Practice Physician Scheduling Done For You",
-      "description": "Submit your rules and receive optimized, complete physician schedules as ready-to-use Excel files. No software to learn, no manual work."
+      "title": "Private Practice Physician Scheduling, Built For You",
+      "description": "Send us your rules and receive complete physician schedules as ready-to-use Excel or Google Sheets files, or on a custom live view we build for the practice. No software to learn."
     },
     "features": {
       "items": [
@@ -61,22 +61,22 @@
           "title": "No Gaps No Overstaffing",
           "eyebrow": "Coverage Optimization",
           "highlights": [
-            "All shifts covered automatically",
+            "All required shifts covered",
             "Overstaffing minimized by design",
             "Multi-site coverage coordinated"
           ],
-          "description": "Every required shift and patient slot is covered with the right number of physicians. Our team eliminates both uncovered gaps and redundant overstaffing across all locations and time periods."
+          "description": "Every required shift and patient slot is covered with the right number of physicians, without leaving gaps or stacking redundant coverage across your locations."
         },
         {
           "id": "fairness-optimization",
           "title": "Equitable Distribution Across All Physicians",
           "eyebrow": "Fairness Optimization",
           "highlights": [
-            "Holiday shifts balanced automatically",
+            "Holiday shifts balanced across the group",
             "Weekend burden distributed fairly",
-            "Removes manual bias from scheduling"
+            "No one person deciding who gets Christmas"
           ],
-          "description": "Weekend, holiday, and on-call burdens are distributed algorithmically across your physician group, eliminating the fairness disputes that arise when schedules are built by hand."
+          "description": "Weekend, holiday and on-call burdens are distributed algorithmically across the group, with far fewer of the fairness disputes that arise when schedules are built by hand."
         },
         {
           "id": "attending-scheduling",
@@ -87,7 +87,7 @@
             "Multi-physician groups handled",
             "All schedule types coordinated"
           ],
-          "description": "The same team that handles complex residency attending schedules is applied to private practice physician scheduling, ensuring all coverage, preference, and availability rules are satisfied simultaneously."
+          "description": "The same team that builds complex residency attending schedules builds private practice physician schedules, so coverage, preference and availability rules are all applied together."
         },
         {
           "id": "absence-response",
@@ -109,7 +109,7 @@
             "Or a custom live view we build for you",
             "Mid-year rebuilds are not billed separately"
           ],
-          "description": "Schedules come back in the format your program asks for, as Excel or Google Sheets, or on a custom live view we build for you. When someone goes on leave, a rotation changes or coverage shifts mid-year, we rebuild around it. Major redrafts are part of the engagement rather than a change order, which is the difference between a finished schedule and a draft you maintain."
+          "description": "Schedules come back in the format your practice asks for, as Excel or Google Sheets, or on a custom live view we build for you. When a partner's availability changes, a site shifts its coverage or someone goes on leave, we rebuild around it. Major redrafts are part of the engagement rather than a change order."
         }
       ],
       "title": "Built for Private Practice Physician Scheduling",

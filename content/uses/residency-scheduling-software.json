@@ -3,8 +3,8 @@
   "slug": "residency-scheduling-software",
   "anchor": "Residency Scheduling Software",
   "title": "Residency Scheduling Software | Built for GME",
-  "description": "Residency scheduling software that acts as your expert scheduler. We deliver complete, optimized, and ACGME-compliant schedules so you can avoid conflicts.",
-  "h1": "Residency Scheduling Software That Ensures Compliance",
+  "description": "Residency scheduling software, run for you. Send us your rules and we deliver complete block, call, clinic and attending schedules, built to the ACGME requirements.",
+  "h1": "Residency Scheduling Software That Does the Work",
   "paragraph": "Go beyond typical residency scheduling software. Scheduling Wizard is a managed service. Provide your rules; we deliver a complete, ACGME-compliant schedule.",
   "category": "specialty",
   "data": {
@@ -50,11 +50,11 @@
           "title": "Requirements Built In From the Start",
           "eyebrow": "ACGME Compliance",
           "highlights": [
-            "80-hour limits enforced automatically",
+            "80-hour limit applied",
             "Subspecialty-specific rules built in",
             "No manual compliance checks needed"
           ],
-          "description": "We hold to the ACGME duty hour rules mathematically at the moment the schedule is built, including 80-hour weekly limits, rest requirements, and subspecialty-specific rules. The rules are applied as we build, not discovered after publishing."
+          "description": "We apply the ACGME duty hour rules as the schedule is built, including the 80-hour weekly limit, rest requirements and the subspecialty-specific rules, rather than discovering problems after publishing."
         },
         {
           "id": "managed-service",
@@ -74,7 +74,7 @@
           "highlights": [
             "Rules retained across chief rotations",
             "No institutional knowledge lost",
-            "New chiefs onboard immediately"
+            "New chiefs start with a working schedule"
           ],
           "description": "Your program's rules, requests, and optimization configurations are retained with Scheduling Wizard across annual chief rotations. New chiefs inherit a working system instead of rebuilding the schedule from a blank spreadsheet."
         },
@@ -85,7 +85,7 @@
           "highlights": [
             "PGY-level requirements respected",
             "Elective preferences incorporated",
-            "ACGME rotation mandates satisfied"
+            "ACGME rotation requirements met"
           ],
           "description": "Generates complete year-long block rotation schedules respecting PGY-level requirements, elective preferences, coverage minimums, and ACGME rotation mandates across complex multi-track residency programs."
         },
@@ -118,8 +118,8 @@
     "problems": {
       "items": [
         {
-          "title": "Compliance Gaps Risk Accreditation",
-          "description": "Manually checking ACGME duty hour rules across block, call, and clinic schedules leaves room for violations that threaten your program's standing."
+          "title": "Checking the Rules by Hand Is Slow",
+          "description": "Checking the ACGME duty hour rules across block, call and clinic schedules by hand is slow, and the misses surface later."
         },
         {
           "title": "Knowledge Lost Every Year",
@@ -130,7 +130,7 @@
           "description": "Call, clinic, and rotation schedules are built separately, so conflicts between them surface after the schedule is already published."
         }
       ],
-      "title": "Scheduling Is Breaking Your Program",
+      "title": "Scheduling Is Costing Your Program",
       "description": "Residency scheduling consumes hundreds of hours and puts compliance, fairness and continuity back at square one every year."
     },
     "solution": {
@@ -138,7 +138,7 @@
       "description": "Submit your program's rules (rotation requirements, subspecialty ACGME rules, resident preferences, and call fairness targets) and receive finished, compliant schedules as ready-to-use Excel files. No software to learn. No annual retraining when chiefs rotate. A managed service built specifically for GME."
     },
     "metaTitle": "Residency Scheduling Software | Built for GME",
-    "metaDescription": "Residency scheduling software that acts as your expert scheduler. We deliver complete, optimized, and ACGME-compliant schedules so you can avoid conflicts."
+    "metaDescription": "Residency scheduling software, run for you. Send us your rules and we deliver complete block, call, clinic and attending schedules, built to the ACGME requirements."
   },
   "searchIntent": {
     "keyword": "residency scheduling software",
@@ -153,7 +153,7 @@
     "h1": "Residency Scheduling Software That Ensures Compliance",
     "metaTitle": "Residency Scheduling Software | Built for GME",
     "h1Paragraph": "Go beyond typical residency scheduling software. Scheduling Wizard is a managed service. Provide your rules; we deliver a complete, ACGME-compliant schedule.",
-    "metaDescription": "Residency scheduling software that acts as your expert scheduler. We deliver complete, optimized, and ACGME-compliant schedules so you can avoid conflicts."
+    "metaDescription": "Residency scheduling software, run for you. Send us your rules and we deliver complete block, call, clinic and attending schedules, built to the ACGME requirements."
   },
   "finalMetadata": {
     "slug": "scheduling-software",

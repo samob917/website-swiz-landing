@@ -19,7 +19,7 @@
         "question": "What is automated physician scheduling and how does it work?"
       },
       {
-        "answer": "Yes. ACGME duty hour compliance is built into the schedule as it is built, not reviewed manually afterward. Our team enforces the 80-hour weekly limit, 10-hour rest minimums, the 24-hour hard cap, and subspecialty-specific rules built into the system. This means the rules are applied before the schedule reaches your program, rather than detected and corrected post-hoc.",
+        "answer": "Yes. ACGME duty hour compliance is built into the schedule as it is built, not reviewed manually afterward. Our team applies the 80-hour weekly limit, eight hours off between duty periods, the 24-hour hard cap, and subspecialty-specific rules built into the system. This means the rules are applied before the schedule reaches your program, rather than detected and corrected post-hoc.",
         "question": "Is Scheduling Wizard's automated scheduling ACGME compliant?"
       },
       {
@@ -61,11 +61,11 @@
           "title": "Compliance Built Into Every Schedule",
           "eyebrow": "ACGME Compliance",
           "highlights": [
-            "80-hour limits enforced automatically",
+            "80-hour limit applied",
             "Subspecialty-specific rules included",
-            "Violations prevented at generation"
+            "Rules applied as we build"
           ],
-          "description": "ACGME duty hour rules are built into the schedule as it is created, not manually checked after the fact. Subspecialty-specific rules are built into the schedule itself so your schedule is compliant before you ever review it."
+          "description": "ACGME duty hour rules are built into the schedule as it is created, not manually checked after the fact. Subspecialty-specific rules are built into the schedule itself so the rules are already in it when you review it."
         },
         {
           "id": "call-scheduling",
@@ -74,9 +74,9 @@
           "highlights": [
             "Weekend call balanced automatically",
             "Holiday shifts distributed fairly",
-            "Post-call rules enforced"
+            "Post-call rest rules applied"
           ],
-          "description": "Call, weekend, and holiday burden is distributed equitably across all residents using algorithmic optimization. Fairness disputes and manual call tallying are eliminated from the physician scheduling process entirely."
+          "description": "Call, weekend, and holiday burden is distributed equitably across all residents using algorithmic optimization. Far less manual tallying, and fewer fairness disputes."
         },
         {
           "id": "institutional-continuity",
@@ -85,7 +85,7 @@
           "highlights": [
             "Rules persist across chief rotations",
             "No annual rebuild required",
-            "New chiefs onboard instantly"
+            "New chiefs start with a working schedule"
           ],
           "description": "Your program's rules, requests, and scheduling configurations live with Scheduling Wizard year over year. Incoming chiefs inherit a working system instead of rebuilding automated physician scheduling logic from scratch."
         },
@@ -123,14 +123,14 @@
         },
         {
           "title": "Checking the Rules by Hand Is Slow",
-          "description": "Manually checking ACGME duty hour rules across block, call, and clinic schedules leaves room for violations and leaves the misses to surface later."
+          "description": "Manually checking ACGME duty hour rules across block, call, and clinic schedules leaves misses that surface later."
         },
         {
           "title": "Knowledge Disappears Every Year",
           "description": "When a chief rotates out, institutional scheduling knowledge walks out with them and the next chief starts over from zero."
         }
       ],
-      "title": "Scheduling Is Breaking Your Program",
+      "title": "Scheduling Is Costing Your Program",
       "description": "Manual physician scheduling consumes time, creates misses that surface later, and resets every year when chiefs rotate."
     },
     "solution": {

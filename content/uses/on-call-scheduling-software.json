@@ -5,7 +5,7 @@
   "title": "On Call Scheduling Software | Managed Service",
   "description": "On call scheduling software delivered as a managed service. We build the call schedule and hand it back ready to upload to whatever platform you already use.",
   "h1": "On Call Scheduling, Handled For You",
-  "paragraph": "Eliminate manual errors and wasted time. Scheduling Wizard delivers optimized on-call rosters as simple Excel files for easy upload to whatever platform you already use.",
+  "paragraph": "Send us your rules and requests; we build the call schedule and send it back finished, ready to upload wherever you publish.",
   "category": "role",
   "data": {
     "cta": {
@@ -37,6 +37,18 @@
       {
         "answer": "Scheduling Wizard delivers Block and Rotation schedules, Call schedules, Clinic schedules, and Attending schedules. All schedule types are optimized simultaneously so that a change in one does not create conflicts in another. Finished schedules are delivered as Excel spreadsheets that programs can upload to their existing tools for day-to-day access.",
         "question": "What types of schedules does Scheduling Wizard deliver for residency programs?"
+      },
+      {
+        "answer": "Finished call schedules are delivered as Excel or Google Sheets files, ready to use immediately. If you want one, we can also build a custom live viewing link designed around your schedules. Programs can upload these files directly to their existing schedule publishing platform, for day-to-day resident access. Scheduling Wizard handles the schedule creation and optimization; you publish and distribute it where you already do.",
+        "question": "What format are the finished call schedules delivered in?"
+      },
+      {
+        "answer": "Scheduling Wizard supports rapid re-optimization when unplanned absences occur, such as illness or emergency leave. Rather than manually reshuffling the entire schedule, our team generates updated coverage options for the affected shifts while maintaining compliance and fairness across the rest of the call schedule.",
+        "question": "What happens when a resident unexpectedly cannot cover a call shift?"
+      },
+      {
+        "answer": "Programs submit their scheduling rules, including ACGME duty hour requirements, subspecialty-specific call rules, resident preferences (vacation, conferences, moonlighting), coverage minimums, and any program-specific rules. Scheduling Wizard's team turns these inputs into a finished, optimized call schedule delivered as a ready-to-use Excel file.",
+        "question": "What information does my program need to submit to get a call schedule?"
       }
     ],
     "hero": {
@@ -47,12 +59,12 @@
       "items": [
         {
           "id": "call-scheduling",
-          "title": "Fair On Call Schedule Generation",
+          "title": "Fair On Call Schedules, Built",
           "eyebrow": "Call Scheduling",
           "highlights": [
             "Weekend call balanced automatically",
             "Holiday shifts distributed fairly",
-            "Post-call rest rules enforced"
+            "Post-call rest rules applied"
           ],
           "description": "Builds on call schedules that spread the call burden equitably across everyone on it, respecting rest rules, post-call recovery and individual requests, all in a single pass."
         },
@@ -61,7 +73,7 @@
           "title": "Requirements Built In From the Start",
           "eyebrow": "The Rules That Apply",
           "highlights": [
-            "80-hour weekly limits enforced",
+            "80-hour weekly limit applied",
             "Subspecialty rules built in",
             "No manual compliance checking"
           ],
@@ -84,10 +96,10 @@
           "eyebrow": "Fairness Optimization",
           "highlights": [
             "Call load balanced program-wide",
-            "Holiday equity automated",
-            "Eliminates fairness disputes"
+            "Holiday equity tracked",
+            "Fewer fairness disputes"
           ],
-          "description": "Call, weekend, and holiday assignments are distributed algorithmically so every resident carries an equitable share of the burden. Fairness disputes and manual audit trails become a thing of the past."
+          "description": "Call, weekend and holiday assignments are distributed algorithmically so every resident carries an equitable share. There is less to dispute, and the counts are there if anyone asks."
         },
         {
           "id": "institutional-continuity",
@@ -118,7 +130,7 @@
     "problems": {
       "items": [
         {
-          "title": "Compliance Violations Risk Accreditation",
+          "title": "Checking Duty Hours by Hand Is Slow",
           "description": "Tracking duty hour limits across every resident by hand is slow, and the errors only show up once the schedule is already out."
         },
         {
@@ -130,7 +142,7 @@
           "description": "When chief residents rotate out, all institutional scheduling knowledge walks out with them, forcing the next chief to start over."
         }
       ],
-      "title": "On Call Scheduling Is Broken",
+      "title": "On Call Scheduling Eats the Month",
       "description": "Chief residents spend hundreds of hours on call schedules that should take hours, not months."
     },
     "solution": {
@@ -152,7 +164,7 @@
   "seoMetadata": {
     "h1": "On Call Scheduling, Handled For You",
     "metaTitle": "On Call Scheduling Software | Managed Service",
-    "h1Paragraph": "Eliminate manual errors and wasted time. Scheduling Wizard delivers optimized on-call rosters as simple Excel files for easy upload to whatever platform you already use.",
+    "h1Paragraph": "Send us your rules and requests; we build the call schedule and send it back finished, ready to upload wherever you publish.",
     "metaDescription": "On call scheduling software delivered as a managed service. We build the call schedule and hand it back ready to upload to whatever platform you already use."
   },
   "finalMetadata": {

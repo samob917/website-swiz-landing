@@ -19,7 +19,7 @@
         "question": "Is Scheduling Wizard a replacement for QGenda?"
       },
       {
-        "answer": "ACGME duty hour rules are applied as the schedule is built, at the time the schedule is generated, not checked manually after the fact. Our team includes the 80-hour weekly limit, 10-hour rest requirements, 24-hour hard caps, and subspecialty-specific rules. Compliance is not a post-generation audit, violations are structurally prevented before the schedule is ever produced.",
+        "answer": "ACGME duty hour rules are applied as the schedule is built, at the time the schedule is generated, not checked manually after the fact. Our team includes the 80-hour weekly limit, eight hours off between duty periods, 24-hour hard caps, and subspecialty-specific rules. Compliance is not a post-generation audit, violations are structurally prevented before the schedule is ever produced.",
         "question": "How does Scheduling Wizard handle ACGME duty hour compliance?"
       },
       {
@@ -61,11 +61,11 @@
           "title": "Compliance Built In at Generation",
           "eyebrow": "ACGME Compliance",
           "highlights": [
-            "Violations prevented at generation",
+            "Rules applied as we build",
             "Subspecialty rules built in",
-            "80-hour and rest rules enforced"
+            "80-hour and rest rules applied"
           ],
-          "description": "ACGME duty hour rules are built into the schedule as it is built, not manually checked afterward. Subspecialty-specific rules are built into the schedule itself so compliance is never left to interpretation."
+          "description": "The ACGME duty hour rules are built into the schedule as it is built, not checked afterwards. The subspecialty-specific rules go in too, so the rules are applied as we build."
         },
         {
           "id": "institutional-continuity",
@@ -76,7 +76,7 @@
             "No annual software retraining",
             "New chiefs start with a working system"
           ],
-          "description": "Your program's scheduling rules, requests, and configurations live with Scheduling Wizard permanently. When your chief residents rotate, incoming chiefs inherit a working, optimized system instead of a blank spreadsheet."
+          "description": "Your program's scheduling rules, requests and configurations stay with Scheduling Wizard year over year. When your chief residents rotate, incoming chiefs inherit a working schedule instead of a blank spreadsheet."
         },
         {
           "id": "block-scheduling",
@@ -85,7 +85,7 @@
           "highlights": [
             "PGY-level requirements respected",
             "Elective preferences factored in",
-            "Coverage minimums enforced"
+            "Coverage minimums held"
           ],
           "description": "Scheduling Wizard generates year-long block rotation schedules that respect PGY-level requirements, elective preferences, coverage minimums, and ACGME rotation mandates, fully optimized, not manually assembled."
         },
@@ -98,7 +98,7 @@
             "Changes propagate automatically",
             "No manual cross-schedule patching"
           ],
-          "description": "Block, call, clinic, and attending schedules are optimized simultaneously. A change in one automatically propagates across the others, eliminating the cascade of manual fixes that plague programs using self-service tools."
+          "description": "Block, call, clinic and attending schedules are built together. A change in one propagates across the others, which removes the cascade of manual fixes."
         },
         {
           "id": "redrafts-included",
@@ -112,14 +112,14 @@
           "description": "Schedules come back in the format your program asks for, as Excel or Google Sheets, or on a custom live view we build for you. When someone goes on leave, a rotation changes or coverage shifts mid-year, we rebuild around it. Major redrafts are part of the engagement rather than a change order, which is the difference between a finished schedule and a draft you maintain."
         }
       ],
-      "title": "What Scheduling Wizard Does That QGenda Cannot",
+      "title": "What Scheduling Wizard Takes Off Your Plate",
       "description": "Scheduling Wizard handles schedule creation and optimization end-to-end so your team focuses on running the program, not operating software."
     },
     "problems": {
       "items": [
         {
           "title": "Software Still Requires Manual Work",
-          "description": "QGenda gives you scheduling tools, but your chief residents still spend hundreds of hours configuring rules, building schedules, and fixing conflicts manually."
+          "description": "QGenda gives you scheduling tools. Configuring the rules, building the schedule and fixing what the draft gets wrong is still your team's work."
         },
         {
           "title": "Knowledge Lost Every Year",
@@ -130,7 +130,7 @@
           "description": "Verifying ACGME duty hour compliance in self-service software is a manual, error-prone process, and the misses only surface later."
         }
       ],
-      "title": "Platforms Manage Schedules. They Don't Effectively Create Them.",
+      "title": "QGenda Manages the Schedule. Someone Still Has to Build It.",
       "description": "That's why most departments still have someone building the schedule in Excel, even while using a platform to manage day-to-day changes."
     },
     "solution": {

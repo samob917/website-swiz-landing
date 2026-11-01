@@ -169,7 +169,7 @@ export default function HomePage() {
               { name: "Internal Medicine", slug: "internal-medicine-residency-scheduling" },
               { name: "Emergency Medicine", slug: "emergency-medicine-scheduling-software" },
               { name: "Family Medicine" },
-              { name: "General Surgery", slug: "general-surgery-residency-scheduling" },
+              { name: "General Surgery", slug: "surgery-residency-scheduling" },
               { name: "Psychiatry" },
               { name: "Urology" },
               { name: "Neurocritical Care" },

@@ -3,7 +3,7 @@
   "slug": "acgme-compliance-checker",
   "anchor": "ACGME Compliance Checker",
   "title": "ACGME Compliance Checker | Compliance Built In",
-  "description": "This ACGME compliance checker service helps GME offices maintain program accreditation.",
+  "description": "Not a checker. We build the schedule with your program's ACGME requirements in it from the start, for one program or a whole GME office.",
   "h1": "ACGME Compliance Checker for Multi-Department GME",
   "paragraph": "A checker tells you what is already wrong. We build the schedule with your program's requirements in it from the start, so there is far less to find afterwards.",
   "category": "specialty",
@@ -19,16 +19,16 @@
         "answer": "No, and it is worth being direct about that. A compliance checker audits a schedule you already built and reports what breaks. We do the building. Your program's ACGME requirements go in while the schedule is created, which is a different job and makes most of the checking unnecessary. If what you specifically want is a tool that audits an existing schedule, a residency management platform like New Innovations or MedHub is closer to what you are after."
       },
       {
-        "answer": "An ACGME compliance checker is a tool or service that verifies whether a residency or fellowship schedule meets ACGME duty hour regulations before it is published. Scheduling Wizard goes further than traditional checkers by enforcing compliance mathematically at generation time. Rather than auditing a finished schedule and flagging violations, our team builds the schedule around ACGME rules from the start, including the 80-hour weekly limit, 10-hour rest minimums, and subspecialty-specific requirements, so no violations exist when the schedule is delivered.",
+        "answer": "An ACGME compliance checker is a tool that verifies whether an existing residency or fellowship schedule meets the duty hour requirements. It is useful, and it is a different job from ours. We build the schedule with those requirements already in it, so what comes back has far less to check. Programs that want an audit tool as well usually get it from their residency management platform.",
         "question": "What is an ACGME compliance checker and how does it work?"
       },
       {
-        "answer": "Our team has subspecialty-specific ACGME rule knowledge built in. This matters because ACGME requirements differ across program types, and a generic compliance checker that applies universal rules will miss subspecialty mandates that reviewers actually evaluate during accreditation visits. When you engage Scheduling Wizard, your program's specific duty hour rules are modeled into the schedule itself before any schedule is generated.",
+        "answer": "Our team has subspecialty-specific ACGME rule knowledge built in. This matters because ACGME requirements differ across program types, and a generic compliance checker that applies universal rules will miss the subspecialty requirements that differ from one program to the next. When you engage Scheduling Wizard, your program's specific duty hour rules are modeled into the schedule itself before any schedule is generated.",
         "question": "How does Scheduling Wizard handle subspecialty-specific ACGME rules?"
       },
       {
-        "answer": "our team enforces core ACGME standards including the 80-hour weekly duty hour limit, minimum 10-hour rest between shifts, the 24-hour hard cap on continuous duty, and specialty-specific home call requirements. Subspecialty-specific rules are also incorporated based on your program type, ensuring compliance extends beyond the universal standards.",
-        "question": "What ACGME duty hour rules does our team enforce?"
+        "answer": "The core standards: the 80-hour weekly limit averaged over four weeks, eight hours off between duty periods, 14 hours free after 24-hour in-house call, the 24-hour cap on continuous duty with up to four hours for transitions, one day off in seven averaged over four weeks, and the home call rules. On top of those, the specialty-specific Program Requirements for your program. We work from the requirements your program tells us apply, and we redraft when something needs to change.",
+        "question": "Which ACGME duty hour rules does our team work from?"
       },
       {
         "answer": "No. Scheduling Wizard operates as a managed service, not a self-service software platform. There is no client-facing tool to learn or operate. You submit your program's rules, and Scheduling Wizard delivers finished, ACGME-compliant schedules as ready-to-use Excel spreadsheets that your team can upload directly to your existing publishing platform.",
@@ -54,9 +54,9 @@
           "title": "Subspecialty ACGME Rules Built In",
           "eyebrow": "ACGME Compliance",
           "highlights": [
-            "80-hour weekly limits enforced",
-            "Subspecialty rules pre-loaded",
-            "Violations prevented not detected"
+            "80-hour weekly limit applied",
+            "Subspecialty rules written down with you",
+            "Rules applied as we build"
           ],
           "description": "ACGME duty hour limits are built into the schedule as it is created across all schedule types. Our team carries subspecialty-specific rule knowledge, so your program's own requirements are written down rather than assumed."
         },
@@ -66,8 +66,8 @@
           "eyebrow": "Managed Service",
           "highlights": [
             "No software to learn",
-            "Compliance delivered as Excel files",
-            "Expert schedulers handle rules"
+            "Delivered as Excel or Sheets",
+            "Our schedulers hold the rules"
           ],
           "description": "Submit your rules and receive finished, ACGME-compliant schedules as Excel files. No compliance software to operate or audit manually. Our schedulers hold the rules so your team stays focused on patient care."
         },
@@ -76,11 +76,11 @@
           "title": "Compliance Across All Departments",
           "eyebrow": "GME Oversight",
           "highlights": [
-            "Multiple departments supported",
-            "Per-program rule enforcement",
-            "Consistent compliance system-wide"
+            "Several departments at once",
+            "Each program on its own rules",
+            "One process across the GME office"
           ],
-          "description": "For GME offices managing multiple programs, Scheduling Wizard enforces the correct ACGME compliance standards for each department simultaneously, including different subspecialty rules that apply across your hospital system."
+          "description": "For GME offices with several programs, we apply each department's own ACGME requirements at the same time, including the subspecialty rules that differ across your hospital."
         },
         {
           "id": "institutional-continuity",
@@ -95,14 +95,14 @@
         },
         {
           "id": "block-scheduling",
-          "title": "Compliant Block Schedules Generated",
+          "title": "Block Schedules Built to the Requirements",
           "eyebrow": "Rotation Scheduling",
           "highlights": [
-            "PGY-level rules respected",
-            "Rotation mandates enforced",
-            "Coverage minimums maintained"
+            "PGY-level rules applied",
+            "Rotation requirements applied",
+            "Coverage minimums held"
           ],
-          "description": "Block rotation schedules are generated with ACGME rotation mandates, PGY-level requirements, and your program's coverage minimums factored in simultaneously, ensuring every rotation assignment is compliant before the schedule is published."
+          "description": "Block rotation schedules are built with ACGME rotation requirements, PGY-level rules and your program's coverage minimums applied together, so every rotation assignment is checked against the requirements before the schedule goes out."
         },
         {
           "id": "redrafts-included",
@@ -123,7 +123,7 @@
       "items": [
         {
           "title": "Generic Software Misses Subspecialty Rules",
-          "description": "Most scheduling tools apply one-size-fits-all ACGME rules, missing the subspecialty-specific duty hour requirements that reviewers actually audit."
+          "description": "Most scheduling tools apply one-size-fits-all ACGME rules and miss the subspecialty-specific duty hour requirements that differ from one program to the next."
         },
         {
           "title": "Checking Happens Too Late",
@@ -134,15 +134,15 @@
           "description": "When chiefs rotate annually, hard-won ACGME rule knowledge walks out the door, and the next chief starts the compliance process from scratch."
         }
       ],
-      "title": "Manual Compliance Checking Always Falls Short",
-      "description": "Generic tools and manual audits leave residency programs exposed to misses that surface later every scheduling cycle."
+      "title": "Checking After the Fact Is Slow Work",
+      "description": "A check finds the problem once the schedule exists, when fixing it means moving other people."
     },
     "solution": {
       "title": "Compliance Built In From the Start",
       "description": "Our team enforces ACGME duty hour rules at schedule generation time, not after. Submit your program rules and receive finished, subspecialty-compliant schedules as ready-to-use Excel files. No manual auditing, no software to learn, no knowledge lost between chief rotations."
     },
     "metaTitle": "ACGME Compliance Checker | Compliance Built In",
-    "metaDescription": "This ACGME compliance checker service helps GME offices maintain program accreditation."
+    "metaDescription": "Not a checker. We build the schedule with your program's ACGME requirements in it from the start, for one program or a whole GME office."
   },
   "searchIntent": {
     "keyword": "ACGME compliance checker",
@@ -157,7 +157,7 @@
     "h1": "ACGME Compliance Checker for Multi-Department GME",
     "metaTitle": "ACGME Compliance Checker | Compliance Built In",
     "h1Paragraph": "A checker tells you what is already wrong. We build the schedule with your program's requirements in it from the start, so there is far less to find afterwards.",
-    "metaDescription": "This ACGME compliance checker service helps GME offices maintain program accreditation."
+    "metaDescription": "Not a checker. We build the schedule with your program's ACGME requirements in it from the start, for one program or a whole GME office."
   },
   "finalMetadata": {
     "slug": "acgme-compliance-checker",

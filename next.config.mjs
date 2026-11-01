@@ -34,6 +34,12 @@ const nextConfig = {
         permanent: true,
       },
 
+      // Three use-case pages were close variants of another and were folded
+      // in. Each old URL carries its reader to the page that absorbed it.
+      { source: "/uses/call-schedule-software", destination: "/uses/on-call-scheduling-software", permanent: true },
+      { source: "/uses/resident-call-schedule-automation", destination: "/uses/on-call-scheduling-software", permanent: true },
+      { source: "/uses/general-surgery-residency-scheduling", destination: "/uses/surgery-residency-scheduling", permanent: true },
+
       // /compliance-checker was a real page with a navbar link until it was
       // removed. Anything still linking to it should land on the use-case
       // page that replaced it rather than a 404.

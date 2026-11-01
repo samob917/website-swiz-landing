@@ -5,7 +5,7 @@
   "title": "Fellowship Scheduling Software | ACGME-Compliant",
   "description": "Fellowship scheduling software shouldn't add to your workload. Scheduling Wizard is a managed service that takes your rules and delivers complete.",
   "h1": "The Fellowship Scheduling Software You Don't Have to Run",
-  "paragraph": "Stop struggling with complex fellowship scheduling software. As a managed service, Scheduling Wizard takes your rules and delivers a ACGME-compliant schedule as an Excel file.",
+  "paragraph": "Stop struggling with complex fellowship scheduling software. As a managed service, Scheduling Wizard takes your rules and delivers an ACGME-compliant schedule as an Excel file.",
   "category": "setting",
   "data": {
     "cta": {
@@ -23,7 +23,7 @@
         "question": "Is Scheduling Wizard compliant with ACGME fellowship duty hour requirements?"
       },
       {
-        "answer": "Subspecialty-specific ACGME rules are built directly into the way we build your schedule. Rather than applying a one-size-fits-all compliance check, our team knows the particular duty hour and rotation requirements that apply to your fellowship's subspecialty and enforces them during schedule generation. This is one of the most critical capabilities for fellowship programs, where rules can differ significantly from categorical residency requirements.",
+        "answer": "Subspecialty-specific ACGME rules are built directly into the way we build your schedule. Rather than applying a one-size-fits-all compliance check, our team knows the particular duty hour and rotation requirements that apply to your fellowship's subspecialty and applies them as the schedule is built. This is one of the most critical capabilities for fellowship programs, where rules can differ significantly from categorical residency requirements.",
         "question": "How does Scheduling Wizard handle subspecialty-specific ACGME fellowship rules?"
       },
       {
@@ -51,10 +51,10 @@
           "eyebrow": "ACGME Compliance",
           "highlights": [
             "Subspecialty rules built in",
-            "Violations prevented at generation",
+            "Rules applied as we build",
             "Kept current with ACGME updates"
           ],
-          "description": "Fellowship programs face subspecialty-specific ACGME duty hour rules that differ from categorical residency programs. We hold to these rules as the schedule is built, the rules are applied as we build, not discovered after publishing."
+          "description": "Fellowship programs face subspecialty-specific ACGME duty hour rules that differ from categorical residency programs. We apply these rules as the schedule is built, not after it is published."
         },
         {
           "id": "managed-service",
@@ -85,7 +85,7 @@
           "highlights": [
             "Full year generated at once",
             "Elective preferences incorporated",
-            "ACGME rotation mandates met"
+            "ACGME rotation requirements met"
           ],
           "description": "Generates complete year-long block rotation schedules for fellowship programs, respecting PGY-level requirements, elective preferences, site-specific coverage minimums, and all ACGME rotation mandates for your subspecialty."
         },
@@ -152,7 +152,7 @@
   "seoMetadata": {
     "h1": "The Fellowship Scheduling Software You Don't Have to Run",
     "metaTitle": "Fellowship Scheduling Software | ACGME-Compliant",
-    "h1Paragraph": "Stop struggling with complex fellowship scheduling software. As a managed service, Scheduling Wizard takes your rules and delivers a ACGME-compliant schedule as an Excel file.",
+    "h1Paragraph": "Stop struggling with complex fellowship scheduling software. As a managed service, Scheduling Wizard takes your rules and delivers an ACGME-compliant schedule as an Excel file.",
     "metaDescription": "Fellowship scheduling software shouldn't add to your workload. Scheduling Wizard is a managed service that takes your rules and delivers complete."
   },
   "finalMetadata": {
