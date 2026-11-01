@@ -24,6 +24,16 @@ const nextConfig = {
       // original slugs, so those URLs resolve to the posts Google already
       // indexed rather than being funnelled to the homepage.
 
+      // best-physician-scheduling-tools-2026 was a near-identical copy of
+      // best-physician-scheduling-tools: same title, same description, 98% the
+      // same body. Two URLs were competing for one query, so the copy is held
+      // back and its traffic goes to the one we kept.
+      {
+        source: "/blog/best-physician-scheduling-tools-2026",
+        destination: "/blog/best-physician-scheduling-tools",
+        permanent: true,
+      },
+
       // /compliance-checker was a real page with a navbar link until it was
       // removed. Anything still linking to it should land on the use-case
       // page that replaced it rather than a 404.
