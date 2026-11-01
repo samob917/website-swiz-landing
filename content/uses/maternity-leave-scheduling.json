@@ -11,7 +11,7 @@
     "cta": {
       "title": "Stop Rebuilding Schedules Around Leave",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 30+ departments across 20+ hospitals and practices who trust Scheduling Wizard to deliver compliant, optimized schedules."
+      "description": "Join 30+ departments across 20+ hospitals and practices who trust Scheduling Wizard to deliver compliant, optimized schedules. Finished schedules in your format, with redrafts through the year included."
     },
     "faq": [
       {
@@ -98,7 +98,18 @@
             "Delivered as ready-to-use Excel files",
             "No scheduling software to operate"
           ],
-          "description": "Scheduling Wizard is a done-for-you service. Submit your rules and leave details, and our schedulers deliver finished, ready-to-use Excel files directly to you."
+          "description": "Scheduling Wizard is a done-for-you service. Submit your rules and leave details, and our schedulers deliver finished, ready-to-use Excel files directly to you. The schedules are built by mathematicians who do this full time and nothing else."
+        },
+        {
+          "id": "redrafts-included",
+          "title": "Redrafts Through the Year, Included",
+          "eyebrow": "What You Get",
+          "highlights": [
+            "Excel or Google Sheets, your format",
+            "Or a custom live view we build for you",
+            "Mid-year rebuilds are not billed separately"
+          ],
+          "description": "Schedules come back in the format your program asks for, as Excel or Google Sheets, or on a custom live view we build for you. When someone goes on leave, a rotation changes or coverage shifts mid-year, we rebuild around it. Major redrafts are part of the engagement rather than a change order, which is the difference between a finished schedule and a draft you maintain."
         }
       ],
       "title": "Built for Real Scheduling Complexity",

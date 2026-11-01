@@ -11,7 +11,7 @@
     "cta": {
       "title": "Get Your Holiday Call Schedule Right",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 30+ departments across 20+ hospitals and practices who outsource their scheduling to Scheduling Wizard."
+      "description": "Join 30+ departments across 20+ hospitals and practices who outsource their scheduling to Scheduling Wizard. Finished schedules in your format, with redrafts through the year included."
     },
     "faq": [
       {
@@ -98,7 +98,18 @@
             "Excel file delivered ready-to-use",
             "Works with your existing platform"
           ],
-          "description": "Scheduling Wizard operates as a done-for-you managed service. Submit your rules and receive a finished holiday call schedule as an Excel file ready to upload to whatever platform you already usees."
+          "description": "Scheduling Wizard operates as a done-for-you managed service. Submit your rules and receive a finished holiday call schedule as an Excel file ready to upload to whatever platform you already usees. The schedules are built by mathematicians who do this full time and nothing else."
+        },
+        {
+          "id": "redrafts-included",
+          "title": "Redrafts Through the Year, Included",
+          "eyebrow": "What You Get",
+          "highlights": [
+            "Excel or Google Sheets, your format",
+            "Or a custom live view we build for you",
+            "Mid-year rebuilds are not billed separately"
+          ],
+          "description": "Schedules come back in the format your program asks for, as Excel or Google Sheets, or on a custom live view we build for you. When someone goes on leave, a rotation changes or coverage shifts mid-year, we rebuild around it. Major redrafts are part of the engagement rather than a change order, which is the difference between a finished schedule and a draft you maintain."
         }
       ],
       "title": "Built for Holiday Call Scheduling Complexity",

@@ -11,7 +11,7 @@
     "cta": {
       "title": "Stop Leaving Compliance to Chance",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 30+ departments across 20+ hospitals and practices who have their ACGME-compliant schedules built for them."
+      "description": "Join 30+ departments across 20+ hospitals and practices who have their ACGME-compliant schedules built for them. Finished schedules in your format, with redrafts through the year included."
     },
     "faq": [
       {
@@ -65,7 +65,7 @@
             "Excel files ready to publish",
             "No software training required"
           ],
-          "description": "Programs submit their rules and receive finished, ACGME-compliant schedules as Excel files. There is no platform to operate or software to train incoming chiefs on. Scheduling Wizard handles the optimization entirely."
+          "description": "Programs submit their rules and receive finished, ACGME-compliant schedules as Excel files. There is no platform to operate or software to train incoming chiefs on. Scheduling Wizard handles the optimization entirely. The schedules are built by mathematicians who do this full time and nothing else."
         },
         {
           "id": "institutional-continuity",
@@ -99,6 +99,17 @@
             "Holiday and weekend call balanced"
           ],
           "description": "On-call schedules are built to distribute burden equitably while strictly honoring ACGME duty hour limits, post-call rest requirements, and program-specific call rules, all without manual checking."
+        },
+        {
+          "id": "redrafts-included",
+          "title": "Redrafts Through the Year, Included",
+          "eyebrow": "What You Get",
+          "highlights": [
+            "Excel or Google Sheets, your format",
+            "Or a custom live view we build for you",
+            "Mid-year rebuilds are not billed separately"
+          ],
+          "description": "Schedules come back in the format your program asks for, as Excel or Google Sheets, or on a custom live view we build for you. When someone goes on leave, a rotation changes or coverage shifts mid-year, we rebuild around it. Major redrafts are part of the engagement rather than a change order, which is the difference between a finished schedule and a draft you maintain."
         }
       ],
       "title": "Built Around ACGME Duty Hour Compliance",

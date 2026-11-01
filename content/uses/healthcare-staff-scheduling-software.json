@@ -11,7 +11,7 @@
     "cta": {
       "title": "Stop Running Schedules on Spreadsheets",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 30+ departments across 20+ hospitals and practices who already trust Scheduling Wizard with their schedules."
+      "description": "Join 30+ departments across 20+ hospitals and practices who already trust Scheduling Wizard with their schedules. Finished schedules in your format, with redrafts through the year included."
     },
     "faq": [
       {
@@ -54,7 +54,7 @@
             "Finished schedules as Excel files",
             "Expert schedulers handle optimization"
           ],
-          "description": "Programs submit their rules and receive finished, optimized schedules as Excel files ready to publish. No platform to log into, no software to learn, no annual retraining when a new chief takes over."
+          "description": "Programs submit their rules and receive finished, optimized schedules as Excel files ready to publish. No platform to log into, no software to learn, no annual retraining when a new chief takes over. The schedules are built by mathematicians who do this full time and nothing else."
         },
         {
           "id": "acgme-compliance",
@@ -99,6 +99,17 @@
             "No manual cross-schedule patching"
           ],
           "description": "Block rotations, call schedules, clinic assignments, and attending coverage are optimized simultaneously. A rule in one schedule automatically propagates across the others, eliminating the domino effect of manual cross-schedule patching."
+        },
+        {
+          "id": "redrafts-included",
+          "title": "Redrafts Through the Year, Included",
+          "eyebrow": "What You Get",
+          "highlights": [
+            "Excel or Google Sheets, your format",
+            "Or a custom live view we build for you",
+            "Mid-year rebuilds are not billed separately"
+          ],
+          "description": "Schedules come back in the format your program asks for, as Excel or Google Sheets, or on a custom live view we build for you. When someone goes on leave, a rotation changes or coverage shifts mid-year, we rebuild around it. Major redrafts are part of the engagement rather than a change order, which is the difference between a finished schedule and a draft you maintain."
         }
       ],
       "title": "Built for How Residency Programs Actually Work",

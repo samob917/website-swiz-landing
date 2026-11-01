@@ -11,7 +11,7 @@
     "cta": {
       "title": "Get Schedules That Are Compliant From Day One",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 30+ departments across 20+ hospitals and practices who rely on Scheduling Wizard for ACGME-compliant schedules."
+      "description": "Join 30+ departments across 20+ hospitals and practices who rely on Scheduling Wizard for ACGME-compliant schedules. Finished schedules in your format, with redrafts through the year included."
     },
     "faq": [
       {
@@ -99,6 +99,17 @@
             "Coverage minimums maintained"
           ],
           "description": "Block rotation schedules are generated with ACGME rotation mandates, PGY-level requirements, and your program's coverage minimums factored in simultaneously, ensuring every rotation assignment is compliant before the schedule is published."
+        },
+        {
+          "id": "redrafts-included",
+          "title": "Redrafts Through the Year, Included",
+          "eyebrow": "What You Get",
+          "highlights": [
+            "Excel or Google Sheets, your format",
+            "Or a custom live view we build for you",
+            "Mid-year rebuilds are not billed separately"
+          ],
+          "description": "Schedules come back in the format your program asks for, as Excel or Google Sheets, or on a custom live view we build for you. When someone goes on leave, a rotation changes or coverage shifts mid-year, we rebuild around it. Major redrafts are part of the engagement rather than a change order, which is the difference between a finished schedule and a draft you maintain."
         }
       ],
       "title": "How Scheduling Wizard Builds ACGME Rules In",
