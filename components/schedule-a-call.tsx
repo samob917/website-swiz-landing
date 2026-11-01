@@ -23,7 +23,7 @@ export function ScheduleACall() {
           Tell us about how your schedules work and we will build them for you.
         </p>
 
-        <div className="mt-7">
+        <div className="mt-5">
           <a
             href={CALENDLY_URL}
             target="_blank"
