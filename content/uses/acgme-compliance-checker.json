@@ -127,8 +127,8 @@
           "description": "Schedules come back in the format your program asks for, as Excel or Google Sheets, or on a custom live view we build for you. When someone goes on leave, a rotation changes or coverage shifts mid-year, we rebuild around it. Major redrafts are part of the engagement rather than a change order, which is the difference between a finished schedule and a draft you maintain."
         }
       ],
-      "title": "How Scheduling Wizard Builds ACGME Rules In",
-      "description": "Every schedule is built around your program's specific ACGME rules from the ground up, not checked for violations after the fact."
+      "title": "How We Build Your Rules In",
+      "description": "Every schedule is built around your program’s own rules from the ground up, the ACGME requirements among them, rather than checked afterwards."
     },
     "problems": {
       "items": [
