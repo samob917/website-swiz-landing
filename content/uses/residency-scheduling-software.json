@@ -2,10 +2,10 @@
   "keyword": "residency scheduling software",
   "slug": "residency-scheduling-software",
   "anchor": "Residency Scheduling Software",
-  "title": "Residency Scheduling Software | Built for GME",
+  "title": "Residency Scheduling Software | Built For You",
   "description": "Residency scheduling software, run for you. Send us your rules and we deliver complete block, call, clinic and attending schedules, built to the ACGME requirements.",
   "h1": "Residency Scheduling Software That Does the Work",
-  "paragraph": "Go beyond typical residency scheduling software. Scheduling Wizard is a managed service. Provide your rules; we deliver a complete, ACGME-compliant schedule.",
+  "paragraph": "Go beyond typical residency scheduling software. Scheduling Wizard is a managed service. Provide your rules; we deliver a complete schedule built to the ACGME requirements.",
   "category": "specialty",
   "data": {
     "cta": {
@@ -15,19 +15,19 @@
     },
     "faq": [
       {
-        "answer": "Residency scheduling software helps programs build and manage rotation, call, and clinic schedules for residents. Most tools are self-service platforms that require someone to learn and operate them. Scheduling Wizard is different: it is a managed service, not a self-service platform. Programs submit their rules and receive finished, ACGME-compliant schedules as Excel files. There is no software to learn, no dashboard to manage, and no annual retraining needed when chief residents rotate.",
+        "answer": "Residency scheduling software helps programs build and manage rotation, call, and clinic schedules for residents. Most tools are self-service platforms that require someone to learn and operate them. Scheduling Wizard is different: it is a managed service, not a self-service platform. Programs submit their rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you. There is no software to learn, no dashboard to manage, and no annual retraining needed when chief residents rotate.",
         "question": "What is residency scheduling software and how does Scheduling Wizard differ?"
       },
       {
-        "answer": "ACGME compliance is built into the schedule as it is created, not manually checked after the fact. Our team has subspecialty-specific ACGME rules built in, including 80-hour weekly limits, minimum rest requirements, and program-specific call rules. Because the rules are built in as the schedule is created, the rules are applied before the schedule reaches your program. This is one of the most common questions asked during sales conversations, and it is a core part of how Scheduling Wizard is built.",
+        "answer": "ACGME compliance is built into the schedule as it is created, not manually checked after the fact. The subspecialty requirements you tell us apply are built in, including 80-hour weekly limits, minimum rest requirements, and program-specific call rules. Because the rules are built in as the schedule is created, the rules are applied before the schedule reaches your program. This is one of the most common questions asked during sales conversations, and it is a core part of how Scheduling Wizard is built.",
         "question": "How does Scheduling Wizard ensure ACGME duty hour compliance?"
       },
       {
-        "answer": "Scheduling Wizard generates four types of schedules: Block or rotation schedules, Call schedules with fairness optimization, Clinic schedules, and Attending schedules. All four are built together, so conflicts between schedule types are resolved before the final schedule is delivered. The output is ready-to-use Excel files that programs can upload to their existing publishing platform.",
+        "answer": "Scheduling Wizard generates four types of schedules: Block or rotation schedules, Call schedules with fairness optimization, Clinic schedules, and Attending schedules. All four are built together, so conflicts between schedule types are resolved before the final schedule is delivered. The output is delivered as Excel or Google Sheets, or on a custom live view we build for you, ready for their existing publishing platform.",
         "question": "What types of schedules does Scheduling Wizard generate for residency programs?"
       },
       {
-        "answer": "No. Many Scheduling Wizard clients continue using the platform they already have alongside the service. Scheduling Wizard handles schedule creation and optimization, while the platform you already use handles day-to-day schedule viewing and access. The finished Excel files Scheduling Wizard delivers are designed to be uploaded directly into whichever viewing platform your program already uses.",
+        "answer": "No. Many Scheduling Wizard clients continue using the platform they already have alongside the service. Scheduling Wizard handles schedule creation and optimization, while the platform you already use handles day-to-day schedule viewing and access. The finished schedules Scheduling Wizard delivers go into whichever viewing platform your program already uses.",
         "question": "Do we need to replace the platform we use now to use Scheduling Wizard?"
       },
       {
@@ -62,8 +62,8 @@
           "eyebrow": "ACGME Requirements",
           "highlights": [
             "80-hour limit applied",
-            "Subspecialty-specific rules built in",
-            "No manual compliance checks needed"
+            "Subspecialty rules you give us built in",
+            "Far less to check afterwards"
           ],
           "description": "We apply the ACGME duty hour rules as the schedule is built, including the 80-hour weekly limit, rest requirements and the subspecialty-specific rules, rather than discovering problems after publishing."
         },
@@ -73,10 +73,10 @@
           "eyebrow": "Managed Service",
           "highlights": [
             "Submit rules, receive finished schedules",
-            "Delivered as ready-to-use Excel files",
+            "Delivered as Excel or Google Sheets, or on a custom live view we build for you",
             "No platform or training required"
           ],
-          "description": "Unlike self-service residency scheduling software, Scheduling Wizard is a done-for-you managed service. Your team submits rules and receives finished, optimized schedules as Excel files as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Unlike self-service residency scheduling software, Scheduling Wizard is a done-for-you managed service. Your team submits rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by mathematicians who do this full time and nothing else."
         },
         {
           "id": "institutional-continuity",
@@ -142,13 +142,13 @@
         }
       ],
       "title": "Scheduling Is Costing Your Program",
-      "description": "Residency scheduling consumes hundreds of hours and puts compliance, fairness and continuity back at square one every year."
+      "description": "Residency scheduling consumes dozens of hours and puts compliance, fairness and continuity back at square one every year."
     },
     "solution": {
       "title": "Scheduling Wizard Delivers Your Schedules Done Right",
-      "description": "Submit your program's rules (rotation requirements, subspecialty ACGME rules, resident preferences, and call fairness targets) and receive finished, compliant schedules as ready-to-use Excel files. No software to learn. No annual retraining when chiefs rotate. A managed service built specifically for GME."
+      "description": "Submit your program's rules (rotation requirements, subspecialty ACGME rules, resident preferences, and call fairness targets) and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you. No software to learn. No annual retraining when chiefs rotate. A managed service built specifically for GME."
     },
-    "metaTitle": "Residency Scheduling Software | Built for GME",
+    "metaTitle": "Residency Scheduling Software | Built For You",
     "metaDescription": "Residency scheduling software, run for you. Send us your rules and we deliver complete block, call, clinic and attending schedules, built to the ACGME requirements."
   },
   "searchIntent": {
@@ -162,8 +162,8 @@
   },
   "seoMetadata": {
     "h1": "Residency Scheduling Software That Ensures Compliance",
-    "metaTitle": "Residency Scheduling Software | Built for GME",
-    "h1Paragraph": "Go beyond typical residency scheduling software. Scheduling Wizard is a managed service. Provide your rules; we deliver a complete, ACGME-compliant schedule.",
+    "metaTitle": "Residency Scheduling Software | Built For You",
+    "h1Paragraph": "Go beyond typical residency scheduling software. Scheduling Wizard is a managed service. Provide your rules; we deliver a complete schedule built to the ACGME requirements.",
     "metaDescription": "Residency scheduling software, run for you. Send us your rules and we deliver complete block, call, clinic and attending schedules, built to the ACGME requirements."
   },
   "finalMetadata": {

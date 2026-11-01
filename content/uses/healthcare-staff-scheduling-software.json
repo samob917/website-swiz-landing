@@ -27,7 +27,7 @@
         "question": "How is Scheduling Wizard different from other healthcare staff scheduling software?"
       },
       {
-        "answer": "Scheduling Wizard generates Block and rotation schedules, Call schedules with fairness optimization, Clinic schedules, and Attending physician schedules. All schedule types are optimized simultaneously so that rules in one schedule are automatically reflected across the others. Finished schedules are delivered as Excel spreadsheets that programs can upload directly to their existing publishing platform.",
+        "answer": "Scheduling Wizard generates Block and rotation schedules, Call schedules with fairness optimization, Clinic schedules, and Attending physician schedules. All schedule types are optimized simultaneously so that rules in one schedule are automatically reflected across the others. Finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you that programs can upload directly to their existing publishing platform.",
         "question": "What types of schedules does Scheduling Wizard generate?"
       },
       {
@@ -41,7 +41,7 @@
     ],
     "hero": {
       "title": "Healthcare Staff Scheduling Software Done For You",
-      "description": "Scheduling Wizard builds physician and advanced practice provider schedules for residency and fellowship programs, provider groups and practices. Send us your rules and get finished schedules back as ready-to-use Excel files."
+      "description": "Scheduling Wizard builds physician and advanced practice provider schedules for residency and fellowship programs, provider groups and practices. Send us your rules and get finished schedules back as Excel or Google Sheets, or on a custom live view we build for you."
     },
     "features": {
       "items": [
@@ -51,7 +51,7 @@
           "eyebrow": "Your Rules and Requests",
           "highlights": [
             "80-hour limit applied",
-            "Subspecialty-specific rules built in",
+            "Subspecialty rules you give us built in",
             "Checked while building, not after"
           ],
           "description": "We build each schedule to the rules that govern it. For a residency or fellowship that means the ACGME duty hour requirements and the specialty-specific Program Requirements. For a provider group or practice it means yours: coverage minimums, call equity, contractual obligations, time off and requests, and multiple sites where a group has them."
@@ -62,10 +62,10 @@
           "eyebrow": "Managed Service",
           "highlights": [
             "No software to operate",
-            "Finished schedules as Excel files",
+            "Finished schedules as Excel or Google Sheets, or on a custom live view we build for you",
             "Expert schedulers handle optimization"
           ],
-          "description": "Programs submit their rules and receive finished, optimized schedules as Excel files ready to publish. No platform to log into, no software to learn, no annual retraining when a new chief takes over. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Programs submit their rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you ready to publish. No platform to log into, no software to learn, no annual retraining when a new chief takes over. The schedules are built by mathematicians who do this full time and nothing else."
         },
         {
           "id": "institutional-continuity",
@@ -85,9 +85,9 @@
           "highlights": [
             "Holiday shifts balanced automatically",
             "Weekend call distributed equitably",
-            "Algorithmic fairness across cohort"
+            "Fairness worked out across the cohort"
           ],
-          "description": "Call burden, weekend shifts and holiday assignments are distributed algorithmically across the group. Fair outcomes are calculated, not negotiated, which leaves less to dispute."
+          "description": "Call burden, weekend shifts and holiday assignments are distributed across the group. Fair outcomes are calculated, not negotiated, which leaves less to dispute."
         },
         {
           "id": "cross-schedule-resolution",
@@ -135,7 +135,7 @@
     },
     "solution": {
       "title": "Your Schedules Built and Delivered by Experts",
-      "description": "Scheduling Wizard is a managed service, not staff scheduling software you have to operate. Send us your rules and receive finished Block, Call, Clinic and Attending schedules as ready-to-use Excel files. No software to learn. No institutional knowledge lost when the chief rotates."
+      "description": "Scheduling Wizard is a managed service, not staff scheduling software you have to operate. Send us your rules and receive finished Block, Call, Clinic and Attending schedules as Excel or Google Sheets, or on a custom live view we build for you. No software to learn. No institutional knowledge lost when the chief rotates."
     },
     "metaTitle": "Healthcare Staff Scheduling Software | Managed Service",
     "metaDescription": "Healthcare staff scheduling software that works for you, not against you. Our managed service builds physician and APP schedules and hands them back finished."

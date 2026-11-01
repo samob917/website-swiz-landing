@@ -2,10 +2,10 @@
   "keyword": "qgenda alternative",
   "slug": "qgenda-alternative",
   "anchor": "Already Using QGenda?",
-  "title": "QGenda Alternative | Managed ACGME Scheduling",
-  "description": "QGenda alternative for GME programs seeking a managed service. We deliver complete, ACGME-compliant block, call, and clinic schedules as Excel files.",
+  "title": "QGenda Alternative | We Build It, You Keep QGenda",
+  "description": "QGenda alternative for GME programs seeking a managed service. We deliver complete block, call and clinic schedules, built to the ACGME requirements, as Excel or Google Sheets, or on a custom live view we build for you.",
   "h1": "QGenda Manages Your Schedule. We Build It.",
-  "paragraph": "Keep QGenda for the day to day. Scheduling Wizard builds the ACGME-compliant schedule you run in it, no migration, no software to learn.",
+  "paragraph": "Keep QGenda for the day to day. Scheduling Wizard builds the schedule you run in it, to the ACGME requirements, no migration, no software to learn.",
   "category": "competitor",
   "data": {
     "cta": {
@@ -15,15 +15,15 @@
     },
     "faq": [
       {
-        "answer": "Scheduling Wizard replaces QGenda for schedule creation and optimization, not for schedule viewing. Many Scheduling Wizard clients continue using QGenda as their day-to-day publishing platform; they simply upload the finished Excel schedule that Scheduling Wizard delivers. The key distinction is that Scheduling Wizard handles the complex work of building and optimizing the schedule, while QGenda serves as the publishing platform.",
+        "answer": "Scheduling Wizard replaces QGenda for schedule creation and optimization, not for schedule viewing. Many Scheduling Wizard clients continue using QGenda as their day-to-day publishing platform; they put the finished schedule Scheduling Wizard delivers into it. The key distinction is that Scheduling Wizard handles the complex work of building and optimizing the schedule, while QGenda serves as the publishing platform.",
         "question": "Is Scheduling Wizard a replacement for QGenda?"
       },
       {
-        "answer": "ACGME duty hour rules are applied as the schedule is built, at the time the schedule is generated, not checked manually after the fact. Our team includes the 80-hour weekly limit, eight hours off between duty periods, 24-hour hard caps, and subspecialty-specific rules. Compliance is not a post-generation audit, violations are structurally prevented before the schedule is ever produced.",
+        "answer": "ACGME duty hour rules are applied as the schedule is built, not checked manually after the fact. We apply the 80-hour weekly limit, eight hours off between duty periods, the 24-hour cap, and subspecialty-specific rules. The review afterwards is a check, not a repair job.",
         "question": "How does Scheduling Wizard handle ACGME duty hour compliance?"
       },
       {
-        "answer": "Scheduling Wizard produces Block rotation schedules, Call schedules, Clinic schedules, and Attending schedules. All four schedule types are optimized simultaneously so that changes in one do not create conflicts in another. Finished schedules are delivered as ready-to-use Excel files that programs can upload to viewing platforms like QGenda.",
+        "answer": "Scheduling Wizard produces Block rotation schedules, Call schedules, Clinic schedules, and Attending schedules. All four schedule types are optimized simultaneously so that changes in one do not create conflicts in another. Finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you that programs can upload to viewing platforms like QGenda.",
         "question": "What types of schedules does Scheduling Wizard produce?"
       },
       {
@@ -31,11 +31,11 @@
         "question": "Do chief residents need to learn new software to use Scheduling Wizard?"
       },
       {
-        "answer": "Subspecialty-specific ACGME rules are built into the schedule itself. During sales calls, ACGME compliance is consistently the first question program directors and chiefs ask, and specifically whether our team knows the rules for their subspecialty. Our team works from those subspecialty distinctions rather than applying generic duty hour rules across all programs.",
+        "answer": "The subspecialty requirements you tell us apply are built in too. During sales calls, ACGME compliance is consistently the first question program directors and chiefs ask, and specifically whether we know the rules for their subspecialty. We ask you for them, write them down with you, and build to them rather than applying generic duty hour rules across all programs.",
         "question": "How does Scheduling Wizard handle subspecialty-specific ACGME rules?"
       },
       {
-        "answer": "Scheduling Wizard handles mid-year revisions including sick leave, parental leave, resident swaps, and new rules. When changes occur, affected portions of the schedule are re-optimized without disrupting the full schedule. Programs submit the updated rules and receive a revised schedule rather than rebuilding it manually.",
+        "answer": "Scheduling Wizard handles mid-year revisions including sick leave, parental leave, resident swaps, and new rules. When changes occur, affected portions of the schedule are rebuilt without disrupting the full schedule. Programs submit the updated rules and receive a revised schedule rather than rebuilding it manually.",
         "question": "What happens when scheduling rules change mid-year?"
       }
     ],
@@ -63,9 +63,9 @@
           "highlights": [
             "No software to learn",
             "Finished schedules delivered to you",
-            "Delivered as Excel or Sheets"
+            "Or a custom live view we build"
           ],
-          "description": "Unlike QGenda, Scheduling Wizard is a done-for-you managed service. Submit your rules and receive a finished, publishable schedule as an Excel file. No software to configure, no training required, no annual ramp-up when chiefs rotate. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Unlike QGenda, Scheduling Wizard is a done-for-you managed service. Submit your rules and receive a finished, publishable schedule as Excel or Google Sheets, or on a custom live view we build for you. No software to configure, no training required, no annual ramp-up when chiefs rotate. The schedules are built by mathematicians who do this full time and nothing else."
         },
         {
           "id": "acgme-compliance",
@@ -146,15 +146,15 @@
     },
     "solution": {
       "title": "A Done-For-You Alternative to QGenda",
-      "description": "Scheduling Wizard is a managed service, not another software tool. Submit your program's rules and receive finished, ACGME-compliant Block, Call, Clinic, and Attending schedules as ready-to-use Excel files. Your chiefs never learn new software, and your institutional scheduling knowledge persists year after year."
+      "description": "Scheduling Wizard is a managed service, not another software tool. Submit your program's rules and receive finished, ACGME-compliant Block, Call, Clinic, and Attending schedules as Excel or Google Sheets, or on a custom live view we build for you. Your chiefs never learn new software, and your institutional scheduling knowledge persists year after year."
     },
-    "metaTitle": "QGenda Alternative | Managed ACGME Scheduling",
-    "metaDescription": "QGenda alternative for GME programs seeking a managed service. We deliver complete, ACGME-compliant block, call, and clinic schedules as Excel files."
+    "metaTitle": "QGenda Alternative | We Build It, You Keep QGenda",
+    "metaDescription": "QGenda alternative for GME programs seeking a managed service. We deliver complete block, call and clinic schedules, built to the ACGME requirements, as Excel or Google Sheets, or on a custom live view we build for you."
   },
   "searchIntent": {
     "keyword": "qgenda alternative",
     "searchIntents": [
-      "A residency program coordinator frustrated with QGenda's limitations is looking for a managed scheduling solution that can automate the creation of ACGME-compliant schedules without burdening chief residents with software complexities.",
+      "A residency program coordinator frustrated with QGenda's limitations is looking for a managed scheduling solution that can automate the creation of schedules built to the ACGME requirements without burdening chief residents with software complexities.",
       "A chief resident tired of the time-consuming manual adjustments in QGenda wants an alternative that builds the rotation schedules while still ensuring adherence to subspecialty-specific ACGME rules.",
       "A fellowship program director seeking a more efficient way to handle scheduling is searching for alternatives to QGenda that offer complete scheduling services, including call and attending schedules, all while maintaining compliance with ACGME duty hour regulations.",
       "An administrator in a medical residency program wants to find a scheduling tool that integrates easily with existing platforms like Amion but provides a fully managed service to reduce the operational burden on staff and ensure continuity during chief rotations."
@@ -162,9 +162,9 @@
   },
   "seoMetadata": {
     "h1": "QGenda Alternative for Managed Schedule Creation",
-    "metaTitle": "QGenda Alternative | Managed ACGME Scheduling",
-    "h1Paragraph": "Stop wrestling with software. As a managed QGenda alternative, Scheduling Wizard takes your rules and delivers a complete, ACGME-compliant schedule.",
-    "metaDescription": "QGenda alternative for GME programs seeking a managed service. We deliver complete, ACGME-compliant block, call, and clinic schedules as Excel files."
+    "metaTitle": "QGenda Alternative | We Build It, You Keep QGenda",
+    "h1Paragraph": "As a managed QGenda alternative, Scheduling Wizard takes your rules and delivers a complete schedule built to the ACGME requirements.",
+    "metaDescription": "QGenda alternative for GME programs seeking a managed service. We deliver complete block, call and clinic schedules, built to the ACGME requirements, as Excel or Google Sheets, or on a custom live view we build for you."
   },
   "finalMetadata": {
     "slug": "alternative",

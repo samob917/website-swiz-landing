@@ -19,7 +19,7 @@
         "question": "What are the ACGME duty hour rules for residents?"
       },
       {
-        "answer": "Scheduling Wizard applies the ACGME duty hour rules while the schedule is built, the rules are applied as we build, not detected after the fact. Rather than building a schedule and then checking it for compliance, our team treats every duty hour requirement as a rule that cannot be broken. This means the finished schedule delivered to your program is compliant at the moment it is generated, including subspecialty-specific rules relevant to your program.",
+        "answer": "Scheduling Wizard applies the ACGME duty hour rules while the schedule is built, the rules are applied as we build, not detected after the fact. Rather than building a schedule and then checking it for compliance, our team treats every duty hour requirement as a rule of the build. The finished schedule was built to them, including the subspecialty rules you told us apply, and we review it against them before it goes out.",
         "question": "How does Scheduling Wizard handle the ACGME duty hour rules?"
       },
       {
@@ -31,11 +31,11 @@
         "question": "What are the most common ACGME duty hour violations?"
       },
       {
-        "answer": "While all ACGME-accredited programs share core duty hour requirements, subspecialties have additional or modified rules, for example, surgery programs have specific requirements around trauma call pyramids and back-up call coverage, while pediatrics programs have their own home call requirements. We build the subspecialty-specific ACGME rules in, so your schedule reflects the rules that actually apply to your program rather than a one-size-fits-all interpretation.",
+        "answer": "While all ACGME-accredited programs share core duty hour requirements, subspecialties have additional or modified rules, for example, surgery programs have supervision and case requirements that shape call, while pediatrics programs lean on home call. We build the subspecialty-specific ACGME rules in, so your schedule reflects the rules that actually apply to your program rather than a one-size-fits-all interpretation.",
         "question": "How do subspecialty ACGME duty hour rules differ across programs?"
       },
       {
-        "answer": "Yes. Scheduling Wizard delivers finished, ACGME-compliant schedules as Excel spreadsheets, which programs can upload directly to whatever platform you already use for day-to-day viewing and access. Many current Scheduling Wizard clients use this exact workflow. Scheduling Wizard handles the schedule creation and optimization, while the platform you already use serves as the publishing and access layer your team is already familiar with.",
+        "answer": "Yes. Scheduling Wizard delivers finished schedules built to the ACGME requirements as Excel or Google Sheets, or on a custom live view we build for you, which programs can upload directly to whatever platform you already use for day-to-day viewing and access. Many current Scheduling Wizard clients use this exact workflow. Scheduling Wizard handles the schedule creation and optimization, while the platform you already use serves as the publishing and access layer your team is already familiar with.",
         "question": "Can Scheduling Wizard work with our Amion system?"
       }
     ],
@@ -62,7 +62,7 @@
           "eyebrow": "ACGME Requirements",
           "highlights": [
             "80-hour weekly limit applied",
-            "Subspecialty-specific rules built in",
+            "Subspecialty rules you give us built in",
             "Home call rules handled correctly"
           ],
           "description": "The ACGME duty hour regulations, including the 80-hour weekly limit, eight hours off between duty periods, 14 hours free after 24-hour call, the 24-hour cap and the home call rules, are applied as the schedule is built, before it reaches your program."
@@ -73,10 +73,10 @@
           "eyebrow": "Managed Service",
           "highlights": [
             "Done-for-you schedule delivery",
-            "Excel files ready to publish",
+            "Delivered ready to publish",
             "No software training required"
           ],
-          "description": "Programs submit their rules and receive finished, ACGME-compliant schedules as Excel files. There is no platform to operate or software to train incoming chiefs on. Scheduling Wizard handles the optimization entirely. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Programs submit their rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you. There is no platform to operate or software to train incoming chiefs on. Scheduling Wizard handles the optimization entirely. The schedules are built by mathematicians who do this full time and nothing else."
         },
         {
           "id": "institutional-continuity",
@@ -109,7 +109,7 @@
             "Fair call burden distribution",
             "Holiday and weekend call balanced"
           ],
-          "description": "On-call schedules are built to distribute burden equitably while strictly honoring ACGME duty hour limits, post-call rest requirements, and program-specific call rules, all without manual checking."
+          "description": "On-call schedules are built to distribute burden equitably while strictly honoring ACGME duty hour limits, post-call rest requirements, and program-specific call rules."
         },
         {
           "id": "redrafts-included",
@@ -146,7 +146,7 @@
     },
     "solution": {
       "title": "Compliance Built Into Every Schedule",
-      "description": "Scheduling Wizard operates as a done-for-you managed service. Submit your program's rules and receive finished Block, Call, Clinic, and Attending schedules as ready-to-use Excel files, with ACGME duty hour compliance built into the schedule as it is created, not manually checked after the fact. Subspecialty-specific rules are built into the schedule itself."
+      "description": "Scheduling Wizard operates as a done-for-you managed service. Submit your program's rules and receive finished Block, Call, Clinic, and Attending schedules as Excel or Google Sheets, or on a custom live view we build for you, with ACGME duty hour compliance built into the schedule as it is created, not manually checked after the fact. The subspecialty requirements you tell us apply are built in too."
     },
     "metaTitle": "ACGME Duty Hour Rules | Compliance Built In",
     "metaDescription": "The ACGME duty hour rules, explained, and built into the schedule for you. Send us your program's rules and we build to them."

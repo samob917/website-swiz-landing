@@ -2,10 +2,10 @@
   "keyword": "private practice physician scheduling",
   "slug": "private-practice-physician-scheduling",
   "anchor": "Private Practice Physician Scheduling",
-  "title": "Private Practice Physician Scheduling | Expert Help",
-  "description": "Private practice physician scheduling is complex. Our managed service takes your rules and delivers a complete, optimized, and compliant schedule.",
+  "title": "Private Practice Physician Scheduling | Built For You",
+  "description": "Private practice physician scheduling is complex. Our managed service takes your rules and delivers a complete schedule built to your rules.",
   "h1": "Private Practice Physician Scheduling, Built For You",
-  "paragraph": "Stop spending hours on private practice physician scheduling. Submit your rules and preferences, and Scheduling Wizard delivers a complete, compliant schedule.",
+  "paragraph": "Stop spending hours on private practice physician scheduling. Submit your rules and preferences, and Scheduling Wizard delivers a complete schedule built to your rules.",
   "category": "setting",
   "data": {
     "cta": {
@@ -15,7 +15,7 @@
     },
     "faq": [
       {
-        "answer": "A managed scheduling service means your practice submits its rules and requirements, and an expert team handles the schedule creation and optimization on your behalf. Scheduling Wizard takes your physician availability, coverage requirements, and preferences, has a team that does this full time build it, and delivers a finished physician schedule as a ready-to-use Excel file. Your practice gets an optimized result without needing to learn or operate any scheduling software.",
+        "answer": "A managed scheduling service means your practice submits its rules and requirements, and an expert team handles the schedule creation and optimization on your behalf. Scheduling Wizard takes your physician availability, coverage requirements, and preferences, has a team that does this full time build it, and delivers a finished physician schedule as Excel or Google Sheets, or on a custom live view we build for you. Your practice gets an optimized result without needing to learn or operate any scheduling software.",
         "question": "What is a managed scheduling service for private practice physicians?"
       },
       {
@@ -27,7 +27,7 @@
         "question": "How does Scheduling Wizard ensure fair scheduling across physician partners?"
       },
       {
-        "answer": "Scheduling Wizard delivers finished schedules as Excel spreadsheets, ready for your practice to use immediately. If your practice uses a viewing or publishing platform, the Excel file can be uploaded directly. There is no separate platform or dashboard, the deliverable is a complete, optimized schedule file your team can act on right away.",
+        "answer": "Scheduling Wizard delivers finished schedules as Excel or Google Sheets, or on a custom live view we build for you, ready for your practice to use immediately. If your practice uses a viewing or publishing platform, the finished schedule goes straight in. There is no separate platform or dashboard, the deliverable is a complete, optimized schedule file your team can act on right away.",
         "question": "What does the scheduling output look like for a private practice?"
       },
       {
@@ -41,7 +41,7 @@
     ],
     "hero": {
       "title": "Private Practice Physician Scheduling, Built For You",
-      "description": "Send us your rules and receive complete physician schedules as ready-to-use Excel or Google Sheets files, or on a custom live view we build for the practice. No software to learn."
+      "description": "Send us your rules and receive complete physician schedules as Excel or Google Sheets files, or on a custom live view we build for the practice. No software to learn."
     },
     "features": {
       "items": [
@@ -63,9 +63,9 @@
           "highlights": [
             "No scheduling software to learn",
             "Rules submitted, schedules returned",
-            "Delivered as ready-to-use Excel files"
+            "Delivered as Excel or Google Sheets, or on a custom live view we build for you"
           ],
-          "description": "Submit your practice rules, physician preferences, and coverage requirements. Scheduling Wizard's expert team handles the optimization and delivers finished schedules as Excel files your practice can use immediately. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Submit your practice rules, physician preferences, and coverage requirements. Scheduling Wizard's expert team handles the optimization and delivers finished schedules as Excel or Google Sheets, or on a custom live view we build for you your practice can use immediately. The schedules are built by mathematicians who do this full time and nothing else."
         },
         {
           "id": "coverage-optimization",
@@ -87,7 +87,7 @@
             "Weekend burden distributed fairly",
             "No one person deciding who gets Christmas"
           ],
-          "description": "Weekend, holiday and on-call burdens are distributed algorithmically across the group, with far fewer of the fairness disputes that arise when schedules are built by hand."
+          "description": "Weekend, holiday and on-call burdens are distributed across the group, with far fewer of the fairness disputes that arise when schedules are built by hand."
         },
         {
           "id": "attending-scheduling",
@@ -105,11 +105,11 @@
           "title": "Rapid Response to Unplanned Absences",
           "eyebrow": "Schedule Flexibility",
           "highlights": [
-            "Rapid re-optimization on demand",
+            "Rebuilds on demand",
             "Coverage restored without manual work",
             "No full-schedule disruption"
           ],
-          "description": "When a physician is unexpectedly unavailable, Scheduling Wizard re-optimizes the affected portion of the schedule to restore coverage quickly without manually reshuffling the entire month."
+          "description": "When a physician is unexpectedly unavailable, Scheduling Wizard rebuilds the affected portion of the schedule to restore coverage quickly without manually reshuffling the entire month."
         },
         {
           "id": "redrafts-included",
@@ -146,10 +146,10 @@
     },
     "solution": {
       "title": "A Managed Scheduling Service Built for Physicians",
-      "description": "Scheduling Wizard operates as a done-for-you managed service. Submit your practice rules, physician preferences, and coverage requirements, and receive finished, optimized physician schedules delivered as ready-to-use Excel files. No software to learn, no scheduling expertise required."
+      "description": "Scheduling Wizard operates as a done-for-you managed service. Submit your practice rules, physician preferences, and coverage requirements, and receive finished, optimized physician schedules delivered as Excel or Google Sheets, or on a custom live view we build for you. No software to learn, no scheduling expertise required."
     },
-    "metaTitle": "Private Practice Physician Scheduling | Expert Help",
-    "metaDescription": "Private practice physician scheduling is complex. Our managed service takes your rules and delivers a complete, optimized, and compliant schedule."
+    "metaTitle": "Private Practice Physician Scheduling | Built For You",
+    "metaDescription": "Private practice physician scheduling is complex. Our managed service takes your rules and delivers a complete schedule built to your rules."
   },
   "searchIntent": {
     "keyword": "private practice physician scheduling",
@@ -162,9 +162,9 @@
   },
   "seoMetadata": {
     "h1": "Private Practice Physician Scheduling, Solved.",
-    "metaTitle": "Private Practice Physician Scheduling | Expert Help",
-    "h1Paragraph": "Stop spending hours on private practice physician scheduling. Submit your rules and preferences, and Scheduling Wizard delivers a complete, compliant schedule.",
-    "metaDescription": "Private practice physician scheduling is complex. Our managed service takes your rules and delivers a complete, optimized, and compliant schedule."
+    "metaTitle": "Private Practice Physician Scheduling | Built For You",
+    "h1Paragraph": "Stop spending hours on private practice physician scheduling. Submit your rules and preferences, and Scheduling Wizard delivers a complete schedule built to your rules.",
+    "metaDescription": "Private practice physician scheduling is complex. Our managed service takes your rules and delivers a complete schedule built to your rules."
   },
   "finalMetadata": {
     "slug": "physician-scheduling",

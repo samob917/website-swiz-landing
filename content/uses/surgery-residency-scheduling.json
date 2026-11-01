@@ -3,8 +3,8 @@
   "slug": "surgery-residency-scheduling",
   "anchor": "Surgery Residency Scheduling",
   "title": "Surgery Residency Scheduling | Compliance Built In",
-  "description": "Surgery residency scheduling is complex. Our managed service delivers optimized, ACGME-compliant block, call, and clinic schedules directly to your inbox.",
-  "h1": "Surgery Residency Scheduling Without The Burden",
+  "description": "Surgery residency scheduling is complex. Our managed service builds the block, call and clinic schedules to your rules and the ACGME requirements.",
+  "h1": "Surgery Residency Scheduling, Built For You",
   "paragraph": "Send us your surgery program's rules and we build the schedule to the ACGME requirements and send it back finished.",
   "category": "specialty",
   "data": {
@@ -15,15 +15,15 @@
     },
     "faq": [
       {
-        "answer": "ACGME compliance is built into the schedule as it is created, not checked manually afterward. Our team has subspecialty-specific ACGME duty hour rules built in, including the 80-hour weekly limit, eight hours off between duty periods between shifts, and the 24-hour hard cap. For surgical programs specifically, our team accounts for the specific call and trauma coverage rules that are unique to surgery. The rules are applied before the schedule reaches your program.",
+        "answer": "ACGME compliance is built into the schedule as it is created, not checked manually afterward. The requirements you tell us apply are built in, including the 80-hour weekly limit, eight hours off between duty periods, and the 24-hour cap. For surgical programs that includes the call and trauma coverage rules particular to your program. The rules are applied before the schedule reaches your program.",
         "question": "How does Scheduling Wizard ensure ACGME compliance for surgery residency schedules?"
       },
       {
-        "answer": "Scheduling Wizard generates complete Block, Call, Clinic, and Attending schedules for surgical residency and fellowship programs. All four schedule types are optimized simultaneously, so a change in one automatically propagates across the others. The finished schedules are delivered as Excel spreadsheets that programs can upload directly to their existing publishing platform.",
+        "answer": "Scheduling Wizard generates complete Block, Call, Clinic, and Attending schedules for surgical residency and fellowship programs. All four schedule types are optimized simultaneously, so a change in one automatically propagates across the others. The finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you that programs can upload directly to their existing publishing platform.",
         "question": "What types of schedules does Scheduling Wizard generate for surgery programs?"
       },
       {
-        "answer": "Fairness is algorithmically optimized, not estimated. Our team distributes call, weekend, and holiday burden equitably across all residents in a surgical program while simultaneously respecting ACGME duty hour limits and individual rules. This eliminates the manual back-and-forth and \"why do I have more weekend call?\" disputes that are common with spreadsheet-based scheduling.",
+        "answer": "Fairness is worked out in the build, not estimated. Our team distributes call, weekend, and holiday burden equitably across all residents in a surgical program while simultaneously respecting ACGME duty hour limits and individual rules. This eliminates the manual back-and-forth and \"why do I have more weekend call?\" disputes that are common with spreadsheet-based scheduling.",
         "question": "How is surgery residency call scheduling made fair across all residents?"
       },
       {
@@ -39,16 +39,16 @@
         "question": "Who at a surgery residency program typically works with Scheduling Wizard?"
       },
       {
-        "answer": "No. Scheduling Wizard focuses on building and optimizing your schedule, the output is delivered as a ready-to-use Excel file that your program can upload directly to whatever platform you already use. Many Scheduling Wizard clients continue using the platform they already have to publish the schedule day-to-day while Scheduling Wizard handles all schedule creation and optimization.",
+        "answer": "No. Scheduling Wizard focuses on building and optimizing your schedule, the output is delivered as Excel or Google Sheets, or on a custom live view we build for you that your program can upload directly to whatever platform you already use. Many Scheduling Wizard clients continue using the platform they already have to publish the schedule day-to-day while Scheduling Wizard handles all schedule creation and optimization.",
         "question": "Do we need to replace the scheduling tools we already use?"
       },
       {
-        "answer": "The process has three steps. First, your program submits its scheduling rules, rotation requirements, ACGME rules, resident preferences, call coverage targets, and any site-specific rules. Second, our team builds a compliant, finished schedule. Third, you receive a finished Excel file ready to review and publish. No software to learn, no platform to onboard.",
+        "answer": "The process has three steps. First, your program submits its scheduling rules, rotation requirements, ACGME rules, resident preferences, call coverage targets, and any site-specific rules. Second, our team builds a compliant, finished schedule. Third, you receive the finished schedule as Excel or Google Sheets, or on a custom live view we build for you, ready to review and publish. No software to learn, no platform to onboard.",
         "question": "How does the surgery residency scheduling process work with Scheduling Wizard?"
       }
     ],
     "hero": {
-      "title": "Surgery Residency Scheduling Without The Burden",
+      "title": "Surgery Residency Scheduling, Built For You",
       "description": "Surgery residency schedules, built to your rules and requests, however granular, with the ACGME requirements as part of them. Send us the rules; we send back the finished schedule."
     },
     "features": {
@@ -70,10 +70,10 @@
           "eyebrow": "ACGME Requirements",
           "highlights": [
             "80-hour weekly limit applied",
-            "24-hour hard cap respected",
+            "24-hour cap respected",
             "Subspecialty rules built in"
           ],
-          "description": "The subspecialty-specific ACGME duty hour rules for surgical programs are built into the schedule itself. The rules are applied as the schedule is built, not audited after the fact."
+          "description": "The surgery requirements you tell us apply are built into the schedule itself. The rules are applied as the schedule is built, not audited after the fact."
         },
         {
           "id": "call-scheduling",
@@ -84,7 +84,7 @@
             "Holiday shifts distributed fairly",
             "Post-call rest rules applied"
           ],
-          "description": "Algorithmic optimization distributes call, weekend, and holiday burden equitably across surgical residents while respecting duty hour limits, post-call rules, and individual rules simultaneously."
+          "description": "We distribute call, weekend, and holiday burden equitably across surgical residents while respecting duty hour limits, post-call rules, and individual rules simultaneously."
         },
         {
           "id": "block-scheduling",
@@ -114,10 +114,10 @@
           "eyebrow": "Managed Service",
           "highlights": [
             "No software to learn",
-            "Excel files ready to publish",
-            "Delivered as Excel or Sheets"
+            "Delivered ready to publish",
+            "Or a custom live view we build"
           ],
-          "description": "Scheduling Wizard operates as a done-for-you managed service. Surgery programs submit rules and receive finished, ACGME-compliant schedules as Excel files as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Scheduling Wizard operates as a done-for-you managed service. Surgery programs submit rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by mathematicians who do this full time and nothing else."
         },
         {
           "id": "redrafts-included",
@@ -154,25 +154,25 @@
     },
     "solution": {
       "title": "Your Surgery Schedules Done For You",
-      "description": "Submit your program's rules (rotation requirements, subspecialty ACGME rules, resident preferences, call fairness targets) and Scheduling Wizard delivers finished, compliant schedules as ready-to-use Excel files. No software to learn. No annual retraining when chiefs rotate."
+      "description": "Submit your program's rules (rotation requirements, subspecialty ACGME rules, resident preferences, call fairness targets) and Scheduling Wizard delivers finished schedules built to the rules as Excel or Google Sheets, or on a custom live view we build for you. No software to learn. No annual retraining when chiefs rotate."
     },
     "metaTitle": "Surgery Residency Scheduling | Compliance Built In",
-    "metaDescription": "Surgery residency scheduling is complex. Our managed service delivers optimized, ACGME-compliant block, call, and clinic schedules directly to your inbox."
+    "metaDescription": "Surgery residency scheduling is complex. Our managed service builds the block, call and clinic schedules to your rules and the ACGME requirements."
   },
   "searchIntent": {
     "keyword": "surgery residency scheduling",
     "searchIntents": [
-      "A chief resident in a surgical program overwhelmed with trying to create an ACGME-compliant schedule that accommodates all resident preferences and departmental needs, needing a solution that enforces the rules when the schedule is built without the administrative burden of manual scheduling.",
+      "A chief resident in a surgical program overwhelmed with trying to create an schedules built to the ACGME requirements that accommodates all resident preferences and departmental needs, needing a solution that enforces the rules when the schedule is built without the administrative burden of manual scheduling.",
       "A program coordinator looking for a reliable service to generate optimized surgery residency schedules quickly, ensuring no gaps in coverage and fairness in call duties, while avoiding the pitfalls of generic scheduling software that fails to account for complex residency rules.",
       "A residency program director seeking to streamline the scheduling process for their surgical department with a managed service that can deliver ready-to-use schedules tailored to their unique ACGME requirements, knowing that traditional self-service tools won’t meet the specific demands of their program.",
       "A fellowship program administrator who needs a dependable scheduling solution during the transition between chief residents, looking for a service that not only handles scheduling but also maintains institutional knowledge of unique scheduling rules and compliance issues."
     ]
   },
   "seoMetadata": {
-    "h1": "Surgery Residency Scheduling Without The Burden",
+    "h1": "Surgery Residency Scheduling, Built For You",
     "metaTitle": "Surgery Residency Scheduling | Compliance Built In",
     "h1Paragraph": "Send us your surgery program's rules and we build the schedule to the ACGME requirements and send it back finished.",
-    "metaDescription": "Surgery residency scheduling is complex. Our managed service delivers optimized, ACGME-compliant block, call, and clinic schedules directly to your inbox."
+    "metaDescription": "Surgery residency scheduling is complex. Our managed service builds the block, call and clinic schedules to your rules and the ACGME requirements."
   },
   "finalMetadata": {
     "slug": "surgery-scheduling",

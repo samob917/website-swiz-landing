@@ -15,11 +15,11 @@
     },
     "faq": [
       {
-        "answer": "Most GME scheduling software is a self-service tool that requires chief residents to learn and operate a complex platform. Scheduling Wizard is different; it is a fully managed service. Programs submit their rules and receive finished, ACGME-compliant schedules as Excel files, with no software to learn or operate. The optimization is handled entirely by Scheduling Wizard's schedulers.",
+        "answer": "Most GME scheduling software is a self-service tool that requires chief residents to learn and operate a complex platform. Scheduling Wizard is different; it is a fully managed service. Programs submit their rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you, with no software to learn or operate. The optimization is handled entirely by Scheduling Wizard's schedulers.",
         "question": "What is GME scheduling software and how does Scheduling Wizard differ?"
       },
       {
-        "answer": "Scheduling Wizard builds in the ACGME duty hour regulations at schedule generation time. This means the 80-hour weekly limit, minimum rest requirements, and the 24-hour shift cap are built into the schedule itself, not checked manually after the fact. Subspecialty-specific ACGME rules are also built in, so programs do not need to cross-reference requirements themselves.",
+        "answer": "Scheduling Wizard builds in the ACGME duty hour regulations while the schedule is built. This means the 80-hour weekly limit, minimum rest requirements, and the 24-hour shift cap are built into the schedule itself, not checked manually after the fact. You tell us which subspecialty requirements apply and they go in too.",
         "question": "How does Scheduling Wizard ensure ACGME duty hour compliance?"
       },
       {
@@ -27,7 +27,7 @@
         "question": "What types of schedules does Scheduling Wizard generate for GME programs?"
       },
       {
-        "answer": "Yes. Scheduling Wizard handles schedule creation and optimization, while many clients continue using the platform they already have for day-to-day schedule access. Finished schedules are delivered as Excel files that can be uploaded directly into whichever platform your program already uses. There is no need to switch away from the platform you use now.",
+        "answer": "Yes. Scheduling Wizard handles schedule creation and optimization, while many clients continue using the platform they already have for day-to-day schedule access. Finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you that can be uploaded directly into whichever platform your program already uses. There is no need to switch away from the platform you use now.",
         "question": "Can Scheduling Wizard work alongside your existing platform?"
       },
       {
@@ -62,10 +62,10 @@
           "eyebrow": "Managed Service",
           "highlights": [
             "No software to learn",
-            "Finished Excel files delivered",
+            "Delivered as Excel, Sheets or a live view",
             "Expert schedulers handle optimization"
           ],
-          "description": "Scheduling Wizard operates as a fully managed service for GME programs. Submit your rules and receive finished Excel schedules, as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Scheduling Wizard operates as a fully managed service for GME programs. Submit your rules and receive finished schedules as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by mathematicians who do this full time and nothing else."
         },
         {
           "id": "acgme-compliance",
@@ -76,7 +76,7 @@
             "Rules applied as we build",
             "80-hour limit applied"
           ],
-          "description": "ACGME duty hour rules are built into the schedule as it is created across all schedule types. Subspecialty-specific rules are built into the schedule itself, so they are applied before the schedule reaches your program."
+          "description": "ACGME duty hour rules are built into the schedule as it is created across all schedule types. The subspecialty requirements you tell us apply are built in too, and applied before the schedule reaches your program."
         },
         {
           "id": "institutional-continuity",
@@ -142,11 +142,11 @@
         }
       ],
       "title": "GME Scheduling Eats the Year",
-      "description": "Residency programs lose hundreds of hours each year to scheduling work that pulls chiefs away from patient care."
+      "description": "Residency programs lose dozens of hours each year to scheduling work that pulls chiefs away from patient care."
     },
     "solution": {
       "title": "A Done For You GME Scheduling Service",
-      "description": "Scheduling Wizard is a managed service, not software. Submit your program's rules and receive finished, ACGME-compliant Block, Clinic, Call, and Attending schedules delivered as ready-to-use Excel files. No software to learn. No institutional knowledge lost when chiefs rotate."
+      "description": "Scheduling Wizard is a managed service, not software. Submit your program's rules and receive finished, ACGME-compliant Block, Clinic, Call, and Attending schedules delivered as Excel or Google Sheets, or on a custom live view we build for you. No software to learn. No institutional knowledge lost when chiefs rotate."
     },
     "metaTitle": "GME Scheduling Software | Managed for You",
     "metaDescription": "GME scheduling software should not be your burden. Scheduling Wizard takes your program's rules and delivers complete block, call, clinic and attending schedules, built to the ACGME requirements."

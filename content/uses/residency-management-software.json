@@ -3,9 +3,9 @@
   "slug": "residency-management-software",
   "anchor": "Residency Management Software",
   "title": "Residency Management Software | Get Schedules Done",
-  "description": "Residency management software shouldn't add to your workload. Scheduling Wizard is a managed service that builds your ACGME-compliant schedules for you.",
+  "description": "Residency management software shouldn't add to your workload. Scheduling Wizard is a managed service that builds your schedules for you, to the ACGME requirements.",
   "h1": "Residency Management Software, Done For You",
-  "paragraph": "Stop losing nights to spreadsheets. Scheduling Wizard isn't software you learn. It's a service. Send us your rules and requests; we build the schedule and send it back finished.",
+  "paragraph": "Scheduling Wizard isn't software you learn. It's a service. Send us your rules and requests; we build the schedule and send it back finished.",
   "category": "role",
   "data": {
     "cta": {
@@ -19,7 +19,7 @@
         "question": "Is Scheduling Wizard residency management software?"
       },
       {
-        "answer": "ACGME compliance is built into the schedule as it is created, not manually checked after the fact. Our team has subspecialty-specific ACGME rules built in, including the 80-hour weekly limit, minimum rest requirements, and the 24-hour hard cap. The rules are applied while the schedule is built rather than discovered after the schedule is published. Buyers frequently ask about subspecialty-specific rules on sales calls, and those rules are encoded directly into the schedule itself.",
+        "answer": "ACGME compliance is built into the schedule as it is created, not manually checked after the fact. The subspecialty requirements you tell us apply are built in, including the 80-hour weekly limit, minimum rest requirements, and the 24-hour cap. The rules are applied while the schedule is built rather than discovered after the schedule is published. Buyers frequently ask about subspecialty-specific rules on sales calls, and the ones you tell us apply go into the schedule.",
         "question": "How does Scheduling Wizard ensure ACGME duty hour compliance?"
       },
       {
@@ -31,7 +31,7 @@
         "question": "How does Scheduling Wizard handle the annual chief resident transition?"
       },
       {
-        "answer": "Yes, many Scheduling Wizard clients use the platform they already have alongside the service. Scheduling Wizard handles schedule creation and optimization, delivering finished schedules as Excel files. Programs then upload those files to your existing platform for day-to-day schedule viewing and access. Scheduling Wizard is designed to complement these tools, not replace them.",
+        "answer": "Yes, many Scheduling Wizard clients use the platform they already have alongside the service. Scheduling Wizard handles schedule creation and optimization, delivering finished schedules as Excel or Google Sheets, or on a custom live view we build for you. Programs then upload those files to your existing platform for day-to-day schedule viewing and access. Scheduling Wizard is designed to complement these tools, not replace them.",
         "question": "Can Scheduling Wizard work alongside the tools you already use?"
       },
       {
@@ -65,7 +65,7 @@
             "Finished schedules delivered",
             "Or a custom live view we build"
           ],
-          "description": "Scheduling Wizard operates as a fully managed service, not self-service residency management software. Submit your rules and receive finished Excel schedules as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Scheduling Wizard operates as a fully managed service, not self-service residency management software. Submit your rules and receive finished schedules as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by mathematicians who do this full time and nothing else."
         },
         {
           "id": "acgme-compliance",
@@ -74,7 +74,7 @@
           "highlights": [
             "80-hour limit applied",
             "Subspecialty rules built in",
-            "No manual compliance checks"
+            "Far less to check afterwards"
           ],
           "description": "The ACGME duty hour rules, the 80-hour weekly limit, rest requirements and the subspecialty-specific regulations, are applied as the schedule is built, before it reaches your program."
         },
@@ -138,7 +138,7 @@
         },
         {
           "title": "Scheduling Consumes Clinical Time",
-          "description": "Chief residents spend hundreds of hours each year buried in spreadsheets instead of focusing on patient care and professional development."
+          "description": "Chief residents spend dozens of hours each year buried in spreadsheets instead of focusing on patient care and professional development."
         }
       ],
       "title": "Scheduling Is Costing Your Program",
@@ -146,10 +146,10 @@
     },
     "solution": {
       "title": "Residency Scheduling Managed by Experts",
-      "description": "Submit your program's rules (rotation requirements, subspecialty ACGME rules, resident preferences, and call targets) and receive finished, compliant schedules as ready-to-use Excel files. No software to learn, no annual retraining when chiefs rotate, and no compliance guesswork."
+      "description": "Submit your program's rules (rotation requirements, subspecialty ACGME rules, resident preferences, and call targets) and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you. No software to learn, no annual retraining when chiefs rotate, and no compliance guesswork."
     },
     "metaTitle": "Residency Management Software | Get Schedules Done",
-    "metaDescription": "Residency management software shouldn't add to your workload. Scheduling Wizard is a managed service that builds your ACGME-compliant schedules for you."
+    "metaDescription": "Residency management software shouldn't add to your workload. Scheduling Wizard is a managed service that builds your schedules for you, to the ACGME requirements."
   },
   "searchIntent": {
     "keyword": "residency management software",
@@ -163,8 +163,8 @@
   "seoMetadata": {
     "h1": "Residency Management Software, Done For You",
     "metaTitle": "Residency Management Software | Get Schedules Done",
-    "h1Paragraph": "Stop losing nights to spreadsheets. Scheduling Wizard isn't software you learn. It's a service. Send us your rules and requests; we build the schedule and send it back finished.",
-    "metaDescription": "Residency management software shouldn't add to your workload. Scheduling Wizard is a managed service that builds your ACGME-compliant schedules for you."
+    "h1Paragraph": "Scheduling Wizard isn't software you learn. It's a service. Send us your rules and requests; we build the schedule and send it back finished.",
+    "metaDescription": "Residency management software shouldn't add to your workload. Scheduling Wizard is a managed service that builds your schedules for you, to the ACGME requirements."
   },
   "finalMetadata": {
     "slug": "residency-management-software",

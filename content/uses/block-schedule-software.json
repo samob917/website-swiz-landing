@@ -5,7 +5,7 @@
   "title": "Residency Block Schedule Software | Custom & Compliant",
   "description": "Residency block schedule software, managed for you. We take your program's own rules and deliver complete block schedules built to the ACGME requirements, with nothing for your chiefs to run.",
   "h1": "Residency Block Schedule Software, Managed For You",
-  "paragraph": "Stop wrestling with scheduling software. As a managed service, Scheduling Wizard handles your custom rules to deliver fair, ACGME-compliant schedules.",
+  "paragraph": "As a managed service, Scheduling Wizard handles your custom rules to deliver fair, schedules built to the ACGME requirements.",
   "category": "role",
   "data": {
     "cta": {
@@ -15,23 +15,23 @@
     },
     "faq": [
       {
-        "answer": "Residency block schedule software automates the creation of year-long rotation assignments for residents across clinical sites, PGY levels, and ACGME-required rotations. Scheduling Wizard takes this a step further as a managed service, instead of operating software yourself, you submit your program's rules and receive a finished, ACGME-compliant block schedule delivered as an Excel file. No platform to learn, no configuration required.",
+        "answer": "Residency block schedule software automates the creation of year-long rotation assignments for residents across clinical sites, PGY levels, and ACGME-required rotations. Scheduling Wizard takes this a step further as a managed service, instead of operating software yourself, you submit your program's rules and receive the finished schedule, built to the ACGME requirements, delivered as Excel or Google Sheets, or on a custom live view we build for you. No platform to learn, no configuration required.",
         "question": "What is residency block schedule software and how does it work?"
       },
       {
-        "answer": "ACGME compliance is built into the schedule as it is created, not verified manually after the fact. Our team has subspecialty-specific ACGME rules built in, including duty hour limits, required rotation minimums, and rest requirements. This means the rules are applied while the schedule is built, not discovered after the schedule has already been distributed to residents.",
+        "answer": "ACGME compliance is built into the schedule as it is created, not verified manually after the fact. The subspecialty requirements you tell us apply are built in, including duty hour limits, required rotation minimums, and rest requirements. This means the rules are applied while the schedule is built, not discovered after the schedule has already been distributed to residents.",
         "question": "How does Scheduling Wizard ensure ACGME compliance in block schedules?"
       },
       {
-        "answer": "Block scheduling requires balancing dozens of simultaneous rules (PGY requirements, ACGME rules, resident preferences, coverage minimums, and site availability) in a way that is fair and compliant. Most chief residents inherit a blank spreadsheet and very little institutional context, spending hundreds of hours on a problem they've never solved before. Scheduling Wizard eliminates this burden by carrying the program's rules forward each year.",
+        "answer": "Block scheduling requires balancing dozens of simultaneous rules (PGY requirements, ACGME rules, resident preferences, coverage minimums, and site availability) in a way that is fair and compliant. Most chief residents inherit a blank spreadsheet and very little institutional context, spending dozens of hours on a problem they've never solved before. Scheduling Wizard takes this off the chief by carrying the program's rules forward each year.",
         "question": "Why do chief residents struggle with building block schedules each year?"
       },
       {
-        "answer": "Yes. Scheduling Wizard handles block schedule creation and optimization, while many of the same programs use their existing platform for day-to-day schedule access. Finished schedules are delivered as Excel files that your program can upload directly to whichever viewing platform you already use. Scheduling Wizard and your existing publishing platform are complementary, not mutually exclusive.",
+        "answer": "Yes. Scheduling Wizard handles block schedule creation and optimization, while many of the same programs use their existing platform for day-to-day schedule access. Finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you that your program can upload directly to whichever viewing platform you already use. Scheduling Wizard and your existing publishing platform are complementary, not mutually exclusive.",
         "question": "Can Scheduling Wizard work alongside your existing platform?"
       },
       {
-        "answer": "Scheduling Wizard produces Block/Rotation schedules, Call schedules, Clinic schedules, and Attending schedules. All schedule types are built together, so a change in one schedule type automatically resolves dependencies in the others. Finished schedules are delivered as Excel spreadsheets ready for immediate use.",
+        "answer": "Scheduling Wizard produces Block/Rotation schedules, Call schedules, Clinic schedules, and Attending schedules. All schedule types are built together, so a change in one schedule type automatically resolves dependencies in the others. Finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you ready for immediate use.",
         "question": "What types of schedules does Scheduling Wizard produce for residency programs?"
       },
       {
@@ -65,7 +65,7 @@
             "Elective preferences factored in",
             "Coverage minimums built in"
           ],
-          "description": "Generates complete year-long rotation block schedules respecting PGY-level requirements, elective preferences, coverage minimums, and ACGME rotation mandates, delivered as ready-to-use Excel files your program can publish immediately."
+          "description": "Generates complete year-long rotation block schedules respecting PGY-level requirements, elective preferences, coverage minimums, and ACGME rotation mandates, delivered as Excel or Google Sheets, or on a custom live view we build for you your program can publish immediately."
         },
         {
           "id": "acgme-compliance",
@@ -76,7 +76,7 @@
             "Subspecialty rules built in",
             "No post-hoc manual checking"
           ],
-          "description": "ACGME duty hour rules are built into the block schedule as it is built, not manually checked afterward. Subspecialty-specific rules are built into the schedule itself, so they are applied while the schedule is built."
+          "description": "ACGME duty hour rules are built into the block schedule as it is built, not manually checked afterward. The subspecialty requirements you tell us apply are built in too, and applied while the schedule is built."
         },
         {
           "id": "institutional-continuity",
@@ -135,7 +135,7 @@
     },
     "solution": {
       "title": "Done For You Block Schedule Delivery",
-      "description": "Submit your program's rules (rotation requirements, PGY-level rules, resident preferences, and subspecialty-specific ACGME standards) and receive finished, compliant block schedules as ready-to-use Excel files. No software to learn, and no institutional knowledge lost when chiefs rotate."
+      "description": "Submit your program's rules (rotation requirements, PGY-level rules, resident preferences, and subspecialty-specific ACGME standards) and receive finished, compliant block schedules as Excel or Google Sheets, or on a custom live view we build for you. No software to learn, and no institutional knowledge lost when chiefs rotate."
     },
     "metaTitle": "Residency Block Schedule Software | Custom & Compliant",
     "metaDescription": "Residency block schedule software, managed for you. We take your program's own rules and deliver complete block schedules built to the ACGME requirements, with nothing for your chiefs to run."
@@ -152,7 +152,7 @@
   "seoMetadata": {
     "h1": "Residency Block Schedule Software, Managed For You",
     "metaTitle": "Residency Block Schedule Software | Custom & Compliant",
-    "h1Paragraph": "Stop wrestling with scheduling software. As a managed service, Scheduling Wizard handles your custom rules to deliver fair, ACGME-compliant schedules.",
+    "h1Paragraph": "As a managed service, Scheduling Wizard handles your custom rules to deliver fair, schedules built to the ACGME requirements.",
     "metaDescription": "Residency block schedule software, managed for you. We take your program's own rules and deliver complete block schedules built to the ACGME requirements, with nothing for your chiefs to run."
   },
   "finalMetadata": {

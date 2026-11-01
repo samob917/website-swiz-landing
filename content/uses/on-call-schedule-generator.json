@@ -2,9 +2,9 @@
   "keyword": "on call schedule generator",
   "slug": "on-call-schedule-generator",
   "anchor": "On Call Schedule Generator",
-  "title": "On Call Schedule Generator | Fair Rotations",
+  "title": "On Call Schedule Generator | We Build It For You",
   "description": "Looking for an on call schedule generator? A generator gives you a draft to repair. We give you the finished call schedule.",
-  "h1": "On Call Schedule Generator for Chief Residents",
+  "h1": "On Call Schedule Generator? We Build the Call Schedule Instead",
   "paragraph": "Overwhelmed building call rotas? A generator gives you a draft to repair. Scheduling Wizard gives you the finished call schedule.",
   "category": "specialty",
   "data": {
@@ -19,19 +19,19 @@
         "question": "What is an on call schedule generator, and is that what this is?"
       },
       {
-        "answer": "ACGME duty hour rules are applied as the schedule is built, at the time the schedule is generated, not checked manually after the fact. Our team applies the 80-hour weekly limit, minimum rest requirements, and the 24-hour hard cap for continuous duty, along with subspecialty-specific rules built into the system. This means the rules are applied while the schedule is built, not discovered during an audit.",
+        "answer": "ACGME duty hour rules are applied as the schedule is built, not checked manually after the fact. Our team applies the 80-hour weekly limit, minimum rest requirements, and the 24-hour cap for continuous duty, along with subspecialty-specific rules built into the system. This means the rules are applied while the schedule is built, not discovered during an audit.",
         "question": "How does Scheduling Wizard ensure ACGME compliance in call schedules?"
       },
       {
-        "answer": "Scheduling Wizard uses algorithmic fairness optimization to distribute call, weekends, and holidays equitably across all residents in a program. Our team balances total call burden simultaneously across the schedule, taking into account each resident's individual rules and preferences so that no resident is disproportionately burdened compared to their peers.",
+        "answer": "Scheduling Wizard distributes call, weekends, and holidays equitably across all residents in a program. Our team balances total call burden simultaneously across the schedule, taking into account each resident's individual rules and preferences so that no resident is disproportionately burdened compared to their peers.",
         "question": "How is on-call burden distributed fairly across residents?"
       },
       {
-        "answer": "Most scheduling tools are self-service platforms that require chief residents to learn and operate the software themselves. Scheduling Wizard is a managed service, programs submit their rules and receive finished schedules back as Excel files, with no software to install or learn. Our schedulers handle the complexity. Programs can still upload the finished schedules to your existing platform for day-to-day viewing.",
+        "answer": "Most scheduling tools are self-service platforms that require chief residents to learn and operate the software themselves. Scheduling Wizard is a managed service, programs submit their rules and receive finished schedules, built to your rules, back as Excel or Google Sheets, or on a custom live view we build for you, with no software to install or learn. Our schedulers handle the complexity. Programs can still upload the finished schedules to your existing platform for day-to-day viewing.",
         "question": "What makes Scheduling Wizard different from self-service scheduling software?"
       },
       {
-        "answer": "Yes. Scheduling Wizard handles mid-year revisions including sick leave, parental leave, resident swaps, and new rules. Affected portions of the on-call schedule are re-optimized without disrupting the rest of the schedule, so programs do not need to manually reshuffle assignments every time something changes.",
+        "answer": "Yes. Scheduling Wizard handles mid-year revisions including sick leave, parental leave, resident swaps, and new rules. Affected portions of the on-call schedule are rebuilt without disrupting the rest of the schedule, so programs do not need to manually reshuffle assignments every time something changes.",
         "question": "Can Scheduling Wizard handle mid-year changes to the on call schedule?"
       },
       {
@@ -40,7 +40,7 @@
       }
     ],
     "hero": {
-      "title": "On Call Schedule Generator for Chief Residents",
+      "title": "On Call Schedule Generator? We Build the Call Schedule Instead",
       "description": "Scheduling Wizard is a service, not a generator you operate. Send us your rules and requests and we build the call schedule, delivered as Excel or Google Sheets."
     },
     "features": {
@@ -65,7 +65,7 @@
             "Holiday shifts distributed fairly",
             "Post-call rest rules applied"
           ],
-          "description": "Produces ACGME-compliant on-call schedules that distribute call burden equitably across all residents. Call, weekend, and holiday assignments are algorithmically balanced, no manual juggling required."
+          "description": "Produces on-call schedules built to the ACGME requirements that distribute call burden equitably across all residents. Call, weekend, and holiday assignments are balanced in the build, no manual juggling required."
         },
         {
           "id": "acgme-compliance",
@@ -76,7 +76,7 @@
             "Subspecialty-specific rules included",
             "Rules applied as we build"
           ],
-          "description": "ACGME duty hour regulations are built into the schedule as it is created, 80-hour weekly limits, rest requirements, and 24-hour hard caps. Subspecialty-specific rules are built into the schedule itself, not checked manually after the fact."
+          "description": "ACGME duty hour regulations are built into the schedule as it is created, 80-hour weekly limits, rest requirements, and the 24-hour cap. The subspecialty requirements you tell us apply are built in too, not checked manually after the fact."
         },
         {
           "id": "managed-service",
@@ -84,10 +84,10 @@
           "eyebrow": "Managed Service",
           "highlights": [
             "Submit rules, receive schedules",
-            "Delivered as Excel spreadsheets",
+            "Delivered as Excel or Google Sheets, or on a custom live view we build for you",
             "No platform or software to learn"
           ],
-          "description": "Scheduling Wizard is a done-for-you managed service. Programs submit their rules and receive finished schedules as Excel files, as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Scheduling Wizard is a done-for-you managed service. Programs submit their rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by mathematicians who do this full time and nothing else."
         },
         {
           "id": "institutional-continuity",
@@ -146,9 +146,9 @@
     },
     "solution": {
       "title": "A Done-For-You On Call Schedule Generator",
-      "description": "Submit your program's rules (duty hour rules, resident preferences, call fairness targets, and coverage requirements) and receive finished, ACGME-compliant schedules as ready-to-use Excel files. No software to learn. No annual retraining when your chiefs rotate."
+      "description": "Submit your program's rules (duty hour rules, resident preferences, call fairness targets, and coverage requirements) and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you. No software to learn. No annual retraining when your chiefs rotate."
     },
-    "metaTitle": "On Call Schedule Generator | Fair Rotations",
+    "metaTitle": "On Call Schedule Generator | We Build It For You",
     "metaDescription": "Looking for an on call schedule generator? A generator gives you a draft to repair. We give you the finished call schedule."
   },
   "searchIntent": {
@@ -157,12 +157,12 @@
       "A chief resident overwhelmed by the complexities of creating fair on-call schedules for a busy medical residency program, looking for an automated solution that can handle ACGME compliance and optimize for resident preferences without the burden of learning new software.",
       "A program director who needs to ensure that on-call schedules comply with ACGME duty hour regulations while also balancing the individual needs of residents, seeking a specialized generator that can address these specific requirements without sacrificing fairness and coverage.",
       "A program coordinator tasked with alleviating scheduling conflicts and ensuring institutional knowledge persists through annual leadership changes, searching for a managed scheduling service that can streamline the on-call schedule process and eliminate errors in manual scheduling.",
-      "An administrator in a private practice wanting to implement an on-call rotation system that minimizes gaps and overstaffing, looking for a tailored scheduling generator that understands the unique challenges of healthcare scheduling and can provide instant re-optimizations for unplanned absences."
+      "An administrator in a private practice wanting to implement an on-call rotation system that minimizes gaps and overstaffing, looking for a tailored scheduling generator that understands the unique challenges of healthcare scheduling and can provide instant a rebuilds for unplanned absences."
     ]
   },
   "seoMetadata": {
-    "h1": "On Call Schedule Generator for Chief Residents",
-    "metaTitle": "On Call Schedule Generator | Fair Rotations",
+    "h1": "On Call Schedule Generator? We Build the Call Schedule Instead",
+    "metaTitle": "On Call Schedule Generator | We Build It For You",
     "h1Paragraph": "Overwhelmed building call rotas? A generator gives you a draft to repair. Scheduling Wizard gives you the finished call schedule.",
     "metaDescription": "Looking for an on call schedule generator? A generator gives you a draft to repair. We give you the finished call schedule."
   },

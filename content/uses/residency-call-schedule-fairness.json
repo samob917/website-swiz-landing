@@ -2,7 +2,7 @@
   "keyword": "residency call schedule fairness",
   "slug": "residency-call-schedule-fairness",
   "anchor": "Residency Call Schedule Fairness",
-  "title": "Fair Residency Call Schedules | Expert-Built Rosters",
+  "title": "Fair Residency Call Schedules | Built to Your Rules",
   "description": "Residency call schedule fairness is hard to get right by hand. Our managed service builds your call schedule with call equity worked out and the ACGME rules applied.",
   "h1": "Fair Residency Call Schedules, Without the Software Headaches",
   "paragraph": "Stop fighting complex software. Scheduling Wizard's team builds your fair call schedule, balancing every rule, with the ACGME rules applied as it is built.",
@@ -15,11 +15,11 @@
     },
     "faq": [
       {
-        "answer": "Scheduling Wizard uses a team of mathematicians that algorithmically distributes call, weekend, and holiday shifts equitably across all residents. Rather than manually counting and adjusting, our team treats fairness as a hard optimization objective alongside ACGME duty hour compliance. Every schedule is generated with provably balanced call counts, giving program leadership an objective, auditable basis for fairness decisions.",
+        "answer": "Scheduling Wizard uses a team of mathematicians that distributes call, weekend, and holiday shifts equitably across all residents. Rather than manually counting and adjusting, our team treats fairness as one of the rules of the build, alongside the ACGME requirements. The call counts come back with the schedule, giving program leadership an objective, auditable basis for fairness decisions.",
         "question": "How does Scheduling Wizard ensure residency call schedule fairness?"
       },
       {
-        "answer": "ACGME duty hour standards include an 80-hour weekly limit averaged over four weeks, eight hours off between duty periods, and a 24-hour hard cap on continuous duty with an optional 4-hour transition extension. We hold to these rules mathematically at schedule generation time, and has subspecialty-specific rules built in so your program's unique requirements are automatically satisfied.",
+        "answer": "ACGME duty hour standards include an 80-hour weekly limit averaged over four weeks, eight hours off between duty periods, and a 24-hour cap on continuous scheduled work with an optional 4-hour transition extension. We build to these rules, and to the subspecialty requirements you tell us apply.",
         "question": "What ACGME duty hour rules apply to residency call schedules?"
       },
       {
@@ -27,15 +27,15 @@
         "question": "Why is building a fair call schedule so difficult manually?"
       },
       {
-        "answer": "Scheduling Wizard is a done-for-you managed service, not software you operate yourself. Programs submit their rules and receive finished, ready-to-publish call schedules as Excel files. There is no platform to learn and no annual retraining when chief residents rotate. The finished schedules can be uploaded directly to publishing platform for day-to-day access.",
+        "answer": "Scheduling Wizard is a done-for-you managed service, not software you operate yourself. Programs submit their rules and receive finished, ready-to-publish call schedules as Excel or Google Sheets, or on a custom live view we build for you. There is no platform to learn and no annual retraining when chief residents rotate. The finished schedules can be uploaded directly to publishing platform for day-to-day access.",
         "question": "How is Scheduling Wizard different from self-service scheduling software?"
       },
       {
-        "answer": "Scheduling Wizard's expert schedulers work alongside mathematicians who do this full time to produce your finished schedule. Programs do not interact with any software interface. You submit your rules, and Scheduling Wizard handles the optimization and delivers completed schedules as Excel spreadsheets.",
+        "answer": "Scheduling Wizard's expert schedulers work alongside mathematicians who do this full time to produce your finished schedule. Programs do not interact with any software interface. You submit your rules, and Scheduling Wizard handles the optimization and delivers completed schedules as Excel or Google Sheets, or on a custom live view we build for you.",
         "question": "Who builds the call schedules at Scheduling Wizard?"
       },
       {
-        "answer": "Scheduling Wizard handles schedule revisions as part of the managed service. When mid-year changes occur (such as leave, swaps, or new rules) the affected portions of the schedule are re-optimized while preserving the fairness balance and ACGME compliance of the overall call schedule, without manually reshuffling the entire roster.",
+        "answer": "Scheduling Wizard handles schedule revisions as part of the managed service. When mid-year changes occur (such as leave, swaps, or new rules) the affected portions of the schedule are rebuilt while preserving the fairness balance and ACGME compliance of the overall call schedule, without manually reshuffling the entire roster.",
         "question": "How does Scheduling Wizard handle changes to the call schedule mid-year?"
       }
     ],
@@ -84,7 +84,7 @@
           "eyebrow": "ACGME Requirements",
           "highlights": [
             "80-hour weekly limit applied",
-            "Subspecialty-specific rules built in",
+            "Subspecialty rules you give us built in",
             "Checked while building, not after"
           ],
           "description": "The ACGME duty hour regulations are built into the schedule as it is built, not reviewed afterwards. The subspecialty-specific rules are written down with you, so the call schedule is built to your program's requirements."
@@ -146,9 +146,9 @@
     },
     "solution": {
       "title": "Algorithmic Fairness Built Into Every Schedule",
-      "description": "Submit your program's rules, call fairness targets, resident preferences, and ACGME rules to Scheduling Wizard. Our schedulers produce finished, compliant call schedules delivered as ready-to-use Excel files. No software to learn, no fairness arguments to referee."
+      "description": "Submit your program's rules, call fairness targets, resident preferences, and ACGME rules to Scheduling Wizard. Our schedulers produce finished, compliant call schedules delivered as Excel or Google Sheets, or on a custom live view we build for you. No software to learn, no fairness arguments to referee."
     },
-    "metaTitle": "Fair Residency Call Schedules | Expert-Built Rosters",
+    "metaTitle": "Fair Residency Call Schedules | Built to Your Rules",
     "metaDescription": "Residency call schedule fairness is hard to get right by hand. Our managed service builds your call schedule with call equity worked out and the ACGME rules applied."
   },
   "searchIntent": {
@@ -162,7 +162,7 @@
   },
   "seoMetadata": {
     "h1": "Fair Residency Call Schedules, Without the Software Headaches",
-    "metaTitle": "Fair Residency Call Schedules | Expert-Built Rosters",
+    "metaTitle": "Fair Residency Call Schedules | Built to Your Rules",
     "h1Paragraph": "Stop fighting complex software. Scheduling Wizard's team builds your fair call schedule, balancing every rule, with the ACGME rules applied as it is built.",
     "metaDescription": "Residency call schedule fairness is hard to get right by hand. Our managed service builds your call schedule with call equity worked out and the ACGME rules applied."
   },
