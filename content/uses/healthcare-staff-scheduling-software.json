@@ -3,7 +3,7 @@
   "slug": "healthcare-staff-scheduling-software",
   "anchor": "Healthcare Staff Scheduling Software",
   "title": "Healthcare Staff Scheduling Software | Managed Service",
-  "description": "Healthcare staff scheduling software that works for you, not against you. Our managed service delivers complete, ACGME-compliant schedules so you can.",
+  "description": "Healthcare staff scheduling software that works for you, not against you. Our managed service builds physician and APP schedules and hands them back finished.",
   "h1": "Healthcare Staff Scheduling Software, Done For You",
   "paragraph": "Forget learning complex healthcare staff scheduling software. With Scheduling Wizard, you just submit your rules. We deliver a finished, compliant schedule.",
   "category": "setting",
@@ -11,7 +11,7 @@
     "cta": {
       "title": "Stop Running Schedules on Spreadsheets",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 18 departments across 13 hospitals who already trust Scheduling Wizard with their schedules."
+      "description": "Join 30+ departments across 20+ hospitals and practices who already trust Scheduling Wizard with their schedules."
     },
     "faq": [
       {
@@ -19,8 +19,8 @@
         "question": "What is healthcare staff scheduling software and do I need it?"
       },
       {
-        "answer": "ACGME compliance is enforced mathematically at schedule generation time, not audited manually after the fact. Our team has subspecialty-specific ACGME rules built in, including the 80-hour weekly limit, minimum rest requirements, and the 24-hour hard cap. Violations are prevented during schedule creation, not discovered after the schedule is already in use. This is the number one question buyers ask on sales calls, and it's why ACGME compliance is central to how Scheduling Wizard is built.",
-        "question": "How does Scheduling Wizard ensure ACGME duty hour compliance?"
+        "answer": "For a residency or fellowship we build the ACGME requirements in as the schedule is created rather than auditing it afterward: the 80-hour weekly limit, minimum rest, the 24-hour cap, and the specialty-specific Program Requirements. We work from the requirements your program tells us apply, and we redraft when something needs to change.",
+        "question": "How do you handle ACGME duty hours?"
       },
       {
         "answer": "Most healthcare staff scheduling software is self-service; you buy it, learn it, and operate it yourself. Scheduling Wizard is a managed service. Programs submit their rules and our schedulers deliver a finished, ready-to-publish schedule. There is no platform to log into and no software to maintain. Many Scheduling Wizard clients also use the platform they already have alongside it. Scheduling Wizard handles schedule creation and optimization, while the platform you already use handles day-to-day schedule viewing.",
@@ -35,13 +35,13 @@
         "question": "What happens to our scheduling setup when a new chief resident takes over?"
       },
       {
-        "answer": "Scheduling Wizard is designed for medical residency and fellowship programs, including chief residents, program directors, program coordinators, and GME offices. It is currently serving 18 departments across 13 hospitals. The service is also expanding to serve private practice administrators and managing partners who need complex physician scheduling without the overhead of self-service software.",
+        "answer": "Scheduling Wizard is designed for medical residency and fellowship programs, including chief residents, program directors, program coordinators, and GME offices. It is currently serving 30+ departments across 20+ hospitals and practices. The service is also expanding to serve private practice administrators and managing partners who need complex physician scheduling without the overhead of self-service software.",
         "question": "Who is Scheduling Wizard designed for?"
       }
     ],
     "hero": {
       "title": "Healthcare Staff Scheduling Software Done For You",
-      "description": "Scheduling Wizard delivers complete, ACGME-compliant schedules for residency and fellowship programs. Submit your rules and get finished schedules back as ready-to-use Excel files."
+      "description": "Scheduling Wizard builds physician and advanced practice provider schedules for residency and fellowship programs, provider groups and practices. Send us your rules and get finished schedules back as ready-to-use Excel files."
     },
     "features": {
       "items": [
@@ -58,14 +58,14 @@
         },
         {
           "id": "acgme-compliance",
-          "title": "Compliance Guaranteed at Generation Time",
-          "eyebrow": "ACGME Compliance",
+          "title": "Requirements Built In From the Start",
+          "eyebrow": "The Rules That Apply",
           "highlights": [
             "80-hour limits enforced automatically",
             "Subspecialty-specific rules built in",
             "Violations prevented not detected"
           ],
-          "description": "ACGME duty hour rules are mathematically enforced when the schedule is built, not manually audited afterward. Subspecialty-specific rules are built into our team so your program's unique requirements are never overlooked."
+          "description": "We build each schedule to the rules that govern it. For a residency or fellowship that means the ACGME duty hour requirements and the specialty-specific Program Requirements. For a provider group or practice it means yours: coverage minimums, call equity, contractual obligations, time off and requests, and multiple sites where a group has them."
         },
         {
           "id": "institutional-continuity",
@@ -112,7 +112,7 @@
         },
         {
           "title": "Compliance Left to Chance",
-          "description": "Manually checking ACGME duty hours after building a schedule doesn't prevent violations; it just finds them too late to fix cleanly."
+          "description": "Checking duty hours by hand after a schedule is built finds the problems too late to fix cleanly."
         },
         {
           "title": "Fairness Disputes Every Cycle",
@@ -124,10 +124,10 @@
     },
     "solution": {
       "title": "Your Schedules Built and Delivered by Experts",
-      "description": "Scheduling Wizard is a managed service, not healthcare staff scheduling software you have to operate. Submit your program's rules and receive finished, ACGME-compliant Block, Call, Clinic, and Attending schedules as ready-to-use Excel files. No software to learn. No institutional knowledge lost when chiefs rotate."
+      "description": "Scheduling Wizard is a managed service, not staff scheduling software you have to operate. Send us your rules and receive finished Block, Call, Clinic and Attending schedules as ready-to-use Excel files. No software to learn. No institutional knowledge lost when the chief rotates."
     },
     "metaTitle": "Healthcare Staff Scheduling Software | Managed Service",
-    "metaDescription": "Healthcare staff scheduling software that works for you, not against you. Our managed service delivers complete, ACGME-compliant schedules so you can."
+    "metaDescription": "Healthcare staff scheduling software that works for you, not against you. Our managed service builds physician and APP schedules and hands them back finished."
   },
   "searchIntent": {
     "keyword": "healthcare staff scheduling software",
@@ -142,7 +142,7 @@
     "h1": "Healthcare Staff Scheduling Software, Done For You",
     "metaTitle": "Healthcare Staff Scheduling Software | Managed Service",
     "h1Paragraph": "Forget learning complex healthcare staff scheduling software. With Scheduling Wizard, you just submit your rules. We deliver a finished, compliant schedule.",
-    "metaDescription": "Healthcare staff scheduling software that works for you, not against you. Our managed service delivers complete, ACGME-compliant schedules so you can."
+    "metaDescription": "Healthcare staff scheduling software that works for you, not against you. Our managed service builds physician and APP schedules and hands them back finished."
   },
   "finalMetadata": {
     "slug": "staff-scheduling-software",

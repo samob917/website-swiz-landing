@@ -3,15 +3,15 @@
   "slug": "call-schedule-software",
   "anchor": "Call Schedule Software",
   "title": "Call Schedule Software | Ensure ACGME Compliance",
-  "description": "Call schedule software can be complex. Our managed service delivers fair, optimized call schedules that are mathematically enforced to be ACGME.",
+  "description": "Call schedule software can be complex. Our managed service delivers fair, optimized call schedules that are built to the ACGME requirements.",
   "h1": "Call Schedule Software That enforcing the rules when the schedule is built",
-  "paragraph": "Stop manually checking ACGME rules. Scheduling Wizard’s managed service delivers fair, optimized call schedules that are mathematically enforced compliant.",
+  "paragraph": "Stop manually checking ACGME rules. Scheduling Wizard’s managed service delivers fair, optimized call schedules that are built to the requirements.",
   "category": "setting",
   "data": {
     "cta": {
       "title": "Get Your Call Schedule Done Right",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 18 departments across 13 hospitals who already outsource scheduling to experts."
+      "description": "Join 30+ departments across 20+ hospitals and practices who already outsource scheduling to experts."
     },
     "faq": [
       {
@@ -19,7 +19,7 @@
         "question": "What is call schedule software and how does Scheduling Wizard differ?"
       },
       {
-        "answer": "ACGME duty hour compliance is mathematically enforced at the time the schedule is generated. Our team applies the 80-hour weekly limit, minimum rest requirements between shifts, call frequency caps, and subspecialty-specific rules as rules that cannot be broken. This means violations are prevented during generation, not discovered manually after the schedule has already been published to residents.",
+        "answer": "ACGME duty hour compliance is built into the schedule as it is built. Our team applies the 80-hour weekly limit, minimum rest requirements between shifts, call frequency caps, and subspecialty-specific rules as rules that cannot be broken. This means the rules are applied while the schedule is built, not discovered manually after the schedule has already been published to residents.",
         "question": "How does Scheduling Wizard ensure ACGME compliance in call schedules?"
       },
       {
@@ -27,7 +27,7 @@
         "question": "Can Scheduling Wizard handle our program's specific call scheduling rules and requests?"
       },
       {
-        "answer": "Finished call schedules are delivered as Excel spreadsheets, ready to use immediately. Programs can upload these files directly to their existing schedule publishing platform, for day-to-day resident access. Scheduling Wizard handles the schedule creation and optimization; you publish and distribute it where you already do.",
+        "answer": "Finished call schedules are delivered as Excel or Google Sheets files, ready to use immediately. If you want one, we can also build a custom live viewing link designed around your schedules. Programs can upload these files directly to their existing schedule publishing platform, for day-to-day resident access. Scheduling Wizard handles the schedule creation and optimization; you publish and distribute it where you already do.",
         "question": "What format are the finished call schedules delivered in?"
       },
       {
@@ -65,7 +65,7 @@
             "Subspecialty-specific rules included",
             "Violations prevented not detected"
           ],
-          "description": "ACGME duty hour rules are mathematically enforced at generation time, 80-hour weekly limits, minimum rest requirements, and call caps. Subspecialty-specific rules are built into our team so violations are prevented, not discovered after publishing."
+          "description": "ACGME duty hour rules are built into the schedule as it is created, 80-hour weekly limits, minimum rest requirements, and call caps. Subspecialty-specific rules are built into the schedule itself, so the rules are applied as we build, not discovered after publishing."
         },
         {
           "id": "managed-service",
@@ -120,14 +120,14 @@
         }
       ],
       "title": "Call Scheduling Is Broken",
-      "description": "Manual call scheduling wastes hundreds of hours and puts programs at something that surfaces at review every year."
+      "description": "Manual call scheduling wastes hundreds of hours and puts programs at misses that surface later every year."
     },
     "solution": {
       "title": "A Done For You Call Scheduling Service",
       "description": "Submit your program's rules (ACGME rules, resident preferences, call fairness targets, and rotation requirements) and receive finished, compliant call schedules as ready-to-use Excel files. No software to learn. No annual retraining when chiefs rotate."
     },
     "metaTitle": "Call Schedule Software | Ensure ACGME Compliance",
-    "metaDescription": "Call schedule software can be complex. Our managed service delivers fair, optimized call schedules that are mathematically enforced to be ACGME."
+    "metaDescription": "Call schedule software can be complex. Our managed service delivers fair, optimized call schedules that are built to the ACGME requirements."
   },
   "searchIntent": {
     "keyword": "call schedule software",
@@ -141,8 +141,8 @@
   "seoMetadata": {
     "h1": "Call Schedule Software That enforcing the rules when the schedule is built",
     "metaTitle": "Call Schedule Software | Ensure ACGME Compliance",
-    "h1Paragraph": "Stop manually checking ACGME rules. Scheduling Wizard’s managed service delivers fair, optimized call schedules that are mathematically enforced compliant.",
-    "metaDescription": "Call schedule software can be complex. Our managed service delivers fair, optimized call schedules that are mathematically enforced to be ACGME."
+    "h1Paragraph": "Stop manually checking ACGME rules. Scheduling Wizard’s managed service delivers fair, optimized call schedules that are built to the requirements.",
+    "metaDescription": "Call schedule software can be complex. Our managed service delivers fair, optimized call schedules that are built to the ACGME requirements."
   },
   "finalMetadata": {
     "slug": "call-schedule",

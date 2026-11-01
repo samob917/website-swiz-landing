@@ -11,7 +11,7 @@
     "cta": {
       "title": "Get Your Fellowship Schedule Done Right",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 18 departments across 13 hospitals that trust Scheduling Wizard to deliver compliant, optimized schedules."
+      "description": "Join 30+ departments across 20+ hospitals and practices that trust Scheduling Wizard to deliver compliant, optimized schedules."
     },
     "faq": [
       {
@@ -19,7 +19,7 @@
         "question": "What is fellowship scheduling software and how does Scheduling Wizard differ?"
       },
       {
-        "answer": "Yes. Our team enforces ACGME duty hour requirements mathematically at schedule generation time, meaning violations are prevented before the schedule is ever published. our team includes subspecialty-specific ACGME rules, which is the most common question fellowship program buyers ask during evaluations. Compliance is built in, not manually verified after the fact.",
+        "answer": "Yes. Our team applies the ACGME duty hour requirements while the schedule is built, before it reaches your program. Our team includes subspecialty-specific ACGME rules, which is the most common question fellowship program buyers ask during evaluations. Compliance is built in, not manually verified after the fact.",
         "question": "Is Scheduling Wizard compliant with ACGME fellowship duty hour requirements?"
       },
       {
@@ -47,14 +47,14 @@
       "items": [
         {
           "id": "acgme-compliance",
-          "title": "Subspecialty Compliance Mathematically Enforced",
+          "title": "Subspecialty Requirements Built In",
           "eyebrow": "ACGME Compliance",
           "highlights": [
             "Subspecialty rules built in",
             "Violations prevented at generation",
             "Kept current with ACGME updates"
           ],
-          "description": "Fellowship programs face subspecialty-specific ACGME duty hour rules that differ from categorical residency programs. We hold to these rules as the schedule is built, violations are prevented, not discovered after publishing."
+          "description": "Fellowship programs face subspecialty-specific ACGME duty hour rules that differ from categorical residency programs. We hold to these rules as the schedule is built, the rules are applied as we build, not discovered after publishing."
         },
         {
           "id": "managed-service",
@@ -102,13 +102,13 @@
         }
       ],
       "title": "Built for Fellowship Program Scheduling",
-      "description": "Every feature is designed to eliminate the operator burden on chief fellows and program coordinators while guaranteeing subspecialty ACGME compliance."
+      "description": "Every feature is designed to eliminate the operator burden on chief fellows and program coordinators while holding to the subspecialty ACGME requirements."
     },
     "problems": {
       "items": [
         {
           "title": "ACGME Rules Differ by Subspecialty",
-          "description": "Fellowship programs operate under subspecialty-specific ACGME duty hour rules. A single overlooked requirement can put accreditation exposed at review."
+          "description": "Fellowship programs operate under subspecialty-specific ACGME duty hour rules. A single overlooked requirement is easy to miss."
         },
         {
           "title": "Chiefs Start Over Every Year",

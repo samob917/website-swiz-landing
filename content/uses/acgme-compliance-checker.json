@@ -5,13 +5,13 @@
   "title": "ACGME Compliance Checker | Compliance Built In",
   "description": "This ACGME compliance checker service helps GME offices maintain program accreditation.",
   "h1": "ACGME Compliance Checker for Multi-Department GME",
-  "paragraph": "Generic software fails to audit subspecialty rules. Our managed ACGME compliance checker service delivers guaranteed compliant schedules for all departments.",
+  "paragraph": "Generic software fails to audit subspecialty rules. Our managed ACGME compliance checker service builds each department's schedule to the requirements that apply to it.",
   "category": "specialty",
   "data": {
     "cta": {
       "title": "Get Schedules That Are Compliant From Day One",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 18 departments across 13 hospitals who rely on Scheduling Wizard for ACGME-compliant schedules."
+      "description": "Join 30+ departments across 20+ hospitals and practices who rely on Scheduling Wizard for ACGME-compliant schedules."
     },
     "faq": [
       {
@@ -19,7 +19,7 @@
         "question": "What is an ACGME compliance checker and how does it work?"
       },
       {
-        "answer": "Our team has subspecialty-specific ACGME rule knowledge built in. This matters because ACGME requirements differ across program types, and a generic compliance checker that applies universal rules will miss subspecialty mandates that reviewers actually evaluate during accreditation visits. When you engage Scheduling Wizard, your program's specific duty hour rules are modeled into our team before any schedule is generated.",
+        "answer": "Our team has subspecialty-specific ACGME rule knowledge built in. This matters because ACGME requirements differ across program types, and a generic compliance checker that applies universal rules will miss subspecialty mandates that reviewers actually evaluate during accreditation visits. When you engage Scheduling Wizard, your program's specific duty hour rules are modeled into the schedule itself before any schedule is generated.",
         "question": "How does Scheduling Wizard handle subspecialty-specific ACGME rules?"
       },
       {
@@ -31,7 +31,7 @@
         "question": "Do I need to learn scheduling software to use this service?"
       },
       {
-        "answer": "Scheduling Wizard handles scheduling across multiple departments simultaneously, applying the correct ACGME compliance rules for each program individually. GME offices can rely on a consistent compliance process across their entire hospital system rather than managing separate manual auditing workflows for each department. Currently, Scheduling Wizard serves 18 departments across 13 hospitals.",
+        "answer": "Scheduling Wizard handles scheduling across multiple departments simultaneously, applying the correct ACGME compliance rules for each program individually. GME offices can rely on a consistent compliance process across their entire hospital system rather than managing separate manual auditing workflows for each department. Currently, Scheduling Wizard serves 30+ departments across 20+ hospitals and practices.",
         "question": "How does Scheduling Wizard support GME offices managing multiple programs?"
       },
       {
@@ -54,7 +54,7 @@
             "Subspecialty rules pre-loaded",
             "Violations prevented not detected"
           ],
-          "description": "ACGME duty hour limits are mathematically enforced at generation time across all schedule types. our team carries subspecialty-specific rule knowledge, so your program's unique compliance requirements are never approximated or assumed."
+          "description": "ACGME duty hour limits are built into the schedule as it is created across all schedule types. Our team carries subspecialty-specific rule knowledge, so your program's unique compliance requirements are never approximated or assumed."
         },
         {
           "id": "managed-service",
@@ -120,7 +120,7 @@
         }
       ],
       "title": "Manual Compliance Checking Always Falls Short",
-      "description": "Generic tools and manual audits leave residency programs exposed to something that surfaces at review every scheduling cycle."
+      "description": "Generic tools and manual audits leave residency programs exposed to misses that surface later every scheduling cycle."
     },
     "solution": {
       "title": "Compliance Built In From the Start",
@@ -141,7 +141,7 @@
   "seoMetadata": {
     "h1": "ACGME Compliance Checker for Multi-Department GME",
     "metaTitle": "ACGME Compliance Checker | Compliance Built In",
-    "h1Paragraph": "Generic software fails to audit subspecialty rules. Our managed ACGME compliance checker service delivers guaranteed compliant schedules for all departments.",
+    "h1Paragraph": "Generic software fails to audit subspecialty rules. Our managed ACGME compliance checker service builds each department's schedule to the requirements that apply to it.",
     "metaDescription": "This ACGME compliance checker service helps GME offices maintain program accreditation."
   },
   "finalMetadata": {

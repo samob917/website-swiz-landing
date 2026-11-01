@@ -6,9 +6,12 @@ import Image from "next/image"
 
 const customers = [
   {
-    id: "johns-hopkins",
-    name: "Johns Hopkins Medicine",
-    logo: "/logos/johns-hopkins.png",
+    id: "neurocritical-care-fellowship",
+    // Testimonial kept, logo deliberately not shown: a logo reads as a current
+    // client, and this program is not one any more. The quote is still theirs
+    // and still true, so it stays, attributed to the fellow who wrote it.
+    name: "Neurocritical Care Fellowship",
+    logo: null,
     width: 120,
     height: 80,
     testimonial: {
@@ -121,13 +124,19 @@ export default function CustomersPage() {
                     : "border-transparent opacity-30 hover:opacity-60"
                 }`}
               >
-                <Image
-                  src={customer.logo}
-                  alt={customer.name}
-                  width={customer.width * 2}
-                  height={customer.height * 2}
-                  className="max-h-24 w-auto object-contain"
-                />
+                {customer.logo ? (
+                  <Image
+                    src={customer.logo}
+                    alt={customer.name}
+                    width={customer.width * 2}
+                    height={customer.height * 2}
+                    className="max-h-24 w-auto object-contain"
+                  />
+                ) : (
+                  <span className="flex max-h-24 items-center px-2 text-center text-sm font-medium leading-snug text-gray-700 sm:text-base">
+                    {customer.name}
+                  </span>
+                )}
               </button>
             ))}
           </div>

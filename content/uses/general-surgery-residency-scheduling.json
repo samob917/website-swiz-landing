@@ -11,11 +11,11 @@
     "cta": {
       "title": "Get Your Surgery Schedule Done Right",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 18 departments across 13 hospitals who already trust Scheduling Wizard with their residency schedules."
+      "description": "Join 30+ departments across 20+ hospitals and practices who already trust Scheduling Wizard with their residency schedules."
     },
     "faq": [
       {
-        "answer": "Yes. ACGME compliance is mathematically enforced at the moment of schedule generation, not manually verified after the fact. Our team has subspecialty-specific ACGME rules built in, including general surgery requirements such as the 80-hour weekly limit, the 24-hour hard cap, and required rest periods between shifts. Violations are prevented before the schedule is ever published, not discovered during an audit.",
+        "answer": "Yes. ACGME compliance is built into the schedule as it is created, not manually verified after the fact. Our team has subspecialty-specific ACGME rules built in, including general surgery requirements such as the 80-hour weekly limit, the 24-hour hard cap, and required rest periods between shifts. The rules are applied before the schedule reaches your program, not discovered during an audit.",
         "question": "Is Scheduling Wizard compliant with general surgery ACGME duty hour rules?"
       },
       {
@@ -47,7 +47,7 @@
       "items": [
         {
           "id": "acgme-compliance",
-          "title": "Surgery Duty Hour Compliance Guaranteed",
+          "title": "Surgery Duty Hour Requirements Built In",
           "eyebrow": "ACGME Compliance",
           "highlights": [
             "80-hour limits enforced automatically",

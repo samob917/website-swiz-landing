@@ -11,7 +11,7 @@
     "cta": {
       "title": "Get Your On Call Schedule Done Right",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 18 departments across 13 hospitals who already outsource their scheduling to Scheduling Wizard."
+      "description": "Join 30+ departments across 20+ hospitals and practices who already outsource their scheduling to Scheduling Wizard."
     },
     "faq": [
       {
@@ -19,11 +19,11 @@
         "question": "What is an on call schedule generator for medical residencies?"
       },
       {
-        "answer": "ACGME duty hour rules are enforced mathematically at the time the schedule is generated, not checked manually after the fact. our team applies the 80-hour weekly limit, minimum rest requirements, and the 24-hour hard cap for continuous duty, along with subspecialty-specific rules built into the system. This means violations are prevented at generation, not discovered during an audit.",
+        "answer": "ACGME duty hour rules are applied as the schedule is built, at the time the schedule is generated, not checked manually after the fact. Our team applies the 80-hour weekly limit, minimum rest requirements, and the 24-hour hard cap for continuous duty, along with subspecialty-specific rules built into the system. This means the rules are applied while the schedule is built, not discovered during an audit.",
         "question": "How does Scheduling Wizard ensure ACGME compliance in call schedules?"
       },
       {
-        "answer": "Scheduling Wizard uses algorithmic fairness optimization to distribute call, weekends, and holidays equitably across all residents in a program. our team balances total call burden simultaneously across the schedule, taking into account each resident's individual rules and preferences so that no resident is disproportionately burdened compared to their peers.",
+        "answer": "Scheduling Wizard uses algorithmic fairness optimization to distribute call, weekends, and holidays equitably across all residents in a program. Our team balances total call burden simultaneously across the schedule, taking into account each resident's individual rules and preferences so that no resident is disproportionately burdened compared to their peers.",
         "question": "How is on-call burden distributed fairly across residents?"
       },
       {
@@ -65,7 +65,7 @@
             "Subspecialty-specific rules included",
             "Violations prevented at generation"
           ],
-          "description": "ACGME duty hour regulations are mathematically enforced at generation time, 80-hour weekly limits, rest requirements, and 24-hour hard caps. Subspecialty-specific rules are built into our team, not checked manually after the fact."
+          "description": "ACGME duty hour regulations are built into the schedule as it is created, 80-hour weekly limits, rest requirements, and 24-hour hard caps. Subspecialty-specific rules are built into the schedule itself, not checked manually after the fact."
         },
         {
           "id": "managed-service",

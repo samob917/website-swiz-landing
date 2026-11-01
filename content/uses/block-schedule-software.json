@@ -11,7 +11,7 @@
     "cta": {
       "title": "Get Your Block Schedule Done Right",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 18 departments across 13 hospitals who already outsource their scheduling to experts."
+      "description": "Join 30+ departments across 20+ hospitals and practices who already outsource their scheduling to experts."
     },
     "faq": [
       {
@@ -19,7 +19,7 @@
         "question": "What is residency block schedule software and how does it work?"
       },
       {
-        "answer": "ACGME compliance is mathematically enforced at schedule generation time, not verified manually after the fact. Our team has subspecialty-specific ACGME rules built in, including duty hour limits, required rotation minimums, and rest requirements. This means violations are prevented during schedule creation, not discovered after the schedule has already been distributed to residents.",
+        "answer": "ACGME compliance is built into the schedule as it is created, not verified manually after the fact. Our team has subspecialty-specific ACGME rules built in, including duty hour limits, required rotation minimums, and rest requirements. This means the rules are applied while the schedule is built, not discovered after the schedule has already been distributed to residents.",
         "question": "How does Scheduling Wizard ensure ACGME compliance in block schedules?"
       },
       {
@@ -52,7 +52,7 @@
           "highlights": [
             "PGY-level requirements enforced",
             "Elective preferences factored in",
-            "Coverage minimums guaranteed"
+            "Coverage minimums built in"
           ],
           "description": "Generates complete year-long rotation block schedules respecting PGY-level requirements, elective preferences, coverage minimums, and ACGME rotation mandates, delivered as ready-to-use Excel files your program can publish immediately."
         },
@@ -65,7 +65,7 @@
             "Subspecialty rules built in",
             "No post-hoc manual checking"
           ],
-          "description": "ACGME duty hour rules are mathematically enforced when the block schedule is generated, not manually checked afterward. Subspecialty-specific rules are built into our team so violations are prevented before they occur."
+          "description": "ACGME duty hour rules are built into the block schedule as it is built, not manually checked afterward. Subspecialty-specific rules are built into the schedule itself, so they are applied while the schedule is built."
         },
         {
           "id": "institutional-continuity",
@@ -112,7 +112,7 @@
         },
         {
           "title": "Compliance Is Manually Verified",
-          "description": "ACGME duty hour rules are checked after the schedule is built, leaving room for violations that put accreditation exposed at review."
+          "description": "ACGME duty hour rules are checked after the schedule is built, leaving room for violations and leaves the misses to surface later."
         },
         {
           "title": "Fairness Disputes Erode Morale",
@@ -135,7 +135,7 @@
       "As a residency program director, I'm looking for a software solution that can create ACGME-compliant block schedules efficiently, since managing schedules manually has been too time-consuming and prone to errors.",
       "As a chief resident, I need a tool that helps generate fair and optimized call schedules for my team, without having to learn complex software, because I want to focus on my training rather than administrative tasks.",
       "I'm a program coordinator overwhelmed by the complexities of scheduling for multiple departments; I need a managed service that can handle custom rules, so we can ensure fairness and compliance without needing extensive scheduling knowledge.",
-      "As a department chair, I want a solution that guarantees institutional continuity across chief resident rotations since this will help maintain our program's stability and compliance with ACGME standards."
+      "As a department chair, I want a solution that keeps institutional continuity across chief resident rotations since this will help maintain our program's stability and compliance with ACGME standards."
     ]
   },
   "seoMetadata": {

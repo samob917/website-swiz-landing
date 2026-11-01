@@ -11,7 +11,7 @@
     "cta": {
       "title": "Get a Fair Call Schedule Built for You",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 18 departments across 13 hospitals who trust Scheduling Wizard with their residency scheduling."
+      "description": "Join 30+ departments across 20+ hospitals and practices who trust Scheduling Wizard with their residency scheduling."
     },
     "faq": [
       {
@@ -47,7 +47,7 @@
       "items": [
         {
           "id": "fairness-optimization",
-          "title": "Equitable Call Distribution Guaranteed",
+          "title": "Equitable Call Distribution",
           "eyebrow": "Call Fairness",
           "highlights": [
             "Weekend call balanced automatically",
@@ -76,7 +76,7 @@
             "Subspecialty-specific rules built in",
             "Violations prevented, not detected"
           ],
-          "description": "ACGME duty hour regulations are mathematically enforced when the schedule is built, not manually reviewed afterward. Subspecialty-specific rules are embedded in our team so your call schedule meets your program's exact requirements."
+          "description": "ACGME duty hour regulations are built into the schedule as it is built, not manually reviewed afterward. Subspecialty-specific rules are embedded in our team so your call schedule meets your program's exact requirements."
         },
         {
           "id": "resident-preferences",
@@ -112,7 +112,7 @@
         },
         {
           "title": "Compliance Violations Risk Accreditation",
-          "description": "Balancing fair call distribution against ACGME duty hour limits by hand means one overlooked rule can trigger a program citation."
+          "description": "Balancing fair call distribution against ACGME duty hour limits by hand means one overlooked rule is easy to miss."
         },
         {
           "title": "Institutional Knowledge Lost Annually",

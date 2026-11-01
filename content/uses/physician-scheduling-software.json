@@ -2,16 +2,16 @@
   "keyword": "physician scheduling software",
   "slug": "physician-scheduling-software",
   "anchor": "Physician Scheduling Software",
-  "title": "Physician Scheduling Software | ACGME-Compliant",
-  "description": "Physician scheduling software built for GME programs. We deliver finished, ACGME-compliant schedules so chief residents can focus on medicine, not.",
+  "title": "Physician Scheduling Software | Built For You as a Service",
+  "description": "Physician scheduling software, delivered as a service. Send us your rules and we build the finished schedules, for residency and fellowship programs, provider groups and private practices.",
   "h1": "Physician Scheduling Software, Delivered.",
-  "paragraph": "Stop wrestling with complex physician scheduling software. Simply send us your rules, and our Scheduling Wizard service delivers a complete, ACGME-compliant schedule.",
+  "paragraph": "Stop wrestling with physician scheduling software. Send us your rules and requests; we build the schedule and send it back finished.",
   "category": "role",
   "data": {
     "cta": {
       "title": "Stop Searching for Software. Get Schedules Done.",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 18 departments across 13 hospitals who already outsource physician scheduling to experts."
+      "description": "Join 30+ departments across 20+ hospitals and practices who already outsource physician scheduling to experts."
     },
     "faq": [
       {
@@ -19,8 +19,8 @@
         "question": "What is physician scheduling software and how does Scheduling Wizard differ?"
       },
       {
-        "answer": "ACGME duty hour compliance is mathematically enforced at the point of schedule generation, not manually reviewed afterward. our team applies the 80-hour weekly limit, minimum rest requirements, the 24-hour hard cap, and subspecialty-specific ACGME rules relevant to your program. Because compliance is built into the schedule itself, violations are structurally prevented before the schedule is ever delivered to your program.",
-        "question": "How does Scheduling Wizard ensure ACGME compliance in physician schedules?"
+        "answer": "We build the ACGME requirements in as the schedule is created rather than checking it afterward: the 80-hour weekly limit, minimum rest requirements, the 24-hour cap, and the specialty-specific Program Requirements for your program. We work from the requirements your program tells us apply, and we redraft when something needs to change. Groups and practices outside GME have no ACGME requirement, so for them we build to their own rules instead.",
+        "question": "How do you handle ACGME requirements for a residency or fellowship?"
       },
       {
         "answer": "Scheduling Wizard delivers four types of schedules: Block and rotation schedules, Call schedules with fairness optimization, Clinic schedules, and Attending physician schedules. All schedule types are built together, so changes in one schedule automatically propagate across the others without manual cross-referencing.",
@@ -41,7 +41,7 @@
     ],
     "hero": {
       "title": "Physician Scheduling Software Delivered To You",
-      "description": "Stop wrestling with complex physician scheduling software. Submit your rules and receive finished, ACGME-compliant schedules as ready-to-use Excel files."
+      "description": "Stop wrestling with physician scheduling software. Send us your rules and receive finished schedules as ready-to-use Excel files, or on a live viewing link we build for you."
     },
     "features": {
       "items": [
@@ -59,13 +59,13 @@
         {
           "id": "acgme-compliance",
           "title": "Compliance Built Into Every Schedule",
-          "eyebrow": "ACGME Compliance",
+          "eyebrow": "The Rules That Apply",
           "highlights": [
             "80-hour limits enforced automatically",
             "Subspecialty rules built in",
             "Violations prevented at generation"
           ],
-          "description": "ACGME duty hour regulations (including 80-hour weekly limits, rest requirements, and subspecialty-specific rules) are mathematically enforced at generation time. Violations are prevented before the schedule is ever published."
+          "description": "We build each schedule to the rules that govern it. For a residency or fellowship that means the ACGME Common and specialty-specific Program Requirements: the 80-hour weekly limit, minimum rest, the 24-hour cap. For a provider group or practice it means yours: coverage minimums, call equity, contractual obligations, time off and requests, and multiple sites where a group has them."
         },
         {
           "id": "block-scheduling",
@@ -111,8 +111,8 @@
           "description": "Self-service physician scheduling software requires hours of setup, training, and rework, time chief residents and coordinators don't have."
         },
         {
-          "title": "Compliance Gaps Put Programs exposed at review",
-          "description": "Manually checking ACGME duty hour rules across block, call, and clinic schedules leaves room for costly violations that threaten accreditation."
+          "title": "Checking the Rules by Hand Is Slow",
+          "description": "Checking a finished schedule against the rules by hand, across block, call and clinic, is slow and easy to get wrong. The rules belong in the build."
         },
         {
           "title": "Knowledge Lost Every Year",
@@ -124,10 +124,10 @@
     },
     "solution": {
       "title": "Your Schedules Built and Delivered by Experts",
-      "description": "Scheduling Wizard is a done-for-you managed service, not another software tool to learn. Submit your program's rules and receive finished, ACGME-compliant Block, Call, Clinic, and Attending schedules as ready-to-use Excel files. No platform to navigate. No retraining when chiefs rotate."
+      "description": "Scheduling Wizard is a done-for-you managed service, not another tool to learn. Send us your rules and receive finished Block, Call, Clinic and Attending schedules as ready-to-use Excel files. No platform to navigate. No retraining when chiefs rotate."
     },
-    "metaTitle": "Physician Scheduling Software | ACGME-Compliant",
-    "metaDescription": "Physician scheduling software built for GME programs. We deliver finished, ACGME-compliant schedules so chief residents can focus on medicine, not."
+    "metaTitle": "Physician Scheduling Software | Built For You as a Service",
+    "metaDescription": "Physician scheduling software, delivered as a service. Send us your rules and we build the finished schedules, for GME programs, provider groups and private practices."
   },
   "searchIntent": {
     "keyword": "physician scheduling software",
@@ -140,9 +140,9 @@
   },
   "seoMetadata": {
     "h1": "Physician Scheduling Software, Delivered.",
-    "metaTitle": "Physician Scheduling Software | ACGME-Compliant",
-    "h1Paragraph": "Stop wrestling with complex physician scheduling software. Simply send us your rules, and our Scheduling Wizard service delivers a complete, ACGME-compliant schedule.",
-    "metaDescription": "Physician scheduling software built for GME programs. We deliver finished, ACGME-compliant schedules so chief residents can focus on medicine, not."
+    "metaTitle": "Physician Scheduling Software | Built For You as a Service",
+    "h1Paragraph": "Stop wrestling with physician scheduling software. Send us your rules and requests; we build the schedule and send it back finished.",
+    "metaDescription": "Physician scheduling software, delivered as a service. Send us your rules and we build the finished schedules, for GME programs, provider groups and private practices."
   },
   "finalMetadata": {
     "slug": "scheduling-software",

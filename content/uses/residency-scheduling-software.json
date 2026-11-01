@@ -11,7 +11,7 @@
     "cta": {
       "title": "Get Your Residency Schedules Done Right",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 18 departments across 13 hospitals who already outsource scheduling to experts."
+      "description": "Join 30+ departments across 20+ hospitals and practices who already outsource scheduling to experts."
     },
     "faq": [
       {
@@ -19,7 +19,7 @@
         "question": "What is residency scheduling software and how does Scheduling Wizard differ?"
       },
       {
-        "answer": "ACGME compliance is mathematically enforced at schedule generation time, not manually checked after the fact. our team has subspecialty-specific ACGME rules built in, including 80-hour weekly limits, minimum rest requirements, and program-specific call rules. Because compliance is guaranteed during generation, violations do not slip through to the published schedule. This is one of the most common questions asked during sales conversations, and it is a core part of how Scheduling Wizard is built.",
+        "answer": "ACGME compliance is built into the schedule as it is created, not manually checked after the fact. Our team has subspecialty-specific ACGME rules built in, including 80-hour weekly limits, minimum rest requirements, and program-specific call rules. Because the rules are built in as the schedule is created, the rules are applied before the schedule reaches your program. This is one of the most common questions asked during sales conversations, and it is a core part of how Scheduling Wizard is built.",
         "question": "How does Scheduling Wizard ensure ACGME duty hour compliance?"
       },
       {
@@ -47,14 +47,14 @@
       "items": [
         {
           "id": "acgme-compliance",
-          "title": "Compliance Guaranteed at Generation Time",
+          "title": "Requirements Built In From the Start",
           "eyebrow": "ACGME Compliance",
           "highlights": [
             "80-hour limits enforced automatically",
             "Subspecialty-specific rules built in",
             "No manual compliance checks needed"
           ],
-          "description": "We hold to the ACGME duty hour rules mathematically at the moment the schedule is built, including 80-hour weekly limits, rest requirements, and subspecialty-specific rules. Violations are prevented, not discovered after publishing."
+          "description": "We hold to the ACGME duty hour rules mathematically at the moment the schedule is built, including 80-hour weekly limits, rest requirements, and subspecialty-specific rules. The rules are applied as we build, not discovered after publishing."
         },
         {
           "id": "managed-service",
@@ -120,7 +120,7 @@
         }
       ],
       "title": "Scheduling Is Breaking Your Program",
-      "description": "Residency scheduling consumes hundreds of hours and puts compliance, fairness, and continuity exposed at review every year."
+      "description": "Residency scheduling consumes hundreds of hours and and puts compliance, fairness and continuity back at square one every year."
     },
     "solution": {
       "title": "Scheduling Wizard Delivers Your Schedules Done Right",

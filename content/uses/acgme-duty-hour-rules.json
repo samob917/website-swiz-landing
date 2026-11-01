@@ -11,7 +11,7 @@
     "cta": {
       "title": "Stop Leaving Compliance to Chance",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 18 departments across 13 hospitals who have their ACGME-compliant schedules built for them."
+      "description": "Join 30+ departments across 20+ hospitals and practices who have their ACGME-compliant schedules built for them."
     },
     "faq": [
       {
@@ -19,7 +19,7 @@
         "question": "What are the ACGME duty hour rules for residents?"
       },
       {
-        "answer": "Scheduling Wizard enforces ACGME duty hour rules mathematically during schedule generation, violations are prevented, not detected after the fact. Rather than building a schedule and then checking it for compliance, our team treats every duty hour requirement as a rule that cannot be broken that cannot be violated. This means the finished schedule delivered to your program is compliant at the moment it is generated, including subspecialty-specific rules relevant to your program.",
+        "answer": "Scheduling Wizard applies the ACGME duty hour rules while the schedule is built, the rules are applied as we build, not detected after the fact. Rather than building a schedule and then checking it for compliance, our team treats every duty hour requirement as a rule that cannot be broken that cannot be violated. This means the finished schedule delivered to your program is compliant at the moment it is generated, including subspecialty-specific rules relevant to your program.",
         "question": "How does Scheduling Wizard enforce ACGME duty hour compliance?"
       },
       {
@@ -27,8 +27,8 @@
         "question": "What happens when ACGME duty hour rules change?"
       },
       {
-        "answer": "Common compliance risks include exceeding the 80-hour weekly limit, scheduling residents without sufficient rest between shifts, violations of the 24-hour continuous duty cap, and improper handling of home call hours. These violations can trigger ACGME citations, corrective action plans, or in serious cases, threats to program accreditation. Manual schedule-building with spreadsheets makes these violations easy to miss until it is too late.",
-        "question": "What ACGME duty hour violations put a program exposed at review?"
+        "answer": "Common compliance risks include exceeding the 80-hour weekly limit, scheduling residents without sufficient rest between shifts, violations of the 24-hour continuous duty cap, and improper handling of home call hours. These are the rules programs most often find they have broken after the fact. Manual schedule-building with spreadsheets makes these violations easy to miss until it is too late.",
+        "question": "What are the most common ACGME duty hour violations?"
       },
       {
         "answer": "While all ACGME-accredited programs share core duty hour requirements, subspecialties have additional or modified rules, for example, surgery programs have specific requirements around trauma call pyramids and back-up call coverage, while pediatrics programs have their own home call requirements. We build the subspecialty-specific ACGME rules in, so your schedule reflects the rules that actually apply to your program rather than a one-size-fits-all interpretation.",
@@ -41,7 +41,7 @@
     ],
     "hero": {
       "title": "ACGME Duty Hour Rules Compliance Done For You",
-      "description": "Scheduling Wizard builds your residency schedules with ACGME duty hour compliance mathematically enforced at generation time. No software to learn."
+      "description": "Scheduling Wizard builds your residency schedules with ACGME duty hour compliance built into the schedule as it is created. No software to learn."
     },
     "features": {
       "items": [
@@ -54,7 +54,7 @@
             "Subspecialty-specific rules built in",
             "Home call rules handled correctly"
           ],
-          "description": "ACGME duty hour regulations (including 80-hour weekly limits, 10-hour rest requirements, 24-hour hard caps, and home call rules) are enforced mathematically at generation time. Violations are prevented before the schedule is ever published."
+          "description": "ACGME duty hour regulations (including 80-hour weekly limits, 10-hour rest requirements, 24-hour hard caps, and home call rules) are applied as the schedule is built, at generation time. The rules are applied before the schedule reaches your program."
         },
         {
           "id": "managed-service",
@@ -116,7 +116,7 @@
         },
         {
           "title": "Chiefs Rebuild Compliance From Scratch",
-          "description": "Every year, incoming chiefs inherit a blank spreadsheet and must re-learn every program rule, creating fresh something that surfaces at review with each rotation."
+          "description": "Every year, incoming chiefs inherit a blank spreadsheet and must re-learn every program rule, creating fresh misses that surface later with each rotation."
         }
       ],
       "title": "Compliance Is Too Easy To Get Wrong",
@@ -124,7 +124,7 @@
     },
     "solution": {
       "title": "Compliance Built Into Every Schedule",
-      "description": "Scheduling Wizard operates as a done-for-you managed service. Submit your program's rules and receive finished Block, Call, Clinic, and Attending schedules as ready-to-use Excel files, with ACGME duty hour compliance mathematically enforced at generation time, not manually checked after the fact. Subspecialty-specific rules are built into our team."
+      "description": "Scheduling Wizard operates as a done-for-you managed service. Submit your program's rules and receive finished Block, Call, Clinic, and Attending schedules as ready-to-use Excel files, with ACGME duty hour compliance built into the schedule as it is created, not manually checked after the fact. Subspecialty-specific rules are built into the schedule itself."
     },
     "metaTitle": "ACGME Duty Hour Rules | Compliance Built In",
     "metaDescription": "ACGME duty hour rules can be complex and risky. Our managed service builds your residency schedule for you, enforcing the rules when the schedule is built to protect your."

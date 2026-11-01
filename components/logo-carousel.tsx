@@ -3,7 +3,6 @@
 import Image from "next/image"
 
 const logosRow1 = [
-  { src: "/logos/johns-hopkins.png", alt: "Johns Hopkins Medicine", width: 160, height: 100 },
   { src: "/logos/ucsf.png", alt: "UCSF", width: 140, height: 70 },
   { src: "/logos/boston-childrens.png", alt: "Boston Children's Hospital", width: 180, height: 100 },
   { src: "/logos/uw-medicine.png", alt: "UW Medicine", width: 160, height: 110 },
