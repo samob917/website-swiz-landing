@@ -5,7 +5,7 @@
   "title": "Physician Scheduling Software | ACGME-Compliant",
   "description": "Physician scheduling software built for GME programs. We deliver finished, ACGME-compliant schedules so chief residents can focus on medicine, not.",
   "h1": "Physician Scheduling Software, Delivered.",
-  "paragraph": "Stop wrestling with complex physician scheduling software. Simply send us your constraints, and our Scheduling Wizard service delivers a complete, ACGME-compliant schedule.",
+  "paragraph": "Stop wrestling with complex physician scheduling software. Simply send us your rules, and our Scheduling Wizard service delivers a complete, ACGME-compliant schedule.",
   "category": "role",
   "data": {
     "cta": {
@@ -15,33 +15,33 @@
     },
     "faq": [
       {
-        "answer": "Physician scheduling software typically refers to self-service tools that require your team to learn, configure, and operate a platform. Scheduling Wizard takes a different approach entirely: it is a managed service where your program submits its constraints and receives finished, optimized schedules delivered as Excel spreadsheets. There is no software for your team to learn or maintain. This done-for-you model eliminates the operator burden from chief residents and coordinators entirely.",
+        "answer": "Physician scheduling software typically refers to self-service tools that require your team to learn, configure, and operate a platform. Scheduling Wizard takes a different approach entirely: it is a managed service where your program submits its rules and receives finished, optimized schedules delivered as Excel spreadsheets. There is no software for your team to learn or maintain. This done-for-you model eliminates the operator burden from chief residents and coordinators entirely.",
         "question": "What is physician scheduling software and how does Scheduling Wizard differ?"
       },
       {
-        "answer": "ACGME duty hour compliance is mathematically enforced at the point of schedule generation, not manually reviewed afterward. The engine applies the 80-hour weekly limit, minimum rest requirements, the 24-hour hard cap, and subspecialty-specific ACGME rules relevant to your program. Because compliance is built into the optimization engine itself, violations are structurally prevented before the schedule is ever delivered to your program.",
+        "answer": "ACGME duty hour compliance is mathematically enforced at the point of schedule generation, not manually reviewed afterward. our team applies the 80-hour weekly limit, minimum rest requirements, the 24-hour hard cap, and subspecialty-specific ACGME rules relevant to your program. Because compliance is built into Our team itself, violations are structurally prevented before the schedule is ever delivered to your program.",
         "question": "How does Scheduling Wizard ensure ACGME compliance in physician schedules?"
       },
       {
-        "answer": "Scheduling Wizard delivers four types of schedules: Block and rotation schedules, Call schedules with fairness optimization, Clinic schedules, and Attending physician schedules. All schedule types are optimized simultaneously using a proprietary constraint-solving engine, so changes in one schedule automatically propagate across the others without manual cross-referencing.",
+        "answer": "Scheduling Wizard delivers four types of schedules: Block and rotation schedules, Call schedules with fairness optimization, Clinic schedules, and Attending physician schedules. All schedule types are optimized simultaneously using a proprietary rule-solving engine, so changes in one schedule automatically propagate across the others without manual cross-referencing.",
         "question": "What types of physician schedules does Scheduling Wizard produce?"
       },
       {
-        "answer": "Yes. Many Scheduling Wizard clients continue using Amion or QGenda for day-to-day schedule viewing and display. Scheduling Wizard handles the schedule creation and optimization, delivering finished schedules as Excel files that your team can upload directly into your existing viewing platform. The two workflows are complementary, not mutually exclusive.",
-        "question": "Can Scheduling Wizard work alongside our existing scheduling tools like Amion or QGenda?"
+        "answer": "Yes. Many Scheduling Wizard clients continue using your existing platform for day-to-day schedule viewing and display. Scheduling Wizard handles the schedule creation and optimization, delivering finished schedules as Excel files that your team can upload directly into your existing viewing platform. The two workflows are complementary, not mutually exclusive.",
+        "question": "Can Scheduling Wizard work alongside our existing scheduling tools your existing platform?"
       },
       {
-        "answer": "Subspecialty-specific ACGME rules are built directly into Scheduling Wizard's optimization engine. Rather than applying a generic compliance checklist, the engine applies the specific duty hour rules, rotation requirements, and call restrictions relevant to your program's specialty. ACGME compliance is the most common question on sales calls, and it is designed to be answered with confidence for each specific subspecialty.",
+        "answer": "Subspecialty-specific ACGME rules are built directly into Our team. Rather than applying a generic compliance checklist, our team applies the specific duty hour rules, rotation requirements, and call restrictions relevant to your program's specialty. ACGME compliance is the most common question on sales calls, and it is designed to be answered with confidence for each specific subspecialty.",
         "question": "How does Scheduling Wizard handle subspecialty-specific ACGME scheduling rules?"
       },
       {
-        "answer": "Scheduling Wizard handles mid-year revisions as part of the managed service. When changes arise due to sick leave, parental leave, schedule swaps, or new constraints, the affected portions of the schedule are re-optimized without disrupting the entire published schedule. Programs submit the updated constraints and receive a revised schedule back, without needing to manually patch a spreadsheet or re-enter data into a software platform.",
+        "answer": "Scheduling Wizard handles mid-year revisions as part of the managed service. When changes arise due to sick leave, parental leave, schedule swaps, or new rules, the affected portions of the schedule are re-optimized without disrupting the entire published schedule. Programs submit the updated rules and receive a revised schedule back, without needing to manually patch a spreadsheet or re-enter data into a software platform.",
         "question": "What happens when a physician schedule needs to change mid-year?"
       }
     ],
     "hero": {
       "title": "Physician Scheduling Software Delivered To You",
-      "description": "Stop wrestling with complex physician scheduling software. Submit your constraints and receive finished, ACGME-compliant schedules as ready-to-use Excel files."
+      "description": "Stop wrestling with complex physician scheduling software. Submit your rules and receive finished, ACGME-compliant schedules as ready-to-use Excel files."
     },
     "features": {
       "items": [
@@ -54,7 +54,7 @@
             "Finished schedules delivered",
             "Expert schedulers handle complexity"
           ],
-          "description": "Unlike self-service physician scheduling software, Scheduling Wizard handles the entire scheduling process. Submit your constraints and receive finished Excel schedules, no software to operate, no learning curve, no annual retraining."
+          "description": "Unlike self-service physician scheduling software, Scheduling Wizard handles the entire scheduling process. Submit your rules and receive finished Excel schedules, no software to operate, no learning curve, no annual retraining."
         },
         {
           "id": "acgme-compliance",
@@ -98,7 +98,7 @@
             "New chiefs hit the ground running",
             "No annual rebuild required"
           ],
-          "description": "Your program's scheduling rules, constraints, and configurations stay with Scheduling Wizard year over year. New chief residents inherit a fully working, optimized system instead of rebuilding from a blank spreadsheet."
+          "description": "Your program's scheduling rules, rules, and configurations stay with Scheduling Wizard year over year. New chief residents inherit a fully working, optimized system instead of rebuilding from a blank spreadsheet."
         }
       ],
       "title": "Built for Physician and Residency Scheduling",
@@ -111,7 +111,7 @@
           "description": "Self-service physician scheduling software requires hours of setup, training, and rework, time chief residents and coordinators don't have."
         },
         {
-          "title": "Compliance Gaps Put Programs at Risk",
+          "title": "Compliance Gaps Put Programs exposed at review",
           "description": "Manually checking ACGME duty hour rules across block, call, and clinic schedules leaves room for costly violations that threaten accreditation."
         },
         {
@@ -124,7 +124,7 @@
     },
     "solution": {
       "title": "Your Schedules Built and Delivered by Experts",
-      "description": "Scheduling Wizard is a done-for-you managed service, not another software tool to learn. Submit your program's constraints and receive finished, ACGME-compliant Block, Call, Clinic, and Attending schedules as ready-to-use Excel files. No platform to navigate. No retraining when chiefs rotate."
+      "description": "Scheduling Wizard is a done-for-you managed service, not another software tool to learn. Submit your program's rules and receive finished, ACGME-compliant Block, Call, Clinic, and Attending schedules as ready-to-use Excel files. No platform to navigate. No retraining when chiefs rotate."
     },
     "metaTitle": "Physician Scheduling Software | ACGME-Compliant",
     "metaDescription": "Physician scheduling software built for GME programs. We deliver finished, ACGME-compliant schedules so chief residents can focus on medicine, not."
@@ -135,13 +135,13 @@
       "As a chief resident, I need a scheduling solution that ensures our residency schedules comply with ACGME regulations without me having to become an expert in scheduling software.",
       "I'm a program director looking for a replacement for our current scheduling method because it's too complicated and doesn't handle our specific subspecialty needs, leading to conflicts and gaps in coverage.",
       "As a program coordinator, I want a way to automate the schedule generation process so I can save time and avoid constant back-and-forth with my team over scheduling disputes and compliance issues.",
-      "I manage a private practice and need a robust scheduling solution that not only handles physician availability but also integrates with my existing tools, unlike what's currently available in generic scheduling software."
+      "I manage a private practice and need a solid scheduling solution that not only handles physician availability but also integrates with my existing tools, unlike what's currently available in generic scheduling software."
     ]
   },
   "seoMetadata": {
     "h1": "Physician Scheduling Software, Delivered.",
     "metaTitle": "Physician Scheduling Software | ACGME-Compliant",
-    "h1Paragraph": "Stop wrestling with complex physician scheduling software. Simply send us your constraints, and our Scheduling Wizard service delivers a complete, ACGME-compliant schedule.",
+    "h1Paragraph": "Stop wrestling with complex physician scheduling software. Simply send us your rules, and our Scheduling Wizard service delivers a complete, ACGME-compliant schedule.",
     "metaDescription": "Physician scheduling software built for GME programs. We deliver finished, ACGME-compliant schedules so chief residents can focus on medicine, not."
   },
   "finalMetadata": {

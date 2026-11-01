@@ -5,7 +5,7 @@
   "title": "Residency Schedule Mid Year Changes | Stay Compliant",
   "description": "Residency schedule mid year changes create chaos. Our managed service rapidly re-optimizes your entire schedule for you, ensuring ACGME compliance and.",
   "h1": "Handle Residency Schedule Mid Year Changes with Ease",
-  "paragraph": "Unexpected absence? Let Scheduling Wizard handle your mid year changes. Submit new constraints and get a rapidly re-optimized, ACGME-compliant schedule.",
+  "paragraph": "Unexpected absence? Let Scheduling Wizard handle your mid year changes. Submit new rules and get a rapidly re-optimized, ACGME-compliant schedule.",
   "category": "specialty",
   "data": {
     "cta": {
@@ -15,11 +15,11 @@
     },
     "faq": [
       {
-        "answer": "Scheduling Wizard handles mid year changes through its managed service model; your program submits updated constraints and receives a re-optimized, ACGME-compliant schedule back as a finished Excel file. There is no software for your team to operate. The proprietary optimization engine re-solves across all affected schedule types simultaneously, so a single change in leave or coverage requirements does not cascade into unresolved conflicts elsewhere in the schedule.",
+        "answer": "Scheduling Wizard handles mid year changes through its managed service model; your program submits updated rules and receives a re-optimized, ACGME-compliant schedule back as a finished Excel file. There is no software for your team to operate. Our team re-solves across all affected schedule types simultaneously, so a single change in leave or coverage requirements does not cascade into unresolved conflicts elsewhere in the schedule.",
         "question": "How does Scheduling Wizard handle residency schedule mid year changes?"
       },
       {
-        "answer": "Scheduling Wizard re-optimizes schedules on demand when new constraints are submitted. Because the engine handles optimization automatically rather than relying on manual rebuilds, revisions can be turned around without the time investment of starting from scratch. Specific turnaround times depend on the complexity of the change and program constraints.",
+        "answer": "Scheduling Wizard re-optimizes schedules on demand when new rules are submitted. Because our team handles optimization automatically rather than relying on manual rebuilds, revisions can be turned around without the time investment of starting from scratch. Specific turnaround times depend on the complexity of the change and program rules.",
         "question": "How quickly can a revised schedule be generated after a mid year change?"
       },
       {
@@ -27,21 +27,21 @@
         "question": "Will mid year schedule changes affect ACGME duty hour compliance?"
       },
       {
-        "answer": "Scheduling Wizard can accommodate a wide range of mid year changes, including unexpected resident absences, parental or medical leave, new residents joining the program, attending schedule adjustments, updated rotation requirements, and changes to institutional or subspecialty-specific constraints. All updates are submitted as constraints and re-optimized across block, call, clinic, and attending schedules together.",
+        "answer": "Scheduling Wizard can accommodate a wide range of mid year changes, including unexpected resident absences, parental or medical leave, new residents joining the program, attending schedule adjustments, updated rotation requirements, and changes to institutional or subspecialty-specific rules. All updates are submitted as rules and re-optimized across block, call, clinic, and attending schedules together.",
         "question": "What types of mid year changes can Scheduling Wizard accommodate?"
       },
       {
-        "answer": "No. Scheduling Wizard handles schedule creation and optimization, while programs can continue using Amion or QGenda for day-to-day schedule viewing and access. Once Scheduling Wizard delivers the revised Excel file, your team can upload it directly to whichever viewing platform your program already uses. The two tools serve different purposes and work alongside each other.",
-        "question": "Do we need to switch away from Amion or QGenda to use Scheduling Wizard?"
+        "answer": "No. Scheduling Wizard handles schedule creation and optimization, while programs can continue using your existing platform for day-to-day schedule viewing and access. Once Scheduling Wizard delivers the revised Excel file, your team can upload it directly to whichever viewing platform your program already uses. The two tools serve different purposes and work alongside each other.",
+        "question": "Do we need to switch away from your existing platform to use Scheduling Wizard?"
       },
       {
-        "answer": "Scheduling knowledge, program rules, and constraint configurations persist with Scheduling Wizard year over year. When a new chief resident takes over, they inherit a working, optimized system rather than starting from a blank spreadsheet. This institutional continuity is a core part of the managed service model and eliminates the annual knowledge loss that occurs when chief rotations happen.",
+        "answer": "Scheduling knowledge, program rules, and rule configurations persist with Scheduling Wizard year over year. When a new chief resident takes over, they inherit a working, optimized system rather than starting from a blank spreadsheet. This institutional continuity is a core part of the managed service model and eliminates the annual knowledge loss that occurs when chief rotations happen.",
         "question": "How does Scheduling Wizard preserve scheduling knowledge when chief residents change?"
       }
     ],
     "hero": {
       "title": "Residency Schedule Mid Year Changes Handled For You",
-      "description": "Submit new constraints and receive a rapidly re-optimized, ACGME-compliant schedule as a ready-to-use Excel file. No software to learn."
+      "description": "Submit new rules and receive a rapidly re-optimized, ACGME-compliant schedule as a ready-to-use Excel file. No software to learn."
     },
     "features": {
       "items": [
@@ -61,11 +61,11 @@
           "title": "Mid Year Changes Without the Chaos",
           "eyebrow": "Schedule Revisions",
           "highlights": [
-            "Constraints updated on demand",
+            "Rules updated on demand",
             "Downstream impacts resolved automatically",
             "Delivered as ready-to-use Excel"
           ],
-          "description": "Submit updated constraints (new leave, swaps, added residents, or changed requirements) and receive a revised schedule that accounts for every downstream impact. Residency schedule mid year changes no longer require rebuilding from scratch."
+          "description": "Submit updated rules (new leave, swaps, added residents, or changed requirements) and receive a revised schedule that accounts for every downstream impact. Residency schedule mid year changes no longer require rebuilding from scratch."
         },
         {
           "id": "acgme-compliance",
@@ -76,7 +76,7 @@
             "Subspecialty rules built in",
             "80-hour limits always enforced"
           ],
-          "description": "ACGME duty hour rules are mathematically enforced at re-generation time, not manually reviewed after the fact. Subspecialty-specific rules are built into the engine, so mid year revisions never introduce hidden compliance violations."
+          "description": "ACGME duty hour rules are mathematically enforced at re-generation time, not manually reviewed after the fact. Subspecialty-specific rules are built into our team, so mid year revisions never introduce hidden compliance violations."
         },
         {
           "id": "cross-schedule-resolution",
@@ -96,9 +96,9 @@
           "highlights": [
             "No software to learn",
             "Expert schedulers handle revisions",
-            "Output uploads to Amion or QGenda"
+            "Output uploads to whatever platform you already use"
           ],
-          "description": "Scheduling Wizard is a done-for-you service. Your team submits the updated constraints and receives the finished revised schedule as an Excel file, no software to learn, no dashboards to operate, no annual retraining when chiefs rotate."
+          "description": "Scheduling Wizard is a done-for-you service. Your team submits the updated rules and receives the finished revised schedule as an Excel file, no software to learn, no dashboards to operate, no annual retraining when chiefs rotate."
         }
       ],
       "title": "Built for Mid Year Schedule Disruptions",
@@ -120,11 +120,11 @@
         }
       ],
       "title": "Mid Year Changes Break Manual Schedules",
-      "description": "Unexpected absences and new constraints mid-year expose every weakness in manually built residency schedules."
+      "description": "Unexpected absences and new rules mid-year expose every weakness in manually built residency schedules."
     },
     "solution": {
-      "title": "Submit New Constraints. Get a Re-Optimized Schedule.",
-      "description": "When mid year changes hit, submit your updated constraints to Scheduling Wizard and receive a finished, ACGME-compliant schedule back as a ready-to-use Excel file. Our managed service re-optimizes across block, call, clinic, and attending schedules simultaneously, so nothing falls through the cracks."
+      "title": "Submit New Rules. Get a Re-Optimized Schedule.",
+      "description": "When mid year changes hit, submit your updated rules to Scheduling Wizard and receive a finished, ACGME-compliant schedule back as a ready-to-use Excel file. Our managed service re-optimizes across block, call, clinic, and attending schedules simultaneously, so nothing falls through the cracks."
     },
     "metaTitle": "Residency Schedule Mid Year Changes | Stay Compliant",
     "metaDescription": "Residency schedule mid year changes create chaos. Our managed service rapidly re-optimizes your entire schedule for you, ensuring ACGME compliance and."
@@ -141,7 +141,7 @@
   "seoMetadata": {
     "h1": "Handle Residency Schedule Mid Year Changes with Ease",
     "metaTitle": "Residency Schedule Mid Year Changes | Stay Compliant",
-    "h1Paragraph": "Unexpected absence? Let Scheduling Wizard handle your mid year changes. Submit new constraints and get a rapidly re-optimized, ACGME-compliant schedule.",
+    "h1Paragraph": "Unexpected absence? Let Scheduling Wizard handle your mid year changes. Submit new rules and get a rapidly re-optimized, ACGME-compliant schedule.",
     "metaDescription": "Residency schedule mid year changes create chaos. Our managed service rapidly re-optimizes your entire schedule for you, ensuring ACGME compliance and."
   },
   "finalMetadata": {
