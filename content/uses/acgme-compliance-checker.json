@@ -1,10 +1,10 @@
 {
   "keyword": "ACGME compliance checker",
   "slug": "acgme-compliance-checker",
-  "anchor": "ACGME Compliance Checker",
-  "title": "ACGME Compliance Checker | Compliance Built In",
+  "anchor": "ACGME Compliance, Built In",
+  "title": "ACGME Compliance Checker? We Build the Schedule Instead",
   "description": "Not a checker. We build the schedule with your program's ACGME requirements in it from the start, for one program or a whole GME office.",
-  "h1": "ACGME Compliance Checker for Multi-Department GME",
+  "h1": "Looking for an ACGME Compliance Checker?",
   "paragraph": "A checker tells you what is already wrong. We build the schedule with your program's requirements in it from the start, so there is far less to find afterwards.",
   "category": "specialty",
   "data": {
@@ -44,7 +44,7 @@
       }
     ],
     "hero": {
-      "title": "ACGME Compliance Checker for Multi-Department GME",
+      "title": "Looking for an ACGME Compliance Checker?",
       "description": "Scheduling Wizard is not a checking tool. We are the people who build the schedule, and we apply your program's ACGME requirements while we build it."
     },
     "features": {
@@ -141,7 +141,7 @@
       "title": "Compliance Built In From the Start",
       "description": "Our team enforces ACGME duty hour rules at schedule generation time, not after. Submit your program rules and receive finished, subspecialty-compliant schedules as ready-to-use Excel files. No manual auditing, no software to learn, no knowledge lost between chief rotations."
     },
-    "metaTitle": "ACGME Compliance Checker | Compliance Built In",
+    "metaTitle": "ACGME Compliance Checker? We Build the Schedule Instead",
     "metaDescription": "Not a checker. We build the schedule with your program's ACGME requirements in it from the start, for one program or a whole GME office."
   },
   "searchIntent": {
@@ -155,7 +155,7 @@
   },
   "seoMetadata": {
     "h1": "ACGME Compliance Checker for Multi-Department GME",
-    "metaTitle": "ACGME Compliance Checker | Compliance Built In",
+    "metaTitle": "ACGME Compliance Checker? We Build the Schedule Instead",
     "h1Paragraph": "A checker tells you what is already wrong. We build the schedule with your program's requirements in it from the start, so there is far less to find afterwards.",
     "metaDescription": "Not a checker. We build the schedule with your program's ACGME requirements in it from the start, for one program or a whole GME office."
   },
