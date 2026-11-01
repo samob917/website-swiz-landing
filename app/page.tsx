@@ -128,7 +128,7 @@ export default function HomePage() {
             The First Effective <span className="text-yellow-400">GME & Attending</span><br className="hidden sm:block" />{" "}Scheduling Service.
           </h2>
           <div className="flex flex-wrap justify-center gap-3 mt-10">
-            {["Reduce scheduling time by 95%+", "Handling your most complex and granular rules", "Seamless workflow integration"].map((text) => (
+            {["Reduce scheduling time by 95%+", "Handling your most complex and granular rules", "Works with the platform you already use"].map((text) => (
               <span key={text} className="smooth-pill bg-white/10 backdrop-blur-sm border border-white/10 text-white/70 px-5 py-2.5 rounded-full text-sm font-medium cursor-default hover:bg-white/15 hover:text-white/90">
                 {text}
               </span>
