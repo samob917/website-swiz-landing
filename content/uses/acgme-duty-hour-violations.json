@@ -4,12 +4,12 @@
   "anchor": "ACGME Duty Hour Violations",
   "title": "ACGME Duty Hour Violations | Eliminate Risk",
   "description": "ACGME duty hour violations put a program in a difficult spot at review. Scheduling Wizard builds the duty hour rules into the schedule itself.",
-  "h1": "Eliminate ACGME Duty Hour Violations for Good",
+  "h1": "Fewer Duty Hour Problems, Because the Rules Go In First",
   "paragraph": "Stop relying on manual checks and remove human error. Scheduling Wizard's managed service delivers ACGME-compliant schedules, built in.",
   "category": "specialty",
   "data": {
     "cta": {
-      "title": "Stop Risking Violations on Every Schedule",
+      "title": "Stop Checking the Schedule After You Build It",
       "buttonText": "Book a Free Scheduling Consult",
       "description": "Join 30+ departments across 20+ hospitals and practices who already rely on Scheduling Wizard for compliant schedules. Finished schedules in your format, with redrafts through the year included."
     },
@@ -40,8 +40,8 @@
       }
     ],
     "hero": {
-      "title": "Eliminate ACGME Duty Hour Violations for Good",
-      "description": "Scheduling Wizard's managed service delivers ACGME-compliant schedules, removing human error and eliminating duty hour violations before they happen."
+      "title": "Fewer Duty Hour Problems, Because the Rules Go In First",
+      "description": "Scheduling Wizard's managed service delivers ACGME-compliant schedules, applying the duty hour rules while the schedule is built rather than after."
     },
     "features": {
       "items": [
@@ -150,7 +150,7 @@
     ]
   },
   "seoMetadata": {
-    "h1": "Eliminate ACGME Duty Hour Violations for Good",
+    "h1": "Fewer Duty Hour Problems, Because the Rules Go In First",
     "metaTitle": "ACGME Duty Hour Violations | Eliminate Risk",
     "h1Paragraph": "Stop relying on manual checks and remove human error. Scheduling Wizard's managed service delivers ACGME-compliant schedules, built in.",
     "metaDescription": "ACGME duty hour violations put a program in a difficult spot at review. Scheduling Wizard builds the duty hour rules into the schedule itself."

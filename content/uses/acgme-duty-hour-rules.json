@@ -4,12 +4,12 @@
   "anchor": "ACGME Duty Hour Rules",
   "title": "ACGME Duty Hour Rules | Compliance Built In",
   "description": "ACGME duty hour rules can be complex and risky. Our managed service builds your residency schedule for you, enforcing the rules when the schedule is built to.",
-  "h1": "ACGME Duty Hour Rules: Ensure Program Compliance",
+  "h1": "ACGME Duty Hour Rules, Built Into the Schedule",
   "paragraph": "Violating ACGME duty hour rules shows up at your next review. Scheduling Wizard's managed service builds your schedule, enforcing the rules when the schedule is built so you can focus on medicine.",
   "category": "specialty",
   "data": {
     "cta": {
-      "title": "Stop Leaving Compliance to Chance",
+      "title": "Stop Carrying the Rules in Your Head",
       "buttonText": "Book a Free Scheduling Consult",
       "description": "Join 30+ departments across 20+ hospitals and practices who have their ACGME-compliant schedules built for them. Finished schedules in your format, with redrafts through the year included."
     },
@@ -19,7 +19,7 @@
         "question": "What are the ACGME duty hour rules for residents?"
       },
       {
-        "answer": "Scheduling Wizard applies the ACGME duty hour rules while the schedule is built, the rules are applied as we build, not detected after the fact. Rather than building a schedule and then checking it for compliance, our team treats every duty hour requirement as a rule that cannot be broken that cannot be violated. This means the finished schedule delivered to your program is compliant at the moment it is generated, including subspecialty-specific rules relevant to your program.",
+        "answer": "Scheduling Wizard applies the ACGME duty hour rules while the schedule is built, the rules are applied as we build, not detected after the fact. Rather than building a schedule and then checking it for compliance, our team treats every duty hour requirement as a rule that cannot be broken. This means the finished schedule delivered to your program is compliant at the moment it is generated, including subspecialty-specific rules relevant to your program.",
         "question": "How does Scheduling Wizard enforce ACGME duty hour compliance?"
       },
       {
@@ -150,7 +150,7 @@
     ]
   },
   "seoMetadata": {
-    "h1": "ACGME Duty Hour Rules: Ensure Program Compliance",
+    "h1": "ACGME Duty Hour Rules, Built Into the Schedule",
     "metaTitle": "ACGME Duty Hour Rules | Compliance Built In",
     "h1Paragraph": "Violating ACGME duty hour rules shows up at your next review. Scheduling Wizard's managed service builds your schedule, enforcing the rules when the schedule is built so you can focus on medicine.",
     "metaDescription": "ACGME duty hour rules can be complex and risky. Our managed service builds your residency schedule for you, enforcing the rules when the schedule is built to."
