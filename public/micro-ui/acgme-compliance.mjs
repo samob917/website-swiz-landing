@@ -36,7 +36,7 @@ const trafficDots = h(
   }),
 );
 
-// --- Live pulse dot for "running" status ---
+// --- Live pulse dot for "building" status ---
 const livePulse = h(
   "div",
   {
@@ -101,7 +101,7 @@ const titleBar = h(
         fontWeight: 500,
         color: "#6b7280",
       },
-      "running",
+      "building",
     ),
   ),
 );
@@ -127,7 +127,7 @@ const bodyHeader = h(
         color: "#1a1a1a",
         letterSpacing: "0.01em",
       },
-      "Compliance Engine",
+      "Rules in the build",
     ),
     h(
       "span",
@@ -174,7 +174,7 @@ function passBadge() {
       borderRadius: "4px",
       letterSpacing: "0.04em",
     },
-    "✓ PASS",
+    "✓ HELD",
   );
 }
 
@@ -212,7 +212,7 @@ function checkRow(name, timing, opts) {
         fontSize: "12px",
         fontWeight: 500,
       },
-      "check",
+      "rule",
     ),
     h(
       "span",
@@ -294,7 +294,7 @@ const summaryRow = h(
       letterSpacing: "0.06em",
       marginRight: "12px",
     },
-    "✓ PASS",
+    "✓ HELD",
   ),
   h(
     "span",
@@ -305,7 +305,7 @@ const summaryRow = h(
       color: "#1a1a1a",
       letterSpacing: "0.01em",
     },
-    "5 checks",
+    "5 rules",
   ),
   h(
     "span",
@@ -328,7 +328,7 @@ const summaryRow = h(
       color: "#1a1a1a",
       letterSpacing: "0.01em",
     },
-    "0 violations",
+    "all held",
   ),
   h(
     "span",
@@ -375,7 +375,7 @@ const footerCaption = h(
       letterSpacing: "0.01em",
       lineHeight: "1.4",
     },
-    "Rules enforced at generation — violations prevented, not detected.",
+    "Rules applied as the schedule is built, not checked afterwards.",
   ),
 );
 

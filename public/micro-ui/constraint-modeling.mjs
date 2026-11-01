@@ -136,7 +136,7 @@ const header = h(
         color: "#1a1a1a",
         letterSpacing: "-0.01em",
       },
-      "Custom Constraint",
+      "Custom rule",
     ),
     h(
       "span",
