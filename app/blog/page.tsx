@@ -69,7 +69,7 @@ export default async function Page({
                 href={`/blog/${post.slug}`}
                 className="group flex flex-col overflow-hidden rounded-2xl border border-gray-200 bg-white transition-all hover:border-yellow-400 hover:shadow-md"
               >
-                {post.image && (
+                {post.image ? (
                   <div className="relative aspect-[16/9] w-full overflow-hidden bg-gray-100">
                     <Image
                       src={post.image}
@@ -78,6 +78,15 @@ export default async function Page({
                       sizes="(max-width: 768px) 100vw, 33vw"
                       className="object-cover"
                     />
+                  </div>
+                ) : (
+                  // Posts whose artwork was retired get a plain title panel in the
+                  // same slot, so the grid keeps its rhythm and nothing claims
+                  // a count the list no longer has.
+                  <div className="hero-background medical-pattern flex aspect-[16/9] w-full items-center p-6">
+                    <span className="text-lg font-semibold leading-snug tracking-tight text-white sm:text-xl">
+                      {post.title}
+                    </span>
                   </div>
                 )}
                 <div className="flex flex-1 flex-col p-6">
