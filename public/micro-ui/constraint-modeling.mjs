@@ -148,7 +148,7 @@ const header = h(
         letterSpacing: "0.12em",
         marginTop: "3px",
       },
-      "PROGRAM-SPECIFIC RULES",
+      "WRITTEN DOWN WITH YOU",
     ),
   ),
   h(
@@ -165,7 +165,7 @@ const header = h(
       borderRadius: "100px",
       letterSpacing: "0.06em",
     },
-    "DSL v3",
+    "Your rules",
   ),
 );
 
@@ -215,7 +215,7 @@ const validBadge = h(
     letterSpacing: "0.02em",
   },
   checkSvg,
-  h("span", { display: "flex" }, "valid"),
+  h("span", { display: "flex" }, "in the build"),
 );
 
 const compileBtn = h(
@@ -234,7 +234,7 @@ const compileBtn = h(
     letterSpacing: "0.02em",
   },
   playSvg,
-  h("span", { display: "flex" }, "Compile"),
+  h("span", { display: "flex" }, "Add to the build"),
 );
 
 const actionRow = h(
