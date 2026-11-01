@@ -23,15 +23,15 @@
         "question": "How does Scheduling Wizard prevent ACGME duty hour violations?"
       },
       {
-        "answer": "If a duty hour violation is identified after a schedule is published, the affected portion of the schedule must be revised and redistributed, which can disrupt the entire program. Scheduling Wizard addresses this upstream by building compliance into the schedule at creation time. For mid-year changes that introduce new rules, our team can re-optimize affected portions of the schedule without requiring a full rebuild.",
+        "answer": "If a duty hour violation is identified after a schedule is published, the affected portion of the schedule must be revised and redistributed, which can disrupt the entire program. Scheduling Wizard addresses this upstream by building compliance into the schedule at creation time. For mid-year changes that introduce new rules, our team can rebuild affected portions of the schedule without requiring a full rebuild.",
         "question": "What happens if a duty hour violation is found after a schedule is published?"
       },
       {
-        "answer": "Yes. Subspecialty-specific ACGME duty hour rules are built into the schedule itself. ACGME compliance is the most common question asked during onboarding, and the service is designed to handle the nuances that vary across residency and fellowship programs. Programs should communicate their specific requirements during the rule submission process so our team can apply the correct rules for their specialty.",
+        "answer": "Yes. The subspecialty requirements you tell us apply are built in too. ACGME compliance is the most common question asked during onboarding, and the service is designed to handle the nuances that vary across residency and fellowship programs. Programs should communicate their specific requirements during the rule submission process so our team can apply the correct rules for their specialty.",
         "question": "Does Scheduling Wizard know the ACGME rules for my specific subspecialty?"
       },
       {
-        "answer": "Schedules are delivered as ready-to-use Excel or Google Sheets files. If you want one, we can also build a custom live viewing link for your program, designed around your schedules. Many Scheduling Wizard clients upload these finished files directly into your existing platform for day-to-day viewing and access. Scheduling Wizard handles the schedule creation and optimization, while you publish it where you already do. There is no new software for your program to learn or operate.",
+        "answer": "Schedules are delivered as Excel or Google Sheets files. If you want one, we can also build a custom live viewing link for your program, designed around your schedules. Many Scheduling Wizard clients upload these finished files directly into your existing platform for day-to-day viewing and access. Scheduling Wizard handles the schedule creation and optimization, while you publish it where you already do. There is no new software for your program to learn or operate.",
         "question": "How are schedules delivered and can we use them with your existing platform?"
       },
       {
@@ -62,7 +62,7 @@
           "eyebrow": "ACGME Requirements",
           "highlights": [
             "80-hour limit applied",
-            "Subspecialty-specific rules built in",
+            "Subspecialty rules you give us built in",
             "Checked while building, not after"
           ],
           "description": "We apply the ACGME duty hour rules while the schedule is built: the 80-hour weekly limit, rest requirements and the 24-hour cap, plus the subspecialty-specific rules for your program."
@@ -76,7 +76,7 @@
             "Finished schedules delivered as Excel",
             "Expert schedulers handle optimization"
           ],
-          "description": "Programs submit their rules and receive finished, compliant schedules as Excel files. There is no software to learn, no compliance checklist to run manually, and no reliance on a chief resident's institutional memory. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Programs submit their rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you. There is no software to learn, no compliance checklist to run manually, and no reliance on a chief resident's institutional memory. The schedules are built by mathematicians who do this full time and nothing else."
         },
         {
           "id": "institutional-continuity",
@@ -135,7 +135,7 @@
     },
     "solution": {
       "title": "Compliance Built Into Every Schedule",
-      "description": "Scheduling Wizard is a done-for-you managed service. Submit your program's rules and receive finished, ACGME-compliant Block, Call, Clinic, and Attending schedules as ready-to-use Excel files. Duty hour compliance is built into the schedule as it is created, not manually checked after the fact."
+      "description": "Scheduling Wizard is a done-for-you managed service. Submit your program's rules and receive finished, ACGME-compliant Block, Call, Clinic, and Attending schedules as Excel or Google Sheets, or on a custom live view we build for you. Duty hour compliance is built into the schedule as it is created, not manually checked after the fact."
     },
     "metaTitle": "ACGME Duty Hour Violations | Build the Rules In",
     "metaDescription": "Most ACGME duty hour violations trace back to the build. Scheduling Wizard builds the duty hour rules into the schedule itself, so there is less to find afterwards."
@@ -143,7 +143,7 @@
   "searchIntent": {
     "keyword": "ACGME duty hour violations",
     "searchIntents": [
-      "A residency program director concerned about recent ACGME audits, looking for information on how to ensure compliance with duty hour regulations to avoid penalties.",
+      "A residency program director concerned about recent ACGME site visit, looking for information on how to ensure compliance with duty hour regulations to avoid penalties.",
       "A chief resident who is overwhelmed with scheduling duties and seeking solutions to prevent duty hour violations for their cohort while managing rotations efficiently.",
       "A program coordinator researching the implications of duty hour violations and how to implement a compliant scheduling system that aligns with ACGME standards.",
       "A GME office administrator trying to find automated scheduling tools that can enforces ACGME rules when the schedule is built and eliminate the risk of violations during resident scheduling."

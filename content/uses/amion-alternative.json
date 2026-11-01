@@ -2,10 +2,10 @@
   "keyword": "amion alternative",
   "slug": "amion-alternative",
   "anchor": "Already Using Amion?",
-  "title": "Amion Alternative | Optimized GME Schedules",
-  "description": "Amion alternative for GME programs? Scheduling Wizard is a managed service delivering optimized, ACGME-compliant schedules.",
+  "title": "Amion Alternative | We Build It, You Keep Amion",
+  "description": "Amion alternative for GME programs? Scheduling Wizard is a managed service that builds the schedule for you.",
   "h1": "Amion Manages Your Schedule. We Build It.",
-  "paragraph": "Keep Amion for the day to day. Scheduling Wizard builds the ACGME-compliant schedule you upload to it, no migration, no software to learn.",
+  "paragraph": "Keep Amion for the day to day. Scheduling Wizard builds the schedules built to the ACGME requirements you upload to it, no migration, no software to learn.",
   "category": "competitor",
   "data": {
     "cta": {
@@ -15,11 +15,11 @@
     },
     "faq": [
       {
-        "answer": "Amion is a schedule publishing platform, while Scheduling Wizard is a managed service that creates and optimizes the schedule itself. Many Scheduling Wizard clients continue using Amion to publish their finished schedules day-to-day. The difference is in schedule creation: Our team builds your compliant Block, Call, Clinic, and Attending schedules from your rules, then delivers them as Excel files you can upload directly to your existing platform.",
+        "answer": "Amion is a schedule publishing platform, while Scheduling Wizard is a managed service that creates and optimizes the schedule itself. Many Scheduling Wizard clients continue using Amion to publish their finished schedules day-to-day. The difference is in schedule creation: Our team builds your compliant Block, Call, Clinic, and Attending schedules from your rules, then delivers them as Excel or Google Sheets, or on a custom live view we build for you you can upload directly to your existing platform.",
         "question": "What makes Scheduling Wizard different from Amion?"
       },
       {
-        "answer": "No. Scheduling Wizard and Amion serve different functions and work together. Scheduling Wizard handles schedule creation and optimization. Your finished schedules are delivered as Excel spreadsheets that you can upload to your existing platform for day-to-day staff viewing, exactly as you do today. You keep your existing Amion workflow for publishing while Scheduling Wizard handles the build.",
+        "answer": "No. Scheduling Wizard and Amion serve different functions and work together. Scheduling Wizard handles schedule creation and optimization. Your finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you that you can upload to your existing platform for day-to-day staff viewing, exactly as you do today. You keep your existing Amion workflow for publishing while Scheduling Wizard handles the build.",
         "question": "Do I have to stop using Amion if I work with Scheduling Wizard?"
       },
       {
@@ -27,11 +27,11 @@
         "question": "How does Scheduling Wizard ensure ACGME compliance during schedule creation?"
       },
       {
-        "answer": "Scheduling Wizard operates as a fully managed service, meaning your program does not need to operate any scheduling software. You submit your rules, rotation requirements, resident preferences, and ACGME rules. Scheduling Wizard's team handle the optimization and deliver finished, ready-to-publish schedules as Excel files. Chief residents are not required to learn or use any new platform.",
+        "answer": "Scheduling Wizard operates as a fully managed service, meaning your program does not need to operate any scheduling software. You submit your rules, rotation requirements, resident preferences, and ACGME rules. Scheduling Wizard's team handle the optimization and deliver finished, ready-to-publish schedules as Excel or Google Sheets, or on a custom live view we build for you. Chief residents are not required to learn or use any new platform.",
         "question": "Who actually builds the schedule with Scheduling Wizard?"
       },
       {
-        "answer": "Scheduling Wizard generates Block (rotation), Call, Clinic, and Attending schedules. These are optimized simultaneously so that changes in one schedule automatically reflect across the others, eliminating the cross-schedule conflicts that arise when each schedule is built in isolation. Finished schedules are delivered as Excel spreadsheets compatible with your existing platform, and other publishing platforms.",
+        "answer": "Scheduling Wizard generates Block (rotation), Call, Clinic, and Attending schedules. These are optimized simultaneously so that changes in one schedule automatically reflect across the others, removing the cross-schedule conflicts that arise when each schedule is built in isolation. Finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you compatible with your existing platform, and other publishing platforms.",
         "question": "What types of schedules does Scheduling Wizard generate?"
       },
       {
@@ -63,20 +63,20 @@
           "highlights": [
             "No software to learn",
             "Finished schedules delivered to you",
-            "Delivered as Excel or Sheets"
+            "Or a custom live view we build"
           ],
-          "description": "Unlike Amion's self-service model, Scheduling Wizard is a fully managed service. Submit your rules and receive finished, ready-to-publish schedules as Excel files with no software to operate or learn. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Unlike Amion's self-service model, Scheduling Wizard is a fully managed service. Submit your rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you with no software to operate or learn. The schedules are built by mathematicians who do this full time and nothing else."
         },
         {
           "id": "acgme-compliance",
-          "title": "Compliance Built In at Generation Time",
+          "title": "Compliance built in while the schedule is made",
           "eyebrow": "ACGME Requirements",
           "highlights": [
             "80-hour limit applied",
             "Subspecialty-specific rules included",
             "Rules applied before publishing"
           ],
-          "description": "ACGME duty hour rules including the 80-hour weekly limit, eight hours off between duty periods, and 24-hour hard caps are built into the schedule as it is built, not manually audited after the fact. Subspecialty-specific rules are built in."
+          "description": "ACGME duty hour rules including the 80-hour weekly limit, eight hours off between duty periods, and the 24-hour cap are built into the schedule as it is built, not manually audited after the fact. The subspecialty requirements you tell us apply are built in too."
         },
         {
           "id": "institutional-continuity",
@@ -102,14 +102,14 @@
         },
         {
           "id": "call-scheduling",
-          "title": "Fair Call Schedules Algorithmically Optimized",
+          "title": "Fair Call Schedules Built to Your Definition of Fair",
           "eyebrow": "Call Scheduling",
           "highlights": [
             "Weekend call balanced automatically",
             "Holiday shifts distributed fairly",
             "Post-call rest rules applied"
           ],
-          "description": "Call burden, weekend shifts, and holidays are distributed equitably across all residents through algorithmic optimization. Duty hour limits are applied throughout, with fewer fairness disputes and no manual balancing."
+          "description": "Call burden, weekend shifts, and holidays are distributed equitably across all residents as part of the build. Duty hour limits are applied throughout, with fewer fairness disputes and no manual tallying."
         },
         {
           "id": "redrafts-included",
@@ -146,10 +146,10 @@
     },
     "solution": {
       "title": "Schedule Creation Handled by Experts",
-      "description": "Scheduling Wizard acts as your dedicated scheduling team. Submit your program's rules and receive finished, ACGME-compliant Block, Call, Clinic, and Attending schedules as ready-to-use Excel files. Upload them to your existing platform for day-to-day viewing, exactly as you do today. No software to learn, no annual retraining."
+      "description": "Scheduling Wizard acts as your dedicated scheduling team. Submit your program's rules and receive finished, ACGME-compliant Block, Call, Clinic, and Attending schedules as Excel or Google Sheets, or on a custom live view we build for you. Upload them to your existing platform for day-to-day viewing, exactly as you do today. No software to learn, no annual retraining."
     },
-    "metaTitle": "Amion Alternative | Optimized GME Schedules",
-    "metaDescription": "Amion alternative for GME programs? Scheduling Wizard is a managed service delivering optimized, ACGME-compliant schedules."
+    "metaTitle": "Amion Alternative | We Build It, You Keep Amion",
+    "metaDescription": "Amion alternative for GME programs? Scheduling Wizard is a managed service that builds the schedule for you."
   },
   "searchIntent": {
     "keyword": "amion alternative",
@@ -162,9 +162,9 @@
   },
   "seoMetadata": {
     "h1": "Amion Alternative for ACGME-Compliant Schedules",
-    "metaTitle": "Amion Alternative | Optimized GME Schedules",
+    "metaTitle": "Amion Alternative | We Build It, You Keep Amion",
     "h1Paragraph": "End inconsistent schedules and complex ACGME rule management. Scheduling Wizard is the managed Amion alternative that builds your perfect schedule for you.",
-    "metaDescription": "Amion alternative for GME programs? Scheduling Wizard is a managed service delivering optimized, ACGME-compliant schedules."
+    "metaDescription": "Amion alternative for GME programs? Scheduling Wizard is a managed service that builds the schedule for you."
   },
   "finalMetadata": {
     "slug": "amion-alternative",

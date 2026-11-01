@@ -5,7 +5,7 @@
   "title": "Residency Call Scheduling Software | Done For You",
   "description": "Residency call scheduling software that takes the burden off the chief. We are a managed service: send us your rules and we deliver a fair call schedule, built to the ACGME rules.",
   "h1": "Done-For-You Residency Call Scheduling Software",
-  "paragraph": "Stop spending nights building call schedules. Scheduling Wizard is a managed service, not complex software. Submit your rules and get a fair, ACGME-compliant residency call schedule.",
+  "paragraph": "Scheduling Wizard is a managed service, not complex software. Submit your rules and get a fair, ACGME-compliant residency call schedule.",
   "category": "setting",
   "data": {
     "cta": {
@@ -15,7 +15,7 @@
     },
     "faq": [
       {
-        "answer": "Scheduling Wizard is not traditional self-service call scheduling software; it is a managed service. Rather than giving your chief residents a tool to learn and operate, Scheduling Wizard accepts your program's rules and delivers a finished, optimized call schedule as an Excel file. There is no platform to log into, no training required, and no annual retraining when chiefs rotate out.",
+        "answer": "Scheduling Wizard is not traditional self-service call scheduling software; it is a managed service. Rather than giving your chief residents a tool to learn and operate, Scheduling Wizard accepts your program's rules and delivers the finished call schedule as Excel or Google Sheets, or on a custom live view we build for you. There is no platform to log into, no training required, and no annual retraining when chiefs rotate out.",
         "question": "What is residency call scheduling software and how does Scheduling Wizard differ?"
       },
       {
@@ -23,15 +23,15 @@
         "question": "How does Scheduling Wizard ensure ACGME duty hour compliance in call schedules?"
       },
       {
-        "answer": "Yes. Our team has subspecialty-specific ACGME rule knowledge built in. Subspecialty-specific rules are among the most common questions on sales calls, and our team is designed to accommodate the distinct duty hour and call requirements that differ across specialties. When you submit your rules, your specialty's specific rules are applied to every call schedule generated.",
+        "answer": "Yes. You tell us which requirements apply to your program, the Common Program Requirements and anything your specialty's Review Committee adds, and we write them down with you alongside your own rules before the first build. They go into the schedule while it is built rather than being flagged afterwards.",
         "question": "Can Scheduling Wizard handle call schedules for my specific medical subspecialty?"
       },
       {
-        "answer": "Yes, and many Scheduling Wizard clients use exactly this combination. Scheduling Wizard handles the creation and optimization of your call schedule. The finished schedule is delivered as an Excel file that your program can upload directly into whatever platform you already usese for day-to-day schedule access. You do not need to change your existing viewing workflow.",
+        "answer": "Yes, and many Scheduling Wizard clients use exactly this combination. Scheduling Wizard handles the creation and optimization of your call schedule. The finished schedule is delivered as Excel or Google Sheets, or on a custom live view we build for you, ready for whatever platform you already uses for day-to-day schedule access. You do not need to change your existing viewing workflow.",
         "question": "Will Scheduling Wizard work alongside your existing platform?"
       },
       {
-        "answer": "Mid-year changes such as sick leave, emergency absences, or swap requests are handled as part of the managed service. Scheduling Wizard processes the updated rules and re-optimizes the affected portion of the call schedule without disrupting the rest of the year. Your program receives an updated Excel file rather than spending hours manually reshuffling assignments.",
+        "answer": "Mid-year changes such as sick leave, emergency absences, or swap requests are handled as part of the managed service. Scheduling Wizard processes the updated rules and rebuilds the affected portion of the call schedule without disrupting the rest of the year. Your program receives an updated schedule rather than spending hours manually reshuffling assignments.",
         "question": "What happens when a resident needs a last-minute call schedule change?"
       },
       {
@@ -65,7 +65,7 @@
             "Holiday shifts distributed fairly",
             "Post-call rest rules applied"
           ],
-          "description": "Our team produces ACGME-compliant on-call schedules that distribute call, weekend, and holiday burden equitably across all residents, respecting duty hour limits, post-call rest rules, and individual rules automatically."
+          "description": "Our team produces on-call schedules built to the ACGME requirements that distribute call, weekend, and holiday burden equitably across all residents, respecting duty hour limits, post-call rest rules, and individual rules automatically."
         },
         {
           "id": "acgme-compliance",
@@ -73,10 +73,10 @@
           "eyebrow": "ACGME Requirements",
           "highlights": [
             "80-hour limit applied",
-            "Subspecialty-specific rules built in",
+            "Subspecialty rules you give us built in",
             "Rules applied before publishing"
           ],
-          "description": "ACGME duty hour rules are applied as the call schedule is built, including the 80-hour weekly limit, rest requirements, and the 24-hour cap. Subspecialty-specific rules are built into the schedule itself, so the rules are applied as we build, not discovered after publishing."
+          "description": "ACGME duty hour rules are applied as the call schedule is built, including the 80-hour weekly limit, rest requirements, and the 24-hour cap. The subspecialty requirements you tell us apply are built in too, so the rules are applied as we build, not discovered after publishing."
         },
         {
           "id": "managed-service",
@@ -84,10 +84,10 @@
           "eyebrow": "Managed Service",
           "highlights": [
             "No software to learn",
-            "Excel files ready to publish",
-            "Delivered as Excel or Sheets"
+            "Delivered ready to publish",
+            "Or a custom live view we build"
           ],
-          "description": "There is no platform to log into and no software to train your chiefs on. Submit your rules, and Scheduling Wizard's expert schedulers deliver a finished call schedule as an Excel file, as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "There is no platform to log into and no software to train your chiefs on. Submit your rules, and Scheduling Wizard's expert schedulers deliver a finished call schedule as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by mathematicians who do this full time and nothing else."
         },
         {
           "id": "institutional-continuity",
@@ -146,7 +146,7 @@
     },
     "solution": {
       "title": "Submit Rules. Receive a Finished Call Schedule.",
-      "description": "Scheduling Wizard is a done-for-you managed service, not self-service software. Submit your program's rules and receive a finished, ACGME-compliant call schedule as a ready-to-use Excel file. No tool to learn, no annual retraining when chiefs rotate, and no fairness disputes to referee."
+      "description": "Scheduling Wizard is a done-for-you managed service, not self-service software. Submit your program's rules and receive the finished schedule, built to the ACGME requirements as Excel or Google Sheets, or on a custom live view we build for you. No tool to learn, no annual retraining when chiefs rotate, and no fairness disputes to referee."
     },
     "metaTitle": "Residency Call Scheduling Software | Done For You",
     "metaDescription": "Residency call scheduling software that takes the burden off the chief. We are a managed service: send us your rules and we deliver a fair call schedule, built to the ACGME rules."
@@ -163,7 +163,7 @@
   "seoMetadata": {
     "h1": "Done-For-You Residency Call Scheduling Software",
     "metaTitle": "Residency Call Scheduling Software | Done For You",
-    "h1Paragraph": "Stop spending nights building call schedules. Scheduling Wizard is a managed service, not complex software. Submit your rules and get a fair, ACGME-compliant residency call schedule.",
+    "h1Paragraph": "Scheduling Wizard is a managed service, not complex software. Submit your rules and get a fair, ACGME-compliant residency call schedule.",
     "metaDescription": "Residency call scheduling software that takes the burden off the chief. We are a managed service: send us your rules and we deliver a fair call schedule, built to the ACGME rules."
   },
   "finalMetadata": {

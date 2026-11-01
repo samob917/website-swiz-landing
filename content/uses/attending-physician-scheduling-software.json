@@ -5,7 +5,7 @@
   "title": "Attending Physician Scheduling Software | Managed Service",
   "description": "Attending physician scheduling software that operates as a managed service. Send us your coverage rules and we build the finished attending schedules.",
   "h1": "Attending Physician Scheduling, Done For You",
-  "paragraph": "Free your chiefs from complex software. Scheduling Wizard builds your attending schedules from your rules and delivers them in Excel.",
+  "paragraph": "Send us your group's coverage rules, call equity and requests; we build the attending schedule and send it back finished.",
   "category": "setting",
   "data": {
     "cta": {
@@ -15,7 +15,7 @@
     },
     "faq": [
       {
-        "answer": "Attending physician scheduling software automates the creation and optimization of faculty coverage schedules for residency and fellowship programs. Scheduling Wizard takes this a step further by operating as a fully managed service; your program submits its rules, and our team generates finished, ACGME-compliant attending schedules delivered as Excel spreadsheets. There is no platform for your team to log into or learn.",
+        "answer": "Attending physician scheduling software automates the creation and optimization of faculty coverage schedules for residency and fellowship programs. Scheduling Wizard takes this a step further by operating as a fully managed service; your program submits its rules, and our team generates finished, ACGME-compliant attending schedules delivered as Excel or Google Sheets, or on a custom live view we build for you. There is no platform for your team to log into or learn.",
         "question": "What is attending physician scheduling software and how does it work?"
       },
       {
@@ -23,7 +23,7 @@
         "question": "What rules do you build an attending schedule around?"
       },
       {
-        "answer": "Scheduling Wizard handles schedule creation and optimization, while the platform you already use handles day-to-day schedule access. Many Scheduling Wizard clients continue using the platform they already have alongside the service. SW builds the optimized attending schedule, and programs upload the finished Excel file to their existing publishing platform.",
+        "answer": "Scheduling Wizard handles schedule creation and optimization, while the platform you already use handles day-to-day schedule access. Many Scheduling Wizard clients continue using the platform they already have alongside the service. SW builds the optimized attending schedule, and programs put the finished schedule into their existing publishing platform.",
         "question": "Does Scheduling Wizard replace the platform we use now for attending scheduling?"
       },
       {
@@ -35,13 +35,13 @@
         "question": "Do ACGME duty hour rules apply to attending schedules?"
       },
       {
-        "answer": "Yes. Our team resolves dependencies across attending schedules, block rotations, call schedules, and clinic assignments simultaneously. A change in one schedule type automatically propagates across the others, eliminating the manual cross-referencing and patching that causes conflicts when attending and resident schedules are built separately.",
+        "answer": "Yes. Our team resolves dependencies across attending schedules, block rotations, call schedules, and clinic assignments simultaneously. A change in one schedule type automatically propagates across the others, removing the manual cross-referencing and patching that causes conflicts when attending and resident schedules are built separately.",
         "question": "Can Scheduling Wizard coordinate attending and resident schedules together?"
       }
     ],
     "hero": {
       "title": "Attending Physician Scheduling Software Done For You",
-      "description": "Scheduling Wizard builds attending physician schedules and delivers them as ready-to-use Excel files. No software for your team to learn or operate."
+      "description": "Scheduling Wizard builds attending physician schedules and delivers them as Excel or Google Sheets, or on a custom live view we build for you. No software for your team to learn or operate."
     },
     "features": {
       "items": [
@@ -76,7 +76,7 @@
             "Zero software training required",
             "Expert schedulers handle optimization"
           ],
-          "description": "Unlike traditional attending physician scheduling software, Scheduling Wizard is a fully managed service. Your team submits rules and receives finished Excel schedules, no platform to log into, no tools to train on. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Unlike traditional attending physician scheduling software, Scheduling Wizard is a fully managed service. Your team submits rules and receive finished schedules as Excel or Google Sheets, or on a custom live view we build for you, no platform to log into, no tools to train on. The schedules are built by mathematicians who do this full time and nothing else."
         },
         {
           "id": "institutional-continuity",
@@ -87,7 +87,7 @@
             "No annual rebuilding required",
             "New chiefs start with a working schedule"
           ],
-          "description": "Your attending scheduling rules, requests, and configurations stay with Scheduling Wizard across annual chief rotations. New chiefs inherit a working, optimized system instead of starting from a blank spreadsheet."
+          "description": "Your attending scheduling rules, requests, and configurations stay with Scheduling Wizard from one scheduler to the next. Whoever takes it over inherits a working system instead of a blank spreadsheet."
         },
         {
           "id": "fairness-optimization",
@@ -98,7 +98,7 @@
             "Weekend shifts balanced automatically",
             "Fewer fairness disputes"
           ],
-          "description": "Holiday coverage, weekend shifts, and call burden are distributed equitably across attending physicians using algorithmic optimization, so no one carries a disproportionate load and there is less to argue about."
+          "description": "Holiday coverage, weekend shifts, and call burden are distributed equitably across attending physicians as part of the build, so no one carries a disproportionate load and there is less to argue about."
         },
         {
           "id": "redrafts-included",
@@ -119,7 +119,7 @@
       "items": [
         {
           "title": "Software Nobody Has Time to Learn",
-          "description": "Self-service attending physician scheduling software puts the burden on chiefs and coordinators who already lack time to master complex tools."
+          "description": "Self-service attending physician scheduling software puts the burden on administrators and division chiefs who already lack time to master complex tools."
         },
         {
           "title": "Checking the Rules by Hand Is Slow",
@@ -127,7 +127,7 @@
         },
         {
           "title": "Knowledge Lost With Every Chief Rotation",
-          "description": "When a chief resident leaves, institutional scheduling knowledge walks out with them, forcing the next chief to rebuild attending schedules from scratch."
+          "description": "When the person who built the attending schedule moves on, the reasoning behind it goes with them, and the next person starts from scratch."
         }
       ],
       "title": "Attending Scheduling Is Uniquely Difficult",
@@ -135,7 +135,7 @@
     },
     "solution": {
       "title": "Attending Schedules Built and Delivered by Experts",
-      "description": "Scheduling Wizard operates as a done-for-you managed service. Send us your rules, including attending coverage requirements, faculty preferences and any supervision the program requires, and receive finished schedules as ready-to-use Excel files."
+      "description": "Scheduling Wizard operates as a done-for-you managed service. Send us your rules, including attending coverage requirements, faculty preferences and any supervision the program requires, and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you."
     },
     "metaTitle": "Attending Physician Scheduling Software | Managed Service",
     "metaDescription": "Attending physician scheduling software that operates as a managed service. Send us your coverage rules and we build the finished attending schedules."
@@ -152,7 +152,7 @@
   "seoMetadata": {
     "h1": "Attending Physician Scheduling, Done For You",
     "metaTitle": "Attending Physician Scheduling Software | Managed Service",
-    "h1Paragraph": "Free your chiefs from complex software. Scheduling Wizard builds your attending schedules from your rules and delivers them in Excel.",
+    "h1Paragraph": "Send us your group's coverage rules, call equity and requests; we build the attending schedule and send it back finished.",
     "metaDescription": "Attending physician scheduling software that operates as a managed service. Send us your coverage rules and we build the finished attending schedules."
   },
   "finalMetadata": {

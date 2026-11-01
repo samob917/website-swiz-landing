@@ -2,7 +2,6 @@
 // links the posts carry to /uses. The posts are where search traffic lands;
 // the use-case pages are where it converts. Before this, the equity flowed one way.
 export const USES_READING: Record<string, string[]> = {
-  "acgme-compliance-checker": ["acgme-compliance-tools"],
   "acgme-compliant-scheduling-software": ["acgme-compliant-schedule-tips", "acgme-residency-scheduling", "best-scheduling-tools-acgme", "compare-acgme-scheduling-tools"],
   "acgme-duty-hour-rules": ["acgme-duty-hour-compliance", "acgme-duty-hours-call-rules", "best-tools-residency-scheduling", "specialty-hour-rules-acgme"],
   "acgme-duty-hour-violations": ["acgme-duty-hour-violations"],

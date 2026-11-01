@@ -40,14 +40,13 @@ const nextConfig = {
       { source: "/uses/resident-call-schedule-automation", destination: "/uses/on-call-scheduling-software", permanent: true },
       { source: "/uses/general-surgery-residency-scheduling", destination: "/uses/surgery-residency-scheduling", permanent: true },
 
-      // /compliance-checker was a real page with a navbar link until it was
-      // removed. Anything still linking to it should land on the use-case
-      // page that replaced it rather than a 404.
-      {
-        source: "/compliance-checker",
-        destination: "/uses/acgme-compliance-checker",
-        permanent: true,
-      },
+      // There is no such product category as an "ACGME compliance checker";
+      // the old tool page, the use-case page that replaced it and the post
+      // that listed "checker tools" are all gone. Their readers wanted the
+      // duty hour rules, so that is where they land.
+      { source: "/compliance-checker", destination: "/uses/acgme-duty-hour-rules", permanent: true },
+      { source: "/uses/acgme-compliance-checker", destination: "/uses/acgme-duty-hour-rules", permanent: true },
+      { source: "/blog/acgme-compliance-tools", destination: "/blog/acgme-duty-hour-compliance", permanent: true },
 
       // www and the apex both served the whole site at 200, so every page
       // existed at two URLs. The canonical tags already pointed at the apex,

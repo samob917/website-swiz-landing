@@ -2,9 +2,9 @@
   "keyword": "ACGME compliant scheduling software",
   "slug": "acgme-compliant-scheduling-software",
   "anchor": "ACGME Compliant Scheduling Software",
-  "title": "ACGME Compliant Scheduling Software | For Subspecialties",
-  "description": "ACGME compliant scheduling software built for complex subspecialty rules. Our managed service delivers optimized schedules.",
-  "h1": "ACGME Compliant Scheduling for Complex Subspecialties",
+  "title": "ACGME Compliant Scheduling Software | Built For You",
+  "description": "ACGME compliant scheduling software built for complex subspecialty rules. Our managed service builds the schedule to your rules and the ACGME requirements.",
+  "h1": "ACGME Compliant Scheduling, Built For You",
   "paragraph": "Built to your subspecialty's ACGME requirements. Send us your rules and we build the schedule and send it back finished.",
   "category": "specialty",
   "data": {
@@ -15,19 +15,19 @@
     },
     "faq": [
       {
-        "answer": "ACGME compliant scheduling software is a tool or service that generates residency and fellowship schedules while building the ACGME duty hour requirements in, including the 80-hour weekly limit, minimum rest periods, and the 24-hour hard cap on continuous duty. Scheduling Wizard goes further by building subspecialty-specific ACGME rules into the schedule itself, so compliance is settled at the moment the schedule is built rather than checked manually after the fact.",
+        "answer": "ACGME compliant scheduling software is a tool or service that generates residency and fellowship schedules while building the ACGME duty hour requirements in, including the 80-hour weekly limit, minimum rest periods, and the 24-hour cap on continuous scheduled work. Scheduling Wizard goes further by building subspecialty-specific ACGME rules into the schedule itself, so the requirements shape the schedule rather than being checked for afterwards.",
         "question": "What is ACGME compliant scheduling software?"
       },
       {
-        "answer": "Scheduling Wizard's team of mathematicians has subspecialty-specific ACGME duty hour rules encoded directly into the rule set. When a schedule is generated, every rotation, call shift, and clinic assignment is validated against those rules simultaneously. Violations cannot exist in the output because our team prevents them at generation time, rather than flagging them after a human has already built the schedule.",
+        "answer": "You tell us which subspecialty requirements apply and we write them down with you before the first build. Every rotation, call shift and clinic assignment is then built to those rules at once. The review afterwards is a check, not a repair job.",
         "question": "How does Scheduling Wizard handle ACGME rules when the schedule is built for subspecialties?"
       },
       {
-        "answer": "Yes. Current ACGME duty hour requirements, including the 80-hour weekly limit, minimum rest periods, and the 24-hour hard cap on continuous duty, are built into every schedule we produce. Programs do not need to manually track or reconfigure rules when regulatory requirements change, as those updates are reflected in how schedules are generated.",
+        "answer": "Yes. Current ACGME duty hour requirements, including the 80-hour weekly limit, minimum rest periods, and the 24-hour cap on continuous scheduled work, are built into every schedule we produce. Programs do not need to manually track or reconfigure rules when regulatory requirements change, as those updates are reflected in how schedules are generated.",
         "question": "Does Scheduling Wizard stay current with ACGME duty hour requirements?"
       },
       {
-        "answer": "No. Scheduling Wizard handles schedule creation and optimization, while the platform you already use handles day-to-day schedule viewing and access. Many Scheduling Wizard clients continue using the platform they already have alongside the service. Scheduling Wizard delivers finished schedules as Excel files, which programs can upload directly to their existing viewing platform.",
+        "answer": "No. Scheduling Wizard handles schedule creation and optimization, while the platform you already use handles day-to-day schedule viewing and access. Many Scheduling Wizard clients continue using the platform they already have alongside the service. Scheduling Wizard delivers finished schedules as Excel or Google Sheets, or on a custom live view we build for you, which programs can upload directly to their existing viewing platform.",
         "question": "Do I need to replace the platform we use now to use Scheduling Wizard?"
       },
       {
@@ -35,12 +35,12 @@
         "question": "Who at a residency program typically works with Scheduling Wizard?"
       },
       {
-        "answer": "Scheduling Wizard produces Block or rotation schedules, Call schedules with fairness optimization, Clinic schedules, and Attending schedules. All four schedule types are built together, so that changes in one propagate correctly across the others. Finished schedules are delivered as Excel spreadsheets ready for upload to the program's existing schedule publishing platform.",
+        "answer": "Scheduling Wizard produces Block or rotation schedules, Call schedules with fairness optimization, Clinic schedules, and Attending schedules. All four schedule types are built together, so that changes in one propagate correctly across the others. Finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you ready for upload to the program's existing schedule publishing platform.",
         "question": "What types of schedules does Scheduling Wizard produce for residency programs?"
       }
     ],
     "hero": {
-      "title": "ACGME Compliant Scheduling Software Built for Subspecialties",
+      "title": "ACGME Compliant Scheduling Software, Built For You",
       "description": "Residency and fellowship schedules, built to your rules and requests, however granular, with the ACGME requirements as part of them. Send us the rules; we send back the finished schedule."
     },
     "features": {
@@ -65,7 +65,7 @@
             "Rules applied as we build",
             "80-hour limit applied"
           ],
-          "description": "ACGME duty hour requirements are built into the schedule as it is created, not manually reviewed afterward. Subspecialty-specific rules are built into the schedule itself, so they are applied before the schedule reaches your program."
+          "description": "ACGME duty hour requirements are built into the schedule as it is created, not manually reviewed afterward. The subspecialty requirements you tell us apply are built in too, and applied before the schedule reaches your program."
         },
         {
           "id": "managed-service",
@@ -73,10 +73,10 @@
           "eyebrow": "Managed Service",
           "highlights": [
             "No software to learn",
-            "Delivered as Excel files",
+            "Delivered as Excel or Google Sheets, or on a custom live view we build for you",
             "Expert schedulers handle optimization"
           ],
-          "description": "Programs submit their rules and receive finished, ACGME-compliant schedules as ready-to-use Excel files. There is no platform to log into, no software to learn, and no training required when your chief residents rotate. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Programs submit their rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you. There is no platform to log into, no software to learn, and no training required when your chief residents rotate. The schedules are built by mathematicians who do this full time and nothing else."
         },
         {
           "id": "institutional-continuity",
@@ -135,25 +135,25 @@
     },
     "solution": {
       "title": "ACGME Requirements Built In From the Start",
-      "description": "Scheduling Wizard's managed service models your program's subspecialty-specific ACGME rules and rule set, then delivers finished, compliant Block, Call, Clinic, and Attending schedules as ready-to-use Excel files. No software to learn. No manual compliance checks. Scheduling knowledge persists year over year as chiefs rotate."
+      "description": "Scheduling Wizard's managed service models your program's subspecialty-specific ACGME rules and rule set, then delivers finished, compliant Block, Call, Clinic, and Attending schedules as Excel or Google Sheets, or on a custom live view we build for you. No software to learn. No manual compliance checks. Scheduling knowledge persists year over year as chiefs rotate."
     },
-    "metaTitle": "ACGME Compliant Scheduling Software | For Subspecialties",
-    "metaDescription": "ACGME compliant scheduling software built for complex subspecialty rules. Our managed service delivers optimized schedules."
+    "metaTitle": "ACGME Compliant Scheduling Software | Built For You",
+    "metaDescription": "ACGME compliant scheduling software built for complex subspecialty rules. Our managed service builds the schedule to your rules and the ACGME requirements."
   },
   "searchIntent": {
     "keyword": "ACGME compliant scheduling software",
     "searchIntents": [
       "As a residency program director, I'm looking for a reliable scheduling solution that ensures compliance with ACGME rules to avoid penalties or surface at review for accreditation for our medical residency program.",
       "I'm a chief resident trying to minimize the scheduling burden on myself and my colleagues. We need a managed service that enforces ACGME rules when the schedule is built without forcing us to learn new software or deal with complex scheduling tasks.",
-      "As a program coordinator, I need an efficient way to create ACGME-compliant schedules for multiple departments, but I want to ensure that they're optimized for fairness and resident preferences, without dealing with the technical details myself.",
+      "As a program coordinator, I need an efficient way to create schedules built to the ACGME requirements for multiple departments, but I want to ensure that they're optimized for fairness and resident preferences, without dealing with the technical details myself.",
       "Working in a GME office, I’m searching for software that not only meets ACGME compliance but also handles the unique scheduling requirements of our subspecialties to ensure we remain competitive and can adequately train our residents."
     ]
   },
   "seoMetadata": {
-    "h1": "ACGME Compliant Scheduling for Complex Subspecialties",
-    "metaTitle": "ACGME Compliant Scheduling Software | For Subspecialties",
+    "h1": "ACGME Compliant Scheduling, Built For You",
+    "metaTitle": "ACGME Compliant Scheduling Software | Built For You",
     "h1Paragraph": "Built to your subspecialty's ACGME requirements. Send us your rules and we build the schedule and send it back finished.",
-    "metaDescription": "ACGME compliant scheduling software built for complex subspecialty rules. Our managed service delivers optimized schedules."
+    "metaDescription": "ACGME compliant scheduling software built for complex subspecialty rules. Our managed service builds the schedule to your rules and the ACGME requirements."
   },
   "finalMetadata": {
     "slug": "acgme-compliant-scheduling",
