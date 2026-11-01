@@ -11,7 +11,7 @@
     "cta": {
       "title": "Get Your Physician Schedule Done Right",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join the practices that have eliminated manual scheduling by submitting rules and receiving optimized results."
+      "description": "Join the practices that have eliminated manual scheduling by submitting rules and receiving optimized results. Finished schedules in your format, with redrafts through the year included."
     },
     "faq": [
       {
@@ -54,7 +54,7 @@
             "Rules submitted, schedules returned",
             "Delivered as ready-to-use Excel files"
           ],
-          "description": "Submit your practice rules, physician preferences, and coverage requirements. Scheduling Wizard's expert team handles the optimization and delivers finished schedules as Excel files your practice can use immediately."
+          "description": "Submit your practice rules, physician preferences, and coverage requirements. Scheduling Wizard's expert team handles the optimization and delivers finished schedules as Excel files your practice can use immediately. The schedules are built by mathematicians who do this full time and nothing else."
         },
         {
           "id": "coverage-optimization",
@@ -99,6 +99,17 @@
             "No full-schedule disruption"
           ],
           "description": "When a physician is unexpectedly unavailable, Scheduling Wizard re-optimizes the affected portion of the schedule to restore coverage quickly without manually reshuffling the entire month."
+        },
+        {
+          "id": "redrafts-included",
+          "title": "Redrafts Through the Year, Included",
+          "eyebrow": "What You Get",
+          "highlights": [
+            "Excel or Google Sheets, your format",
+            "Or a custom live view we build for you",
+            "Mid-year rebuilds are not billed separately"
+          ],
+          "description": "Schedules come back in the format your program asks for, as Excel or Google Sheets, or on a custom live view we build for you. When someone goes on leave, a rotation changes or coverage shifts mid-year, we rebuild around it. Major redrafts are part of the engagement rather than a change order, which is the difference between a finished schedule and a draft you maintain."
         }
       ],
       "title": "Built for Private Practice Physician Scheduling",

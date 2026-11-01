@@ -11,7 +11,7 @@
     "cta": {
       "title": "Ready to Stop Building Schedules Yourself?",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 30+ departments across 20+ hospitals and practices that trust Scheduling Wizard for optimized, compliant schedule creation."
+      "description": "Join 30+ departments across 20+ hospitals and practices that trust Scheduling Wizard for optimized, compliant schedule creation. Finished schedules in your format, with redrafts through the year included."
     },
     "faq": [
       {
@@ -54,7 +54,7 @@
             "Finished schedules delivered to you",
             "Works alongside your existing QGenda"
           ],
-          "description": "Unlike QGenda, Scheduling Wizard is a done-for-you managed service. Submit your rules and receive a finished, publishable schedule as an Excel file. No software to configure, no training required, no annual ramp-up when chiefs rotate."
+          "description": "Unlike QGenda, Scheduling Wizard is a done-for-you managed service. Submit your rules and receive a finished, publishable schedule as an Excel file. No software to configure, no training required, no annual ramp-up when chiefs rotate. The schedules are built by mathematicians who do this full time and nothing else."
         },
         {
           "id": "acgme-compliance",
@@ -99,6 +99,17 @@
             "No manual cross-schedule patching"
           ],
           "description": "Block, call, clinic, and attending schedules are optimized simultaneously. A change in one automatically propagates across the others, eliminating the cascade of manual fixes that plague programs using self-service tools."
+        },
+        {
+          "id": "redrafts-included",
+          "title": "Redrafts Through the Year, Included",
+          "eyebrow": "What You Get",
+          "highlights": [
+            "Excel or Google Sheets, your format",
+            "Or a custom live view we build for you",
+            "Mid-year rebuilds are not billed separately"
+          ],
+          "description": "Schedules come back in the format your program asks for, as Excel or Google Sheets, or on a custom live view we build for you. When someone goes on leave, a rotation changes or coverage shifts mid-year, we rebuild around it. Major redrafts are part of the engagement rather than a change order, which is the difference between a finished schedule and a draft you maintain."
         }
       ],
       "title": "What Scheduling Wizard Does That QGenda Cannot",

@@ -11,7 +11,7 @@
     "cta": {
       "title": "Get Your Physician Schedules Done Right",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join the 30+ departments across 20+ hospitals and practices already using Scheduling Wizard for automated physician scheduling."
+      "description": "Join the 30+ departments across 20+ hospitals and practices already using Scheduling Wizard for automated physician scheduling. Finished schedules in your format, with redrafts through the year included."
     },
     "faq": [
       {
@@ -54,7 +54,7 @@
             "Excel files ready to publish",
             "Expert schedulers handle optimization"
           ],
-          "description": "Programs submit their rules and receive finished, optimized schedules as Excel files. No software licenses, no onboarding, no learning curve. Our schedulers handle everything."
+          "description": "Programs submit their rules and receive finished, optimized schedules as Excel files. No software licenses, no onboarding, no learning curve. Our schedulers handle everything. The schedules are built by mathematicians who do this full time and nothing else."
         },
         {
           "id": "acgme-compliance",
@@ -99,6 +99,17 @@
             "Coverage minimums built in"
           ],
           "description": "Year-long block and rotation schedules are generated respecting PGY-level requirements, elective preferences, coverage minimums, and ACGME rotation mandates across complex multi-track programs."
+        },
+        {
+          "id": "redrafts-included",
+          "title": "Redrafts Through the Year, Included",
+          "eyebrow": "What You Get",
+          "highlights": [
+            "Excel or Google Sheets, your format",
+            "Or a custom live view we build for you",
+            "Mid-year rebuilds are not billed separately"
+          ],
+          "description": "Schedules come back in the format your program asks for, as Excel or Google Sheets, or on a custom live view we build for you. When someone goes on leave, a rotation changes or coverage shifts mid-year, we rebuild around it. Major redrafts are part of the engagement rather than a change order, which is the difference between a finished schedule and a draft you maintain."
         }
       ],
       "title": "Built for Physician Scheduling Complexity",

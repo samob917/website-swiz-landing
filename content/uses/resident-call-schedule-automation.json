@@ -11,7 +11,7 @@
     "cta": {
       "title": "Get Your Call Schedule Done Right",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 30+ departments across 20+ hospitals and practices who already trust Scheduling Wizard with their scheduling."
+      "description": "Join 30+ departments across 20+ hospitals and practices who already trust Scheduling Wizard with their scheduling. Finished schedules in your format, with redrafts through the year included."
     },
     "faq": [
       {
@@ -76,7 +76,7 @@
             "Delivered as ready-to-use Excel files",
             "Works with your existing platform"
           ],
-          "description": "Unlike self-service scheduling tools, Scheduling Wizard is a done-for-you managed service. Submit your rules and receive finished call schedules as Excel files ready to upload to whatever platform you already usees."
+          "description": "Unlike self-service scheduling tools, Scheduling Wizard is a done-for-you managed service. Submit your rules and receive finished call schedules as Excel files ready to upload to whatever platform you already usees. The schedules are built by mathematicians who do this full time and nothing else."
         },
         {
           "id": "institutional-continuity",
@@ -99,6 +99,17 @@
             "Eliminates scheduling favoritism disputes"
           ],
           "description": "Call, weekend, and holiday assignments are distributed algorithmically across your resident cohort, eliminating the subjective decisions and perceived favoritism that fuel disputes in manually built call schedules."
+        },
+        {
+          "id": "redrafts-included",
+          "title": "Redrafts Through the Year, Included",
+          "eyebrow": "What You Get",
+          "highlights": [
+            "Excel or Google Sheets, your format",
+            "Or a custom live view we build for you",
+            "Mid-year rebuilds are not billed separately"
+          ],
+          "description": "Schedules come back in the format your program asks for, as Excel or Google Sheets, or on a custom live view we build for you. When someone goes on leave, a rotation changes or coverage shifts mid-year, we rebuild around it. Major redrafts are part of the engagement rather than a change order, which is the difference between a finished schedule and a draft you maintain."
         }
       ],
       "title": "Built for Resident Call Schedule Automation",

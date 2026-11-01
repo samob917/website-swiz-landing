@@ -11,7 +11,7 @@
     "cta": {
       "title": "Stop Rebuilding Schedules From Scratch",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 30+ departments across 20+ hospitals and practices who outsource their scheduling to Scheduling Wizard."
+      "description": "Join 30+ departments across 20+ hospitals and practices who outsource their scheduling to Scheduling Wizard. Finished schedules in your format, with redrafts through the year included."
     },
     "faq": [
       {
@@ -99,6 +99,17 @@
             "Output uploads to whatever platform you already use"
           ],
           "description": "Scheduling Wizard is a done-for-you service. Your team submits the updated rules and receives the finished revised schedule as an Excel file, no software to learn, no dashboards to operate, no annual retraining when chiefs rotate."
+        },
+        {
+          "id": "redrafts-included",
+          "title": "Redrafts Through the Year, Included",
+          "eyebrow": "What You Get",
+          "highlights": [
+            "Excel or Google Sheets, your format",
+            "Or a custom live view we build for you",
+            "Mid-year rebuilds are not billed separately"
+          ],
+          "description": "Schedules come back in the format your program asks for, as Excel or Google Sheets, or on a custom live view we build for you. When someone goes on leave, a rotation changes or coverage shifts mid-year, we rebuild around it. Major redrafts are part of the engagement rather than a change order, which is the difference between a finished schedule and a draft you maintain."
         }
       ],
       "title": "Built for Mid Year Schedule Disruptions",

@@ -11,7 +11,7 @@
     "cta": {
       "title": "Get Your Block Schedule Done Right",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 30+ departments across 20+ hospitals and practices who already outsource their scheduling to experts."
+      "description": "Join 30+ departments across 20+ hospitals and practices who already outsource their scheduling to experts. Finished schedules in your format, with redrafts through the year included."
     },
     "faq": [
       {
@@ -87,7 +87,7 @@
             "Excel output, ready to publish",
             "Upload to your existing platform"
           ],
-          "description": "Scheduling Wizard operates as a done-for-you managed service. Chief residents submit rules and receive finished block schedules, no platform to navigate, no scheduling software to master, no training required."
+          "description": "Scheduling Wizard operates as a done-for-you managed service. Chief residents submit rules and receive finished block schedules, no platform to navigate, no scheduling software to master, no training required. The schedules are built by mathematicians who do this full time and nothing else."
         },
         {
           "id": "rule-modeling",
@@ -99,6 +99,17 @@
             "Conference and leave accommodated"
           ],
           "description": "Program-specific rules (site requirements, moonlighting restrictions, parental leave, conference attendance, and complex multi-site block arrangements) are modeled via a proprietary scheduling language so no rule is left unaddressed."
+        },
+        {
+          "id": "redrafts-included",
+          "title": "Redrafts Through the Year, Included",
+          "eyebrow": "What You Get",
+          "highlights": [
+            "Excel or Google Sheets, your format",
+            "Or a custom live view we build for you",
+            "Mid-year rebuilds are not billed separately"
+          ],
+          "description": "Schedules come back in the format your program asks for, as Excel or Google Sheets, or on a custom live view we build for you. When someone goes on leave, a rotation changes or coverage shifts mid-year, we rebuild around it. Major redrafts are part of the engagement rather than a change order, which is the difference between a finished schedule and a draft you maintain."
         }
       ],
       "title": "Built for Residency Block Scheduling",

@@ -11,7 +11,7 @@
     "cta": {
       "title": "Ready to Solve Schedule Creation for Good?",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 30+ departments across 20+ hospitals and practices who have outsourced schedule creation to Scheduling Wizard."
+      "description": "Join 30+ departments across 20+ hospitals and practices who have outsourced schedule creation to Scheduling Wizard. Finished schedules in your format, with redrafts through the year included."
     },
     "faq": [
       {
@@ -54,7 +54,7 @@
             "Finished schedules delivered to you",
             "Works alongside your Amion workflow"
           ],
-          "description": "Unlike Amion's self-service model, Scheduling Wizard is a fully managed service. Submit your rules and receive finished, ready-to-publish schedules as Excel files with no software to operate or learn."
+          "description": "Unlike Amion's self-service model, Scheduling Wizard is a fully managed service. Submit your rules and receive finished, ready-to-publish schedules as Excel files with no software to operate or learn. The schedules are built by mathematicians who do this full time and nothing else."
         },
         {
           "id": "acgme-compliance",
@@ -99,6 +99,17 @@
             "Post-call rest rules enforced"
           ],
           "description": "Call burden, weekend shifts, and holidays are distributed equitably across all residents through algorithmic optimization. Duty hour limits are enforced throughout, eliminating fairness disputes and manual balancing."
+        },
+        {
+          "id": "redrafts-included",
+          "title": "Redrafts Through the Year, Included",
+          "eyebrow": "What You Get",
+          "highlights": [
+            "Excel or Google Sheets, your format",
+            "Or a custom live view we build for you",
+            "Mid-year rebuilds are not billed separately"
+          ],
+          "description": "Schedules come back in the format your program asks for, as Excel or Google Sheets, or on a custom live view we build for you. When someone goes on leave, a rotation changes or coverage shifts mid-year, we rebuild around it. Major redrafts are part of the engagement rather than a change order, which is the difference between a finished schedule and a draft you maintain."
         }
       ],
       "title": "What Scheduling Wizard Handles That Amion Does Not",

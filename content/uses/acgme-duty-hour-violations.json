@@ -11,7 +11,7 @@
     "cta": {
       "title": "Stop Risking Violations on Every Schedule",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 30+ departments across 20+ hospitals and practices who already rely on Scheduling Wizard for compliant schedules."
+      "description": "Join 30+ departments across 20+ hospitals and practices who already rely on Scheduling Wizard for compliant schedules. Finished schedules in your format, with redrafts through the year included."
     },
     "faq": [
       {
@@ -65,7 +65,7 @@
             "Finished schedules delivered as Excel",
             "Expert schedulers handle optimization"
           ],
-          "description": "Programs submit their rules and receive finished, compliant schedules as Excel files. There is no software to learn, no compliance checklist to run manually, and no reliance on a chief resident's institutional memory."
+          "description": "Programs submit their rules and receive finished, compliant schedules as Excel files. There is no software to learn, no compliance checklist to run manually, and no reliance on a chief resident's institutional memory. The schedules are built by mathematicians who do this full time and nothing else."
         },
         {
           "id": "institutional-continuity",
@@ -99,6 +99,17 @@
             "No post-publish scrambling"
           ],
           "description": "our team automatically identifies conflicts between rotations, call assignments, and clinic obligations before a schedule is published, eliminating the cascading compliance errors that follow manual scheduling mistakes."
+        },
+        {
+          "id": "redrafts-included",
+          "title": "Redrafts Through the Year, Included",
+          "eyebrow": "What You Get",
+          "highlights": [
+            "Excel or Google Sheets, your format",
+            "Or a custom live view we build for you",
+            "Mid-year rebuilds are not billed separately"
+          ],
+          "description": "Schedules come back in the format your program asks for, as Excel or Google Sheets, or on a custom live view we build for you. When someone goes on leave, a rotation changes or coverage shifts mid-year, we rebuild around it. Major redrafts are part of the engagement rather than a change order, which is the difference between a finished schedule and a draft you maintain."
         }
       ],
       "title": "Built to Prevent Duty Hour Violations",

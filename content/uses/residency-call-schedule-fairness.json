@@ -11,7 +11,7 @@
     "cta": {
       "title": "Get a Fair Call Schedule Built for You",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 30+ departments across 20+ hospitals and practices who trust Scheduling Wizard with their residency scheduling."
+      "description": "Join 30+ departments across 20+ hospitals and practices who trust Scheduling Wizard with their residency scheduling. Finished schedules in your format, with redrafts through the year included."
     },
     "faq": [
       {
@@ -99,6 +99,17 @@
             "Institutional knowledge preserved"
           ],
           "description": "Scheduling Wizard retains your program's rule configurations and fairness rules year over year. Incoming chiefs inherit a working, optimized system instead of rebuilding call fairness logic from a blank spreadsheet."
+        },
+        {
+          "id": "redrafts-included",
+          "title": "Redrafts Through the Year, Included",
+          "eyebrow": "What You Get",
+          "highlights": [
+            "Excel or Google Sheets, your format",
+            "Or a custom live view we build for you",
+            "Mid-year rebuilds are not billed separately"
+          ],
+          "description": "Schedules come back in the format your program asks for, as Excel or Google Sheets, or on a custom live view we build for you. When someone goes on leave, a rotation changes or coverage shifts mid-year, we rebuild around it. Major redrafts are part of the engagement rather than a change order, which is the difference between a finished schedule and a draft you maintain."
         }
       ],
       "title": "Built for Fair Residency Call Scheduling",

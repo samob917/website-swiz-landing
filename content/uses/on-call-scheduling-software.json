@@ -11,7 +11,7 @@
     "cta": {
       "title": "Stop Building On Call Schedules by Hand",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 30+ departments across 20+ hospitals and practices who already trust Scheduling Wizard with their on call scheduling."
+      "description": "Join 30+ departments across 20+ hospitals and practices who already trust Scheduling Wizard with their on call scheduling. Finished schedules in your format, with redrafts through the year included."
     },
     "faq": [
       {
@@ -76,7 +76,7 @@
             "Excel files ready to upload",
             "No software training required"
           ],
-          "description": "Scheduling Wizard operates as a done-for-you managed service. Programs submit their rules and receive finished on call schedules as Excel files, no platform to learn, no software to operate."
+          "description": "Scheduling Wizard operates as a done-for-you managed service. Programs submit their rules and receive finished on call schedules as Excel files, no platform to learn, no software to operate. The schedules are built by mathematicians who do this full time and nothing else."
         },
         {
           "id": "fairness-optimization",
@@ -99,6 +99,17 @@
             "New chiefs start with a system"
           ],
           "description": "Program rules, rule configurations, and scheduling logic stay with Scheduling Wizard year over year. New chief residents inherit a fully working on call scheduling system instead of starting from a blank spreadsheet."
+        },
+        {
+          "id": "redrafts-included",
+          "title": "Redrafts Through the Year, Included",
+          "eyebrow": "What You Get",
+          "highlights": [
+            "Excel or Google Sheets, your format",
+            "Or a custom live view we build for you",
+            "Mid-year rebuilds are not billed separately"
+          ],
+          "description": "Schedules come back in the format your program asks for, as Excel or Google Sheets, or on a custom live view we build for you. When someone goes on leave, a rotation changes or coverage shifts mid-year, we rebuild around it. Major redrafts are part of the engagement rather than a change order, which is the difference between a finished schedule and a draft you maintain."
         }
       ],
       "title": "Built for On Call Scheduling Complexity",

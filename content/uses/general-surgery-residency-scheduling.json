@@ -11,7 +11,7 @@
     "cta": {
       "title": "Get Your Surgery Schedule Done Right",
       "buttonText": "Book a Free Scheduling Consult",
-      "description": "Join 30+ departments across 20+ hospitals and practices who already trust Scheduling Wizard with their residency schedules."
+      "description": "Join 30+ departments across 20+ hospitals and practices who already trust Scheduling Wizard with their residency schedules. Finished schedules in your format, with redrafts through the year included."
     },
     "faq": [
       {
@@ -87,7 +87,7 @@
             "Delivered as ready-to-use Excel",
             "Upload to your existing platform"
           ],
-          "description": "Surgery programs submit their rules and receive finished, optimized schedules delivered as Excel files, ready to upload to whatever platform you already use for day-to-day viewing. No platform to onboard, no software to train your next chief on."
+          "description": "Surgery programs submit their rules and receive finished, optimized schedules delivered as Excel files, ready to upload to whatever platform you already use for day-to-day viewing. No platform to onboard, no software to train your next chief on. The schedules are built by mathematicians who do this full time and nothing else."
         },
         {
           "id": "institutional-continuity",
@@ -99,6 +99,17 @@
             "New chiefs onboard instantly"
           ],
           "description": "When your chief resident rotates, your program's scheduling rules, requests, and configurations stay with Scheduling Wizard. Incoming chiefs inherit a working, optimized general surgery schedule instead of starting from a blank spreadsheet."
+        },
+        {
+          "id": "redrafts-included",
+          "title": "Redrafts Through the Year, Included",
+          "eyebrow": "What You Get",
+          "highlights": [
+            "Excel or Google Sheets, your format",
+            "Or a custom live view we build for you",
+            "Mid-year rebuilds are not billed separately"
+          ],
+          "description": "Schedules come back in the format your program asks for, as Excel or Google Sheets, or on a custom live view we build for you. When someone goes on leave, a rotation changes or coverage shifts mid-year, we rebuild around it. Major redrafts are part of the engagement rather than a change order, which is the difference between a finished schedule and a draft you maintain."
         }
       ],
       "title": "Built for General Surgery Residency Programs",
