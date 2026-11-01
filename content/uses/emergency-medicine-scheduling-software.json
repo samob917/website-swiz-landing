@@ -5,7 +5,7 @@
   "title": "EM Scheduling Software | ACGME-Compliant | Scheduling Wizard",
   "description": "Emergency medicine scheduling software can be a burden on chief residents. Scheduling Wizard is a managed service delivering optimized, ACGME-compliant.",
   "h1": "Done-For-You Emergency Medicine Scheduling Software",
-  "paragraph": "Stop spending hours in complex software. As a chief resident, just submit your EM program's constraints, and Scheduling Wizard delivers your finished ACGME schedule.",
+  "paragraph": "Stop spending hours in complex software. As a chief resident, just submit your EM program's rules, and Scheduling Wizard delivers your finished ACGME schedule.",
   "category": "specialty",
   "data": {
     "cta": {
@@ -15,11 +15,11 @@
     },
     "faq": [
       {
-        "answer": "Yes. ACGME compliance for emergency medicine is mathematically enforced at the time the schedule is generated, not manually checked after the fact. Scheduling Wizard's optimization engine has subspecialty-specific EM rules built in, including duty hour limits and rest requirements. This is the most common question buyers ask on sales calls, and it is a core capability of the service, not an add-on.",
+        "answer": "Yes. ACGME compliance for emergency medicine is mathematically enforced at the time the schedule is generated, not manually checked after the fact. Our team has subspecialty-specific EM rules built in, including duty hour limits and rest requirements. This is the most common question buyers ask on sales calls, and it is a core capability of the service, not an add-on.",
         "question": "Is Scheduling Wizard compliant with ACGME rules for emergency medicine?"
       },
       {
-        "answer": "Most emergency medicine scheduling software is self-service, meaning a chief resident must learn the platform, enter all the rules, and troubleshoot conflicts themselves. Scheduling Wizard is a managed service. Programs submit their constraints and receive finished, ACGME-compliant schedules as ready-to-use Excel files. There is no software to learn and no platform to operate.",
+        "answer": "Most emergency medicine scheduling software is self-service, meaning a chief resident must learn the platform, enter all the rules, and troubleshoot conflicts themselves. Scheduling Wizard is a managed service. Programs submit their rules and receive finished, ACGME-compliant schedules as ready-to-use Excel files. There is no software to learn and no platform to operate.",
         "question": "How is Scheduling Wizard different from other emergency medicine scheduling software?"
       },
       {
@@ -27,21 +27,21 @@
         "question": "What types of EM schedules does Scheduling Wizard generate?"
       },
       {
-        "answer": "Yes. Many Scheduling Wizard clients use Amion or QGenda for day-to-day schedule viewing. Scheduling Wizard handles the schedule creation and optimization, and the finished Excel file can be uploaded directly into Amion or QGenda. The two tools serve different functions and work well alongside each other.",
-        "question": "Can Scheduling Wizard integrate with Amion or QGenda?"
+        "answer": "Yes. Many Scheduling Wizard clients use the platform they already have for day-to-day schedule viewing. Scheduling Wizard handles the schedule creation and optimization, and the finished Excel file can be uploaded directly into whatever platform you already use. The two tools serve different functions and work well alongside each other.",
+        "question": "Can Scheduling Wizard integrate with your existing platform?"
       },
       {
         "answer": "When an unexpected absence occurs, Scheduling Wizard rapidly re-optimizes the affected portion of the schedule to restore coverage. This avoids the manual process of reshuffling assignments and checking every downstream impact by hand. ACGME compliance is maintained throughout the re-optimization.",
         "question": "What happens when an EM resident has an unplanned absence?"
       },
       {
-        "answer": "Chief resident transitions are one of the most common sources of scheduling disruption in EM programs. With Scheduling Wizard, your program's constraint configurations and scheduling rules persist with the service year over year. Incoming chief residents inherit a fully working, optimized scheduling system instead of starting from scratch with a blank spreadsheet.",
+        "answer": "Chief resident transitions are one of the most common sources of scheduling disruption in EM programs. With Scheduling Wizard, your program's rule configurations and scheduling rules persist with the service year over year. Incoming chief residents inherit a fully working, optimized scheduling system instead of starting from scratch with a blank spreadsheet.",
         "question": "How does Scheduling Wizard handle the annual chief resident transition?"
       }
     ],
     "hero": {
       "title": "Emergency Medicine Scheduling Software Done For You",
-      "description": "Scheduling Wizard delivers ACGME-compliant EM call, block, and attending schedules as ready-to-use Excel files. No software to learn, no compliance risk."
+      "description": "Scheduling Wizard delivers ACGME-compliant EM call, block, and attending schedules as ready-to-use Excel files. No software to learn, no something that surfaces at review."
     },
     "features": {
       "items": [
@@ -54,7 +54,7 @@
             "80-hour weekly limit guaranteed",
             "Violations prevented at generation"
           ],
-          "description": "Scheduling Wizard's optimization engine enforces ACGME duty hour regulations at generation time for emergency medicine programs. Subspecialty-specific EM rules are built in, so violations are prevented before the schedule is ever published."
+          "description": "Our team enforces ACGME duty hour regulations at generation time for emergency medicine programs. Subspecialty-specific EM rules are built in, so violations are prevented before the schedule is ever published."
         },
         {
           "id": "call-scheduling",
@@ -65,7 +65,7 @@
             "Holiday burden distributed fairly",
             "Post-call rest rules enforced"
           ],
-          "description": "Algorithmically distributes on-call shifts, weekends, and holidays equitably across all EM residents while respecting individual constraints and ACGME duty hour limits. No more manual balancing or fairness disputes."
+          "description": "Algorithmically distributes on-call shifts, weekends, and holidays equitably across all EM residents while respecting individual rules and ACGME duty hour limits. No more manual balancing or fairness disputes."
         },
         {
           "id": "managed-service",
@@ -74,9 +74,9 @@
           "highlights": [
             "No software to learn",
             "Schedules delivered as Excel files",
-            "Upload to Amion or QGenda"
+            "Upload to your existing platform"
           ],
-          "description": "Unlike self-service emergency medicine scheduling software, Scheduling Wizard operates as a fully managed service. Submit your constraints and receive finished schedules as Excel files, ready to upload to Amion or QGenda for day-to-day viewing."
+          "description": "Unlike self-service emergency medicine scheduling software, Scheduling Wizard operates as a fully managed service. Submit your rules and receive finished schedules as Excel files, ready to upload to whatever platform you already use for day-to-day viewing."
         },
         {
           "id": "institutional-continuity",
@@ -87,7 +87,7 @@
             "No annual knowledge loss",
             "New chiefs onboard instantly"
           ],
-          "description": "Your EM program's constraint configurations and scheduling rules stay with Scheduling Wizard year over year. Incoming chiefs inherit a working, optimized system instead of rebuilding the entire schedule from a blank spreadsheet."
+          "description": "Your EM program's rule configurations and scheduling rules stay with Scheduling Wizard year over year. Incoming chiefs inherit a working, optimized system instead of rebuilding the entire schedule from a blank spreadsheet."
         },
         {
           "id": "absence-response",
@@ -102,7 +102,7 @@
         }
       ],
       "title": "Built for Emergency Medicine Scheduling",
-      "description": "Every capability is designed around the real constraints EM programs face, from shift fairness to subspecialty ACGME compliance."
+      "description": "Every capability is designed around the real rules EM programs face, from shift fairness to subspecialty ACGME compliance."
     },
     "problems": {
       "items": [
@@ -112,7 +112,7 @@
         },
         {
           "title": "ACGME Compliance Is Never Certain",
-          "description": "Manually checking every EM resident's hours against subspecialty-specific ACGME rules leaves programs exposed to violations and accreditation risk."
+          "description": "Manually checking every EM resident's hours against subspecialty-specific ACGME rules leaves programs exposed to violations and something that surfaces at review."
         },
         {
           "title": "Chiefs Restart From Scratch Every Year",
@@ -124,7 +124,7 @@
     },
     "solution": {
       "title": "Scheduling Wizard Delivers Your EM Schedules",
-      "description": "Submit your emergency medicine program's constraints and receive finished, ACGME-compliant block, call, and attending schedules as ready-to-use Excel files. No software to learn. No annual retraining. Subspecialty-specific compliance rules are mathematically enforced at generation time, not manually checked after the fact."
+      "description": "Submit your emergency medicine program's rules and receive finished, ACGME-compliant block, call, and attending schedules as ready-to-use Excel files. No software to learn. No annual retraining. Subspecialty-specific compliance rules are mathematically enforced at generation time, not manually checked after the fact."
     },
     "metaTitle": "EM Scheduling Software | ACGME-Compliant | Scheduling Wizard",
     "metaDescription": "Emergency medicine scheduling software can be a burden on chief residents. Scheduling Wizard is a managed service delivering optimized, ACGME-compliant."
@@ -135,13 +135,13 @@
       "As a chief resident in emergency medicine, I need a scheduling solution that understands our unique ACGME compliance requirements and can generate optimized rotations without me having to learn any complex software.",
       "I'm a residency program director looking for a managed service that can handle the complexities of our emergency medicine scheduling while ensuring there are no gaps or overstaffing, unlike generic scheduling tools.",
       "As a program coordinator in an emergency department, I want a scheduling system that can quickly adapt to sudden changes in resident availability and still maintain compliance with ACGME duty hour regulations.",
-      "I'm interested in a scheduling software that can integrate with our existing tools like Amion or QGenda and eliminate the administrative burden on our chief residents by providing ACGME-compliant schedules ready for use."
+      "I'm interested in a scheduling software that can integrate with the tools you already use and eliminate the administrative burden on our chief residents by providing ACGME-compliant schedules ready for use."
     ]
   },
   "seoMetadata": {
     "h1": "Done-For-You Emergency Medicine Scheduling Software",
     "metaTitle": "EM Scheduling Software | ACGME-Compliant | Scheduling Wizard",
-    "h1Paragraph": "Stop spending hours in complex software. As a chief resident, just submit your EM program's constraints, and Scheduling Wizard delivers your finished ACGME schedule.",
+    "h1Paragraph": "Stop spending hours in complex software. As a chief resident, just submit your EM program's rules, and Scheduling Wizard delivers your finished ACGME schedule.",
     "metaDescription": "Emergency medicine scheduling software can be a burden on chief residents. Scheduling Wizard is a managed service delivering optimized, ACGME-compliant."
   },
   "finalMetadata": {
