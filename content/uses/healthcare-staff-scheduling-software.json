@@ -5,7 +5,7 @@
   "title": "Healthcare Staff Scheduling Software | Managed Service",
   "description": "Healthcare staff scheduling software that works for you, not against you. Our managed service builds physician and APP schedules and hands them back finished.",
   "h1": "Healthcare Staff Scheduling Software, Done For You",
-  "paragraph": "Forget learning complex healthcare staff scheduling software. With Scheduling Wizard, you just submit your rules. We deliver a finished, compliant schedule.",
+  "paragraph": "Forget learning healthcare staff scheduling software. Send us your rules and we build the schedule. We cover physicians and advanced practice providers.",
   "category": "setting",
   "data": {
     "cta": {
@@ -15,8 +15,8 @@
     },
     "faq": [
       {
-        "answer": "Healthcare staff scheduling software helps medical programs build, manage, and distribute workforce schedules. Whether you need traditional software depends on your team's capacity. Scheduling Wizard takes a different approach entirely, rather than giving you software to operate, it functions as a managed service. You submit your program's rules and receive finished, optimized schedules as Excel files, so your team never has to learn or maintain a scheduling platform.",
-        "question": "What is healthcare staff scheduling software and do I need it?"
+        "answer": "Physicians and advanced practice providers, in residency and fellowship programs, provider groups and practices. Nursing and hourly staff rostering is a different job with a different rule set, and we do not build those schedules; a general workforce platform is the better route there. If your problem is the physician and APP side, that is the part we take over entirely.",
+        "question": "Which staff does Scheduling Wizard schedule?"
       },
       {
         "answer": "For a residency or fellowship we build the ACGME requirements in as the schedule is created rather than auditing it afterward: the 80-hour weekly limit, minimum rest, the 24-hour cap, and the specialty-specific Program Requirements. We work from the requirements your program tells us apply, and we redraft when something needs to change.",
@@ -152,7 +152,7 @@
   "seoMetadata": {
     "h1": "Healthcare Staff Scheduling Software, Done For You",
     "metaTitle": "Healthcare Staff Scheduling Software | Managed Service",
-    "h1Paragraph": "Forget learning complex healthcare staff scheduling software. With Scheduling Wizard, you just submit your rules. We deliver a finished, compliant schedule.",
+    "h1Paragraph": "Forget learning healthcare staff scheduling software. Send us your rules and we build the schedule. We cover physicians and advanced practice providers.",
     "metaDescription": "Healthcare staff scheduling software that works for you, not against you. Our managed service builds physician and APP schedules and hands them back finished."
   },
   "finalMetadata": {

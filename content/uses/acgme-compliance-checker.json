@@ -5,15 +5,19 @@
   "title": "ACGME Compliance Checker | Compliance Built In",
   "description": "This ACGME compliance checker service helps GME offices maintain program accreditation.",
   "h1": "ACGME Compliance Checker for Multi-Department GME",
-  "paragraph": "Generic software fails to audit subspecialty rules. Our managed ACGME compliance checker service builds each department's schedule to the requirements that apply to it.",
+  "paragraph": "A checker tells you what is already wrong. We build the schedule with your program's requirements in it from the start, so there is far less to find afterwards.",
   "category": "specialty",
   "data": {
     "cta": {
-      "title": "Get Schedules That Are Compliant From Day One",
+      "title": "Hand Over the Build",
       "buttonText": "Book a Free Scheduling Consult",
       "description": "Join 30+ departments across 20+ hospitals and practices who rely on Scheduling Wizard for ACGME-compliant schedules. Finished schedules in your format, with redrafts through the year included."
     },
     "faq": [
+      {
+        "question": "Is Scheduling Wizard an ACGME compliance checker?",
+        "answer": "No, and it is worth being direct about that. A compliance checker audits a schedule you already built and reports what breaks. We do the building. Your program's ACGME requirements go in while the schedule is created, which is a different job and makes most of the checking unnecessary. If what you specifically want is a tool that audits an existing schedule, a residency management platform like New Innovations or MedHub is closer to what you are after."
+      },
       {
         "answer": "An ACGME compliance checker is a tool or service that verifies whether a residency or fellowship schedule meets ACGME duty hour regulations before it is published. Scheduling Wizard goes further than traditional checkers by enforcing compliance mathematically at generation time. Rather than auditing a finished schedule and flagging violations, our team builds the schedule around ACGME rules from the start, including the 80-hour weekly limit, 10-hour rest minimums, and subspecialty-specific requirements, so no violations exist when the schedule is delivered.",
         "question": "What is an ACGME compliance checker and how does it work?"
@@ -41,7 +45,7 @@
     ],
     "hero": {
       "title": "ACGME Compliance Checker for Multi-Department GME",
-      "description": "Scheduling Wizard delivers ACGME-compliant schedules as a managed service. No software to learn, no manual audits required."
+      "description": "Scheduling Wizard is not a checking tool. We are the people who build the schedule, and we apply your program's ACGME requirements while we build it."
     },
     "features": {
       "items": [
@@ -54,11 +58,11 @@
             "Subspecialty rules pre-loaded",
             "Violations prevented not detected"
           ],
-          "description": "ACGME duty hour limits are built into the schedule as it is created across all schedule types. Our team carries subspecialty-specific rule knowledge, so your program's unique compliance requirements are never approximated or assumed."
+          "description": "ACGME duty hour limits are built into the schedule as it is created across all schedule types. Our team carries subspecialty-specific rule knowledge, so your program's own requirements are written down rather than assumed."
         },
         {
           "id": "managed-service",
-          "title": "Done-For-You Compliance Assurance",
+          "title": "The Build Done For You",
           "eyebrow": "Managed Service",
           "highlights": [
             "No software to learn",
@@ -122,8 +126,8 @@
           "description": "Most scheduling tools apply one-size-fits-all ACGME rules, missing the subspecialty-specific duty hour requirements that reviewers actually audit."
         },
         {
-          "title": "Violations Found After Publishing",
-          "description": "Manual compliance checks happen after schedules are built, meaning violations surface too late and require cascading schedule revisions to fix."
+          "title": "Checking Happens Too Late",
+          "description": "A check runs against a schedule that already exists. By then the fix means moving other people, and every move has its own knock-on effects."
         },
         {
           "title": "Chief Turnover Resets Compliance Knowledge",
@@ -152,7 +156,7 @@
   "seoMetadata": {
     "h1": "ACGME Compliance Checker for Multi-Department GME",
     "metaTitle": "ACGME Compliance Checker | Compliance Built In",
-    "h1Paragraph": "Generic software fails to audit subspecialty rules. Our managed ACGME compliance checker service builds each department's schedule to the requirements that apply to it.",
+    "h1Paragraph": "A checker tells you what is already wrong. We build the schedule with your program's requirements in it from the start, so there is far less to find afterwards.",
     "metaDescription": "This ACGME compliance checker service helps GME offices maintain program accreditation."
   },
   "finalMetadata": {

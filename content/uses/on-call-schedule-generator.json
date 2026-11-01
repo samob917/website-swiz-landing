@@ -5,7 +5,7 @@
   "title": "On Call Schedule Generator | Fair Rotations",
   "description": "On call schedule generator for medical residencies. Stop wrestling with complex software and spreadsheets.",
   "h1": "On Call Schedule Generator for Chief Residents",
-  "paragraph": "Overwhelmed building call rotas? Scheduling Wizard is a managed on call schedule generator. We deliver fair, ACGME-compliant schedules without new software.",
+  "paragraph": "Overwhelmed building call rotas? A generator gives you a draft to repair. Scheduling Wizard gives you the finished call schedule.",
   "category": "specialty",
   "data": {
     "cta": {
@@ -15,8 +15,8 @@
     },
     "faq": [
       {
-        "answer": "An on call schedule generator is a tool or service that automates the creation of on-call rotations for residency programs, distributing call shifts across residents while respecting ACGME duty hour rules, individual rules, and fairness requirements. Scheduling Wizard goes further as a fully managed service, instead of giving programs software to operate themselves, it delivers finished, optimized on-call schedules as Excel files based on the program's submitted rules.",
-        "question": "What is an on call schedule generator for medical residencies?"
+        "answer": "A generator is software that produces a draft call schedule from rules you configure. This is not that. The draft is the easy half; what follows is checking it against your requirements, fixing what does not hold and absorbing the knock-on effects of each fix. We do that part, which is why what comes back is a finished schedule rather than a starting point.",
+        "question": "What is an on call schedule generator, and is that what this is?"
       },
       {
         "answer": "ACGME duty hour rules are applied as the schedule is built, at the time the schedule is generated, not checked manually after the fact. Our team applies the 80-hour weekly limit, minimum rest requirements, and the 24-hour hard cap for continuous duty, along with subspecialty-specific rules built into the system. This means the rules are applied while the schedule is built, not discovered during an audit.",
@@ -41,7 +41,7 @@
     ],
     "hero": {
       "title": "On Call Schedule Generator for Chief Residents",
-      "description": "Scheduling Wizard is a managed on call schedule generator for medical residencies. Submit your rules and receive fair, ACGME-compliant call schedules as ready-to-use Excel files."
+      "description": "Scheduling Wizard is a service, not a generator you operate. Send us your rules and requests and we build the call schedule, delivered as Excel or Google Sheets."
     },
     "features": {
       "items": [
@@ -152,7 +152,7 @@
   "seoMetadata": {
     "h1": "On Call Schedule Generator for Chief Residents",
     "metaTitle": "On Call Schedule Generator | Fair Rotations",
-    "h1Paragraph": "Overwhelmed building call rotas? Scheduling Wizard is a managed on call schedule generator. We deliver fair, ACGME-compliant schedules without new software.",
+    "h1Paragraph": "Overwhelmed building call rotas? A generator gives you a draft to repair. Scheduling Wizard gives you the finished call schedule.",
     "metaDescription": "On call schedule generator for medical residencies. Stop wrestling with complex software and spreadsheets."
   },
   "finalMetadata": {

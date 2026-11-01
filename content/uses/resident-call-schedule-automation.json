@@ -3,8 +3,8 @@
   "slug": "resident-call-schedule-automation",
   "anchor": "Resident Call Schedule Automation Tool",
   "title": "Resident Call Schedule Automation | ACGME",
-  "description": "Resident call schedule automation tool that enforces ACGME rules when the schedule is built. Our managed service creates fair.",
-  "h1": "Resident Call Schedule Automation That enforcing the rules when the schedule is built",
+  "description": "Resident call schedule automation, handled as a service. We apply the ACGME rules while the schedule is built. Our managed service creates fair.",
+  "h1": "Resident Call Schedule Automation, Handled as a Service",
   "paragraph": "Eliminate compliance risks. As a managed service, Scheduling Wizard delivers ACGME-compliant resident call schedules for you.",
   "category": "setting",
   "data": {
@@ -40,7 +40,7 @@
       }
     ],
     "hero": {
-      "title": "Resident Call Schedule Automation Tool That enforcing the rules when the schedule is built",
+      "title": "Resident Call Schedule Automation, Handled as a Service",
       "description": "Scheduling Wizard is a managed service that delivers ACGME-compliant resident call schedules as finished Excel files. No software to learn, no misses that surface later."
     },
     "features": {
@@ -138,7 +138,7 @@
       "description": "Submit your program's rules (ACGME duty hour rules, subspecialty requirements, resident preferences, and call fairness targets) and receive finished, compliant call schedules as ready-to-use Excel files. No software to learn. No annual retraining when chiefs rotate. Scheduling Wizard handles all of it."
     },
     "metaTitle": "Resident Call Schedule Automation | ACGME",
-    "metaDescription": "Resident call schedule automation tool that enforces ACGME rules when the schedule is built. Our managed service creates fair."
+    "metaDescription": "Resident call schedule automation, handled as a service. We apply the ACGME rules while the schedule is built. Our managed service creates fair."
   },
   "searchIntent": {
     "keyword": "resident call schedule automation tool",
@@ -150,10 +150,10 @@
     ]
   },
   "seoMetadata": {
-    "h1": "Resident Call Schedule Automation That enforcing the rules when the schedule is built",
+    "h1": "Resident Call Schedule Automation, Handled as a Service",
     "metaTitle": "Resident Call Schedule Automation | ACGME",
     "h1Paragraph": "Eliminate compliance risks. As a managed service, Scheduling Wizard delivers ACGME-compliant resident call schedules for you.",
-    "metaDescription": "Resident call schedule automation tool that enforces ACGME rules when the schedule is built. Our managed service creates fair."
+    "metaDescription": "Resident call schedule automation, handled as a service. We apply the ACGME rules while the schedule is built. Our managed service creates fair."
   },
   "finalMetadata": {
     "slug": "automation-tool",
