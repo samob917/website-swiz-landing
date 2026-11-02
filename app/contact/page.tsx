@@ -40,7 +40,7 @@ export default function ContactPage() {
       return
     }
     const start = window.scrollY
-    const duration = 450
+    const duration = 380
     let t0: number | null = null
     let raf = 0
     const step = (now: number) => {
@@ -50,7 +50,7 @@ export default function ContactPage() {
       window.scrollTo(0, start + (target() - start) * ease)
       if (k < 1) raf = requestAnimationFrame(step)
     }
-    const timer = window.setTimeout(() => { raf = requestAnimationFrame(step) }, 350)
+    const timer = window.setTimeout(() => { raf = requestAnimationFrame(step) }, 120)
     return () => { window.clearTimeout(timer); cancelAnimationFrame(raf) }
   }, [])
 
@@ -256,7 +256,7 @@ export default function ContactPage() {
             {/* Contact Info */}
             <div className="space-y-6">
 
-              <a href="mailto:founders@schedulingwiz.com" className="group glass-card block rounded-2xl p-6 cursor-pointer">
+              <a href="mailto:founders@schedulingwiz.com" className="group glass-card contact-card block rounded-2xl p-6 cursor-pointer">
                 <div className="flex items-center justify-between">
                   <div className="flex items-start space-x-4">
                     <Mail className="w-5 h-5 text-gray-400 mt-0.5" />
@@ -277,7 +277,7 @@ export default function ContactPage() {
                 </div>
               </a>
 
-              <a href="tel:+13029321448" className="group glass-card block rounded-2xl p-6 cursor-pointer">
+              <a href="tel:+13029321448" className="group glass-card contact-card block rounded-2xl p-6 cursor-pointer">
                 <div className="flex items-center justify-between">
                   <div className="flex items-start space-x-4">
                     <Phone className="w-5 h-5 text-gray-400 mt-0.5" />

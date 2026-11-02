@@ -129,6 +129,18 @@ html {
   transform: translateY(-2px);
 }
 
+/* The two contact cards sit on a white section, so the glass needs more
+   tint than it does over the dark hero or they disappear into the page. */
+.glass-card.contact-card {
+  background: rgba(17, 24, 39, 0.06);
+  border-color: rgba(17, 24, 39, 0.12);
+}
+
+.glass-card.contact-card:hover {
+  background: rgba(17, 24, 39, 0.1);
+  box-shadow: 0 16px 48px rgba(0, 0, 0, 0.08);
+}
+
 .smooth-pill {
   transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
