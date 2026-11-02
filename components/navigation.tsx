@@ -20,7 +20,7 @@ export function Navigation() {
         </Link>
 
         {/* Desktop Navigation */}
-        <div className="hidden md:flex items-center space-x-8">
+        <div className="hidden lg:flex items-center space-x-8">
           <Link href="/" className="nav-link font-medium">
             Home
           </Link>
@@ -45,7 +45,7 @@ export function Navigation() {
         </div>
 
         {/* Mobile menu button */}
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <Button variant="ghost" size="icon" onClick={() => setIsOpen(!isOpen)} className="text-white hover:bg-white/10">
             {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
           </Button>
@@ -54,7 +54,7 @@ export function Navigation() {
 
       {/* Mobile Navigation */}
       {isOpen && (
-        <div className="md:hidden mt-4 bg-black/60 backdrop-blur-xl rounded-2xl p-6 border border-white/10">
+        <div className="lg:hidden mt-4 bg-black/60 backdrop-blur-xl rounded-2xl p-6 border border-white/10">
           <div className="space-y-4">
             {[
               { href: "/", label: "Home" },

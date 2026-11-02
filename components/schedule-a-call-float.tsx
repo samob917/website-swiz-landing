@@ -35,7 +35,7 @@ export function ScheduleACallFloat() {
       href={CALENDLY_URL}
       target="_blank"
       rel="noopener noreferrer"
-      className={`fixed right-0 z-50 hidden items-center gap-2 rounded-l-xl border border-r-0 border-white/15 bg-gray-900/90 py-3 pl-5 pr-6 text-sm font-medium text-white shadow-[0_8px_30px_rgba(0,0,0,0.35)] backdrop-blur-md transition-all duration-300 hover:border-yellow-400/60 hover:bg-gray-900 hover:pr-7 md:inline-flex ${
+      className={`fixed right-0 z-50 hidden items-center gap-2 rounded-l-xl border border-r-0 border-white/15 bg-gray-900/90 py-3 pl-5 pr-6 text-sm font-medium text-white shadow-[0_8px_30px_rgba(0,0,0,0.35)] backdrop-blur-md transition-all duration-300 hover:border-yellow-400/60 hover:bg-gray-900 hover:pr-7 lg:inline-flex ${
         scrolled ? "top-6" : "top-[5.5rem] sm:top-[6.5rem]"
       }`}
     >

@@ -38,14 +38,18 @@ export function Footer() {
       <div className="border-t border-white/10 mt-5 pt-4 text-center">
         <p className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-xs text-white/50">
           <span>&copy; {new Date().getFullYear()} Scheduling Wizard. All rights reserved.</span>
-          <span className="text-white/20">|</span>
-          <Link href="/privacy" className="hover:text-white/80 transition-colors duration-300">
-            Privacy Policy
-          </Link>
-          <span className="text-white/20">|</span>
-          <PrivacyChoicesLink className="hover:text-white/80 transition-colors duration-300">
-            Your privacy choices
-          </PrivacyChoicesLink>
+          <span className="whitespace-nowrap">
+            <span className="text-white/20 mr-2">|</span>
+            <Link href="/privacy" className="hover:text-white/80 transition-colors duration-300">
+              Privacy Policy
+            </Link>
+          </span>
+          <span className="whitespace-nowrap">
+            <span className="text-white/20 mr-2">|</span>
+            <PrivacyChoicesLink className="hover:text-white/80 transition-colors duration-300">
+              Your privacy choices
+            </PrivacyChoicesLink>
+          </span>
         </p>
       </div>
     </footer>
