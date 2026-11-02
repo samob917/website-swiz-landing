@@ -41,7 +41,7 @@
     ],
     "hero": {
       "title": "Residency Schedule Mid Year Changes, Rebuilt For You",
-      "description": "Schedules rebuilt around a mid-year change, built to your rules and requests, however granular, with the ACGME requirements as part of them. Send us the rules; we send back the finished schedule."
+      "description": "Someone leaves, a rotation moves, coverage changes. Send us what changed and we rebuild the affected part of the schedule to the same rules, with the rest left alone."
     },
     "features": {
       "items": [
@@ -164,7 +164,7 @@
     "h1": "Handle Residency Schedule Mid Year Changes with Ease",
     "metaTitle": "Residency Schedule Mid Year Changes | Rebuilt For You",
     "h1Paragraph": "Unexpected absence? Let Scheduling Wizard handle your mid year changes. Submit new rules and get a rebuilt schedule built to the ACGME requirements.",
-    "metaDescription": "Residency schedule mid year changes, handled. Our managed service rebuilds the affected parts of your schedule for you, with the ACGME rules applied and the rest left alone."
+    "metaDescription": "Residency schedule mid-year changes, handled. We rebuild the affected parts of your schedule with the ACGME rules applied and the rest left alone."
   },
   "finalMetadata": {
     "slug": "mid-year-changes",

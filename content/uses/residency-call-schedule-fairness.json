@@ -41,7 +41,7 @@
     ],
     "hero": {
       "title": "Residency Call Schedule Fairness Done For You",
-      "description": "Call schedules, built to your rules and requests, however granular, with the ACGME requirements as part of them. Send us the rules; we send back the finished schedule."
+      "description": "Call, weekends and holidays balanced to your definition of fair, with the counts delivered alongside the schedule and the ACGME rules applied. Send us the rules; we build the call schedule."
     },
     "features": {
       "items": [
@@ -164,7 +164,7 @@
     "h1": "Fair Residency Call Schedules, Without the Software Headaches",
     "metaTitle": "Fair Residency Call Schedules | Built to Your Rules",
     "h1Paragraph": "Stop fighting complex software. Scheduling Wizard's team builds your fair call schedule, balancing every rule, with the ACGME rules applied as it is built.",
-    "metaDescription": "Residency call schedule fairness is hard to get right by hand. Our managed service builds your call schedule with call equity worked out and the ACGME rules applied."
+    "metaDescription": "Residency call schedule fairness is hard to get right by hand. We build your call schedule with call equity worked out and the ACGME rules applied."
   },
   "finalMetadata": {
     "slug": "schedule-fairness",
