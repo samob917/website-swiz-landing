@@ -6,19 +6,16 @@ import Image from "next/image"
 
 const customers = [
   {
-    id: "neurocritical-care-fellowship",
-    // Testimonial kept, logo deliberately not shown: a logo reads as a current
-    // client, and this program is not one any more. The quote is still theirs
-    // and still true, so it stays, attributed to the fellow who wrote it.
-    name: "Neurocritical Care Fellowship",
-    logo: null,
-    width: 120,
-    height: 80,
+    id: "uw-urology",
+    name: "UW Medicine",
+    logo: "/logos/uw-medicine.png",
+    width: 160,
+    height: 110,
     testimonial: {
-      quote: "We used Scheduling Wizard to create our fellowship block schedule for our training program. We provided the team with the vacation requests of our clinical fellows and scheduling requirements for various rotations, and Scheduling Wizard quickly followed up with a couple of clarifying questions. Within such a short time, our yearly block fellowship schedule was complete!\n\nAs a chief fellow, scheduling can be one of the most stressful and time-consuming parts of the role, but Scheduling Wizard made the entire process seamless. I would highly recommend their services to any program looking for a reliable and efficient way to build equitable schedules!",
-      author: "Miriam Quinlan",
-      role: "Clinical Fellow, Johns Hopkins Neurocritical Care Fellowship",
-      initials: "MQ",
+      quote: "I first came across Scheduling Wizard through an email, and because the founders were from my alma mater, I decided to reach out. Building our residency rotation and call schedule is a complex, time-consuming task every year, with many rules to account for. The Wizards understood those rules quickly and delivered a schedule in the same format we had used in the past. When we needed several revisions, they were responsive and turned around each new version rapidly. They are also incredibly friendly and always happy to talk things through over a virtual meeting. I have nothing but positive things to say about working with them and recommend Scheduling Wizard highly.",
+      author: "Judith C. Hagedorn, MD",
+      role: "Residency Program Director, University of Washington Urology",
+      initials: "JH",
     },
   },
   {
@@ -35,16 +32,19 @@ const customers = [
     },
   },
   {
-    id: "uw-urology",
-    name: "UW Medicine",
-    logo: "/logos/uw-medicine.png",
-    width: 160,
-    height: 110,
+    id: "neurocritical-care-fellowship",
+    // Testimonial kept, logo deliberately not shown: a logo reads as a current
+    // client, and this program is not one any more. The quote is still theirs
+    // and still true, so it stays, attributed to the fellow who wrote it.
+    name: "Neurocritical Care Fellowship",
+    logo: null,
+    width: 120,
+    height: 80,
     testimonial: {
-      quote: "I first came across Scheduling Wizard through an email, and because the founders were from my alma mater, I decided to reach out. Building our residency rotation and call schedule is a complex, time-consuming task every year, with many rules to account for. The Wizards understood those rules quickly and delivered a schedule in the same format we had used in the past. When we needed several revisions, they were responsive and turned around each new version rapidly. They are also incredibly friendly and always happy to talk things through over a virtual meeting. I have nothing but positive things to say about working with them and recommend Scheduling Wizard highly.",
-      author: "Judith C. Hagedorn, MD",
-      role: "Residency Program Director, University of Washington Urology",
-      initials: "JH",
+      quote: "We used Scheduling Wizard to create our fellowship block schedule for our training program. We provided the team with the vacation requests of our clinical fellows and scheduling requirements for various rotations, and Scheduling Wizard quickly followed up with a couple of clarifying questions. Within such a short time, our yearly block fellowship schedule was complete!\n\nAs a chief fellow, scheduling can be one of the most stressful and time-consuming parts of the role, but Scheduling Wizard made the entire process seamless. I would highly recommend their services to any program looking for a reliable and efficient way to build equitable schedules!",
+      author: "Miriam Quinlan",
+      role: "Clinical Fellow, Johns Hopkins Neurocritical Care Fellowship",
+      initials: "MQ",
     },
   },
 ]

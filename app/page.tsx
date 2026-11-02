@@ -7,10 +7,10 @@ import LogoCarousel from "@/components/logo-carousel"
 
 const testimonials = [
   {
-    quote: "We used Scheduling Wizard to create our fellowship block schedule for our training program. We provided the team with the vacation requests of our clinical fellows and scheduling requirements for various rotations, and Scheduling Wizard quickly followed up with a couple of clarifying questions. Within such a short time, our yearly block fellowship schedule was complete!\n\nAs a chief fellow, scheduling can be one of the most stressful and time-consuming parts of the role, but Scheduling Wizard made the entire process seamless. I would highly recommend their services to any program looking for a reliable and efficient way to build equitable schedules!",
-    author: "Miriam Quinlan",
-    role: "Clinical Fellow, Johns Hopkins Neurocritical Care Fellowship",
-    initials: "MQ",
+    quote: "I first came across Scheduling Wizard through an email, and because the founders were from my alma mater, I decided to reach out. Building our residency rotation and call schedule is a complex, time-consuming task every year, with many rules to account for. The Wizards understood those rules quickly and delivered a schedule in the same format we had used in the past. When we needed several revisions, they were responsive and turned around each new version rapidly. They are also incredibly friendly and always happy to talk things through over a virtual meeting. I have nothing but positive things to say about working with them and recommend Scheduling Wizard highly.",
+    author: "Judith C. Hagedorn, MD",
+    role: "Residency Program Director, University of Washington Urology",
+    initials: "JH",
   },
   {
     quote: "This was Mass General Neurology's first year working with Scheduling Wizard. Our schedules are quite complex, and we were initially skeptical but hopeful about Scheduling Wizard's work with us. They completely delivered on their promises, making it a great overall experience. They were extremely responsive and crafted a schedule that met each of our program's specific requests and requirements. They were excellent and I could not recommend them more.",
@@ -19,10 +19,10 @@ const testimonials = [
     initials: "AA",
   },
   {
-    quote: "I first came across Scheduling Wizard through an email, and because the founders were from my alma mater, I decided to reach out. Building our residency rotation and call schedule is a complex, time-consuming task every year, with many rules to account for. The Wizards understood those rules quickly and delivered a schedule in the same format we had used in the past. When we needed several revisions, they were responsive and turned around each new version rapidly. They are also incredibly friendly and always happy to talk things through over a virtual meeting. I have nothing but positive things to say about working with them and recommend Scheduling Wizard highly.",
-    author: "Judith C. Hagedorn, MD",
-    role: "Residency Program Director, University of Washington Urology",
-    initials: "JH",
+    quote: "We used Scheduling Wizard to create our fellowship block schedule for our training program. We provided the team with the vacation requests of our clinical fellows and scheduling requirements for various rotations, and Scheduling Wizard quickly followed up with a couple of clarifying questions. Within such a short time, our yearly block fellowship schedule was complete!\n\nAs a chief fellow, scheduling can be one of the most stressful and time-consuming parts of the role, but Scheduling Wizard made the entire process seamless. I would highly recommend their services to any program looking for a reliable and efficient way to build equitable schedules!",
+    author: "Miriam Quinlan",
+    role: "Clinical Fellow, Johns Hopkins Neurocritical Care Fellowship",
+    initials: "MQ",
   },
 ]
 
