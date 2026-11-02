@@ -26,7 +26,11 @@ export const metadata: Metadata = {
       "The first effective physician scheduling service. We build equitable block, clinic and call schedules for GME programs and provider groups.",
     images: ["/logo.png"],
   },
-  generator: 'v0.dev'
+  // Google Search Console, HTML-tag method. The same account also owns a
+  // DNS TXT record at the registrar; either one verifies.
+  verification: {
+    google: "0A0tK0f6gUvfr20_CCjC8Jh5gj9PuvSP2izYLH_itpU",
+  },
 }
 
 const organizationJsonLd = {
