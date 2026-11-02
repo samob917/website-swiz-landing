@@ -41,7 +41,7 @@
     ],
     "hero": {
       "title": "Residency Block Schedule Software Managed For You",
-      "description": "Block schedules, built to your rules and requests, however granular, with the ACGME requirements as part of them. Send us the rules; we send back the finished schedule."
+      "description": "A year of rotations that satisfies the PGY requirements, the coverage minimums, the elective requests and the ACGME rules at once. Send us the rules; we build the block schedule."
     },
     "features": {
       "items": [
@@ -153,7 +153,7 @@
     "h1": "Residency Block Schedule Software, Managed For You",
     "metaTitle": "Residency Block Schedule Software | Custom & Compliant",
     "h1Paragraph": "As a managed service, Scheduling Wizard handles your custom rules to deliver fair, schedules built to the ACGME requirements.",
-    "metaDescription": "Residency block schedule software, managed for you. We take your program's own rules and deliver complete block schedules built to the ACGME requirements, with nothing for your chiefs to run."
+    "metaDescription": "Residency block schedule software, managed for you. Send us your program's rules; we deliver complete block schedules built to the ACGME requirements."
   },
   "finalMetadata": {
     "slug": "block-schedule-software",

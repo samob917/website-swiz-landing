@@ -41,7 +41,7 @@
     ],
     "hero": {
       "title": "QGenda Manages Your Schedule. We Build It.",
-      "description": "Your block, call and clinic schedules, built to your rules and requests, however granular, with the ACGME requirements as part of them. Send us the rules; we send back the finished schedule."
+      "description": "Keep QGenda to publish and manage the day to day. Send us your block, call and clinic rules, the ACGME ones and the local ones, and we build the schedule you run in it."
     },
     "features": {
       "items": [
@@ -164,7 +164,7 @@
     "h1": "QGenda Alternative for Managed Schedule Creation",
     "metaTitle": "QGenda Alternative | We Build It, You Keep QGenda",
     "h1Paragraph": "As a managed QGenda alternative, Scheduling Wizard takes your rules and delivers a complete schedule built to the ACGME requirements.",
-    "metaDescription": "QGenda alternative for GME programs seeking a managed service. We deliver complete block, call and clinic schedules, built to the ACGME requirements, as Excel or Google Sheets, or on a custom live view we build for you."
+    "metaDescription": "A QGenda alternative for the build, not the viewing. We deliver block, call and clinic schedules built to the ACGME requirements; you keep QGenda to publish."
   },
   "finalMetadata": {
     "slug": "alternative",

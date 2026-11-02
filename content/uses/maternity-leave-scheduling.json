@@ -41,7 +41,7 @@
     ],
     "hero": {
       "title": "Maternity Leave Residency Scheduling Without the Headache",
-      "description": "Schedules rebuilt around a resident’s leave, built to your rules and requests, however granular, with the ACGME requirements as part of them. Send us the rules; we send back the finished schedule."
+      "description": "A resident goes on leave and the schedule has to change around them. Send us the leave dates and your rules; we rebuild the affected part with coverage, fairness and the ACGME rules held."
     },
     "features": {
       "items": [
@@ -164,7 +164,7 @@
     "h1": "Maternity Leave Residency Scheduling Without the Headache",
     "metaTitle": "Maternity Leave Residency Scheduling | Rebuilt For You",
     "h1Paragraph": "Stop manually rebuilding schedules for maternity leave. Send us the leave details and your rules; we rebuild the schedule around it and send it back finished.",
-    "metaDescription": "Maternity leave residency scheduling, handled. Our managed service rebuilds the schedule around a resident's leave, with coverage and fairness held, and nothing for your chief to redo."
+    "metaDescription": "Maternity leave residency scheduling, handled. We rebuild the schedule around a resident's leave with coverage and fairness held, and nothing for your chief."
   },
   "finalMetadata": {
     "slug": "maternity-leave-scheduling",

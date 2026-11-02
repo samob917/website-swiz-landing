@@ -41,7 +41,7 @@
     ],
     "hero": {
       "title": "Automated Physician Scheduling Without the Software",
-      "description": "Your schedules, built to your rules and requests, however granular, with the ACGME requirements as part of them. Send us the rules; we send back the finished schedule."
+      "description": "Automated, in the sense that you do none of it. You send us your rules and requests, however granular; our mathematicians build the schedule and send it back finished."
     },
     "features": {
       "items": [
