@@ -1,7 +1,7 @@
 "use client"
 
 import type React from "react"
-import { useState, useRef } from "react"
+import { useState, useRef, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
@@ -25,6 +25,34 @@ export default function ContactPage() {
   const scrollToContent = () => {
     window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })
   }
+
+  // Every way into this page (nav, footer, "send us a message") lands on the
+  // hero for a beat and then runs down to the form, so nobody has to hunt for
+  // it. A short, fixed-duration scroll rather than the browser's smooth
+  // scroll, which is slow over a full viewport.
+  useEffect(() => {
+    const form = document.getElementById("ContactForm")
+    if (!form) return
+    const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches
+    const target = () => form.getBoundingClientRect().top + window.scrollY - 72
+    if (reduced) {
+      window.scrollTo(0, target())
+      return
+    }
+    const start = window.scrollY
+    const duration = 450
+    let t0: number | null = null
+    let raf = 0
+    const step = (now: number) => {
+      if (t0 === null) t0 = now
+      const k = Math.min(1, (now - t0) / duration)
+      const ease = 1 - Math.pow(1 - k, 3)
+      window.scrollTo(0, start + (target() - start) * ease)
+      if (k < 1) raf = requestAnimationFrame(step)
+    }
+    const timer = window.setTimeout(() => { raf = requestAnimationFrame(step) }, 350)
+    return () => { window.clearTimeout(timer); cancelAnimationFrame(raf) }
+  }, [])
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
