@@ -34,6 +34,19 @@ const customers = [
       initials: "AA",
     },
   },
+  {
+    id: "uw-urology",
+    name: "UW Medicine",
+    logo: "/logos/uw-medicine.png",
+    width: 160,
+    height: 110,
+    testimonial: {
+      quote: "I first came across Scheduling Wizard through an email, and because the founders were from my alma mater, I decided to reach out. Building our residency rotation and call schedule is a complex, time-consuming task every year, with many rules to account for. The Wizards understood those rules quickly and delivered a schedule in the same format we had used in the past. When we needed several revisions, they were responsive and turned around each new version rapidly. They are also incredibly friendly and always happy to talk things through over a virtual meeting. I have nothing but positive things to say about working with them and recommend Scheduling Wizard highly.",
+      author: "Judith C. Hagedorn, MD",
+      role: "Residency Program Director, University of Washington Urology",
+      initials: "JH",
+    },
+  },
 ]
 
 function useTestimonialParam(setSelected: (i: number) => void) {
