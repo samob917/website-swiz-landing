@@ -192,7 +192,7 @@ const swBubble = h(
       color: "#1a1a1a",
       lineHeight: 1.45,
     },
-    "Logged 2 preferences. Both fit current optimization.",
+    "Logged 2 preferences. Both fit the current schedule.",
   ),
 );
 
@@ -291,7 +291,7 @@ const reactionRow = h(
       color: "#15803d",
       letterSpacing: "0.04em",
     },
-    "Added to optimizer",
+    "Added to the build",
   ),
 );
 

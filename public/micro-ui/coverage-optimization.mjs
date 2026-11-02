@@ -40,7 +40,7 @@ const tiers = [
     width: 220,
     bg: "#fde29a",
     border: "#fcd34d",
-    label: "After optimization",
+    label: "After the rebuild",
     value: "240",
     valueColor: "#a16207",
     labelColor: "#6b7280",

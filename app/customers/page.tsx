@@ -33,11 +33,10 @@ const customers = [
   },
   {
     id: "neurocritical-care-fellowship",
-    // Testimonial kept, logo deliberately not shown: a logo reads as a current
-    // client, and this program is not one any more. The quote is still theirs
-    // and still true, so it stays, attributed to the fellow who wrote it.
-    name: "Neurocritical Care Fellowship",
-    logo: null,
+    // Not a current client, so the logo stays off the homepage carousel; it is
+    // shown here because the testimonial is theirs and the quote is still true.
+    name: "Johns Hopkins Medicine",
+    logo: "/logos/johns-hopkins.png",
     width: 120,
     height: 80,
     testimonial: {
