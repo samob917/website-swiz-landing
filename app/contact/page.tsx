@@ -5,7 +5,7 @@ import { useState, useRef, useEffect } from "react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
-import { Mail, Phone, Calendar, ArrowRight, Copy, Check } from "lucide-react"
+import { Mail, Phone, Copy, Check } from "lucide-react"
 import emailjs from "@emailjs/browser"
 
 export default function ContactPage() {
@@ -255,23 +255,6 @@ export default function ContactPage() {
 
             {/* Contact Info */}
             <div className="space-y-6">
-              <a
-                href="https://calendly.com/zacdermody-schedulingwiz/new-meeting"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group block bg-gray-900 hover:bg-gray-800 rounded-2xl p-6 transition-all duration-300 hover:-translate-y-0.5 hover:shadow-[0_16px_48px_rgba(0,0,0,0.2)]"
-              >
-                <div className="flex items-center justify-between">
-                  <div className="flex items-start space-x-4">
-                    <Calendar className="w-5 h-5 text-gray-400 mt-0.5" />
-                    <div>
-                      <h3 className="font-semibold text-white text-sm mb-1">Schedule a Call</h3>
-                      <p className="text-gray-400 text-sm group-hover:text-gray-300 transition-colors duration-300">Book a time on Calendly</p>
-                    </div>
-                  </div>
-                  <ArrowRight className="w-4 h-4 text-gray-400 group-hover:text-white group-hover:translate-x-1 transition-all duration-300" />
-                </div>
-              </a>
 
               <a href="mailto:founders@schedulingwiz.com" className="group glass-card block rounded-2xl p-6 cursor-pointer">
                 <div className="flex items-center justify-between">
