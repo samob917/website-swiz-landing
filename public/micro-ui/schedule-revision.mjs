@@ -402,7 +402,7 @@ const frontPanel = h(
         color: "#6b7280",
         letterSpacing: "0.01em",
       },
-      "Wed regenerated · rest preserved",
+      "Wed rebuilt · rest preserved",
     ),
   ),
 );

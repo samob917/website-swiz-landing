@@ -235,7 +235,7 @@ const header = h(
       borderRadius: "100px",
       textTransform: "uppercase",
     },
-    "Auto-generated",
+    "Rebuilt for you",
   ),
 );
 
@@ -351,7 +351,7 @@ const reoptimizeNode = h(
         lineHeight: 1.2,
         whiteSpace: "nowrap",
       },
-      "Re-optimize",
+      "Rebuild",
     ),
     h(
       "span",
@@ -364,7 +364,7 @@ const reoptimizeNode = h(
         textTransform: "uppercase",
         whiteSpace: "nowrap",
       },
-      "Rapid pass",
+      "Same rules",
     ),
   ),
   h(

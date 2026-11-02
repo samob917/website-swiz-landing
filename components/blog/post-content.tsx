@@ -7,6 +7,7 @@ import { Separator } from "@/components/ui/separator";
 import { Button } from "@/components/ui/button";
 import { Facebook, Linkedin, Twitter } from "lucide-react";
 import Link from "next/link";
+import { useEffect, useState } from "react";
 
 export function PostContent({
   content,
@@ -59,8 +60,11 @@ export function PostContent({
   const { modifiedHtml, tableOfContents } =
     generateTableOfContents(sanitizedContent);
 
-  const shareUrl =
-    typeof window !== "undefined" ? window.location.href : "";
+  // Read the URL after mount so the server and client render the same markup.
+  const [shareUrl, setShareUrl] = useState("");
+  useEffect(() => {
+    setShareUrl(window.location.href);
+  }, []);
 
   return (
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-12">
