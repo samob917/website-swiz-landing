@@ -11,7 +11,7 @@
     "cta": {
       "title": "Get Your Doctor Schedules Done Right",
       "buttonText": "Book a call",
-      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join the 30+ departments that have us build their call, block, clinic and shift schedules."
+      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join 30+ departments across 20+ hospitals and practices that have us build their call, block, clinic and shift schedules."
     },
     "faq": [
       {
@@ -35,7 +35,7 @@
         "question": "What happens to our scheduling setup when a new chief resident takes over?"
       },
       {
-        "answer": "Scheduling Wizard serves chief residents, chief fellows, program directors, program coordinators, GME offices, and department chairs at medical residency and fellowship programs. It is currently active across 30+ departments. We also build for private practice administrators and managing partners who need physician scheduling without the burden of operating complex software.",
+        "answer": "Scheduling Wizard serves chief residents, chief fellows, program directors, program coordinators, GME offices, and department chairs at medical residency and fellowship programs. It is currently active across 30+ departments across 20+ hospitals and practices. We also build for private practice administrators and managing partners who need physician scheduling without the burden of operating complex software.",
         "question": "Who is Scheduling Wizard built for?"
       }
     ],
