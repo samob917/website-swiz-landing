@@ -48,6 +48,7 @@ export function PostContent({
       "div",
       "iframe",
       "span",
+      "br",
     ],
     allowedAttributes: {
       ...defaults.allowedAttributes,
