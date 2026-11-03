@@ -1,6 +1,9 @@
 "use client"
 
+import { useRunDownTo } from "@/lib/use-run-down"
+
 export default function DemoPage() {
+  useRunDownTo("video-section")
   const scrollToContent = () => {
     const videoSection = document.getElementById('video-section')
     if (videoSection) {

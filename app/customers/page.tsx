@@ -1,6 +1,7 @@
 "use client"
 
 import { useState, useEffect, Suspense } from "react"
+import { useRunDownTo } from "@/lib/use-run-down"
 import { useSearchParams } from "next/navigation"
 import Image from "next/image"
 
@@ -74,6 +75,7 @@ function TestimonialParamReader({ setSelected }: { setSelected: (i: number) => v
 }
 
 export default function CustomersPage() {
+  useRunDownTo("content-section", { skipIf: () => new URLSearchParams(window.location.search).has("t") })
   const [selected, setSelected] = useState(0)
 
   const scrollToContent = () => {
