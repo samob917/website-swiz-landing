@@ -11,7 +11,7 @@
     "cta": {
       "title": "Stop Building Call Schedules by Hand",
       "buttonText": "Book a call",
-      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join the 30+ departments that have us build their call, block, clinic and shift schedules."
+      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join 30+ departments across 20+ hospitals and practices that have us build their call, block, clinic and shift schedules."
     },
     "faq": [
       {
@@ -35,7 +35,7 @@
         "question": "What happens when a resident needs a last-minute call schedule change?"
       },
       {
-        "answer": "Scheduling Wizard primarily serves chief residents, program directors, program coordinators, and GME offices at residency and fellowship programs. Chief residents benefit most from not having to build or maintain call schedules themselves. Program directors benefit from ACGME compliance confidence and the elimination of annual knowledge loss when chiefs rotate out. Scheduling Wizard is currently serving 30+ departments.",
+        "answer": "Scheduling Wizard primarily serves chief residents, program directors, program coordinators, and GME offices at residency and fellowship programs. Chief residents benefit most from not having to build or maintain call schedules themselves. Program directors benefit from ACGME compliance confidence and the elimination of annual knowledge loss when chiefs rotate out. Scheduling Wizard is currently serving 30+ departments across 20+ hospitals and practices.",
         "question": "Who typically uses Scheduling Wizard for call scheduling?"
       }
     ],

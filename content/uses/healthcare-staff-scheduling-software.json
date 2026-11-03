@@ -11,7 +11,7 @@
     "cta": {
       "title": "Stop Running Schedules on Spreadsheets",
       "buttonText": "Book a call",
-      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join the 30+ departments that have us build their call, block, clinic and shift schedules."
+      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join 30+ departments across 20+ hospitals and practices that have us build their call, block, clinic and shift schedules."
     },
     "faq": [
       {
@@ -35,7 +35,7 @@
         "question": "What happens to our scheduling setup when a new chief resident takes over?"
       },
       {
-        "answer": "Physician and advanced practice provider schedules, for residency and fellowship programs, provider groups and private practices. On the GME side that means chief residents, program directors, coordinators and GME offices; on the group side, practice administrators and managing partners. We currently serve 30+ departments.",
+        "answer": "Physician and advanced practice provider schedules, for residency and fellowship programs, provider groups and private practices. On the GME side that means chief residents, program directors, coordinators and GME offices; on the group side, practice administrators and managing partners. We currently serve 30+ departments across 20+ hospitals and practices.",
         "question": "Who is Scheduling Wizard designed for?"
       }
     ],
