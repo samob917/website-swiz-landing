@@ -79,13 +79,6 @@
       <text x="32" y="62" class="sans" font-size="10" font-weight="500" fill="#9ca3af" letter-spacing="0.6">EQUITABLE DISTRIBUTION</text>
     </g>
 
-    <!-- LIVE badge -->
-    <g transform="translate(354, 28)" class="head">
-      <rect width="56" height="24" rx="12" fill="#FEF3C7"/>
-      <circle cx="14" cy="12" r="3.2" fill="#fbbf24" class="pulse-dot"/>
-      <text x="34" y="16" text-anchor="middle" class="sans" font-size="10" font-weight="700" fill="#b45309" letter-spacing="0.5">LIVE</text>
-    </g>
-
     <!-- Big animated number 98% -->
     <g class="big-num">
       <text x="32" y="128" class="sans" font-size="56" font-weight="800" fill="#fbbf24">98%</text>

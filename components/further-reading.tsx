@@ -14,7 +14,7 @@ export function FurtherReading({ items }: { items: Reading[] }) {
   if (items.length === 0) return null
 
   return (
-    <section className="bg-white pt-12 pb-16 sm:pt-16 sm:pb-20">
+    <section className="bg-white pt-12 pb-2 sm:pt-16 sm:pb-4">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <h2 className="mb-6 text-2xl font-semibold tracking-tight text-gray-900">
           Further reading

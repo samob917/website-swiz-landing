@@ -155,7 +155,7 @@ const bodyHeader = h(
       borderRadius: "100px",
       letterSpacing: "0.06em",
     },
-    "v2026.1",
+    "YOUR PROGRAM",
   ),
 );
 
@@ -255,11 +255,11 @@ const checks = h(
     display: "flex",
     flexDirection: "column",
   },
-  checkRow("80h-weekly-limit", "12ms"),
-  checkRow("24h-shift-cap", "8ms"),
-  checkRow("post-call-rest", "14ms"),
-  checkRow("home-call-hours", "11ms", { amber: true }),
-  checkRow("weekend-spacing", "9ms"),
+  checkRow("80-hour weekly limit", ""),
+  checkRow("24-hour shift cap", ""),
+  checkRow("Post-call rest", ""),
+  checkRow("Home call hours", "", { amber: true }),
+  checkRow("Weekend spacing", ""),
 );
 
 // --- Separator ---
@@ -351,7 +351,7 @@ const summaryRow = h(
       color: "#6b7280",
       letterSpacing: "0.01em",
     },
-    "54ms",
+    "",
   ),
 );
 
@@ -409,7 +409,6 @@ const terminal = h(
     boxShadow:
       "0 1px 2px rgba(0,0,0,0.03), 0 4px 12px rgba(0,0,0,0.04)",
   },
-  titleBar,
   terminalBody,
 );
 
