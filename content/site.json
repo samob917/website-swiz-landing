@@ -1,6 +1,7 @@
 {
   "name": "Scheduling Wizard",
   "domain": "https://schedulingwiz.com",
+  "blogLive": false,
   "globalSeo": {
     "titleTemplate": "%s | Scheduling Wizard",
     "defaultDescription": "Custom scheduling automation for medical residencies and fellowships. Save hundreds of hours with automated Block, Clinic, and Call schedules.",
