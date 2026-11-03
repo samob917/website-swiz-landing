@@ -4,7 +4,7 @@
   "anchor": "Residency Call Scheduling Software",
   "title": "Residency Call Scheduling Software | Done For You",
   "description": "Residency call scheduling software that takes the burden off the chief. We are a managed service: send us your rules and we deliver a fair call schedule, built to the ACGME rules.",
-  "h1": "Done-For-You Residency Call Scheduling Software",
+  "h1": "Residency Call Schedules, Built For You",
   "paragraph": "Scheduling Wizard is a managed service, not complex software. Submit your rules and get a fair, ACGME-compliant residency call schedule.",
   "category": "setting",
   "data": {
@@ -40,7 +40,7 @@
       }
     ],
     "hero": {
-      "title": "Residency Call Scheduling Software Done For You",
+      "title": "Residency Call Schedules, Built For You",
       "description": "Call schedules built to your rules and requests, with the rest requirements, call frequency and the 80-hour average handled in the build. Send us the rules; we send back the finished schedule."
     },
     "features": {
@@ -161,7 +161,7 @@
     ]
   },
   "seoMetadata": {
-    "h1": "Done-For-You Residency Call Scheduling Software",
+    "h1": "Residency Call Schedules, Built For You",
     "metaTitle": "Residency Call Scheduling Software | Done For You",
     "h1Paragraph": "Scheduling Wizard is a managed service, not complex software. Submit your rules and get a fair, ACGME-compliant residency call schedule.",
     "metaDescription": "Residency call scheduling software that takes the build off the chief. Send us your rules and we deliver a fair call schedule built to the ACGME rules."
