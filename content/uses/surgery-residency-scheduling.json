@@ -11,7 +11,7 @@
     "cta": {
       "title": "Stop Building Surgery Schedules From Scratch",
       "buttonText": "Book a call",
-      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join 30+ departments across 20+ hospitals and practices that have us build their call, block, clinic and shift schedules."
+      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join the 30+ departments that have us build their call, block, clinic and shift schedules."
     },
     "faq": [
       {
@@ -27,7 +27,7 @@
         "question": "How is surgery residency call scheduling made fair across all residents?"
       },
       {
-        "answer": "Institutional scheduling knowledge persists with Scheduling Wizard across annual chief rotations. Your program's rule configurations, rules, and preferences are retained year over year. Incoming chief residents inherit a fully operational, optimized system instead of starting from a blank spreadsheet, which eliminates the steep annual learning curve that burdens most surgical programs.",
+        "answer": "Institutional scheduling knowledge persists with Scheduling Wizard across annual chief rotations. Your program's rule configurations, rules, and preferences are retained year over year. Incoming chief residents inherit the written rule set and last year's schedule instead of starting from a blank spreadsheet, which eliminates the steep annual learning curve that burdens most surgical programs.",
         "question": "What happens when a new chief resident takes over the surgery program?"
       },
       {
@@ -39,7 +39,7 @@
         "question": "Who at a surgery residency program typically works with Scheduling Wizard?"
       },
       {
-        "answer": "No. Scheduling Wizard focuses on building and optimizing your schedule, the output is delivered as Excel or Google Sheets, or on a custom live view we build for you that your program can upload directly to whatever platform you already use. Many Scheduling Wizard clients continue using the platform they already have to publish the schedule day-to-day while Scheduling Wizard handles all schedule creation and optimization.",
+        "answer": "No. Scheduling Wizard focuses on building and optimizing your schedule, the output is delivered as Excel or Google Sheets, or on a custom live view we build for you that your program can upload directly to whatever platform you already use. Many Scheduling Wizard clients continue using the platform they already have to publish the schedule day-to-day while Scheduling Wizard handles all schedule building.",
         "question": "Do we need to replace the scheduling tools we already use?"
       },
       {
@@ -106,7 +106,7 @@
             "New chiefs start with a working schedule",
             "Program rules preserved year over year"
           ],
-          "description": "Your program's rules, requests, and configurations persist with Scheduling Wizard year over year. Incoming surgery chiefs inherit a working, optimized system instead of starting from a blank spreadsheet."
+          "description": "Your program's rules and requests stay written down with Scheduling Wizard year over year. Incoming surgery chiefs inherit the written rule set and last year's schedule instead of starting from a blank spreadsheet."
         },
         {
           "id": "managed-service",
@@ -117,7 +117,7 @@
             "Delivered ready to publish",
             "Or a custom live view we build"
           ],
-          "description": "Scheduling Wizard operates as a done-for-you managed service. Surgery programs submit rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Scheduling Wizard operates as a done-for-you managed service. Surgery programs submit rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by our team, who do this full time."
         },
         {
           "id": "redrafts-included",

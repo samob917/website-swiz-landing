@@ -5,13 +5,13 @@
   "title": "ACGME Duty Hour Rules | Compliance Built In",
   "description": "The ACGME duty hour rules, explained, and built into the schedule for you. Send us your program's rules and we build to them.",
   "h1": "ACGME Duty Hour Rules, Built Into the Schedule",
-  "paragraph": "The ACGME duty hour rules, and how we build them into your schedule so nobody has to check afterwards.",
+  "paragraph": "The ACGME duty hour rules, and how we build them into your schedule rather than checking for them at the end.",
   "category": "specialty",
   "data": {
     "cta": {
       "title": "Stop Carrying the Rules in Your Head",
       "buttonText": "Book a call",
-      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join 30+ departments across 20+ hospitals and practices that have us build their call, block, clinic and shift schedules."
+      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join the 30+ departments that have us build their call, block, clinic and shift schedules."
     },
     "faq": [
       {
@@ -23,7 +23,7 @@
         "question": "How does Scheduling Wizard handle the ACGME duty hour rules?"
       },
       {
-        "answer": "When ACGME updates its duty hour regulations, we update the rules we build from. Because the managed service model means programs are not operating software themselves, rule updates are absorbed by Scheduling Wizard rather than requiring chief residents or coordinators to reconfigure their own system.",
+        "answer": "You tell us which requirements apply to your program, and we write them down with you before the first build. When something changes, whether ACGME revises the Common Program Requirements or your Review Committee adds a rule, you tell us what changed and the next build follows the new rules. Nobody on your side reconfigures anything, because there is nothing to configure.",
         "question": "What happens when ACGME duty hour rules change?"
       },
       {
@@ -31,17 +31,17 @@
         "question": "What are the most common ACGME duty hour violations?"
       },
       {
-        "answer": "While all ACGME-accredited programs share core duty hour requirements, subspecialties have additional or modified rules, for example, surgery programs have case requirements that shape rotations, and specialties that rely on at-home call have their own rules for how that time counts. We build the subspecialty-specific ACGME rules in, so your schedule reflects the rules that actually apply to your program rather than a one-size-fits-all interpretation.",
+        "answer": "While all ACGME-accredited programs share core duty hour requirements, subspecialties have additional or modified rules, for example, surgery programs have case requirements that shape rotations, and specialties that rely on at-home call have their own rules for how that time counts. You tell us which of those apply to your program, and we build to them, so the schedule reflects your program's rules rather than a one-size-fits-all reading.",
         "question": "How do subspecialty ACGME duty hour rules differ across programs?"
       },
       {
-        "answer": "Yes. Scheduling Wizard delivers finished schedules built to the ACGME requirements as Excel or Google Sheets, or on a custom live view we build for you, which programs can upload directly to whatever platform you already use for day-to-day viewing and access. Many current Scheduling Wizard clients use this exact workflow. Scheduling Wizard handles the schedule creation and optimization, while the platform you already use serves as the publishing and access layer your team is already familiar with.",
+        "answer": "Yes. Keep Amion for the day to day. We deliver the finished schedule as Excel or Google Sheets, or on a custom live view we build for you, and you upload it to Amion the way you do today. We build the schedule; Amion stays where your team looks at it.",
         "question": "Can Scheduling Wizard work with our Amion system?"
       }
     ],
     "hero": {
       "title": "ACGME Duty Hour Rules, Built Into the Schedule",
-      "description": "The 80-hour average, the 24+4 limit, the 14 hours after call, one day in seven: we build them into the schedule as it is made, with your own rules beside them, so nobody checks for them afterwards."
+      "description": "The 80-hour average, the 24+4 limit, the 14 hours after call, one day in seven: we build them into the schedule as it is made, with your own rules beside them, and we check the finished schedule against them before it goes out."
     },
     "features": {
       "items": [
@@ -63,7 +63,7 @@
           "highlights": [
             "80-hour weekly limit applied",
             "Subspecialty rules you give us built in",
-            "Home call rules handled correctly"
+            "Home call hours counted toward the 80"
           ],
           "description": "The ACGME duty hour regulations, including the 80-hour weekly limit, eight hours off between duty periods, 14 hours free after 24-hour call, the 24-hour cap and the home call rules, are applied as the schedule is built, before it reaches your program."
         },
@@ -76,7 +76,7 @@
             "Delivered ready to publish",
             "No software training required"
           ],
-          "description": "Programs submit their rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you. There is no platform to operate or software to train incoming chiefs on. Scheduling Wizard handles the optimization entirely. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Programs submit their rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you. There is no platform to operate or software to train incoming chiefs on. Scheduling Wizard does the building. The schedules are built by our team, who do this full time."
         },
         {
           "id": "institutional-continuity",
@@ -87,7 +87,7 @@
             "No institutional knowledge lost",
             "Rules carry over each year"
           ],
-          "description": "ACGME duty hour rules, program-specific rules, and scheduling configurations are retained by Scheduling Wizard year over year. New chiefs inherit a working, compliant system instead of rebuilding compliance from scratch."
+          "description": "The rules you gave us, ACGME and local, are written down and kept from one year to the next. New chiefs inherit the written rule set and last year's schedule instead of a blank spreadsheet."
         },
         {
           "id": "block-scheduling",
@@ -134,7 +134,7 @@
         },
         {
           "title": "Rules Change and Vary by Specialty",
-          "description": "Subspecialty-specific ACGME rules differ program to program. Keeping up as ACGME updates its requirements adds another layer of complexity."
+          "description": "Subspecialty-specific ACGME rules differ program to program. Keeping track of what changed is one more thing on the chief's plate."
         },
         {
           "title": "Chiefs Rebuild Compliance From Scratch",
@@ -163,7 +163,7 @@
   "seoMetadata": {
     "h1": "ACGME Duty Hour Rules, Built Into the Schedule",
     "metaTitle": "ACGME Duty Hour Rules | Compliance Built In",
-    "h1Paragraph": "The ACGME duty hour rules, and how we build them into your schedule so nobody has to check afterwards.",
+    "h1Paragraph": "The ACGME duty hour rules, and how we build them into your schedule rather than checking for them at the end.",
     "metaDescription": "The ACGME duty hour rules, explained, and built into the schedule for you. Send us your program's rules and we build to them."
   },
   "finalMetadata": {

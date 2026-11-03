@@ -11,11 +11,11 @@
     "cta": {
       "title": "Ready to Stop Building Schedules Yourself?",
       "buttonText": "Book a call",
-      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join 30+ departments across 20+ hospitals and practices that have us build their call, block, clinic and shift schedules."
+      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join the 30+ departments that have us build their call, block, clinic and shift schedules."
     },
     "faq": [
       {
-        "answer": "Scheduling Wizard replaces QGenda for schedule creation and optimization, not for schedule viewing. Many Scheduling Wizard clients continue using QGenda as their day-to-day publishing platform; they put the finished schedule Scheduling Wizard delivers into it. The key distinction is that Scheduling Wizard handles the complex work of building and optimizing the schedule, while QGenda serves as the publishing platform.",
+        "answer": "Scheduling Wizard replaces QGenda for schedule building, not for schedule viewing. Many Scheduling Wizard clients continue using QGenda as their day-to-day publishing platform; they put the finished schedule Scheduling Wizard delivers into it. The key distinction is that Scheduling Wizard handles the complex work of building and optimizing the schedule, while QGenda serves as the publishing platform.",
         "question": "Is Scheduling Wizard a replacement for QGenda?"
       },
       {
@@ -35,7 +35,7 @@
         "question": "How does Scheduling Wizard handle subspecialty-specific ACGME rules?"
       },
       {
-        "answer": "Scheduling Wizard handles mid-year revisions including sick leave, parental leave, resident swaps, and new rules. When changes occur, affected portions of the schedule are rebuilt without disrupting the full schedule. Programs submit the updated rules and receive a revised schedule rather than rebuilding it manually.",
+        "answer": "Scheduling Wizard handles mid-year revisions including sick leave, parental leave, coverage changes, and new rules. When changes occur, affected portions of the schedule are rebuilt without disrupting the full schedule. Programs submit the updated rules and receive a revised schedule rather than rebuilding it manually.",
         "question": "What happens when scheduling rules change mid-year?"
       }
     ],
@@ -65,7 +65,7 @@
             "Finished schedules delivered to you",
             "Or a custom live view we build"
           ],
-          "description": "Unlike QGenda, Scheduling Wizard is a done-for-you managed service. Submit your rules and receive a finished, publishable schedule as Excel or Google Sheets, or on a custom live view we build for you. No software to configure, no training required, no annual ramp-up when chiefs rotate. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Unlike QGenda, Scheduling Wizard is a done-for-you managed service. Submit your rules and receive a finished, publishable schedule as Excel or Google Sheets, or on a custom live view we build for you. No software to configure, no training required, no annual ramp-up when chiefs rotate. The schedules are built by our team, who do this full time."
         },
         {
           "id": "acgme-compliance",
@@ -87,7 +87,7 @@
             "No annual software retraining",
             "New chiefs start with a working system"
           ],
-          "description": "Your program's scheduling rules, requests and configurations stay with Scheduling Wizard year over year. When your chief residents rotate, incoming chiefs inherit a working schedule instead of a blank spreadsheet."
+          "description": "Your program's scheduling rules and requests stay written down with Scheduling Wizard year over year. When your chief residents rotate, incoming chiefs inherit a working schedule instead of a blank spreadsheet."
         },
         {
           "id": "block-scheduling",
@@ -98,7 +98,7 @@
             "Elective preferences factored in",
             "Coverage minimums held"
           ],
-          "description": "Scheduling Wizard generates year-long block rotation schedules that respect PGY-level requirements, elective preferences, coverage minimums, and ACGME rotation mandates, fully optimized, not manually assembled."
+          "description": "Scheduling Wizard generates year-long block rotation schedules that respect PGY-level requirements, elective preferences, coverage minimums, and ACGME rotation mandates, built to those rules rather than assembled by hand."
         },
         {
           "id": "cross-schedule-resolution",
@@ -124,7 +124,7 @@
         }
       ],
       "title": "What Scheduling Wizard Takes Off Your Plate",
-      "description": "Scheduling Wizard handles schedule creation and optimization end-to-end so your team focuses on running the program, not operating software."
+      "description": "Scheduling Wizard handles the schedule building end-to-end so your team focuses on running the program, not operating software."
     },
     "problems": {
       "items": [

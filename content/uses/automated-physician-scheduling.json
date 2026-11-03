@@ -11,7 +11,7 @@
     "cta": {
       "title": "Get Your Physician Schedules Done Right",
       "buttonText": "Book a call",
-      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join 30+ departments across 20+ hospitals and practices that have us build their call, block, clinic and shift schedules."
+      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join the 30+ departments that have us build their call, block, clinic and shift schedules."
     },
     "faq": [
       {
@@ -27,11 +27,11 @@
         "question": "Who handles the scheduling process at Scheduling Wizard?"
       },
       {
-        "answer": "When unplanned changes occur, such as sick leave, parental leave, or resident swaps, Scheduling Wizard can rebuild the affected portions of the schedule without reshuffling the entire year. Rule configurations are retained, so mid-year revisions process against the same rules that governed the original schedule.",
+        "answer": "When unplanned changes occur, such as sick leave, parental leave, or a coverage change, Scheduling Wizard can rebuild the affected portions of the schedule without reshuffling the entire year. Rule configurations are retained, so mid-year revisions process against the same rules that governed the original schedule.",
         "question": "How does automated scheduling handle mid-year changes or resident absences?"
       },
       {
-        "answer": "Yes. Many Scheduling Wizard clients continue using the platform they already have for day-to-day schedule access. Scheduling Wizard handles the schedule creation and optimization, delivering finished schedules as Excel or Google Sheets, or on a custom live view we build for you, ready for their existing viewing platform. The two tools serve different parts of the scheduling workflow.",
+        "answer": "Yes. Many Scheduling Wizard clients continue using the platform they already have for day-to-day schedule access. Scheduling Wizard handles the schedule building, delivering finished schedules as Excel or Google Sheets, or on a custom live view we build for you, ready for their existing viewing platform. The two tools serve different parts of the scheduling workflow.",
         "question": "Can Scheduling Wizard work alongside your existing platform?"
       },
       {
@@ -41,7 +41,7 @@
     ],
     "hero": {
       "title": "Automated Physician Scheduling Without the Software",
-      "description": "Automated, in the sense that you do none of it. You send us your rules and requests, however granular; our mathematicians build the schedule and send it back finished."
+      "description": "Automated, in the sense that you do none of it. You send us your rules and requests, however granular; our team builds the schedule and send it back finished."
     },
     "features": {
       "items": [
@@ -65,7 +65,7 @@
             "Delivered ready to publish",
             "Expert schedulers handle optimization"
           ],
-          "description": "Programs submit their rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you. No software licenses, no onboarding, no learning curve. Our schedulers handle everything. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Programs submit their rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you. No software licenses, no onboarding, no learning curve. Our schedulers handle everything. The schedules are built by our team, who do this full time."
         },
         {
           "id": "acgme-compliance",
@@ -98,7 +98,7 @@
             "No annual rebuild required",
             "New chiefs start with a working schedule"
           ],
-          "description": "Your program's rules, requests, and scheduling configurations live with Scheduling Wizard year over year. Incoming chiefs inherit a working system instead of rebuilding automated physician scheduling logic from scratch."
+          "description": "Your program's rules and requests are written down and kept with Scheduling Wizard year over year. Incoming chiefs inherit the written rule set and last year's schedule instead of rebuilding automated physician scheduling logic from scratch."
         },
         {
           "id": "block-scheduling",

@@ -11,7 +11,7 @@
     "cta": {
       "title": "Stop Running Schedules on Spreadsheets",
       "buttonText": "Book a call",
-      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join 30+ departments across 20+ hospitals and practices that have us build their call, block, clinic and shift schedules."
+      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join the 30+ departments that have us build their call, block, clinic and shift schedules."
     },
     "faq": [
       {
@@ -23,7 +23,7 @@
         "question": "How do you handle ACGME duty hours?"
       },
       {
-        "answer": "Most healthcare staff scheduling software is self-service; you buy it, learn it, and operate it yourself. Scheduling Wizard is a managed service. Programs submit their rules and our schedulers deliver a finished, ready-to-publish schedule. There is no platform to log into and no software to maintain. Many Scheduling Wizard clients also use the platform they already have alongside it. Scheduling Wizard handles schedule creation and optimization, while the platform you already use handles day-to-day schedule viewing.",
+        "answer": "Most healthcare staff scheduling software is self-service; you buy it, learn it, and operate it yourself. Scheduling Wizard is a managed service. Programs submit their rules and our schedulers deliver a finished, ready-to-publish schedule. There is no platform to log into and no software to maintain. Many Scheduling Wizard clients also use the platform they already have alongside it. Scheduling Wizard handles the schedule building, while the platform you already use handles day-to-day schedule viewing.",
         "question": "How is Scheduling Wizard different from other healthcare staff scheduling software?"
       },
       {
@@ -31,11 +31,11 @@
         "question": "What types of schedules does Scheduling Wizard generate?"
       },
       {
-        "answer": "With traditional healthcare staff scheduling software, institutional scheduling knowledge often leaves when a chief rotates out. With Scheduling Wizard, your program's rules, requests, and configurations are retained by the service year over year. Incoming chief residents inherit a working, optimized system and do not need to rebuild scheduling logic from scratch. This continuity is a core part of the managed service model.",
+        "answer": "With traditional healthcare staff scheduling software, institutional scheduling knowledge often leaves when a chief rotates out. With Scheduling Wizard, your program's rules, requests, and configurations are retained by the service year over year. Incoming chief residents inherit the written rule set and last year's schedule and do not need to rebuild scheduling logic from scratch. This continuity is a core part of the managed service model.",
         "question": "What happens to our scheduling setup when a new chief resident takes over?"
       },
       {
-        "answer": "Physician and advanced practice provider schedules, for residency and fellowship programs, provider groups and private practices. On the GME side that means chief residents, program directors, coordinators and GME offices; on the group side, practice administrators and managing partners. We currently serve 30+ departments across 20+ hospitals and practices.",
+        "answer": "Physician and advanced practice provider schedules, for residency and fellowship programs, provider groups and private practices. On the GME side that means chief residents, program directors, coordinators and GME offices; on the group side, practice administrators and managing partners. We currently serve 30+ departments.",
         "question": "Who is Scheduling Wizard designed for?"
       }
     ],
@@ -65,7 +65,7 @@
             "Finished schedules as Excel or Google Sheets, or on a custom live view we build for you",
             "Expert schedulers handle optimization"
           ],
-          "description": "Programs submit their rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you ready to publish. No platform to log into, no software to learn, no annual retraining when a new chief takes over. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Programs submit their rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you ready to publish. No platform to log into, no software to learn, no annual retraining when a new chief takes over. The schedules are built by our team, who do this full time."
         },
         {
           "id": "institutional-continuity",
@@ -76,7 +76,7 @@
             "No knowledge lost at transition",
             "New chiefs start with a working schedule"
           ],
-          "description": "Your program's scheduling rules, requests, and configurations persist with Scheduling Wizard year over year. Incoming chiefs inherit a working, optimized system instead of rebuilding from a blank spreadsheet."
+          "description": "Your program's scheduling rules and requests stay written down with Scheduling Wizard year over year. Incoming chiefs inherit the written rule set and last year's schedule instead of rebuilding from a blank spreadsheet."
         },
         {
           "id": "fairness-optimization",

@@ -11,7 +11,7 @@
     "cta": {
       "title": "Get Your On Call Schedule Done Right",
       "buttonText": "Book a call",
-      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join 30+ departments across 20+ hospitals and practices that have us build their call, block, clinic and shift schedules."
+      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join the 30+ departments that have us build their call, block, clinic and shift schedules."
     },
     "faq": [
       {
@@ -31,11 +31,11 @@
         "question": "What makes Scheduling Wizard different from self-service scheduling software?"
       },
       {
-        "answer": "Yes. Scheduling Wizard handles mid-year revisions including sick leave, parental leave, resident swaps, and new rules. Affected portions of the on-call schedule are rebuilt without disrupting the rest of the schedule, so programs do not need to manually reshuffle assignments every time something changes.",
+        "answer": "Yes. Scheduling Wizard handles mid-year revisions including sick leave, parental leave, coverage changes, and new rules. Affected portions of the on-call schedule are rebuilt without disrupting the rest of the schedule, so programs do not need to manually reshuffle assignments every time something changes.",
         "question": "Can Scheduling Wizard handle mid-year changes to the on call schedule?"
       },
       {
-        "answer": "When chiefs change annually, scheduling knowledge typically disappears with them. With Scheduling Wizard, your program's rules, requests, and scheduling configurations are retained by the service year over year. Incoming chief residents inherit a working, optimized on-call scheduling system instead of rebuilding everything from scratch each year.",
+        "answer": "When chiefs change annually, scheduling knowledge typically disappears with them. With Scheduling Wizard, your program's rules and requests are written down and kept year over year. Incoming chief residents inherit the written rule set and last year's schedule instead of rebuilding everything from scratch each year.",
         "question": "How does institutional knowledge persist when chief residents rotate annually?"
       }
     ],
@@ -87,7 +87,7 @@
             "Delivered as Excel or Google Sheets, or on a custom live view we build for you",
             "No platform or software to learn"
           ],
-          "description": "Scheduling Wizard is a done-for-you managed service. Programs submit their rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Scheduling Wizard is a done-for-you managed service. Programs submit their rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by our team, who do this full time."
         },
         {
           "id": "institutional-continuity",
@@ -98,7 +98,7 @@
             "No annual rebuilding required",
             "New chiefs start with a working schedule"
           ],
-          "description": "Your program's rules, requests, and scheduling logic stay with Scheduling Wizard year over year. Incoming chiefs inherit a working, optimized on-call system instead of starting from scratch with a blank spreadsheet."
+          "description": "Your program's rules and requests stay written down with Scheduling Wizard year over year. Incoming chiefs inherit the written rule set and last year's schedule instead of starting from scratch with a blank spreadsheet."
         },
         {
           "id": "resident-preferences",

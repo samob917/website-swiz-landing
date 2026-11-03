@@ -11,7 +11,7 @@
     "cta": {
       "title": "Stop Rebuilding Schedules From Scratch",
       "buttonText": "Book a call",
-      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join 30+ departments across 20+ hospitals and practices that have us build their call, block, clinic and shift schedules."
+      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join the 30+ departments that have us build their call, block, clinic and shift schedules."
     },
     "faq": [
       {
@@ -31,11 +31,11 @@
         "question": "What types of mid year changes can Scheduling Wizard accommodate?"
       },
       {
-        "answer": "No. Scheduling Wizard handles schedule creation and optimization, while programs keep using the platform they already have for day-to-day schedule viewing and access. Once Scheduling Wizard delivers the revised schedule, your team can upload it directly to whichever viewing platform your program already uses. The two tools serve different purposes and work alongside each other.",
+        "answer": "No. Scheduling Wizard handles the schedule building, while programs keep using the platform they already have for day-to-day schedule viewing and access. Once Scheduling Wizard delivers the revised schedule, your team can upload it directly to whichever viewing platform your program already uses. The two tools serve different purposes and work alongside each other.",
         "question": "Do we need to switch away from the platform we use now to use Scheduling Wizard?"
       },
       {
-        "answer": "Scheduling knowledge, program rules, and rule configurations persist with Scheduling Wizard year over year. When a new chief resident takes over, they inherit a working, optimized system rather than starting from a blank spreadsheet. This institutional continuity is a core part of the managed service model and eliminates the annual knowledge loss that occurs when chief rotations happen.",
+        "answer": "Program rules and the reasons behind them are written down and kept with Scheduling Wizard year over year. When a new chief resident takes over, they inherit the written rule set and last year's schedule rather than starting from a blank spreadsheet. This institutional continuity is a core part of the managed service model and eliminates the annual knowledge loss that occurs when chief rotations happen.",
         "question": "How does Scheduling Wizard preserve scheduling knowledge when chief residents change?"
       }
     ],

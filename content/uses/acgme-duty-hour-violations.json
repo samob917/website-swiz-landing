@@ -11,7 +11,7 @@
     "cta": {
       "title": "Stop Checking the Schedule After You Build It",
       "buttonText": "Book a call",
-      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join 30+ departments across 20+ hospitals and practices that have us build their call, block, clinic and shift schedules."
+      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join the 30+ departments that have us build their call, block, clinic and shift schedules."
     },
     "faq": [
       {
@@ -31,7 +31,7 @@
         "question": "Does Scheduling Wizard know the ACGME rules for my specific subspecialty?"
       },
       {
-        "answer": "Schedules are delivered as Excel or Google Sheets files. If you want one, we can also build a custom live viewing link for your program, designed around your schedules. Many Scheduling Wizard clients upload these finished files directly into your existing platform for day-to-day viewing and access. Scheduling Wizard handles the schedule creation and optimization, while you publish it where you already do. There is no new software for your program to learn or operate.",
+        "answer": "Schedules are delivered as Excel or Google Sheets files. If you want one, we can also build a custom live viewing link for your program, designed around your schedules. Many Scheduling Wizard clients upload these finished files directly into your existing platform for day-to-day viewing and access. Scheduling Wizard handles the schedule building, while you publish it where you already do. There is no new software for your program to learn or operate.",
         "question": "How are schedules delivered and can we use them with your existing platform?"
       },
       {
@@ -76,7 +76,7 @@
             "Finished schedules delivered as Excel",
             "Expert schedulers handle optimization"
           ],
-          "description": "Programs submit their rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you. There is no software to learn, no compliance checklist to run manually, and no reliance on a chief resident's institutional memory. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Programs submit their rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you. There is no software to learn, no compliance checklist to run manually, and no reliance on a chief resident's institutional memory. The schedules are built by our team, who do this full time."
         },
         {
           "id": "institutional-continuity",
@@ -85,9 +85,9 @@
           "highlights": [
             "Rules retained across chief rotations",
             "No knowledge lost year to year",
-            "New chiefs inherit a working system"
+            "New chiefs inherit the written rule set and last year's schedule"
           ],
-          "description": "ACGME duty hour rules and program-specific rules are retained by Scheduling Wizard across annual chief rotations. New chiefs inherit a working, compliant system instead of rebuilding from a blank spreadsheet."
+          "description": "ACGME duty hour rules and program-specific rules are written down and kept across chief rotations. New chiefs inherit the written rule set and last year's schedule."
         },
         {
           "id": "conflict-detection",

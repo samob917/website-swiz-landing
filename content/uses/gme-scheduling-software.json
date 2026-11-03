@@ -11,7 +11,7 @@
     "cta": {
       "title": "Stop Losing Time to GME Scheduling",
       "buttonText": "Book a call",
-      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join 30+ departments across 20+ hospitals and practices that have us build their call, block, clinic and shift schedules."
+      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join the 30+ departments that have us build their call, block, clinic and shift schedules."
     },
     "faq": [
       {
@@ -27,7 +27,7 @@
         "question": "What types of schedules does Scheduling Wizard generate for GME programs?"
       },
       {
-        "answer": "Yes. Scheduling Wizard handles schedule creation and optimization, while many clients continue using the platform they already have for day-to-day schedule access. Finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you that can be uploaded directly into whichever platform your program already uses. There is no need to switch away from the platform you use now.",
+        "answer": "Yes. Scheduling Wizard handles the schedule building, while many clients continue using the platform they already have for day-to-day schedule access. Finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you that can be uploaded directly into whichever platform your program already uses. There is no need to switch away from the platform you use now.",
         "question": "Can Scheduling Wizard work alongside your existing platform?"
       },
       {
@@ -65,7 +65,7 @@
             "Delivered as Excel, Sheets or a live view",
             "Expert schedulers handle optimization"
           ],
-          "description": "Scheduling Wizard operates as a fully managed service for GME programs. Submit your rules and receive finished schedules as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Scheduling Wizard operates as a fully managed service for GME programs. Submit your rules and receive finished schedules as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by our team, who do this full time."
         },
         {
           "id": "acgme-compliance",
@@ -87,7 +87,7 @@
             "No annual retraining required",
             "New chiefs inherit working system"
           ],
-          "description": "Your program's rules, requests, and configurations are retained by Scheduling Wizard year over year. Incoming chief residents inherit a fully optimized, working system instead of starting from a blank spreadsheet."
+          "description": "Your program's rules and requests are written down and kept year over year. Incoming chief residents inherit the written rule set and last year's schedule."
         },
         {
           "id": "block-scheduling",

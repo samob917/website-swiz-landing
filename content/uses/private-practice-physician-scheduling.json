@@ -11,11 +11,11 @@
     "cta": {
       "title": "Get Your Physician Schedule Done Right",
       "buttonText": "Book a call",
-      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join 30+ departments across 20+ hospitals and practices that have us build their call, block, clinic and shift schedules."
+      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join the 30+ departments that have us build their call, block, clinic and shift schedules."
     },
     "faq": [
       {
-        "answer": "A managed scheduling service means your practice submits its rules and requirements, and an expert team handles the schedule creation and optimization on your behalf. Scheduling Wizard takes your physician availability, coverage requirements, and preferences, has a team that does this full time build it, and delivers a finished physician schedule as Excel or Google Sheets, or on a custom live view we build for you. Your practice gets an optimized result without needing to learn or operate any scheduling software.",
+        "answer": "A managed scheduling service means your practice submits its rules and requirements, and an expert team handles the schedule building on your behalf. Scheduling Wizard takes your physician availability, coverage requirements, and preferences, has a team that does this full time build it, and delivers a finished physician schedule as Excel or Google Sheets, or on a custom live view we build for you. Your practice gets an optimized result without needing to learn or operate any scheduling software.",
         "question": "What is a managed scheduling service for private practice physicians?"
       },
       {
@@ -65,7 +65,7 @@
             "Rules submitted, schedules returned",
             "Delivered as Excel or Google Sheets, or on a custom live view we build for you"
           ],
-          "description": "Submit your practice rules, physician preferences, and coverage requirements. Scheduling Wizard's expert team handles the optimization and delivers finished schedules as Excel or Google Sheets, or on a custom live view we build for you your practice can use immediately. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Submit your practice rules, physician preferences, and coverage requirements. Scheduling Wizard's expert team builds the schedule and delivers finished schedules as Excel or Google Sheets, or on a custom live view we build for you your practice can use immediately. The schedules are built by our team, who do this full time."
         },
         {
           "id": "coverage-optimization",

@@ -11,11 +11,11 @@
     "cta": {
       "title": "Get Your ACGME Compliant Schedule Done Right",
       "buttonText": "Book a call",
-      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join 30+ departments across 20+ hospitals and practices that have us build their call, block, clinic and shift schedules."
+      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join the 30+ departments that have us build their call, block, clinic and shift schedules."
     },
     "faq": [
       {
-        "answer": "ACGME compliant scheduling software is a tool or service that generates residency and fellowship schedules while building the ACGME duty hour requirements in, including the 80-hour weekly limit, minimum rest periods, and the 24-hour cap on continuous scheduled work. Scheduling Wizard goes further by building subspecialty-specific ACGME rules into the schedule itself, so the requirements shape the schedule rather than being checked for afterwards.",
+        "answer": "ACGME compliant scheduling software is a tool or service that generates residency and fellowship schedules while building the ACGME duty hour requirements in, including the 80-hour weekly limit, minimum rest periods, and the 24-hour cap on continuous scheduled work. Scheduling Wizard goes further by building the subspecialty requirements you tell us apply into the schedule itself, so the requirements shape the schedule rather than being checked for afterwards.",
         "question": "What is ACGME compliant scheduling software?"
       },
       {
@@ -27,7 +27,7 @@
         "question": "Does Scheduling Wizard stay current with ACGME duty hour requirements?"
       },
       {
-        "answer": "No. Scheduling Wizard handles schedule creation and optimization, while the platform you already use handles day-to-day schedule viewing and access. Many Scheduling Wizard clients continue using the platform they already have alongside the service. Scheduling Wizard delivers finished schedules as Excel or Google Sheets, or on a custom live view we build for you, which programs can upload directly to their existing viewing platform.",
+        "answer": "No. Scheduling Wizard handles the schedule building, while the platform you already use handles day-to-day schedule viewing and access. Many Scheduling Wizard clients continue using the platform they already have alongside the service. Scheduling Wizard delivers finished schedules as Excel or Google Sheets, or on a custom live view we build for you, which programs can upload directly to their existing viewing platform.",
         "question": "Do I need to replace the platform we use now to use Scheduling Wizard?"
       },
       {
@@ -76,7 +76,7 @@
             "Delivered as Excel or Google Sheets, or on a custom live view we build for you",
             "Expert schedulers handle optimization"
           ],
-          "description": "Programs submit their rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you. There is no platform to log into, no software to learn, and no training required when your chief residents rotate. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Programs submit their rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you. There is no platform to log into, no software to learn, and no training required when your chief residents rotate. The schedules are built by our team, who do this full time."
         },
         {
           "id": "institutional-continuity",
@@ -87,7 +87,7 @@
             "No annual retraining required",
             "Institutional knowledge preserved"
           ],
-          "description": "Your program's ACGME rules, rule configurations, and scheduling logic are retained by Scheduling Wizard across annual chief rotations. New chiefs inherit a working, optimized system instead of rebuilding compliance from scratch."
+          "description": "The rules you gave us, ACGME and local, are written down and kept across chief rotations. New chiefs inherit the written rule set and last year's schedule."
         },
         {
           "id": "block-scheduling",

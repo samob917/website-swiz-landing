@@ -11,7 +11,7 @@
     "cta": {
       "title": "Stop Building Call Schedules by Hand",
       "buttonText": "Book a call",
-      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join 30+ departments across 20+ hospitals and practices that have us build their call, block, clinic and shift schedules."
+      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join the 30+ departments that have us build their call, block, clinic and shift schedules."
     },
     "faq": [
       {
@@ -27,15 +27,15 @@
         "question": "Can Scheduling Wizard handle call schedules for my specific medical subspecialty?"
       },
       {
-        "answer": "Yes, and many Scheduling Wizard clients use exactly this combination. Scheduling Wizard handles the creation and optimization of your call schedule. The finished schedule is delivered as Excel or Google Sheets, or on a custom live view we build for you, ready for whatever platform you already uses for day-to-day schedule access. You do not need to change your existing viewing workflow.",
+        "answer": "Yes, and many Scheduling Wizard clients use exactly this combination. Scheduling Wizard handles the building of your call schedule. The finished schedule is delivered as Excel or Google Sheets, or on a custom live view we build for you, ready for whatever platform you already uses for day-to-day schedule access. You do not need to change your existing viewing workflow.",
         "question": "Will Scheduling Wizard work alongside your existing platform?"
       },
       {
-        "answer": "Mid-year changes such as sick leave, emergency absences, or swap requests are handled as part of the managed service. Scheduling Wizard processes the updated rules and rebuilds the affected portion of the call schedule without disrupting the rest of the year. Your program receives an updated schedule rather than spending hours manually reshuffling assignments.",
+        "answer": "Mid-year changes such as sick leave, emergency absences, or a rotation change are handled as part of the managed service. Day-to-day swaps between two residents stay with the program; we rebuild when the change is bigger than that. Those rebuilds are handled as part of the service. Scheduling Wizard processes the updated rules and rebuilds the affected portion of the call schedule without disrupting the rest of the year. Your program receives an updated schedule rather than spending hours manually reshuffling assignments.",
         "question": "What happens when a resident needs a last-minute call schedule change?"
       },
       {
-        "answer": "Scheduling Wizard primarily serves chief residents, program directors, program coordinators, and GME offices at residency and fellowship programs. Chief residents benefit most from not having to build or maintain call schedules themselves. Program directors benefit from ACGME compliance confidence and the elimination of annual knowledge loss when chiefs rotate out. Scheduling Wizard is currently serving 30+ departments across 20+ hospitals and practices.",
+        "answer": "Scheduling Wizard primarily serves chief residents, program directors, program coordinators, and GME offices at residency and fellowship programs. Chief residents benefit most from not having to build or maintain call schedules themselves. Program directors benefit from ACGME compliance confidence and the elimination of annual knowledge loss when chiefs rotate out. Scheduling Wizard is currently serving 30+ departments.",
         "question": "Who typically uses Scheduling Wizard for call scheduling?"
       }
     ],
@@ -87,7 +87,7 @@
             "Delivered ready to publish",
             "Or a custom live view we build"
           ],
-          "description": "There is no platform to log into and no software to train your chiefs on. Submit your rules, and Scheduling Wizard's expert schedulers deliver a finished call schedule as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "There is no platform to log into and no software to train your chiefs on. Submit your rules, and Scheduling Wizard's expert schedulers deliver a finished call schedule as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by our team, who do this full time."
         },
         {
           "id": "institutional-continuity",
@@ -98,7 +98,7 @@
             "New chiefs start with a working schedule",
             "Rules preserved across rotations"
           ],
-          "description": "Your program's rules, requests, and scheduling configurations stay with Scheduling Wizard. When new chiefs take over, they inherit a working optimized system instead of rebuilding the call schedule from a blank spreadsheet."
+          "description": "Your program's rules and requests stay written down with Scheduling Wizard. When new chiefs take over, they inherit the written rule set and last year's schedule instead of rebuilding the call schedule from a blank spreadsheet."
         },
         {
           "id": "resident-preferences",

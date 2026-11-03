@@ -11,7 +11,7 @@
     "cta": {
       "title": "Ready to Hand Over the Build?",
       "buttonText": "Book a call",
-      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join 30+ departments across 20+ hospitals and practices that have us build their call, block, clinic and shift schedules."
+      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join the 30+ departments that have us build their call, block, clinic and shift schedules."
     },
     "faq": [
       {
@@ -19,7 +19,7 @@
         "question": "What makes Scheduling Wizard different from Amion?"
       },
       {
-        "answer": "No. Scheduling Wizard and Amion serve different functions and work together. Scheduling Wizard handles schedule creation and optimization. Your finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you that you can upload to your existing platform for day-to-day staff viewing, exactly as you do today. You keep your existing Amion workflow for publishing while Scheduling Wizard handles the build.",
+        "answer": "No. Scheduling Wizard and Amion serve different functions and work together. Scheduling Wizard handles the schedule building. Your finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you that you can upload to your existing platform for day-to-day staff viewing, exactly as you do today. You keep your existing Amion workflow for publishing while Scheduling Wizard handles the build.",
         "question": "Do I have to stop using Amion if I work with Scheduling Wizard?"
       },
       {
@@ -65,7 +65,7 @@
             "Finished schedules delivered to you",
             "Or a custom live view we build"
           ],
-          "description": "Unlike Amion's self-service model, Scheduling Wizard is a fully managed service. Submit your rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you with no software to operate or learn. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Unlike Amion's self-service model, Scheduling Wizard is a fully managed service. Submit your rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you with no software to operate or learn. The schedules are built by our team, who do this full time."
         },
         {
           "id": "acgme-compliance",
@@ -87,7 +87,7 @@
             "No annual restart from scratch",
             "Rules carry over year to year"
           ],
-          "description": "When a new chief takes over, your program's full rule set, rotation rules, and scheduling logic stay with Scheduling Wizard. New chiefs inherit a working system instead of rebuilding from a blank spreadsheet."
+          "description": "When a new chief takes over, your program's full rule set stays written down with Scheduling Wizard. New chiefs inherit the written rule set and last year's schedule instead of rebuilding from a blank spreadsheet."
         },
         {
           "id": "block-scheduling",
