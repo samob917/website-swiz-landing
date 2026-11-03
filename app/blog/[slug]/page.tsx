@@ -97,6 +97,10 @@ export default async function BlogPost({ params }: Props) {
       <article className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 bg-white">
         <div className="relative gap-14">
           <div>
+            {image && (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img src={image} alt={title} className="mb-10 w-full rounded-2xl" />
+            )}
             <PostContent content={content} title={title} />
 
             {tags && tags.length > 0 && (
