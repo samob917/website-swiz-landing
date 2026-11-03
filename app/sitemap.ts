@@ -2,6 +2,10 @@ import type { MetadataRoute } from "next";
 import { getSiteConfig } from "@/lib/engine/resolve-site";
 import { getAllUsesData } from "@/lib/engine/resolve-uses";
 import { getAllPosts } from "@/lib/blog/resolve-blog";
+import siteJson from "@/content/site.json";
+
+// Mirrors the switch in next.config.mjs; getAllPosts is already empty when off.
+const blogLive = siteJson.blogLive === true || process.env.BLOG_LIVE === "true";
 
 // Revalidate hourly so newly added pages appear without a redeploy.
 export const revalidate = 3600;
@@ -25,7 +29,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     { url: `${base}/team`, lastModified: STATIC_ROUTES_UPDATED, changeFrequency: "monthly", priority: 0.6 },
     { url: `${base}/contact`, lastModified: STATIC_ROUTES_UPDATED, changeFrequency: "monthly", priority: 0.8 },
     { url: `${base}/privacy`, lastModified: STATIC_ROUTES_UPDATED, changeFrequency: "yearly", priority: 0.3 },
-    { url: `${base}/blog`, lastModified: STATIC_ROUTES_UPDATED, changeFrequency: "weekly", priority: 0.8 },
+    ...(blogLive ? [{ url: `${base}/blog`, lastModified: STATIC_ROUTES_UPDATED, changeFrequency: "weekly" as const, priority: 0.8 }] : []),
   ];
 
   // /uses/[slug] detail pages, sourced from content/uses/*.json.

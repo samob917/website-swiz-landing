@@ -10,6 +10,7 @@
 
 import fs from "node:fs"
 import path from "node:path"
+import site from "@/content/site.json"
 
 export interface BlogPost {
   slug: string
@@ -28,6 +29,10 @@ export interface BlogPost {
 const DIR = path.join(process.cwd(), "content", "blog")
 
 function readAll(): BlogPost[] {
+  // content/site.json "blogLive" is the one switch for the blog. Off, no
+  // post exists anywhere on the site: not on /blog (which redirects home in
+  // next.config.mjs), not in the sitemap, not in a use page's further reading.
+  if (site.blogLive !== true && process.env.BLOG_LIVE !== "true") return []
   let files: string[] = []
   try {
     files = fs.readdirSync(DIR).filter((f) => f.endsWith(".json"))
