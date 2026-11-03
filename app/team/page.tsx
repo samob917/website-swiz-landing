@@ -1,5 +1,7 @@
 "use client"
 
+import { useRunDownTo } from "@/lib/use-run-down"
+
 import Image from "next/image"
 
 const teamMembers = [
@@ -50,6 +52,7 @@ const teamMembers = [
 ]
 
 export default function TeamPage() {
+  useRunDownTo("team-grid")
   const scrollToContent = () => {
     window.scrollTo({ top: window.innerHeight, behavior: 'smooth' })
   }
@@ -89,7 +92,7 @@ export default function TeamPage() {
       </section>
 
       {/* Team Grid */}
-      <section className="bg-white py-20">
+      <section id="team-grid" className="bg-white py-20">
         <div className="max-w-6xl mx-auto px-8">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 justify-items-center">
             {teamMembers.map((member, index) => (
