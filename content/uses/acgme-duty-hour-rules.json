@@ -15,7 +15,7 @@
     },
     "faq": [
       {
-        "answer": "ACGME duty hour rules set limits on resident working time to protect patients and residents. The core requirements: an 80-hour weekly limit averaged over four weeks, eight hours off between scheduled duty periods, at least 14 hours free after 24 hours of in-house call, a 24-hour cap on continuous clinical work with up to four additional hours for transitions, one day off in seven averaged over four weeks, and in-house call no more often than every third night. Since 2017 these apply to all PGY levels. Specialty Program Requirements add to them.",
+        "answer": "ACGME duty hour rules set limits on resident working time to protect patients and residents. The core requirements: an 80-hour weekly limit averaged over four weeks, eight hours off between scheduled duty periods (which the requirements word as a should rather than a must), at least 14 hours free after 24 hours of in-house call, a 24-hour cap on continuous clinical work with up to four additional hours for transitions, one day off in seven averaged over four weeks, and in-house call no more often than every third night averaged over four weeks. Since 2017 the 24-hour cap has applied at every PGY level; the old 16-hour PGY-1 limit is gone. Specialty Program Requirements add to them.",
         "question": "What are the ACGME duty hour rules for residents?"
       },
       {
@@ -31,7 +31,7 @@
         "question": "What are the most common ACGME duty hour violations?"
       },
       {
-        "answer": "While all ACGME-accredited programs share core duty hour requirements, subspecialties have additional or modified rules, for example, surgery programs have supervision and case requirements that shape call, while pediatrics programs lean on home call. We build the subspecialty-specific ACGME rules in, so your schedule reflects the rules that actually apply to your program rather than a one-size-fits-all interpretation.",
+        "answer": "While all ACGME-accredited programs share core duty hour requirements, subspecialties have additional or modified rules, for example, surgery programs have case requirements that shape rotations, and specialties that rely on at-home call have their own rules for how that time counts. We build the subspecialty-specific ACGME rules in, so your schedule reflects the rules that actually apply to your program rather than a one-size-fits-all interpretation.",
         "question": "How do subspecialty ACGME duty hour rules differ across programs?"
       },
       {
@@ -98,7 +98,7 @@
             "ACGME rotation requirements applied",
             "Multi-track programs supported"
           ],
-          "description": "Year-long block and rotation schedules are generated to satisfy PGY-level requirements, rotation mandates, and ACGME duty hour rules simultaneously, across every resident in your program."
+          "description": "Year-long block and rotation schedules are built to satisfy PGY-level requirements, rotation mandates, and ACGME duty hour rules simultaneously, across every resident in your program."
         },
         {
           "id": "call-scheduling",
