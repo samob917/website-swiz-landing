@@ -77,7 +77,7 @@ export default function HomePage() {
           </h1>
 
           <p className="text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-white/90 max-w-5xl mx-auto mb-8 md:mb-12 leading-relaxed px-2">
-            We save GME programs and provider groups hundreds of hours through our professional service approach to <span className="text-yellow-400 font-semibold">call, clinic and block schedule creation.</span>
+            We save GME programs and provider groups hundreds of hours through our unique service-based approach to <span className="text-yellow-400 font-semibold">call, clinic and block schedule creation.</span>
           </p>
 
           <div className="mb-10 md:mb-12">
