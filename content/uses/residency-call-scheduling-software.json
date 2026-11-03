@@ -31,7 +31,7 @@
         "question": "Will Scheduling Wizard work alongside your existing platform?"
       },
       {
-        "answer": "Mid-year changes such as sick leave, emergency absences, or a rotation change are handled as part of the managed service. Day-to-day swaps between two residents stay with the program; we rebuild when the change is bigger than that. Those rebuilds are handled as part of the service. Scheduling Wizard processes the updated rules and rebuilds the affected portion of the call schedule without disrupting the rest of the year. Your program receives an updated schedule rather than spending hours manually reshuffling assignments.",
+        "answer": "Mid-year changes such as sick leave, emergency absences, or a rotation change are handled as part of the managed service. Scheduling Wizard processes the updated rules and rebuilds the affected portion of the call schedule without disrupting the rest of the year. Your program receives an updated schedule rather than spending hours manually reshuffling assignments.",
         "question": "What happens when a resident needs a last-minute call schedule change?"
       },
       {
