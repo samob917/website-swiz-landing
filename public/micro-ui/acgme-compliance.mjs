@@ -330,29 +330,6 @@ const summaryRow = h(
     },
     "all held",
   ),
-  h(
-    "span",
-    {
-      display: "flex",
-      fontSize: "12px",
-      fontWeight: 500,
-      color: "#9ca3af",
-      marginLeft: "8px",
-      marginRight: "8px",
-    },
-    "·",
-  ),
-  h(
-    "span",
-    {
-      display: "flex",
-      fontSize: "12px",
-      fontWeight: 600,
-      color: "#6b7280",
-      letterSpacing: "0.01em",
-    },
-    "",
-  ),
 );
 
 // --- Footer caption ---
@@ -375,7 +352,7 @@ const footerCaption = h(
       letterSpacing: "0.01em",
       lineHeight: "1.4",
     },
-    "Rules applied as the schedule is built, not checked afterwards.",
+    "Rules applied as the schedule is built.",
   ),
 );
 

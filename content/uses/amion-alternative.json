@@ -5,7 +5,7 @@
   "title": "Amion Alternative | We Build It, You Keep Amion",
   "description": "Amion alternative for GME programs? Scheduling Wizard is a managed service that builds the schedule for you.",
   "h1": "Amion Manages Your Schedule. We Build It.",
-  "paragraph": "Keep Amion for the day to day. Scheduling Wizard builds the schedules built to the ACGME requirements you upload to it, no migration, no software to learn.",
+  "paragraph": "You can keep Amion for the day to day. Scheduling Wizard builds the schedules you upload to it, to the ACGME requirements, no migration, no software to learn.",
   "category": "competitor",
   "data": {
     "cta": {
@@ -41,7 +41,7 @@
     ],
     "hero": {
       "title": "Amion Manages Your Schedule. We Build It.",
-      "description": "Keep Amion for the day to day. Send us your block, call and clinic rules, the ACGME ones and the local ones, and we build the schedule you upload to it."
+      "description": "You can keep Amion for the day to day. Send us your block, call and clinic rules, the ACGME ones and the local ones, and we build the schedule you upload to it, or a live view if you would rather have one."
     },
     "features": {
       "items": [
