@@ -11,7 +11,7 @@
     "cta": {
       "title": "Stop Searching for Software. Get Schedules Done.",
       "buttonText": "Book a call",
-      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join 30+ departments across 20+ hospitals and practices that have us build their call, block, clinic and shift schedules."
+      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join the 30+ departments that have us build their call, block, clinic and shift schedules."
     },
     "faq": [
       {
@@ -27,7 +27,7 @@
         "question": "What types of physician schedules does Scheduling Wizard produce?"
       },
       {
-        "answer": "Yes. Many Scheduling Wizard clients continue using the platform they already have for day-to-day schedule access. Scheduling Wizard handles the schedule creation and optimization, delivering finished schedules as Excel or Google Sheets, or on a custom live view we build for you that your team can upload directly into your existing viewing platform. The two workflows are complementary, not mutually exclusive.",
+        "answer": "Yes. Many Scheduling Wizard clients continue using the platform they already have for day-to-day schedule access. Scheduling Wizard handles the schedule building, delivering finished schedules as Excel or Google Sheets, or on a custom live view we build for you that your team can upload directly into your existing viewing platform. The two workflows are complementary, not mutually exclusive.",
         "question": "Can Scheduling Wizard work alongside the tools you already use?"
       },
       {
@@ -35,7 +35,7 @@
         "question": "How does Scheduling Wizard handle subspecialty-specific ACGME scheduling rules?"
       },
       {
-        "answer": "Scheduling Wizard handles mid-year revisions as part of the managed service. When changes arise due to sick leave, parental leave, schedule swaps, or new rules, the affected portions of the schedule are rebuilt without disrupting the entire published schedule. Programs submit the updated rules and receive a revised schedule back, without needing to manually patch a spreadsheet or re-enter data into a software platform.",
+        "answer": "Scheduling Wizard handles mid-year revisions as part of the managed service. When changes arise due to sick leave, parental leave, coverage changes, or new rules, the affected portions of the schedule are rebuilt without disrupting the entire published schedule. Programs submit the updated rules and receive a revised schedule back, without needing to manually patch a spreadsheet or re-enter data into a software platform.",
         "question": "What happens when a physician schedule needs to change mid-year?"
       }
     ],
@@ -65,7 +65,7 @@
             "Finished schedules delivered",
             "Expert schedulers handle complexity"
           ],
-          "description": "Unlike self-service physician scheduling software, Scheduling Wizard handles the entire scheduling process. Submit your rules and receive finished schedules as Excel or Google Sheets, or on a custom live view we build for you, no software to operate, no learning curve, no annual retraining. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Unlike self-service physician scheduling software, Scheduling Wizard handles the entire scheduling process. Submit your rules and receive finished schedules as Excel or Google Sheets, or on a custom live view we build for you, no software to operate, no learning curve, no annual retraining. The schedules are built by our team, who do this full time."
         },
         {
           "id": "block-scheduling",
@@ -98,7 +98,7 @@
             "New chiefs hit the ground running",
             "No annual rebuild required"
           ],
-          "description": "Your program's scheduling rules, requests, and configurations stay with Scheduling Wizard year over year. New chief residents inherit a fully working, optimized system instead of rebuilding from a blank spreadsheet."
+          "description": "Your program's scheduling rules and requests stay written down with Scheduling Wizard year over year. New chief residents inherit the written rule set and last year's schedule instead of rebuilding from a blank spreadsheet."
         },
         {
           "id": "redrafts-included",

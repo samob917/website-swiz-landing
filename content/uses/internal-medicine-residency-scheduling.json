@@ -11,7 +11,7 @@
     "cta": {
       "title": "Get Your IM Schedule Done Right",
       "buttonText": "Book a call",
-      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join 30+ departments across 20+ hospitals and practices that have us build their call, block, clinic and shift schedules."
+      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join the 30+ departments that have us build their call, block, clinic and shift schedules."
     },
     "faq": [
       {
@@ -27,11 +27,11 @@
         "question": "What types of schedules does Scheduling Wizard produce for IM programs?"
       },
       {
-        "answer": "Your program's rules, requests, and configurations persist with Scheduling Wizard year over year. When a new chief resident takes over, they inherit a fully working, optimized system rather than starting from a blank spreadsheet. This institutional continuity is one of the core reasons programs choose Scheduling Wizard over self-service software.",
+        "answer": "Your program's rules and requests stay written down with Scheduling Wizard year over year. When a new chief resident takes over, they inherit the written rule set and last year's schedule rather than starting from a blank spreadsheet. This institutional continuity is one of the core reasons programs choose Scheduling Wizard over self-service software.",
         "question": "What happens to our scheduling setup when our chief resident changes?"
       },
       {
-        "answer": "Yes. Many Scheduling Wizard clients use the platform they already have alongside the service. Scheduling Wizard handles schedule creation and optimization, delivering finished schedules as Excel or Google Sheets, or on a custom live view we build for you. Programs then upload those files to their Amion accounts for day-to-day viewing and access. There is no conflict between the two.",
+        "answer": "Yes. Many Scheduling Wizard clients use the platform they already have alongside the service. Scheduling Wizard handles the schedule building, delivering finished schedules as Excel or Google Sheets, or on a custom live view we build for you. Programs then upload those files to their Amion accounts for day-to-day viewing and access. There is no conflict between the two.",
         "question": "Can Scheduling Wizard integrate with your existing platform for schedule viewing?"
       },
       {
@@ -98,7 +98,7 @@
             "Rules preserved across chief rotations",
             "New chiefs start with a working schedule"
           ],
-          "description": "Your internal medicine program's rules, requests, and configurations stay with Scheduling Wizard. Incoming chiefs inherit a fully optimized, working system instead of starting from scratch with a blank spreadsheet each academic year."
+          "description": "Your internal medicine program's rules and requests stay written down with Scheduling Wizard. Incoming chiefs inherit the written rule set and last year's schedule instead of starting from scratch with a blank spreadsheet each academic year."
         },
         {
           "id": "managed-service",
@@ -109,7 +109,7 @@
             "Delivered as Excel or Google Sheets, or on a custom live view we build for you",
             "Or a custom live view we build"
           ],
-          "description": "Scheduling Wizard is not software your chief residents have to learn. Submit your rules and receive finished IM schedules as Excel or Google Sheets, or on a custom live view we build for you, ready to review, approve, and upload to your existing publishing platform. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Scheduling Wizard is not software your chief residents have to learn. Submit your rules and receive finished IM schedules as Excel or Google Sheets, or on a custom live view we build for you, ready to review, approve, and upload to your existing publishing platform. The schedules are built by our team, who do this full time."
         },
         {
           "id": "redrafts-included",

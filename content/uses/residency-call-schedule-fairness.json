@@ -11,11 +11,11 @@
     "cta": {
       "title": "Get a Fair Call Schedule Built for You",
       "buttonText": "Book a call",
-      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join 30+ departments across 20+ hospitals and practices that have us build their call, block, clinic and shift schedules."
+      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join the 30+ departments that have us build their call, block, clinic and shift schedules."
     },
     "faq": [
       {
-        "answer": "Scheduling Wizard uses a team of mathematicians that distributes call, weekend, and holiday shifts equitably across all residents. Rather than manually counting and adjusting, our team treats fairness as one of the rules of the build, alongside the ACGME requirements. The call counts come back with the schedule, giving program leadership an objective, auditable basis for fairness decisions.",
+        "answer": "Scheduling Wizard uses a team that distributes call, weekend, and holiday shifts equitably across all residents. Rather than manually counting and adjusting, our team treats fairness as one of the rules of the build, alongside the ACGME requirements. The call counts come back with the schedule, giving program leadership an objective, auditable basis for fairness decisions.",
         "question": "How does Scheduling Wizard ensure residency call schedule fairness?"
       },
       {
@@ -31,11 +31,11 @@
         "question": "How is Scheduling Wizard different from self-service scheduling software?"
       },
       {
-        "answer": "Scheduling Wizard's expert schedulers work alongside mathematicians who do this full time to produce your finished schedule. Programs do not interact with any software interface. You submit your rules, and Scheduling Wizard handles the optimization and delivers completed schedules as Excel or Google Sheets, or on a custom live view we build for you.",
+        "answer": "Scheduling Wizard's expert schedulers do this full time to produce your finished schedule. Programs do not interact with any software interface. You submit your rules, and Scheduling Wizard builds the schedule and delivers completed schedules as Excel or Google Sheets, or on a custom live view we build for you.",
         "question": "Who builds the call schedules at Scheduling Wizard?"
       },
       {
-        "answer": "Scheduling Wizard handles schedule revisions as part of the managed service. When mid-year changes occur (such as leave, swaps, or new rules) the affected portions of the schedule are rebuilt while preserving the fairness balance and ACGME compliance of the overall call schedule, without manually reshuffling the entire roster.",
+        "answer": "Scheduling Wizard handles schedule revisions as part of the managed service. When mid-year changes occur (such as leave, coverage changes, or new rules) the affected portions of the schedule are rebuilt while preserving the fairness balance and ACGME compliance of the overall call schedule, without manually reshuffling the entire roster.",
         "question": "How does Scheduling Wizard handle changes to the call schedule mid-year?"
       }
     ],
@@ -109,7 +109,7 @@
             "No annual rebuild required",
             "Institutional knowledge preserved"
           ],
-          "description": "Scheduling Wizard retains your program's rule configurations and fairness rules year over year. Incoming chiefs inherit a working, optimized system instead of rebuilding call fairness logic from a blank spreadsheet."
+          "description": "Scheduling Wizard retains your program's rule configurations and fairness rules year over year. Incoming chiefs inherit the written rule set and last year's schedule instead of rebuilding call fairness logic from a blank spreadsheet."
         },
         {
           "id": "redrafts-included",

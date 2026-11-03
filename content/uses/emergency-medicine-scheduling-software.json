@@ -11,7 +11,7 @@
     "cta": {
       "title": "Get Your EM Schedules Done Right",
       "buttonText": "Book a call",
-      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join 30+ departments across 20+ hospitals and practices that have us build their call, block, clinic and shift schedules."
+      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join the 30+ departments that have us build their call, block, clinic and shift schedules."
     },
     "faq": [
       {
@@ -27,7 +27,7 @@
         "question": "What types of EM schedules does Scheduling Wizard generate?"
       },
       {
-        "answer": "Yes. Many Scheduling Wizard clients use the platform they already have for day-to-day schedule viewing. Scheduling Wizard handles the schedule creation and optimization, and the finished schedule goes into whatever platform you already use. The two tools serve different functions and work well alongside each other.",
+        "answer": "Yes. Many Scheduling Wizard clients use the platform they already have for day-to-day schedule viewing. Scheduling Wizard handles the schedule building, and the finished schedule goes into whatever platform you already use. The two tools serve different functions and work well alongside each other.",
         "question": "Can Scheduling Wizard integrate with your existing platform?"
       },
       {
@@ -35,7 +35,7 @@
         "question": "What happens when an EM resident has an unplanned absence?"
       },
       {
-        "answer": "Chief resident transitions are one of the most common sources of scheduling disruption in EM programs. With Scheduling Wizard, your program's rule configurations and scheduling rules persist with the service year over year. Incoming chief residents inherit a fully working, optimized scheduling system instead of starting from scratch with a blank spreadsheet.",
+        "answer": "Chief resident transitions are one of the most common sources of scheduling disruption in EM programs. With Scheduling Wizard, your program's rule configurations and scheduling rules persist with the service year over year. Incoming chief residents inherit the written rule set and last year's schedule instead of starting from scratch with a blank spreadsheet.",
         "question": "How does Scheduling Wizard handle the annual chief resident transition?"
       }
     ],
@@ -87,7 +87,7 @@
             "Schedules delivered as Excel or Google Sheets, or on a custom live view we build for you",
             "Or a custom live view we build"
           ],
-          "description": "Unlike self-service emergency medicine scheduling software, Scheduling Wizard operates as a fully managed service. Submit your rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Unlike self-service emergency medicine scheduling software, Scheduling Wizard operates as a fully managed service. Submit your rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by our team, who do this full time."
         },
         {
           "id": "institutional-continuity",
@@ -98,7 +98,7 @@
             "No annual knowledge loss",
             "New chiefs start with a working schedule"
           ],
-          "description": "Your EM program's rule configurations and scheduling rules stay with Scheduling Wizard year over year. Incoming chiefs inherit a working, optimized system instead of rebuilding the entire schedule from a blank spreadsheet."
+          "description": "Your EM program's rules stay written down with Scheduling Wizard year over year. Incoming chiefs inherit the written rule set and last year's schedule instead of rebuilding the entire schedule from a blank spreadsheet."
         },
         {
           "id": "absence-response",

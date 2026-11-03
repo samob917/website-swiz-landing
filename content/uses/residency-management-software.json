@@ -11,7 +11,7 @@
     "cta": {
       "title": "Stop Managing Schedules. Start Receiving Them.",
       "buttonText": "Book a call",
-      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join 30+ departments across 20+ hospitals and practices that have us build their call, block, clinic and shift schedules."
+      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join the 30+ departments that have us build their call, block, clinic and shift schedules."
     },
     "faq": [
       {
@@ -27,11 +27,11 @@
         "question": "What types of schedules does Scheduling Wizard generate for residency programs?"
       },
       {
-        "answer": "Institutional scheduling knowledge, program rules, and rule configurations persist with Scheduling Wizard year over year. When a new chief resident takes over, they inherit a fully working, optimized scheduling system rather than starting from a blank spreadsheet. This eliminates the annual knowledge loss that plagues programs relying on outgoing chiefs to transfer scheduling expertise.",
+        "answer": "Program rules and the reasons behind them are written down and kept with Scheduling Wizard year over year. When a new chief resident takes over, they inherit the written rule set and last year's schedule rather than starting from a blank spreadsheet. This eliminates the annual knowledge loss that plagues programs relying on outgoing chiefs to transfer scheduling expertise.",
         "question": "How does Scheduling Wizard handle the annual chief resident transition?"
       },
       {
-        "answer": "Yes, many Scheduling Wizard clients use the platform they already have alongside the service. Scheduling Wizard handles schedule creation and optimization, delivering finished schedules as Excel or Google Sheets, or on a custom live view we build for you. Programs then upload those files to your existing platform for day-to-day schedule viewing and access. Scheduling Wizard is designed to complement these tools, not replace them.",
+        "answer": "Yes, many Scheduling Wizard clients use the platform they already have alongside the service. Scheduling Wizard handles the schedule building, delivering finished schedules as Excel or Google Sheets, or on a custom live view we build for you. Programs then upload those files to your existing platform for day-to-day schedule viewing and access. Scheduling Wizard is designed to complement these tools, not replace them.",
         "question": "Can Scheduling Wizard work alongside the tools you already use?"
       },
       {
@@ -65,7 +65,7 @@
             "Finished schedules delivered",
             "Or a custom live view we build"
           ],
-          "description": "Scheduling Wizard operates as a fully managed service, not self-service residency management software. Submit your rules and receive finished schedules as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Scheduling Wizard operates as a fully managed service, not self-service residency management software. Submit your rules and receive finished schedules as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by our team, who do this full time."
         },
         {
           "id": "acgme-compliance",
@@ -87,7 +87,7 @@
             "No annual knowledge loss",
             "New chiefs start with a working schedule"
           ],
-          "description": "Your program's scheduling rules, requests, and configurations persist with Scheduling Wizard year over year. Incoming chief residents inherit a fully working system instead of starting from scratch every July."
+          "description": "Your program's scheduling rules and requests stay written down with Scheduling Wizard year over year. Incoming chief residents inherit the written rule set and last year's schedule instead of starting from scratch every July."
         },
         {
           "id": "block-scheduling",

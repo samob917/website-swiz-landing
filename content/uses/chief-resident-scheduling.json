@@ -11,7 +11,7 @@
     "cta": {
       "title": "Stop Rebuilding Your Schedule From Scratch",
       "buttonText": "Book a call",
-      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join 30+ departments across 20+ hospitals and practices that have us build their call, block, clinic and shift schedules."
+      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join the 30+ departments that have us build their call, block, clinic and shift schedules."
     },
     "faq": [
       {
@@ -27,7 +27,7 @@
         "question": "Do chief residents need to learn new software to use Scheduling Wizard?"
       },
       {
-        "answer": "With traditional spreadsheet-based scheduling, institutional knowledge is lost every time chiefs rotate. Scheduling Wizard retains your program's rules, requests, and scheduling configuration year over year. When a new chief starts, they inherit a fully built, optimized system rather than beginning from a blank spreadsheet, without the ramp-up that usually comes with each annual transition.",
+        "answer": "With traditional spreadsheet-based scheduling, institutional knowledge is lost every time chiefs rotate. Scheduling Wizard retains your program's rules, requests, and scheduling configuration year over year. When a new chief starts, they inherit the written rule set and last year's schedule rather than beginning from a blank spreadsheet, without the ramp-up that usually comes with each annual transition.",
         "question": "What happens to scheduling knowledge when a new chief resident takes over?"
       },
       {
@@ -65,7 +65,7 @@
             "Rules in, schedules out",
             "Ready-to-publish delivery"
           ],
-          "description": "Chief residents submit their rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you. No platform to log into, no software to learn, and no annual retraining cycle when the next chief takes over. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Chief residents submit their rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you. No platform to log into, no software to learn, and no annual retraining cycle when the next chief takes over. The schedules are built by our team, who do this full time."
         },
         {
           "id": "acgme-compliance",
@@ -87,7 +87,7 @@
             "No annual knowledge rebuild",
             "New chiefs start with a working system"
           ],
-          "description": "Your program's rules, requests, and scheduling history stay with Scheduling Wizard year over year. Incoming chiefs inherit a fully working, optimized system instead of rebuilding from scratch each cycle."
+          "description": "Your program's rules, requests, and scheduling history stay with Scheduling Wizard year over year. Incoming chiefs inherit the written rule set and last year's schedule instead of rebuilding from scratch each cycle."
         },
         {
           "id": "call-scheduling",

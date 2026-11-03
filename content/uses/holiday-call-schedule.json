@@ -11,11 +11,11 @@
     "cta": {
       "title": "Get Your Holiday Call Schedule Right",
       "buttonText": "Book a call",
-      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join 30+ departments across 20+ hospitals and practices that have us build their call, block, clinic and shift schedules."
+      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join the 30+ departments that have us build their call, block, clinic and shift schedules."
     },
     "faq": [
       {
-        "answer": "Scheduling Wizard has its mathematicians distribute holiday call assignments equitably across all residents. Programs submit their rules (coverage requirements, resident preferences, ACGME duty hour rules, and fairness targets) and our team generates a finished schedule that balances high-demand dates like Thanksgiving, Christmas, and New Year's across the resident cohort. The tallies come back with the schedule, giving chief residents a defensible answer to any fairness question.",
+        "answer": "Scheduling Wizard distributes holiday call assignments equitably across all residents. Programs submit their rules (coverage requirements, resident preferences, ACGME duty hour rules, and fairness targets) and our team generates a finished schedule that balances high-demand dates like Thanksgiving, Christmas, and New Year's across the resident cohort. The tallies come back with the schedule, giving chief residents a defensible answer to any fairness question.",
         "question": "How does Scheduling Wizard create a fair holiday call schedule for residency programs?"
       },
       {
@@ -23,7 +23,7 @@
         "question": "Is the holiday call schedule ACGME compliant for my residency subspecialty?"
       },
       {
-        "answer": "Turnaround depends on your program's complexity and the rules submitted. Programs submit their scheduling rules to Scheduling Wizard, and the managed service handles the optimization and delivers the finished schedule as Excel or Google Sheets, or on a custom live view we build for you. Because our team handles the heavy computation, turnaround is significantly faster than building a holiday call schedule manually.",
+        "answer": "Turnaround depends on your program's complexity and the rules submitted. Programs submit their scheduling rules to Scheduling Wizard, and the managed service builds the schedule and delivers the finished schedule as Excel or Google Sheets, or on a custom live view we build for you. Because our team handles the heavy computation, turnaround is significantly faster than building a holiday call schedule manually.",
         "question": "How long does it take to receive a finished holiday call schedule?"
       },
       {
@@ -109,7 +109,7 @@
             "Delivered ready to use",
             "Or a custom live view we build"
           ],
-          "description": "Scheduling Wizard operates as a done-for-you managed service. Submit your rules and receive a finished holiday call schedule as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Scheduling Wizard operates as a done-for-you managed service. Submit your rules and receive a finished holiday call schedule as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by our team, who do this full time."
         },
         {
           "id": "redrafts-included",

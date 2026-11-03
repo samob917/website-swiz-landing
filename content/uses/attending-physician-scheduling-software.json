@@ -11,11 +11,11 @@
     "cta": {
       "title": "Get Your Attending Schedules Done Right",
       "buttonText": "Book a call",
-      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join 30+ departments across 20+ hospitals and practices that have us build their call, block, clinic and shift schedules."
+      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join the 30+ departments that have us build their call, block, clinic and shift schedules."
     },
     "faq": [
       {
-        "answer": "Attending physician scheduling software automates the creation and optimization of faculty coverage schedules for residency and fellowship programs. Scheduling Wizard takes this a step further by operating as a fully managed service; your program submits its rules, and our team generates finished, ACGME-compliant attending schedules delivered as Excel or Google Sheets, or on a custom live view we build for you. There is no platform for your team to log into or learn.",
+        "answer": "Attending physician scheduling software automates the building of faculty coverage schedules for residency and fellowship programs. Scheduling Wizard takes this a step further by operating as a fully managed service; your program submits its rules, and our team generates finished, ACGME-compliant attending schedules delivered as Excel or Google Sheets, or on a custom live view we build for you. There is no platform for your team to log into or learn.",
         "question": "What is attending physician scheduling software and how does it work?"
       },
       {
@@ -23,7 +23,7 @@
         "question": "What rules do you build an attending schedule around?"
       },
       {
-        "answer": "Scheduling Wizard handles schedule creation and optimization, while the platform you already use handles day-to-day schedule access. Many Scheduling Wizard clients continue using the platform they already have alongside the service. SW builds the optimized attending schedule, and programs put the finished schedule into their existing publishing platform.",
+        "answer": "Scheduling Wizard handles the schedule building, while the platform you already use handles day-to-day schedule access. Many Scheduling Wizard clients continue using the platform they already have alongside the service. SW builds the optimized attending schedule, and programs put the finished schedule into their existing publishing platform.",
         "question": "Does Scheduling Wizard replace the platform we use now for attending scheduling?"
       },
       {
@@ -76,7 +76,7 @@
             "Zero software training required",
             "Expert schedulers handle optimization"
           ],
-          "description": "Unlike traditional attending physician scheduling software, Scheduling Wizard is a fully managed service. Your team submits rules and receive finished schedules as Excel or Google Sheets, or on a custom live view we build for you, no platform to log into, no tools to train on. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Unlike traditional attending physician scheduling software, Scheduling Wizard is a fully managed service. Your team submits rules and receive finished schedules as Excel or Google Sheets, or on a custom live view we build for you, no platform to log into, no tools to train on. The schedules are built by our team, who do this full time."
         },
         {
           "id": "institutional-continuity",
@@ -87,7 +87,7 @@
             "No annual rebuilding required",
             "New chiefs start with a working schedule"
           ],
-          "description": "Your attending scheduling rules, requests, and configurations stay with Scheduling Wizard from one scheduler to the next. Whoever takes it over inherits a working system instead of a blank spreadsheet."
+          "description": "Your attending scheduling rules and requests stay written down with Scheduling Wizard from one scheduler to the next. Whoever takes it over inherits a working system instead of a blank spreadsheet."
         },
         {
           "id": "fairness-optimization",

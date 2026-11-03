@@ -11,7 +11,7 @@
     "cta": {
       "title": "Get Your Residency Schedules Done Right",
       "buttonText": "Book a call",
-      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join 30+ departments across 20+ hospitals and practices that have us build their call, block, clinic and shift schedules."
+      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join the 30+ departments that have us build their call, block, clinic and shift schedules."
     },
     "faq": [
       {
@@ -27,11 +27,11 @@
         "question": "What types of schedules does Scheduling Wizard generate for residency programs?"
       },
       {
-        "answer": "No. Many Scheduling Wizard clients continue using the platform they already have alongside the service. Scheduling Wizard handles schedule creation and optimization, while the platform you already use handles day-to-day schedule viewing and access. The finished schedules Scheduling Wizard delivers go into whichever viewing platform your program already uses.",
+        "answer": "No. Many Scheduling Wizard clients continue using the platform they already have alongside the service. Scheduling Wizard handles the schedule building, while the platform you already use handles day-to-day schedule viewing and access. The finished schedules Scheduling Wizard delivers go into whichever viewing platform your program already uses.",
         "question": "Do we need to replace the platform we use now to use Scheduling Wizard?"
       },
       {
-        "answer": "Your program's rules, requests, and scheduling configurations are retained by Scheduling Wizard year over year. When a new chief resident takes over, they inherit a fully operational, optimized scheduling system instead of starting from scratch. This eliminates one of the most common sources of scheduling disruption in residency programs, where institutional knowledge is lost every time a chief resident rotates out.",
+        "answer": "Your program's rules and requests are written down and kept year over year. When a new chief resident takes over, they inherit the written rule set and last year's schedule. This eliminates one of the most common sources of scheduling disruption in residency programs, where institutional knowledge is lost every time a chief resident rotates out.",
         "question": "What happens to our scheduling setup when chief residents change each year?"
       },
       {
@@ -41,7 +41,7 @@
     ],
     "hero": {
       "title": "Residency Scheduling Software That Does the Work",
-      "description": "Residency scheduling software you never log into. You send us your rules and requests, however granular, with the ACGME requirements among them; our mathematicians send back the finished schedules."
+      "description": "Residency scheduling software you never log into. You send us your rules and requests, however granular, with the ACGME requirements among them; our team sends back the finished schedules."
     },
     "features": {
       "items": [
@@ -76,7 +76,7 @@
             "Delivered as Excel or Google Sheets, or on a custom live view we build for you",
             "No platform or training required"
           ],
-          "description": "Unlike self-service residency scheduling software, Scheduling Wizard is a done-for-you managed service. Your team submits rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Unlike self-service residency scheduling software, Scheduling Wizard is a done-for-you managed service. Your team submits rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by our team, who do this full time."
         },
         {
           "id": "institutional-continuity",
@@ -87,7 +87,7 @@
             "No institutional knowledge lost",
             "New chiefs start with a working schedule"
           ],
-          "description": "Your program's rules, requests, and optimization configurations are retained with Scheduling Wizard across annual chief rotations. New chiefs inherit a working system instead of rebuilding the schedule from a blank spreadsheet."
+          "description": "Your program's rules, requests, and optimization configurations are retained with Scheduling Wizard across annual chief rotations. New chiefs inherit the written rule set and last year's schedule instead of rebuilding the schedule from a blank spreadsheet."
         },
         {
           "id": "block-scheduling",

@@ -11,7 +11,7 @@
     "cta": {
       "title": "Stop Rebuilding Schedules Around Leave",
       "buttonText": "Book a call",
-      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join 30+ departments across 20+ hospitals and practices that have us build their call, block, clinic and shift schedules."
+      "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join the 30+ departments that have us build their call, block, clinic and shift schedules."
     },
     "faq": [
       {
@@ -31,7 +31,7 @@
         "question": "What schedule types are affected by maternity leave and does SW handle all of them?"
       },
       {
-        "answer": "Programs submit their scheduling rules, rotation requirements, ACGME rules, resident preferences, coverage minimums, and the specifics of the maternity leave (dates, affected resident, any accommodation requirements). Scheduling Wizard handles the optimization from there and delivers the finished schedule as Excel or Google Sheets, or on a custom live view we build for you, ready for whatever platform you already use.",
+        "answer": "Programs submit their scheduling rules, rotation requirements, ACGME rules, resident preferences, coverage minimums, and the specifics of the maternity leave (dates, affected resident, any accommodation requirements). Scheduling Wizard builds the schedule from there and delivers the finished schedule as Excel or Google Sheets, or on a custom live view we build for you, ready for whatever platform you already use.",
         "question": "What does the program need to submit to get a revised schedule?"
       },
       {
@@ -109,7 +109,7 @@
             "Delivered as Excel or Google Sheets, or on a custom live view we build for you",
             "No scheduling software to operate"
           ],
-          "description": "Scheduling Wizard is a done-for-you service. Submit your rules and leave details, and our schedulers deliver finished schedules as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by mathematicians who do this full time and nothing else."
+          "description": "Scheduling Wizard is a done-for-you service. Submit your rules and leave details, and our schedulers deliver finished schedules as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by our team, who do this full time."
         },
         {
           "id": "redrafts-included",

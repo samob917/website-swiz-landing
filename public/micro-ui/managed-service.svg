@@ -64,7 +64,7 @@
     </g>
 
     <!-- LEFT: CONSTRAINTS -->
-    <text x="32" y="80" class="sans" font-size="10" font-weight="600" fill="#9ca3af" letter-spacing="0.10em">CONSTRAINTS</text>
+    <text x="32" y="80" class="sans" font-size="10" font-weight="600" fill="#9ca3af" letter-spacing="0.10em">YOUR RULES</text>
     <rect x="28" y="90" width="200" height="148" rx="12" fill="#fafaf9"/>
 
     <g transform="translate(40, 102)">
@@ -148,14 +148,14 @@
 
     <!-- Engine label BELOW both boxes, centered, full width available -->
     <text x="260" y="262" text-anchor="middle" class="sans" font-size="11" font-weight="600" fill="#1a1a1a">Scheduling Wizard</text>
-    <text x="260" y="278" text-anchor="middle" class="sans opt-cap" font-size="10" font-weight="500" fill="#6b7280">Optimizing…</text>
+    <text x="260" y="278" text-anchor="middle" class="sans opt-cap" font-size="10" font-weight="500" fill="#6b7280">Building…</text>
 
     <!-- FOOTER -->
     <line x1="28" y1="306" x2="492" y2="306" stroke="#f3f4f6"/>
 
     <g transform="translate(32, 322)">
       <circle cx="6" cy="10" r="2.5" fill="#fbbf24"/>
-      <text x="16" y="14" class="sans" font-size="11" font-weight="600" fill="#1a1a1a">Submit constraints</text>
+      <text x="16" y="14" class="sans" font-size="11" font-weight="600" fill="#1a1a1a">Send your rules</text>
     </g>
     <g transform="translate(186, 322)">
       <circle cx="6" cy="10" r="2.5" fill="#fbbf24"/>
