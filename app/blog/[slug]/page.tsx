@@ -55,6 +55,9 @@ export default async function BlogPost({ params }: Props) {
 
   const publishDate = publishedAt ?? updatedAt ?? new Date().toISOString();
   const formattedDate = format(new Date(publishDate), "MMMM dd, yyyy");
+  // Same formula as the featured images, so the index card and the page agree.
+  const words = content.replace(/<[^>]+>/g, " ").split(/\s+/).filter(Boolean).length;
+  const minsRead = Math.max(3, Math.round(words / 200));
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -88,19 +91,22 @@ export default async function BlogPost({ params }: Props) {
             <span className="mx-2">/</span>
             <span className="text-white/90">{title}</span>
           </nav>
-          <h1 className="hero-text hero-text-bold text-white max-w-4xl text-4xl sm:text-5xl lg:text-6xl">
+          <h1 className="hero-text hero-text-bold text-white max-w-4xl text-3xl sm:text-5xl lg:text-6xl">
             {title}
           </h1>
+          <p className="mt-5 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs sm:text-sm font-medium uppercase tracking-widest text-white/60">
+            <span>{minsRead} min read</span>
+            <span aria-hidden="true" className="text-white/30">·</span>
+            <span>{formattedDate}</span>
+          </p>
         </div>
       </section>
 
       <article className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12 bg-white">
         <div className="relative gap-14">
           <div>
-            {image && (
-              // eslint-disable-next-line @next/next/no-img-element
-              <img src={image} alt={title} className="mb-10 w-full rounded-2xl" />
-            )}
+            {/* The featured image repeats the title, so it stays on the index cards and in link
+                previews and does not open the article a second time here. */}
             <PostContent content={content} title={title} />
 
             {tags && tags.length > 0 && (
@@ -121,9 +127,6 @@ export default async function BlogPost({ params }: Props) {
               </div>
             )}
 
-            <div className="my-8 text-sm text-gray-500">
-              Published on {formattedDate}
-            </div>
           </div>
         </div>
       </article>

@@ -9,6 +9,34 @@ import { Facebook, Linkedin, Twitter } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
+/**
+ * The FAQ at the end of a post renders as a list of closed questions, the way the use pages'
+ * FAQ does, instead of every answer open on the page. Each <h3> after the "Frequently Asked
+ * Questions" heading becomes a <details> with the question as its <summary>, up to the next
+ * <h2>. Heading ids from the table of contents are kept, and a browser opens the matching
+ * <details> when a link targets a heading inside it.
+ */
+function collapseFaq(html: string): string {
+  const open = html.match(/<h2[^>]*>\s*Frequently Asked Questions\s*<\/h2>/i);
+  if (!open || open.index === undefined) return html;
+  const start = open.index + open[0].length;
+  const nextH2 = html.slice(start).search(/<h2[\s>]/i);
+  const end = nextH2 === -1 ? html.length : start + nextH2;
+  const section = html.slice(start, end);
+  const parts = section.split(/(?=<h3[\s>])/i);
+  if (parts.length < 2) return html;
+  const lead = parts[0];
+  const items = parts
+    .slice(1)
+    .map((chunk) => {
+      const m = chunk.match(/^<h3([^>]*)>([\s\S]*?)<\/h3>([\s\S]*)$/i);
+      if (!m) return chunk;
+      return `<details class="post-faq"><summary><h3${m[1]}>${m[2]}</h3></summary><div class="post-faq-body">${m[3]}</div></details>`;
+    })
+    .join("");
+  return `${html.slice(0, start)}${lead}<div class="post-faq-list">${items}</div>${html.slice(end)}`;
+}
+
 export function PostContent({
   content,
   title,
@@ -58,8 +86,9 @@ export function PostContent({
     allowedIframeHostnames: ["www.youtube.com", "www.youtube-nocookie.com"],
   });
 
-  const { modifiedHtml, tableOfContents } =
+  const { modifiedHtml: tocHtml, tableOfContents } =
     generateTableOfContents(sanitizedContent);
+  const modifiedHtml = collapseFaq(tocHtml);
 
   // Read the URL after mount so the server and client render the same markup.
   const [shareUrl, setShareUrl] = useState("");

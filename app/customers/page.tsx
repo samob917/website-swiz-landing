@@ -92,8 +92,8 @@ export default function CustomersPage() {
       </Suspense>
       {/* Hero Section */}
       <section className="hero-background medical-pattern min-h-screen flex items-center justify-center relative">
-        <div className="max-w-7xl mx-auto px-8 text-center">
-          <h1 className="text-6xl md:text-7xl lg:text-8xl hero-text text-white mb-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-8 pt-24 pb-24 sm:pt-28 sm:pb-28 text-center">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl hero-text text-white mb-5 sm:mb-8">
             Expert <span className="text-yellow-400">Schedulers</span>
           </h1>
           <div className="mt-6">
@@ -105,7 +105,7 @@ export default function CustomersPage() {
 
         <div
           onClick={scrollToContent}
-          className="absolute bottom-8 left-1/2 transform -translate-x-1/2 cursor-pointer group"
+          className="absolute bottom-5 sm:bottom-8 left-1/2 transform -translate-x-1/2 cursor-pointer group [@media(max-height:620px)]:hidden"
         >
           <div className="flex flex-col items-center">
             <span className="text-white/50 text-xs font-medium uppercase tracking-wider mb-1 group-hover:text-white/80 transition-colors duration-300">
