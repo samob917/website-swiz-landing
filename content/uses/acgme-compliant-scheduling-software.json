@@ -23,10 +23,6 @@
         "question": "How does Scheduling Wizard handle ACGME rules when the schedule is built for subspecialties?"
       },
       {
-        "answer": "You do, and we build to what you tell us. Before the first build we write down the requirements that apply to your program, the Common Program Requirements and anything your Review Committee adds, alongside your own rules. When the ACGME changes something, you tell us what changed and we rebuild to it. The February 2026 interim revision changed no hour limits.",
-        "question": "Who keeps the ACGME rules current, you or us?"
-      },
-      {
         "answer": "No. Scheduling Wizard handles the schedule building, while the platform you already use handles day-to-day schedule viewing and access. Many Scheduling Wizard clients continue using the platform they already have alongside the service. Scheduling Wizard delivers finished schedules as Excel or Google Sheets, or on a custom live view we build for you, which programs can upload directly to their existing viewing platform.",
         "question": "Do I need to replace the platform we use now to use Scheduling Wizard?"
       },
