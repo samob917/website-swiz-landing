@@ -29,14 +29,14 @@ export default function LogoCarousel() {
           {[...logosRow1, ...logosRow1].map((logo, i) => (
             <div
               key={i}
-              className="flex items-center justify-center px-8 shrink-0 group"
+              className="flex items-center justify-center px-4 sm:px-8 shrink-0 group"
             >
               <Image
                 src={logo.src}
                 alt={logo.alt}
                 width={logo.width}
                 height={logo.height}
-                className="max-h-16 w-auto object-contain transition-all duration-300 group-hover:grayscale group-hover:opacity-40"
+                className="max-h-10 sm:max-h-16 w-auto object-contain transition-all duration-300 group-hover:grayscale group-hover:opacity-40"
               />
             </div>
           ))}
@@ -49,14 +49,14 @@ export default function LogoCarousel() {
           {[...logosRow2, ...logosRow2].map((logo, i) => (
             <div
               key={i}
-              className="flex items-center justify-center px-8 shrink-0 group"
+              className="flex items-center justify-center px-4 sm:px-8 shrink-0 group"
             >
               <Image
                 src={logo.src}
                 alt={logo.alt}
                 width={logo.width}
                 height={logo.height}
-                className="max-h-16 w-auto object-contain transition-all duration-300 group-hover:grayscale group-hover:opacity-40"
+                className="max-h-10 sm:max-h-16 w-auto object-contain transition-all duration-300 group-hover:grayscale group-hover:opacity-40"
               />
             </div>
           ))}

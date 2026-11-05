@@ -111,8 +111,8 @@ export default function ContactPage() {
 
       {/* Contact Form */}
       <section className="bg-white py-20" id="ContactForm">
-        <div className="max-w-4xl mx-auto px-8">
-          <div className="grid lg:grid-cols-2 gap-16">
+        <div className="max-w-4xl mx-auto px-4 sm:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 min-w-0">
             {/* Form */}
             <div>
               {submitStatus && (
@@ -128,7 +128,7 @@ export default function ContactPage() {
               )}
 
               <form ref={formRef} onSubmit={handleSubmit} className="space-y-5">
-                <div className="grid md:grid-cols-2 gap-4">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
                     <label htmlFor="name" className="block text-xs font-medium text-gray-500 uppercase tracking-wider mb-2">
                       Name *
@@ -233,13 +233,13 @@ export default function ContactPage() {
             {/* Contact Info */}
             <div className="space-y-6">
 
-              <a href="mailto:founders@schedulingwiz.com" className="group glass-card contact-card block rounded-2xl p-6 cursor-pointer">
-                <div className="flex items-center justify-between">
-                  <div className="flex items-start space-x-4">
+              <a href="mailto:founders@schedulingwiz.com" className="group glass-card contact-card block rounded-2xl p-4 sm:p-6 cursor-pointer">
+                <div className="flex items-center justify-between gap-3 min-w-0">
+                  <div className="flex items-start gap-3 sm:gap-4 min-w-0">
                     <Mail className="w-5 h-5 text-gray-400 mt-0.5" />
                     <div>
                       <h3 className="font-semibold text-gray-900 text-sm mb-1">Email Us</h3>
-                      <p className="text-gray-500 text-sm group-hover:text-gray-900 transition-colors duration-300 underline decoration-gray-300 underline-offset-4 group-hover:decoration-gray-500">founders@schedulingwiz.com</p>
+                      <p className="text-gray-500 text-sm group-hover:text-gray-900 transition-colors duration-300 underline decoration-gray-300 underline-offset-4 group-hover:decoration-gray-500 break-all">founders@schedulingwiz.com</p>
                     </div>
                   </div>
                   <button
@@ -254,9 +254,9 @@ export default function ContactPage() {
                 </div>
               </a>
 
-              <a href="tel:+13029321448" className="group glass-card contact-card block rounded-2xl p-6 cursor-pointer">
-                <div className="flex items-center justify-between">
-                  <div className="flex items-start space-x-4">
+              <a href="tel:+13029321448" className="group glass-card contact-card block rounded-2xl p-4 sm:p-6 cursor-pointer">
+                <div className="flex items-center justify-between gap-3 min-w-0">
+                  <div className="flex items-start gap-3 sm:gap-4 min-w-0">
                     <Phone className="w-5 h-5 text-gray-400 mt-0.5" />
                     <div>
                       <h3 className="font-semibold text-gray-900 text-sm mb-1">Call Us</h3>

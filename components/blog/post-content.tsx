@@ -4,10 +4,7 @@ import { generateTableOfContents } from "@/lib/blog/table-of-contents";
 import sanitize, { defaults } from "sanitize-html";
 import { TableOfContents } from "./table-of-contents";
 import { Separator } from "@/components/ui/separator";
-import { Button } from "@/components/ui/button";
-import { Facebook, Linkedin, Twitter } from "lucide-react";
 import Link from "next/link";
-import { useEffect, useState } from "react";
 
 /**
  * The FAQ at the end of a post renders as a list of closed questions, the way the use pages'
@@ -88,13 +85,10 @@ export function PostContent({
 
   const { modifiedHtml: tocHtml, tableOfContents } =
     generateTableOfContents(sanitizedContent);
-  const modifiedHtml = collapseFaq(tocHtml);
-
-  // Read the URL after mount so the server and client render the same markup.
-  const [shareUrl, setShareUrl] = useState("");
-  useEffect(() => {
-    setShareUrl(window.location.href);
-  }, []);
+  // Wide comparison tables scroll sideways inside the column instead of pushing the page out.
+  const modifiedHtml = collapseFaq(tocHtml)
+    .replace(/<table(\s|>)/gi, '<div class="table-scroll"><table$1')
+    .replace(/<\/table>/gi, "</table></div>");
 
   return (
     <div className="grid grid-cols-1 gap-8 lg:grid-cols-12">
@@ -113,67 +107,6 @@ export function PostContent({
                 On this page
               </div>
               <TableOfContents items={tableOfContents} />
-            </div>
-
-            <Separator className="my-8 hidden lg:block" />
-
-            <div className="my-8">
-              <div className="mb-4 text-xs font-semibold uppercase tracking-widest text-gray-400">
-                Share this article
-              </div>
-              <ul className="flex gap-2">
-                <li>
-                  <Button
-                    asChild
-                    variant="secondary"
-                    size="icon"
-                    className="rounded-full h-9 w-9"
-                  >
-                    <a
-                      href={`https://www.facebook.com/sharer/sharer.php?u=${encodeURIComponent(shareUrl)}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label="Share on Facebook"
-                    >
-                      <Facebook className="h-3.5 w-3.5" />
-                    </a>
-                  </Button>
-                </li>
-                <li>
-                  <Button
-                    asChild
-                    variant="secondary"
-                    size="icon"
-                    className="rounded-full h-9 w-9"
-                  >
-                    <a
-                      href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(shareUrl)}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label="Share on LinkedIn"
-                    >
-                      <Linkedin className="h-3.5 w-3.5" />
-                    </a>
-                  </Button>
-                </li>
-                <li>
-                  <Button
-                    asChild
-                    variant="secondary"
-                    size="icon"
-                    className="rounded-full h-9 w-9"
-                  >
-                    <a
-                      href={`https://twitter.com/intent/tweet?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent(title)}`}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      aria-label="Share on Twitter"
-                    >
-                      <Twitter className="h-3.5 w-3.5" />
-                    </a>
-                  </Button>
-                </li>
-              </ul>
             </div>
 
             <Separator className="my-8 hidden lg:block" />

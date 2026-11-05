@@ -209,11 +209,11 @@ export default function HomePage() {
           <div className="max-w-3xl mx-auto">
             {/* Carousel */}
             <Link href={`/customers?t=${activeTestimonial}#testimonial`} className="block group">
-              <div className="relative overflow-hidden rounded-2xl cursor-pointer h-[620px] sm:h-[500px] md:h-[420px]">
+              <div className="grid overflow-hidden rounded-2xl cursor-pointer">
                 {testimonials.map((t, i) => (
                   <div
                     key={i}
-                    className={`absolute inset-0 glass-card rounded-2xl p-8 sm:p-10 transition-all duration-700 ease-in-out flex flex-col justify-center group-hover:shadow-[0_16px_48px_rgba(0,0,0,0.08)] ${
+                    className={`[grid-area:1/1] glass-card rounded-2xl p-5 sm:p-10 transition-all duration-700 ease-in-out flex flex-col justify-center group-hover:shadow-[0_16px_48px_rgba(0,0,0,0.08)] ${
                       activeTestimonial === i
                         ? "opacity-100 translate-x-0"
                         : "opacity-0 translate-x-8 pointer-events-none"
