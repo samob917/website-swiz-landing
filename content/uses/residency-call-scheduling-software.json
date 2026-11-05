@@ -27,7 +27,7 @@
         "question": "Can Scheduling Wizard handle call schedules for my specific medical subspecialty?"
       },
       {
-        "answer": "Yes, and many Scheduling Wizard clients use exactly this combination. Scheduling Wizard handles the building of your call schedule. The finished schedule is delivered as Excel or Google Sheets, or on a custom live view we build for you, ready for whatever platform you already use for day-to-day schedule access. You do not need to change your existing viewing workflow.",
+        "answer": "Yes. It is entirely up to you. We build the schedule either way, and deliver it in the format and structure you want: Excel or Google Sheets, or a custom live view we build for you if that is useful. Many programs keep the platform they already have for day-to-day viewing and upload our schedules straight into it; others use the live view, or both. Whatever works best for your program.",
         "question": "Will Scheduling Wizard work alongside your existing platform?"
       },
       {

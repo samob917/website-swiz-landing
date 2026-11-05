@@ -35,7 +35,7 @@
         "question": "What happens to our fellowship scheduling setup when a new chief fellow takes over?"
       },
       {
-        "answer": "Yes, and many Scheduling Wizard clients use exactly this setup. Scheduling Wizard handles the schedule building, producing finished schedules as Excel or Google Sheets, or on a custom live view we build for you. Programs then upload those files to your existing platform for day-to-day schedule viewing and access. Scheduling Wizard is designed to complement existing publishing platforms rather than replace them, so there is no disruption to how your fellows and attendings check their schedules.",
+        "answer": "Yes. It is entirely up to you. We build the schedule either way, and deliver it in the format and structure you want: Excel or Google Sheets, or a custom live view we build for you if that is useful. Many programs keep the platform they already have for day-to-day viewing and upload our schedules straight into it; others use the live view, or both. Whatever works best for your program.",
         "question": "Can Scheduling Wizard work alongside your existing platform for our fellowship program?"
       }
     ],

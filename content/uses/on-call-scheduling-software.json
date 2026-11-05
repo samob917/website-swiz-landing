@@ -27,7 +27,7 @@
         "question": "How is Scheduling Wizard different from self-service on call scheduling software?"
       },
       {
-        "answer": "Yes. Many Scheduling Wizard clients continue using the platform they already have for day-to-day schedule access. Scheduling Wizard handles the schedule building, delivering the finished on call schedule as Excel or Google Sheets, or on a custom live view we build for you, ready for your existing viewing platform. The two tools serve different functions and are designed to complement each other.",
+        "answer": "Yes. It is entirely up to you. We build the schedule either way, and deliver it in the format and structure you want: Excel or Google Sheets, or a custom live view we build for you if that is useful. Many programs keep the platform they already have for day-to-day viewing and upload our schedules straight into it; others use the live view, or both. Whatever works best for your program.",
         "question": "Can Scheduling Wizard work alongside your existing platform?"
       },
       {

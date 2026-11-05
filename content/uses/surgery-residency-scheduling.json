@@ -31,7 +31,7 @@
         "question": "What happens when a new chief resident takes over the surgery program?"
       },
       {
-        "answer": "No. Many surgery programs keep the platform they already publish on and have us build the schedule. Scheduling Wizard handles the build, producing finished schedules built to the ACGME requirements as Excel or Google Sheets, or on a custom live view we build for you. Programs then upload them to whatever platform they already publish on.",
+        "answer": "No. It is entirely up to you. We build the schedule either way, and deliver it in the format and structure you want: Excel or Google Sheets, or a custom live view we build for you if that is useful. Many programs keep the platform they already have for day-to-day viewing and upload our schedules straight into it; others use the live view, or both. Whatever works best for your program.",
         "question": "Does Scheduling Wizard replace the platform we use now for surgery programs?"
       },
       {
