@@ -12,7 +12,7 @@ const teamMembers = [
     degree: "MS, BS Applied Math & Statistics, BS Pure Math,\nBA Economics (2024)",
     bullets: [
       "Award Winning Mathematician",
-      "Builds physician schedules full time",
+      "Mathematics and Optimization Expert",
       "Civilian Service Medal for DoD Predictive Logistics",
     ],
     image: "/team/sam-oberly.jpg",
@@ -66,8 +66,8 @@ export default function TeamPage() {
             Meet the <span className="text-yellow-400">Team</span>
           </h1>
           <p className="text-base sm:text-lg text-white/60 max-w-2xl mx-auto">
-            The people behind Scheduling Wizard, bringing together operations, computer science and
-            years of building physician schedules.
+            The minds behind Scheduling Wizard, bringing together expertise in mathematics, optimization,
+            computer science and operations.
           </p>
         </div>
 
