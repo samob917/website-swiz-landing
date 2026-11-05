@@ -46,7 +46,7 @@
     "features": {
       "items": [
         {
-          "id": "constraint-modeling",
+          "id": "rules-built-in",
           "eyebrow": "Your Rules and Requests",
           "title": "Built to Your Rules, However Granular",
           "description": "We build to your rules and requests, however complex or granular: the written ones, including the ACGME requirements where they apply, and the local ones nobody has written down. The attending who does not take Friday call. The two residents who cannot share a rotation. The clinic that needs Thursdays protected. If you can describe it, it goes in.",
@@ -155,7 +155,7 @@
     "keyword": "residency schedule mid year changes",
     "searchIntents": [
       "A chief resident trying to figure out how to adjust the existing rotation schedules mid-year due to unexpected absences and ensure compliance with ACGME regulations without disrupting resident training.",
-      "A residency program director seeking a reliable way to manage and optimize mid-year changes to call schedules to meet new institutional requirements while keeping fairness in mind for all residents.",
+      "A residency program director seeking a reliable way to manage and build mid-year changes to call schedules to meet new institutional requirements while keeping fairness in mind for all residents.",
       "A program coordinator looking for strategies to implement last-minute schedule changes efficiently, ensuring that all residents' preferences and obligations are considered to avoid conflicts and maintain coverage.",
       "A fellowship program administrator needing assistance with rebuilding clinic schedules midway through the year to accommodate a new attending physician joining the team and to reduce administrative burden."
     ]

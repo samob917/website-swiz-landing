@@ -46,7 +46,7 @@
     "features": {
       "items": [
         {
-          "id": "constraint-modeling",
+          "id": "rules-built-in",
           "eyebrow": "Your Rules and Requests",
           "title": "Built to Your Rules, However Granular",
           "description": "We build to your rules and requests, however complex or granular: the written ones, including the ACGME requirements where they apply, and the local ones nobody has written down. The attending who does not take Friday call. The two residents who cannot share a rotation. The clinic that needs Thursdays protected. If you can describe it, it goes in.",
@@ -57,11 +57,11 @@
           ]
         },
         {
-          "id": "fairness-optimization",
+          "id": "fair-call-distribution",
           "title": "Equitable Call Distribution",
           "eyebrow": "Call Fairness",
           "highlights": [
-            "Weekend call balanced automatically",
+            "Weekend call balanced for you",
             "Holiday shifts distributed fairly",
             "Objective, auditable call counts"
           ],
@@ -76,7 +76,7 @@
             "Individual rules respected",
             "Duty hours checked at generation"
           ],
-          "description": "Produces on-call schedules that optimize for residency call schedule fairness while simultaneously enforcing duty hour limits, post-call rest rules, and individual resident rules. Fairness and compliance are solved together, not traded off."
+          "description": "Produces on-call schedules built for residency call schedule fairness while simultaneously enforcing duty hour limits, post-call rest rules, and individual resident rules. Fairness and compliance are solved together, not traded off."
         },
         {
           "id": "acgme-compliance",
@@ -98,7 +98,7 @@
             "Conference dates honored",
             "Fairness preserved with preferences"
           ],
-          "description": "Vacation requests, conference dates, moonlighting restrictions, and personal rules are treated as first-class inputs to the optimization. Fairness is maintained even as individual resident needs are accommodated."
+          "description": "Vacation requests, conference dates, moonlighting restrictions, and personal rules are treated as first-class inputs to the build. Fairness is maintained even as individual resident needs are accommodated."
         },
         {
           "id": "institutional-continuity",
@@ -138,14 +138,14 @@
         },
         {
           "title": "Institutional Knowledge Lost Annually",
-          "description": "When a chief rotates out, the hard-won scheduling logic and fairness rules leave with them, forcing the next chief to start over from scratch."
+          "description": "When a chief rotates out, the hard-won scheduling rules and fairness rules leave with them, forcing the next chief to start over from scratch."
         }
       ],
       "title": "Fair Call Schedules Are Hard to Build",
       "description": "Manual scheduling leaves chief residents unable to show the distribution was fair, with the rules to check by hand on top of it."
     },
     "solution": {
-      "title": "Algorithmic Fairness Built Into Every Schedule",
+      "title": "Fairness Built Into Every Schedule",
       "description": "Submit your program's rules, call fairness targets, resident preferences, and ACGME rules to Scheduling Wizard. Our schedulers produce finished, compliant call schedules delivered as Excel or Google Sheets, or on a custom live view we build for you. No software to learn, no fairness arguments to referee."
     },
     "metaTitle": "Fair Residency Call Schedules | Built to Your Rules",
@@ -155,7 +155,7 @@
     "keyword": "residency call schedule fairness",
     "searchIntents": [
       "A chief resident looking for solutions to create a fair call schedule that ensures equitable distribution of shifts among residents, while adhering to ACGME duty hour regulations.",
-      "A residency program director seeking a way to optimize call schedules that fairly balance the workload among all residents to improve morale and prevent burnout, without compromising compliance standards.",
+      "A residency program director seeking a way to build call schedules that fairly balance the workload among all residents to improve morale and prevent burnout, without compromising compliance standards.",
       "A program coordinator searching for managed scheduling services that can handle complex fairness rules in call scheduling, as they have had issues with self-service software not meeting their specific residency's needs.",
       "A fellowship director needing to ensure the call schedule is perceived as fair by all fellows, as previous scheduling methods led to conflicts and dissatisfaction, impacting the overall training experience."
     ]

@@ -23,7 +23,7 @@
         "question": "How is Scheduling Wizard different from other emergency medicine scheduling software?"
       },
       {
-        "answer": "Scheduling Wizard generates block and rotation schedules, call schedules, clinic schedules, and attending schedules for emergency medicine programs. All schedule types are optimized simultaneously so that a change in one does not create conflicts in another. Finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you.",
+        "answer": "Scheduling Wizard generates block and rotation schedules, call schedules, clinic schedules, and attending schedules for emergency medicine programs. All schedule types are built together, so that a change in one does not create conflicts in another. Finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you.",
         "question": "What types of EM schedules does Scheduling Wizard generate?"
       },
       {
@@ -46,7 +46,7 @@
     "features": {
       "items": [
         {
-          "id": "constraint-modeling",
+          "id": "rules-built-in",
           "eyebrow": "Your Rules and Requests",
           "title": "Built to Your Rules, However Granular",
           "description": "We build to your rules and requests, however complex or granular: the written ones, including the ACGME requirements where they apply, and the local ones nobody has written down. The attending who does not take Friday call. The two residents who cannot share a rotation. The clinic that needs Thursdays protected. If you can describe it, it goes in.",
@@ -69,10 +69,10 @@
         },
         {
           "id": "call-scheduling",
-          "title": "Fair EM Call Distribution Optimized",
+          "title": "Fair EM Call Distribution",
           "eyebrow": "Call Scheduling",
           "highlights": [
-            "Weekend shifts balanced automatically",
+            "Weekend shifts balanced for you",
             "Holiday burden distributed fairly",
             "Post-call rest rules applied"
           ],
@@ -154,7 +154,7 @@
   "searchIntent": {
     "keyword": "emergency medicine scheduling software",
     "searchIntents": [
-      "As a chief resident in emergency medicine, I need a scheduling solution that understands our unique ACGME compliance requirements and can generate optimized rotations without me having to learn any complex software.",
+      "As a chief resident in emergency medicine, I need a scheduling solution that understands our unique ACGME compliance requirements and can generate finished rotations without me having to learn any complex software.",
       "I'm a residency program director looking for a managed service that can handle the complexities of our emergency medicine scheduling while ensuring there are no gaps or overstaffing, unlike generic scheduling tools.",
       "As a program coordinator in an emergency department, I want a scheduling system that can quickly adapt to sudden changes in resident availability and still maintain compliance with ACGME duty hour regulations.",
       "I'm interested in a scheduling software that can integrate with the tools you already use and eliminate the administrative burden on our chief residents by providing schedules built to the ACGME requirements ready for use."

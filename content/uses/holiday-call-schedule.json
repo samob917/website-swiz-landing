@@ -46,7 +46,7 @@
     "features": {
       "items": [
         {
-          "id": "constraint-modeling",
+          "id": "rules-built-in",
           "eyebrow": "Your Rules and Requests",
           "title": "Built to Your Rules, However Granular",
           "description": "We build to your rules and requests, however complex or granular: the written ones, including the ACGME requirements where they apply, and the local ones nobody has written down. The attending who does not take Friday call. The two residents who cannot share a rotation. The clinic that needs Thursdays protected. If you can describe it, it goes in.",
@@ -63,7 +63,7 @@
           "highlights": [
             "Holiday shifts distributed equitably",
             "Post-call rest rules applied",
-            "Weekend burden balanced automatically"
+            "Weekend burden balanced for you"
           ],
           "description": "Distributes holiday call burden across all residents, balancing Thanksgiving, Christmas, New Year, and other high-demand dates equitably while applying the ACGME duty hour limits and post-call rest requirements."
         },
@@ -79,7 +79,7 @@
           "description": "ACGME duty hour regulations are built into the schedule as it is created during holiday periods, including the 80-hour weekly limit, eight hours off between duty periods, and the 24-hour cap. The subspecialty requirements you tell us apply are built in too."
         },
         {
-          "id": "fairness-optimization",
+          "id": "fair-call-distribution",
           "title": "Holiday Fairness You Can Defend",
           "eyebrow": "Fairness",
           "highlights": [
@@ -98,7 +98,7 @@
             "Personal rules respected",
             "Preferences built in from the start"
           ],
-          "description": "Vacation requests, personal rules, and holiday preferences are factored into the optimization as first-class inputs, not patched in manually after the core schedule is built."
+          "description": "Vacation requests, personal rules, and holiday preferences are built in as first-class inputs, not patched in manually after the core schedule is built."
         },
         {
           "id": "managed-service",
@@ -130,7 +130,7 @@
       "items": [
         {
           "title": "Hours Lost Every November",
-          "description": "Chief residents spend weeks manually balancing holiday call across residents, juggling fairness, duty hours, and coverage requirements with no automated help."
+          "description": "Chief residents spend weeks manually balancing holiday call across residents, juggling fairness, duty hours, and coverage requirements with no help."
         },
         {
           "title": "Fairness Disputes Damage Morale",

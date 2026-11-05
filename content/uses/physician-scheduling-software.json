@@ -23,7 +23,7 @@
         "question": "How do you handle ACGME requirements for a residency or fellowship?"
       },
       {
-        "answer": "Scheduling Wizard delivers four types of schedules: Block and rotation schedules, Call schedules with fairness optimization, Clinic schedules, and Attending physician schedules. All schedule types are built together, so changes in one schedule automatically propagate across the others without manual cross-referencing.",
+        "answer": "Scheduling Wizard delivers four types of schedules: Block and rotation schedules, Call schedules with fair call distribution, Clinic schedules, and Attending physician schedules. All schedule types are built together, so changes in one schedule propagate across the others without manual cross-referencing.",
         "question": "What types of physician schedules does Scheduling Wizard produce?"
       },
       {
@@ -69,7 +69,7 @@
         },
         {
           "id": "block-scheduling",
-          "title": "Year-Long Rotation Schedules Optimized",
+          "title": "Year-Long Rotation Schedules, Built For You",
           "eyebrow": "Block Scheduling",
           "highlights": [
             "PGY-level requirements respected",
@@ -83,7 +83,7 @@
           "title": "Fair Call Schedules",
           "eyebrow": "Call Scheduling",
           "highlights": [
-            "Weekend call balanced automatically",
+            "Weekend call balanced for you",
             "Holiday shifts distributed fairly",
             "Post-call rest rules applied"
           ],
@@ -113,7 +113,7 @@
         }
       ],
       "title": "Built for Physician and Residency Scheduling",
-      "description": "Every capability is designed to eliminate scheduling burden from your program and deliver compliant, optimized schedules."
+      "description": "Every capability is designed to eliminate scheduling burden from your program and deliver compliant, finished schedules."
     },
     "problems": {
       "items": [

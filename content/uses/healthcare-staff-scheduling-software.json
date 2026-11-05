@@ -27,11 +27,11 @@
         "question": "How is Scheduling Wizard different from other healthcare staff scheduling software?"
       },
       {
-        "answer": "Scheduling Wizard generates Block and rotation schedules, Call schedules with fairness optimization, Clinic schedules, and Attending physician schedules. All schedule types are optimized simultaneously so that rules in one schedule are automatically reflected across the others. Finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you that programs can upload directly to their existing publishing platform.",
+        "answer": "Scheduling Wizard generates Block and rotation schedules, Call schedules with fair call distribution, Clinic schedules, and Attending physician schedules. All schedule types are built together, so that rules in one schedule are reflected across the others. Finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you that programs can upload directly to their existing publishing platform.",
         "question": "What types of schedules does Scheduling Wizard generate?"
       },
       {
-        "answer": "With traditional healthcare staff scheduling software, institutional scheduling knowledge often leaves when a chief rotates out. With Scheduling Wizard, your program's rules, requests, and configurations are retained by the service year over year. Incoming chief residents inherit the written rule set and last year's schedule and do not need to rebuild scheduling logic from scratch. This continuity is a core part of the managed service model.",
+        "answer": "With traditional healthcare staff scheduling software, institutional scheduling knowledge often leaves when a chief rotates out. With Scheduling Wizard, your program's rules, requests, and configurations are retained by the service year over year. Incoming chief residents inherit the written rule set and last year's schedule and do not need to rebuild the scheduling rules from scratch. This continuity is a core part of the managed service model.",
         "question": "What happens to our scheduling setup when a new chief resident takes over?"
       },
       {
@@ -63,7 +63,7 @@
           "highlights": [
             "No software to operate",
             "Finished schedules as Excel or Google Sheets, or on a custom live view we build for you",
-            "Expert schedulers handle optimization"
+            "Our team does the building"
           ],
           "description": "Programs submit their rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you ready to publish. No platform to log into, no software to learn, no annual retraining when a new chief takes over. The schedules are built by our team, who do this full time."
         },
@@ -79,11 +79,11 @@
           "description": "Your program's scheduling rules and requests stay written down with Scheduling Wizard year over year. Incoming chiefs inherit the written rule set and last year's schedule instead of rebuilding from a blank spreadsheet."
         },
         {
-          "id": "fairness-optimization",
+          "id": "fair-call-distribution",
           "title": "Equitable Call and Weekend Distribution",
-          "eyebrow": "Fairness Optimization",
+          "eyebrow": "Fair Call Distribution",
           "highlights": [
-            "Holiday shifts balanced automatically",
+            "Holiday shifts balanced for you",
             "Weekend call distributed equitably",
             "Fairness worked out across the cohort"
           ],
@@ -94,11 +94,11 @@
           "title": "Block Call Clinic Schedules in Sync",
           "eyebrow": "Schedule Coordination",
           "highlights": [
-            "All schedule types optimized together",
+            "All schedule types built together",
             "Conflicts resolved before publishing",
             "No manual cross-schedule patching"
           ],
-          "description": "Block rotations, call schedules, clinic assignments, and attending coverage are optimized simultaneously. A rule in one schedule automatically propagates across the others, eliminating the domino effect of manual cross-schedule patching."
+          "description": "Block rotations, call schedules, clinic assignments, and attending coverage are built together. A rule in one schedule propagates across the others, eliminating the domino effect of manual cross-schedule patching."
         },
         {
           "id": "redrafts-included",
@@ -145,7 +145,7 @@
     "searchIntents": [
       "As a Chief Resident, I'm overwhelmed with the manual scheduling process and need a solution that ensures compliance with ACGME duties without the hassle of learning software.",
       "I'm a Program Director searching for an efficient way to automate our residency schedules that accommodates multiple rules while ensuring fairness and compliance in duty hours.",
-      "As a Program Coordinator, I want a done-for-you service for creating optimized schedules that allows us to avoid conflicts and manage resident preferences cleanly without adding more tasks to my plate.",
+      "As a Program Coordinator, I want a done-for-you service for creating finished schedules that allows us to avoid conflicts and manage resident preferences cleanly without adding more tasks to my plate.",
       "I'm in private practice and need solid scheduling software that not only supports complex scheduling needs but also integrates well with our existing tools for easy access and management."
     ]
   },

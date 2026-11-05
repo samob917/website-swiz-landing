@@ -15,7 +15,7 @@
     },
     "faq": [
       {
-        "answer": "Most GME scheduling software is a self-service tool that requires chief residents to learn and operate a complex platform. Scheduling Wizard is different; it is a fully managed service. Programs submit their rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you, with no software to learn or operate. The optimization is handled entirely by Scheduling Wizard's schedulers.",
+        "answer": "Most GME scheduling software is a self-service tool that requires chief residents to learn and operate a complex platform. Scheduling Wizard is different; it is a fully managed service. Programs submit their rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you, with no software to learn or operate. the building is done by our team.",
         "question": "What is GME scheduling software and how does Scheduling Wizard differ?"
       },
       {
@@ -23,7 +23,7 @@
         "question": "How does Scheduling Wizard ensure ACGME duty hour compliance?"
       },
       {
-        "answer": "Scheduling Wizard generates Block rotation schedules, Call schedules, Clinic schedules, and Attending schedules. All four schedule types are built together, so changes in one schedule type automatically propagate across the others and do not create downstream conflicts.",
+        "answer": "Scheduling Wizard generates Block rotation schedules, Call schedules, Clinic schedules, and Attending schedules. All four schedule types are built together, so changes in one schedule type propagate across the others and do not create downstream conflicts.",
         "question": "What types of schedules does Scheduling Wizard generate for GME programs?"
       },
       {
@@ -31,11 +31,11 @@
         "question": "Can Scheduling Wizard work alongside your existing platform?"
       },
       {
-        "answer": "Resident preferences including vacation requests, elective preferences, conference dates, moonlighting restrictions, and personal rules are submitted as inputs and factored into the optimization as first-class requirements. They are not manually patched in after the schedule is built, which means the final schedule reflects real program needs from the start.",
+        "answer": "Resident preferences including vacation requests, elective preferences, conference dates, moonlighting restrictions, and personal rules are submitted as inputs and built in as first-class requirements. They are not manually patched in after the schedule is built, which means the final schedule reflects real program needs from the start.",
         "question": "How does Scheduling Wizard handle resident preferences and rules?"
       },
       {
-        "answer": "With Scheduling Wizard, institutional scheduling knowledge does not leave when a chief resident rotates out. Your program's rules, requests, and configurations are retained within the service year over year. Incoming chiefs inherit an optimized, working system rather than having to rebuild scheduling knowledge from scratch each academic year.",
+        "answer": "With Scheduling Wizard, institutional scheduling knowledge does not leave when a chief resident rotates out. Your program's rules, requests, and configurations are retained within the service year over year. Incoming chiefs inherit a working system rather than having to rebuild scheduling knowledge from scratch each academic year.",
         "question": "What happens to scheduling knowledge when a new chief resident takes over?"
       }
     ],
@@ -46,7 +46,7 @@
     "features": {
       "items": [
         {
-          "id": "constraint-modeling",
+          "id": "rules-built-in",
           "eyebrow": "Your Rules and Requests",
           "title": "Built to Your Rules, However Granular",
           "description": "We build to your rules and requests, however complex or granular: the written ones, including the ACGME requirements where they apply, and the local ones nobody has written down. The attending who does not take Friday call. The two residents who cannot share a rotation. The clinic that needs Thursdays protected. If you can describe it, it goes in.",
@@ -63,7 +63,7 @@
           "highlights": [
             "No software to learn",
             "Delivered as Excel, Sheets or a live view",
-            "Expert schedulers handle optimization"
+            "Our team does the building"
           ],
           "description": "Scheduling Wizard operates as a fully managed service for GME programs. Submit your rules and receive finished schedules as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by our team, who do this full time."
         },
@@ -91,7 +91,7 @@
         },
         {
           "id": "block-scheduling",
-          "title": "Year Long Rotation Schedules Optimized",
+          "title": "Year-Long Rotation Schedules, Built For You",
           "eyebrow": "Block Scheduling",
           "highlights": [
             "PGY-level requirements respected",
@@ -105,7 +105,7 @@
           "title": "Fair Call Distribution Across Residents",
           "eyebrow": "Call Scheduling",
           "highlights": [
-            "Weekend call balanced automatically",
+            "Weekend call balanced for you",
             "Holiday shifts distributed fairly",
             "Post-call rest rules applied"
           ],

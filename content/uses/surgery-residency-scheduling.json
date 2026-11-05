@@ -19,7 +19,7 @@
         "question": "How does Scheduling Wizard ensure ACGME compliance for surgery residency schedules?"
       },
       {
-        "answer": "Scheduling Wizard generates complete Block, Call, Clinic, and Attending schedules for surgical residency and fellowship programs. All four schedule types are optimized simultaneously, so a change in one automatically propagates across the others. The finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you that programs can upload directly to their existing publishing platform.",
+        "answer": "Scheduling Wizard generates complete Block, Call, Clinic, and Attending schedules for surgical residency and fellowship programs. All four schedule types are built together, so a change in one propagates across the others. The finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you that programs can upload directly to their existing publishing platform.",
         "question": "What types of schedules does Scheduling Wizard generate for surgery programs?"
       },
       {
@@ -39,7 +39,7 @@
         "question": "Who at a surgery residency program typically works with Scheduling Wizard?"
       },
       {
-        "answer": "No. Scheduling Wizard focuses on building and optimizing your schedule, the output is delivered as Excel or Google Sheets, or on a custom live view we build for you that your program can upload directly to whatever platform you already use. Many Scheduling Wizard clients continue using the platform they already have to publish the schedule day-to-day while Scheduling Wizard handles all schedule building.",
+        "answer": "No. Scheduling Wizard focuses on building your schedule, the output is delivered as Excel or Google Sheets, or on a custom live view we build for you that your program can upload directly to whatever platform you already use. Many Scheduling Wizard clients continue using the platform they already have to publish the schedule day-to-day while Scheduling Wizard handles all schedule building.",
         "question": "Do we need to replace the scheduling tools we already use?"
       },
       {
@@ -54,7 +54,7 @@
     "features": {
       "items": [
         {
-          "id": "constraint-modeling",
+          "id": "rules-built-in",
           "eyebrow": "Your Rules and Requests",
           "title": "Built to Your Rules, However Granular",
           "description": "We build to your rules and requests, however complex or granular: the written ones, including the ACGME requirements where they apply, and the local ones nobody has written down. The attending who does not take Friday call. The two residents who cannot share a rotation. The clinic that needs Thursdays protected. If you can describe it, it goes in.",
@@ -77,10 +77,10 @@
         },
         {
           "id": "call-scheduling",
-          "title": "Surgery Call Schedules Optimized for Fairness",
+          "title": "Surgery Call Schedules Built for Fairness",
           "eyebrow": "Call Scheduling",
           "highlights": [
-            "Weekend call balanced automatically",
+            "Weekend call balanced for you",
             "Holiday shifts distributed fairly",
             "Post-call rest rules applied"
           ],
@@ -163,7 +163,7 @@
     "keyword": "surgery residency scheduling",
     "searchIntents": [
       "A chief resident in a surgical program overwhelmed with trying to create an schedules built to the ACGME requirements that accommodates all resident preferences and departmental needs, needing a solution that enforces the rules when the schedule is built without the administrative burden of manual scheduling.",
-      "A program coordinator looking for a reliable service to generate optimized surgery residency schedules quickly, ensuring no gaps in coverage and fairness in call duties, while avoiding the pitfalls of generic scheduling software that fails to account for complex residency rules.",
+      "A program coordinator looking for a reliable service to generate finished surgery residency schedules quickly, ensuring no gaps in coverage and fairness in call duties, while avoiding the pitfalls of generic scheduling software that fails to account for complex residency rules.",
       "A residency program director seeking to streamline the scheduling process for their surgical department with a managed service that can deliver ready-to-use schedules tailored to their unique ACGME requirements, knowing that traditional self-service tools won’t meet the specific demands of their program.",
       "A fellowship program administrator who needs a dependable scheduling solution during the transition between chief residents, looking for a service that not only handles scheduling but also maintains institutional knowledge of unique scheduling rules and compliance issues."
     ]

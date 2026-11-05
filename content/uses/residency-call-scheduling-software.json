@@ -46,7 +46,7 @@
     "features": {
       "items": [
         {
-          "id": "constraint-modeling",
+          "id": "rules-built-in",
           "eyebrow": "Your Rules and Requests",
           "title": "Built to Your Rules, However Granular",
           "description": "We build to your rules and requests, however complex or granular: the written ones, including the ACGME requirements where they apply, and the local ones nobody has written down. The attending who does not take Friday call. The two residents who cannot share a rotation. The clinic that needs Thursdays protected. If you can describe it, it goes in.",
@@ -61,11 +61,11 @@
           "title": "Fair Call Schedules, Built",
           "eyebrow": "Call Scheduling",
           "highlights": [
-            "Weekend call balanced automatically",
+            "Weekend call balanced for you",
             "Holiday shifts distributed fairly",
             "Post-call rest rules applied"
           ],
-          "description": "Our team produces on-call schedules built to the ACGME requirements that distribute call, weekend, and holiday burden equitably across all residents, respecting duty hour limits, post-call rest rules, and individual rules automatically."
+          "description": "Our team produces on-call schedules built to the ACGME requirements that distribute call, weekend, and holiday burden equitably across all residents, respecting duty hour limits, post-call rest rules, and individual rules in the build."
         },
         {
           "id": "acgme-compliance",
@@ -105,11 +105,11 @@
           "title": "Preferences Factored Into Every Call Schedule",
           "eyebrow": "Resident Preferences",
           "highlights": [
-            "Vacation requests integrated automatically",
+            "Vacation requests built in",
             "Conference dates respected",
             "Moonlighting restrictions honored"
           ],
-          "description": "Vacation requests, conference dates, elective preferences, and moonlighting restrictions are treated as first-class inputs to the call schedule optimization, not manually patched in after the fact by an overwhelmed chief."
+          "description": "Vacation requests, conference dates, elective preferences, and moonlighting restrictions are treated as first-class inputs to the build, not manually patched in after the fact by an overwhelmed chief."
         },
         {
           "id": "redrafts-included",
@@ -155,7 +155,7 @@
     "keyword": "residency call scheduling software",
     "searchIntents": [
       "A chief resident overwhelmed with the complexity of creating a fair call schedule that complies with ACGME regulations and needs a managed service to eliminate the scheduling burden for their team.",
-      "A residency program director looking for a reliable solution to optimize call schedules without requiring their chief residents to learn new software, ensuring compliance with specific subspecialty rules.",
+      "A residency program director looking for a reliable solution to build call schedules without requiring their chief residents to learn new software, ensuring compliance with specific subspecialty rules.",
       "A program coordinator responsible for scheduling in a busy medical residency program seeking a tool that can integrate with their existing systems (your existing platform) and handle complex scheduling rules automatically.",
       "A private practice administrator wanting to streamline call scheduling across multiple departments while ensuring compliance and fairness, needing a solution that minimizes manual intervention and maximizes efficiency."
     ]

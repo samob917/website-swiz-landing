@@ -46,7 +46,7 @@
     "features": {
       "items": [
         {
-          "id": "constraint-modeling",
+          "id": "rules-built-in",
           "eyebrow": "Your Rules and Requests",
           "title": "Built to Your Rules, However Granular",
           "description": "We build to your rules and requests, however complex or granular: the written ones, including the ACGME requirements where they apply, and the local ones nobody has written down. The attending who does not take Friday call. The two residents who cannot share a rotation. The clinic that needs Thursdays protected. If you can describe it, it goes in.",
@@ -61,7 +61,7 @@
           "title": "Fair On Call Schedules, Built",
           "eyebrow": "Call Scheduling",
           "highlights": [
-            "Weekend call balanced automatically",
+            "Weekend call balanced for you",
             "Holiday shifts distributed fairly",
             "Post-call rest rules applied"
           ],
@@ -154,7 +154,7 @@
   "searchIntent": {
     "keyword": "on call schedule generator",
     "searchIntents": [
-      "A chief resident overwhelmed by the complexities of creating fair on-call schedules for a busy medical residency program, looking for an automated solution that can handle ACGME compliance and optimize for resident preferences without the burden of learning new software.",
+      "A chief resident overwhelmed by the complexities of creating fair on-call schedules for a busy medical residency program, looking for an automated solution that can handle ACGME compliance and build for resident preferences without the burden of learning new software.",
       "A program director who needs to ensure that on-call schedules comply with ACGME duty hour regulations while also balancing the individual needs of residents, seeking a specialized generator that can address these specific requirements without sacrificing fairness and coverage.",
       "A program coordinator tasked with alleviating scheduling conflicts and ensuring institutional knowledge persists through annual leadership changes, searching for a managed scheduling service that can streamline the on-call schedule process and eliminate errors in manual scheduling.",
       "An administrator in a private practice wanting to implement an on-call rotation system that minimizes gaps and overstaffing, looking for a tailored scheduling generator that understands the unique challenges of healthcare scheduling and can provide instant a rebuilds for unplanned absences."

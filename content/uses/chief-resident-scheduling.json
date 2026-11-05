@@ -31,7 +31,7 @@
         "question": "What happens to scheduling knowledge when a new chief resident takes over?"
       },
       {
-        "answer": "Scheduling Wizard generates Block and rotation schedules, Call schedules with fairness optimization, Clinic schedules, and Attending schedules. All schedule types are optimized simultaneously using the same rule set, so a change in one schedule type automatically resolves dependencies across the others.",
+        "answer": "Scheduling Wizard generates Block and rotation schedules, Call schedules with fair call distribution, Clinic schedules, and Attending schedules. All schedule types are built together using the same rule set, so a change in one schedule type resolves dependencies across the others.",
         "question": "What types of schedules does Scheduling Wizard generate for residency programs?"
       },
       {
@@ -46,7 +46,7 @@
     "features": {
       "items": [
         {
-          "id": "constraint-modeling",
+          "id": "rules-built-in",
           "eyebrow": "Your Rules and Requests",
           "title": "Built to Your Rules, However Granular",
           "description": "We build to your rules and requests, however complex or granular: the written ones, including the ACGME requirements where they apply, and the local ones nobody has written down. The attending who does not take Friday call. The two residents who cannot share a rotation. The clinic that needs Thursdays protected. If you can describe it, it goes in.",
@@ -94,7 +94,7 @@
           "title": "Fair Call Distribution for Every Resident",
           "eyebrow": "Call Scheduling",
           "highlights": [
-            "Weekend call balanced automatically",
+            "Weekend call balanced for you",
             "Holiday shifts distributed fairly",
             "Post-call rest rules applied"
           ],
@@ -102,14 +102,14 @@
         },
         {
           "id": "resident-preferences",
-          "title": "Preferences Built Into the Optimization",
+          "title": "Preferences Built Into the Schedule",
           "eyebrow": "Resident Preferences",
           "highlights": [
             "Vacation requests incorporated",
             "Conference dates accounted for",
             "Elective preferences respected"
           ],
-          "description": "Vacation requests, elective preferences, conference dates, and moonlighting restrictions are factored into the optimization as first-class inputs, not manually patched in after the schedule is already built."
+          "description": "Vacation requests, elective preferences, conference dates, and moonlighting restrictions are built in as first-class inputs, not manually patched in after the schedule is already built."
         },
         {
           "id": "redrafts-included",
@@ -124,7 +124,7 @@
         }
       ],
       "title": "Built for Chief Resident Scheduling",
-      "description": "Every feature is designed to eliminate the operator burden on chief residents and deliver optimized, compliant schedules without requiring software expertise."
+      "description": "Every feature is designed to eliminate the operator burden on chief residents and deliver finished, compliant schedules without requiring software expertise."
     },
     "problems": {
       "items": [
@@ -155,7 +155,7 @@
     "keyword": "chief resident scheduling",
     "searchIntents": [
       "As a chief resident, I'm overwhelmed with the scheduling process and need a way to create schedules built to the ACGME requirements without spending hours on software learning or manual adjustments.",
-      "I'm a program coordinator looking for a managed service to quickly generate optimized duty hour schedules that take into account resident preferences and institutional rules, ensuring compliance with GME regulations.",
+      "I'm a program coordinator looking for a managed service to quickly generate finished duty hour schedules that take into account resident preferences and institutional rules, ensuring compliance with GME regulations.",
       "As a residency program director, I need a reliable solution for generating complex rotation schedules that can adapt to our specific subspecialty rules while eliminating scheduling conflicts and gaps.",
       "I'm worried about continuity in scheduling as we transition to a new chief resident, and I need a service that can maintain institutional knowledge and ensure fair distribution of call duties."
     ]

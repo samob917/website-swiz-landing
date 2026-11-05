@@ -23,7 +23,7 @@
         "question": "How does Scheduling Wizard ensure ACGME duty hour compliance?"
       },
       {
-        "answer": "Scheduling Wizard generates four types of schedules: Block or rotation schedules, Call schedules with fairness optimization, Clinic schedules, and Attending schedules. All four are built together, so conflicts between schedule types are resolved before the final schedule is delivered. The output is delivered as Excel or Google Sheets, or on a custom live view we build for you, ready for their existing publishing platform.",
+        "answer": "Scheduling Wizard generates four types of schedules: Block or rotation schedules, Call schedules with fair call distribution, Clinic schedules, and Attending schedules. All four are built together, so conflicts between schedule types are resolved before the final schedule is delivered. The output is delivered as Excel or Google Sheets, or on a custom live view we build for you, ready for their existing publishing platform.",
         "question": "What types of schedules does Scheduling Wizard generate for residency programs?"
       },
       {
@@ -35,7 +35,7 @@
         "question": "What happens to our scheduling setup when chief residents change each year?"
       },
       {
-        "answer": "Scheduling Wizard works with chief residents, program directors, program coordinators, and GME offices. Chief residents are often the primary point of contact since they are typically responsible for building schedules. Program directors and coordinators are also common contacts, particularly for larger programs or those managing schedules across multiple departments. The managed service model is designed so that no single person needs deep scheduling expertise to get compliant, optimized schedules produced.",
+        "answer": "Scheduling Wizard works with chief residents, program directors, program coordinators, and GME offices. Chief residents are often the primary point of contact since they are typically responsible for building schedules. Program directors and coordinators are also common contacts, particularly for larger programs or those managing schedules across multiple departments. The managed service model is designed so that no single person needs deep scheduling expertise to get compliant, finished schedules produced.",
         "question": "Who at a residency program typically works with Scheduling Wizard?"
       }
     ],
@@ -46,7 +46,7 @@
     "features": {
       "items": [
         {
-          "id": "constraint-modeling",
+          "id": "rules-built-in",
           "eyebrow": "Your Rules and Requests",
           "title": "Built to Your Rules, However Granular",
           "description": "We build to your rules and requests, however complex or granular: the written ones, including the ACGME requirements where they apply, and the local ones nobody has written down. The attending who does not take Friday call. The two residents who cannot share a rotation. The clinic that needs Thursdays protected. If you can describe it, it goes in.",
@@ -87,11 +87,11 @@
             "No institutional knowledge lost",
             "New chiefs start with a working schedule"
           ],
-          "description": "Your program's rules, requests, and optimization configurations are retained with Scheduling Wizard across annual chief rotations. New chiefs inherit the written rule set and last year's schedule instead of rebuilding the schedule from a blank spreadsheet."
+          "description": "Your program's rules and requests are retained with Scheduling Wizard across annual chief rotations. New chiefs inherit the written rule set and last year's schedule instead of rebuilding the schedule from a blank spreadsheet."
         },
         {
           "id": "block-scheduling",
-          "title": "Year-Long Rotation Schedules Optimized",
+          "title": "Year-Long Rotation Schedules, Built For You",
           "eyebrow": "Block Scheduling",
           "highlights": [
             "PGY-level requirements respected",
@@ -105,11 +105,11 @@
           "title": "Block Call and Clinic Solved Together",
           "eyebrow": "Schedule Coordination",
           "highlights": [
-            "All schedule types optimized together",
-            "Changes propagate automatically",
+            "All schedule types built together",
+            "Changes carried through every schedule",
             "No manual cross-schedule patching"
           ],
-          "description": "Block, call, clinic, and attending schedules are built together. A change in one propagates across the others automatically, eliminating the domino effect of manual cross-schedule patching."
+          "description": "Block, call, clinic, and attending schedules are built together. A change in one is carried through the others, removing the domino effect of manual cross-schedule patching."
         },
         {
           "id": "redrafts-included",
@@ -156,7 +156,7 @@
     "searchIntents": [
       "A chief resident overwhelmed with the complexities of creating compliant schedules for rotating residents, looking for a solution that automates the process without needing to learn to use complicated software.",
       "A program director searching for a managed service that can streamline their residency scheduling to ensure adherence to ACGME regulations and avoid staffing conflicts in a busy hospital environment.",
-      "A residency program coordinator seeking a hassle-free way to produce optimized schedules quickly, as errors in scheduling can lead to compliance issues and affect resident wellbeing.",
+      "A residency program coordinator seeking a hassle-free way to produce finished schedules quickly, as errors in scheduling can lead to compliance issues and affect resident wellbeing.",
       "An administrator in a private practice wanting to improve their scheduling efficiency by finding software that not only organizes schedules but also complies with specialty-specific requirements without adding to their workload."
     ]
   },

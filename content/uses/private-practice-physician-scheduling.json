@@ -15,23 +15,23 @@
     },
     "faq": [
       {
-        "answer": "A managed scheduling service means your practice submits its rules and requirements, and an expert team handles the schedule building on your behalf. Scheduling Wizard takes your physician availability, coverage requirements, and preferences, has a team that does this full time build it, and delivers a finished physician schedule as Excel or Google Sheets, or on a custom live view we build for you. Your practice gets an optimized result without needing to learn or operate any scheduling software.",
+        "answer": "A managed scheduling service means your practice submits its rules and requirements, and an expert team handles the schedule building on your behalf. Scheduling Wizard takes your physician availability, coverage requirements, and preferences, has a team that does this full time build it, and delivers a finished physician schedule as Excel or Google Sheets, or on a custom live view we build for you. Your practice gets an finished schedule without needing to learn or operate any scheduling software.",
         "question": "What is a managed scheduling service for private practice physicians?"
       },
       {
-        "answer": "Physician availability, time-off requests, and personal rules are factored into the optimization as first-class inputs. When you submit your rules, you can include individual physician preferences alongside your coverage requirements. Our team balances these preferences against practice needs, producing a schedule that reflects real-world rules rather than an idealized but unworkable template.",
+        "answer": "Physician availability, time-off requests, and personal rules are built in as first-class inputs. When you submit your rules, you can include individual physician preferences alongside your coverage requirements. Our team balances these preferences against practice needs, producing a schedule that reflects real-world rules rather than an idealized but unworkable template.",
         "question": "How does Scheduling Wizard handle physician preferences in private practice?"
       },
       {
-        "answer": "Fairness is built into the schedule mathematically. Weekends, holidays, and on-call shifts are distributed equitably across your physician group based on the rules you provide. Rather than relying on a human scheduler to manually balance burdens, our team calculates a mathematically fair distribution every time a schedule is generated.",
+        "answer": "Fairness is built into the schedule. Weekends, holidays, and on-call shifts are distributed equitably across your physician group based on the rules you provide. Rather than relying on a human scheduler to manually balance burdens, our team balances the distribution every time a schedule is built.",
         "question": "How does Scheduling Wizard ensure fair scheduling across physician partners?"
       },
       {
-        "answer": "Scheduling Wizard delivers finished schedules as Excel or Google Sheets, or on a custom live view we build for you, ready for your practice to use immediately. If your practice uses a viewing or publishing platform, the finished schedule goes straight in. There is no separate platform or dashboard, the deliverable is a complete, optimized schedule file your team can act on right away.",
+        "answer": "Scheduling Wizard delivers finished schedules as Excel or Google Sheets, or on a custom live view we build for you, ready for your practice to use immediately. If your practice uses a viewing or publishing platform, the finished schedule goes straight in. There is no separate platform or dashboard, the deliverable is a complete, finished schedule file your team can act on right away.",
         "question": "What does the scheduling output look like for a private practice?"
       },
       {
-        "answer": "Private practice physician scheduling focuses on coverage optimization, physician partner fairness, and practice-specific rules rather than training requirements or regulatory frameworks like ACGME. We apply the same approach to fairness used in residency programs to private practice contexts, adapting to the specific rules and preferences your physician group provides.",
+        "answer": "Private practice physician scheduling focuses on full coverage, physician partner fairness, and practice-specific rules rather than training requirements or regulatory frameworks like ACGME. We apply the same approach to fairness used in residency programs to private practice contexts, adapting to the specific rules and preferences your physician group provides.",
         "question": "How does private practice physician scheduling differ from residency scheduling?"
       },
       {
@@ -46,7 +46,7 @@
     "features": {
       "items": [
         {
-          "id": "constraint-modeling",
+          "id": "rules-built-in",
           "eyebrow": "Your Rules and Requests",
           "title": "Built to Your Rules, However Granular",
           "description": "We build to your rules and requests, however complex or granular: the written ones, including the ACGME requirements where they apply, and the local ones nobody has written down. The attending who does not take Friday call. The two residents who cannot share a rotation. The clinic that needs Thursdays protected. If you can describe it, it goes in.",
@@ -68,9 +68,9 @@
           "description": "Submit your practice rules, physician preferences, and coverage requirements. Scheduling Wizard's expert team builds the schedule and delivers finished schedules as Excel or Google Sheets, or on a custom live view we build for you your practice can use immediately. The schedules are built by our team, who do this full time."
         },
         {
-          "id": "coverage-optimization",
+          "id": "full-coverage",
           "title": "No Gaps No Overstaffing",
-          "eyebrow": "Coverage Optimization",
+          "eyebrow": "Full Coverage, No Gaps",
           "highlights": [
             "All required shifts covered",
             "Overstaffing minimized by design",
@@ -79,9 +79,9 @@
           "description": "Every required shift and patient slot is covered with the right number of physicians, without leaving gaps or stacking redundant coverage across your locations."
         },
         {
-          "id": "fairness-optimization",
+          "id": "fair-call-distribution",
           "title": "Equitable Distribution Across All Physicians",
-          "eyebrow": "Fairness Optimization",
+          "eyebrow": "Fair Call Distribution",
           "highlights": [
             "Holiday shifts balanced across the group",
             "Weekend burden distributed fairly",
@@ -91,7 +91,7 @@
         },
         {
           "id": "attending-scheduling",
-          "title": "Optimized Attending and Physician Schedules",
+          "title": "Attending and Physician Schedules Built For You",
           "eyebrow": "Physician Scheduling",
           "highlights": [
             "Physician availability fully respected",
@@ -134,7 +134,7 @@
         },
         {
           "title": "Coverage Gaps and Overstaffing",
-          "description": "Without optimization, schedules routinely have uncovered shifts or redundant coverage, leading to patient access problems and unnecessary labor costs."
+          "description": "Built by hand, schedules routinely have uncovered shifts or redundant coverage, leading to patient access problems and unnecessary labor costs."
         },
         {
           "title": "Fairness Disputes Among Physicians",
@@ -146,7 +146,7 @@
     },
     "solution": {
       "title": "A Managed Scheduling Service Built for Physicians",
-      "description": "Scheduling Wizard operates as a done-for-you managed service. Submit your practice rules, physician preferences, and coverage requirements, and receive finished, optimized physician schedules delivered as Excel or Google Sheets, or on a custom live view we build for you. No software to learn, no scheduling expertise required."
+      "description": "Scheduling Wizard operates as a done-for-you managed service. Submit your practice rules, physician preferences, and coverage requirements, and receive finished physician schedules delivered as Excel or Google Sheets, or on a custom live view we build for you. No software to learn, no scheduling expertise required."
     },
     "metaTitle": "Private Practice Physician Scheduling | Built For You",
     "metaDescription": "Private practice physician scheduling is complex. Our managed service takes your rules and delivers a complete schedule built to your rules."
@@ -157,7 +157,7 @@
       "As a practice administrator, I'm struggling to create an efficient schedule for our physicians that accommodates their preferences and ensures we meet patient demand without overstaffing or gaps in coverage.",
       "A private practice owner looking for a solution to streamline physician scheduling so I can reduce the manual effort involved and ensure compliance with industry regulations while still being adaptable to changes and emergencies.",
       "As a chief resident moving into private practice, I need a scheduling system that can easily integrate with my existing tools while ensuring fairness among staff and compliance with any applicable regulations.",
-      "I manage a small clinic and need help optimizing our physician schedules to minimize burnout and maximize productivity, considering various personal and professional commitments each physician has."
+      "I manage a small clinic and need help building our physician schedules to minimize burnout and maximize productivity, considering various personal and professional commitments each physician has."
     ]
   },
   "seoMetadata": {

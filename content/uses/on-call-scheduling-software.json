@@ -15,7 +15,7 @@
     },
     "faq": [
       {
-        "answer": "On call scheduling software automates the creation and distribution of on-call shifts for medical residents and fellows. Traditional tools are self-service platforms that programs operate themselves, while Scheduling Wizard takes a different approach as a fully managed service, programs submit their rules and receive finished, ACGME-compliant on call schedules delivered as Excel or Google Sheets, or on a custom live view we build for you, with no software for the team to learn or operate.",
+        "answer": "On call scheduling software is used to build on-call schedules for medical residents and fellows. Traditional tools are self-service platforms that programs operate themselves, while Scheduling Wizard takes a different approach as a fully managed service, programs submit their rules and receive finished, ACGME-compliant on call schedules delivered as Excel or Google Sheets, or on a custom live view we build for you, with no software for the team to learn or operate.",
         "question": "What is on call scheduling software for residency programs?"
       },
       {
@@ -31,11 +31,11 @@
         "question": "Can Scheduling Wizard work alongside your existing platform?"
       },
       {
-        "answer": "Call, weekend, and holiday burden is distributed across all residents so that each person carries an equitable share. Our team factors in individual rules such as vacation requests, conference dates, and moonlighting restrictions, then balances the remaining call load mathematically. This eliminates the manual auditing and fairness disputes that are common with spreadsheet-based or self-service scheduling approaches.",
+        "answer": "Call, weekend, and holiday burden is distributed across all residents so that each person carries an equitable share. Our team factors in individual rules such as vacation requests, conference dates, and moonlighting restrictions, then balances the remaining call load. This eliminates the manual auditing and fairness disputes that are common with spreadsheet-based or self-service scheduling approaches.",
         "question": "How does Scheduling Wizard handle fairness in on call schedule distribution?"
       },
       {
-        "answer": "Scheduling Wizard delivers Block and Rotation schedules, Call schedules, Clinic schedules, and Attending schedules. All schedule types are optimized simultaneously so that a change in one does not create conflicts in another. Finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you that programs can upload to their existing tools for day-to-day access.",
+        "answer": "Scheduling Wizard delivers Block and Rotation schedules, Call schedules, Clinic schedules, and Attending schedules. All schedule types are built together, so that a change in one does not create conflicts in another. Finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you that programs can upload to their existing tools for day-to-day access.",
         "question": "What types of schedules does Scheduling Wizard deliver for residency programs?"
       },
       {
@@ -47,7 +47,7 @@
         "question": "What happens when a resident unexpectedly cannot cover a call shift?"
       },
       {
-        "answer": "Programs submit their scheduling rules, including ACGME duty hour requirements, subspecialty-specific call rules, resident preferences (vacation, conferences, moonlighting), coverage minimums, and any program-specific rules. Scheduling Wizard's team turns these inputs into a finished, optimized call schedule delivered as Excel or Google Sheets, or on a custom live view we build for you.",
+        "answer": "Programs submit their scheduling rules, including ACGME duty hour requirements, subspecialty-specific call rules, resident preferences (vacation, conferences, moonlighting), coverage minimums, and any program-specific rules. Scheduling Wizard's team turns these inputs into a finished call schedule delivered as Excel or Google Sheets, or on a custom live view we build for you.",
         "question": "What information does my program need to submit to get a call schedule?"
       }
     ],
@@ -73,7 +73,7 @@
           "title": "Fair On Call Schedules, Built",
           "eyebrow": "Call Scheduling",
           "highlights": [
-            "Weekend call balanced automatically",
+            "Weekend call balanced for you",
             "Holiday shifts distributed fairly",
             "Post-call rest rules applied"
           ],
@@ -91,9 +91,9 @@
           "description": "Scheduling Wizard operates as a done-for-you managed service. Programs submit their rules and receive finished on call schedules as Excel or Google Sheets, or on a custom live view we build for you, no platform to learn, no software to operate. The schedules are built by our team, who do this full time."
         },
         {
-          "id": "fairness-optimization",
+          "id": "fair-call-distribution",
           "title": "Call Burden Worked Out in the Build",
-          "eyebrow": "Fairness Optimization",
+          "eyebrow": "Fair Call Distribution",
           "highlights": [
             "Call load balanced program-wide",
             "Holiday equity tracked",
