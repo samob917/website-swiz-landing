@@ -27,7 +27,7 @@
         "question": "What types of schedules does Scheduling Wizard generate for residency programs?"
       },
       {
-        "answer": "No. Many Scheduling Wizard clients continue using the platform they already have alongside the service. Scheduling Wizard handles the schedule building, while the platform you already use handles day-to-day schedule viewing and access. The finished schedules Scheduling Wizard delivers go into whichever viewing platform your program already uses.",
+        "answer": "No. It is entirely up to you. We build the schedule either way, and deliver it in the format and structure you want: Excel or Google Sheets, or a custom live view we build for you if that is useful. Many programs keep the platform they already have for day-to-day viewing and upload our schedules straight into it; others use the live view, or both. Whatever works best for your program.",
         "question": "Do we need to replace the platform we use now to use Scheduling Wizard?"
       },
       {

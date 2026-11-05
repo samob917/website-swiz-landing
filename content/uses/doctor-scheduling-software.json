@@ -27,7 +27,7 @@
         "question": "What types of schedules does Scheduling Wizard generate?"
       },
       {
-        "answer": "Yes. Scheduling Wizard handles the schedule building, while many clients continue using the platform they already have for day-to-day schedule access. The finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you that are ready to upload directly into your existing viewing platform, so you do not need to change your current workflow for accessing schedules.",
+        "answer": "Yes. It is entirely up to you. We build the schedule either way, and deliver it in the format and structure you want: Excel or Google Sheets, or a custom live view we build for you if that is useful. Many programs keep the platform they already have for day-to-day viewing and upload our schedules straight into it; others use the live view, or both. Whatever works best for your program.",
         "question": "Can Scheduling Wizard work alongside your existing platform?"
       },
       {

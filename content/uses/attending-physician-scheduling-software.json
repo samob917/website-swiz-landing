@@ -23,7 +23,7 @@
         "question": "What rules do you build an attending schedule around?"
       },
       {
-        "answer": "Scheduling Wizard handles the schedule building, while the platform you already use handles day-to-day schedule access. Many Scheduling Wizard clients continue using the platform they already have alongside the service. We build the attending schedule, and programs put the finished schedule into their existing publishing platform.",
+        "answer": "No. It is entirely up to you. We build the schedule either way, and deliver it in the format and structure you want: Excel or Google Sheets, or a custom live view we build for you if that is useful. Many programs keep the platform they already have for day-to-day viewing and upload our schedules straight into it; others use the live view, or both. Whatever works best for your program.",
         "question": "Does Scheduling Wizard replace the platform we use now for attending scheduling?"
       },
       {
