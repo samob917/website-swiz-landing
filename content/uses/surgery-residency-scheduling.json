@@ -15,32 +15,28 @@
     },
     "faq": [
       {
-        "answer": "ACGME compliance is built into the schedule as it is created, not checked manually afterward. The requirements you tell us apply are built in, including the 80-hour weekly limit, eight hours off between duty periods, and the 24-hour cap. For surgical programs that includes the call and trauma coverage rules particular to your program. The rules are applied before the schedule reaches your program.",
-        "question": "How does Scheduling Wizard ensure ACGME compliance for surgery residency schedules?"
+        "answer": "ACGME compliance is built into the schedule as it is created, not checked manually afterward. The requirements you tell us apply are built in, including the 80-hour weekly limit, the rest requirements between duty periods, and the 24-hour cap. For surgical programs that includes the call and trauma coverage rules particular to your program. The rules are applied before the schedule reaches your program.",
+        "question": "How does Scheduling Wizard handle the ACGME duty hour rules?"
       },
       {
         "answer": "Scheduling Wizard generates complete Block, Call, Clinic, and Attending schedules for surgical residency and fellowship programs. All four schedule types are built together, so a change in one propagates across the others. The finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you that programs can upload directly to their existing publishing platform.",
         "question": "What types of schedules does Scheduling Wizard generate for surgery programs?"
       },
       {
-        "answer": "Fairness is worked out in the build, not estimated. Our team distributes call, weekend, and holiday burden equitably across all residents in a surgical program while simultaneously respecting ACGME duty hour limits and individual rules. This eliminates the manual back-and-forth and \"why do I have more weekend call?\" disputes that are common with spreadsheet-based scheduling.",
+        "answer": "Fairness is worked out in the build, not estimated. Our team distributes call, weekend, and holiday burden equitably across all residents in a surgical program while simultaneously respecting ACGME duty hour limits and individual rules. This removes the manual back-and-forth and \"why do I have more weekend call?\" disputes that are common with spreadsheet-based scheduling.",
         "question": "How is surgery residency call scheduling made fair across all residents?"
       },
       {
-        "answer": "Institutional scheduling knowledge persists with Scheduling Wizard across annual chief rotations. Your program's rule configurations, rules, and preferences are retained year over year. Incoming chief residents inherit the written rule set and last year's schedule instead of starting from a blank spreadsheet, which eliminates the steep annual learning curve that burdens most surgical programs.",
+        "answer": "Institutional scheduling knowledge persists with Scheduling Wizard across annual chief rotations. Your program's rules and requests are written down and kept year over year. Incoming chief residents inherit the written rule set and last year's schedule instead of starting from a blank spreadsheet, which removes the steep annual learning curve that burdens most surgical programs.",
         "question": "What happens when a new chief resident takes over the surgery program?"
       },
       {
-        "answer": "No, and many surgery programs do exactly that. Scheduling Wizard handles the build, producing finished schedules built to the ACGME requirements as Excel or Google Sheets files. Programs then upload them to whatever platform they already publish on.",
+        "answer": "No. Many surgery programs keep the platform they already publish on and have us build the schedule. Scheduling Wizard handles the build, producing finished schedules built to the ACGME requirements as Excel or Google Sheets, or on a custom live view we build for you. Programs then upload them to whatever platform they already publish on.",
         "question": "Does Scheduling Wizard replace the platform we use now for surgery programs?"
       },
       {
         "answer": "Scheduling Wizard primarily works with chief residents, program directors, and program coordinators at surgical residency and fellowship programs. Chief residents benefit most from the managed service model since they do not need to learn scheduling software. Program directors benefit from institutional continuity across chief rotations. Program coordinators benefit from conflict detection and revision handling throughout the academic year.",
         "question": "Who at a surgery residency program typically works with Scheduling Wizard?"
-      },
-      {
-        "answer": "No. Scheduling Wizard focuses on building your schedule, the output is delivered as Excel or Google Sheets, or on a custom live view we build for you that your program can upload directly to whatever platform you already use. Many Scheduling Wizard clients continue using the platform they already have to publish the schedule day-to-day while Scheduling Wizard handles all schedule building.",
-        "question": "Do we need to replace the scheduling tools we already use?"
       },
       {
         "answer": "The process has three steps. First, your program submits its scheduling rules, rotation requirements, ACGME rules, resident preferences, call coverage targets, and any site-specific rules. Second, our team builds a compliant, finished schedule. Third, you receive the finished schedule as Excel or Google Sheets, or on a custom live view we build for you, ready to review and publish. No software to learn, no platform to onboard.",
@@ -95,7 +91,7 @@
             "Elective preferences incorporated",
             "Multi-site coverage handled"
           ],
-          "description": "Generate complete year-long block rotation schedules respecting PGY-level requirements, elective preferences, coverage minimums, and ACGME rotation mandates across multiple surgical sites and service lines."
+          "description": "We build complete year-long block schedules respecting PGY-level requirements, elective preferences, coverage minimums, and ACGME rotation mandates across multiple surgical sites and service lines."
         },
         {
           "id": "institutional-continuity",
@@ -132,7 +128,7 @@
         }
       ],
       "title": "Built for Surgical Residency Programs",
-      "description": "Every feature is designed to handle the specific complexity of surgery residency scheduling so your team never has to start from scratch."
+      "description": "Everything we build is designed to handle the specific complexity of surgery residency scheduling so your team never has to start from scratch."
     },
     "problems": {
       "items": [

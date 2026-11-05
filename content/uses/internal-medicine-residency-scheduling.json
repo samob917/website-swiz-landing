@@ -15,7 +15,7 @@
     },
     "faq": [
       {
-        "answer": "Yes. ACGME compliance is built into the schedule as it is created, not manually checked after the fact. The internal medicine requirements you tell us apply are built in, including the 80-hour weekly limit, eight hours off between duty periods, and the other duty hour requirements. The review afterwards is a check, not a repair job.",
+        "answer": "Yes. ACGME compliance is built into the schedule as it is created, not manually checked after the fact. The internal medicine requirements you tell us apply are built in, including the 80-hour weekly limit, the rest requirements between duty periods, and the other duty hour requirements. The review afterwards is a check, not a repair job.",
         "question": "Is Scheduling Wizard compliant with internal medicine ACGME duty hour rules?"
       },
       {
@@ -31,7 +31,7 @@
         "question": "What happens to our scheduling setup when our chief resident changes?"
       },
       {
-        "answer": "Yes. Many Scheduling Wizard clients use the platform they already have alongside the service. Scheduling Wizard handles the schedule building, delivering finished schedules as Excel or Google Sheets, or on a custom live view we build for you. Programs then upload those files to their Amion accounts for day-to-day viewing and access. There is no conflict between the two.",
+        "answer": "Yes. Many Scheduling Wizard clients use the platform they already have alongside the service. Scheduling Wizard handles the schedule building, delivering finished schedules as Excel or Google Sheets, or on a custom live view we build for you. You then upload those files to whatever platform you already publish through. There is no conflict between the two.",
         "question": "Can Scheduling Wizard integrate with your existing platform for schedule viewing?"
       },
       {
@@ -65,7 +65,7 @@
             "Rules applied as we build",
             "Applied across all PGY levels"
           ],
-          "description": "Internal medicine ACGME rules (including 80-hour weekly limits, eight hours off between duty periods, and subspecialty-specific requirements) are built into the schedule as it is created. The rules are applied as we build, not discovered after the fact."
+          "description": "Internal medicine ACGME rules (including 80-hour weekly limits, the rest requirements between duty periods, and subspecialty-specific requirements) are built into the schedule as it is created. The rules are applied as we build, not discovered after the fact."
         },
         {
           "id": "clinic-scheduling",
@@ -87,7 +87,7 @@
             "Elective preferences integrated",
             "Multi-site coverage balanced"
           ],
-          "description": "Generates complete year-long block rotation schedules for your internal medicine program, respecting PGY-level requirements, required rotation minimums, elective preferences, and multi-site coverage demands across your hospital system."
+          "description": "We build complete year-long block schedules for your internal medicine program, respecting PGY-level requirements, required rotation minimums, elective preferences, and multi-site coverage demands across your hospital system."
         },
         {
           "id": "institutional-continuity",
@@ -106,7 +106,7 @@
           "eyebrow": "Managed Service",
           "highlights": [
             "No software to learn or operate",
-            "Delivered as Excel or Google Sheets, or on a custom live view we build for you",
+            "Delivered as Excel or Google Sheets",
             "Or a custom live view we build"
           ],
           "description": "Scheduling Wizard is not software your chief residents have to learn. Submit your rules and receive finished IM schedules as Excel or Google Sheets, or on a custom live view we build for you, ready to review, approve, and upload to your existing publishing platform. The schedules are built by our team, who do this full time."
@@ -124,7 +124,7 @@
         }
       ],
       "title": "Built for Internal Medicine Scheduling",
-      "description": "Every feature is designed around the complexity of IM programs, from X+Y clinic coordination to the ACGME duty hour rules across PGY levels."
+      "description": "Everything we build is designed around the complexity of IM programs, from X+Y clinic coordination to the ACGME duty hour rules across PGY levels."
     },
     "problems": {
       "items": [
@@ -138,7 +138,7 @@
         },
         {
           "title": "Chiefs Start From Scratch Annually",
-          "description": "Every year a new chief inherits a blank spreadsheet and tribal knowledge. Weeks of ramp-up time is lost before a single schedule is built."
+          "description": "Every year a new chief inherits a blank spreadsheet and tribal knowledge. Weeks of ramp-up time are lost before a single schedule is built."
         }
       ],
       "title": "IM Scheduling Is Uniquely Complex",

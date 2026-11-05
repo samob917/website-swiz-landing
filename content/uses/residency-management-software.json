@@ -9,7 +9,7 @@
   "category": "role",
   "data": {
     "cta": {
-      "title": "Stop Managing Schedules. Start Receiving Them.",
+      "title": "Have the Schedules Built for You",
       "buttonText": "Book a call",
       "description": "Book a call to talk through your scheduling needs and learn how Scheduling Wizard works. Join 30+ departments across 20+ hospitals and practices that have us build their call, block, clinic and shift schedules."
     },
@@ -19,15 +19,15 @@
         "question": "Is Scheduling Wizard residency management software?"
       },
       {
-        "answer": "ACGME compliance is built into the schedule as it is created, not manually checked after the fact. The subspecialty requirements you tell us apply are built in, including the 80-hour weekly limit, minimum rest requirements, and the 24-hour cap. The rules are applied while the schedule is built rather than discovered after the schedule is published. Buyers frequently ask about subspecialty-specific rules on sales calls, and the ones you tell us apply go into the schedule.",
-        "question": "How does Scheduling Wizard ensure ACGME duty hour compliance?"
+        "answer": "ACGME compliance is built into the schedule as it is created, not manually checked after the fact. The subspecialty requirements you tell us apply are built in, including the 80-hour weekly limit, minimum rest requirements, and the 24-hour cap. The rules are applied while the schedule is built rather than discovered after the schedule is published. It is the first thing most programs ask, and the answer is the same: you tell us which requirements apply, we write them down with you, and we build to them.",
+        "question": "How does Scheduling Wizard handle the ACGME duty hour rules?"
       },
       {
-        "answer": "Scheduling Wizard generates four schedule types: Block and rotation schedules, Call schedules, Clinic schedules, and Attending schedules. These are built together, so that a change in one propagates correctly across the others, eliminating the manual cross-schedule patching that causes errors in traditional residency management approaches.",
+        "answer": "Scheduling Wizard generates four schedule types: Block and rotation schedules, Call schedules, Clinic schedules, and Attending schedules. These are built together, so that a change in one propagates correctly across the others, removing the manual cross-schedule patching that causes errors in traditional residency management approaches.",
         "question": "What types of schedules does Scheduling Wizard generate for residency programs?"
       },
       {
-        "answer": "Program rules and the reasons behind them are written down and kept with Scheduling Wizard year over year. When a new chief resident takes over, they inherit the written rule set and last year's schedule rather than starting from a blank spreadsheet. This eliminates the annual knowledge loss that plagues programs relying on outgoing chiefs to transfer scheduling expertise.",
+        "answer": "Program rules and the reasons behind them are written down and kept with Scheduling Wizard year over year. When a new chief resident takes over, they inherit the written rule set and last year's schedule rather than starting from a blank spreadsheet. This removes the annual knowledge loss that plagues programs relying on outgoing chiefs to transfer scheduling expertise.",
         "question": "How does Scheduling Wizard handle the annual chief resident transition?"
       },
       {
@@ -35,7 +35,7 @@
         "question": "Can Scheduling Wizard work alongside the tools you already use?"
       },
       {
-        "answer": "Scheduling Wizard serves chief residents, program directors, program coordinators, and GME offices at hospitals and academic medical centers. The service is built for any residency or fellowship program that creates Block, Call, Clinic, or Attending schedules and wants to eliminate the operator burden of building those schedules manually or through self-service software.",
+        "answer": "Scheduling Wizard serves chief residents, program directors, program coordinators, and GME offices at hospitals and academic medical centers. The service is built for any residency or fellowship program that creates Block, Call, Clinic, or Attending schedules and wants to be rid of the operator burden of building those schedules manually or through self-service software.",
         "question": "Who uses Scheduling Wizard for residency and fellowship program management?"
       }
     ],
@@ -98,7 +98,7 @@
             "Elective preferences included",
             "Coverage minimums met"
           ],
-          "description": "Generate complete year-long block rotation schedules that respect PGY-level requirements, elective preferences, coverage minimums, and ACGME rotation mandates across all tracks in your program."
+          "description": "We build complete year-long block schedules that respect PGY-level requirements, elective preferences, coverage minimums, and ACGME rotation mandates across all tracks in your program."
         },
         {
           "id": "call-scheduling",
@@ -124,7 +124,7 @@
         }
       ],
       "title": "Built for Residency Program Management",
-      "description": "Every capability is designed to eliminate the scheduling burden on chief residents, coordinators, and program directors."
+      "description": "Everything we build is designed to take away the scheduling burden on chief residents, coordinators, and program directors."
     },
     "problems": {
       "items": [

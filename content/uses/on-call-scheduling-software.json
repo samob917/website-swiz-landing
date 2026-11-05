@@ -15,15 +15,15 @@
     },
     "faq": [
       {
-        "answer": "On call scheduling software is used to build on-call schedules for medical residents and fellows. Traditional tools are self-service platforms that programs operate themselves, while Scheduling Wizard takes a different approach as a fully managed service, programs submit their rules and receive finished, ACGME-compliant on call schedules delivered as Excel or Google Sheets, or on a custom live view we build for you, with no software for the team to learn or operate.",
+        "answer": "On call scheduling software is used to build on-call schedules for medical residents and fellows. Traditional tools are self-service platforms that programs operate themselves, while Scheduling Wizard takes a different approach as a fully managed service, programs submit their rules and receive finished on call schedules built to the ACGME requirements they tell us apply, delivered as Excel or Google Sheets, or on a custom live view we build for you, with no software for the team to learn or operate.",
         "question": "What is on call scheduling software for residency programs?"
       },
       {
-        "answer": "For a residency or fellowship we apply the duty hour rules while the call schedule is built rather than reviewing it afterward: the 80-hour weekly limit, minimum rest between shifts, the 24-hour maximum shift, and the specialty-specific Program Requirements. We work from the requirements your program tells us apply, and we redraft when something needs to change. A group or practice outside GME has no ACGME requirement, so we build to their own rules instead.",
+        "answer": "For a residency or fellowship we apply the duty hour rules while the call schedule is built rather than reviewing it afterward: the 80-hour weekly limit, minimum rest between shifts, the 24-hour cap on continuous scheduled work, and the specialty-specific Program Requirements. We work from the requirements your program tells us apply, and we redraft when something needs to change. A group or practice outside GME has no ACGME requirement, so we build to their own rules instead.",
         "question": "How do you handle ACGME duty hours in a call schedule?"
       },
       {
-        "answer": "Most on call scheduling software requires your team to learn and operate the platform, manually input rules, and troubleshoot compliance issues. Scheduling Wizard is a managed service; your program submits rules and receives finished schedules. There is no software to learn and no annual retraining when chief residents rotate. Your finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you ready to upload to publishing platform.",
+        "answer": "Most on call scheduling software requires your team to learn and operate the platform, manually input rules, and troubleshoot compliance issues. Scheduling Wizard is a managed service; your program submits rules and receives finished schedules. There is no software to learn and no annual retraining when chief residents rotate. Your finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you ready to upload to your publishing platform.",
         "question": "How is Scheduling Wizard different from self-service on call scheduling software?"
       },
       {
@@ -31,7 +31,7 @@
         "question": "Can Scheduling Wizard work alongside your existing platform?"
       },
       {
-        "answer": "Call, weekend, and holiday burden is distributed across all residents so that each person carries an equitable share. Our team factors in individual rules such as vacation requests, conference dates, and moonlighting restrictions, then balances the remaining call load. This eliminates the manual auditing and fairness disputes that are common with spreadsheet-based or self-service scheduling approaches.",
+        "answer": "Call, weekend, and holiday burden is distributed across all residents so that each person carries an equitable share. Our team factors in individual rules such as vacation requests, conference dates, and moonlighting restrictions, then balances the remaining call load. This removes the manual auditing and fairness disputes that are common with spreadsheet-based or self-service scheduling approaches.",
         "question": "How does Scheduling Wizard handle fairness in on call schedule distribution?"
       },
       {
@@ -39,12 +39,12 @@
         "question": "What types of schedules does Scheduling Wizard deliver for residency programs?"
       },
       {
-        "answer": "Finished call schedules are delivered as Excel or Google Sheets files, ready to use immediately. If you want one, we can also build a custom live viewing link designed around your schedules. Programs can upload these files directly to their existing schedule publishing platform, for day-to-day resident access. Scheduling Wizard handles the schedule building; you publish and distribute it where you already do.",
+        "answer": "Finished call schedules are delivered as Excel or Google Sheets files, ready to use immediately. If you want one, we can also build a custom live view designed around your schedules. Programs can upload these files directly to their existing schedule publishing platform, for day-to-day resident access. Scheduling Wizard handles the schedule building; you publish and distribute it where you already do.",
         "question": "What format are the finished call schedules delivered in?"
       },
       {
-        "answer": "Scheduling Wizard supports a rebuild when unplanned absences occur, such as illness or emergency leave. Rather than manually reshuffling the entire schedule, our team generates updated coverage options for the affected shifts while maintaining compliance and fairness across the rest of the call schedule.",
-        "question": "What happens when a resident unexpectedly cannot cover a call shift?"
+        "answer": "When someone goes on leave, you tell us, and our team rebuilds the affected part of the call schedule and sends it back finished, with the rest left alone and fairness kept across it.",
+        "question": "What happens when a resident goes on leave mid-year?"
       },
       {
         "answer": "Programs submit their scheduling rules, including ACGME duty hour requirements, subspecialty-specific call rules, resident preferences (vacation, conferences, moonlighting), coverage minimums, and any program-specific rules. Scheduling Wizard's team turns these inputs into a finished call schedule delivered as Excel or Google Sheets, or on a custom live view we build for you.",
@@ -125,7 +125,7 @@
         }
       ],
       "title": "Built for On Call Scheduling Complexity",
-      "description": "Every feature is designed to eliminate the manual burden of on call schedule creation for residency and fellowship programs."
+      "description": "Everything we build is designed to take away the manual burden of on call schedule creation for residency and fellowship programs."
     },
     "problems": {
       "items": [
@@ -143,7 +143,7 @@
         }
       ],
       "title": "On Call Scheduling Eats the Month",
-      "description": "Chief residents spend dozens of hours on call schedules that should take hours, not months."
+      "description": "Chief residents spend weeks on call schedules that should not be their job at all."
     },
     "solution": {
       "title": "Your On Call Schedules Done For You",

@@ -15,7 +15,7 @@
     },
     "faq": [
       {
-        "answer": "Yes. ACGME compliance for emergency medicine is built into the schedule as it is built, not manually checked after the fact. The EM requirements you tell us apply are built in, including duty hour limits and rest requirements. This is the most common question buyers ask on sales calls, and it is a core capability of the service, not an add-on.",
+        "answer": "It is built to the ACGME requirements you tell us apply, alongside your own rules, and we check the finished schedule against them before it goes out. The review on your side is a check, not a repair job. The EM requirements you tell us apply are built in, including duty hour limits and rest requirements. It is the first thing most programs ask, and the answer is the same: you tell us which requirements apply, we write them down with you, and we build to them.",
         "question": "Is Scheduling Wizard compliant with ACGME rules for emergency medicine?"
       },
       {
@@ -31,11 +31,11 @@
         "question": "Can Scheduling Wizard integrate with your existing platform?"
       },
       {
-        "answer": "When an unexpected absence occurs, Scheduling Wizard rapidly rebuilds the affected portion of the schedule to restore coverage. This avoids the manual process of reshuffling assignments and checking every downstream impact by hand. ACGME compliance is maintained throughout the rebuild.",
+        "answer": "When an unexpected absence occurs, Scheduling Wizard rebuilds the affected portion of the schedule to restore coverage; turnaround depends on how much the change touches. This avoids the manual process of reshuffling assignments and checking every downstream impact by hand. The same rules are applied in the rebuild.",
         "question": "What happens when an EM resident has an unplanned absence?"
       },
       {
-        "answer": "Chief resident transitions are one of the most common sources of scheduling disruption in EM programs. With Scheduling Wizard, your program's rule configurations and scheduling rules persist with the service year over year. Incoming chief residents inherit the written rule set and last year's schedule instead of starting from scratch with a blank spreadsheet.",
+        "answer": "Chief resident transitions are one of the most common sources of scheduling disruption in EM programs. With Scheduling Wizard, your program's rules stay written down with us year over year. Incoming chief residents inherit the written rule set and last year's schedule instead of starting from scratch with a blank spreadsheet.",
         "question": "How does Scheduling Wizard handle the annual chief resident transition?"
       }
     ],
@@ -76,15 +76,15 @@
             "Holiday burden distributed fairly",
             "Post-call rest rules applied"
           ],
-          "description": "Distributes on-call shifts, weekends, and holidays equitably across all EM residents while respecting individual rules and ACGME duty hour limits. Less manual balancing, fewer fairness disputes."
+          "description": "Our team distributes on-call shifts, weekends, and holidays equitably across all EM residents while respecting individual rules and ACGME duty hour limits. Less manual balancing, fewer fairness disputes."
         },
         {
           "id": "managed-service",
-          "title": "Done For You No Software Required",
+          "title": "Done For You, No Software Required",
           "eyebrow": "Managed Service",
           "highlights": [
             "No software to learn",
-            "Schedules delivered as Excel or Google Sheets, or on a custom live view we build for you",
+            "Schedules delivered as Excel or Google Sheets",
             "Or a custom live view we build"
           ],
           "description": "Unlike self-service emergency medicine scheduling software, Scheduling Wizard operates as a fully managed service. Submit your rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by our team, who do this full time."
@@ -109,7 +109,7 @@
             "Downstream conflicts resolved",
             "Duty hour rules held throughout"
           ],
-          "description": "When an EM resident is unexpectedly unavailable, Scheduling Wizard rapidly rebuilds the affected portion of the schedule to restore coverage without manually reshuffling every downstream assignment."
+          "description": "When an EM resident is unexpectedly unavailable, Scheduling Wizard rebuilds the affected portion of the schedule to restore coverage; turnaround depends on how much the change touches."
         },
         {
           "id": "redrafts-included",
@@ -124,7 +124,7 @@
         }
       ],
       "title": "Built for Emergency Medicine Scheduling",
-      "description": "Every capability is designed around the real rules EM programs face, from shift fairness to the rules specific to your program."
+      "description": "Everything we build is designed around the real rules EM programs face, from shift fairness to the rules specific to your program."
     },
     "problems": {
       "items": [
@@ -157,7 +157,7 @@
       "As a chief resident in emergency medicine, I need a scheduling solution that understands our unique ACGME compliance requirements and can generate finished rotations without me having to learn any complex software.",
       "I'm a residency program director looking for a managed service that can handle the complexities of our emergency medicine scheduling while ensuring there are no gaps or overstaffing, unlike generic scheduling tools.",
       "As a program coordinator in an emergency department, I want a scheduling system that can quickly adapt to sudden changes in resident availability and still maintain compliance with ACGME duty hour regulations.",
-      "I'm interested in a scheduling software that can integrate with the tools you already use and eliminate the administrative burden on our chief residents by providing schedules built to the ACGME requirements ready for use."
+      "I'm interested in a scheduling software that can integrate with the tools you already use and remove the administrative burden on our chief residents by providing schedules built to the ACGME requirements ready for use."
     ]
   },
   "seoMetadata": {

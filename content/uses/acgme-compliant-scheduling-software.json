@@ -23,8 +23,8 @@
         "question": "How does Scheduling Wizard handle ACGME rules when the schedule is built for subspecialties?"
       },
       {
-        "answer": "Yes. Current ACGME duty hour requirements, including the 80-hour weekly limit, minimum rest periods, and the 24-hour cap on continuous scheduled work, are built into every schedule we produce. Programs do not need to manually track or reconfigure rules when regulatory requirements change, as those updates are reflected in how schedules are generated.",
-        "question": "Does Scheduling Wizard stay current with ACGME duty hour requirements?"
+        "answer": "You do, and we build to what you tell us. Before the first build we write down the requirements that apply to your program, the Common Program Requirements and anything your Review Committee adds, alongside your own rules. When the ACGME changes something, you tell us what changed and we rebuild to it. The February 2026 interim revision changed no hour limits.",
+        "question": "Who keeps the ACGME rules current, you or us?"
       },
       {
         "answer": "No. Scheduling Wizard handles the schedule building, while the platform you already use handles day-to-day schedule viewing and access. Many Scheduling Wizard clients continue using the platform they already have alongside the service. Scheduling Wizard delivers finished schedules as Excel or Google Sheets, or on a custom live view we build for you, which programs can upload directly to their existing viewing platform.",
@@ -40,7 +40,7 @@
       }
     ],
     "hero": {
-      "title": "ACGME Compliant Scheduling Software, Built For You",
+      "title": "ACGME Compliant Scheduling Software? We Build the Schedule For You",
       "description": "Residency and fellowship schedules built with the ACGME requirements in them from the start, alongside the rules only your program knows. Send us both; we send back the finished schedule."
     },
     "features": {
@@ -65,7 +65,7 @@
             "Rules applied as we build",
             "80-hour limit applied"
           ],
-          "description": "ACGME duty hour requirements are built into the schedule as it is created, not manually reviewed afterward. The subspecialty requirements you tell us apply are built in too, and applied before the schedule reaches your program."
+          "description": "ACGME duty hour requirements are built into the schedule as it is created, and checked again before it goes out. The subspecialty requirements you tell us apply are built in too, and applied before the schedule reaches your program."
         },
         {
           "id": "managed-service",

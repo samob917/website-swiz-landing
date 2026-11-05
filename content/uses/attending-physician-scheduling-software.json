@@ -15,7 +15,7 @@
     },
     "faq": [
       {
-        "answer": "Attending physician scheduling software is used to build faculty coverage schedules for residency and fellowship programs. Scheduling Wizard takes this a step further by operating as a fully managed service; your program submits its rules, and our team generates finished, ACGME-compliant attending schedules delivered as Excel or Google Sheets, or on a custom live view we build for you. There is no platform for your team to log into or learn.",
+        "answer": "Attending physician scheduling software is used to build faculty coverage schedules for residency and fellowship programs. Scheduling Wizard takes this a step further by operating as a fully managed service; your program submits its rules, and our team builds finished attending schedules to your coverage, call-equity and supervision rules and delivers them as Excel or Google Sheets, or on a custom live view we build for you. There is no platform for your team to log into or learn.",
         "question": "What is attending physician scheduling software and how does it work?"
       },
       {
@@ -40,7 +40,7 @@
       }
     ],
     "hero": {
-      "title": "Attending Physician Scheduling Software Done For You",
+      "title": "Attending Physician Scheduling Software? We Can Build the Schedule For You",
       "description": "Scheduling Wizard builds attending physician schedules and delivers them as Excel or Google Sheets, or on a custom live view we build for you. No software for your team to learn or operate."
     },
     "features": {
@@ -76,18 +76,18 @@
             "Zero software training required",
             "Our team does the building"
           ],
-          "description": "Unlike traditional attending physician scheduling software, Scheduling Wizard is a fully managed service. Your team submits rules and receive finished schedules as Excel or Google Sheets, or on a custom live view we build for you, no platform to log into, no tools to train on. The schedules are built by our team, who do this full time."
+          "description": "Unlike traditional attending physician scheduling software, Scheduling Wizard is a fully managed service. Your team submits rules and receives finished schedules as Excel or Google Sheets, or on a custom live view we build for you, no platform to log into, no tools to train on. The schedules are built by our team, who do this full time."
         },
         {
           "id": "institutional-continuity",
           "title": "Scheduling Knowledge That Persists Year Over Year",
           "eyebrow": "Institutional Continuity",
           "highlights": [
-            "Rules preserved across chief rotations",
+            "Rules preserved from one scheduler to the next",
             "No annual rebuilding required",
-            "New chiefs start with a working schedule"
+            "Whoever takes it over starts with a working schedule"
           ],
-          "description": "Your attending scheduling rules and requests stay written down with Scheduling Wizard from one scheduler to the next. Whoever takes it over inherits a working system instead of a blank spreadsheet."
+          "description": "Your attending scheduling rules and requests stay written down with Scheduling Wizard from one scheduler to the next. Whoever takes it over inherits the written rule set and last year's schedule instead of a blank spreadsheet."
         },
         {
           "id": "fair-call-distribution",
@@ -113,7 +113,7 @@
         }
       ],
       "title": "Built for Attending Physician Scheduling",
-      "description": "Every capability is designed to take the scheduling burden off your team and deliver finished attending schedules without any software to operate."
+      "description": "Everything we build is designed to take the scheduling burden off your team and deliver finished attending schedules without any software to operate."
     },
     "problems": {
       "items": [
@@ -126,7 +126,7 @@
           "description": "Balancing attending coverage against call equity, contracts and time off by hand is slow, and the gaps only surface once the schedule is already out."
         },
         {
-          "title": "Knowledge Lost With Every Chief Rotation",
+          "title": "Knowledge Lost With Every Handover",
           "description": "When the person who built the attending schedule moves on, the reasoning behind it goes with them, and the next person starts from scratch."
         }
       ],

@@ -20,22 +20,22 @@
       },
       {
         "answer": "We apply the ACGME rules while the call schedule is built rather than checking it afterwards: the 80-hour weekly limit, rest requirements between shifts, the 24-hour cap and the subspecialty-specific rules for your program. We work from the requirements your program tells us apply, and we redraft when something needs to change.",
-        "question": "How does Scheduling Wizard ensure ACGME duty hour compliance in call schedules?"
+        "question": "How does Scheduling Wizard handle the ACGME duty hour rules?"
       },
       {
         "answer": "Yes. You tell us which requirements apply to your program, the Common Program Requirements and anything your specialty's Review Committee adds, and we write them down with you alongside your own rules before the first build. They go into the schedule while it is built rather than being flagged afterwards.",
         "question": "Can Scheduling Wizard handle call schedules for my specific medical subspecialty?"
       },
       {
-        "answer": "Yes, and many Scheduling Wizard clients use exactly this combination. Scheduling Wizard handles the building of your call schedule. The finished schedule is delivered as Excel or Google Sheets, or on a custom live view we build for you, ready for whatever platform you already uses for day-to-day schedule access. You do not need to change your existing viewing workflow.",
+        "answer": "Yes, and many Scheduling Wizard clients use exactly this combination. Scheduling Wizard handles the building of your call schedule. The finished schedule is delivered as Excel or Google Sheets, or on a custom live view we build for you, ready for whatever platform you already use for day-to-day schedule access. You do not need to change your existing viewing workflow.",
         "question": "Will Scheduling Wizard work alongside your existing platform?"
       },
       {
         "answer": "Mid-year changes such as sick leave, emergency absences, or a rotation change are handled as part of the managed service. Scheduling Wizard processes the updated rules and rebuilds the affected portion of the call schedule without disrupting the rest of the year. Your program receives an updated schedule rather than spending hours manually reshuffling assignments.",
-        "question": "What happens when a resident needs a last-minute call schedule change?"
+        "question": "What happens when a resident goes on leave or changes rotation mid-year?"
       },
       {
-        "answer": "Scheduling Wizard primarily serves chief residents, program directors, program coordinators, and GME offices at residency and fellowship programs. Chief residents benefit most from not having to build or maintain call schedules themselves. Program directors benefit from ACGME compliance confidence and the elimination of annual knowledge loss when chiefs rotate out. Scheduling Wizard is currently serving 30+ departments across 20+ hospitals and practices.",
+        "answer": "Scheduling Wizard primarily serves chief residents, program directors, program coordinators, and GME offices at residency and fellowship programs. Chief residents benefit most from not having to build or maintain call schedules themselves. Program directors benefit from ACGME compliance confidence and an end to annual knowledge loss when chiefs rotate out. Scheduling Wizard is currently serving 30+ departments across 20+ hospitals and practices.",
         "question": "Who typically uses Scheduling Wizard for call scheduling?"
       }
     ],
@@ -124,7 +124,7 @@
         }
       ],
       "title": "Built for Residency Call Scheduling",
-      "description": "Every capability is designed to eliminate the burden of call schedule creation from your chief residents and program coordinators."
+      "description": "Everything we build is designed to take away the burden of call schedule creation from your chief residents and program coordinators."
     },
     "problems": {
       "items": [
@@ -154,7 +154,7 @@
   "searchIntent": {
     "keyword": "residency call scheduling software",
     "searchIntents": [
-      "A chief resident overwhelmed with the complexity of creating a fair call schedule that complies with ACGME regulations and needs a managed service to eliminate the scheduling burden for their team.",
+      "A chief resident overwhelmed with the complexity of creating a fair call schedule that complies with ACGME regulations and needs a managed service to remove the scheduling burden for their team.",
       "A residency program director looking for a reliable solution to build call schedules without requiring their chief residents to learn new software, ensuring compliance with specific subspecialty rules.",
       "A program coordinator responsible for scheduling in a busy medical residency program seeking a tool that can integrate with their existing systems (your existing platform) and handle complex scheduling rules automatically.",
       "A private practice administrator wanting to streamline call scheduling across multiple departments while ensuring compliance and fairness, needing a solution that minimizes manual intervention and maximizes efficiency."

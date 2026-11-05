@@ -27,7 +27,7 @@
         "question": "Do chief residents need to learn new software to use Scheduling Wizard?"
       },
       {
-        "answer": "With traditional spreadsheet-based scheduling, institutional knowledge is lost every time chiefs rotate. Scheduling Wizard retains your program's rules, requests, and scheduling configuration year over year. When a new chief starts, they inherit the written rule set and last year's schedule rather than beginning from a blank spreadsheet, without the ramp-up that usually comes with each annual transition.",
+        "answer": "With traditional spreadsheet-based scheduling, institutional knowledge is lost every time chiefs rotate. Scheduling Wizard keeps your program's rules, requests and last year's schedule year over year. When a new chief starts, they inherit the written rule set and last year's schedule rather than beginning from a blank spreadsheet, without the ramp-up that usually comes with each annual transition.",
         "question": "What happens to scheduling knowledge when a new chief resident takes over?"
       },
       {
@@ -35,7 +35,7 @@
         "question": "What types of schedules does Scheduling Wizard generate for residency programs?"
       },
       {
-        "answer": "Yes. The subspecialty requirements you tell us apply are built in too. This is the most common question asked during program evaluations, and it is a core design requirement of the service. Programs can also submit custom rules with Scheduling Wizard, including the ones unique to their site or program structure.",
+        "answer": "Yes. The subspecialty requirements you tell us apply are built in too. It is the first thing most programs ask, and the answer is the same: you tell us which requirements apply, we write them down with you, and we build to them. Programs can also submit custom rules with Scheduling Wizard, including the ones unique to their site or program structure.",
         "question": "Can Scheduling Wizard handle my program's subspecialty-specific ACGME rules?"
       }
     ],
@@ -124,7 +124,7 @@
         }
       ],
       "title": "Built for Chief Resident Scheduling",
-      "description": "Every feature is designed to eliminate the operator burden on chief residents and deliver finished, compliant schedules without requiring software expertise."
+      "description": "Everything we build is designed to take away the operator burden on chief residents and deliver finished, compliant schedules without requiring software expertise."
     },
     "problems": {
       "items": [
@@ -156,7 +156,7 @@
     "searchIntents": [
       "As a chief resident, I'm overwhelmed with the scheduling process and need a way to create schedules built to the ACGME requirements without spending hours on software learning or manual adjustments.",
       "I'm a program coordinator looking for a managed service to quickly generate finished duty hour schedules that take into account resident preferences and institutional rules, ensuring compliance with GME regulations.",
-      "As a residency program director, I need a reliable solution for generating complex rotation schedules that can adapt to our specific subspecialty rules while eliminating scheduling conflicts and gaps.",
+      "As a residency program director, I need a reliable solution for generating complex rotation schedules that can adapt to our specific subspecialty rules while removing scheduling conflicts and gaps.",
       "I'm worried about continuity in scheduling as we transition to a new chief resident, and I need a service that can maintain institutional knowledge and ensure fair distribution of call duties."
     ]
   },

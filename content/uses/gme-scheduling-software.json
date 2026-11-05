@@ -15,12 +15,12 @@
     },
     "faq": [
       {
-        "answer": "Most GME scheduling software is a self-service tool that requires chief residents to learn and operate a complex platform. Scheduling Wizard is different; it is a fully managed service. Programs submit their rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you, with no software to learn or operate. the building is done by our team.",
+        "answer": "Most GME scheduling software is a self-service tool that requires chief residents to learn and operate a complex platform. Scheduling Wizard is different; it is a fully managed service. Programs submit their rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you, with no software to learn or operate. The building is done by our team.",
         "question": "What is GME scheduling software and how does Scheduling Wizard differ?"
       },
       {
-        "answer": "Scheduling Wizard builds in the ACGME duty hour regulations while the schedule is built. This means the 80-hour weekly limit, minimum rest requirements, and the 24-hour shift cap are built into the schedule itself, not checked manually after the fact. You tell us which subspecialty requirements apply and they go in too.",
-        "question": "How does Scheduling Wizard ensure ACGME duty hour compliance?"
+        "answer": "Scheduling Wizard builds in the ACGME duty hour regulations while the schedule is built. This means the 80-hour weekly limit, minimum rest requirements, and the 24-hour cap on continuous scheduled work are built into the schedule itself, not checked manually after the fact. You tell us which subspecialty requirements apply and they go in too.",
+        "question": "How does Scheduling Wizard handle the ACGME duty hour rules?"
       },
       {
         "answer": "Scheduling Wizard generates Block rotation schedules, Call schedules, Clinic schedules, and Attending schedules. All four schedule types are built together, so changes in one schedule type propagate across the others and do not create downstream conflicts.",
@@ -35,7 +35,7 @@
         "question": "How does Scheduling Wizard handle resident preferences and rules?"
       },
       {
-        "answer": "With Scheduling Wizard, institutional scheduling knowledge does not leave when a chief resident rotates out. Your program's rules, requests, and configurations are retained within the service year over year. Incoming chiefs inherit a working system rather than having to rebuild scheduling knowledge from scratch each academic year.",
+        "answer": "With Scheduling Wizard, institutional scheduling knowledge does not leave when a chief resident rotates out. Your program's rules and requests are kept year over year. Incoming chiefs inherit a working system rather than having to rebuild scheduling knowledge from scratch each academic year.",
         "question": "What happens to scheduling knowledge when a new chief resident takes over?"
       }
     ],
@@ -85,7 +85,7 @@
           "highlights": [
             "Rules retained year over year",
             "No annual retraining required",
-            "New chiefs inherit working system"
+            "New chiefs inherit the written rule set and last year's schedule"
           ],
           "description": "Your program's rules and requests are written down and kept year over year. Incoming chief residents inherit the written rule set and last year's schedule."
         },
@@ -98,7 +98,7 @@
             "Elective preferences factored in",
             "Multi-track programs supported"
           ],
-          "description": "Generates complete year-long block rotation schedules that respect PGY-level requirements, elective preferences, coverage minimums, and ACGME rotation mandates across complex multi-track GME programs."
+          "description": "We build complete year-long block schedules that respect PGY-level requirements, elective preferences, coverage minimums, and ACGME rotation mandates across complex multi-track GME programs."
         },
         {
           "id": "call-scheduling",
@@ -109,7 +109,7 @@
             "Holiday shifts distributed fairly",
             "Post-call rest rules applied"
           ],
-          "description": "Builds on-call schedules that distribute call, weekend and holiday burden equitably across all residents, with the ACGME rules applied. There is less to argue about because the distribution is worked out before anything is published."
+          "description": "We build on-call schedules that distribute call, weekend and holiday burden equitably across all residents, with the ACGME rules applied. There is less to argue about because the distribution is worked out before anything is published."
         },
         {
           "id": "redrafts-included",
@@ -124,7 +124,7 @@
         }
       ],
       "title": "Built for the Complexity of GME Scheduling",
-      "description": "Every feature is designed around the real rules residency and fellowship programs face, from your program’s own rules to resident preferences."
+      "description": "Everything we build is designed around the real rules residency and fellowship programs face, from your program’s own rules to resident preferences."
     },
     "problems": {
       "items": [
@@ -154,7 +154,7 @@
   "searchIntent": {
     "keyword": "GME scheduling software",
     "searchIntents": [
-      "As a chief resident, I'm overwhelmed by the complexity of creating schedules that comply with ACGME standards and need a solution that eliminates my administrative burden while ensuring compliance without having to learn new software.",
+      "As a chief resident, I'm overwhelmed by the complexity of creating schedules that comply with ACGME standards and need a solution that removes my administrative burden while ensuring compliance without having to learn new software.",
       "I'm a program coordinator seeking a managed service for GME scheduling because I need to efficiently generate fair and compliant schedules, and I can't afford the mistakes that come with generic scheduling software.",
       "As a fellowship program director, I want to ensure that our rotation schedules meet all ACGME requirements without the hassle of manual adjustments, so I need a specialized solution that understands our unique rules.",
       "I'm looking for a way to handle residency scheduling that maintains continuity from year to year, as my chief residents change, and I can't rely on basic scheduling tools that don't adapt to our specific needs."

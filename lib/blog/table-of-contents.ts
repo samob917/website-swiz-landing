@@ -32,7 +32,14 @@ export function generateTableOfContents(html: string): {
     /<h([23])([^>]*)>([\s\S]*?)<\/h\1>/gi,
     (_m, levelStr: string, attrs: string, inner: string) => {
       const level = Number(levelStr)
-      const title = inner.replace(/<[^>]+>/g, "").replace(/\s+/g, " ").trim()
+      const title = inner
+        .replace(/<[^>]+>/g, "")
+        .replace(/&amp;|&#x26;/g, "&")
+        .replace(/&#x27;|&#39;|&rsquo;/g, "'")
+        .replace(/&quot;/g, '"')
+        .replace(/&nbsp;/g, " ")
+        .replace(/\s+/g, " ")
+        .trim()
       if (!title) return _m
 
       let id = slugify(title) || `section-${flat.length + 1}`

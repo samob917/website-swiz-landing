@@ -19,7 +19,7 @@
         "question": "What are the ACGME duty hour rules for residents?"
       },
       {
-        "answer": "Scheduling Wizard applies the ACGME duty hour rules while the schedule is built, the rules are applied as we build, not detected after the fact. Rather than building a schedule and then checking it for compliance, our team treats every duty hour requirement as a rule of the build. The finished schedule was built to them, including the subspecialty rules you told us apply, and we review it against them before it goes out.",
+        "answer": "We apply the ACGME duty hour rules while the schedule is built, not after. Rather than building a schedule and then checking it for compliance, our team treats every duty hour requirement as a rule of the build. The finished schedule was built to them, including the subspecialty rules you told us apply, and we review it against them before it goes out.",
         "question": "How does Scheduling Wizard handle the ACGME duty hour rules?"
       },
       {
@@ -35,7 +35,7 @@
         "question": "How do subspecialty ACGME duty hour rules differ across programs?"
       },
       {
-        "answer": "Yes. You can keep Amion for the day to day. We deliver the finished schedule as Excel or Google Sheets and you upload it to Amion the way you do today, or we build you a custom live view if you would rather have that. We build the schedule; Amion stays where your team looks at it.",
+        "answer": "Yes. You can keep Amion for the day to day. We deliver the finished schedule as Excel or Google Sheets and you upload it to Amion the way you do today, or we build you a custom live view if you would rather have that. We build the schedule that goes into Amion, the part that is probably being built by hand in Excel today.",
         "question": "Can Scheduling Wizard work with our Amion system?"
       }
     ],
@@ -63,9 +63,9 @@
           "highlights": [
             "80-hour weekly limit applied",
             "Subspecialty rules you give us built in",
-            "Home call hours counted toward the 80"
+            "Patient care time on home call counted toward the 80"
           ],
-          "description": "The ACGME duty hour regulations, including the 80-hour weekly limit, eight hours off between duty periods, 14 hours free after 24-hour call, the 24-hour cap and the home call rules, are applied as the schedule is built, before it reaches your program."
+          "description": "The ACGME duty hour regulations, including the 80-hour weekly limit, the rest requirements between duty periods, 14 hours free after 24-hour call, the 24-hour cap and the home call rules, are applied as the schedule is built, before it reaches your program."
         },
         {
           "id": "managed-service",
@@ -109,7 +109,7 @@
             "Fair call burden distribution",
             "Holiday and weekend call balanced"
           ],
-          "description": "On-call schedules are built to distribute burden equitably while strictly honoring ACGME duty hour limits, post-call rest requirements, and program-specific call rules."
+          "description": "On-call schedules are built to distribute burden equitably while honoring ACGME duty hour limits, post-call rest requirements, and program-specific call rules."
         },
         {
           "id": "redrafts-included",

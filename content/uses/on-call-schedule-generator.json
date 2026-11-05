@@ -20,7 +20,7 @@
       },
       {
         "answer": "ACGME duty hour rules are applied as the schedule is built, not checked manually after the fact. Our team applies the 80-hour weekly limit, minimum rest requirements, and the 24-hour cap for continuous duty, along with subspecialty-specific rules built into the system. This means the rules are applied while the schedule is built, not discovered during an audit.",
-        "question": "How does Scheduling Wizard ensure ACGME compliance in call schedules?"
+        "question": "How does Scheduling Wizard handle the ACGME duty hour rules?"
       },
       {
         "answer": "Scheduling Wizard distributes call, weekends, and holidays equitably across all residents in a program. Our team balances total call burden simultaneously across the schedule, taking into account each resident's individual rules and preferences so that no resident is disproportionately burdened compared to their peers.",
@@ -41,7 +41,7 @@
     ],
     "hero": {
       "title": "On Call Schedule Generator? We Can Build the Call Schedule For You",
-      "description": "Scheduling Wizard is a service, not a generator you operate. Send us your rules and requests and we build the call schedule, delivered as Excel or Google Sheets."
+      "description": "Scheduling Wizard is a service, not a generator you operate. Send us your rules and requests and we build the call schedule, delivered as Excel or Google Sheets, or on a custom live view we build for you."
     },
     "features": {
       "items": [
@@ -65,7 +65,7 @@
             "Holiday shifts distributed fairly",
             "Post-call rest rules applied"
           ],
-          "description": "Produces on-call schedules built to the ACGME requirements that distribute call burden equitably across all residents. Call, weekend, and holiday assignments are balanced in the build, no manual juggling required."
+          "description": "We build on-call schedules built to the ACGME requirements that distribute call burden equitably across all residents. Call, weekend, and holiday assignments are balanced in the build, no manual juggling required."
         },
         {
           "id": "acgme-compliance",
@@ -124,7 +124,7 @@
         }
       ],
       "title": "Built for On Call Schedule Generation",
-      "description": "Every feature is designed to eliminate the manual burden of building fair, compliant on-call schedules for residency programs."
+      "description": "Everything we build is designed to take away the manual burden of building fair, compliant on-call schedules for residency programs."
     },
     "problems": {
       "items": [
@@ -156,7 +156,7 @@
     "searchIntents": [
       "A chief resident overwhelmed by the complexities of creating fair on-call schedules for a busy medical residency program, looking for an automated solution that can handle ACGME compliance and build for resident preferences without the burden of learning new software.",
       "A program director who needs to ensure that on-call schedules comply with ACGME duty hour regulations while also balancing the individual needs of residents, seeking a specialized generator that can address these specific requirements without sacrificing fairness and coverage.",
-      "A program coordinator tasked with alleviating scheduling conflicts and ensuring institutional knowledge persists through annual leadership changes, searching for a managed scheduling service that can streamline the on-call schedule process and eliminate errors in manual scheduling.",
+      "A program coordinator tasked with alleviating scheduling conflicts and ensuring institutional knowledge persists through annual leadership changes, searching for a managed scheduling service that can streamline the on-call schedule process and remove errors in manual scheduling.",
       "An administrator in a private practice wanting to implement an on-call rotation system that minimizes gaps and overstaffing, looking for a tailored scheduling generator that understands the unique challenges of healthcare scheduling and can provide instant a rebuilds for unplanned absences."
     ]
   },

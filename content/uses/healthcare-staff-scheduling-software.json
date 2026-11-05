@@ -31,7 +31,7 @@
         "question": "What types of schedules does Scheduling Wizard generate?"
       },
       {
-        "answer": "With traditional healthcare staff scheduling software, institutional scheduling knowledge often leaves when a chief rotates out. With Scheduling Wizard, your program's rules, requests, and configurations are retained by the service year over year. Incoming chief residents inherit the written rule set and last year's schedule and do not need to rebuild the scheduling rules from scratch. This continuity is a core part of the managed service model.",
+        "answer": "With traditional healthcare staff scheduling software, institutional scheduling knowledge often leaves when a chief rotates out. With Scheduling Wizard, your program's rules and requests are kept year over year. Incoming chief residents inherit the written rule set and last year's schedule and do not need to rebuild the scheduling rules from scratch. This continuity is a core part of the managed service model.",
         "question": "What happens to our scheduling setup when a new chief resident takes over?"
       },
       {
@@ -87,18 +87,18 @@
             "Weekend call distributed equitably",
             "Fairness worked out across the cohort"
           ],
-          "description": "Call burden, weekend shifts and holiday assignments are distributed across the group. Fair outcomes are calculated, not negotiated, which leaves less to dispute."
+          "description": "Call burden, weekend shifts and holiday assignments are distributed across the group. Fairness is worked out in the build, not negotiated afterwards, which leaves less to dispute."
         },
         {
           "id": "cross-schedule-resolution",
-          "title": "Block Call Clinic Schedules in Sync",
+          "title": "Block, Call and Clinic in Sync",
           "eyebrow": "Schedule Coordination",
           "highlights": [
             "All schedule types built together",
             "Conflicts resolved before publishing",
             "No manual cross-schedule patching"
           ],
-          "description": "Block rotations, call schedules, clinic assignments, and attending coverage are built together. A rule in one schedule propagates across the others, eliminating the domino effect of manual cross-schedule patching."
+          "description": "Block rotations, call schedules, clinic assignments, and attending coverage are built together. A rule in one schedule propagates across the others, removing the domino effect of manual cross-schedule patching."
         },
         {
           "id": "redrafts-included",
@@ -112,8 +112,8 @@
           "description": "Schedules come back in the format your program asks for, as Excel or Google Sheets, or on a custom live view we build for you. When someone goes on leave, a rotation changes or coverage shifts mid-year, we rebuild around it. Major redrafts are part of the engagement rather than a change order, which is the difference between a finished schedule and a draft you maintain."
         }
       ],
-      "title": "Built for How Residency Programs Actually Work",
-      "description": "Every feature is designed to eliminate the operator burden on chief residents, coordinators, and program directors."
+      "title": "Built for How Physician Groups and Programs Actually Work",
+      "description": "Everything we build is designed to take away the operator burden on chief residents, coordinators, program directors and practice administrators."
     },
     "problems": {
       "items": [

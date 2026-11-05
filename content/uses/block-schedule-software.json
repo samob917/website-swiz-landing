@@ -20,7 +20,7 @@
       },
       {
         "answer": "ACGME compliance is built into the schedule as it is created, not verified manually after the fact. The subspecialty requirements you tell us apply are built in, including duty hour limits, required rotation minimums, and rest requirements. This means the rules are applied while the schedule is built, not discovered after the schedule has already been distributed to residents.",
-        "question": "How does Scheduling Wizard ensure ACGME compliance in block schedules?"
+        "question": "How does Scheduling Wizard handle the ACGME duty hour rules?"
       },
       {
         "answer": "Block scheduling requires balancing dozens of simultaneous rules (PGY requirements, ACGME rules, resident preferences, coverage minimums, and site availability) in a way that is fair and compliant. Most chief residents inherit a blank spreadsheet and very little institutional context, spending dozens of hours on a problem they've never solved before. Scheduling Wizard takes this off the chief by carrying the program's rules forward each year.",
@@ -65,7 +65,7 @@
             "Elective preferences factored in",
             "Coverage minimums built in"
           ],
-          "description": "Generates complete year-long rotation block schedules respecting PGY-level requirements, elective preferences, coverage minimums, and ACGME rotation mandates, delivered as Excel or Google Sheets, or on a custom live view we build for you your program can publish immediately."
+          "description": "We build complete year-long block schedules respecting PGY-level requirements, elective preferences, coverage minimums, and ACGME rotation mandates, delivered as Excel or Google Sheets, or on a custom live view we build for you, ready for your program to publish immediately."
         },
         {
           "id": "acgme-compliance",
@@ -74,7 +74,7 @@
           "highlights": [
             "80-hour weekly limit applied",
             "Subspecialty rules built in",
-            "No post-hoc manual checking"
+            "Far less to check afterwards"
           ],
           "description": "ACGME duty hour rules are built into the block schedule as it is built, not manually checked afterward. The subspecialty requirements you tell us apply are built in too, and applied while the schedule is built."
         },
@@ -95,7 +95,7 @@
           "eyebrow": "Managed Service",
           "highlights": [
             "Submit rules, get schedules",
-            "Excel output, ready to publish",
+            "Excel or Sheets, ready to publish",
             "Or a custom live view we build"
           ],
           "description": "Scheduling Wizard operates as a done-for-you managed service. Chief residents submit rules and receive finished block schedules, no platform to navigate, no scheduling software to master, no training required. The schedules are built by our team, who do this full time."
@@ -123,7 +123,7 @@
         },
         {
           "title": "Compliance Is Manually Verified",
-          "description": "ACGME duty hour rules are checked after the schedule is built, leaving room for violations and leaves the misses to surface later."
+          "description": "ACGME duty hour rules are checked after the schedule is built, leaving room for misses that surface later."
         },
         {
           "title": "Fairness Disputes Erode Morale",

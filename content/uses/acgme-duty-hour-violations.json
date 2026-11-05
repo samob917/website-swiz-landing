@@ -15,7 +15,7 @@
     },
     "faq": [
       {
-        "answer": "The most common ACGME duty hour violations are exceeding the 80-hour weekly limit once moonlighting is counted, not providing eight hours off between duty periods, breaking the 14-hour rest window after 24-hour call, miscounting the one-day-off-in-seven average, and exceeding the 24-hour cap on continuous duty. Most of them trace back to how the schedule was built rather than to anyone's intent.",
+        "answer": "The most common ACGME duty hour violations are exceeding the 80-hour weekly limit once moonlighting is counted, not providing the rest requirements between duty periods, breaking the 14-hour rest window after 24-hour call, miscounting the one-day-off-in-seven average, and exceeding the 24-hour cap on continuous duty. Most of them trace back to how the schedule was built rather than to anyone's intent.",
         "question": "What are the most common ACGME duty hour violations in residency programs?"
       },
       {
@@ -27,11 +27,11 @@
         "question": "What happens if a duty hour violation is found after a schedule is published?"
       },
       {
-        "answer": "Yes. The subspecialty requirements you tell us apply are built in too. ACGME compliance is the most common question asked during onboarding, and the service is designed to handle the nuances that vary across residency and fellowship programs. Programs should communicate their specific requirements during the rule submission process so our team can apply the correct rules for their specialty.",
+        "answer": "Yes. The subspecialty requirements you tell us apply are built in too. It is the first thing most programs ask, and the answer is the same: you tell us which requirements apply, we write them down with you, and we build to them. Programs should communicate their specific requirements during the rule submission process so our team can apply the correct rules for their specialty.",
         "question": "Does Scheduling Wizard know the ACGME rules for my specific subspecialty?"
       },
       {
-        "answer": "Schedules are delivered as Excel or Google Sheets files. If you want one, we can also build a custom live viewing link for your program, designed around your schedules. Many Scheduling Wizard clients upload these finished files directly into your existing platform for day-to-day viewing and access. Scheduling Wizard handles the schedule building, while you publish it where you already do. There is no new software for your program to learn or operate.",
+        "answer": "Schedules are delivered as Excel or Google Sheets files. If you want one, we can also build a custom live view for your program, designed around your schedules. Many Scheduling Wizard clients upload these finished files directly into their existing platform for day-to-day viewing and access. Scheduling Wizard handles the schedule building, while you publish it where you already do. There is no new software for your program to learn or operate.",
         "question": "How are schedules delivered and can we use them with your existing platform?"
       },
       {
@@ -73,7 +73,7 @@
           "eyebrow": "Managed Service",
           "highlights": [
             "No software to learn",
-            "Finished schedules delivered as Excel",
+            "Delivered as Excel, Sheets or a live view",
             "Our team does the building"
           ],
           "description": "Programs submit their rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you. There is no software to learn, no compliance checklist to run manually, and no reliance on a chief resident's institutional memory. The schedules are built by our team, who do this full time."
@@ -146,7 +146,7 @@
       "A residency program director concerned about recent ACGME site visit, looking for information on how to ensure compliance with duty hour regulations to avoid penalties.",
       "A chief resident who is overwhelmed with scheduling duties and seeking solutions to prevent duty hour violations for their cohort while managing rotations efficiently.",
       "A program coordinator researching the implications of duty hour violations and how to implement a compliant scheduling system that aligns with ACGME standards.",
-      "A GME office administrator trying to find automated scheduling tools that can enforces ACGME rules when the schedule is built and eliminate the risk of violations during resident scheduling."
+      "A GME office administrator trying to find automated scheduling tools that can enforces ACGME rules when the schedule is built and remove the risk of violations during resident scheduling."
     ]
   },
   "seoMetadata": {

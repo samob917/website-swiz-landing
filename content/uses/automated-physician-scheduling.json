@@ -19,7 +19,7 @@
         "question": "What is automated physician scheduling and how does it work?"
       },
       {
-        "answer": "Yes. ACGME duty hour compliance is built into the schedule as it is built, not reviewed manually afterward. Our team applies the 80-hour weekly limit, eight hours off between duty periods, the 24-hour cap, and the subspecialty rules you tell us apply. This means the rules are applied before the schedule reaches your program, rather than detected and corrected post-hoc.",
+        "answer": "It is built to the ACGME requirements you tell us apply, alongside your own rules, and we check the finished schedule against them before it goes out. The review on your side is a check, not a repair job. Our team applies the 80-hour weekly limit, the rest requirements between duty periods, the 24-hour cap, and the subspecialty rules you tell us apply. This means the rules are applied before the schedule reaches your program, rather than detected and corrected post-hoc.",
         "question": "Is a schedule from Scheduling Wizard ACGME compliant?"
       },
       {
@@ -27,7 +27,7 @@
         "question": "Who handles the scheduling process at Scheduling Wizard?"
       },
       {
-        "answer": "When unplanned changes occur, such as sick leave, parental leave, or a coverage change, Scheduling Wizard can rebuild the affected portions of the schedule without reshuffling the entire year. Rule configurations are retained, so mid-year revisions process against the same rules that governed the original schedule.",
+        "answer": "When unplanned changes occur, such as sick leave, parental leave, or a coverage change, Scheduling Wizard can rebuild the affected portions of the schedule without reshuffling the entire year. Your rules are written down, so a mid-year rebuild follows the same rules as the original.",
         "question": "How are mid-year changes or resident absences handled?"
       },
       {
@@ -41,7 +41,7 @@
     ],
     "hero": {
       "title": "Automated Physician Scheduling Without the Software",
-      "description": "Automated, in the sense that you do none of it. You send us your rules and requests, however granular; our team builds the schedule and send it back finished."
+      "description": "Automated, in the sense that you do none of it. You send us your rules and requests, however granular; our team builds the schedule and sends it back finished."
     },
     "features": {
       "items": [
@@ -124,7 +124,7 @@
         }
       ],
       "title": "Built for Physician Scheduling Complexity",
-      "description": "Every feature is designed around the real rules of residency and fellowship programs, not generic workforce scheduling."
+      "description": "Everything we build is designed around the real rules of residency and fellowship programs, not generic workforce scheduling."
     },
     "problems": {
       "items": [

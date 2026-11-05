@@ -2,7 +2,7 @@
   "keyword": "qgenda alternative",
   "slug": "qgenda-alternative",
   "anchor": "Already Using QGenda?",
-  "title": "QGenda Alternative | We Build It, You Keep QGenda",
+  "title": "QGenda Alternative | We Build the Schedule That Goes Into It",
   "description": "QGenda alternative for GME programs seeking a managed service. We deliver complete block, call and clinic schedules, built to the ACGME requirements, as Excel or Google Sheets, or on a custom live view we build for you.",
   "h1": "QGenda Manages Your Schedule. We Build It.",
   "paragraph": "You can keep QGenda for the day to day. Scheduling Wizard builds the schedule you run in it, to the ACGME requirements, no migration, no software to learn.",
@@ -15,11 +15,11 @@
     },
     "faq": [
       {
-        "answer": "Scheduling Wizard replaces QGenda for schedule building, not for schedule viewing. Many Scheduling Wizard clients continue using QGenda as their day-to-day publishing platform; they put the finished schedule Scheduling Wizard delivers into it. The key distinction is that Scheduling Wizard handles the complex work of building the schedule, while QGenda serves as the publishing platform.",
+        "answer": "No. You can keep QGenda if you want to; what we take over is building the schedule that goes into it, which today is probably being done by hand in Excel. Many Scheduling Wizard clients continue using QGenda as their day-to-day publishing platform and put the finished schedule we deliver into it.",
         "question": "Is Scheduling Wizard a replacement for QGenda?"
       },
       {
-        "answer": "ACGME duty hour rules are applied as the schedule is built, not checked manually after the fact. We apply the 80-hour weekly limit, eight hours off between duty periods, the 24-hour cap, and subspecialty-specific rules. The review afterwards is a check, not a repair job.",
+        "answer": "ACGME duty hour rules are applied as the schedule is built, not checked manually after the fact. We apply the 80-hour weekly limit, the rest requirements between duty periods, the 24-hour cap, and subspecialty-specific rules. The review afterwards is a check, not a repair job.",
         "question": "How does Scheduling Wizard handle ACGME duty hour compliance?"
       },
       {
@@ -31,7 +31,7 @@
         "question": "Do chief residents need to learn new software to use Scheduling Wizard?"
       },
       {
-        "answer": "The subspecialty requirements you tell us apply are built in too. During sales calls, ACGME compliance is consistently the first question program directors and chiefs ask, and specifically whether we know the rules for their subspecialty. We ask you for them, write them down with you, and build to them rather than applying generic duty hour rules across all programs.",
+        "answer": "The subspecialty requirements you tell us apply are built in too. It is the first thing most programs ask, and the answer is the same: you tell us which requirements apply, we write them down with you, and we build to them. We ask you for them, write them down with you, and build to them rather than applying generic duty hour rules across all programs.",
         "question": "How does Scheduling Wizard handle subspecialty-specific ACGME rules?"
       },
       {
@@ -41,7 +41,7 @@
     ],
     "hero": {
       "title": "QGenda Manages Your Schedule. We Build It.",
-      "description": "You can keep QGenda to publish and manage the day to day. Send us your block, call and clinic rules, the ACGME ones and the local ones, and we build the schedule you run in it, or a live view if you would rather have one."
+      "description": "You can keep QGenda for publishing and the day to day if you want to. Send us your block, call and clinic rules, the ACGME ones and the local ones, and we build the schedule you run in it, or a live view if you would rather have one."
     },
     "features": {
       "items": [
@@ -69,7 +69,7 @@
         },
         {
           "id": "acgme-compliance",
-          "title": "Compliance Built In at Generation",
+          "title": "Rules Applied as We Build",
           "eyebrow": "ACGME Requirements",
           "highlights": [
             "Rules applied as we build",
@@ -87,7 +87,7 @@
             "No annual software retraining",
             "New chiefs start with a working system"
           ],
-          "description": "Your program's scheduling rules and requests stay written down with Scheduling Wizard year over year. When your chief residents rotate, incoming chiefs inherit a working schedule instead of a blank spreadsheet."
+          "description": "Your program's scheduling rules and requests stay written down with Scheduling Wizard year over year. When your chief residents rotate, incoming chiefs inherit the written rule set and last year's schedule instead of a blank spreadsheet."
         },
         {
           "id": "block-scheduling",
@@ -148,7 +148,7 @@
       "title": "A Done-For-You Alternative to QGenda",
       "description": "Scheduling Wizard is a managed service, not another software tool. Submit your program's rules and receive finished, ACGME-compliant Block, Call, Clinic, and Attending schedules as Excel or Google Sheets, or on a custom live view we build for you. Your chiefs never learn new software, and your institutional scheduling knowledge persists year after year."
     },
-    "metaTitle": "QGenda Alternative | We Build It, You Keep QGenda",
+    "metaTitle": "QGenda Alternative | We Build the Schedule That Goes Into It",
     "metaDescription": "QGenda alternative for GME programs seeking a managed service. We deliver complete block, call and clinic schedules, built to the ACGME requirements, as Excel or Google Sheets, or on a custom live view we build for you."
   },
   "searchIntent": {
@@ -162,9 +162,9 @@
   },
   "seoMetadata": {
     "h1": "QGenda Alternative for Managed Schedule Creation",
-    "metaTitle": "QGenda Alternative | We Build It, You Keep QGenda",
+    "metaTitle": "QGenda Alternative | We Build the Schedule That Goes Into It",
     "h1Paragraph": "As a managed QGenda alternative, Scheduling Wizard takes your rules and delivers a complete schedule built to the ACGME requirements.",
-    "metaDescription": "A QGenda alternative for the build, not the viewing. We deliver block, call and clinic schedules built to the ACGME requirements; you keep QGenda to publish."
+    "metaDescription": "A QGenda alternative for the build, not the viewing. We deliver block, call and clinic schedules built to the ACGME requirements; QGenda can carry on publishing it."
   },
   "finalMetadata": {
     "slug": "alternative",
