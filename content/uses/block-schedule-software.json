@@ -15,7 +15,7 @@
     },
     "faq": [
       {
-        "answer": "Residency block schedule software automates the creation of year-long rotation assignments for residents across clinical sites, PGY levels, and ACGME-required rotations. Scheduling Wizard takes this a step further as a managed service, instead of operating software yourself, you submit your program's rules and receive the finished schedule, built to the ACGME requirements, delivered as Excel or Google Sheets, or on a custom live view we build for you. No platform to learn, no configuration required.",
+        "answer": "Residency block schedule software is used to build year-long rotation assignments for residents across clinical sites, PGY levels, and ACGME-required rotations. Scheduling Wizard takes this a step further as a managed service, instead of operating software yourself, you submit your program's rules and receive the finished schedule, built to the ACGME requirements, delivered as Excel or Google Sheets, or on a custom live view we build for you. No platform to learn, no configuration required.",
         "question": "What is residency block schedule software and how does it work?"
       },
       {
@@ -31,7 +31,7 @@
         "question": "Can Scheduling Wizard work alongside your existing platform?"
       },
       {
-        "answer": "Scheduling Wizard produces Block/Rotation schedules, Call schedules, Clinic schedules, and Attending schedules. All schedule types are built together, so a change in one schedule type automatically resolves dependencies in the others. Finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you ready for immediate use.",
+        "answer": "Scheduling Wizard produces Block/Rotation schedules, Call schedules, Clinic schedules, and Attending schedules. All schedule types are built together, so a change in one schedule type resolves dependencies in the others. Finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you ready for immediate use.",
         "question": "What types of schedules does Scheduling Wizard produce for residency programs?"
       },
       {
@@ -144,7 +144,7 @@
     "keyword": "residency block schedule software",
     "searchIntents": [
       "As a residency program director, I'm looking for a software solution that can create ACGME-compliant block schedules efficiently, since managing schedules manually has been too time-consuming and prone to errors.",
-      "As a chief resident, I need a tool that helps generate fair and optimized call schedules for my team, without having to learn complex software, because I want to focus on my training rather than administrative tasks.",
+      "As a chief resident, I need a tool that helps generate fair and finished call schedules for my team, without having to learn complex software, because I want to focus on my training rather than administrative tasks.",
       "I'm a program coordinator overwhelmed by the complexities of scheduling for multiple departments; I need a managed service that can handle custom rules, so we can ensure fairness and compliance without needing extensive scheduling knowledge.",
       "As a department chair, I want a solution that keeps institutional continuity across chief resident rotations since this will help maintain our program's stability and compliance with ACGME standards."
     ]

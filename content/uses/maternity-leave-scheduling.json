@@ -27,7 +27,7 @@
         "question": "How do you ensure fair call distribution when one resident is on leave?"
       },
       {
-        "answer": "Maternity leave typically creates downstream changes across block rotations, call schedules, clinic assignments, and sometimes attending schedules. Scheduling Wizard optimizes all of these simultaneously. Because our team resolves cross-schedule dependencies together, a change in call coverage propagates correctly into rotation and clinic schedules rather than creating new conflicts downstream.",
+        "answer": "Maternity leave typically creates downstream changes across block rotations, call schedules, clinic assignments, and sometimes attending schedules. Scheduling Wizard builds all of these together. Because our team resolves cross-schedule dependencies together, a change in call coverage propagates correctly into rotation and clinic schedules rather than creating new conflicts downstream.",
         "question": "What schedule types are affected by maternity leave and does SW handle all of them?"
       },
       {
@@ -46,7 +46,7 @@
     "features": {
       "items": [
         {
-          "id": "constraint-modeling",
+          "id": "rules-built-in",
           "eyebrow": "Your Rules and Requests",
           "title": "Built to Your Rules, However Granular",
           "description": "We build to your rules and requests, however complex or granular: the written ones, including the ACGME requirements where they apply, and the local ones nobody has written down. The attending who does not take Friday call. The two residents who cannot share a rotation. The clinic that needs Thursdays protected. If you can describe it, it goes in.",
@@ -79,7 +79,7 @@
           "description": "Duty hour rules do not pause when coverage is thin. We apply the 80-hour weekly limit, rest requirements and the subspecialty-specific ACGME requirements as we rebuild, even after leave-driven redistribution."
         },
         {
-          "id": "coverage-optimization",
+          "id": "full-coverage",
           "title": "No Gaps Left by Departing Residents",
           "eyebrow": "Coverage",
           "highlights": [
@@ -90,7 +90,7 @@
           "description": "Every required shift and rotation slot is covered before the schedule is delivered. Our team redistributes workload across remaining residents without leaving uncovered assignments or overstaffing any single resident."
         },
         {
-          "id": "fairness-optimization",
+          "id": "fair-call-distribution",
           "title": "Fair Burden Distribution During Leave",
           "eyebrow": "Fairness",
           "highlights": [
@@ -146,7 +146,7 @@
     },
     "solution": {
       "title": "A Done-For-You Schedule That Absorbs Leave",
-      "description": "Submit your program's rules, including the maternity leave details, and our team rebuilds your ACGME-compliant block, call, and clinic schedules automatically. You receive finished schedules as Excel or Google Sheets, or on a custom live view we build for you, ready to publish. No software to learn, no manual reshuffling."
+      "description": "Submit your program's rules, including the maternity leave details, and our team rebuilds your ACGME-compliant block, call, and clinic schedules. You receive finished schedules as Excel or Google Sheets, or on a custom live view we build for you, ready to publish. No software to learn, no manual reshuffling."
     },
     "metaTitle": "Maternity Leave Residency Scheduling | Rebuilt For You",
     "metaDescription": "Maternity leave residency scheduling, handled. Our managed service rebuilds the schedule around a resident's leave, with coverage and fairness held, and nothing for your chief to redo."
@@ -154,7 +154,7 @@
   "searchIntent": {
     "keyword": "maternity leave residency scheduling",
     "searchIntents": [
-      "A chief resident trying to figure out how to accommodate a resident's maternity leave without disrupting the entire department's schedule, looking for a solution that understands ACGME compliance and can optimize shifts accordingly.",
+      "A chief resident trying to figure out how to accommodate a resident's maternity leave without disrupting the entire department's schedule, looking for a solution that understands ACGME compliance and can build shifts accordingly.",
       "A program coordinator seeking a scheduling service that can adapt current residency schedules to allow for maternity leave while ensuring no gaps in coverage and maintaining compliance with institutional policies.",
       "A residency program director needing a reliable way to incorporate maternity leave into their scheduling process, wanting to avoid the complexity of self-service software while ensuring fairness among residents and adherence to institutional rules.",
       "A residency program administrator looking for expert support to manage maternity leave scheduling effectively, as they are overwhelmed by manual adjustments and need a solution that ensure a clean integration with existing scheduling tools."

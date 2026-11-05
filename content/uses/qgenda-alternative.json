@@ -15,7 +15,7 @@
     },
     "faq": [
       {
-        "answer": "Scheduling Wizard replaces QGenda for schedule building, not for schedule viewing. Many Scheduling Wizard clients continue using QGenda as their day-to-day publishing platform; they put the finished schedule Scheduling Wizard delivers into it. The key distinction is that Scheduling Wizard handles the complex work of building and optimizing the schedule, while QGenda serves as the publishing platform.",
+        "answer": "Scheduling Wizard replaces QGenda for schedule building, not for schedule viewing. Many Scheduling Wizard clients continue using QGenda as their day-to-day publishing platform; they put the finished schedule Scheduling Wizard delivers into it. The key distinction is that Scheduling Wizard handles the complex work of building the schedule, while QGenda serves as the publishing platform.",
         "question": "Is Scheduling Wizard a replacement for QGenda?"
       },
       {
@@ -23,7 +23,7 @@
         "question": "How does Scheduling Wizard handle ACGME duty hour compliance?"
       },
       {
-        "answer": "Scheduling Wizard produces Block rotation schedules, Call schedules, Clinic schedules, and Attending schedules. All four schedule types are optimized simultaneously so that changes in one do not create conflicts in another. Finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you that programs can upload to viewing platforms like QGenda.",
+        "answer": "Scheduling Wizard produces Block rotation schedules, Call schedules, Clinic schedules, and Attending schedules. All four schedule types are built together, so that changes in one do not create conflicts in another. Finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you that programs can upload to viewing platforms like QGenda.",
         "question": "What types of schedules does Scheduling Wizard produce?"
       },
       {
@@ -46,7 +46,7 @@
     "features": {
       "items": [
         {
-          "id": "constraint-modeling",
+          "id": "rules-built-in",
           "eyebrow": "Your Rules and Requests",
           "title": "Built to Your Rules, However Granular",
           "description": "We build to your rules and requests, however complex or granular: the written ones, including the ACGME requirements where they apply, and the local ones nobody has written down. The attending who does not take Friday call. The two residents who cannot share a rotation. The clinic that needs Thursdays protected. If you can describe it, it goes in.",
@@ -91,7 +91,7 @@
         },
         {
           "id": "block-scheduling",
-          "title": "Optimized Rotation Schedules Generated",
+          "title": "Rotation Schedules Built For You",
           "eyebrow": "Block Scheduling",
           "highlights": [
             "PGY-level requirements respected",
@@ -105,8 +105,8 @@
           "title": "Block, Call and Clinic Synchronized",
           "eyebrow": "Schedule Coordination",
           "highlights": [
-            "All schedule types optimized together",
-            "Changes propagate automatically",
+            "All schedule types built together",
+            "Changes carried through every schedule",
             "No manual cross-schedule patching"
           ],
           "description": "Block, call, clinic and attending schedules are built together. A change in one propagates across the others, which removes the cascade of manual fixes."

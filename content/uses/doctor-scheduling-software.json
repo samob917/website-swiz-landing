@@ -23,7 +23,7 @@
         "question": "How do you handle ACGME requirements for my specialty?"
       },
       {
-        "answer": "Scheduling Wizard generates Block and rotation schedules, Call schedules with fairness optimization, Clinic schedules, and Attending schedules. All schedule types are optimized simultaneously so that changes in one automatically resolve dependencies in the others, eliminating the manual cross-schedule patching that burdens chief residents and coordinators.",
+        "answer": "Scheduling Wizard generates Block and rotation schedules, Call schedules with fair call distribution, Clinic schedules, and Attending schedules. All schedule types are built together, so that changes in one resolve dependencies in the others, eliminating the manual cross-schedule patching that burdens chief residents and coordinators.",
         "question": "What types of schedules does Scheduling Wizard generate?"
       },
       {
@@ -63,7 +63,7 @@
           "highlights": [
             "No software to learn",
             "Finished schedules as Excel or Google Sheets, or on a custom live view we build for you",
-            "Expert schedulers handle optimization"
+            "Our team does the building"
           ],
           "description": "Unlike self-service doctor scheduling software, Scheduling Wizard takes your rules and returns finished, publish-ready schedules as Excel or Google Sheets, or on a custom live view we build for you. No platform to log into, no learning curve, no annual retraining when your chief rotates. The schedules are built by our team, who do this full time."
         },
@@ -72,7 +72,7 @@
           "title": "Fair Call Distribution",
           "eyebrow": "Call Scheduling",
           "highlights": [
-            "Weekend call balanced automatically",
+            "Weekend call balanced for you",
             "Holiday shifts distributed fairly",
             "Post-call rest rules applied"
           ],
@@ -80,7 +80,7 @@
         },
         {
           "id": "block-scheduling",
-          "title": "Year-Long Rotation Schedules Optimized",
+          "title": "Year-Long Rotation Schedules, Built For You",
           "eyebrow": "Block Scheduling",
           "highlights": [
             "PGY-level requirements respected",
@@ -134,7 +134,7 @@
       "description": "Doctor scheduling software adds complexity instead of removing it. Here is what that costs your team."
     },
     "solution": {
-      "title": "Done-For-You Scheduling by Optimization Experts",
+      "title": "Done-For-You Scheduling by People Who Do This Full Time",
       "description": "Submit your program's rules (rotation requirements, ACGME rules, resident preferences, and call fairness targets) and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you. No software to learn. No annual retraining when chiefs rotate. Scheduling Wizard handles the complexity so your team does not have to."
     },
     "metaTitle": "Doctor Scheduling Software | Managed Service",
@@ -143,7 +143,7 @@
   "searchIntent": {
     "keyword": "doctor scheduling software",
     "searchIntents": [
-      "As a chief resident, I'm overwhelmed by the complexity of creating schedules that meet ACGME compliance and need a managed service that can optimize schedules without requiring me to learn any software.",
+      "As a chief resident, I'm overwhelmed by the complexity of creating schedules that meet ACGME compliance and need a managed service that can build schedules without requiring me to learn any software.",
       "I'm a program director looking for a solution that enforces the rules when the schedule is built with specific residency scheduling rules, as generic software lacks the subspecialty-specific knowledge necessary for our unique needs.",
       "As a program coordinator, I want to ensure there are no gaps or overstaffing in our schedules and need a software that can manage all the intricate rules without adding to my workload.",
       "I'm a private practice administrator searching for a solid scheduling solution that integrates with our existing tools like Amion, but also allows us to manage scheduling efficiently without burdening our team with complicated software."

@@ -23,7 +23,7 @@
         "question": "How does Scheduling Wizard ensure ACGME duty hour compliance?"
       },
       {
-        "answer": "Scheduling Wizard generates four schedule types: Block and rotation schedules, Call schedules, Clinic schedules, and Attending schedules. These are optimized simultaneously so that a change in one propagates correctly across the others, eliminating the manual cross-schedule patching that causes errors in traditional residency management approaches.",
+        "answer": "Scheduling Wizard generates four schedule types: Block and rotation schedules, Call schedules, Clinic schedules, and Attending schedules. These are built together, so that a change in one propagates correctly across the others, eliminating the manual cross-schedule patching that causes errors in traditional residency management approaches.",
         "question": "What types of schedules does Scheduling Wizard generate for residency programs?"
       },
       {
@@ -46,7 +46,7 @@
     "features": {
       "items": [
         {
-          "id": "constraint-modeling",
+          "id": "rules-built-in",
           "eyebrow": "Your Rules and Requests",
           "title": "Built to Your Rules, However Granular",
           "description": "We build to your rules and requests, however complex or granular: the written ones, including the ACGME requirements where they apply, and the local ones nobody has written down. The attending who does not take Friday call. The two residents who cannot share a rotation. The clinic that needs Thursdays protected. If you can describe it, it goes in.",
@@ -107,7 +107,7 @@
           "highlights": [
             "Holiday burden distributed fairly",
             "Post-call rest rules applied",
-            "Weekend call balanced automatically"
+            "Weekend call balanced for you"
           ],
           "description": "On-call schedules distribute call, weekend and holiday burden equitably across all residents, with the duty hour limits and post-call rules applied, and fewer fairness disputes."
         },
@@ -155,7 +155,7 @@
     "keyword": "residency management software",
     "searchIntents": [
       "A chief resident overwhelmed with the complexities of creating compliant rotation schedules is looking for a specialized software solution that can handle intricate scheduling rules and ensure ACGME compliance without adding to their workload.",
-      "A program director at a medical residency program needs a way to optimize attending and call schedules for their residents while ensuring fairness and compliance; they're seeking a managed service to avoid the headaches of traditional scheduling software.",
+      "A program director at a medical residency program needs a way to build attending and call schedules for their residents while ensuring fairness and compliance; they're seeking a managed service to avoid the headaches of traditional scheduling software.",
       "A program coordinator wants to streamline the scheduling process for multiple departments within their hospital and needs a tool that integrates with the systems you already use, ensuring that the unique rules of each subspecialty are met efficiently.",
       "An administrator in a private practice is looking for a scheduling solution that not only manages residency schedules but can also handle specific requirements for their practice, ensuring both regulatory compliance and effective coverage without excessive manual input."
     ]

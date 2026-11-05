@@ -27,7 +27,7 @@
         "question": "How does Scheduling Wizard handle subspecialty-specific ACGME fellowship rules?"
       },
       {
-        "answer": "Scheduling Wizard generates Block rotation schedules, Call schedules with fairness optimization, Clinic schedules, and Attending schedules. All four schedule types are built together, so that changes in one schedule type are automatically resolved across the others. Finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you that programs can upload to their existing publishing platform.",
+        "answer": "Scheduling Wizard generates Block rotation schedules, Call schedules with fair call distribution, Clinic schedules, and Attending schedules. All four schedule types are built together, so that changes in one schedule type are resolved across the others. Finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you that programs can upload to their existing publishing platform.",
         "question": "What types of fellowship schedules does Scheduling Wizard generate?"
       },
       {
@@ -46,7 +46,7 @@
     "features": {
       "items": [
         {
-          "id": "constraint-modeling",
+          "id": "rules-built-in",
           "eyebrow": "Your Rules and Requests",
           "title": "Built to Your Rules, However Granular",
           "description": "We build to your rules and requests, however complex or granular: the written ones, including the ACGME requirements where they apply, and the local ones nobody has written down. The attending who does not take Friday call. The two residents who cannot share a rotation. The clinic that needs Thursdays protected. If you can describe it, it goes in.",
@@ -102,14 +102,14 @@
         },
         {
           "id": "cross-schedule-resolution",
-          "title": "Block, Call and Clinic Optimized Together",
+          "title": "Block, Call and Clinic Built Together",
           "eyebrow": "Schedule Coordination",
           "highlights": [
             "All schedule types linked",
-            "Changes propagate automatically",
+            "Changes carried through every schedule",
             "No manual cascade fixing"
           ],
-          "description": "For fellowship programs running simultaneous block, call, and clinic schedules, changes in one automatically propagate across the others. No more manual patching when a single swap creates a cascade of downstream conflicts."
+          "description": "For fellowship programs running simultaneous block, call, and clinic schedules, changes in one propagate across the others. No more manual patching when a single swap creates a cascade of downstream conflicts."
         },
         {
           "id": "redrafts-included",
@@ -156,7 +156,7 @@
     "searchIntents": [
       "As a chief fellow, I'm overwhelmed trying to create a compliant schedule for my fellowship program and need a reliable managed service that ensures ACGME compliance without me having to learn complicated software.",
       "I'm a program coordinator looking for a way to automate our fellowship scheduling process, but I need something that understands the specific rules of our subspecialty and can deliver a ready-to-use schedule quickly.",
-      "As a fellowship program director, I'm concerned about the burden of scheduling on our chief fellows and coordinator and want a solution that not only builds optimized schedules but also maintains institutional knowledge across rotations.",
+      "As a fellowship program director, I'm concerned about the burden of scheduling on our chief fellows and coordinator and want a solution that not only builds finished schedules but also maintains institutional knowledge across rotations.",
       "I manage a GME office and need an efficient way to handle scheduling for multiple departments while ensuring that we’re meeting all ACGME duty hour requirements and covering all shifts fairly."
     ]
   },

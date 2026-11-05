@@ -15,7 +15,7 @@
     },
     "faq": [
       {
-        "answer": "Attending physician scheduling software automates the building of faculty coverage schedules for residency and fellowship programs. Scheduling Wizard takes this a step further by operating as a fully managed service; your program submits its rules, and our team generates finished, ACGME-compliant attending schedules delivered as Excel or Google Sheets, or on a custom live view we build for you. There is no platform for your team to log into or learn.",
+        "answer": "Attending physician scheduling software is used to build faculty coverage schedules for residency and fellowship programs. Scheduling Wizard takes this a step further by operating as a fully managed service; your program submits its rules, and our team generates finished, ACGME-compliant attending schedules delivered as Excel or Google Sheets, or on a custom live view we build for you. There is no platform for your team to log into or learn.",
         "question": "What is attending physician scheduling software and how does it work?"
       },
       {
@@ -23,7 +23,7 @@
         "question": "What rules do you build an attending schedule around?"
       },
       {
-        "answer": "Scheduling Wizard handles the schedule building, while the platform you already use handles day-to-day schedule access. Many Scheduling Wizard clients continue using the platform they already have alongside the service. SW builds the optimized attending schedule, and programs put the finished schedule into their existing publishing platform.",
+        "answer": "Scheduling Wizard handles the schedule building, while the platform you already use handles day-to-day schedule access. Many Scheduling Wizard clients continue using the platform they already have alongside the service. We build the attending schedule, and programs put the finished schedule into their existing publishing platform.",
         "question": "Does Scheduling Wizard replace the platform we use now for attending scheduling?"
       },
       {
@@ -35,7 +35,7 @@
         "question": "Do ACGME duty hour rules apply to attending schedules?"
       },
       {
-        "answer": "Yes. Our team resolves dependencies across attending schedules, block rotations, call schedules, and clinic assignments simultaneously. A change in one schedule type automatically propagates across the others, removing the manual cross-referencing and patching that causes conflicts when attending and resident schedules are built separately.",
+        "answer": "Yes. Our team resolves dependencies across attending schedules, block rotations, call schedules, and clinic assignments simultaneously. A change in one schedule type propagates across the others, removing the manual cross-referencing and patching that causes conflicts when attending and resident schedules are built separately.",
         "question": "Can Scheduling Wizard coordinate attending and resident schedules together?"
       }
     ],
@@ -46,7 +46,7 @@
     "features": {
       "items": [
         {
-          "id": "coverage-optimization",
+          "id": "full-coverage",
           "title": "Compliance Built Into Every Schedule",
           "eyebrow": "Your Rules and Requests",
           "highlights": [
@@ -74,7 +74,7 @@
           "highlights": [
             "Submit rules and receive schedules",
             "Zero software training required",
-            "Expert schedulers handle optimization"
+            "Our team does the building"
           ],
           "description": "Unlike traditional attending physician scheduling software, Scheduling Wizard is a fully managed service. Your team submits rules and receive finished schedules as Excel or Google Sheets, or on a custom live view we build for you, no platform to log into, no tools to train on. The schedules are built by our team, who do this full time."
         },
@@ -90,12 +90,12 @@
           "description": "Your attending scheduling rules and requests stay written down with Scheduling Wizard from one scheduler to the next. Whoever takes it over inherits a working system instead of a blank spreadsheet."
         },
         {
-          "id": "fairness-optimization",
+          "id": "fair-call-distribution",
           "title": "Fair Attending Assignments Across Faculty",
-          "eyebrow": "Fairness Optimization",
+          "eyebrow": "Fair Call Distribution",
           "highlights": [
             "Holiday burden distributed fairly",
-            "Weekend shifts balanced automatically",
+            "Weekend shifts balanced for you",
             "Fewer fairness disputes"
           ],
           "description": "Holiday coverage, weekend shifts, and call burden are distributed equitably across attending physicians as part of the build, so no one carries a disproportionate load and there is less to argue about."
@@ -143,7 +143,7 @@
   "searchIntent": {
     "keyword": "attending physician scheduling software",
     "searchIntents": [
-      "A residency program director looking for a reliable way to create compliant and optimized attending schedules that adhere to ACGME guidelines without burdening chief residents with complicated software.",
+      "A residency program director looking for a reliable way to create compliant and finished attending schedules that adhere to ACGME guidelines without burdening chief residents with complicated software.",
       "A chief resident overwhelmed with scheduling tasks, needing a solution that can automate the creation of attending schedules while ensuring all shifts are filled fairly and without conflicts.",
       "A program coordinator seeking a done-for-you service that can handle the intricacies of attending physician scheduling, including specific subspecialty rules, to reduce the administrative load on staff.",
       "A private practice administrator looking for an efficient way to get attending coverage built around contracts and call equity, and delivered in a format that drops straight into the platform the practice already uses."

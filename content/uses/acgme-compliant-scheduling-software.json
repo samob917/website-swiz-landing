@@ -35,7 +35,7 @@
         "question": "Who at a residency program typically works with Scheduling Wizard?"
       },
       {
-        "answer": "Scheduling Wizard produces Block or rotation schedules, Call schedules with fairness optimization, Clinic schedules, and Attending schedules. All four schedule types are built together, so that changes in one propagate correctly across the others. Finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you ready for upload to the program's existing schedule publishing platform.",
+        "answer": "Scheduling Wizard produces block or rotation schedules, Call schedules with fair call distribution, Clinic schedules, and Attending schedules. All four schedule types are built together, so that changes in one propagate correctly across the others. Finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you ready for upload to the program's existing schedule publishing platform.",
         "question": "What types of schedules does Scheduling Wizard produce for residency programs?"
       }
     ],
@@ -74,7 +74,7 @@
           "highlights": [
             "No software to learn",
             "Delivered as Excel or Google Sheets, or on a custom live view we build for you",
-            "Expert schedulers handle optimization"
+            "Our team does the building"
           ],
           "description": "Programs submit their rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you. There is no platform to log into, no software to learn, and no training required when your chief residents rotate. The schedules are built by our team, who do this full time."
         },
@@ -145,7 +145,7 @@
     "searchIntents": [
       "As a residency program director, I'm looking for a reliable scheduling solution that ensures compliance with ACGME rules to avoid penalties or surface at review for accreditation for our medical residency program.",
       "I'm a chief resident trying to minimize the scheduling burden on myself and my colleagues. We need a managed service that enforces ACGME rules when the schedule is built without forcing us to learn new software or deal with complex scheduling tasks.",
-      "As a program coordinator, I need an efficient way to create schedules built to the ACGME requirements for multiple departments, but I want to ensure that they're optimized for fairness and resident preferences, without dealing with the technical details myself.",
+      "As a program coordinator, I need an efficient way to create schedules built to the ACGME requirements for multiple departments, but I want to ensure that they're finished for fairness and resident preferences, without dealing with the technical details myself.",
       "Working in a GME office, I’m searching for software that not only meets ACGME compliance but also handles the unique scheduling requirements of our subspecialties to ensure we remain competitive and can adequately train our residents."
     ]
   },

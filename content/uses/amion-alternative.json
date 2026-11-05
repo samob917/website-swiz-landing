@@ -15,7 +15,7 @@
     },
     "faq": [
       {
-        "answer": "Amion is a schedule publishing platform, while Scheduling Wizard is a managed service that creates and optimizes the schedule itself. Many Scheduling Wizard clients continue using Amion to publish their finished schedules day-to-day. The difference is in schedule creation: Our team builds your compliant Block, Call, Clinic, and Attending schedules from your rules, then delivers them as Excel or Google Sheets, or on a custom live view we build for you you can upload directly to your existing platform.",
+        "answer": "Amion is a schedule publishing platform, while Scheduling Wizard is a managed service that builds the schedule itself. Many Scheduling Wizard clients continue using Amion to publish their finished schedules day-to-day. The difference is in schedule creation: Our team builds your compliant Block, Call, Clinic, and Attending schedules from your rules, then delivers them as Excel or Google Sheets, or on a custom live view we build for you you can upload directly to your existing platform.",
         "question": "What makes Scheduling Wizard different from Amion?"
       },
       {
@@ -27,15 +27,15 @@
         "question": "How does Scheduling Wizard ensure ACGME compliance during schedule creation?"
       },
       {
-        "answer": "Scheduling Wizard operates as a fully managed service, meaning your program does not need to operate any scheduling software. You submit your rules, rotation requirements, resident preferences, and ACGME rules. Scheduling Wizard's team handle the optimization and deliver finished, ready-to-publish schedules as Excel or Google Sheets, or on a custom live view we build for you. Chief residents are not required to learn or use any new platform.",
+        "answer": "Scheduling Wizard operates as a fully managed service, meaning your program does not need to operate any scheduling software. You submit your rules, rotation requirements, resident preferences, and ACGME rules. Scheduling Wizard's team do the building and deliver finished, ready-to-publish schedules as Excel or Google Sheets, or on a custom live view we build for you. Chief residents are not required to learn or use any new platform.",
         "question": "Who actually builds the schedule with Scheduling Wizard?"
       },
       {
-        "answer": "Scheduling Wizard generates Block (rotation), Call, Clinic, and Attending schedules. These are optimized simultaneously so that changes in one schedule automatically reflect across the others, removing the cross-schedule conflicts that arise when each schedule is built in isolation. Finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you compatible with your existing platform, and other publishing platforms.",
+        "answer": "Scheduling Wizard generates Block (rotation), Call, Clinic, and Attending schedules. These are built together, so that changes in one schedule reflect across the others, removing the cross-schedule conflicts that arise when each schedule is built in isolation. Finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you compatible with your existing platform, and other publishing platforms.",
         "question": "What types of schedules does Scheduling Wizard generate?"
       },
       {
-        "answer": "Your program's scheduling knowledge stays with Scheduling Wizard year over year. Rules, rotation rules, coverage requirements, and compliance configurations all persist in the system. When a new chief rotates in, they inherit an already-working, optimized setup instead of starting from scratch. This institutional continuity is a core reason programs choose Scheduling Wizard over rebuilding manually each year.",
+        "answer": "Your program's scheduling knowledge stays with Scheduling Wizard year over year. Rules, rotation rules, coverage requirements, and compliance configurations all persist in the system. When a new chief rotates in, they inherit an already-working setup instead of starting from scratch. This institutional continuity is a core reason programs choose Scheduling Wizard over rebuilding manually each year.",
         "question": "What happens to our scheduling setup when a new chief resident takes over?"
       }
     ],
@@ -46,7 +46,7 @@
     "features": {
       "items": [
         {
-          "id": "constraint-modeling",
+          "id": "rules-built-in",
           "eyebrow": "Your Rules and Requests",
           "title": "Built to Your Rules, However Granular",
           "description": "We build to your rules and requests, however complex or granular: the written ones, including the ACGME requirements where they apply, and the local ones nobody has written down. The attending who does not take Friday call. The two residents who cannot share a rotation. The clinic that needs Thursdays protected. If you can describe it, it goes in.",
@@ -91,7 +91,7 @@
         },
         {
           "id": "block-scheduling",
-          "title": "Optimized Rotation Schedules Built For You",
+          "title": "Rotation Schedules Built For You",
           "eyebrow": "Block Scheduling",
           "highlights": [
             "PGY-level requirements honored",
@@ -105,7 +105,7 @@
           "title": "Fair Call Schedules Built to Your Definition of Fair",
           "eyebrow": "Call Scheduling",
           "highlights": [
-            "Weekend call balanced automatically",
+            "Weekend call balanced for you",
             "Holiday shifts distributed fairly",
             "Post-call rest rules applied"
           ],
@@ -138,7 +138,7 @@
         },
         {
           "title": "Knowledge Lost Every Chief Rotation",
-          "description": "When a new chief takes over, all institutional scheduling logic lives in one person's head and disappears when they leave."
+          "description": "When a new chief takes over, all institutional scheduling knowledge lives in one person's head and disappears when they leave."
         }
       ],
       "title": "Amion Publishes the Schedule. Someone Still Has to Build It.",
@@ -154,7 +154,7 @@
   "searchIntent": {
     "keyword": "amion alternative",
     "searchIntents": [
-      "A chief resident frustrated with Amion's limitations on schedule customization, seeking a more flexible and optimized scheduling solution that meets ACGME compliance requirements without the steep learning curve.",
+      "A chief resident frustrated with Amion's limitations on schedule customization, seeking a more flexible and finished scheduling solution that meets ACGME compliance requirements without the steep learning curve.",
       "A program coordinator looking for a managed scheduling service to eliminate the administrative burden of using Amion, hoping to find an alternative that can generate compliant schedules quickly and efficiently without manual input.",
       "A residency program director searching for a better alternative to Amion due to inconsistent schedule outputs and a desire for deeper integration of specialty-specific ACGME rules in the scheduling process.",
       "A private practice administrator wanting to switch from Amion to a service that not only handles scheduling but also provides ongoing support and expertise to adapt to their team's unique needs."

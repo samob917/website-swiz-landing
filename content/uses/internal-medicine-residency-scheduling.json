@@ -23,7 +23,7 @@
         "question": "How does Scheduling Wizard handle internal medicine X+Y scheduling models?"
       },
       {
-        "answer": "Scheduling Wizard delivers complete block rotation schedules, call schedules, clinic schedules, and attending schedules for internal medicine programs. All four schedule types are optimized simultaneously, so a change in one automatically resolves dependencies in the others. Schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you.",
+        "answer": "Scheduling Wizard delivers complete block rotation schedules, call schedules, clinic schedules, and attending schedules for internal medicine programs. All four schedule types are built together, so a change in one resolves dependencies in the others. Schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you.",
         "question": "What types of schedules does Scheduling Wizard produce for IM programs?"
       },
       {
@@ -35,7 +35,7 @@
         "question": "Can Scheduling Wizard integrate with your existing platform for schedule viewing?"
       },
       {
-        "answer": "The process has three steps. First, you submit your program's rules, rotation requirements, ACGME rules, resident preferences, call fairness targets, and clinic assignments. Second, our team builds your complete, compliant schedule. Third, you receive the finished schedule as Excel or Google Sheets, or on a custom live view we build for you, ready to review, approve and publish. No software to learn, no manual optimization required.",
+        "answer": "The process has three steps. First, you submit your program's rules, rotation requirements, ACGME rules, resident preferences, call fairness targets, and clinic assignments. Second, our team builds your complete, compliant schedule. Third, you receive the finished schedule as Excel or Google Sheets, or on a custom live view we build for you, ready to review, approve and publish. No software to learn, nothing for you to configure.",
         "question": "How does the internal medicine residency scheduling process work with Scheduling Wizard?"
       }
     ],
@@ -46,7 +46,7 @@
     "features": {
       "items": [
         {
-          "id": "constraint-modeling",
+          "id": "rules-built-in",
           "eyebrow": "Your Rules and Requests",
           "title": "Built to Your Rules, However Granular",
           "description": "We build to your rules and requests, however complex or granular: the written ones, including the ACGME requirements where they apply, and the local ones nobody has written down. The attending who does not take Friday call. The two residents who cannot share a rotation. The clinic that needs Thursdays protected. If you can describe it, it goes in.",
