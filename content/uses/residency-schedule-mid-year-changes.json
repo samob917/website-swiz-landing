@@ -15,7 +15,7 @@
     },
     "faq": [
       {
-        "answer": "Scheduling Wizard handles mid year changes through its managed service model; your program submits updated rules and receives a rebuilt schedule, built to the ACGME requirements, back as Excel or Google Sheets, or on a custom live view we build for you. There is no software for your team to operate. Our team re-solves across all affected schedule types simultaneously, so a single change in leave or coverage requirements does not cascade into unresolved conflicts elsewhere in the schedule.",
+        "answer": "Scheduling Wizard handles mid year changes through its managed service model; your program submits updated rules and receives a rebuilt schedule, built to the ACGME requirements, back as Excel or Google Sheets, or on a custom live view we build for you. There is no software for your team to operate. Our team rebuilds every affected schedule type together, so a single change in leave or coverage requirements does not cascade into unresolved conflicts elsewhere in the schedule.",
         "question": "How does Scheduling Wizard handle residency schedule mid year changes?"
       },
       {
@@ -23,7 +23,7 @@
         "question": "How quickly can a revised schedule be generated after a mid year change?"
       },
       {
-        "answer": "Mid year changes can introduce compliance risks if a rebuild is done manually, since each revision must be re-checked against 80-hour weekly limits, rest period requirements, and subspecialty-specific rules. Scheduling Wizard builds in the ACGME duty hour regulations while the schedule is built, so every revised schedule is compliant before it is delivered to your program, the rules are applied as we build, not discovered after publishing.",
+        "answer": "Mid year changes can introduce compliance risks if a rebuild is done manually, since each revision must be re-checked against 80-hour weekly limits, rest period requirements, and subspecialty-specific rules. We apply the duty hour rules as we rebuild, so a revised schedule is built to the same requirements as the original and the review has far less to find.",
         "question": "Will mid year schedule changes affect ACGME duty hour compliance?"
       },
       {
@@ -35,7 +35,7 @@
         "question": "Do we need to switch away from the platform we use now to use Scheduling Wizard?"
       },
       {
-        "answer": "Program rules and the reasons behind them are written down and kept with Scheduling Wizard year over year. When a new chief resident takes over, they inherit the written rule set and last year's schedule rather than starting from a blank spreadsheet. This institutional continuity is a core part of the managed service model and eliminates the annual knowledge loss that occurs when chief rotations happen.",
+        "answer": "Program rules and the reasons behind them are written down and kept with Scheduling Wizard year over year. When a new chief resident takes over, they inherit the written rule set and last year's schedule rather than starting from a blank spreadsheet. This institutional continuity is a core part of the managed service model and removes the annual knowledge loss that occurs when chief rotations happen.",
         "question": "How does Scheduling Wizard preserve scheduling knowledge when chief residents change?"
       }
     ],
@@ -74,9 +74,9 @@
           "highlights": [
             "Rules updated on demand",
             "Downstream impacts resolved in the rebuild",
-            "Or a custom live view we build"
+            "Rest of the schedule left alone"
           ],
-          "description": "Submit updated rules (new leave, swaps, added residents, or changed requirements) and receive a revised schedule that accounts for every downstream impact. Residency schedule mid year changes no longer require rebuilding from scratch."
+          "description": "Submit what changed (new leave, a rotation move, added residents, or changed requirements) and receive a revised schedule that accounts for every downstream impact. Residency schedule mid year changes no longer require rebuilding from scratch."
         },
         {
           "id": "acgme-compliance",
@@ -107,7 +107,7 @@
           "highlights": [
             "No software to learn",
             "Expert schedulers handle revisions",
-            "Or a custom live view we build"
+            "Rest of the schedule left alone"
           ],
           "description": "Scheduling Wizard is a done-for-you service. Your team submits the updated rules and receives the finished revised schedule as Excel or Google Sheets, or on a custom live view we build for you, no software to learn, no dashboards to operate, no annual retraining when chiefs rotate."
         },
@@ -124,7 +124,7 @@
         }
       ],
       "title": "Built for Mid Year Schedule Disruptions",
-      "description": "Scheduling Wizard handles the complexity of mid year revisions so your program stays compliant, covered, and fair without burdening your chief residents."
+      "description": "Scheduling Wizard handles the complexity of mid year revisions so your program stays covered and fair, with the rules applied in the rebuild, without burdening your chief residents."
     },
     "problems": {
       "items": [

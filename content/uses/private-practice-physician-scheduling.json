@@ -15,7 +15,7 @@
     },
     "faq": [
       {
-        "answer": "A managed scheduling service means your practice submits its rules and requirements, and an expert team handles the schedule building on your behalf. Scheduling Wizard takes your physician availability, coverage requirements, and preferences, has a team that does this full time build it, and delivers a finished physician schedule as Excel or Google Sheets, or on a custom live view we build for you. Your practice gets an finished schedule without needing to learn or operate any scheduling software.",
+        "answer": "A managed scheduling service means your practice submits its rules and requirements, and an expert team handles the schedule building on your behalf. Scheduling Wizard takes your physician availability, coverage requirements, and preferences, has a team that does this full time build it, and delivers a finished physician schedule as Excel or Google Sheets, or on a custom live view we build for you. Your practice gets a finished schedule without needing to learn or operate any scheduling software.",
         "question": "What is a managed scheduling service for private practice physicians?"
       },
       {
@@ -49,10 +49,10 @@
           "id": "rules-built-in",
           "eyebrow": "Your Rules and Requests",
           "title": "Built to Your Rules, However Granular",
-          "description": "We build to your rules and requests, however complex or granular: the written ones, including the ACGME requirements where they apply, and the local ones nobody has written down. The attending who does not take Friday call. The two residents who cannot share a rotation. The clinic that needs Thursdays protected. If you can describe it, it goes in.",
+          "description": "We build to your rules and requests, however complex or granular: the written ones, coverage minimums, call equity, contractual obligations, time off, and the local ones nobody has written down. The partner who does not take Friday call. The two physicians who cannot both be off the same week. The site that needs Thursdays covered. If you can describe it, it goes in.",
           "highlights": [
             "The written rules and the local ones",
-            "ACGME requirements where they apply",
+            "Contract terms and site coverage included",
             "If you can describe it, it goes in"
           ]
         },
@@ -65,11 +65,11 @@
             "Rules submitted, schedules returned",
             "Delivered as Excel or Google Sheets, or on a custom live view we build for you"
           ],
-          "description": "Submit your practice rules, physician preferences, and coverage requirements. Scheduling Wizard's expert team builds the schedule and delivers finished schedules as Excel or Google Sheets, or on a custom live view we build for you your practice can use immediately. The schedules are built by our team, who do this full time."
+          "description": "Submit your practice rules, physician preferences, and coverage requirements. Scheduling Wizard's expert team builds the schedule and delivers finished schedules as Excel or Google Sheets, or on a custom live view we build for you, ready for your practice to use immediately. The schedules are built by our team, who do this full time."
         },
         {
           "id": "full-coverage",
-          "title": "No Gaps No Overstaffing",
+          "title": "No Gaps, No Overstaffing",
           "eyebrow": "Full Coverage, No Gaps",
           "highlights": [
             "All required shifts covered",
@@ -109,7 +109,7 @@
             "Coverage restored without manual work",
             "No full-schedule disruption"
           ],
-          "description": "When a physician is unexpectedly unavailable, Scheduling Wizard rebuilds the affected portion of the schedule to restore coverage quickly without manually reshuffling the entire month."
+          "description": "When a physician is unexpectedly unavailable, Scheduling Wizard rebuilds the affected portion of the schedule to restore coverage without manually reshuffling the entire month; turnaround depends on how much the change touches."
         },
         {
           "id": "redrafts-included",
@@ -124,7 +124,7 @@
         }
       ],
       "title": "Built for Private Practice Physician Scheduling",
-      "description": "Every feature is designed to eliminate the manual burden of physician scheduling while ensuring fairness, full coverage, and flexibility for your practice."
+      "description": "Everything we build is designed to take away the manual burden of physician scheduling while ensuring fairness, full coverage, and flexibility for your practice."
     },
     "problems": {
       "items": [

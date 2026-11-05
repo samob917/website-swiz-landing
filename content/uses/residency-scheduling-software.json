@@ -19,11 +19,11 @@
         "question": "What is residency scheduling software and how does Scheduling Wizard differ?"
       },
       {
-        "answer": "ACGME compliance is built into the schedule as it is created, not manually checked after the fact. The subspecialty requirements you tell us apply are built in, including 80-hour weekly limits, minimum rest requirements, and program-specific call rules. Because the rules are built in as the schedule is created, the rules are applied before the schedule reaches your program. This is one of the most common questions asked during sales conversations, and it is a core part of how Scheduling Wizard is built.",
-        "question": "How does Scheduling Wizard ensure ACGME duty hour compliance?"
+        "answer": "ACGME compliance is built into the schedule as it is created, not manually checked after the fact. The subspecialty requirements you tell us apply are built in, including 80-hour weekly limits, minimum rest requirements, and program-specific call rules. Because the rules are built in as the schedule is created, the rules are applied before the schedule reaches your program. It is the first thing most programs ask, and the answer is the same: you tell us which requirements apply, we write them down with you, and we build to them.",
+        "question": "How does Scheduling Wizard handle the ACGME duty hour rules?"
       },
       {
-        "answer": "Scheduling Wizard generates four types of schedules: Block or rotation schedules, Call schedules with fair call distribution, Clinic schedules, and Attending schedules. All four are built together, so conflicts between schedule types are resolved before the final schedule is delivered. The output is delivered as Excel or Google Sheets, or on a custom live view we build for you, ready for their existing publishing platform.",
+        "answer": "Scheduling Wizard generates four types of schedules: Block or rotation schedules, Call schedules with fair call distribution, Clinic schedules, and Attending schedules. All four are built together, so conflicts between schedule types are resolved before the final schedule is delivered. The output is delivered as Excel or Google Sheets, or on a custom live view we build for you, ready for your existing publishing platform.",
         "question": "What types of schedules does Scheduling Wizard generate for residency programs?"
       },
       {
@@ -31,7 +31,7 @@
         "question": "Do we need to replace the platform we use now to use Scheduling Wizard?"
       },
       {
-        "answer": "Your program's rules and requests are written down and kept year over year. When a new chief resident takes over, they inherit the written rule set and last year's schedule. This eliminates one of the most common sources of scheduling disruption in residency programs, where institutional knowledge is lost every time a chief resident rotates out.",
+        "answer": "Your program's rules and requests are written down and kept year over year. When a new chief resident takes over, they inherit the written rule set and last year's schedule. This removes one of the most common sources of scheduling disruption in residency programs, where institutional knowledge is lost every time a chief resident rotates out.",
         "question": "What happens to our scheduling setup when chief residents change each year?"
       },
       {
@@ -76,7 +76,7 @@
             "Delivered as Excel or Google Sheets, or on a custom live view we build for you",
             "No platform or training required"
           ],
-          "description": "Unlike self-service residency scheduling software, Scheduling Wizard is a done-for-you managed service. Your team submits rules and receive finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by our team, who do this full time."
+          "description": "Unlike self-service residency scheduling software, Scheduling Wizard is a done-for-you managed service. Your team submits rules and receives finished schedules, built to your rules, as Excel or Google Sheets, or on a custom live view we build for you. The schedules are built by our team, who do this full time."
         },
         {
           "id": "institutional-continuity",
@@ -98,11 +98,11 @@
             "Elective preferences incorporated",
             "ACGME rotation requirements met"
           ],
-          "description": "Generates complete year-long block rotation schedules respecting PGY-level requirements, elective preferences, coverage minimums, and ACGME rotation mandates across complex multi-track residency programs."
+          "description": "We build complete year-long block schedules respecting PGY-level requirements, elective preferences, coverage minimums, and ACGME rotation mandates across complex multi-track residency programs."
         },
         {
           "id": "cross-schedule-resolution",
-          "title": "Block Call and Clinic Solved Together",
+          "title": "Block, Call and Clinic Built Together",
           "eyebrow": "Schedule Coordination",
           "highlights": [
             "All schedule types built together",

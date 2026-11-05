@@ -15,27 +15,27 @@
     },
     "faq": [
       {
-        "answer": "Amion is a schedule publishing platform, while Scheduling Wizard is a managed service that builds the schedule itself. Many Scheduling Wizard clients continue using Amion to publish their finished schedules day-to-day. The difference is in schedule creation: Our team builds your compliant Block, Call, Clinic, and Attending schedules from your rules, then delivers them as Excel or Google Sheets, or on a custom live view we build for you you can upload directly to your existing platform.",
+        "answer": "Amion is a schedule publishing platform, while Scheduling Wizard is a managed service that builds the schedule itself. Many Scheduling Wizard clients continue using Amion to publish their finished schedules day-to-day. The difference is in schedule creation: Our team builds your compliant Block, Call, Clinic, and Attending schedules from your rules, then delivers them as Excel or Google Sheets, or on a custom live view we build for you, ready to upload directly to your existing platform.",
         "question": "What makes Scheduling Wizard different from Amion?"
       },
       {
-        "answer": "No. Scheduling Wizard and Amion serve different functions and work together. Scheduling Wizard handles the schedule building. Your finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you that you can upload to your existing platform for day-to-day staff viewing, exactly as you do today. You keep your existing Amion workflow for publishing while Scheduling Wizard handles the build.",
+        "answer": "No. Scheduling Wizard and Amion serve different functions and work together. Scheduling Wizard handles the schedule building. Your finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you that you can upload to your existing platform for day-to-day staff viewing, exactly as you do today. You can keep your Amion workflow for publishing if you want to, while Scheduling Wizard handles the build.",
         "question": "Do I have to stop using Amion if I work with Scheduling Wizard?"
       },
       {
-        "answer": "The ACGME duty hour rules are applied as the schedule is built rather than audited afterwards: the 80-hour weekly limit, eight hours off between duty periods, the 24-hour cap, and the subspecialty-specific rules for your program. We work from the requirements your program tells us apply, and we redraft when something needs to change.",
-        "question": "How does Scheduling Wizard ensure ACGME compliance during schedule creation?"
+        "answer": "The ACGME duty hour rules are applied as the schedule is built rather than audited afterwards: the 80-hour weekly limit, the rest requirements between duty periods, the 24-hour cap, and the subspecialty-specific rules for your program. We work from the requirements your program tells us apply, and we redraft when something needs to change.",
+        "question": "How does Scheduling Wizard handle the ACGME duty hour rules?"
       },
       {
         "answer": "Scheduling Wizard operates as a fully managed service, meaning your program does not need to operate any scheduling software. You submit your rules, rotation requirements, resident preferences, and ACGME rules. Scheduling Wizard's team do the building and deliver finished, ready-to-publish schedules as Excel or Google Sheets, or on a custom live view we build for you. Chief residents are not required to learn or use any new platform.",
         "question": "Who actually builds the schedule with Scheduling Wizard?"
       },
       {
-        "answer": "Scheduling Wizard generates Block (rotation), Call, Clinic, and Attending schedules. These are built together, so that changes in one schedule reflect across the others, removing the cross-schedule conflicts that arise when each schedule is built in isolation. Finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you compatible with your existing platform, and other publishing platforms.",
+        "answer": "Scheduling Wizard generates Block (rotation), Call, Clinic, and Attending schedules. These are built together, so that changes in one schedule reflect across the others, removing the cross-schedule conflicts that arise when each schedule is built in isolation. Finished schedules are delivered as Excel or Google Sheets, or on a custom live view we build for you ready for whatever platform you publish through.",
         "question": "What types of schedules does Scheduling Wizard generate?"
       },
       {
-        "answer": "Your program's scheduling knowledge stays with Scheduling Wizard year over year. Rules, rotation rules, coverage requirements, and compliance configurations all persist in the system. When a new chief rotates in, they inherit an already-working setup instead of starting from scratch. This institutional continuity is a core reason programs choose Scheduling Wizard over rebuilding manually each year.",
+        "answer": "Your program's scheduling knowledge stays with Scheduling Wizard year over year. Your rules, coverage requirements and the ACGME requirements you told us apply stay written down with us. When a new chief rotates in, they inherit the written rule set and last year's schedule instead of starting from scratch. This institutional continuity is a core reason programs choose Scheduling Wizard over rebuilding manually each year.",
         "question": "What happens to our scheduling setup when a new chief resident takes over?"
       }
     ],
@@ -76,7 +76,7 @@
             "Subspecialty-specific rules included",
             "Rules applied before publishing"
           ],
-          "description": "ACGME duty hour rules including the 80-hour weekly limit, eight hours off between duty periods, and the 24-hour cap are built into the schedule as it is built, not manually audited after the fact. The subspecialty requirements you tell us apply are built in too."
+          "description": "ACGME duty hour rules including the 80-hour weekly limit, the rest requirements between duty periods, and the 24-hour cap are built into the schedule as it is built, not manually audited after the fact. The subspecialty requirements you tell us apply are built in too."
         },
         {
           "id": "institutional-continuity",
@@ -155,7 +155,7 @@
     "keyword": "amion alternative",
     "searchIntents": [
       "A chief resident frustrated with Amion's limitations on schedule customization, seeking a more flexible and finished scheduling solution that meets ACGME compliance requirements without the steep learning curve.",
-      "A program coordinator looking for a managed scheduling service to eliminate the administrative burden of using Amion, hoping to find an alternative that can generate compliant schedules quickly and efficiently without manual input.",
+      "A program coordinator looking for a managed scheduling service to remove the administrative burden of using Amion, hoping to find an alternative that can generate compliant schedules quickly and efficiently without manual input.",
       "A residency program director searching for a better alternative to Amion due to inconsistent schedule outputs and a desire for deeper integration of specialty-specific ACGME rules in the scheduling process.",
       "A private practice administrator wanting to switch from Amion to a service that not only handles scheduling but also provides ongoing support and expertise to adapt to their team's unique needs."
     ]

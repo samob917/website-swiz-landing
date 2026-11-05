@@ -15,11 +15,11 @@
     },
     "faq": [
       {
-        "answer": "Scheduling Wizard uses a team that distributes call, weekend, and holiday shifts equitably across all residents. Rather than manually counting and adjusting, our team treats fairness as one of the rules of the build, alongside the ACGME requirements. The call counts come back with the schedule, giving program leadership an objective, auditable basis for fairness decisions.",
+        "answer": "Our team distributes call, weekend, and holiday shifts equitably across all residents. Rather than manually counting and adjusting, our team treats fairness as one of the rules of the build, alongside the ACGME requirements. The call counts come back with the schedule, giving program leadership an objective, auditable basis for fairness decisions.",
         "question": "How does Scheduling Wizard ensure residency call schedule fairness?"
       },
       {
-        "answer": "ACGME duty hour standards include an 80-hour weekly limit averaged over four weeks, eight hours off between duty periods, and a 24-hour cap on continuous scheduled work with an optional 4-hour transition extension. We build to these rules, and to the subspecialty requirements you tell us apply.",
+        "answer": "ACGME duty hour standards include an 80-hour weekly limit averaged over four weeks, the rest requirements between duty periods, and a 24-hour cap on continuous scheduled work with an optional 4-hour transition extension. We build to these rules, and to the subspecialty requirements you tell us apply.",
         "question": "What ACGME duty hour rules apply to residency call schedules?"
       },
       {
@@ -27,7 +27,7 @@
         "question": "Why is building a fair call schedule so difficult manually?"
       },
       {
-        "answer": "Scheduling Wizard is a done-for-you managed service, not software you operate yourself. Programs submit their rules and receive finished, ready-to-publish call schedules as Excel or Google Sheets, or on a custom live view we build for you. There is no platform to learn and no annual retraining when chief residents rotate. The finished schedules can be uploaded directly to publishing platform for day-to-day access.",
+        "answer": "Scheduling Wizard is a done-for-you managed service, not software you operate yourself. Programs submit their rules and receive finished, ready-to-publish call schedules as Excel or Google Sheets, or on a custom live view we build for you. There is no platform to learn and no annual retraining when chief residents rotate. The finished schedules can be uploaded directly to your publishing platform for day-to-day access.",
         "question": "How is Scheduling Wizard different from self-service scheduling software?"
       },
       {
@@ -74,9 +74,9 @@
           "highlights": [
             "Post-call rest rules applied",
             "Individual rules respected",
-            "Duty hours checked at generation"
+            "Duty hours applied as we build"
           ],
-          "description": "Produces on-call schedules built for residency call schedule fairness while simultaneously enforcing duty hour limits, post-call rest rules, and individual resident rules. Fairness and compliance are solved together, not traded off."
+          "description": "Call schedules built to your definition of fair, with the duty hour limits, post-call rest rules and individual rules applied in the same build. Fairness and the duty hour rules go into the same build, not traded off."
         },
         {
           "id": "acgme-compliance",
@@ -109,7 +109,7 @@
             "No annual rebuild required",
             "Institutional knowledge preserved"
           ],
-          "description": "Scheduling Wizard retains your program's rule configurations and fairness rules year over year. Incoming chiefs inherit the written rule set and last year's schedule instead of rebuilding call fairness logic from a blank spreadsheet."
+          "description": "Your program's rules and fairness rules stay written down with Scheduling Wizard year over year. Incoming chiefs inherit the written rule set and last year's schedule instead of working out the fairness rules again from a blank spreadsheet."
         },
         {
           "id": "redrafts-included",
@@ -124,7 +124,7 @@
         }
       ],
       "title": "Built for Fair Residency Call Scheduling",
-      "description": "Every feature is designed to eliminate the manual effort and guesswork that make fair call scheduling so difficult for chief residents and program directors."
+      "description": "Everything we build is designed to take away the manual effort and guesswork that make fair call scheduling so difficult for chief residents and program directors."
     },
     "problems": {
       "items": [

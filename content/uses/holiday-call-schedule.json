@@ -19,15 +19,15 @@
         "question": "How does Scheduling Wizard create a fair holiday call schedule for residency programs?"
       },
       {
-        "answer": "Yes. ACGME duty hour compliance is built into the schedule as it is created, not manually checked after the fact. You tell us which subspecialty rules apply and they go into the build. This includes the 80-hour weekly limit, eight hours off between duty periods, 14 hours free after 24-hour call, and the 24-hour cap, as well as any upcoming regulatory changes.",
+        "answer": "Yes. ACGME duty hour compliance is built into the schedule as it is created, not manually checked after the fact. You tell us which subspecialty rules apply and they go into the build. This includes the 80-hour weekly limit, the rest requirements between duty periods, 14 hours free after 24-hour call, and the 24-hour cap, and whatever else you tell us applies.",
         "question": "Is the holiday call schedule ACGME compliant for my residency subspecialty?"
       },
       {
-        "answer": "Turnaround depends on your program's complexity and the rules submitted. Programs submit their scheduling rules to Scheduling Wizard, and the managed service builds the schedule and delivers the finished schedule as Excel or Google Sheets, or on a custom live view we build for you. Because our team handles the heavy computation, turnaround is significantly faster than building a holiday call schedule manually.",
+        "answer": "Turnaround depends on your program's complexity and the rules submitted. Programs submit their scheduling rules to Scheduling Wizard, and the managed service builds the schedule and delivers the finished schedule as Excel or Google Sheets, or on a custom live view we build for you. Because our team does the build rather than your chief doing it by hand, it turns around faster.",
         "question": "How long does it take to receive a finished holiday call schedule?"
       },
       {
-        "answer": "Scheduling Wizard delivers finished schedules as Excel or Google Sheets files, and can build a custom live viewing link for your program if you want one. The files are ready to use immediately and can be uploaded directly to platform your program already uses, for day-to-day access by residents and attendings.",
+        "answer": "Scheduling Wizard delivers finished schedules as Excel or Google Sheets files, and can build a custom live view for your program if you want one. The files are ready to use immediately and can be uploaded directly to the platform your program already uses, for day-to-day access by residents and attendings.",
         "question": "What format is the holiday call schedule delivered in?"
       },
       {
@@ -65,7 +65,7 @@
             "Post-call rest rules applied",
             "Weekend burden balanced for you"
           ],
-          "description": "Distributes holiday call burden across all residents, balancing Thanksgiving, Christmas, New Year, and other high-demand dates equitably while applying the ACGME duty hour limits and post-call rest requirements."
+          "description": "Our team distributes holiday call burden across all residents, balancing Thanksgiving, Christmas, New Year, and other high-demand dates equitably while applying the ACGME duty hour limits and post-call rest requirements."
         },
         {
           "id": "acgme-compliance",
@@ -76,7 +76,7 @@
             "Rules applied as we build",
             "Subspecialty rules built in"
           ],
-          "description": "ACGME duty hour regulations are built into the schedule as it is created during holiday periods, including the 80-hour weekly limit, eight hours off between duty periods, and the 24-hour cap. The subspecialty requirements you tell us apply are built in too."
+          "description": "ACGME duty hour regulations are built into the schedule as it is created during holiday periods, including the 80-hour weekly limit, the rest requirements between duty periods, and the 24-hour cap. The subspecialty requirements you tell us apply are built in too."
         },
         {
           "id": "fair-call-distribution",
@@ -124,7 +124,7 @@
         }
       ],
       "title": "Built for Holiday Call Scheduling Complexity",
-      "description": "Every feature is designed to eliminate the manual burden of holiday call planning for residency and fellowship programs."
+      "description": "Everything we build is designed to take away the manual burden of holiday call planning for residency and fellowship programs."
     },
     "problems": {
       "items": [
