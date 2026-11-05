@@ -19,7 +19,7 @@
         "question": "What is GME scheduling software and how does Scheduling Wizard differ?"
       },
       {
-        "answer": "Scheduling Wizard builds in the ACGME duty hour regulations while the schedule is built. This means the 80-hour weekly limit, minimum rest requirements, and the 24-hour cap on continuous scheduled work are built into the schedule itself, not checked manually after the fact. You tell us which subspecialty requirements apply and they go in too.",
+        "answer": "Scheduling Wizard builds in the ACGME duty hour regulations while the schedule is built. This means the 80-hour limit (averaged over four weeks), minimum rest requirements, and the 24-hour cap on continuous scheduled work are built into the schedule itself, not checked manually after the fact. You tell us which subspecialty requirements apply and they go in too.",
         "question": "How does Scheduling Wizard handle the ACGME duty hour rules?"
       },
       {

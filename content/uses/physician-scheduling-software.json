@@ -19,7 +19,7 @@
         "question": "What is physician scheduling software and how does Scheduling Wizard differ?"
       },
       {
-        "answer": "We build the ACGME requirements in as the schedule is created rather than checking it afterward: the 80-hour weekly limit, minimum rest requirements, the 24-hour cap, and the specialty-specific Program Requirements for your program. We work from the requirements your program tells us apply, and we redraft when something needs to change. Groups and practices outside GME have no ACGME requirement, so for them we build to their own rules instead.",
+        "answer": "We build the ACGME requirements in as the schedule is created rather than checking it afterward: the 80-hour limit (averaged over four weeks), minimum rest requirements, the 24-hour cap, and the specialty-specific Program Requirements for your program. We work from the requirements your program tells us apply, and we redraft when something needs to change. Groups and practices outside GME have no ACGME requirement, so for them we build to their own rules instead.",
         "question": "How do you handle ACGME requirements for a residency or fellowship?"
       },
       {
@@ -54,7 +54,7 @@
             "Subspecialty rules built in",
             "Rules applied as we build"
           ],
-          "description": "We build each schedule to the rules that govern it. For a residency or fellowship that means the ACGME Common and specialty-specific Program Requirements: the 80-hour weekly limit, minimum rest, the 24-hour cap. For a provider group or practice it means yours: coverage minimums, call equity, contractual obligations, time off and requests, and multiple sites where a group has them."
+          "description": "We build each schedule to the rules that govern it. For a residency or fellowship that means the ACGME Common and specialty-specific Program Requirements: the 80-hour limit (averaged over four weeks), minimum rest, the 24-hour cap. For a provider group or practice it means yours: coverage minimums, call equity, contractual obligations, time off and requests, and multiple sites where a group has them."
         },
         {
           "id": "managed-service",

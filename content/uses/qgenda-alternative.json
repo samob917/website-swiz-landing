@@ -19,7 +19,7 @@
         "question": "Is Scheduling Wizard a replacement for QGenda?"
       },
       {
-        "answer": "ACGME duty hour rules are applied as the schedule is built, not checked manually after the fact. We apply the 80-hour weekly limit, the rest requirements between duty periods, the 24-hour cap, and subspecialty-specific rules. The review afterwards is a check, not a repair job.",
+        "answer": "ACGME duty hour rules are applied as the schedule is built, not checked manually after the fact. We apply the 80-hour limit (averaged over four weeks), the rest requirements between duty periods, the 24-hour cap, and subspecialty-specific rules. The review afterwards is a check, not a repair job.",
         "question": "How does Scheduling Wizard handle ACGME duty hour compliance?"
       },
       {

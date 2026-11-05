@@ -19,7 +19,7 @@
         "question": "Is Scheduling Wizard residency management software?"
       },
       {
-        "answer": "ACGME compliance is built into the schedule as it is created, not manually checked after the fact. The subspecialty requirements you tell us apply are built in, including the 80-hour weekly limit, minimum rest requirements, and the 24-hour cap. The rules are applied while the schedule is built rather than discovered after the schedule is published. It is the first thing most programs ask, and the answer is the same: you tell us which requirements apply, we write them down with you, and we build to them.",
+        "answer": "ACGME compliance is built into the schedule as it is created, not manually checked after the fact. The subspecialty requirements you tell us apply are built in, including the 80-hour limit (averaged over four weeks), minimum rest requirements, and the 24-hour cap. The rules are applied while the schedule is built rather than discovered after the schedule is published. It is the first thing most programs ask, and the answer is the same: you tell us which requirements apply, we write them down with you, and we build to them.",
         "question": "How does Scheduling Wizard handle the ACGME duty hour rules?"
       },
       {
@@ -76,7 +76,7 @@
             "Subspecialty rules built in",
             "Far less to check afterwards"
           ],
-          "description": "The ACGME duty hour rules, the 80-hour weekly limit, rest requirements and the subspecialty-specific regulations, are applied as the schedule is built, before it reaches your program."
+          "description": "The ACGME duty hour rules, the 80-hour limit (averaged over four weeks), rest requirements and the subspecialty-specific regulations, are applied as the schedule is built, before it reaches your program."
         },
         {
           "id": "institutional-continuity",

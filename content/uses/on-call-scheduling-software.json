@@ -19,7 +19,7 @@
         "question": "What is on call scheduling software for residency programs?"
       },
       {
-        "answer": "For a residency or fellowship we apply the duty hour rules while the call schedule is built rather than reviewing it afterward: the 80-hour weekly limit, minimum rest between shifts, the 24-hour cap on continuous scheduled work, and the specialty-specific Program Requirements. We work from the requirements your program tells us apply, and we redraft when something needs to change. A group or practice outside GME has no ACGME requirement, so we build to their own rules instead.",
+        "answer": "For a residency or fellowship we apply the duty hour rules while the call schedule is built rather than reviewing it afterward: the 80-hour limit (averaged over four weeks), minimum rest between shifts, the 24-hour cap on continuous scheduled work, and the specialty-specific Program Requirements. We work from the requirements your program tells us apply, and we redraft when something needs to change. A group or practice outside GME has no ACGME requirement, so we build to their own rules instead.",
         "question": "How do you handle ACGME duty hours in a call schedule?"
       },
       {
@@ -62,7 +62,7 @@
           "title": "Requirements Built In From the Start",
           "eyebrow": "Your Rules and Requests",
           "highlights": [
-            "80-hour weekly limit applied",
+            "80-hour average applied",
             "Subspecialty rules built in",
             "Far less to check afterwards"
           ],

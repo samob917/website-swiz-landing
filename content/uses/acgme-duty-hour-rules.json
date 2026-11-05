@@ -27,7 +27,7 @@
         "question": "What happens when ACGME duty hour rules change?"
       },
       {
-        "answer": "Common compliance risks include exceeding the 80-hour weekly limit, scheduling residents without sufficient rest between shifts, violations of the 24-hour continuous duty cap, and improper handling of home call hours. These are the rules programs most often find they have broken after the fact. Manual schedule-building with spreadsheets makes these violations easy to miss until it is too late.",
+        "answer": "Common compliance risks include exceeding the 80-hour limit (averaged over four weeks), scheduling residents without sufficient rest between shifts, violations of the 24-hour continuous duty cap, and improper handling of home call hours. These are the rules programs most often find they have broken after the fact. Manual schedule-building with spreadsheets makes these violations easy to miss until it is too late.",
         "question": "What are the most common ACGME duty hour violations?"
       },
       {
@@ -61,11 +61,11 @@
           "title": "Duty Hour Rules Applied as We Build",
           "eyebrow": "ACGME Requirements",
           "highlights": [
-            "80-hour weekly limit applied",
+            "80-hour average applied",
             "Subspecialty rules you give us built in",
             "Patient care time on home call counted toward the 80"
           ],
-          "description": "The ACGME duty hour regulations, including the 80-hour weekly limit, the rest requirements between duty periods, 14 hours free after 24-hour call, the 24-hour cap and the home call rules, are applied as the schedule is built, before it reaches your program."
+          "description": "The ACGME duty hour regulations, including the 80-hour limit (averaged over four weeks), the rest requirements between duty periods, 14 hours free after 24-hour call, the 24-hour cap and the home call rules, are applied as the schedule is built, before it reaches your program."
         },
         {
           "id": "managed-service",

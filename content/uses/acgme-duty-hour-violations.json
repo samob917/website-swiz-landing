@@ -15,7 +15,7 @@
     },
     "faq": [
       {
-        "answer": "The most common ACGME duty hour violations are exceeding the 80-hour weekly limit once moonlighting is counted, not providing the rest requirements between duty periods, breaking the 14-hour rest window after 24-hour call, miscounting the one-day-off-in-seven average, and exceeding the 24-hour cap on continuous duty. Most of them trace back to how the schedule was built rather than to anyone's intent.",
+        "answer": "The most common ACGME duty hour violations are exceeding the 80-hour limit (averaged over four weeks) once moonlighting is counted, not providing the rest requirements between duty periods, breaking the 14-hour rest window after 24-hour call, miscounting the one-day-off-in-seven average, and exceeding the 24-hour cap on continuous duty. Most of them trace back to how the schedule was built rather than to anyone's intent.",
         "question": "What are the most common ACGME duty hour violations in residency programs?"
       },
       {
@@ -65,7 +65,7 @@
             "Subspecialty rules you give us built in",
             "Checked while building, not after"
           ],
-          "description": "We apply the ACGME duty hour rules while the schedule is built: the 80-hour weekly limit, rest requirements and the 24-hour cap, plus the subspecialty-specific rules for your program."
+          "description": "We apply the ACGME duty hour rules while the schedule is built: the 80-hour limit (averaged over four weeks), rest requirements and the 24-hour cap, plus the subspecialty-specific rules for your program."
         },
         {
           "id": "managed-service",

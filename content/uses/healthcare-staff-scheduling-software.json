@@ -19,7 +19,7 @@
         "question": "Which staff does Scheduling Wizard schedule?"
       },
       {
-        "answer": "For a residency or fellowship we build the ACGME requirements in as the schedule is created rather than auditing it afterward: the 80-hour weekly limit, minimum rest, the 24-hour cap, and the specialty-specific Program Requirements. We work from the requirements your program tells us apply, and we redraft when something needs to change.",
+        "answer": "For a residency or fellowship we build the ACGME requirements in as the schedule is created rather than auditing it afterward: the 80-hour limit (averaged over four weeks), minimum rest, the 24-hour cap, and the specialty-specific Program Requirements. We work from the requirements your program tells us apply, and we redraft when something needs to change.",
         "question": "How do you handle ACGME duty hours?"
       },
       {
