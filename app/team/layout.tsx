@@ -3,11 +3,11 @@ import type { Metadata } from "next"
 export const metadata: Metadata = {
   title: "Meet the Team | Scheduling Wizard",
   description:
-    "Meet the team behind Scheduling Wizard: operations, computer science and years of building physician schedules.",
+    "Meet the team behind Scheduling Wizard: expertise in mathematics, optimization, computer science and operations.",
   openGraph: {
     title: "Meet the Team | Scheduling Wizard",
     description:
-      "Meet the team behind Scheduling Wizard: operations, computer science and years of building physician schedules.",
+      "Meet the team behind Scheduling Wizard: expertise in mathematics, optimization, computer science and operations.",
     images: ["/logo.png"],
   },
 }
