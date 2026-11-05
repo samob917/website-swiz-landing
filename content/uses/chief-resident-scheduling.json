@@ -19,7 +19,7 @@
         "question": "What is chief resident scheduling and why is it so difficult?"
       },
       {
-        "answer": "Our team builds in the ACGME duty hour rules while the schedule is built. This includes the 80-hour weekly limit, minimum rest requirements, the 24-hour cap, and subspecialty-specific rules relevant to your program. The review afterwards is a check, not a repair job.",
+        "answer": "Our team builds in the ACGME duty hour rules while the schedule is built. This includes the 80-hour limit (averaged over four weeks), minimum rest requirements, the 24-hour cap, and subspecialty-specific rules relevant to your program. The review afterwards is a check, not a repair job.",
         "question": "How does Scheduling Wizard handle ACGME duty hour compliance for chief residents?"
       },
       {
@@ -76,7 +76,7 @@
             "Subspecialty rules you give us built in",
             "Rules applied as we build"
           ],
-          "description": "ACGME duty hour rules are built into the schedule as it is created, including 80-hour weekly limits, rest requirements, and subspecialty-specific regulations. The rules are applied before the schedule reaches your program, not discovered after."
+          "description": "ACGME duty hour rules are built into the schedule as it is created, including the 80-hour limit (averaged over four weeks), rest requirements, and subspecialty-specific regulations. The rules are applied before the schedule reaches your program, not discovered after."
         },
         {
           "id": "institutional-continuity",

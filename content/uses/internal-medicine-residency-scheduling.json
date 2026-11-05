@@ -15,7 +15,7 @@
     },
     "faq": [
       {
-        "answer": "Yes. ACGME compliance is built into the schedule as it is created, not manually checked after the fact. The internal medicine requirements you tell us apply are built in, including the 80-hour weekly limit, the rest requirements between duty periods, and the other duty hour requirements. The review afterwards is a check, not a repair job.",
+        "answer": "Yes. ACGME compliance is built into the schedule as it is created, not manually checked after the fact. The internal medicine requirements you tell us apply are built in, including the 80-hour limit (averaged over four weeks), the rest requirements between duty periods, and the other duty hour requirements. The review afterwards is a check, not a repair job.",
         "question": "Is Scheduling Wizard compliant with internal medicine ACGME duty hour rules?"
       },
       {
@@ -65,7 +65,7 @@
             "Rules applied as we build",
             "Applied across all PGY levels"
           ],
-          "description": "Internal medicine ACGME rules (including 80-hour weekly limits, the rest requirements between duty periods, and subspecialty-specific requirements) are built into the schedule as it is created. The rules are applied as we build, not discovered after the fact."
+          "description": "Internal medicine ACGME rules (including the 80-hour limit averaged over four weeks, the rest requirements between duty periods, and subspecialty-specific requirements) are built into the schedule as it is created. The rules are applied as we build, not discovered after the fact."
         },
         {
           "id": "clinic-scheduling",

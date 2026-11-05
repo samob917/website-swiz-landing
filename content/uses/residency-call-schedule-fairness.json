@@ -19,7 +19,7 @@
         "question": "How does Scheduling Wizard ensure residency call schedule fairness?"
       },
       {
-        "answer": "ACGME duty hour standards include an 80-hour weekly limit averaged over four weeks, the rest requirements between duty periods, and a 24-hour cap on continuous scheduled work with an optional 4-hour transition extension. We build to these rules, and to the subspecialty requirements you tell us apply.",
+        "answer": "ACGME duty hour standards include an 80-hour limit (averaged over four weeks), the rest requirements between duty periods, and a 24-hour cap on continuous scheduled work with an optional 4-hour transition extension. We build to these rules, and to the subspecialty requirements you tell us apply.",
         "question": "What ACGME duty hour rules apply to residency call schedules?"
       },
       {
@@ -83,7 +83,7 @@
           "title": "Rules Applied as We Build",
           "eyebrow": "ACGME Requirements",
           "highlights": [
-            "80-hour weekly limit applied",
+            "80-hour average applied",
             "Subspecialty rules you give us built in",
             "Checked while building, not after"
           ],

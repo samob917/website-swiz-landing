@@ -23,7 +23,7 @@
         "question": "Do I have to stop using Amion if I work with Scheduling Wizard?"
       },
       {
-        "answer": "The ACGME duty hour rules are applied as the schedule is built rather than audited afterwards: the 80-hour weekly limit, the rest requirements between duty periods, the 24-hour cap, and the subspecialty-specific rules for your program. We work from the requirements your program tells us apply, and we redraft when something needs to change.",
+        "answer": "The ACGME duty hour rules are applied as the schedule is built rather than audited afterwards: the 80-hour limit (averaged over four weeks), the rest requirements between duty periods, the 24-hour cap, and the subspecialty-specific rules for your program. We work from the requirements your program tells us apply, and we redraft when something needs to change.",
         "question": "How does Scheduling Wizard handle the ACGME duty hour rules?"
       },
       {
@@ -76,7 +76,7 @@
             "Subspecialty-specific rules included",
             "Rules applied before publishing"
           ],
-          "description": "ACGME duty hour rules including the 80-hour weekly limit, the rest requirements between duty periods, and the 24-hour cap are built into the schedule as it is built, not manually audited after the fact. The subspecialty requirements you tell us apply are built in too."
+          "description": "ACGME duty hour rules including the 80-hour limit (averaged over four weeks), the rest requirements between duty periods, and the 24-hour cap are built into the schedule as it is built, not manually audited after the fact. The subspecialty requirements you tell us apply are built in too."
         },
         {
           "id": "institutional-continuity",

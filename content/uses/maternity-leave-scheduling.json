@@ -76,7 +76,7 @@
             "Subspecialty rules you give us built in",
             "Rules applied as we rebuild"
           ],
-          "description": "Duty hour rules do not pause when coverage is thin. We apply the 80-hour weekly limit, rest requirements and the subspecialty-specific ACGME requirements as we rebuild, even after leave-driven redistribution."
+          "description": "Duty hour rules do not pause when coverage is thin. We apply the 80-hour limit (averaged over four weeks), rest requirements and the subspecialty-specific ACGME requirements as we rebuild, even after leave-driven redistribution."
         },
         {
           "id": "full-coverage",

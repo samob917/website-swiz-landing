@@ -15,7 +15,7 @@
     },
     "faq": [
       {
-        "answer": "ACGME compliant scheduling software is a tool or service that generates residency and fellowship schedules while building the ACGME duty hour requirements in, including the 80-hour weekly limit, minimum rest periods, and the 24-hour cap on continuous scheduled work. Scheduling Wizard goes further by building the subspecialty requirements you tell us apply into the schedule itself, so the requirements shape the schedule rather than being checked for afterwards.",
+        "answer": "ACGME compliant scheduling software is a tool or service that generates residency and fellowship schedules while building the ACGME duty hour requirements in, including the 80-hour limit (averaged over four weeks), minimum rest periods, and the 24-hour cap on continuous scheduled work. Scheduling Wizard goes further by building the subspecialty requirements you tell us apply into the schedule itself, so the requirements shape the schedule rather than being checked for afterwards.",
         "question": "What is ACGME compliant scheduling software?"
       },
       {

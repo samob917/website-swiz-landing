@@ -23,7 +23,7 @@
         "question": "How quickly can a revised schedule be generated after a mid year change?"
       },
       {
-        "answer": "Mid year changes can introduce compliance risks if a rebuild is done manually, since each revision must be re-checked against 80-hour weekly limits, rest period requirements, and subspecialty-specific rules. We apply the duty hour rules as we rebuild, so a revised schedule is built to the same requirements as the original and the review has far less to find.",
+        "answer": "Mid year changes can introduce compliance risks if a rebuild is done manually, since each revision must be re-checked against the 80-hour limit (averaged over four weeks), rest period requirements, and subspecialty-specific rules. We apply the duty hour rules as we rebuild, so a revised schedule is built to the same requirements as the original and the review has far less to find.",
         "question": "Will mid year schedule changes affect ACGME duty hour compliance?"
       },
       {

@@ -19,7 +19,7 @@
         "question": "What is residency call scheduling software and how does Scheduling Wizard differ?"
       },
       {
-        "answer": "We apply the ACGME rules while the call schedule is built rather than checking it afterwards: the 80-hour weekly limit, rest requirements between shifts, the 24-hour cap and the subspecialty-specific rules for your program. We work from the requirements your program tells us apply, and we redraft when something needs to change.",
+        "answer": "We apply the ACGME rules while the call schedule is built rather than checking it afterwards: the 80-hour limit (averaged over four weeks), rest requirements between shifts, the 24-hour cap and the subspecialty-specific rules for your program. We work from the requirements your program tells us apply, and we redraft when something needs to change.",
         "question": "How does Scheduling Wizard handle the ACGME duty hour rules?"
       },
       {
@@ -76,7 +76,7 @@
             "Subspecialty rules you give us built in",
             "Rules applied before publishing"
           ],
-          "description": "ACGME duty hour rules are applied as the call schedule is built, including the 80-hour weekly limit, rest requirements, and the 24-hour cap. The subspecialty requirements you tell us apply are built in too, so the rules are applied as we build, not discovered after publishing."
+          "description": "ACGME duty hour rules are applied as the call schedule is built, including the 80-hour limit (averaged over four weeks), rest requirements, and the 24-hour cap. The subspecialty requirements you tell us apply are built in too, so the rules are applied as we build, not discovered after publishing."
         },
         {
           "id": "managed-service",

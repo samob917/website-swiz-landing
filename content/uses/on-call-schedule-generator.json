@@ -19,7 +19,7 @@
         "question": "What is an on call schedule generator, and is that what this is?"
       },
       {
-        "answer": "ACGME duty hour rules are applied as the schedule is built, not checked manually after the fact. Our team applies the 80-hour weekly limit, minimum rest requirements, and the 24-hour cap for continuous duty, along with subspecialty-specific rules built into the system. This means the rules are applied while the schedule is built, not discovered during an audit.",
+        "answer": "ACGME duty hour rules are applied as the schedule is built, not checked manually after the fact. Our team applies the 80-hour limit (averaged over four weeks), minimum rest requirements, and the 24-hour cap for continuous duty, along with subspecialty-specific rules built into the system. This means the rules are applied while the schedule is built, not discovered during an audit.",
         "question": "How does Scheduling Wizard handle the ACGME duty hour rules?"
       },
       {
@@ -76,7 +76,7 @@
             "Subspecialty-specific rules included",
             "Rules applied as we build"
           ],
-          "description": "ACGME duty hour regulations are built into the schedule as it is created, 80-hour weekly limits, rest requirements, and the 24-hour cap. The subspecialty requirements you tell us apply are built in too, not checked manually after the fact."
+          "description": "ACGME duty hour regulations are built into the schedule as it is created, including the 80-hour limit (averaged over four weeks), rest requirements, and the 24-hour cap. The subspecialty requirements you tell us apply are built in too, not checked manually after the fact."
         },
         {
           "id": "managed-service",

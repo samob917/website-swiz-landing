@@ -19,7 +19,7 @@
         "question": "What is residency scheduling software and how does Scheduling Wizard differ?"
       },
       {
-        "answer": "ACGME compliance is built into the schedule as it is created, not manually checked after the fact. The subspecialty requirements you tell us apply are built in, including 80-hour weekly limits, minimum rest requirements, and program-specific call rules. Because the rules are built in as the schedule is created, the rules are applied before the schedule reaches your program. It is the first thing most programs ask, and the answer is the same: you tell us which requirements apply, we write them down with you, and we build to them.",
+        "answer": "ACGME compliance is built into the schedule as it is created, not manually checked after the fact. The subspecialty requirements you tell us apply are built in, including the 80-hour limit (averaged over four weeks), minimum rest requirements, and program-specific call rules. Because the rules are built in as the schedule is created, the rules are applied before the schedule reaches your program. It is the first thing most programs ask, and the answer is the same: you tell us which requirements apply, we write them down with you, and we build to them.",
         "question": "How does Scheduling Wizard handle the ACGME duty hour rules?"
       },
       {
@@ -65,7 +65,7 @@
             "Subspecialty rules you give us built in",
             "Far less to check afterwards"
           ],
-          "description": "We apply the ACGME duty hour rules as the schedule is built, including the 80-hour weekly limit, rest requirements and the subspecialty-specific rules, rather than discovering problems after publishing."
+          "description": "We apply the ACGME duty hour rules as the schedule is built, including the 80-hour limit (averaged over four weeks), rest requirements and the subspecialty-specific rules, rather than discovering problems after publishing."
         },
         {
           "id": "managed-service",

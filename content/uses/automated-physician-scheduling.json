@@ -19,7 +19,7 @@
         "question": "What is automated physician scheduling and how does it work?"
       },
       {
-        "answer": "It is built to the ACGME requirements you tell us apply, alongside your own rules, and we check the finished schedule against them before it goes out. The review on your side is a check, not a repair job. Our team applies the 80-hour weekly limit, the rest requirements between duty periods, the 24-hour cap, and the subspecialty rules you tell us apply. This means the rules are applied before the schedule reaches your program, rather than detected and corrected post-hoc.",
+        "answer": "It is built to the ACGME requirements you tell us apply, alongside your own rules, and we check the finished schedule against them before it goes out. The review on your side is a check, not a repair job. Our team applies the 80-hour limit (averaged over four weeks), the rest requirements between duty periods, the 24-hour cap, and the subspecialty rules you tell us apply. This means the rules are applied before the schedule reaches your program, rather than detected and corrected post-hoc.",
         "question": "Is a schedule from Scheduling Wizard ACGME compliant?"
       },
       {

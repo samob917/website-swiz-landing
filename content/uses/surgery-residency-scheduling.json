@@ -15,7 +15,7 @@
     },
     "faq": [
       {
-        "answer": "ACGME compliance is built into the schedule as it is created, not checked manually afterward. The requirements you tell us apply are built in, including the 80-hour weekly limit, the rest requirements between duty periods, and the 24-hour cap. For surgical programs that includes the call and trauma coverage rules particular to your program. The rules are applied before the schedule reaches your program.",
+        "answer": "ACGME compliance is built into the schedule as it is created, not checked manually afterward. The requirements you tell us apply are built in, including the 80-hour limit (averaged over four weeks), the rest requirements between duty periods, and the 24-hour cap. For surgical programs that includes the call and trauma coverage rules particular to your program. The rules are applied before the schedule reaches your program.",
         "question": "How does Scheduling Wizard handle the ACGME duty hour rules?"
       },
       {
@@ -65,7 +65,7 @@
           "title": "Surgery Requirements Built In From the Start",
           "eyebrow": "ACGME Requirements",
           "highlights": [
-            "80-hour weekly limit applied",
+            "80-hour average applied",
             "24-hour cap respected",
             "Subspecialty rules built in"
           ],
@@ -134,7 +134,7 @@
       "items": [
         {
           "title": "Trauma Call Pyramids Meet the 80-Hour Week",
-          "description": "Surgery programs juggle trauma call pyramids, the 80-hour weekly limit and the 24-hour cap at once, and a spreadsheet does not check any of it."
+          "description": "Surgery programs juggle trauma call pyramids, the 80-hour limit (averaged over four weeks), and the 24-hour cap at once, and a spreadsheet does not check any of it."
         },
         {
           "title": "Chiefs Rebuild From Scratch Annually",

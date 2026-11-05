@@ -19,7 +19,7 @@
         "question": "How does Scheduling Wizard create a fair holiday call schedule for residency programs?"
       },
       {
-        "answer": "Yes. ACGME duty hour compliance is built into the schedule as it is created, not manually checked after the fact. You tell us which subspecialty rules apply and they go into the build. This includes the 80-hour weekly limit, the rest requirements between duty periods, 14 hours free after 24-hour call, and the 24-hour cap, and whatever else you tell us applies.",
+        "answer": "Yes. ACGME duty hour compliance is built into the schedule as it is created, not manually checked after the fact. You tell us which subspecialty rules apply and they go into the build. This includes the 80-hour limit (averaged over four weeks), the rest requirements between duty periods, 14 hours free after 24-hour call, and the 24-hour cap, and whatever else you tell us applies.",
         "question": "Is the holiday call schedule ACGME compliant for my residency subspecialty?"
       },
       {
@@ -76,7 +76,7 @@
             "Rules applied as we build",
             "Subspecialty rules built in"
           ],
-          "description": "ACGME duty hour regulations are built into the schedule as it is created during holiday periods, including the 80-hour weekly limit, the rest requirements between duty periods, and the 24-hour cap. The subspecialty requirements you tell us apply are built in too."
+          "description": "ACGME duty hour regulations are built into the schedule as it is created during holiday periods, including the 80-hour limit (averaged over four weeks), the rest requirements between duty periods, and the 24-hour cap. The subspecialty requirements you tell us apply are built in too."
         },
         {
           "id": "fair-call-distribution",
