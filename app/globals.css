@@ -257,3 +257,7 @@ html {
 .prose details.post-faq > .post-faq-body { padding: 0 0 1.25rem; color: #4b5563; }
 .prose details.post-faq > .post-faq-body > :first-child { margin-top: 0; }
 .prose details.post-faq > .post-faq-body > :last-child { margin-bottom: 0; }
+
+/* Blog tables: scroll sideways inside the article column on narrow screens. */
+.prose .table-scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; margin: 1.5em 0; }
+.prose .table-scroll > table { margin: 0; }

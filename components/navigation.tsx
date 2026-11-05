@@ -54,8 +54,8 @@ export function Navigation() {
 
       {/* Mobile Navigation */}
       {isOpen && (
-        <div className="lg:hidden mt-4 bg-black/60 backdrop-blur-xl rounded-2xl p-6 border border-white/10">
-          <div className="space-y-4">
+        <div className="lg:hidden mt-3 sm:mt-4 bg-black/60 backdrop-blur-xl rounded-2xl p-4 sm:p-6 border border-white/10">
+          <div className="space-y-3 sm:space-y-4">
             {[
               { href: "/", label: "Home" },
               { href: "/uses", label: "Use Cases" },
@@ -66,7 +66,7 @@ export function Navigation() {
               <Link
                 key={link.href}
                 href={link.href}
-                className="block text-white/80 hover:text-white font-medium transition-colors duration-300"
+                className="block text-white/80 hover:text-white text-sm sm:text-base font-medium transition-colors duration-300"
                 onClick={() => setIsOpen(false)}
               >
                 {link.label}

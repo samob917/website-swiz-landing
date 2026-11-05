@@ -91,7 +91,7 @@ export default async function BlogPost({ params }: Props) {
             <span className="mx-2">/</span>
             <span className="text-white/90">{title}</span>
           </nav>
-          <h1 className="hero-text hero-text-bold text-white max-w-4xl text-3xl sm:text-5xl lg:text-6xl">
+          <h1 className="hero-text hero-text-bold text-white max-w-6xl text-3xl sm:text-5xl lg:text-[3.4rem] lg:leading-[1.1] text-balance">
             {title}
           </h1>
           <p className="mt-5 flex flex-wrap items-center gap-x-3 gap-y-1 text-xs sm:text-sm font-medium uppercase tracking-widest text-white/60">

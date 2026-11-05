@@ -125,9 +125,9 @@ export default function CustomersPage() {
 
       {/* Content */}
       <section id="content-section" className="bg-white py-24 scroll-mt-4">
-        <div className="max-w-4xl mx-auto px-8">
+        <div className="max-w-4xl mx-auto px-4 sm:px-8">
           {/* Logo Tabs */}
-          <div id="testimonial" className="flex justify-center gap-10 sm:gap-20 mb-14 scroll-mt-8">
+          <div id="testimonial" className="flex justify-center gap-5 sm:gap-20 mb-10 sm:mb-14 scroll-mt-8">
             {customers.map((customer, index) => (
               <button
                 key={customer.id}
@@ -144,10 +144,10 @@ export default function CustomersPage() {
                     alt={customer.name}
                     width={customer.width * 2}
                     height={customer.height * 2}
-                    className="max-h-24 w-auto object-contain"
+                    className="max-h-12 sm:max-h-24 w-auto object-contain"
                   />
                 ) : (
-                  <span className="flex max-h-24 items-center px-2 text-center text-sm font-medium leading-snug text-gray-700 sm:text-base">
+                  <span className="flex max-h-12 sm:max-h-24 items-center px-1 sm:px-2 text-center text-xs sm:text-base font-medium leading-snug text-gray-700 sm:text-base">
                     {customer.name}
                   </span>
                 )}
@@ -166,9 +166,9 @@ export default function CustomersPage() {
                     : "opacity-0 translate-y-4 absolute inset-0 pointer-events-none"
                 }`}
               >
-                <div className="glass-card rounded-2xl p-8 sm:p-12">
+                <div className="glass-card rounded-2xl p-5 sm:p-12">
                   <p className="text-3xl text-yellow-400/50 font-serif mb-4">&ldquo;</p>
-                  <blockquote className="text-base sm:text-lg text-gray-600 leading-relaxed mb-8 whitespace-pre-line">
+                  <blockquote className="text-sm sm:text-lg text-gray-600 leading-relaxed mb-8 whitespace-pre-line">
                     {customer.testimonial.quote}
                   </blockquote>
                   <div className="flex items-center gap-3">
