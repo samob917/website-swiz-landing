@@ -61,11 +61,11 @@ export default function TeamPage() {
     <>
       {/* Hero Section */}
       <section className="hero-background medical-pattern min-h-screen flex items-center justify-center relative">
-        <div className="max-w-7xl mx-auto px-8 text-center">
-          <h1 className="text-6xl md:text-7xl lg:text-8xl hero-text text-white mb-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-8 pt-24 pb-24 sm:pt-28 sm:pb-28 text-center">
+          <h1 className="text-4xl sm:text-5xl md:text-7xl lg:text-8xl hero-text text-white mb-5 sm:mb-8">
             Meet the <span className="text-yellow-400">Team</span>
           </h1>
-          <p className="text-lg text-white/60 max-w-2xl mx-auto">
+          <p className="text-base sm:text-lg text-white/60 max-w-2xl mx-auto">
             The minds behind Scheduling Wizard, bringing together expertise in mathematics, computer science, and
             logistical operations.
           </p>
@@ -73,7 +73,7 @@ export default function TeamPage() {
 
         <div
           onClick={scrollToContent}
-          className="absolute bottom-8 left-1/2 transform -translate-x-1/2 cursor-pointer group"
+          className="absolute bottom-5 sm:bottom-8 left-1/2 transform -translate-x-1/2 cursor-pointer group [@media(max-height:620px)]:hidden"
         >
           <div className="flex flex-col items-center">
             <span className="text-white/50 text-xs font-medium uppercase tracking-wider mb-1 group-hover:text-white/80 transition-colors duration-300">

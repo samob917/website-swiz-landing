@@ -236,3 +236,24 @@ html {
     @apply bg-background text-foreground;
   }
 }
+
+/* Blog FAQ: closed questions, one open at a time if the reader wants, like the use pages. */
+.post-faq-list { margin: 1.25rem 0 2rem; }
+.prose details.post-faq { margin: 0; border-top: 1px solid #e5e7eb; }
+.prose details.post-faq:last-child { border-bottom: 1px solid #e5e7eb; }
+.prose details.post-faq > summary {
+  list-style: none; cursor: pointer; display: flex; align-items: center; justify-content: space-between;
+  gap: 1rem; padding: 1.1rem 0;
+}
+.prose details.post-faq > summary::-webkit-details-marker { display: none; }
+.prose details.post-faq > summary h3 { margin: 0; font-size: 1.05rem; line-height: 1.4; font-weight: 600; color: #111827; }
+.prose details.post-faq > summary:hover h3 { color: #374151; }
+.prose details.post-faq > summary::after {
+  content: ""; flex: none; width: 0.55rem; height: 0.55rem; margin-right: 0.25rem;
+  border-right: 1.5px solid #6b7280; border-bottom: 1.5px solid #6b7280;
+  transform: rotate(45deg); transition: transform 0.2s ease;
+}
+.prose details.post-faq[open] > summary::after { transform: rotate(-135deg); }
+.prose details.post-faq > .post-faq-body { padding: 0 0 1.25rem; color: #4b5563; }
+.prose details.post-faq > .post-faq-body > :first-child { margin-top: 0; }
+.prose details.post-faq > .post-faq-body > :last-child { margin-bottom: 0; }

@@ -11,12 +11,12 @@ export function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <nav className="absolute top-0 left-0 right-0 z-50 p-6 sm:p-8">
-      <div className="flex justify-between items-center">
+    <nav className="absolute top-0 left-0 right-0 z-50 p-4 sm:p-6 md:p-8">
+      <div className="flex justify-between items-center gap-3 min-w-0">
         {/* Logo */}
-        <Link href="/" className="flex items-center space-x-3 group">
-          <Image src="/logo.png" alt="Scheduling Wizard" width={48} height={60} className="w-12 h-14 transition-transform duration-300 group-hover:scale-105" />
-          <span className="text-xl font-medium text-white tracking-wide">SCHEDULING WIZARD</span>
+        <Link href="/" className="flex items-center gap-2 sm:gap-3 group min-w-0">
+          <Image src="/logo.png" alt="Scheduling Wizard" width={48} height={60} className="w-8 h-10 sm:w-12 sm:h-14 shrink-0 transition-transform duration-300 group-hover:scale-105" />
+          <span className="text-[clamp(0.7rem,4vw,1rem)] sm:text-lg md:text-xl font-medium text-white tracking-[0.06em] sm:tracking-wide whitespace-nowrap truncate">SCHEDULING WIZARD</span>
         </Link>
 
         {/* Desktop Navigation */}
