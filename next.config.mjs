@@ -39,6 +39,10 @@ const nextConfig = {
             { source: "/blog/best-physician-scheduling-tools-2026", destination: "/blog/best-physician-scheduling-tools", permanent: true },
             // The post that listed "checker tools" is gone; see below.
             { source: "/blog/acgme-compliance-tools", destination: "/blog/acgme-duty-hour-compliance", permanent: true },
+            // Two slugs carried a year ("-2023", "-2026") that the posts no longer
+            // reflect; a dated URL reads as stale in search results.
+            { source: "/blog/best-physician-scheduling-tools-2023", destination: "/blog/attending-physician-scheduling-tools-compared", permanent: true },
+            { source: "/blog/best-residency-scheduling-tools-2026", destination: "/blog/residency-clinic-scheduling-software", permanent: true },
           ]
         : [
             // Blog hidden: every blog URL lands on the homepage, as before.
