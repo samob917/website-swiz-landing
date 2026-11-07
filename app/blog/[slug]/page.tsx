@@ -28,14 +28,17 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const post = getPost(slug);
   if (!post) return { title: "Post Not Found" };
 
-  const { title, description, image } = post;
+  const { title, description, image, publishedAt, updatedAt } = post;
   return {
     title,
     description: description ?? "",
     openGraph: {
+      type: "article",
       title,
       description: description ?? "",
       images: image ? [image] : [],
+      publishedTime: publishedAt ? new Date(publishedAt).toISOString() : undefined,
+      modifiedTime: updatedAt ? new Date(updatedAt).toISOString() : undefined,
     },
   };
 }
@@ -59,11 +62,16 @@ export default async function BlogPost({ params }: Props) {
   const words = content.replace(/<[^>]+>/g, " ").split(/\s+/).filter(Boolean).length;
   const minsRead = Math.max(3, Math.round(words / 200));
 
+  const base = site.domain.replace(/\/$/, "");
+  const url = `${base}/blog/${slug}`;
   const jsonLd = {
     "@context": "https://schema.org",
-    "@type": "Article",
+    "@type": "BlogPosting",
     headline: title,
-    image: image ?? undefined,
+    description: post.description ?? undefined,
+    mainEntityOfPage: { "@type": "WebPage", "@id": url },
+    url,
+    image: image ? (image.startsWith("http") ? image : `${base}${image}`) : undefined,
     datePublished: publishedAt
       ? new Date(publishedAt).toISOString()
       : undefined,
@@ -72,8 +80,18 @@ export default async function BlogPost({ params }: Props) {
     publisher: {
       "@type": "Organization",
       name: site.name,
-      url: site.domain,
+      url: base,
+      logo: { "@type": "ImageObject", url: `${base}/logo.png` },
     },
+  };
+  const breadcrumbLd = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      { "@type": "ListItem", position: 1, name: "Home", item: `${base}/` },
+      { "@type": "ListItem", position: 2, name: "Blog", item: `${base}/blog` },
+      { "@type": "ListItem", position: 3, name: title, item: url },
+    ],
   };
 
   return (
@@ -81,6 +99,10 @@ export default async function BlogPost({ params }: Props) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbLd) }}
       />
       <section className="hero-background medical-pattern relative overflow-hidden pt-32 pb-16 sm:pt-40 sm:pb-20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">

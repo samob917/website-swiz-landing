@@ -6,7 +6,7 @@ export const USES_READING: Record<string, string[]> = {
   "acgme-duty-hour-rules": ["acgme-duty-hour-compliance", "acgme-duty-hours-call-rules", "best-tools-residency-scheduling", "specialty-hour-rules-acgme"],
   "acgme-duty-hour-violations": ["acgme-duty-hour-violations"],
   "amion-alternative": ["amion-vs-qgenda-vs-scheduling-wizard", "compare-acgme-call-scheduling-tools"],
-  "attending-physician-scheduling-software": ["best-physician-scheduling-tools-2023"],
+  "attending-physician-scheduling-software": ["attending-physician-scheduling-tools-compared"],
   "automated-physician-scheduling": ["best-scheduling-tools-residency"],
   "block-schedule-software": ["residency-block-schedule-tools"],
   "chief-resident-scheduling": ["chief-resident-scheduling-guide"],
@@ -27,6 +27,6 @@ export const USES_READING: Record<string, string[]> = {
   "residency-call-scheduling-software": ["best-residency-scheduling-tools", "building-acgme-call-schedules", "residency-call-scheduling-software"],
   "residency-management-software": ["best-gme-residency-tools"],
   "residency-schedule-mid-year-changes": ["unplanned-residency-schedule-changes"],
-  "residency-scheduling-software": ["acgme-family-medicine-scheduling-rules", "anesthesiology-residency-scheduling-tools", "best-residency-scheduling-tools-2026", "family-medicine-residency-scheduling-tools"],
+  "residency-scheduling-software": ["acgme-family-medicine-scheduling-rules", "anesthesiology-residency-scheduling-tools", "residency-clinic-scheduling-software", "family-medicine-residency-scheduling-tools"],
   "surgery-residency-scheduling": ["acgme-surgery-residency-scheduling", "residency-scheduling-tools-comparison"],
 }
