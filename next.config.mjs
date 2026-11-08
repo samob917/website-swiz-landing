@@ -43,6 +43,8 @@ const nextConfig = {
             // reflect; a dated URL reads as stale in search results.
             { source: "/blog/best-physician-scheduling-tools-2023", destination: "/blog/attending-physician-scheduling-tools-compared", permanent: true },
             { source: "/blog/best-residency-scheduling-tools-2026", destination: "/blog/residency-clinic-scheduling-software", permanent: true },
+            // The specialty quick reference overlapped the six-rules post and is held back.
+            { source: "/blog/specialty-hour-rules-acgme", destination: "/blog/acgme-duty-hour-compliance", permanent: true },
           ]
         : [
             // Blog hidden: every blog URL lands on the homepage, as before.

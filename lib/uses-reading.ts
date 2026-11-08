@@ -3,7 +3,7 @@
 // the use-case pages are where it converts. Before this, the equity flowed one way.
 export const USES_READING: Record<string, string[]> = {
   "acgme-compliant-scheduling-software": ["acgme-compliant-schedule-tips", "acgme-residency-scheduling", "best-scheduling-tools-acgme", "compare-acgme-scheduling-tools"],
-  "acgme-duty-hour-rules": ["acgme-duty-hour-compliance", "acgme-duty-hours-call-rules", "best-tools-residency-scheduling", "specialty-hour-rules-acgme"],
+  "acgme-duty-hour-rules": ["acgme-duty-hour-compliance", "acgme-duty-hours-call-rules", "best-tools-residency-scheduling"],
   "acgme-duty-hour-violations": ["acgme-duty-hour-violations"],
   "amion-alternative": ["amion-vs-qgenda-vs-scheduling-wizard", "compare-acgme-call-scheduling-tools"],
   "attending-physician-scheduling-software": ["attending-physician-scheduling-tools-compared"],
@@ -11,7 +11,7 @@ export const USES_READING: Record<string, string[]> = {
   "block-schedule-software": ["residency-block-schedule-tools"],
   "chief-resident-scheduling": ["chief-resident-scheduling-guide"],
   "doctor-scheduling-software": ["best-doctor-scheduling-software"],
-  "emergency-medicine-scheduling-software": ["acgme-duty-hour-violations", "best-on-call-scheduling-software", "specialty-hour-rules-acgme"],
+  "emergency-medicine-scheduling-software": ["acgme-duty-hour-violations", "best-on-call-scheduling-software", "acgme-duty-hour-compliance"],
   "fellowship-scheduling-software": ["acgme-fellowship-scheduling", "best-gme-scheduling-tools", "cardiology-fellowship-scheduling", "compare-cardiology-scheduling-tools"],
   "gme-scheduling-software": ["residency-scheduling-tools-review"],
   "healthcare-staff-scheduling-software": ["healthcare-staff-scheduling-tools"],
