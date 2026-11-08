@@ -13,7 +13,10 @@ export async function generateMetadata(): Promise<Metadata> {
   return {
     title: site.blog?.seo.title ?? "Blog",
     description: site.blog?.seo.description,
-    alternates: { canonical: "/blog" },
+    alternates: {
+      canonical: "/blog",
+      types: { "application/rss+xml": "/blog/rss.xml" },
+    },
   }
 }
 

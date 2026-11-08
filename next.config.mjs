@@ -16,6 +16,11 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
+  // Lets client components (navigation, footer) show the Blog link only
+  // when the blog is live.
+  env: {
+    NEXT_PUBLIC_BLOG_LIVE: BLOG_LIVE ? "true" : "false",
+  },
   eslint: {
     ignoreDuringBuilds: true,
   },
