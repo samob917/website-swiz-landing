@@ -7,6 +7,8 @@ import Image from "next/image"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
+const BLOG_LIVE = process.env.NEXT_PUBLIC_BLOG_LIVE === "true"
+
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false)
 
@@ -30,6 +32,11 @@ export function Navigation() {
           <Link href="/demo" className="nav-link font-medium">
             Demo
           </Link>
+          {BLOG_LIVE && (
+            <Link href="/blog" className="nav-link font-medium">
+              Blog
+            </Link>
+          )}
           <Link href="/customers" className="nav-link font-medium">
             Customers
           </Link>
@@ -62,6 +69,7 @@ export function Navigation() {
               { href: "/demo", label: "Demo" },
               { href: "/team", label: "Team" },
               { href: "/customers", label: "Customers" },
+              ...(BLOG_LIVE ? [{ href: "/blog", label: "Blog" }] : []),
             ].map((link) => (
               <Link
                 key={link.href}

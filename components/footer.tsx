@@ -3,6 +3,8 @@ import Image from "next/image"
 
 import { PrivacyChoicesLink } from "@/components/privacy-choices-link"
 
+const BLOG_LIVE = process.env.NEXT_PUBLIC_BLOG_LIVE === "true"
+
 export function Footer() {
   return (
     <footer className="hero-background medical-glow text-white py-6">
@@ -38,6 +40,20 @@ export function Footer() {
       <div className="border-t border-white/10 mt-5 pt-4 text-center">
         <p className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1 text-xs text-white/50">
           <span>&copy; {new Date().getFullYear()} Scheduling Wizard. All rights reserved.</span>
+          <span className="whitespace-nowrap">
+            <span className="text-white/20 mr-2">|</span>
+            <Link href="/uses" className="hover:text-white/80 transition-colors duration-300">
+              Use Cases
+            </Link>
+          </span>
+          {BLOG_LIVE && (
+            <span className="whitespace-nowrap">
+              <span className="text-white/20 mr-2">|</span>
+              <Link href="/blog" className="hover:text-white/80 transition-colors duration-300">
+                Blog
+              </Link>
+            </span>
+          )}
           <span className="whitespace-nowrap">
             <span className="text-white/20 mr-2">|</span>
             <Link href="/privacy" className="hover:text-white/80 transition-colors duration-300">
