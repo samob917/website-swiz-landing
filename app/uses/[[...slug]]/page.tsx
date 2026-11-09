@@ -17,6 +17,8 @@ import { USES_READING } from "@/lib/uses-reading";
 import { getPost } from "@/lib/blog/resolve-blog";
 
 export const dynamicParams = false;
+// Hourly, so a use page's further reading picks up weekly blog releases.
+export const revalidate = 3600;
 
 export async function generateStaticParams() {
   const slugs = await getAllUsesSlugs();

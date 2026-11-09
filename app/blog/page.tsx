@@ -8,6 +8,9 @@ import { getSiteConfig } from "@/lib/engine/resolve-site"
 import { buildWebPageJsonLd } from "@/lib/json-ld"
 import { getAllPosts } from "@/lib/blog/resolve-blog"
 
+// Hourly, so weekly releases appear on the index without a redeploy.
+export const revalidate = 3600;
+
 export async function generateMetadata(): Promise<Metadata> {
   const site = await getSiteConfig()
   return {
