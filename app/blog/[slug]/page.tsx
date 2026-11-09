@@ -8,8 +8,11 @@ import { getSiteConfig } from "@/lib/engine/resolve-site";
 import { isHiddenPost } from "@/lib/blog/hidden-posts";
 import { getAllSlugs, getPost } from "@/lib/blog/resolve-blog";
 
-// Content is in the repo now, so these are built statically.
-export const dynamicParams = false;
+// Built statically, refreshed hourly so weekly posts appear on their release
+// date. dynamicParams lets a post released after the build render on first
+// request; before its date getPost returns null and the page 404s.
+export const dynamicParams = true;
+export const revalidate = 3600;
 
 export async function generateStaticParams() {
   return getAllSlugs().map((slug) => ({ slug }));

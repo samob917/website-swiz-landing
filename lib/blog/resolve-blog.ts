@@ -24,6 +24,30 @@ export interface BlogPost {
   /** false holds a post back from the index and returns 404 for its page. */
   publish?: boolean
   excludedReason?: string
+  /**
+   * Weekly release: the post goes live this many weeks after
+   * site.json "blogLaunchDate". Until then it does not exist anywhere on the
+   * site, and links to it from other posts are unwrapped to plain text.
+   */
+  releaseWeek?: number
+}
+
+// Release time of day for weekly posts: 14:00 UTC, morning in the US.
+const RELEASE_HOUR_UTC = 14
+
+/** When a held post goes live, or null if it is not held. */
+function releaseDate(p: BlogPost): Date | null {
+  if (!p.releaseWeek) return null
+  const launch = (site as { blogLaunchDate?: string | null }).blogLaunchDate
+  if (!launch) {
+    // No launch date yet. On production (blogLive true) keep held posts
+    // hidden; on a preview (BLOG_LIVE env only) show them so they can be read.
+    return site.blogLive === true ? new Date(8640000000000000) : new Date(0)
+  }
+  const d = new Date(launch)
+  d.setUTCDate(d.getUTCDate() + 7 * p.releaseWeek)
+  d.setUTCHours(RELEASE_HOUR_UTC, 0, 0, 0)
+  return d
 }
 
 const DIR = path.join(process.cwd(), "content", "blog")
@@ -49,8 +73,50 @@ function readAll(): BlogPost[] {
     })
 }
 
+// The files are read once; which of them are released is decided on every
+// call, so a held post appears on its release date without a redeploy (the
+// blog pages, sitemap and feed revalidate hourly).
 let cache: BlogPost[] | null = null
-const all = () => (cache ??= readAll())
+const loaded = () => (cache ??= readAll())
+
+function released(now = new Date()): BlogPost[] {
+  const posts = loaded().filter((p) => {
+    const r = releaseDate(p)
+    return !r || r.getTime() <= now.getTime()
+  })
+  const hidden = new Set(loaded().filter((p) => !posts.includes(p)).map((p) => p.slug))
+  return posts
+    .map((p) => {
+      const r = releaseDate(p)
+      // A released weekly post is dated the day it went out.
+      const dated = r && r.getTime() > 0 ? { ...p, publishedAt: r.toISOString(), updatedAt: r.toISOString() } : p
+      return hidden.size ? { ...dated, content: unlinkHidden(dated.content, hidden) } : dated
+    })
+    .sort((a, b) => {
+      const at = a.publishedAt ? Date.parse(a.publishedAt) : 0
+      const bt = b.publishedAt ? Date.parse(b.publishedAt) : 0
+      return bt - at
+    })
+}
+
+/**
+ * Links to posts that are not out yet: a "Related reading" list item that
+ * exists only for that link is dropped; anywhere else the link becomes plain
+ * text, so no page points at a URL that does not exist yet.
+ */
+function unlinkHidden(html: string, hidden: Set<string>): string {
+  const href = (slug: string) => `href="(?:https://schedulingwiz\\.com)?/blog/${slug}"`
+  let out = html
+  for (const slug of hidden) {
+    out = out.replace(new RegExp(`<li><a ${href(slug)}[^>]*>[\\s\\S]*?</a>[^<]*</li>`, "g"), "")
+    out = out.replace(new RegExp(`<a ${href(slug)}[^>]*>([\\s\\S]*?)</a>`, "g"), "$1")
+  }
+  // A reading list whose every item was held drops out with its heading.
+  out = out.replace(/<h2[^>]*>[^<]*<\/h2>\s*(?:<p>[^<]*<\/p>\s*)?<ul>\s*<\/ul>/g, "")
+  return out
+}
+
+const all = () => released()
 
 export function getAllPosts(): BlogPost[] {
   return all()
