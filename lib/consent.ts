@@ -10,9 +10,9 @@
 // instead. Vercel supplies x-vercel-ip-country on every request, so the
 // detection is available when it is needed.
 //
-// The _ga/_gcl patterns below are kept deliberately: a Google Ads tag ran on
-// this site until October 2026, so returning visitors may still be carrying
-// its cookies, and they should be cleared rather than left behind.
+// The _ga/_gcl patterns below cover Google's cookies: Google Tag Manager and
+// Google Ads run under this same choice (see lib/gtm-client.ts), so opting out
+// clears them along with PostHog's.
 
 /**
  * Bumping this invalidates every stored choice. Bump it when we start

@@ -7,7 +7,8 @@
 // collected does the honest work without alarming anyone.
 //
 // Session replay is off (see lib/posthog-client.ts), so this page describes
-// pageview analytics only.
+// pageview analytics, plus Google Tag Manager / Google Ads (lib/gtm-client.ts),
+// which run under the same opt-out choice.
 //
 // Analytics is opt-OUT (see lib/consent.ts). Nothing here should be phrased
 // as conditional on the visitor agreeing first.
@@ -30,7 +31,7 @@ export const metadata: Metadata = {
 
 // Shown to visitors. Update this whenever the policy text changes;
 // scripts/check-privacy-date.mjs warns on every build if it goes stale.
-const LAST_UPDATED = "October 30, 2026"
+const LAST_UPDATED = "November 20, 2026"
 
 export default function PrivacyPage() {
   return (
@@ -78,11 +79,26 @@ export default function PrivacyPage() {
                 </a>{" "}
                 to record which pages you visit, which links and buttons you
                 use, roughly where in the world you are, what browser and
-                device you are using, and how quickly pages load for you. This
-                runs unless you turn it off. We use
+                device you are using, and how quickly pages load for you. We use
                 it to fix bugs and improve the site. We do not sell it and we
                 do not use it for advertising.
               </p>
+              <p>
+                We also advertise on Google, and use Google Tag Manager and
+                Google Ads to measure whether those ads bring people to this
+                site and lead them to get in touch. Google sets cookies for
+                this and uses the data under{" "}
+                <a
+                  href="https://policies.google.com/privacy"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-900 underline underline-offset-2 hover:text-gray-700"
+                >
+                  its own privacy policy
+                </a>
+                , which can include showing you ads.
+              </p>
+              <p>Both run unless you turn them off.</p>
               <p>
                 If you fill in a form here, we receive what you type into it,
                 and we keep it in our email for as long as we are in touch with
@@ -103,17 +119,19 @@ export default function PrivacyPage() {
                 Your choice
               </h2>
               <p>
-                Analytics is on by default. You can turn it off at any time
+                Analytics and advertising cookies are on by default. You can
+                turn them off at any time
                 using{" "}
                 <PrivacyChoicesLink className="font-medium text-gray-900 underline underline-offset-2 hover:text-gray-700">
                   your privacy choices
                 </PrivacyChoicesLink>
-                , here or in the footer of any page. Turning it off also clears
-                the analytics cookies and storage already on your device.
+                , here or in the footer of any page. Turning them off also clears
+                the analytics and advertising cookies and storage already on
+                your device.
               </p>
               <p>
                 If your browser sends a Global Privacy Control signal, we treat
-                that as turning analytics off and you do not need to do
+                that as turning them off and you do not need to do
                 anything.
               </p>
               <p>
