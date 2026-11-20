@@ -11,6 +11,7 @@ import {
   purgeTrackingStorage,
   writeConsent,
 } from "@/lib/consent"
+import { startGTM, stopGTM } from "@/lib/gtm-client"
 import { analyticsConfigured, startPostHog, stopPostHog } from "@/lib/posthog-client"
 
 const OPEN_EVENT = "sw-open-privacy-choices"
@@ -24,8 +25,10 @@ export function openPrivacyChoices() {
 export function applyConsent(choice: ConsentChoice) {
   if (choice === "granted") {
     startPostHog()
+    startGTM()
   } else {
     stopPostHog()
+    stopGTM()
     purgeTrackingStorage()
   }
 }
@@ -79,8 +82,8 @@ export function PrivacyChoices() {
         <h2 className="text-xl font-semibold tracking-tight">Your privacy choices</h2>
 
         <p className="mt-3 text-sm leading-relaxed text-white/60">
-          We use cookies to fix bugs and improve this site. You can turn that
-          off here. Turning it off also clears what is already stored on this
+          We use cookies to fix bugs and improve this site, and to measure our
+          Google ads. You can turn that off here. Turning it off also clears what is already stored on this
           device.{" "}
           <Link
             href="/privacy"
@@ -93,17 +96,18 @@ export function PrivacyChoices() {
 
         <div className="mt-6 flex items-start justify-between gap-4 rounded-xl border border-white/10 bg-white/5 p-4">
           <div>
-            <p className="text-sm font-medium">Analytics</p>
+            <p className="text-sm font-medium">Analytics and advertising</p>
             <p className="mt-1 text-xs leading-relaxed text-white/50">
               Which pages are visited and which links are clicked, so we can see
-              what works and what is broken.
+              what works and what is broken, and whether our Google ads bring
+              people here.
             </p>
           </div>
           <button
             type="button"
             role="switch"
             aria-checked={on}
-            aria-label="Analytics"
+            aria-label="Analytics and advertising"
             onClick={() => choose(on ? "denied" : "granted")}
             className={`relative mt-0.5 h-6 w-11 shrink-0 rounded-full transition-colors duration-300 ${
               on ? "bg-yellow-400" : "bg-white/20"
@@ -119,8 +123,8 @@ export function PrivacyChoices() {
 
         {gpcEnabled() && (
           <p className="mt-3 text-xs leading-relaxed text-white/40">
-            Your browser sends a Global Privacy Control signal, so analytics is
-            off unless you switch it on here.
+            Your browser sends a Global Privacy Control signal, so analytics and
+            advertising cookies are off unless you switch them on here.
           </p>
         )}
 
